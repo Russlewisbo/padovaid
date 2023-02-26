@@ -24,7 +24,7 @@ Some information out of date, but this is a [Classic Antibiotic PK/PD Review](cr
 
 
 
-## Links to online model-informed precision antibiotic dosing models
+## Links to online precision antibiotic dosing models
 
 Click on this link: [TDMx](http://www.tdmx.eu/Launch-TDMx/)
 
