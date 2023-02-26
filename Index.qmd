@@ -4,13 +4,15 @@ format: html
 editor: visual
 ---
 
-![](images/800-unipd%202.svg)
+![](images/800-unipd%202.svg){fig-align="center" width="600"}
 
 ![](images/DMM.png){fig-align="center" width="200"}
 
 ## Welcome
 
-Welcome to the ME2491 Medicine and Surgery INFECTIOUS DISEASES educational resources page. Using the navigation bar on the right, you can find links to reading, educational websites, podcasts, and online antibiotic dosing models that will be of interest as you progress through the course.
+Welcome to the ME2491 Medicine and Surgery INFECTIOUS DISEASES educational resources page.
+
+Using the navigation bar on the right, you can find links to reading, educational websites, podcasts, and online antibiotic dosing models that will be of interest as you progress through the course.
 
 Core course materials will also be posted on the University Moodle Course site when activated.
 
