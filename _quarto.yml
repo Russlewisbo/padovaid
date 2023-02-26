@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+title: "ME2491 Infectious Diseases"
+website:
+  sidebar:
+    pinned: true
+    style: "docked"
+    search: true
+    contents:
+      - Index.qmd
+      - Antibiotic.qmd
+format: 
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+editor: visual
+
