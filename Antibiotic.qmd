@@ -6,6 +6,8 @@ editor: visual
 
 ## Slides
 
+A PDF copy of lecture slides can be downloaded [here](antibiotics.pdf)
+
 ## Background reading
 
 Although published in 2011, this paper remains the highest-cited general review on [Principles of Antibiotic Treatment](leekha.pdf)
