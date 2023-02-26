@@ -4,6 +4,20 @@
     "href": "Index.html#welcome",
     "title": "ME2491 Infectious Diseases",
     "section": "Welcome",
-    "text": "Welcome\nWelcome to the ME2491 Medicine and Surgery INFECTIOUS DISEASES educational resources page. Using the navigation bar on the right, you can find links to reading, educational websites, podcasts, and online antibiotic dosing models that will be of interest as you progress through the course.\nCore course materials will also be posted on the University Moodle Course site when activated."
+    "text": "Welcome\nWelcome to the ME2491 Medicine and Surgery INFECTIOUS DISEASES educational resources page.\nUsing the navigation bar on the right, you can find links to reading, educational websites, podcasts, and online antibiotic dosing models that will be of interest as you progress through the course.\nCore course materials will also be posted on the University Moodle Course site when activated."
+  },
+  {
+    "objectID": "Antibiotic.html#background-reading",
+    "href": "Antibiotic.html#background-reading",
+    "title": "Principles of Antibiotic Therapy",
+    "section": "Background reading",
+    "text": "Background reading\nClassic PK/PD Review"
+  },
+  {
+    "objectID": "Antibiotic.html#example-of-model-informed-precision-antibiotic-dosing-models",
+    "href": "Antibiotic.html#example-of-model-informed-precision-antibiotic-dosing-models",
+    "title": "Principles of Antibiotic Therapy",
+    "section": "Example of model-informed precision antibiotic dosing models",
+    "text": "Example of model-informed precision antibiotic dosing models\nClick on this link: TDMx\n Note: The. UNIPD Proxy may block the TDMx landing page for the models, but individual drug model pages (in my testing) still seemed to be accessible through the proxy:\nGentamicin  Vancomycin  Meropenem"
   }
 ]

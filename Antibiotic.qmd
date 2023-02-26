@@ -4,4 +4,18 @@ format: html
 editor: visual
 ---
 
-## 
+## Slides
+
+## Background reading
+
+[Classic PK/PD Review](drusano2004.pdf)
+
+## Example of model-informed precision antibiotic dosing models
+
+Click on this link: [TDMx](http://www.tdmx.eu/Launch-TDMx/)
+
+<br> Note: The. UNIPD Proxy may block the TDMx landing page for the models, but individual drug model pages (in my testing) still seemed to be accessible through the proxy:
+
+[Gentamicin](http://52.17.60.199/Gentamicin1/) <br>
+[Vancomycin](https://tdmx.shinyapps.io/vancomycin/) <br>
+[Meropenem](https://tdmx.shinyapps.io/Meropenem/) <br>
