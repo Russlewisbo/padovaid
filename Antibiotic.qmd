@@ -8,13 +8,27 @@ editor: visual
 
 ## Background reading
 
-[Classic PK/PD Review](drusano2004.pdf)
+Although published in 2011, this paper remains the highest-cited general review on [Principles of Antibiotic Treatment](leekha.pdf)
 
-## Example of model-informed precision antibiotic dosing models
+[Classic Antibiotic PK/PD Review](drusano2004.pdf)
+
+Some information out of date, but this is a [Classic Antibiotic PK/PD Review](craig.pdf) from the "father" of the field, Dr. William Craig, M.D.
+
+[PK/PD and TDM Position Paper](Roberts2014.pdf)
+
+[Recent review on antimicrobial susceptibiltiy testing methods](Wenzler2023.pdf)
+
+[IDSA Clinical Microbiology Guidelines 2018](IDSA2018clinmicro.pdf)
+
+[EUCAST Website](https://www.eucast.org/)
+
+
+
+## Links to online model-informed precision antibiotic dosing models
 
 Click on this link: [TDMx](http://www.tdmx.eu/Launch-TDMx/)
 
-<br> Note: The. UNIPD Proxy may block the TDMx landing page for the models, but individual drug model pages (in my testing) still seemed to be accessible through the proxy:
+<br> *Note: The UNIPD Proxy may block the TDMx landing page for the models, but individual drug model pages demonstrated in class still seemed to be accessible through the proxy:*
 
 [Gentamicin](http://52.17.60.199/Gentamicin1/) <br>
 [Vancomycin](https://tdmx.shinyapps.io/vancomycin/) <br>
