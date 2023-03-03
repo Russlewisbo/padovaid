@@ -1,6 +1,6 @@
 ---
 title: "Principles of Antibiotic Therapy"
-format: html
+foquartormat: html
 editor: visual
 ---
 
