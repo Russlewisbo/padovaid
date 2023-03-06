@@ -10,6 +10,8 @@ website:
     contents:
       - Index.qmd
       - Antibiotic.qmd
+      - Resistance.qmd
+      - Allergies.qmd
 format: 
   html:
     theme: flatly

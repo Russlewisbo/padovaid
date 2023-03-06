@@ -1,0 +1,11 @@
+---
+title: "Antibiotic allergies"
+foquartormat: html
+editor: visual
+---
+
+## 
+
+coming soon!
+
+[JAMA Educational Video on Evaulating, Manging and Testing Penicillin Allergies](https://edhub.ama-assn.org/jn-learning/video-player/17148536)

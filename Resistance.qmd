@@ -1,0 +1,24 @@
+---
+title: "Antimicrobial Resitance in ESCAPE Pathogens"
+foquartormat: html
+editor: visual
+---
+
+## Slides
+
+A PDF copy of lecture slides can be downloaded [here](Resistance.pdf)
+
+## Background reading
+
+Recent comprehensive review of antimicrobial resistance in ESKAPE pathogens [ESKAPE review](ESKAPE review.pdf)
+
+Infectious Diseases Society of America Guidelines for Treating ESBL, CRE and Pseudomonas [IDSA1](IDSA1.pdf)
+
+Infectious Diseases Society of America Guidelines for Treating AMP-C beta-lactamases, Carbapenem-resistant Acinetobacter spp. and Stenotrophomonas [IDSA2](IDSA2.pdf)
+
+ESCMID Guidelines for treatment of MDR Gram-Negative Organisms [ESCMID](ESCMID.pdf)
+
+Excellent review on AMP-C resistance [AMP-C](AMP-C.pdf)
+
+Excellent review on role of new antibiotics for carbapenem-resistant pathogens [new agents](newagents.pdf)
+
