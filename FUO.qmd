@@ -1,5 +1,7 @@
 ---
-title: "FUO lecture"
+title: "Fever of Unknown Origin (FUO)"
+title-slide-attributes:
+  data-background-image: /images/bacteria.png
 format:
   revealjs:
     touch: true
@@ -16,7 +18,7 @@ bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Decoding the host immune response to infection and fever of unknown origin (FUO) {background-image="/images/bacteria.png"}
+## Fever of unknown origin (FUO) {background-image="/images/bacteria.png"}
 
 <br>
 
@@ -25,6 +27,211 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 13 March 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
 
 ## Objectives
+
+## What is the history of fever? {background-image="/images/hippocrates.jpg" background-opacity="0.2" data-background-size="contain"}
+
+<br>
+
+-   10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta'allimīn fī al-Tibb (The Student's Handbook of Medicine)
+-   Hippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)
+-   Galen: many types of fever developed from putrification of humors.
+-   Middle ages: demonic possession
+-   18th century (Harvy's discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines
+-   Claude Bernard in the 19th century- metabolic processes in the body
+
+## Febris- Roman Goddess of Fever
+
+<br>
+
+![](images/Febris.png){fig-align="center" width="600"}
+
+<br>
+
+The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.
+
+## ![](images/Wunderlich.png){width="300"} {background-image="/images/thermometer.jpg" background-opacity="0.5"}
+
+<div>
+
+[@sajadi_etal12]
+
+</div>
+
+## The fever response {background-image="/images/thermometer.jpg" background-opacity="0.5"}
+
+<br>
+
+-   Wunderlich's pioneering studies of thermometry-normal 37°C
+
+-   Since the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade
+
+-   Current normal range is 36.3 to 36.5°C
+
+::: aside
+[@haidar_singh22]
+
+[@mackowiak_worden94]
+:::
+
+## Thermal homeostasis
+
+![](images/thermoregulation.png){fig-align="center" width="400"}
+
+::: aside
+[@sajadimohammadm__mackowiakphilipa_]
+:::
+
+<br>
+
+## 
+
+## Infection-associated fever
+
+![](images/fever.png){fig-align="center" width="800"}
+
+::: aside
+[@sajadimohammadm__mackowiakphilipa_15]
+:::
+
+## Sequelae of fever
+
+<br>
+
+-   Phylogenetic conservation of fever over the millennia suggests fever is beneficial
+-   Most pathogenic bacteria are mesophiles (35°C ideal for growth)
+-   Fever generates hepatic iron-sequestering compounds the bind free iron necessary for microbial replication
+
+## Acute phase proteins
+
+![](images/acutephase1.png){fig-align="center"}
+
+<div>
+
+[@gabay_kushner99]
+
+</div>
+
+## Acute phase response
+
+![](images/acutephase.png){fig-align="center" width="600"}
+
+<div>
+
+[@gabay_kushner99]
+
+</div>
+
+## Epidemiology of FUO- Definitions {.smaller}
+
+![](images/FUOdef.png){fig-align="center" width="700"}
+
+::: aside
+[@haidar_singh22]
+:::
+
+## Classic FUO
+
+<br>
+
+-   **Definition:**
+    -   \> 38.3°C \> 3 weeks;
+
+    -   \>2 seperate outpatient visits with diagnostic investigations
+
+    -   \>2 visits in hospital of 3 days with diagnostic investigations
+-   **Leading causes:**
+    -   Cancer
+
+    -   Infections
+
+    -   Inflammatory conditions
+
+    -   Undiagnosed habitual hyperthermia
+
+## Frequency of the 5 main etiologic categories of FUO
+
+Infectious causes decrease in patients above age 65 years
+
+![](images/FUOcat.png){fig-align="center" width="600"}
+
+<div>
+
+[@wrightwilliamf__mackowiakphilipa_15]
+
+</div>
+
+## Classic FUO- Infectious Etiology
+
+-   Abscess
+-   Endocarditis
+-   Tuberculosis
+-   Complicated urinary tract infections
+
+## Classic FUO work-up
+
+-   **Medical history emphasis:**
+    -   Travel
+
+    -   Contacts
+
+    -   Animal and insect exposure
+
+    -   Medications
+
+    -   Immunizations
+
+    -   Family history
+
+    -   Cardiac valve disorder
+-   **Examination emphasis**
+    -   Fundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins
+-   **Investigation emphasis:**
+    -   Imaging, biopsies, sedimentation rate, skin tests
+
+## Rare and miscellaneous causes of fever
+
+## Distinctive fever patterns {.smaller}
+
+![](images/feverpatterns.png){fig-align="center" width="1000"}
+
+A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pel-Ebstein pattern); <br> D. Borreliosis (relapsing fever pattern)
+
+<div>
+
+[@wrightwilliamf__mackowiakphilipa_15]
+
+</div>
+
+## Classic FUO in infants and children
+
+-   Respiratory tract infections
+-   Other infections: UTIs, brucellosis, tuberculosis, bartonellosis
+-   Kawasaki disease (age \< 5 years)
+-   Inflammatory bowel diseases
+-   Still's disease (juvenile rheumatoid arthritis)
+    -   However, connective tissue diseases and cancers are generally rarer in children vs. adults
+-   Joint involvement is a sign of a serious disorder- e.g., connective tissue disease, endocarditis, leukemia
+
+## Classic FUO in elderly patients
+
+-   **In developed countries: connective tissue diseases \> infections**
+    -   Temporal arteritis
+
+    -   Polymyalgia rheumatic syndromes
+
+    -   Diagnoses are frequently missed because symptoms are subacute and non-specific
+-   **Infections**
+    -   intraabdominal abscess
+
+    -   Complicated UTIs
+
+    -   Tuberculosis
+
+    -   Endocarditis
+
+## Returning travellers
+
+## Naproxin (NSIAD) suppression test
 
 ## How is fever of unknown origin (FUO) defined?
 
@@ -40,30 +247,14 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 [@haidar_singh22]
 :::
 
-## What is the history of fever? {background-image="/images/hippocrates.jpg" background-opacity="0.2"}
+## Classic FUO
 
--   Described in Akkadian cuneiform inscriptions from the 6th century BC
--   Hippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)
--   Galen: many types of fever developed from putrification of humors.
--   Middle ages: demonic possession
--   18th century (Harvy's discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines
--   Claude Bernard in the 19th century- metabolic processes in the body
+-   Infection
+-   Autoinflammatory
+-   Autoimmune
+-   Miscellaneous
 
-## The febrile response {background-image="/images/thermometer.jpg" background-opacity="0.5"}
-
--   Wunderlich's pioneering studies of thermometry-normal 37°C
-
--   Since the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade
-
--   Current normal range is 36.3 to 36.5°C
-
-::: aside
-[@haidar_singh22]
-:::
-
-## Thermal homeostasis
-
-## Sequelae of fever
+## Classic FUO- Tuberculosis
 
 ## References
 

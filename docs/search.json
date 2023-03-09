@@ -58,7 +58,7 @@
   {
     "objectID": "FUO.html#objectives",
     "href": "FUO.html#objectives",
-    "title": "FUO lecture",
+    "title": "Fever of Unknown Origin (FUO)",
     "section": "Objectives",
     "text": "Objectives"
   },
@@ -72,14 +72,14 @@
   {
     "objectID": "FUO.html#references",
     "href": "FUO.html#references",
-    "title": "FUO lecture",
+    "title": "Fever of Unknown Origin (FUO)",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003."
+    "text": "References\n\n\n\n\n\n\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nSajadi MM, Bonabi R, Sajadi M-RM, Mackowiak PA. Akhawaynī and the First Fever Curve. Clinical Infectious Diseases 2012;55:976–80. https://doi.org/10.1093/cid/cis596.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of unknown origin, vol. 1. Eighth, Elsevier Health Sciences; 2015."
   },
   {
     "objectID": "FUO.html#how-is-fever-of-unknown-origin-fuo-defined",
     "href": "FUO.html#how-is-fever-of-unknown-origin-fuo-defined",
-    "title": "FUO lecture",
+    "title": "Fever of Unknown Origin (FUO)",
     "section": "How is fever of unknown origin (FUO) defined?",
     "text": "How is fever of unknown origin (FUO) defined?\n  Subjective definition, but core features include: \n\nNot a biologically-uniform phenomenon\nAbsence of an identified cause of fever despite reasonable diagnostic investigations\nPersistence of fever for a sufficient time to rule out “self-limiting fevers”\n“Diagnosis of exclusion”\nThoughtful, critical appraisal of patient vs. algorithm approach\n\n\n\n(Haidar and Singh, 2022)"
   },
@@ -88,7 +88,7 @@
     "href": "FUO.html#the-febrile-response",
     "title": "FUO lecture",
     "section": "The febrile response",
-    "text": "The febrile response\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n(Haidar and Singh, 2022)"
+    "text": "The febrile response\n\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n(Haidar and Singh, 2022)\n(Mackowiak and Worden, 1994)"
   },
   {
     "objectID": "FUO.html#the-febrile-response-background-imageimagesthermometer.jpg-background-opacity-0.5",
@@ -114,22 +114,183 @@
   {
     "objectID": "FUO.html#what-is-the-history-of-fever",
     "href": "FUO.html#what-is-the-history-of-fever",
-    "title": "FUO lecture",
+    "title": "Fever of Unknown Origin (FUO)",
     "section": "What is the history of fever?",
-    "text": "What is the history of fever?\n\nDescribed in Akkadian cuneiform inscriptions from the 6th century BC\nHippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)\nGalen: many types of fever developed from putrification of humors.\nMiddle ages: demonic possession\n18th century (Harvy’s discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines\nClaude Bernard in the 19th century- metabolic processes in the body"
+    "text": "What is the history of fever?\n\n\n10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)\nHippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)\nGalen: many types of fever developed from putrification of humors.\nMiddle ages: demonic possession\n18th century (Harvy’s discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines\nClaude Bernard in the 19th century- metabolic processes in the body"
   },
   {
     "objectID": "FUO.html#thermal-homeostasis",
     "href": "FUO.html#thermal-homeostasis",
-    "title": "FUO lecture",
+    "title": "Fever of Unknown Origin (FUO)",
     "section": "Thermal homeostasis",
-    "text": "Thermal homeostasis"
+    "text": "Thermal homeostasis\n\n\n\n\n\n\n\n\n(Sajadi, Mohammad M. and Mackowiak, Philip A., n.d.)"
   },
   {
     "objectID": "FUO.html#sequelae-of-fever",
     "href": "FUO.html#sequelae-of-fever",
-    "title": "FUO lecture",
+    "title": "Fever of Unknown Origin (FUO)",
     "section": "Sequelae of fever",
-    "text": "Sequelae of fever"
+    "text": "Sequelae of fever\n\n\nPhylogenetic conservation of fever over the millennia suggests fever is beneficial\nMost pathogenic bacteria are mesophiles (35°C ideal for growth)\nFever generates hepatic iron-sequestering compounds the bind free iron necessary for microbial replication"
+  },
+  {
+    "objectID": "FUO.html#epidemiology-of-fuo",
+    "href": "FUO.html#epidemiology-of-fuo",
+    "title": "FUO lecture",
+    "section": "Epidemiology of FUO",
+    "text": "Epidemiology of FUO"
+  },
+  {
+    "objectID": "FUO.html#fever-of-unknown-origin-fuo",
+    "href": "FUO.html#fever-of-unknown-origin-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Fever of unknown origin (FUO)",
+    "text": "Fever of unknown origin (FUO)\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
+  },
+  {
+    "objectID": "FUO.html#the-fever-response",
+    "href": "FUO.html#the-fever-response",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "The fever response",
+    "text": "The fever response\n\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n(Haidar and Singh, 2022)\n(Mackowiak and Worden, 1994)"
+  },
+  {
+    "objectID": "FUO.html#epidemiology-of-fuo--definitions",
+    "href": "FUO.html#epidemiology-of-fuo--definitions",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Epidemiology of FUO- Definitions",
+    "text": "Epidemiology of FUO- Definitions\n\n\n\n\n\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#febris--roman-goddess-of-fever",
+    "href": "FUO.html#febris--roman-goddess-of-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Febris- Roman Goddess of Fever",
+    "text": "Febris- Roman Goddess of Fever\n\n\n\nThe legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour."
+  },
+  {
+    "objectID": "FUO.html#classic-fuo",
+    "href": "FUO.html#classic-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO",
+    "text": "Classic FUO\n\n\nDefinition:\n\n> 38.3°C > 3 weeks;\n>2 seperate outpatient visits with diagnostic investigations\n>2 visits in hospital of 3 days with diagnostic investigations\n\nLeading causes:\n\nCancer\nInfections\nInflammatory conditions\nUndiagnosed habitual hyperthermia"
+  },
+  {
+    "objectID": "FUO.html#section",
+    "href": "FUO.html#section",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "",
+    "text": "(Sajadi et al., 2012)"
+  },
+  {
+    "objectID": "FUO.html#infection-associated-fever",
+    "href": "FUO.html#infection-associated-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Infection-associated fever",
+    "text": "Infection-associated fever\n\n\n\n\n\n\n\n(Sajadi, Mohammad M. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#acute-phase-proteins",
+    "href": "FUO.html#acute-phase-proteins",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Acute phase proteins",
+    "text": "Acute phase proteins\n\n\n(Gabay and Kushner, 1999)"
+  },
+  {
+    "objectID": "FUO.html#acute-phase-response",
+    "href": "FUO.html#acute-phase-response",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Acute phase response",
+    "text": "Acute phase response\n\n\n(Gabay and Kushner, 1999)"
+  },
+  {
+    "objectID": "FUO.html#classic-fuo--tuberculosis",
+    "href": "FUO.html#classic-fuo--tuberculosis",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO- Tuberculosis",
+    "text": "Classic FUO- Tuberculosis"
+  },
+  {
+    "objectID": "FUO.html#diagnostic-fever-patterns",
+    "href": "FUO.html#diagnostic-fever-patterns",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Diagnostic fever patterns",
+    "text": "Diagnostic fever patterns\n\nVery high fevers (40°) suggestive of acute bacterial infection?"
+  },
+  {
+    "objectID": "FUO.html#naproxin-nsiad-suppression-test",
+    "href": "FUO.html#naproxin-nsiad-suppression-test",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Naproxin (NSIAD) suppression test",
+    "text": "Naproxin (NSIAD) suppression test"
+  },
+  {
+    "objectID": "FUO.html#classic-fuo-1",
+    "href": "FUO.html#classic-fuo-1",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO",
+    "text": "Classic FUO\n\nInfection\nAutoinflammatory\nAutoimmune\nMiscellaneous"
+  },
+  {
+    "objectID": "FUO.html#frequency-of-the-5-main-etiologic-categories-of-fuo",
+    "href": "FUO.html#frequency-of-the-5-main-etiologic-categories-of-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Frequency of the 5 main etiologic categories of FUO",
+    "text": "Frequency of the 5 main etiologic categories of FUO\nInfectious causes decrease in patients above age 65 years\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#classic-fuo--infectious-etiology",
+    "href": "FUO.html#classic-fuo--infectious-etiology",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO- Infectious Etiology",
+    "text": "Classic FUO- Infectious Etiology\n\nAbscess\nEndocarditis\nTuberculosis\nComplicated urinary tract infections"
+  },
+  {
+    "objectID": "FUO.html#classic-fuo-work-up",
+    "href": "FUO.html#classic-fuo-work-up",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO work-up",
+    "text": "Classic FUO work-up\n\nMedical history emphasis:\n\nTravel\nContacts\nAnimal and insect exposure\nMedications\nImmunizations\nFamily history\nCardiac valve disorder\n\nExamination emphasis\n\nFundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins\n\nInvestigation emphasis:\n\nImaging, biopsies, sedimentation rate, skin tests"
+  },
+  {
+    "objectID": "FUO.html#rare-and-miscellaneous-causes-of-fever",
+    "href": "FUO.html#rare-and-miscellaneous-causes-of-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Rare and miscellaneous causes of fever",
+    "text": "Rare and miscellaneous causes of fever"
+  },
+  {
+    "objectID": "FUO.html#distinctive-fever-patterns",
+    "href": "FUO.html#distinctive-fever-patterns",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Distinctive fever patterns",
+    "text": "Distinctive fever patterns\n\nA. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin’s disease (Pel-Ebstein pattern);  D. Borreliosis (relapsing fever pattern)\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#distinctive-fever-patter",
+    "href": "FUO.html#distinctive-fever-patter",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Distinctive fever patter",
+    "text": "Distinctive fever patter\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#classic-fuo-in-infants-and-children",
+    "href": "FUO.html#classic-fuo-in-infants-and-children",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO in infants and children",
+    "text": "Classic FUO in infants and children\n\nRespiratory tract infections\nOther infections: UTIs, brucellosis, tuberculosis, bartonellosis\nKawasaki disease (age < 5 years)\nInflammatory bowel diseases\nStill’s disease (juvenile rheumatoid arthritis)\n\nHowever, connective tissue diseases and cancers are generally rarer in children vs. adults\n\nJoint involvement is a sign of a serious disorder- e.g., connective tissue disease, endocarditis, leukemia"
+  },
+  {
+    "objectID": "FUO.html#classic-fuo-in-elderly-patients",
+    "href": "FUO.html#classic-fuo-in-elderly-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic FUO in elderly patients",
+    "text": "Classic FUO in elderly patients\n\nIn developed countries: connective tissue diseases > infections\n\nTemporal arteritis\nPolymyalgia rheumatic syndromes\nDiagnoses are frequently missed because symptoms are subacute and non-specific\n\nInfections\n\nintraabdominal abscess\nComplicated UTIs\nTuberculosis\nEndocarditis"
+  },
+  {
+    "objectID": "FUO.html#returning-travellers",
+    "href": "FUO.html#returning-travellers",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Returning travellers",
+    "text": "Returning travellers"
   }
 ]
