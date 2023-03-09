@@ -25,7 +25,7 @@
     "href": "Allergies.html",
     "title": "Antibiotic allergies",
     "section": "",
-    "text": "Lecture slides can be downloaded here\nEssential review on diagnosing and managing penicillin allergies\nThe following links below may require access via University proxy. Click on the the “multimedia” link to find the videos and podcasts.\nJAMA Educational Videos and Podcasts on Evaulating, Manging and Testing Penicillin Allergies\nWhat every new doctor should know about adverse drug reactions\nExcellent and entertaining dicussion on PCN de-labeling"
+    "text": "Lecture slides can be downloaded here\nEssential review on diagnosing and managing penicillin allergies\nThe following links below may require access via University proxy. Click on the the “multimedia” link to find the videos and podcasts.\nJAMA Educational Videos and Podcasts on Evaulating, Manging and Testing Penicillin Allergies\nWhat every new doctor should know about adverse drug reactions\nExcellent and entertaining dicussion on PCN de-labeling\nPatient information on PCN allergy testing\nAmoxicillin challenge forms"
   },
   {
     "objectID": "Antibiotic.html",
@@ -47,5 +47,89 @@
     "title": "Principles of Antibiotic Therapy",
     "section": "Links to Prof. Sebastian Wicha’s online precision antibiotic dosing models",
     "text": "Links to Prof. Sebastian Wicha’s online precision antibiotic dosing models\nClick on this link: TDMx\n Note: The UNIPD Proxy may block the TDMx landing page for the models, but individual drug model pages demonstrated in class still seemed to be accessible through the proxy:\nGentamicin  Vancomycin  Meropenem"
+  },
+  {
+    "objectID": "FUO.html#decoding-the-host-immune-response-to-infection-and-fever-of-unknown-origin-fuo",
+    "href": "FUO.html#decoding-the-host-immune-response-to-infection-and-fever-of-unknown-origin-fuo",
+    "title": "FUO lecture",
+    "section": "Decoding the host immune response to infection and fever of unknown origin (FUO)",
+    "text": "Decoding the host immune response to infection and fever of unknown origin (FUO)\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
+  },
+  {
+    "objectID": "FUO.html#objectives",
+    "href": "FUO.html#objectives",
+    "title": "FUO lecture",
+    "section": "Objectives",
+    "text": "Objectives"
+  },
+  {
+    "objectID": "FUO.html#how-is-fever-of-unknown-origin-defined",
+    "href": "FUO.html#how-is-fever-of-unknown-origin-defined",
+    "title": "FUO lecture",
+    "section": "How is fever of unknown origin defined?",
+    "text": "How is fever of unknown origin defined?\n  Subjective definition, but core features include: \n\nAbsence of an identified cause of fever despite reasonable diagnostic investigations\nPersistence of fever for a sufficient time to rule out “self-limiting fevers”\n\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#references",
+    "href": "FUO.html#references",
+    "title": "FUO lecture",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003."
+  },
+  {
+    "objectID": "FUO.html#how-is-fever-of-unknown-origin-fuo-defined",
+    "href": "FUO.html#how-is-fever-of-unknown-origin-fuo-defined",
+    "title": "FUO lecture",
+    "section": "How is fever of unknown origin (FUO) defined?",
+    "text": "How is fever of unknown origin (FUO) defined?\n  Subjective definition, but core features include: \n\nNot a biologically-uniform phenomenon\nAbsence of an identified cause of fever despite reasonable diagnostic investigations\nPersistence of fever for a sufficient time to rule out “self-limiting fevers”\n“Diagnosis of exclusion”\nThoughtful, critical appraisal of patient vs. algorithm approach\n\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#the-febrile-response",
+    "href": "FUO.html#the-febrile-response",
+    "title": "FUO lecture",
+    "section": "The febrile response",
+    "text": "The febrile response\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#the-febrile-response-background-imageimagesthermometer.jpg-background-opacity-0.5",
+    "href": "FUO.html#the-febrile-response-background-imageimagesthermometer.jpg-background-opacity-0.5",
+    "title": "FUO lecture",
+    "section": "The febrile response {background-image=“/images/thermometer.jpg” background-opacity = “0.5”}",
+    "text": "The febrile response {background-image=“/images/thermometer.jpg” background-opacity = “0.5”}\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#the-febrile-response-background-imageimagesthermometer.jpgbackground-opacity-0.5",
+    "href": "FUO.html#the-febrile-response-background-imageimagesthermometer.jpgbackground-opacity-0.5",
+    "title": "FUO lecture",
+    "section": "The febrile response {background-image=“/images/thermometer.jpg”background-opacity 0.5}",
+    "text": "The febrile response {background-image=“/images/thermometer.jpg”background-opacity 0.5}\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#the-febrile-response-background-opacity-0.5-background-imageimagesthermometer.jpg",
+    "href": "FUO.html#the-febrile-response-background-opacity-0.5-background-imageimagesthermometer.jpg",
+    "title": "FUO lecture",
+    "section": "The febrile response {background-opacity 0.5 background-image=“/images/thermometer.jpg”}",
+    "text": "The febrile response {background-opacity 0.5 background-image=“/images/thermometer.jpg”}\n\n\n(Haidar and Singh, 2022)"
+  },
+  {
+    "objectID": "FUO.html#what-is-the-history-of-fever",
+    "href": "FUO.html#what-is-the-history-of-fever",
+    "title": "FUO lecture",
+    "section": "What is the history of fever?",
+    "text": "What is the history of fever?\n\nDescribed in Akkadian cuneiform inscriptions from the 6th century BC\nHippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)\nGalen: many types of fever developed from putrification of humors.\nMiddle ages: demonic possession\n18th century (Harvy’s discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines\nClaude Bernard in the 19th century- metabolic processes in the body"
+  },
+  {
+    "objectID": "FUO.html#thermal-homeostasis",
+    "href": "FUO.html#thermal-homeostasis",
+    "title": "FUO lecture",
+    "section": "Thermal homeostasis",
+    "text": "Thermal homeostasis"
+  },
+  {
+    "objectID": "FUO.html#sequelae-of-fever",
+    "href": "FUO.html#sequelae-of-fever",
+    "title": "FUO lecture",
+    "section": "Sequelae of fever",
+    "text": "Sequelae of fever"
   }
 ]

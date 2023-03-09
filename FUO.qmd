@@ -1,0 +1,72 @@
+---
+title: "FUO lecture"
+format:
+  revealjs:
+    touch: true
+    controls: true
+    transition: fade
+    transition-speed: fast
+    scrollable: true
+    slide-number: false
+    incremental: true
+    multiplex: true
+    chalkboard: true
+    theme: [default, custom.scss]
+bibliography: references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+## Decoding the host immune response to infection and fever of unknown origin (FUO) {background-image="/images/bacteria.png"}
+
+<br>
+
+<br>
+
+Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 13 March 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
+
+## Objectives
+
+## How is fever of unknown origin (FUO) defined?
+
+<br> <br> Subjective definition, but core features include: <br>
+
+-   Not a biologically-uniform phenomenon
+-   Absence of an identified cause of fever despite reasonable diagnostic investigations
+-   Persistence of fever for a sufficient time to rule out "self-limiting fevers"
+-   "Diagnosis of exclusion"
+-   Thoughtful, critical appraisal of patient *vs.* algorithm approach
+
+::: aside
+[@haidar_singh22]
+:::
+
+## What is the history of fever? {background-image="/images/hippocrates.jpg" background-opacity="0.2"}
+
+-   Described in Akkadian cuneiform inscriptions from the 6th century BC
+-   Hippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)
+-   Galen: many types of fever developed from putrification of humors.
+-   Middle ages: demonic possession
+-   18th century (Harvy's discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines
+-   Claude Bernard in the 19th century- metabolic processes in the body
+
+## The febrile response {background-image="/images/thermometer.jpg" background-opacity="0.5"}
+
+-   Wunderlich's pioneering studies of thermometry-normal 37°C
+
+-   Since the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade
+
+-   Current normal range is 36.3 to 36.5°C
+
+::: aside
+[@haidar_singh22]
+:::
+
+## Thermal homeostasis
+
+## Sequelae of fever
+
+## References
+
+<br>
+
+<br>
