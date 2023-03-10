@@ -51,9 +51,9 @@ $presentation-block-margin: 12px !default;
 // text alignment
 $presentation-slide-text-align: left !default;
  h2, h3 {
-  text-align: left;
+  text-align: center;
 }
-$presentation-title-slide-text-align:  left !default;
+$presentation-title-slide-text-align:  center !default;
 $reveal-slide-text-align: $presentation-slide-text-align !default;
 $reveal-title-slide-text-align: $presentation-title-slide-text-align !default;
 

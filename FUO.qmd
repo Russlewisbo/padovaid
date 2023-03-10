@@ -10,7 +10,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: false
-    incremental: true
+    incremental: false
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
@@ -32,12 +32,15 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 <br>
 
--   10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta'allimīn fī al-Tibb (The Student's Handbook of Medicine)
--   **Hippocratic physicians** proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)
+::: incremental
+-   **10th Century BCE Persian Physician Akhawayni** defined a system for fever curves in Hidāyat al-Muta'allimīn fī al-Tibb (The Student's Handbook of Medicine)
+-   **Hippocratic physicians** proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile.
+    -   Fever was due to excess of yellow bile (many infections caused jaundice)
 -   **Galen:** many types of fever developed from putrification of humors.
 -   **Middle ages:** demonic possession
 -   **18th century (Harvey's discovery of circulation)**- friction of blood flow through body causing fermentation and putrification in intestines
 -   **Claude Bernard** in the 19th century- metabolic processes in the body
+:::
 
 ## Febris- Roman Goddess of Fever
 
@@ -49,7 +52,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.
 
-## Galileo developed the room thermometer in Padova {.smaller}
+## Galileo and the room thermometer in Padova {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -69,15 +72,13 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 
 ## Fever in modern medicine
 
-::: nonincremental
 -   Wunderlich's pioneering studies of thermometry-normal 37°C
 
--   Since the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade
+-   Since the 19th century, humans have become gradually colder-0.05° to 0.5°C per decade
 
 -   Current normal range is 36.3 to 36.5°C
-:::
 
-![](images/Wunderlich.png){width="600"}
+![](images/Wunderlich.png){fig-align="center" width="600"}
 
 <div>
 
@@ -142,19 +143,19 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 <br>
 
 -   **Definition:**
-    -   \> 38.3°C \> 3 weeks
+    -   Temperature of \> 38.3°C \> 3 weeks
 
-    -   \>2 separate outpatient visits with diagnostic investigations
+    -   Fever \>2 separate outpatient visits with diagnostic investigations *or*
 
-    -   \>2 visits in hospital of 3 days with diagnostic investigations
+    -   Fever \>2 visits in hospital of 3 days with diagnostic investigations
 
-    -   *However*, these definitions are largely subjective
+        -   *However*, these definitions are largely subjective
 -   **Leading causes:**
-    -   Cancer
+    -   Cancer (age dependent)
 
-    -   Infections
+    -   Infections (geography dependent)
 
-    -   Inflammatory conditions
+    -   Inflammatory conditions (age dependent)
 
     -   Undiagnosed habitual hyperthermia
 
@@ -179,6 +180,7 @@ Infectious causes decrease in patients above age 65 years
 
 ## Classic FUO work-up
 
+::: incremental
 -   **Medical history emphasis:**
     -   Travel
 
@@ -197,6 +199,7 @@ Infectious causes decrease in patients above age 65 years
     -   Fundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins
 -   **Investigation emphasis:**
     -   Imaging, biopsies, sedimentation rate, skin tests
+:::
 
 ## Rare and miscellaneous causes of fever
 
@@ -315,6 +318,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 <br>
 
+::: incremental
 -   ANC= Total WBC x (% Segs + % Bands)
 
 -   ANC of \< 500 cells/mm^3^ or an ANC that is expected to decrease to \< 500 cells/mm^3^ during the next 48 h.
@@ -330,6 +334,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 -   Most patients will have no infectious etiology documented.
 
 -   Signs of inflammation are notoriously absent other than fever
+:::
 
 ## Clinical manifestations of infection related to absolute neutrophil count (ANC)
 
@@ -421,7 +426,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 ## General diagnostic evaluation of FUO
 
 | Comprehensive history                                                            |
-|----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|
 | Repeated physical exams                                                          |
 | Complete blood count                                                             |
 | Routine blood chemistry                                                          |
@@ -448,7 +453,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 ## Patient history
 
-<br>
+<br> ::: incremental
 
 -   **Helps guide choice of initial laboratory investigations**
 -   **Particular attention should be give to:**
@@ -470,6 +475,126 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
     -   intraabdominal disorders
 -   **Complete list of medications**
 
+:::
+
 ## Verification of fever and fever pattern
+
+<br>
+
+-   Seems obvious, but often overlooked
+-   In some series, up to 30% where determined not to have fever
+-   Fever patterns- arcane terminology:
+    -   *remittent, intermittent, hectic, quotidian, sustained, quartan, saddleback fevers*
+-   Fever patterns are affected by:
+    -   Hydration, ambient temperature
+
+    -   Accuracy of temperature measurements
+
+    -   Use of antipyretics, corticosteroids
+
+    -   Blood transfusions, other medical interventions *etc.*
+
+## Continuous sustained fever
+
+<br>
+
+-   Continuous (sustained) fever with slight remission not exceed 2°C
+    -   Lobar and Gram negative pneumonia
+    -   Rickettsiosis
+    -   Typhoid fever
+    -   CNS disorders
+    -   Tularemia
+    -   Falciparum (malignant tertian) malaria :::
+
+![](images/continuous.png){fig-align="center" width="500"}
+
+::: aside
+:::
+
+## Intermittent fever
+
+<br>
+
+-   Intermittent (septic, quotidian, "picket fence") fever with wide fluctuations, usually norma or low in the morning and peaking between 4:00 and 8:00 PM
+    -   Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis
+    -   Malaria (often with leukopenia) may present with daily (quotidian) daily spike or (tertian) spike every 3rd day, or (quartan) spike every 4th day.
+    -   Double quotidian patter (two daily spikes) aen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis
+
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Saddle-back (biphasic)
+
+<br>
+
+-   Several days of fever, distinct reductio in fever for \~ 1 day, and then several days of higher fever
+    -   Dengue and yellow fever
+    -   Colorado tick fever
+    -   Rift valley Fever
+    -   Influenzae and other viral infections
+
+![](images/saddle.png){fig-align="center" width="500"}
+
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Intermittent hectic (Charcot's) fever
+
+<br>
+
+-   Sporadic episodes of fever, periods of noram temperature with recurrence
+    -   Frequently seen in cholangitis associated with cholelithiasis, jaundice, leukocytosis and toxic signs
+
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Pel-Ebstein fever
+
+<br>
+
+-   Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
+    -   Hodgkin's disease
+    -   Brucellosis due to *Brucella melitensis*
+    -   Occasionally tuberculosiso
+
+![](images/pelebstein.png){fig-align="center" width="500"}
+
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Typus Inversus
+
+<br> - Reversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening - Miliary TB - Salmonelloses - Hepatic abscess - Bacterial endocarditis
+
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Jarisch-Herxheimer reaction
+
+-   Sharply increased elevation of temperature with shivers and chills occurs within several hours after starting penicillin therapy
+    -   Primary or secondary syphilis Leptospirosis or tick-borne relapsing fever
+    -   Tetracycline or chloramphenicol therapy for acute brucellosis
+
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Physical examination
+
+-   Some signs are subtle and may require repeated exams to be appreciated
+-   Vigorous search for lymphadenopathy (consideration for biopsy)
+
+![](images/clinicalsigns.jpeg){fig-align="center"}
+
+<div>
+
+[@wrightwilliamf__mackowiakphilipa_15]
+
+</div>
 
 ## References

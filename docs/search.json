@@ -74,7 +74,7 @@
     "href": "FUO.html#references",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\nCorey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. https://doi.org/10.1056/NEJM200201243460402.\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nPlayfair, J., Bancroft, G. Infection and Immunity, 4th Edition. Oxford University Press; 2013.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nSickles EA, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of unknown origin, vol. 1. Eighth, Elsevier Health Sciences; 2015."
+    "text": "References\n\n\n\n\n\n\nCorey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. https://doi.org/10.1056/NEJM200201243460402.\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nMackowiak PA, Bartlett JG, Borden EC, Goldblum SE, Hasday JD, Munford RS, et al. Concepts of Fever: Recent Advances and Lingering Dogma. Clinical Infectious Diseases 1997;25:119–38.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nPlayfair, J., Bancroft, G. Infection and Immunity, 4th Edition. Oxford University Press; 2013.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nSickles EA, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of Unknown Origin, Elsevier Health Sciences; 2015."
   },
   {
     "objectID": "FUO.html#how-is-fever-of-unknown-origin-fuo-defined",
@@ -172,7 +172,7 @@
     "href": "FUO.html#classic-fuo",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO",
-    "text": "Classic FUO\n\n\nDefinition:\n\n> 38.3°C > 3 weeks\n>2 separate outpatient visits with diagnostic investigations\n>2 visits in hospital of 3 days with diagnostic investigations\nHowever, these definitions are largely subjective\n\nLeading causes:\n\nCancer\nInfections\nInflammatory conditions\nUndiagnosed habitual hyperthermia"
+    "text": "Classic FUO\n\n\nDefinition:\n\nTemperature of > 38.3°C > 3 weeks\nFever >2 separate outpatient visits with diagnostic investigations or\nFever >2 visits in hospital of 3 days with diagnostic investigations\n\nHowever, these definitions are largely subjective\n\n\nLeading causes:\n\nCancer (age dependent)\nInfections (geography dependent)\nInflammatory conditions (age dependent)\nUndiagnosed habitual hyperthermia"
   },
   {
     "objectID": "FUO.html#section",
@@ -249,7 +249,7 @@
     "href": "FUO.html#classic-fuo-work-up",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO work-up",
-    "text": "Classic FUO work-up\n\nMedical history emphasis:\n\nTravel\nContacts\nAnimal and insect exposure\nMedications\nImmunizations\nFamily history\nCardiac valve disorder\n\nExamination emphasis\n\nFundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins\n\nInvestigation emphasis:\n\nImaging, biopsies, sedimentation rate, skin tests"
+    "text": "Classic FUO work-up\n\n\nMedical history emphasis:\n\nTravel\nContacts\nAnimal and insect exposure\nMedications\nImmunizations\nFamily history\nCardiac valve disorder\n\nExamination emphasis\n\nFundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins\n\nInvestigation emphasis:\n\nImaging, biopsies, sedimentation rate, skin tests"
   },
   {
     "objectID": "FUO.html#rare-and-miscellaneous-causes-of-fever",
@@ -375,14 +375,14 @@
     "href": "FUO.html#fuo-in-neutropenic-patients",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "FUO in neutropenic patients",
-    "text": "FUO in neutropenic patients\n\n\nANC= Total WBC x (% Segs + % Bands)\nANC of < 500 cells/mm3 or an ANC that is expected to decrease to < 500 cells/mm3 during the next 48 h.\n\nThe term ‘’profound’’ is sometimes used to describe neutropenia in which the ANC is < 100 cells/mm3\n\nFever occurs frequently during chemotherapy-induced neutropenia:\n\n10%–50% of patients with solid tumors\n80% of those with hematologic malignancies will develop fever during >1 chemotherapy cycle associated with neutropenia\n\nMost patients will have no infectious etiology documented.\nSigns of inflammation are notoriously absent other than fever"
+    "text": "FUO in neutropenic patients\n\n\n\nANC= Total WBC x (% Segs + % Bands)\nANC of < 500 cells/mm3 or an ANC that is expected to decrease to < 500 cells/mm3 during the next 48 h.\n\nThe term ‘’profound’’ is sometimes used to describe neutropenia in which the ANC is < 100 cells/mm3\n\nFever occurs frequently during chemotherapy-induced neutropenia:\n\n10%–50% of patients with solid tumors\n80% of those with hematologic malignancies will develop fever during >1 chemotherapy cycle associated with neutropenia\n\nMost patients will have no infectious etiology documented.\nSigns of inflammation are notoriously absent other than fever"
   },
   {
     "objectID": "FUO.html#the-history-of-fever",
     "href": "FUO.html#the-history-of-fever",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "The history of fever",
-    "text": "The history of fever\n\n\n10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)\nHippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)\nGalen: many types of fever developed from putrification of humors.\nMiddle ages: demonic possession\n18th century (Harvey’s discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines\nClaude Bernard in the 19th century- metabolic processes in the body"
+    "text": "The history of fever\n\n\n\n10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)\nHippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile.\n\nFever was due to excess of yellow bile (many infections caused jaundice)\n\nGalen: many types of fever developed from putrification of humors.\nMiddle ages: demonic possession\n18th century (Harvey’s discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines\nClaude Bernard in the 19th century- metabolic processes in the body"
   },
   {
     "objectID": "FUO.html#acute-phase-phenomena",
@@ -438,7 +438,7 @@
     "href": "FUO.html#fever-in-modern-medicine",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Fever in modern medicine",
-    "text": "Fever in modern medicine\n\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n\n(Mackowiak and Worden, 1994)"
+    "text": "Fever in modern medicine\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05° to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n(Mackowiak and Worden, 1994)"
   },
   {
     "objectID": "FUO.html#galileo-developed-the-room-thermometer-in-padova",
@@ -501,13 +501,83 @@
     "href": "FUO.html#patient-history",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Patient history",
-    "text": "Patient history\n\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be give to:\n\nrecent travel\nexposure to pets and other animals\nwork environment\nrecent contact with people with similar symptoms\nfamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nlymphoma\nrheumatic fever\nintraabdominal disorders\n\nComplete list of medications"
+    "text": "Patient history\n ::: incremental\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be give to:\n\nrecent travel\nexposure to pets and other animals\nwork environment\nrecent contact with people with similar symptoms\nfamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nlymphoma\nrheumatic fever\nintraabdominal disorders\n\nComplete list of medications\n\n:::"
   },
   {
     "objectID": "FUO.html#verification-of-fever-and-fever-pattern",
     "href": "FUO.html#verification-of-fever-and-fever-pattern",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Verification of fever and fever pattern",
-    "text": "Verification of fever and fever pattern"
+    "text": "Verification of fever and fever pattern\n\n\nSeems obvious, but often overlooked\nIn some series, up to 30% where determined not to have fever\nFever patterns- arcane terminology:\n\nremittent, intermittent, hectic, quotidian, sustained, quartan, saddleback fevers\n\nFever patterns are affected by:\n\nHydration, ambient temperature\nAccuracy of temperature measurements\nUse of antipyretics, corticosteroids\nBlood transfusions, other medical interventions etc."
+  },
+  {
+    "objectID": "FUO.html#classic-id-fever-dogma",
+    "href": "FUO.html#classic-id-fever-dogma",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Classic ID Fever Dogma",
+    "text": "Classic ID Fever Dogma\n\nContinuous (sustained) fever with slight remission not exceed 2°C\n\nLobar and Gram negative pneumonia\nRickettsiosis\nTyphoid fever\nCNS disorders\nTularemia\nFalciparum (malignant tertian) malaria"
+  },
+  {
+    "objectID": "FUO.html#continuous-sustained-fever",
+    "href": "FUO.html#continuous-sustained-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Continuous sustained fever",
+    "text": "Continuous sustained fever\n\n\nContinuous (sustained) fever with slight remission not exceed 2°C\n\nLobar and Gram negative pneumonia\nRickettsiosis\nTyphoid fever\nCNS disorders\nTularemia\nFalciparum (malignant tertian) malaria :::"
+  },
+  {
+    "objectID": "FUO.html#intermittent-fever",
+    "href": "FUO.html#intermittent-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Intermittent fever",
+    "text": "Intermittent fever\n\n\nIntermittent (septic, quotidian, “picket fence”) fever with wide fluctuations, usually norma or low in the morning and peaking between 4:00 and 8:00 PM\n\nLocalized pyogenic infections and bacterial endocarditis with chills and leukocytosis\nMalaria (often with leukopenia) may present with daily (quotidian) daily spike or (tertian) spike every 3rd day, or (quartan) spike every 4th day.\nDouble quotidian patter (two daily spikes) aen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#saddle-back-biphasic",
+    "href": "FUO.html#saddle-back-biphasic",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Saddle-back (biphasic)",
+    "text": "Saddle-back (biphasic)\n\n\nSeveral days of fever, distinct reductio in fever for ~ 1 day, and then several days of higher fever\n\nDengue and yellow fever\nColorado tick fever\nRift valley Fever\nInfluenzae and other viral infections\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#intermittent-hectic-charcots-fever",
+    "href": "FUO.html#intermittent-hectic-charcots-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Intermittent hectic (Charcot’s) fever",
+    "text": "Intermittent hectic (Charcot’s) fever\n\n\nSporadic episodes of fever, periods of noram temperature with recurrence\n\nFrequently seen in cholangitis associated with cholelithiasis, jaundice, leukocytosis and toxic signs\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#pel-ebstein-fever",
+    "href": "FUO.html#pel-ebstein-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Pel-Ebstein fever",
+    "text": "Pel-Ebstein fever\n\n\nWeekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle\n\nHodgkin’s disease\nBrucellosis due to Brucella melitensis\nOccasionally tuberculosiso\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#typus-inversus",
+    "href": "FUO.html#typus-inversus",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Typus Inversus",
+    "text": "Typus Inversus\n - Reversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening - Miliary TB - Salmonelloses - Hepatic abscess - Bacterial endocarditis\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#jarisch-herxheimer-reaction",
+    "href": "FUO.html#jarisch-herxheimer-reaction",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Jarisch-Herxheimer reaction",
+    "text": "Jarisch-Herxheimer reaction\n\nSharply increased elevation of temperature with shivers and chills occurs within several hours after starting penicillin therapy\n\nPrimary or secondary syphilis Leptospirosis or tick-borne relapsing fever\nTetracycline or chloramphenicol therapy for acute brucellosis\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#galileo-and-the-room-thermometer-in-padova",
+    "href": "FUO.html#galileo-and-the-room-thermometer-in-padova",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Galileo and the room thermometer in Padova",
+    "text": "Galileo and the room thermometer in Padova"
+  },
+  {
+    "objectID": "FUO.html#physical-examination",
+    "href": "FUO.html#physical-examination",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Physical examination",
+    "text": "Physical examination\n\nSome signs are subtle and may require repeated exams to be appreciated\nVigorous search for lymphadenopathy (consideration for biopsy)\n\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
   }
 ]
