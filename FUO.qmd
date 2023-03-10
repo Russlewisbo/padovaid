@@ -28,16 +28,16 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Objectives
 
-## What is the history of fever? {background-image="/images/hippocrates.jpg" background-opacity="0.2" data-background-size="contain"}
+## The history of fever {background-image="/images/hippocrates.jpg" background-opacity="0.2" data-background-size="contain"}
 
 <br>
 
 -   10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta'allimīn fī al-Tibb (The Student's Handbook of Medicine)
--   Hippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)
--   Galen: many types of fever developed from putrification of humors.
--   Middle ages: demonic possession
--   18th century (Harvy's discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines
--   Claude Bernard in the 19th century- metabolic processes in the body
+-   **Hippocratic physicians** proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)
+-   **Galen:** many types of fever developed from putrification of humors.
+-   **Middle ages:** demonic possession
+-   **18th century (Harvey's discovery of circulation)**- friction of blood flow through body causing fermentation and putrification in intestines
+-   **Claude Bernard** in the 19th century- metabolic processes in the body
 
 ## Febris- Roman Goddess of Fever
 
@@ -49,41 +49,49 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.
 
-## ![](images/Wunderlich.png){width="300"} {background-image="/images/thermometer.jpg" background-opacity="0.5"}
+## Galileo developed the room thermometer in Padova {.smaller}
 
-<div>
+::: columns
+::: {.column width="50%"}
+![](images/Galileo.png){width="600"}
+:::
 
-[@sajadi_etal12]
-
-</div>
-
-## The fever response {background-image="/images/thermometer.jpg" background-opacity="0.5"}
+::: {.column width="50%"}
+<br>
 
 <br>
 
+<br>
+
+![](images/Galileo%20thermometer.png){fig-align="center" width="600"}
+:::
+:::
+
+## Fever in modern medicine
+
+::: nonincremental
 -   Wunderlich's pioneering studies of thermometry-normal 37°C
 
 -   Since the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade
 
 -   Current normal range is 36.3 to 36.5°C
+:::
 
-::: aside
-[@haidar_singh22]
+![](images/Wunderlich.png){width="600"}
+
+<div>
 
 [@mackowiak_worden94]
-:::
+
+</div>
 
 ## Thermal homeostasis
 
-![](images/thermoregulation.png){fig-align="center" width="400"}
+![](images/thermoregulation.png){fig-align="center" width="800"}
 
 ::: aside
 [@sajadimohammadm__mackowiakphilipa_]
 :::
-
-<br>
-
-## 
 
 ## Infection-associated fever
 
@@ -111,7 +119,7 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 
 </div>
 
-## Acute phase response
+## Acute phase phenomena
 
 ![](images/acutephase.png){fig-align="center" width="600"}
 
@@ -134,11 +142,13 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 <br>
 
 -   **Definition:**
-    -   \> 38.3°C \> 3 weeks;
+    -   \> 38.3°C \> 3 weeks
 
-    -   \>2 seperate outpatient visits with diagnostic investigations
+    -   \>2 separate outpatient visits with diagnostic investigations
 
     -   \>2 visits in hospital of 3 days with diagnostic investigations
+
+    -   *However*, these definitions are largely subjective
 -   **Leading causes:**
     -   Cancer
 
@@ -162,7 +172,7 @@ Infectious causes decrease in patients above age 65 years
 
 ## Classic FUO- Infectious Etiology
 
--   Abscess
+-   Occult abscess
 -   Endocarditis
 -   Tuberculosis
 -   Complicated urinary tract infections
@@ -204,22 +214,25 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 ## Classic FUO in infants and children
 
+<br>
+
 -   Respiratory tract infections
 -   Other infections: UTIs, brucellosis, tuberculosis, bartonellosis
 -   Kawasaki disease (age \< 5 years)
 -   Inflammatory bowel diseases
 -   Still's disease (juvenile rheumatoid arthritis)
-    -   However, connective tissue diseases and cancers are generally rarer in children vs. adults
--   Joint involvement is a sign of a serious disorder- e.g., connective tissue disease, endocarditis, leukemia
+    -   However, connective tissue diseases and cancers are generally rare in children
+-   Joint involvement is an important sign of a potentially serious disorder- *e.g., connective tissue disease, endocarditis, leukemia*
 
 ## Classic FUO in elderly patients
+
+<br>
 
 -   **In developed countries: connective tissue diseases \> infections**
     -   Temporal arteritis
 
     -   Polymyalgia rheumatic syndromes
-
-    -   Diagnoses are frequently missed because symptoms are subacute and non-specific
+-   **Diagnoses are frequently missed because symptoms are subacute and non-specific**
 -   **Infections**
     -   intraabdominal abscess
 
@@ -231,33 +244,232 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 ## Returning travellers
 
-## Naproxin (NSIAD) suppression test
+<br>
 
-## How is fever of unknown origin (FUO) defined?
+![](images/traveler.png){fig-align="center"}
 
-<br> <br> Subjective definition, but core features include: <br>
+<div>
 
--   Not a biologically-uniform phenomenon
--   Absence of an identified cause of fever despite reasonable diagnostic investigations
--   Persistence of fever for a sufficient time to rule out "self-limiting fevers"
--   "Diagnosis of exclusion"
--   Thoughtful, critical appraisal of patient *vs.* algorithm approach
+[@wrightwilliamf__mackowiakphilipa_15]
+
+</div>
+
+## Nosocomial (Health-Care Associated) FUO
+
+<br>
+
+-   **Leading causes:**
+    -   Drug fever
+
+    -   Post-operative complications (e.g., occult abscess)
+
+    -   Decubitus ulcers
+
+    -   Septic thrombophlebitis
+
+    -   Recurrent pulmonary emboli
+
+    -   Myocardial infarction
+
+    -   Cancer
+
+    -   Blood transfusion
+
+    -   *Clostridium difficile* colitis
+
+## Fever in post-operative patients
+
+<br>
+
+-   Although more than 1/3 of patients may manifest fever in first 5 days surgery, \< 10% of febrile patients have an identified source
+-   Physiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection
+
+## FUO in ICU patients
+
+<br>
+
+-   Early fevers are common, often non-infectious, associated with good prognosis
+-   Prolonged fever- poorer prognosis
+-   Sinusitis as a complication of mechanical ventilation, supine position, feeding tubes
+-   Other causes are similar to nosocomial infections
+    -   Abscess
+
+    -   Drug fever
+
+    -   postoperative complications
+
+    -   Septic thrombophlebitis
+
+    -   Recurrent pulmonary emboli
+
+    -   Myocardial infarction
+
+## FUO in stroke patients
+
+<br>
+
+-   Non-infective fevers are commonly seen in patients with intracranial mass effects and occur earlier after stroke than infection
+-   UTI are common related to urinary catheterization
+
+## FUO in neutropenic patients
+
+<br>
+
+-   ANC= Total WBC x (% Segs + % Bands)
+
+-   ANC of \< 500 cells/mm^3^ or an ANC that is expected to decrease to \< 500 cells/mm^3^ during the next 48 h.
+
+    -   The term ''profound'' is sometimes used to describe neutropenia in which the ANC is \< 100 cells/mm^3^
+
+-   Fever occurs frequently during chemotherapy-induced neutropenia:
+
+    -   10%--50% of patients with solid tumors
+
+    -   80% of those with hematologic malignancies will develop fever during \>1 chemotherapy cycle associated with neutropenia
+
+-   Most patients will have no infectious etiology documented.
+
+-   Signs of inflammation are notoriously absent other than fever
+
+## Clinical manifestations of infection related to absolute neutrophil count (ANC)
+
+<br>
+
+| Signs and symptoms  | Infection | \% of patients with ANC\< 100 | \% of patients with ANC\>1000 |
+|------------------|------------------|------------------|------------------|
+| **Fever**           | Overall   | 98                            | 76                            |
+| **Bacteremia**      | Overall   | 43                            | 13                            |
+| **Fluctuance**      | Anorectal | 8                             | 67                            |
+| **Exudate**         | Skin      | 5                             | 92                            |
+| **Purulent sputum** | Pneumonia | 8                             | 84                            |
+| **Pyuria**          | UTI       | 11                            | 97                            |
+
+<br>
+
+<div>
+
+[@sickles_etal75]
+
+</div>
+
+## Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics
+
+![](images/fuo_neutro.png){fig-align="center"}
+
+<div>
+
+[@corey_boeckh02]
+
+</div>
+
+## Cell-mediated immunity-1
+
+<br>
+
+![](images/CMI_Th1.png){fig-align="center"}
+
+<div>
+
+[@playfairj__bancroftg_13]
+
+</div>
+
+## Cell-mediated immunity-2
+
+![](images/CMI_Th2.png){fig-align="center"}
+
+<div>
+
+[@playfairj__bancroftg_13]
+
+</div>
+
+## Cell-mediated immunity-Drug allergy
+
+![](images/CMI_allergy.png){fig-align="center"}
+
+<div>
+
+[@playfairj__bancroftg_13]
+
+</div>
+
+## Infections in immunocompromised hosts
+
+<br>
+
+![](images/immunocomp.png){fig-align="center"}
+
+## Naproxen (NSIAD) fever suppression test
+
+## HIV-related FUO
+
+-   Primary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion
+-   In later phases of untreated HIV, episodes of fever become common and often signify a superimposed illness- e.g., opportunistic infections that manifest in atypical fashion
+-   Once highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly
+
+## Etiology of fever in HIV-Associated FUO (n=70) {.smaller}
+
+![](images/FUO_HIV.png){fig-align="center" width="500"}
 
 ::: aside
-[@haidar_singh22]
+[@wrightwilliamf__mackowiakphilipa_15]
 :::
 
-## Classic FUO
+## Diagnosis of FUO {background-image="/images/thermometer.jpg"}
 
--   Infection
--   Autoinflammatory
--   Autoimmune
--   Miscellaneous
+## General diagnostic evaluation of FUO
 
-## Classic FUO- Tuberculosis
+| Comprehensive history                                                            |
+|----------------------------------------------------------------------------------|
+| Repeated physical exams                                                          |
+| Complete blood count                                                             |
+| Routine blood chemistry                                                          |
+| Urinalysis including microscopic examination                                     |
+| Chest radiograph                                                                 |
+| Erythrocyte sedimentation rate                                                   |
+| Antinuclear antibodies                                                           |
+| Rheumatoid factor                                                                |
+| Blood cultures- three separate specimens in the absence of antimicrobial therapy |
+| CMV IgM antibodies or viral detection in blood                                   |
+| Heterophil antibody test in children and young adults                            |
+| Tuberculin skin test                                                             |
+| Computed tomography of abdomen, pelvis and other sites                           |
+| MRI/Radionucleotide scans                                                        |
+| HIV antibodies or viral detection assay                                          |
+| Further evaluation of any abnormality detected by above tests                    |
+| Various duplex imaging of lower limbs                                            |
+
+<div>
+
+[@wrightwilliamf__mackowiakphilipa_15]
+
+</div>
+
+## Patient history
+
+<br>
+
+-   **Helps guide choice of initial laboratory investigations**
+-   **Particular attention should be give to:**
+    -   recent travel
+
+    -   exposure to pets and other animals
+
+    -   work environment
+
+    -   recent contact with people with similar symptoms
+
+    -   family history (e.g., familial Mediterranean fever)
+-   **Prior history of FUO**
+-   **Previously diagnosed conditions**
+    -   lymphoma
+
+    -   rheumatic fever
+
+    -   intraabdominal disorders
+-   **Complete list of medications**
+
+## Verification of fever and fever pattern
 
 ## References
-
-<br>
-
-<br>

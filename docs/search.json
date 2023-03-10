@@ -74,7 +74,7 @@
     "href": "FUO.html#references",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nSajadi MM, Bonabi R, Sajadi M-RM, Mackowiak PA. Akhawaynī and the First Fever Curve. Clinical Infectious Diseases 2012;55:976–80. https://doi.org/10.1093/cid/cis596.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of unknown origin, vol. 1. Eighth, Elsevier Health Sciences; 2015."
+    "text": "References\n\n\n\n\n\n\nCorey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. https://doi.org/10.1056/NEJM200201243460402.\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nPlayfair, J., Bancroft, G. Infection and Immunity, 4th Edition. Oxford University Press; 2013.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nSickles EA, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of unknown origin, vol. 1. Eighth, Elsevier Health Sciences; 2015."
   },
   {
     "objectID": "FUO.html#how-is-fever-of-unknown-origin-fuo-defined",
@@ -123,7 +123,7 @@
     "href": "FUO.html#thermal-homeostasis",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Thermal homeostasis",
-    "text": "Thermal homeostasis\n\n\n\n\n\n\n\n\n(Sajadi, Mohammad M. and Mackowiak, Philip A., n.d.)"
+    "text": "Thermal homeostasis\n\n\n\n\n\n\n\n(Sajadi, Mohammad M. and Mackowiak, Philip A., n.d.)"
   },
   {
     "objectID": "FUO.html#sequelae-of-fever",
@@ -172,14 +172,14 @@
     "href": "FUO.html#classic-fuo",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO",
-    "text": "Classic FUO\n\n\nDefinition:\n\n> 38.3°C > 3 weeks;\n>2 seperate outpatient visits with diagnostic investigations\n>2 visits in hospital of 3 days with diagnostic investigations\n\nLeading causes:\n\nCancer\nInfections\nInflammatory conditions\nUndiagnosed habitual hyperthermia"
+    "text": "Classic FUO\n\n\nDefinition:\n\n> 38.3°C > 3 weeks\n>2 separate outpatient visits with diagnostic investigations\n>2 visits in hospital of 3 days with diagnostic investigations\nHowever, these definitions are largely subjective\n\nLeading causes:\n\nCancer\nInfections\nInflammatory conditions\nUndiagnosed habitual hyperthermia"
   },
   {
     "objectID": "FUO.html#section",
     "href": "FUO.html#section",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "",
-    "text": "(Sajadi et al., 2012)"
+    "text": "Diagnosis of FUO"
   },
   {
     "objectID": "FUO.html#infection-associated-fever",
@@ -242,7 +242,7 @@
     "href": "FUO.html#classic-fuo--infectious-etiology",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO- Infectious Etiology",
-    "text": "Classic FUO- Infectious Etiology\n\nAbscess\nEndocarditis\nTuberculosis\nComplicated urinary tract infections"
+    "text": "Classic FUO- Infectious Etiology\n\nOccult abscess\nEndocarditis\nTuberculosis\nComplicated urinary tract infections"
   },
   {
     "objectID": "FUO.html#classic-fuo-work-up",
@@ -277,20 +277,237 @@
     "href": "FUO.html#classic-fuo-in-infants-and-children",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO in infants and children",
-    "text": "Classic FUO in infants and children\n\nRespiratory tract infections\nOther infections: UTIs, brucellosis, tuberculosis, bartonellosis\nKawasaki disease (age < 5 years)\nInflammatory bowel diseases\nStill’s disease (juvenile rheumatoid arthritis)\n\nHowever, connective tissue diseases and cancers are generally rarer in children vs. adults\n\nJoint involvement is a sign of a serious disorder- e.g., connective tissue disease, endocarditis, leukemia"
+    "text": "Classic FUO in infants and children\n\n\nRespiratory tract infections\nOther infections: UTIs, brucellosis, tuberculosis, bartonellosis\nKawasaki disease (age < 5 years)\nInflammatory bowel diseases\nStill’s disease (juvenile rheumatoid arthritis)\n\nHowever, connective tissue diseases and cancers are generally rare in children\n\nJoint involvement is an important sign of a potentially serious disorder- e.g., connective tissue disease, endocarditis, leukemia"
   },
   {
     "objectID": "FUO.html#classic-fuo-in-elderly-patients",
     "href": "FUO.html#classic-fuo-in-elderly-patients",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO in elderly patients",
-    "text": "Classic FUO in elderly patients\n\nIn developed countries: connective tissue diseases > infections\n\nTemporal arteritis\nPolymyalgia rheumatic syndromes\nDiagnoses are frequently missed because symptoms are subacute and non-specific\n\nInfections\n\nintraabdominal abscess\nComplicated UTIs\nTuberculosis\nEndocarditis"
+    "text": "Classic FUO in elderly patients\n\n\nIn developed countries: connective tissue diseases > infections\n\nTemporal arteritis\nPolymyalgia rheumatic syndromes\n\nDiagnoses are frequently missed because symptoms are subacute and non-specific\nInfections\n\nintraabdominal abscess\nComplicated UTIs\nTuberculosis\nEndocarditis"
   },
   {
     "objectID": "FUO.html#returning-travellers",
     "href": "FUO.html#returning-travellers",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Returning travellers",
-    "text": "Returning travellers"
+    "text": "Returning travellers\n\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#nosocomial-health-care-associated-fuo",
+    "href": "FUO.html#nosocomial-health-care-associated-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Nosocomial (Health-Care Associated) FUO",
+    "text": "Nosocomial (Health-Care Associated) FUO\n\n\nLeading causes:\n\nDrug fever\nPost-operative complications (e.g., occult abscess)\nDecubitus ulcers\nSeptic thrombophlebitis\nRecurrent pulmonary emboli\nMyocardial infarction\nCancer\nBlood transfusion\nClostridium difficile colitis"
+  },
+  {
+    "objectID": "FUO.html#post-operative-fevers",
+    "href": "FUO.html#post-operative-fevers",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Post-operative fevers",
+    "text": "Post-operative fevers\n\n\nAlthough more than 1/3 of patients may manifest fever in first 5 days surgery, < 10% of febrile patients have an identified source\nPhysiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection"
+  },
+  {
+    "objectID": "FUO.html#icu-patients",
+    "href": "FUO.html#icu-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "ICU patients",
+    "text": "ICU patients\n\nEarly fevers are common, often non-infectious, associated with good prognosis\nProlonged fever- poorer prognosis\nSinusitis as a complication of mechanical ventilation, supine position, feeding tubes\nOther causes are similar to nosocomial infections\n\nAbscess\nDrug fever\npostoperative complications\nSeptic thrombophlebitis\nRecurrent pulmonary emboli\nMyocardial infarction"
+  },
+  {
+    "objectID": "FUO.html#stroke",
+    "href": "FUO.html#stroke",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Stroke",
+    "text": "Stroke\n\nNon-infective fevers are commonly seen in patients with intracranial mass effects and occur earlier after stroke than infection\nUTI are common related to urinary catheterization"
+  },
+  {
+    "objectID": "FUO.html#neutropenic-patients",
+    "href": "FUO.html#neutropenic-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Neutropenic patients",
+    "text": "Neutropenic patients\n\nANC= Total WBC x (% Segs = % Bands)\nANC of < 500 cells/mm3 or an ANC that is expected to decrease to < 500 cells/mm3 during the next 48 h.\n\nThe term ''profound'' is sometimes used to describe neutropenia in which the ANC is,100 cells/mm3\n\nFever occurs frequently during chemotherapy-induced neutropenia: 1\n\n10%–50% of patients with solid tumors\n80% ofthose with hematologic malignancies will develop fever during>1 chemotherapy cycle associated with neutropenia\n\nMost patients will have no infectious etiology documented.\nSigns of inflammation are notoriously absent other than fever"
+  },
+  {
+    "objectID": "FUO.html#clinical-manifestations-of-infection-related-to-neutrophil-count",
+    "href": "FUO.html#clinical-manifestations-of-infection-related-to-neutrophil-count",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Clinical manifestations of infection related to neutrophil count",
+    "text": "Clinical manifestations of infection related to neutrophil count\n\n\n\n\n\n\n\n\n\n\nSigns and symptoms\nInfection\n% of patients with ANC< 100\n% of patients with ANC>1000\n\n\n\n\nFever\nOverall\n98\n76\n\n\nBacteremia\nOverall\n43\n13\n\n\nFluctuance\nAnorectal\n8\n67\n\n\nExudate\nSkin\n5\n92\n\n\nPurulent sputum\nPneumonia\n8\n84\n\n\nPyuria\nUTI\n11\n97\n\n\n\n\n(Sickles et al., 1975)"
+  },
+  {
+    "objectID": "FUO.html#impaired-cell-mediated-immunity",
+    "href": "FUO.html#impaired-cell-mediated-immunity",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Impaired cell-mediated immunity",
+    "text": "Impaired cell-mediated immunity"
+  },
+  {
+    "objectID": "FUO.html#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc",
+    "href": "FUO.html#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Clinical manifestations of infection related to absolute neutrophil count (ANC)",
+    "text": "Clinical manifestations of infection related to absolute neutrophil count (ANC)\n\n\n\n\n\n\n\n\n\n\nSigns and symptoms\nInfection\n% of patients with ANC< 100\n% of patients with ANC>1000\n\n\n\n\nFever\nOverall\n98\n76\n\n\nBacteremia\nOverall\n43\n13\n\n\nFluctuance\nAnorectal\n8\n67\n\n\nExudate\nSkin\n5\n92\n\n\nPurulent sputum\nPneumonia\n8\n84\n\n\nPyuria\nUTI\n11\n97\n\n\n\n\n\n(Sickles et al., 1975)"
+  },
+  {
+    "objectID": "FUO.html#fever-in-post-operative-patients",
+    "href": "FUO.html#fever-in-post-operative-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Fever in post-operative patients",
+    "text": "Fever in post-operative patients\n\n\nAlthough more than 1/3 of patients may manifest fever in first 5 days surgery, < 10% of febrile patients have an identified source\nPhysiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection"
+  },
+  {
+    "objectID": "FUO.html#fuo-in-icu-patients",
+    "href": "FUO.html#fuo-in-icu-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "FUO in ICU patients",
+    "text": "FUO in ICU patients\n\n\nEarly fevers are common, often non-infectious, associated with good prognosis\nProlonged fever- poorer prognosis\nSinusitis as a complication of mechanical ventilation, supine position, feeding tubes\nOther causes are similar to nosocomial infections\n\nAbscess\nDrug fever\npostoperative complications\nSeptic thrombophlebitis\nRecurrent pulmonary emboli\nMyocardial infarction"
+  },
+  {
+    "objectID": "FUO.html#fuo-in-stroke-patients",
+    "href": "FUO.html#fuo-in-stroke-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "FUO in stroke patients",
+    "text": "FUO in stroke patients\n\n\nNon-infective fevers are commonly seen in patients with intracranial mass effects and occur earlier after stroke than infection\nUTI are common related to urinary catheterization"
+  },
+  {
+    "objectID": "FUO.html#fuo-in-neutropenic-patients",
+    "href": "FUO.html#fuo-in-neutropenic-patients",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "FUO in neutropenic patients",
+    "text": "FUO in neutropenic patients\n\n\nANC= Total WBC x (% Segs + % Bands)\nANC of < 500 cells/mm3 or an ANC that is expected to decrease to < 500 cells/mm3 during the next 48 h.\n\nThe term ‘’profound’’ is sometimes used to describe neutropenia in which the ANC is < 100 cells/mm3\n\nFever occurs frequently during chemotherapy-induced neutropenia:\n\n10%–50% of patients with solid tumors\n80% of those with hematologic malignancies will develop fever during >1 chemotherapy cycle associated with neutropenia\n\nMost patients will have no infectious etiology documented.\nSigns of inflammation are notoriously absent other than fever"
+  },
+  {
+    "objectID": "FUO.html#the-history-of-fever",
+    "href": "FUO.html#the-history-of-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "The history of fever",
+    "text": "The history of fever\n\n\n10th Century BCE Persian Physician Akhawayni defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)\nHippocratic physicians proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile. Fever was due to excess of yellow bile (many infections caused jaundice)\nGalen: many types of fever developed from putrification of humors.\nMiddle ages: demonic possession\n18th century (Harvey’s discovery of circulation)- friction of blood flow through body causing fermentation and putrification in intestines\nClaude Bernard in the 19th century- metabolic processes in the body"
+  },
+  {
+    "objectID": "FUO.html#acute-phase-phenomena",
+    "href": "FUO.html#acute-phase-phenomena",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Acute phase phenomena",
+    "text": "Acute phase phenomena\n\n\n(Gabay and Kushner, 1999)"
+  },
+  {
+    "objectID": "FUO.html#possible-caused-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics",
+    "href": "FUO.html#possible-caused-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Possible caused of fever in neutropenic patients not responding to broad-spectrum antibiotics",
+    "text": "Possible caused of fever in neutropenic patients not responding to broad-spectrum antibiotics\n\n\n(Corey and Boeckh, 2002)"
+  },
+  {
+    "objectID": "FUO.html#cell-mediated-immunity-1",
+    "href": "FUO.html#cell-mediated-immunity-1",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Cell-mediated immunity-1",
+    "text": "Cell-mediated immunity-1\n\n\n\n(Playfair, J. and Bancroft, G., 2013)"
+  },
+  {
+    "objectID": "FUO.html#cell-mediated-immunity-2",
+    "href": "FUO.html#cell-mediated-immunity-2",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Cell-mediated immunity-2",
+    "text": "Cell-mediated immunity-2\n\n\n(Playfair, J. and Bancroft, G., 2013)"
+  },
+  {
+    "objectID": "FUO.html#cell-mediated-immunity-drug-allergy",
+    "href": "FUO.html#cell-mediated-immunity-drug-allergy",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Cell-mediated immunity-Drug allergy",
+    "text": "Cell-mediated immunity-Drug allergy\n\n\n(Playfair, J. and Bancroft, G., 2013)"
+  },
+  {
+    "objectID": "FUO.html#possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics",
+    "href": "FUO.html#possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics",
+    "text": "Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics\n\n\n(Corey and Boeckh, 2002)"
+  },
+  {
+    "objectID": "FUO.html#galileo-developed-a-thermometer-in-padova",
+    "href": "FUO.html#galileo-developed-a-thermometer-in-padova",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Galileo developed a thermometer in Padova",
+    "text": "Galileo developed a thermometer in Padova"
+  },
+  {
+    "objectID": "FUO.html#fever-in-modern-medicine",
+    "href": "FUO.html#fever-in-modern-medicine",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Fever in modern medicine",
+    "text": "Fever in modern medicine\n\n\nWunderlich’s pioneering studies of thermometry-normal 37°C\nSince the 19th century, humans have become gradually colder-0.05 to 0.5°C per decade\nCurrent normal range is 36.3 to 36.5°C\n\n\n\n\n(Mackowiak and Worden, 1994)"
+  },
+  {
+    "objectID": "FUO.html#galileo-developed-the-room-thermometer-in-padova",
+    "href": "FUO.html#galileo-developed-the-room-thermometer-in-padova",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Galileo developed the room thermometer in Padova",
+    "text": "Galileo developed the room thermometer in Padova"
+  },
+  {
+    "objectID": "FUO.html#infections-in-immunocompromised-hosts",
+    "href": "FUO.html#infections-in-immunocompromised-hosts",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Infections in immunocompromised hosts",
+    "text": "Infections in immunocompromised hosts"
+  },
+  {
+    "objectID": "FUO.html#naproxen-nsiad-fever-suppression-test",
+    "href": "FUO.html#naproxen-nsiad-fever-suppression-test",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Naproxen (NSIAD) fever suppression test",
+    "text": "Naproxen (NSIAD) fever suppression test"
+  },
+  {
+    "objectID": "FUO.html#hiv-related-fuo",
+    "href": "FUO.html#hiv-related-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "HIV-related FUO",
+    "text": "HIV-related FUO\n\nPrimary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion\nIn later phases of untreated HIV, episodes of fever become common and often signify a superimposed illness- e.g., opportunistic infections that manifest in atypical fashion\nOnce highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly"
+  },
+  {
+    "objectID": "FUO.html#etiology-of-fever-in-70-cases-if-hiv-associated-fuo",
+    "href": "FUO.html#etiology-of-fever-in-70-cases-if-hiv-associated-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Etiology of fever in 70 cases if HIV-Associated FUO",
+    "text": "Etiology of fever in 70 cases if HIV-Associated FUO\n\n\n\n\n\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#etiology-of-fever-in-hiv-associated-fuo-n70",
+    "href": "FUO.html#etiology-of-fever-in-hiv-associated-fuo-n70",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Etiology of fever in HIV-Associated FUO (n=70)",
+    "text": "Etiology of fever in HIV-Associated FUO (n=70)\n\n\n\n\n\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#diagnosis-of-fuo",
+    "href": "FUO.html#diagnosis-of-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Diagnosis of FUO",
+    "text": "Diagnosis of FUO"
+  },
+  {
+    "objectID": "FUO.html#general-diagnostic-evaluation-of-fuo",
+    "href": "FUO.html#general-diagnostic-evaluation-of-fuo",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "General diagnostic evaluation of FUO",
+    "text": "General diagnostic evaluation of FUO\n\n\n\n\n\n\nComprehensive history\n\n\n\n\nRepeated physical exams\n\n\nComplete blood count\n\n\nRoutine blood chemistry\n\n\nUrinalysis including microscopic examination\n\n\nChest radiograph\n\n\nErythrocyte sedimentation rate\n\n\nAntinuclear antibodies\n\n\nRheumatoid factor\n\n\nBlood cultures- three separate specimens in the absence of antimicrobial therapy\n\n\nCMV IgM antibodies or viral detection in blood\n\n\nHeterophil antibody test in children and young adults\n\n\nTuberculin skin test\n\n\nComputed tomography of abdomen, pelvis and other sites\n\n\nMRI/Radionucleotide scans\n\n\nHIV antibodies or viral detection assay\n\n\nFurther evaluation of any abnormality detected by above tests\n\n\nVarious duplex imaging of lower limbs\n\n\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#patient-history",
+    "href": "FUO.html#patient-history",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Patient history",
+    "text": "Patient history\n\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be give to:\n\nrecent travel\nexposure to pets and other animals\nwork environment\nrecent contact with people with similar symptoms\nfamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nlymphoma\nrheumatic fever\nintraabdominal disorders\n\nComplete list of medications"
+  },
+  {
+    "objectID": "FUO.html#verification-of-fever-and-fever-pattern",
+    "href": "FUO.html#verification-of-fever-and-fever-pattern",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Verification of fever and fever pattern",
+    "text": "Verification of fever and fever pattern"
   }
 ]
