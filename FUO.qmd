@@ -367,6 +367,21 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 </div>
 
+## Naproxen (NSIAD) fever suppression test
+
+-   A trial of naproxen may differentiate neoplastic from non-neoplastic fever
+    -   Temperature \>37.8°C at least once a day;
+
+    -   Duration of fever \>2 weeks;
+
+    -   Lack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);
+
+    -   Absence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);
+
+    -   Lack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;
+
+    -   Prompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen.
+
 ## Cell-mediated immunity-1
 
 <br>
@@ -404,8 +419,6 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 <br>
 
 ![](images/immunocomp.png){fig-align="center"}
-
-## Naproxen (NSIAD) fever suppression test
 
 ## HIV-related FUO
 
@@ -596,5 +609,125 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 [@wrightwilliamf__mackowiakphilipa_15]
 
 </div>
+
+## Laboratory investigations
+
+<br>
+
+"The cause is more often a *common* *disease* presenting in an *atypical fashion* than a *rare disease* presenting in a *typical fashion*.
+
+<br>
+
+-   Multiple diagnostic algorithms in the literature
+-   Must be selectively applies, or will result in excessive tests
+    -   False positives
+
+    -   Misguided treatment plans
+-   History and physical exam (most important) should guide the choice and sequence of tests
+
+## Examples of potential diagnostic clues
+
+![](images/diagnosticcludes.jpeg){fig-align="center"}
+
+<div>
+
+[@wrightwilliamf__mackowiakphilipa_15]
+
+</div>
+
+## Other diagnostic considerations-bone marrow biopsy
+
+<br>
+
+-   Granulomatous infections (e.g., tuberculosis, histoplasmosis, sarcoidosis)
+-   Patients with abnormal complete blood counts (CBC)
+
+## Imaging studies
+
+<br>
+
+-   Generally low diagnostic yield without localizing symptoms
+    -   CT of abdomen, chest
+
+    -   Ultrasound of gallbladder and hepatobiliary systems
+
+    -   CT pulmonary angiograms for pulmonary embolus
+
+    -   MRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)
+
+    -   Gallium-67 (^67^Ga) scanning
+
+## ^18^F-fluorodeoxyglucose (FDG) positron emission tomography (PET)
+
+![](images/pet1.png){fig-align="center"}
+
+<div>
+
+[@wright2021]
+
+[@kouijzer_etal18]
+
+</div>
+
+## F-fluorodeoxyglucose (FDG) positron emission tomography (PET)
+
+![](images/pet2.png){fig-align="center"}
+
+<div>
+
+[@kouijzer_etal18]
+
+</div>
+
+## Invasive diagnostic procedures
+
+<br> <br>
+
+-   Histopathological examination of tissues obtained by excisional biopsy , needle biopsy or laparotomy can provide definitive diagnosis in some cases
+
+-   Majority of FUO patients will undergo at least one procedure, sometimes several
+
+## Treatment {background-image="/images/thermometer.jpg" background-opacity="0.2"}
+
+<br>
+
+-   A fundamental principle in classic FUO is that therapy should be withheld, whenever possible, until the cause of fever is determined
+
+    -   Non-specific treatment rarely cures FUO
+
+    -   Delay the clinical diagnosis
+
+-   Clinical reality is that therapeutic trials with corticosteroids, aspirin, antimicrobial agents may be considered
+
+    -   May delay correct diagnosis/treatment
+
+    -   The road to diagnosis of FUO is, by definition, long and frustrating
+
+    -   Clinicians are often pressured to treat symptoms
+
+## Treatment is nearly always indicated
+
+<br>
+
+-   Empirical treatment with corticosteroids in patients with suspected temporal arteritis to prevent vascular complications such as blindness and stroke
+-   Febrile neutropenia: high prevalence of serious bacterial infections- patients should receive broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures are obtained
+-   Therapeutic trials with narrow spectrum therapy (e.g. anti-mycobacterial agents) may be considered in select cases with history suggestive of TB
+
+## Prognosis
+
+<br>
+
+-   Determined y the cause of fever and nature of underlying disease(s)
+-   Elderly patients with malignant neoplasms have the poorest prognosis
+-   Diagnostic delay associated with poorer prognosis in:
+    -   Intra-abdominal infections
+
+    -   Miliary tuberculosis
+
+    -   Disseminated fungal infections
+
+    -   Recurrent pulmonary emboli
+-   Patients with undiagnosed FUO after extensive evaluation still generally have a a favourable outcome, with most patients experiencing resolution of fever within 4 weeks without sequlae.
+    -   5-year mortality rates of 3%
 
 ## References
