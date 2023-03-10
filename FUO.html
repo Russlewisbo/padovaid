@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.3.47">
+
+  <title>Fever of Unknown Origin (FUO)</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-captioned.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-captioned) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-captioned.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-captioned .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-captioned .callout-caption  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-captioned.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-captioned.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-caption {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-caption {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-caption {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-captioned .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-captioned .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-captioned) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-caption {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-caption {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-caption {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-caption {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-caption {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="./images/bacteria.png" class="quarto-title-block center">
+  <h1 class="title">Fever of Unknown Origin (FUO)</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="fever-of-unknown-origin-fuo" class="slide level2" data-background-image="./images/bacteria.png">
+<h2>Fever of unknown origin (FUO)</h2>
+<p><br></p>
+<p><br></p>
+<p>Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 13 March 2023 <br> <br> <img data-src="800-unipd.svg" data-fig-align="left" width="300"></p>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
+</section>
+<section id="the-history-of-fever" class="slide level2" data-background-image="./images/hippocrates.jpg" data-background-opacity="0.2" data-background-size="contain">
+<h2>The history of fever</h2>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><strong>10th Century BCE Persian Physician Akhawayni</strong> defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)</li>
+<li class="fragment"><strong>Hippocratic physicians</strong> proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile.
+<ul>
+<li class="fragment">Fever was due to excess of yellow bile (many infections caused jaundice)</li>
+</ul></li>
+<li class="fragment"><strong>Galen:</strong> many types of fever developed from putrification of humors.</li>
+<li class="fragment"><strong>Middle ages:</strong> demonic possession</li>
+<li class="fragment"><strong>18th century (Harvey’s discovery of circulation)</strong>- friction of blood flow through body causing fermentation and putrification in intestines</li>
+<li class="fragment"><strong>Claude Bernard</strong> in the 19th century- metabolic processes in the body</li>
+</ul>
+</div>
+</section>
+<section id="febris--roman-goddess-of-fever" class="slide level2">
+<h2>Febris- Roman Goddess of Fever</h2>
+<p><br></p>
+
+<img data-src="images/Febris.png" width="600" class="r-stretch quarto-figure-center"><p><br></p>
+<p>The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.</p>
+</section>
+<section id="galileo-and-the-room-thermometer-in-padova" class="slide level2 smaller">
+<h2>Galileo and the room thermometer in Padova</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/Galileo.png" width="600"></p>
+</div><div class="column" style="width:50%;">
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Galileo thermometer.png" width="600"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="fever-in-modern-medicine" class="slide level2">
+<h2>Fever in modern medicine</h2>
+<ul>
+<li><p>Wunderlich’s pioneering studies of thermometry-normal 37°C</p></li>
+<li><p>Since the 19th century, humans have become gradually colder-0.05° to 0.5°C per decade</p></li>
+<li><p>Current normal range is 36.3 to 36.5°C</p></li>
+</ul>
+
+<img data-src="images/Wunderlich.png" width="600" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="mackowiak_worden94">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak and Worden, 1994</a>)</span></p>
+</div>
+</section>
+<section id="thermal-homeostasis" class="slide level2">
+<h2>Thermal homeostasis</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/thermoregulation.png" width="800"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="sajadimohammadm__mackowiakphilipa_">(<a href="#/references" role="doc-biblioref" onclick="">Sajadi, Mohammad M. and Mackowiak, Philip A., n.d.</a>)</span></p>
+</div></aside></section>
+<section id="infection-associated-fever" class="slide level2">
+<h2>Infection-associated fever</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/fever.png" width="800"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="sajadimohammadm__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Sajadi, Mohammad M. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div></aside></section>
+<section id="sequelae-of-fever" class="slide level2">
+<h2>Sequelae of fever</h2>
+<p><br></p>
+<ul>
+<li>Phylogenetic conservation of fever over the millennia suggests fever is beneficial</li>
+<li>Most pathogenic bacteria are mesophiles (35°C ideal for growth)</li>
+<li>Fever generates hepatic iron-sequestering compounds the bind free iron necessary for microbial replication</li>
+</ul>
+</section>
+<section id="acute-phase-proteins" class="slide level2">
+<h2>Acute phase proteins</h2>
+
+<img data-src="images/acutephase1.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="gabay_kushner99">(<a href="#/references" role="doc-biblioref" onclick="">Gabay and Kushner, 1999</a>)</span></p>
+</div>
+</section>
+<section id="acute-phase-phenomena" class="slide level2">
+<h2>Acute phase phenomena</h2>
+
+<img data-src="images/acutephase.png" width="600" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="gabay_kushner99">(<a href="#/references" role="doc-biblioref" onclick="">Gabay and Kushner, 1999</a>)</span></p>
+</div>
+</section>
+<section id="epidemiology-of-fuo--definitions" class="slide level2 smaller">
+<h2>Epidemiology of FUO- Definitions</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FUOdef.png" width="700"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="haidar_singh22">(<a href="#/references" role="doc-biblioref" onclick="">Haidar and Singh, 2022</a>)</span></p>
+</div></aside></section>
+<section id="classic-fuo" class="slide level2">
+<h2>Classic FUO</h2>
+<p><br></p>
+<ul>
+<li><strong>Definition:</strong>
+<ul>
+<li><p>Temperature of &gt; 38.3°C &gt; 3 weeks</p></li>
+<li><p>Fever &gt;2 separate outpatient visits with diagnostic investigations <em>or</em></p></li>
+<li><p>Fever &gt;2 visits in hospital of 3 days with diagnostic investigations</p>
+<ul>
+<li><em>However</em>, these definitions are largely subjective</li>
+</ul></li>
+</ul></li>
+<li><strong>Leading causes:</strong>
+<ul>
+<li><p>Cancer (age dependent)</p></li>
+<li><p>Infections (geography dependent)</p></li>
+<li><p>Inflammatory conditions (age dependent)</p></li>
+<li><p>Undiagnosed habitual hyperthermia</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="frequency-of-the-5-main-etiologic-categories-of-fuo" class="slide level2">
+<h2>Frequency of the 5 main etiologic categories of FUO</h2>
+<p>Infectious causes decrease in patients above age 65 years</p>
+
+<img data-src="images/FUOcat.png" width="600" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div>
+</section>
+<section id="classic-fuo--infectious-etiology" class="slide level2">
+<h2>Classic FUO- Infectious Etiology</h2>
+<ul>
+<li>Occult abscess</li>
+<li>Endocarditis</li>
+<li>Tuberculosis</li>
+<li>Complicated urinary tract infections</li>
+</ul>
+</section>
+<section id="classic-fuo-work-up" class="slide level2">
+<h2>Classic FUO work-up</h2>
+<div>
+<ul>
+<li class="fragment"><strong>Medical history emphasis:</strong>
+<ul>
+<li class="fragment"><p>Travel</p></li>
+<li class="fragment"><p>Contacts</p></li>
+<li class="fragment"><p>Animal and insect exposure</p></li>
+<li class="fragment"><p>Medications</p></li>
+<li class="fragment"><p>Immunizations</p></li>
+<li class="fragment"><p>Family history</p></li>
+<li class="fragment"><p>Cardiac valve disorder</p></li>
+</ul></li>
+<li class="fragment"><strong>Examination emphasis</strong>
+<ul>
+<li class="fragment">Fundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins</li>
+</ul></li>
+<li class="fragment"><strong>Investigation emphasis:</strong>
+<ul>
+<li class="fragment">Imaging, biopsies, sedimentation rate, skin tests</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="rare-and-miscellaneous-causes-of-fever" class="slide level2">
+<h2>Rare and miscellaneous causes of fever</h2>
+</section>
+<section id="distinctive-fever-patterns" class="slide level2 smaller">
+<h2>Distinctive fever patterns</h2>
+
+<img data-src="images/feverpatterns.png" width="1000" class="r-stretch quarto-figure-center"><p>A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin’s disease (Pel-Ebstein pattern); <br> D. Borreliosis (relapsing fever pattern)</p>
+<div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div>
+</section>
+<section id="classic-fuo-in-infants-and-children" class="slide level2">
+<h2>Classic FUO in infants and children</h2>
+<p><br></p>
+<ul>
+<li>Respiratory tract infections</li>
+<li>Other infections: UTIs, brucellosis, tuberculosis, bartonellosis</li>
+<li>Kawasaki disease (age &lt; 5 years)</li>
+<li>Inflammatory bowel diseases</li>
+<li>Still’s disease (juvenile rheumatoid arthritis)
+<ul>
+<li>However, connective tissue diseases and cancers are generally rare in children</li>
+</ul></li>
+<li>Joint involvement is an important sign of a potentially serious disorder- <em>e.g., connective tissue disease, endocarditis, leukemia</em></li>
+</ul>
+</section>
+<section id="classic-fuo-in-elderly-patients" class="slide level2">
+<h2>Classic FUO in elderly patients</h2>
+<p><br></p>
+<ul>
+<li><strong>In developed countries: connective tissue diseases &gt; infections</strong>
+<ul>
+<li><p>Temporal arteritis</p></li>
+<li><p>Polymyalgia rheumatic syndromes</p></li>
+</ul></li>
+<li><strong>Diagnoses are frequently missed because symptoms are subacute and non-specific</strong></li>
+<li><strong>Infections</strong>
+<ul>
+<li><p>intraabdominal abscess</p></li>
+<li><p>Complicated UTIs</p></li>
+<li><p>Tuberculosis</p></li>
+<li><p>Endocarditis</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="returning-travellers" class="slide level2">
+<h2>Returning travellers</h2>
+<p><br></p>
+
+<img data-src="images/traveler.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div>
+</section>
+<section id="nosocomial-health-care-associated-fuo" class="slide level2">
+<h2>Nosocomial (Health-Care Associated) FUO</h2>
+<p><br></p>
+<ul>
+<li><strong>Leading causes:</strong>
+<ul>
+<li><p>Drug fever</p></li>
+<li><p>Post-operative complications (e.g., occult abscess)</p></li>
+<li><p>Decubitus ulcers</p></li>
+<li><p>Septic thrombophlebitis</p></li>
+<li><p>Recurrent pulmonary emboli</p></li>
+<li><p>Myocardial infarction</p></li>
+<li><p>Cancer</p></li>
+<li><p>Blood transfusion</p></li>
+<li><p><em>Clostridium difficile</em> colitis</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="fever-in-post-operative-patients" class="slide level2">
+<h2>Fever in post-operative patients</h2>
+<p><br></p>
+<ul>
+<li>Although more than 1/3 of patients may manifest fever in first 5 days surgery, &lt; 10% of febrile patients have an identified source</li>
+<li>Physiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection</li>
+</ul>
+</section>
+<section id="fuo-in-icu-patients" class="slide level2">
+<h2>FUO in ICU patients</h2>
+<p><br></p>
+<ul>
+<li>Early fevers are common, often non-infectious, associated with good prognosis</li>
+<li>Prolonged fever- poorer prognosis</li>
+<li>Sinusitis as a complication of mechanical ventilation, supine position, feeding tubes</li>
+<li>Other causes are similar to nosocomial infections
+<ul>
+<li><p>Abscess</p></li>
+<li><p>Drug fever</p></li>
+<li><p>postoperative complications</p></li>
+<li><p>Septic thrombophlebitis</p></li>
+<li><p>Recurrent pulmonary emboli</p></li>
+<li><p>Myocardial infarction</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="fuo-in-stroke-patients" class="slide level2">
+<h2>FUO in stroke patients</h2>
+<p><br></p>
+<ul>
+<li>Non-infective fevers are commonly seen in patients with intracranial mass effects and occur earlier after stroke than infection</li>
+<li>UTI are common related to urinary catheterization</li>
+</ul>
+</section>
+<section id="fuo-in-neutropenic-patients" class="slide level2">
+<h2>FUO in neutropenic patients</h2>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><p>ANC= Total WBC x (% Segs + % Bands)</p></li>
+<li class="fragment"><p>ANC of &lt; 500 cells/mm<sup>3</sup> or an ANC that is expected to decrease to &lt; 500 cells/mm<sup>3</sup> during the next 48 h.</p>
+<ul>
+<li class="fragment">The term ‘’profound’’ is sometimes used to describe neutropenia in which the ANC is &lt; 100 cells/mm<sup>3</sup></li>
+</ul></li>
+<li class="fragment"><p>Fever occurs frequently during chemotherapy-induced neutropenia:</p>
+<ul>
+<li class="fragment"><p>10%–50% of patients with solid tumors</p></li>
+<li class="fragment"><p>80% of those with hematologic malignancies will develop fever during &gt;1 chemotherapy cycle associated with neutropenia</p></li>
+</ul></li>
+<li class="fragment"><p>Most patients will have no infectious etiology documented.</p></li>
+<li class="fragment"><p>Signs of inflammation are notoriously absent other than fever</p></li>
+</ul>
+</div>
+</section>
+<section id="clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc" class="slide level2">
+<h2>Clinical manifestations of infection related to absolute neutrophil count (ANC)</h2>
+<p><br></p>
+<table>
+<colgroup>
+<col style="width: 22%">
+<col style="width: 11%">
+<col style="width: 32%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Signs and symptoms</th>
+<th>Infection</th>
+<th>% of patients with ANC&lt; 100</th>
+<th>% of patients with ANC&gt;1000</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fever</strong></td>
+<td>Overall</td>
+<td>98</td>
+<td>76</td>
+</tr>
+<tr class="even">
+<td><strong>Bacteremia</strong></td>
+<td>Overall</td>
+<td>43</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td><strong>Fluctuance</strong></td>
+<td>Anorectal</td>
+<td>8</td>
+<td>67</td>
+</tr>
+<tr class="even">
+<td><strong>Exudate</strong></td>
+<td>Skin</td>
+<td>5</td>
+<td>92</td>
+</tr>
+<tr class="odd">
+<td><strong>Purulent sputum</strong></td>
+<td>Pneumonia</td>
+<td>8</td>
+<td>84</td>
+</tr>
+<tr class="even">
+<td><strong>Pyuria</strong></td>
+<td>UTI</td>
+<td>11</td>
+<td>97</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<div>
+<p><span class="citation" data-cites="sickles_etal75">(<a href="#/references" role="doc-biblioref" onclick="">Sickles et al., 1975</a>)</span></p>
+</div>
+</section>
+<section id="possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics" class="slide level2">
+<h2>Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics</h2>
+
+<img data-src="images/fuo_neutro.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="corey_boeckh02">(<a href="#/references" role="doc-biblioref" onclick="">Corey and Boeckh, 2002</a>)</span></p>
+</div>
+</section>
+<section id="naproxen-nsiad-fever-suppression-test" class="slide level2">
+<h2>Naproxen (NSIAD) fever suppression test</h2>
+<ul>
+<li>A trial of naproxen may differentiate neoplastic from non-neoplastic fever
+<ul>
+<li><p>Temperature &gt;37.8°C at least once a day;</p></li>
+<li><p>Duration of fever &gt;2 weeks;</p></li>
+<li><p>Lack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);</p></li>
+<li><p>Absence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);</p></li>
+<li><p>Lack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;</p></li>
+<li><p>Prompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="cell-mediated-immunity-1" class="slide level2">
+<h2>Cell-mediated immunity-1</h2>
+<p><br></p>
+
+<img data-src="images/CMI_Th1.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
+</div>
+</section>
+<section id="cell-mediated-immunity-2" class="slide level2">
+<h2>Cell-mediated immunity-2</h2>
+
+<img data-src="images/CMI_Th2.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
+</div>
+</section>
+<section id="cell-mediated-immunity-drug-allergy" class="slide level2">
+<h2>Cell-mediated immunity-Drug allergy</h2>
+
+<img data-src="images/CMI_allergy.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
+</div>
+</section>
+<section id="infections-in-immunocompromised-hosts" class="slide level2">
+<h2>Infections in immunocompromised hosts</h2>
+<p><br></p>
+
+<img data-src="images/immunocomp.png" class="r-stretch quarto-figure-center"></section>
+<section id="hiv-related-fuo" class="slide level2">
+<h2>HIV-related FUO</h2>
+<ul>
+<li>Primary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion</li>
+<li>In later phases of untreated HIV, episodes of fever become common and often signify a superimposed illness- e.g., opportunistic infections that manifest in atypical fashion</li>
+<li>Once highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly</li>
+</ul>
+</section>
+<section id="etiology-of-fever-in-hiv-associated-fuo-n70" class="slide level2 smaller">
+<h2>Etiology of fever in HIV-Associated FUO (n=70)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FUO_HIV.png" width="500"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div></aside></section>
+<section id="diagnosis-of-fuo" class="slide level2" data-background-image="./images/thermometer.jpg">
+<h2>Diagnosis of FUO</h2>
+</section>
+<section id="general-diagnostic-evaluation-of-fuo" class="slide level2">
+<h2>General diagnostic evaluation of FUO</h2>
+<table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Comprehensive history</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repeated physical exams</td>
+</tr>
+<tr class="even">
+<td>Complete blood count</td>
+</tr>
+<tr class="odd">
+<td>Routine blood chemistry</td>
+</tr>
+<tr class="even">
+<td>Urinalysis including microscopic examination</td>
+</tr>
+<tr class="odd">
+<td>Chest radiograph</td>
+</tr>
+<tr class="even">
+<td>Erythrocyte sedimentation rate</td>
+</tr>
+<tr class="odd">
+<td>Antinuclear antibodies</td>
+</tr>
+<tr class="even">
+<td>Rheumatoid factor</td>
+</tr>
+<tr class="odd">
+<td>Blood cultures- three separate specimens in the absence of antimicrobial therapy</td>
+</tr>
+<tr class="even">
+<td>CMV IgM antibodies or viral detection in blood</td>
+</tr>
+<tr class="odd">
+<td>Heterophil antibody test in children and young adults</td>
+</tr>
+<tr class="even">
+<td>Tuberculin skin test</td>
+</tr>
+<tr class="odd">
+<td>Computed tomography of abdomen, pelvis and other sites</td>
+</tr>
+<tr class="even">
+<td>MRI/Radionucleotide scans</td>
+</tr>
+<tr class="odd">
+<td>HIV antibodies or viral detection assay</td>
+</tr>
+<tr class="even">
+<td>Further evaluation of any abnormality detected by above tests</td>
+</tr>
+<tr class="odd">
+<td>Various duplex imaging of lower limbs</td>
+</tr>
+</tbody>
+</table>
+<div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div>
+</section>
+<section id="patient-history" class="slide level2">
+<h2>Patient history</h2>
+<p><br> ::: incremental</p>
+<ul>
+<li><strong>Helps guide choice of initial laboratory investigations</strong></li>
+<li><strong>Particular attention should be give to:</strong>
+<ul>
+<li><p>recent travel</p></li>
+<li><p>exposure to pets and other animals</p></li>
+<li><p>work environment</p></li>
+<li><p>recent contact with people with similar symptoms</p></li>
+<li><p>family history (e.g., familial Mediterranean fever)</p></li>
+</ul></li>
+<li><strong>Prior history of FUO</strong></li>
+<li><strong>Previously diagnosed conditions</strong>
+<ul>
+<li><p>lymphoma</p></li>
+<li><p>rheumatic fever</p></li>
+<li><p>intraabdominal disorders</p></li>
+</ul></li>
+<li><strong>Complete list of medications</strong></li>
+</ul>
+<p>:::</p>
+</section>
+<section id="verification-of-fever-and-fever-pattern" class="slide level2">
+<h2>Verification of fever and fever pattern</h2>
+<p><br></p>
+<ul>
+<li>Seems obvious, but often overlooked</li>
+<li>In some series, up to 30% where determined not to have fever</li>
+<li>Fever patterns- arcane terminology:
+<ul>
+<li><em>remittent, intermittent, hectic, quotidian, sustained, quartan, saddleback fevers</em></li>
+</ul></li>
+<li>Fever patterns are affected by:
+<ul>
+<li><p>Hydration, ambient temperature</p></li>
+<li><p>Accuracy of temperature measurements</p></li>
+<li><p>Use of antipyretics, corticosteroids</p></li>
+<li><p>Blood transfusions, other medical interventions <em>etc.</em></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="continuous-sustained-fever" class="slide level2">
+<h2>Continuous sustained fever</h2>
+<p><br></p>
+<ul>
+<li>Continuous (sustained) fever with slight remission not exceed 2°C
+<ul>
+<li>Lobar and Gram negative pneumonia</li>
+<li>Rickettsiosis</li>
+<li>Typhoid fever</li>
+<li>CNS disorders</li>
+<li>Tularemia</li>
+<li>Falciparum (malignant tertian) malaria :::</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/continuous.png" width="500"></p>
+</figure>
+</div>
+
+<aside><div>
+
+</div></aside></section>
+<section id="intermittent-fever" class="slide level2">
+<h2>Intermittent fever</h2>
+<p><br></p>
+<ul>
+<li>Intermittent (septic, quotidian, “picket fence”) fever with wide fluctuations, usually norma or low in the morning and peaking between 4:00 and 8:00 PM
+<ul>
+<li>Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis</li>
+<li>Malaria (often with leukopenia) may present with daily (quotidian) daily spike or (tertian) spike every 3rd day, or (quartan) spike every 4th day.</li>
+<li>Double quotidian patter (two daily spikes) aen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis</li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="saddle-back-biphasic" class="slide level2">
+<h2>Saddle-back (biphasic)</h2>
+<p><br></p>
+<ul>
+<li>Several days of fever, distinct reductio in fever for ~ 1 day, and then several days of higher fever
+<ul>
+<li>Dengue and yellow fever</li>
+<li>Colorado tick fever</li>
+<li>Rift valley Fever</li>
+<li>Influenzae and other viral infections</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/saddle.png" width="500"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="intermittent-hectic-charcots-fever" class="slide level2">
+<h2>Intermittent hectic (Charcot’s) fever</h2>
+<p><br></p>
+<ul>
+<li>Sporadic episodes of fever, periods of noram temperature with recurrence
+<ul>
+<li>Frequently seen in cholangitis associated with cholelithiasis, jaundice, leukocytosis and toxic signs</li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="pel-ebstein-fever" class="slide level2">
+<h2>Pel-Ebstein fever</h2>
+<p><br></p>
+<ul>
+<li>Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
+<ul>
+<li>Hodgkin’s disease</li>
+<li>Brucellosis due to <em>Brucella melitensis</em></li>
+<li>Occasionally tuberculosiso</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/pelebstein.png" width="500"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="typus-inversus" class="slide level2">
+<h2>Typus Inversus</h2>
+<p><br> - Reversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening - Miliary TB - Salmonelloses - Hepatic abscess - Bacterial endocarditis</p>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="jarisch-herxheimer-reaction" class="slide level2">
+<h2>Jarisch-Herxheimer reaction</h2>
+<ul>
+<li>Sharply increased elevation of temperature with shivers and chills occurs within several hours after starting penicillin therapy
+<ul>
+<li>Primary or secondary syphilis Leptospirosis or tick-borne relapsing fever</li>
+<li>Tetracycline or chloramphenicol therapy for acute brucellosis</li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="physical-examination" class="slide level2">
+<h2>Physical examination</h2>
+<ul>
+<li>Some signs are subtle and may require repeated exams to be appreciated</li>
+<li>Vigorous search for lymphadenopathy (consideration for biopsy)</li>
+</ul>
+
+<img data-src="images/clinicalsigns.jpeg" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div>
+</section>
+<section id="laboratory-investigations" class="slide level2">
+<h2>Laboratory investigations</h2>
+<p><br></p>
+<p>“The cause is more often a <em>common</em> <em>disease</em> presenting in an <em>atypical fashion</em> than a <em>rare disease</em> presenting in a <em>typical fashion</em>.</p>
+<p><br></p>
+<ul>
+<li>Multiple diagnostic algorithms in the literature</li>
+<li>Must be selectively applies, or will result in excessive tests
+<ul>
+<li><p>False positives</p></li>
+<li><p>Misguided treatment plans</p></li>
+</ul></li>
+<li>History and physical exam (most important) should guide the choice and sequence of tests</li>
+</ul>
+</section>
+<section id="examples-of-potential-diagnostic-clues" class="slide level2">
+<h2>Examples of potential diagnostic clues</h2>
+
+<img data-src="images/diagnosticcludes.jpeg" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div>
+</section>
+<section id="other-diagnostic-considerations-bone-marrow-biopsy" class="slide level2">
+<h2>Other diagnostic considerations-bone marrow biopsy</h2>
+<p><br></p>
+<ul>
+<li>Granulomatous infections (e.g., tuberculosis, histoplasmosis, sarcoidosis)</li>
+<li>Patients with abnormal complete blood counts (CBC)</li>
+</ul>
+</section>
+<section id="imaging-studies" class="slide level2">
+<h2>Imaging studies</h2>
+<p><br></p>
+<ul>
+<li>Generally low diagnostic yield without localizing symptoms
+<ul>
+<li><p>CT of abdomen, chest</p></li>
+<li><p>Ultrasound of gallbladder and hepatobiliary systems</p></li>
+<li><p>CT pulmonary angiograms for pulmonary embolus</p></li>
+<li><p>MRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)</p></li>
+<li><p>Gallium-67 (<sup>67</sup>Ga) scanning</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet" class="slide level2">
+<h2><sup>18</sup>F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</h2>
+
+<img data-src="images/pet1.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="wright2021">(<a href="#/references" role="doc-biblioref" onclick=""><strong>wright2021?</strong></a>)</span></p>
+<p><span class="citation" data-cites="kouijzer_etal18">(<a href="#/references" role="doc-biblioref" onclick="">Kouijzer et al., 2018</a>)</span></p>
+</div>
+</section>
+<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1" class="slide level2">
+<h2>F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</h2>
+
+<img data-src="images/pet2.png" class="r-stretch quarto-figure-center"><div>
+<p><span class="citation" data-cites="kouijzer_etal18">(<a href="#/references" role="doc-biblioref" onclick="">Kouijzer et al., 2018</a>)</span></p>
+</div>
+</section>
+<section id="invasive-diagnostic-procedures" class="slide level2">
+<h2>Invasive diagnostic procedures</h2>
+<p><br> <br></p>
+<ul>
+<li><p>Histopathological examination of tissues obtained by excisional biopsy , needle biopsy or laparotomy can provide definitive diagnosis in some cases</p></li>
+<li><p>Majority of FUO patients will undergo at least one procedure, sometimes several</p></li>
+</ul>
+</section>
+<section id="treatment" class="slide level2" data-background-image="./images/thermometer.jpg" data-background-opacity="0.2">
+<h2>Treatment</h2>
+<p><br></p>
+<ul>
+<li><p>A fundamental principle in classic FUO is that therapy should be withheld, whenever possible, until the cause of fever is determined</p>
+<ul>
+<li><p>Non-specific treatment rarely cures FUO</p></li>
+<li><p>Delay the clinical diagnosis</p></li>
+</ul></li>
+<li><p>Clinical reality is that therapeutic trials with corticosteroids, aspirin, antimicrobial agents may be considered</p>
+<ul>
+<li><p>May delay correct diagnosis/treatment</p></li>
+<li><p>The road to diagnosis of FUO is, by definition, long and frustrating</p></li>
+<li><p>Clinicians are often pressured to treat symptoms</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="treatment-is-nearly-always-indicated" class="slide level2">
+<h2>Treatment is nearly always indicated</h2>
+<p><br></p>
+<ul>
+<li>Empirical treatment with corticosteroids in patients with suspected temporal arteritis to prevent vascular complications such as blindness and stroke</li>
+<li>Febrile neutropenia: high prevalence of serious bacterial infections- patients should receive broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures are obtained</li>
+<li>Therapeutic trials with narrow spectrum therapy (e.g.&nbsp;anti-mycobacterial agents) may be considered in select cases with history suggestive of TB</li>
+</ul>
+</section>
+<section id="prognosis" class="slide level2">
+<h2>Prognosis</h2>
+<p><br></p>
+<ul>
+<li>Determined y the cause of fever and nature of underlying disease(s)</li>
+<li>Elderly patients with malignant neoplasms have the poorest prognosis</li>
+<li>Diagnostic delay associated with poorer prognosis in:
+<ul>
+<li><p>Intra-abdominal infections</p></li>
+<li><p>Miliary tuberculosis</p></li>
+<li><p>Disseminated fungal infections</p></li>
+<li><p>Recurrent pulmonary emboli</p></li>
+</ul></li>
+<li>Patients with undiagnosed FUO after extensive evaluation still generally have a a favourable outcome, with most patients experiencing resolution of fever within 4 weeks without sequlae.
+<ul>
+<li>5-year mortality rates of 3%</li>
+</ul></li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+<div class="footer footer-default">
+
+</div>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-corey_boeckh02" class="csl-entry" role="doc-biblioentry">
+Corey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. <a href="https://doi.org/10.1056/NEJM200201243460402">https://doi.org/10.1056/NEJM200201243460402</a>.
+</div>
+<div id="ref-gabay_kushner99" class="csl-entry" role="doc-biblioentry">
+Gabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. <a href="https://doi.org/10.1056/NEJM199902113400607">https://doi.org/10.1056/NEJM199902113400607</a>.
+</div>
+<div id="ref-haidar_singh22" class="csl-entry" role="doc-biblioentry">
+Haidar G, Singh N. Fever of <span>Unknown Origin</span>. New England Journal of Medicine 2022;386:463–77. <a href="https://doi.org/10.1056/NEJMra2111003">https://doi.org/10.1056/NEJMra2111003</a>.
+</div>
+<div id="ref-kouijzer_etal18" class="csl-entry" role="doc-biblioentry">
+Kouijzer IJE, Mulders-Manders CM, Bleeker-Rovers CP, Oyen WJG. Fever of <span>Unknown Origin</span>: The <span>Value</span> of <span>FDG-PET</span>/<span>CT</span>. Seminars in Nuclear Medicine 2018;48:100–7. <a href="https://doi.org/10.1053/j.semnuclmed.2017.11.004">https://doi.org/10.1053/j.semnuclmed.2017.11.004</a>.
+</div>
+<div id="ref-mackowiak_etal97a" class="csl-entry" role="doc-biblioentry">
+Mackowiak PA, Bartlett JG, Borden EC, Goldblum SE, Hasday JD, Munford RS, et al. <a href="https://www.jstor.org/stable/4460093">Concepts of <span>Fever</span>: <span>Recent Advances</span> and <span>Lingering Dogma</span></a>. Clinical Infectious Diseases 1997;25:119–38.
+</div>
+<div id="ref-mackowiak_worden94" class="csl-entry" role="doc-biblioentry">
+Mackowiak PA, Worden G. Carl <span>Reinhold August Wunderlich</span> and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. <a href="https://doi.org/10.1093/clinids/18.3.458">https://doi.org/10.1093/clinids/18.3.458</a>.
+</div>
+<div id="ref-playfairj__bancroftg_13" class="csl-entry" role="doc-biblioentry">
+Playfair, J., Bancroft, G. Infection and <span>Immunity</span>, 4th <span>Edition</span>. <span>Oxford University Press</span>; 2013.
+</div>
+<div id="ref-sajadimohammadm__mackowiakphilipa_" class="csl-entry" role="doc-biblioentry">
+Sajadi, Mohammad M., Mackowiak, Philip A. Temperature <span>Regulation</span> and the <span>Pathogenesis</span> of <span>Fever</span>. Principles and <span>Practice</span> of <span>Infectious Diseases</span>, 8th <span>Edition</span>, <span>Elsevier Health Sciences</span>; n.d., p. 4739–452.
+</div>
+<div id="ref-sajadimohammadm__mackowiakphilipa_15" class="csl-entry" role="doc-biblioentry">
+Sajadi, Mohammad M., Mackowiak, Philip A. Temperature <span>Regulation</span> and the <span>Pathogenesis</span> of <span>Fever</span>. Principles and <span>Practice</span> of <span>Infectious Diseases</span>, 8th <span>Edition</span>, <span>London</span>: <span>Elsevier Health Sciences</span>; 2015, p. 4739–520.
+</div>
+<div id="ref-sickles_etal75" class="csl-entry" role="doc-biblioentry">
+Sickles EA, Greene WH, Wiernik PH. <a href="https://www.ncbi.nlm.nih.gov/pubmed/1052668">Clinical presentation of infection in granulocytopenic patients</a>. Archives of Internal Medicine 1975;135:715–9.
+</div>
+<div id="ref-wrightwilliamf__mackowiakphilipa_15" class="csl-entry" role="doc-biblioentry">
+Wright, William F., Mackowiak, Philip A. Principles and <span>Practice</span> of <span>Infectious Diseases</span>, 8th <span>Edition</span>. Fever of <span>Unknown Origin</span>, <span>Elsevier Health Sciences</span>; 2015.
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'multiplex': {"secret":null,"id":"4039684912b0abbc","url":"https://reveal-multiplex.glitch.me/"},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        target: function(trigger) {
+          return trigger.previousElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto-reveal',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
