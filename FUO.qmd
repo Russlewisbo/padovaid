@@ -13,7 +13,7 @@ format:
     incremental: false
     multiplex: true
     chalkboard: true
-    theme: [default, custom.scss]
+    theme: [simple, custom2.scss]
 bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
@@ -341,7 +341,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 <br>
 
 | Signs and symptoms  | Infection | \% of patients with ANC\< 100 | \% of patients with ANC\>1000 |
-|-----------------|-----------------|--------------------|--------------------|
+|----------------|----------------|---------------------|---------------------|
 | **Fever**           | Overall   | 98                            | 76                            |
 | **Bacteremia**      | Overall   | 43                            | 13                            |
 | **Fluctuance**      | Anorectal | 8                             | 67                            |
