@@ -11,7 +11,7 @@
     "href": "FUO.html#objectives",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Objectives",
-    "text": "Objectives"
+    "text": "Objectives\n\n\nRecognize leading infectious causes of FUO in key patient groups\nIdentify key fever patterns and clinical histories that may direct diagnosis\nDifferentiate FUO risks and possible spectum of pathogens in immunocompromised hosts"
   },
   {
     "objectID": "FUO.html#the-history-of-fever",
@@ -109,14 +109,14 @@
     "href": "FUO.html#classic-fuo--infectious-etiology",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO- Infectious Etiology",
-    "text": "Classic FUO- Infectious Etiology\n\nOccult abscess\nEndocarditis\nTuberculosis\nComplicated urinary tract infections"
+    "text": "Classic FUO- Infectious Etiology\n\n\nOccult abscess\nEndocarditis\nTuberculosis\nComplicated urinary tract infections"
   },
   {
     "objectID": "FUO.html#classic-fuo-work-up",
     "href": "FUO.html#classic-fuo-work-up",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Classic FUO work-up",
-    "text": "Classic FUO work-up\n\n\nMedical history emphasis:\n\nTravel\nContacts\nAnimal and insect exposure\nMedications\nImmunizations\nFamily history\nCardiac valve disorder\n\nExamination emphasis\n\nFundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins\n\nInvestigation emphasis:\n\nImaging, biopsies, sedimentation rate, skin tests"
+    "text": "Classic FUO work-up\n\n\n\nMedical history emphasis:\n\nTravel\nContacts\nAnimal and insect exposure\nMedications\nImmunizations\nFamily history\nCardiac valve disorder\n\nExamination emphasis\n\nFundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins\n\nInvestigation emphasis:\n\nImaging, biopsies, sedimentation rate, skin tests"
   },
   {
     "objectID": "FUO.html#rare-and-miscellaneous-causes-of-fever",
@@ -124,13 +124,6 @@
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Rare and miscellaneous causes of fever",
     "text": "Rare and miscellaneous causes of fever"
-  },
-  {
-    "objectID": "FUO.html#distinctive-fever-patterns",
-    "href": "FUO.html#distinctive-fever-patterns",
-    "title": "Fever of Unknown Origin (FUO)",
-    "section": "Distinctive fever patterns",
-    "text": "Distinctive fever patterns\n\nA. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin’s disease (Pel-Ebstein pattern);  D. Borreliosis (relapsing fever pattern)\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
   },
   {
     "objectID": "FUO.html#classic-fuo-in-infants-and-children",
@@ -172,7 +165,7 @@
     "href": "FUO.html#fuo-in-icu-patients",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "FUO in ICU patients",
-    "text": "FUO in ICU patients\n\n\nEarly fevers are common, often non-infectious, associated with good prognosis\nProlonged fever- poorer prognosis\nSinusitis as a complication of mechanical ventilation, supine position, feeding tubes\nOther causes are similar to nosocomial infections\n\nAbscess\nDrug fever\npostoperative complications\nSeptic thrombophlebitis\nRecurrent pulmonary emboli\nMyocardial infarction"
+    "text": "FUO in ICU patients\n\n\nEarly fevers are common, often non-infectious, associated with good prognosis\nProlonged fever carries a poorer prognosis\nSinusitis as a complication of mechanical ventilation, supine position, feeding tubes\nOther causes are similar to nosocomial infections in non-ICU patients\n\nAbscess\nDrug fever\nPostoperative complications\nSeptic thrombophlebitis\nRecurrent pulmonary emboli\nMyocardial infarction"
   },
   {
     "objectID": "FUO.html#fuo-in-stroke-patients",
@@ -207,7 +200,7 @@
     "href": "FUO.html#naproxen-nsiad-fever-suppression-test",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Naproxen (NSIAD) fever suppression test",
-    "text": "Naproxen (NSIAD) fever suppression test\n\nA trial of naproxen may differentiate neoplastic from non-neoplastic fever\n\nTemperature >37.8°C at least once a day;\nDuration of fever >2 weeks;\nLack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);\nAbsence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);\nLack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;\nPrompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen."
+    "text": "Naproxen (NSIAD) fever suppression test\n\n\nA trial of naproxen may differentiate neoplastic from non-neoplastic fever\n\nTemperature >37.8°C at least once a day;\nDuration of fever >2 weeks;\nLack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);\nAbsence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);\nLack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;\nPrompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen."
   },
   {
     "objectID": "FUO.html#cell-mediated-immunity-1",
@@ -242,7 +235,7 @@
     "href": "FUO.html#hiv-related-fuo",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "HIV-related FUO",
-    "text": "HIV-related FUO\n\nPrimary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion\nIn later phases of untreated HIV, episodes of fever become common and often signify a superimposed illness- e.g., opportunistic infections that manifest in atypical fashion\nOnce highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly"
+    "text": "HIV-related FUO\n\n\nPrimary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion\nIn later phases of untreated HIV, episodes of fever become common and often signify a superimposed illness- e.g., opportunistic infections that manifest in atypical fashion\nOnce highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly"
   },
   {
     "objectID": "FUO.html#etiology-of-fever-in-hiv-associated-fuo-n70",
@@ -270,49 +263,56 @@
     "href": "FUO.html#patient-history",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Patient history",
-    "text": "Patient history\n\n\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be give to:\n\nrecent travel\nexposure to pets and other animals\nwork environment\nrecent contact with people with similar symptoms\nfamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nlymphoma\nrheumatic fever\nintraabdominal disorders\n\nComplete list of medications"
+    "text": "Patient history\n\n\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be given to:\n\nRecent travel\nExposure to pets and other animals\nWork environment\nRecent contact with people with similar symptoms\nFamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nLymphoma\nRheumatic fever\nIntraabdominal disorders\n\nComplete list of medications"
   },
   {
     "objectID": "FUO.html#verification-of-fever-and-fever-pattern",
     "href": "FUO.html#verification-of-fever-and-fever-pattern",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Verification of fever and fever pattern",
-    "text": "Verification of fever and fever pattern\n\n\nSeems obvious, but often overlooked\nIn some series, up to 30% where determined not to have fever\nFever patterns- arcane terminology:\n\nremittent, intermittent, hectic, quotidian, sustained, quartan, saddleback fevers\n\nFever patterns are affected by:\n\nHydration, ambient temperature\nAccuracy of temperature measurements\nUse of antipyretics, corticosteroids\nBlood transfusions, other medical interventions etc."
+    "text": "Verification of fever and fever pattern\n\n\nObvious,… but often overlooked\nIn some series, up to 30% referred for FUO where determined to not have fever\nFever patterns- arcane terminology:\n\nremittent, intermittent, hectic, quotidian, sustained, quartan, saddleback fevers\n\nFever patterns are affected by:\n\nHydration, ambient temperature\nAccuracy of temperature measurements\nUse of antipyretics, corticosteroids\nBlood transfusions, other medical interventions etc."
   },
   {
     "objectID": "FUO.html#continuous-sustained-fever",
     "href": "FUO.html#continuous-sustained-fever",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Continuous sustained fever",
-    "text": "Continuous sustained fever\n\n\nContinuous (sustained) fever with slight remission not exceed 2°C\n\nLobar and Gram negative pneumonia\nRickettsiosis\nTyphoid fever\nCNS disorders\nTularemia\nFalciparum (malignant tertian) malaria :::"
+    "text": "Continuous sustained fever\n\n\nContinuous (sustained) fever with slight remission not exceed 2°C\n\nLobar and Gram negative pneumonia\nRickettsiosis\nTyphoid fever\nCNS disorders\nTularemia\nFalciparum (malignant tertian) malaria\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#malaria-fever",
+    "href": "FUO.html#malaria-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Malaria fever",
+    "text": "Malaria fever\n\nFebrile paroxysms may occur every other day for P. vivax, P. ovale, and P. falciparum and every third day for P. malariae. Paroxysms occurring at regular intervals are more common in the setting of infection due to P. vivax or P. ovale than P. falciparum. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently."
   },
   {
     "objectID": "FUO.html#intermittent-fever",
     "href": "FUO.html#intermittent-fever",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Intermittent fever",
-    "text": "Intermittent fever\n\n\nIntermittent (septic, quotidian, “picket fence”) fever with wide fluctuations, usually norma or low in the morning and peaking between 4:00 and 8:00 PM\n\nLocalized pyogenic infections and bacterial endocarditis with chills and leukocytosis\nMalaria (often with leukopenia) may present with daily (quotidian) daily spike or (tertian) spike every 3rd day, or (quartan) spike every 4th day.\nDouble quotidian patter (two daily spikes) aen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis\n\n\n\n\n(Mackowiak et al., 1997)"
+    "text": "Intermittent fever\n\n\nIntermittent (septic, quotidian, “picket fence”) fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM\n\nLocalized pyogenic infections and bacterial endocarditis with chills and leukocytosis\nMalaria (often with leukopenia) may present with daily (quotidian) daily spike or (tertian) spike every 3rd day, or (quartan) spike every 4th day.\nDouble quotidian patter (two daily spikes) seen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis\n\n\n\n\n(Mackowiak et al., 1997)"
   },
   {
     "objectID": "FUO.html#saddle-back-biphasic",
     "href": "FUO.html#saddle-back-biphasic",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Saddle-back (biphasic)",
-    "text": "Saddle-back (biphasic)\n\n\nSeveral days of fever, distinct reductio in fever for ~ 1 day, and then several days of higher fever\n\nDengue and yellow fever\nColorado tick fever\nRift valley Fever\nInfluenzae and other viral infections\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
+    "text": "Saddle-back (biphasic)\n\n\nSeveral days of fever, distinct reduction in fever for ~ 1 day, and then several days of higher fever\n\nDengue and yellow fever\nColorado tick fever\nRift valley Fever\nInfluenzae and other viral infections\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
   },
   {
     "objectID": "FUO.html#intermittent-hectic-charcots-fever",
     "href": "FUO.html#intermittent-hectic-charcots-fever",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Intermittent hectic (Charcot’s) fever",
-    "text": "Intermittent hectic (Charcot’s) fever\n\n\nSporadic episodes of fever, periods of noram temperature with recurrence\n\nFrequently seen in cholangitis associated with cholelithiasis, jaundice, leukocytosis and toxic signs\n\n\n\n\n(Mackowiak et al., 1997)"
+    "text": "Intermittent hectic (Charcot’s) fever\n\n\nSporadic episodes of fever, periods of normal temperature with recurrence\n\nFrequently seen in cholangitis associated with cholelithiasis, jaundice, leukocytosis and toxic signs\n\n\n\n\n(Mackowiak et al., 1997)"
   },
   {
     "objectID": "FUO.html#pel-ebstein-fever",
     "href": "FUO.html#pel-ebstein-fever",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Pel-Ebstein fever",
-    "text": "Pel-Ebstein fever\n\n\nWeekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle\n\nHodgkin’s disease\nBrucellosis due to Brucella melitensis\nOccasionally tuberculosiso\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
+    "text": "Pel-Ebstein fever\n\n\nWeekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle\n\nHodgkin’s disease\nBrucellosis due to Brucella melitensis\nOccasionally tuberculosis\n\n\n\n\n\n\n\n\n\n(Mackowiak et al., 1997)"
   },
   {
     "objectID": "FUO.html#typus-inversus",
@@ -320,6 +320,13 @@
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Typus Inversus",
     "text": "Typus Inversus\n\n\nReversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening\n\nMiliary TB\nSalmonelloses\nHepatic abscess\nBacterial endocarditis\n\n\n\n\n(Mackowiak et al., 1997)"
+  },
+  {
+    "objectID": "FUO.html#typhoid-fever",
+    "href": "FUO.html#typhoid-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Typhoid fever",
+    "text": "Typhoid fever"
   },
   {
     "objectID": "FUO.html#jarisch-herxheimer-reaction",
@@ -361,7 +368,7 @@
     "href": "FUO.html#imaging-studies",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Imaging studies",
-    "text": "Imaging studies\n\n\nGenerally low diagnostic yield without localizing symptoms\n\nCT of abdomen, chest\nUltrasound of gallbladder and hepatobiliary systems\nCT pulmonary angiograms for pulmonary embolus\nMRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)\nGallium-67 (67Ga) scanning (becoming less common)"
+    "text": "Imaging studies\n\n\nGenerally low diagnostic yield without localizing symptoms\n\nCT of abdomen, chest\nUltrasound of gallbladder and hepatobiliary systems\nCT pulmonary angiograms for pulmonary embolus\nMRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)\nThe indium 111- tagged white blood cell (WBC) scan (becoming less comon)\nGallium-67 (67Ga) scan (replaced by PET-CT)"
   },
   {
     "objectID": "FUO.html#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet",
@@ -392,11 +399,11 @@
     "text": "Treatment\n\n\nA fundamental principle in classic FUO is that therapy should be withheld until the cause of fever is determined\n\nNon-specific treatment rarely “cures” FUO\nEmpiric treatment may delay the clinical diagnosis\n\nClinical reality is that therapeutic trials with corticosteroids, aspirin, antimicrobial agents may be considered\n\nMay delay correct diagnosis/treatment\nThe road to diagnosis of FUO is, by definition, long and frustrating\nClinicians are often pressured to treat symptoms"
   },
   {
-    "objectID": "FUO.html#treatment-is-nearly-always-indicated",
-    "href": "FUO.html#treatment-is-nearly-always-indicated",
+    "objectID": "FUO.html#when-is-immediate-treatment-indicated",
+    "href": "FUO.html#when-is-immediate-treatment-indicated",
     "title": "Fever of Unknown Origin (FUO)",
-    "section": "Treatment is nearly always indicated",
-    "text": "Treatment is nearly always indicated\n\n\nEmpirical treatment with corticosteroids in patients with suspected temporal arteritis to prevent vascular complications such as blindness and stroke\nFebrile neutropenia: high prevalence of serious bacterial infections- patients should receive broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures are obtained\nTherapeutic trials with narrow spectrum therapy (e.g. anti-mycobacterial agents) may be considered in select cases with history suggestive of TB"
+    "section": "When is immediate treatment indicated?",
+    "text": "When is immediate treatment indicated?\n\n\nEmpirical treatment with corticosteroids in patients with suspected temporal arteritis to prevent vascular complications such as blindness and stroke\nFebrile neutropenia or other severely immunocompromised patients: high prevalence of serious bacterial infections- patients should receive broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures are obtained\nTherapeutic trials with narrow spectrum therapy (e.g. anti-mycobacterial agents) may be considered in select cases with history suggestive of TB"
   },
   {
     "objectID": "FUO.html#prognosis",
@@ -504,6 +511,13 @@
     "text": "Granulocytopenia\n\nInfection rateFatality rate\n\n\n  (Bodey et al., 1966)\n\n\n  (Bodey et al., 1966)"
   },
   {
+    "objectID": "immunosuppression.html#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc",
+    "href": "immunosuppression.html#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Clinical manifestations of infection related to absolute neutrophil count (ANC)",
+    "text": "Clinical manifestations of infection related to absolute neutrophil count (ANC)\n\n\n\n\n\n\n\n\n\n\nSigns and symptoms\nInfection\n% of patients with ANC< 100\n% of patients with ANC>1000\n\n\n\n\nFever\nOverall\n98\n76\n\n\nBacteremia\nOverall\n43\n13\n\n\nFluctuance\nAnorectal\n8\n67\n\n\nExudate\nSkin\n5\n92\n\n\nPurulent sputum\nPneumonia\n8\n84\n\n\nPyuria\nUTI\n11\n97\n\n\n\n\n\n(Sickles et al., 1975)"
+  },
+  {
     "objectID": "immunosuppression.html#typical-antimicrobial-flora",
     "href": "immunosuppression.html#typical-antimicrobial-flora",
     "title": "Infections in the Immunocompromised Host",
@@ -550,7 +564,7 @@
     "href": "immunosuppression.html#references",
     "title": "Infections in the Immunocompromised Host",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\nBodey GP, Buckley M, Sathe YS, Freireich EJ. Quantitative relationships between circulating leukocytes and infection in patients with acute leukemia. Annals of Internal Medicine 1966;64:328–40."
+    "text": "References\n\n\n\n\n\n\nBodey GP, Buckley M, Sathe YS, Freireich EJ. Quantitative relationships between circulating leukocytes and infection in patients with acute leukemia. Annals of Internal Medicine 1966;64:328–40.\n\n\nSickles EA, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9."
   },
   {
     "objectID": "Allergies.html",
