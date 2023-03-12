@@ -70,6 +70,13 @@
     "text": "Acute phase proteins\n\n\n(Gabay and Kushner, 1999)"
   },
   {
+    "objectID": "FUO.html#role-of-acute-phase-proteins",
+    "href": "FUO.html#role-of-acute-phase-proteins",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Role of acute phase proteins",
+    "text": "Role of acute phase proteins"
+  },
+  {
     "objectID": "FUO.html#acute-phase-phenomena",
     "href": "FUO.html#acute-phase-phenomena",
     "title": "Fever of Unknown Origin (FUO)",
@@ -179,7 +186,7 @@
     "href": "FUO.html#fuo-in-neutropenic-patients",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "FUO in neutropenic patients",
-    "text": "FUO in neutropenic patients\n\n\n\nANC= Total WBC x (% Segs + % Bands)\nANC of < 500 cells/mm3 or an ANC that is expected to decrease to < 500 cells/mm3 during the next 48 h.\n\nThe term ‘’profound’’ is sometimes used to describe neutropenia in which the ANC is < 100 cells/mm3\n\nFever occurs frequently during chemotherapy-induced neutropenia:\n\n10%–50% of patients with solid tumors\n80% of those with hematologic malignancies will develop fever during >1 chemotherapy cycle associated with neutropenia\n\nMost patients will have no infectious etiology documented.\nSigns of inflammation are notoriously absent other than fever"
+    "text": "FUO in neutropenic patients\n\n\n\nANC= Total WBC x (% Segs + % Bands)\nANC of < 500 cells/mm3 or an ANC that is expected to decrease to < 500 cells/mm3 during the next 48 h.\n\nThe term “profound” is sometimes used to describe neutropenia in which the ANC is < 100 cells/mm3\n\nFever occurs frequently during chemotherapy-induced neutropenia:\n\n10%–50% of patients with solid tumors\n80% of those with hematologic malignancies will develop fever during >1 chemotherapy cycle associated with neutropenia\n\nMost patients will have no infectious etiology documented.\nSigns of inflammation are notoriously absent other than fever"
   },
   {
     "objectID": "FUO.html#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc",
@@ -263,7 +270,7 @@
     "href": "FUO.html#patient-history",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Patient history",
-    "text": "Patient history\n ::: incremental\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be give to:\n\nrecent travel\nexposure to pets and other animals\nwork environment\nrecent contact with people with similar symptoms\nfamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nlymphoma\nrheumatic fever\nintraabdominal disorders\n\nComplete list of medications\n\n:::"
+    "text": "Patient history\n\n\n\nHelps guide choice of initial laboratory investigations\nParticular attention should be give to:\n\nrecent travel\nexposure to pets and other animals\nwork environment\nrecent contact with people with similar symptoms\nfamily history (e.g., familial Mediterranean fever)\n\nPrior history of FUO\nPreviously diagnosed conditions\n\nlymphoma\nrheumatic fever\nintraabdominal disorders\n\nComplete list of medications"
   },
   {
     "objectID": "FUO.html#verification-of-fever-and-fever-pattern",
@@ -312,14 +319,14 @@
     "href": "FUO.html#typus-inversus",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Typus Inversus",
-    "text": "Typus Inversus\n - Reversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening - Miliary TB - Salmonelloses - Hepatic abscess - Bacterial endocarditis\n\n\n(Mackowiak et al., 1997)"
+    "text": "Typus Inversus\n\n\nReversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening\n\nMiliary TB\nSalmonelloses\nHepatic abscess\nBacterial endocarditis\n\n\n\n\n(Mackowiak et al., 1997)"
   },
   {
     "objectID": "FUO.html#jarisch-herxheimer-reaction",
     "href": "FUO.html#jarisch-herxheimer-reaction",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Jarisch-Herxheimer reaction",
-    "text": "Jarisch-Herxheimer reaction\n\nSharply increased elevation of temperature with shivers and chills occurs within several hours after starting penicillin therapy\n\nPrimary or secondary syphilis Leptospirosis or tick-borne relapsing fever\nTetracycline or chloramphenicol therapy for acute brucellosis\n\n\n\n\n(Mackowiak et al., 1997)"
+    "text": "Jarisch-Herxheimer reaction\n\n\n\nSharply increased elevation of temperature with shivers and chills occurs within several hours after starting penicillin therapy\n\nPrimary or secondary syphilis Leptospirosis or tick-borne relapsing fever\nTetracycline or chloramphenicol therapy for acute brucellosis\n\n\n\n\n(Mackowiak et al., 1997)"
   },
   {
     "objectID": "FUO.html#physical-examination",
@@ -333,7 +340,7 @@
     "href": "FUO.html#laboratory-investigations",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Laboratory investigations",
-    "text": "Laboratory investigations\n\n“The cause is more often a common disease presenting in an atypical fashion than a rare disease presenting in a typical fashion.\n\n\nMultiple diagnostic algorithms in the literature\nMust be selectively applies, or will result in excessive tests\n\nFalse positives\nMisguided treatment plans\n\nHistory and physical exam (most important) should guide the choice and sequence of tests"
+    "text": "Laboratory investigations\n\n“The cause is more often a common disease presenting in an atypical fashion than a rare disease presenting in a typical fashion.\n\nMultiple diagnostic algorithms in the literature\nMust be selectively applied or will result in excessive unfocused diagnositc testing\n\nFalse positives\nMisguided treatment plans\n\nHistory and physical exam (most important) should guide the choice and sequence of tests"
   },
   {
     "objectID": "FUO.html#examples-of-potential-diagnostic-clues",
@@ -343,46 +350,46 @@
     "text": "Examples of potential diagnostic clues\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
   },
   {
-    "objectID": "FUO.html#other-diagnostic-considerations-bone-marrow-biopsy",
-    "href": "FUO.html#other-diagnostic-considerations-bone-marrow-biopsy",
+    "objectID": "FUO.html#bone-marrow-biopsy",
+    "href": "FUO.html#bone-marrow-biopsy",
     "title": "Fever of Unknown Origin (FUO)",
-    "section": "Other diagnostic considerations-bone marrow biopsy",
-    "text": "Other diagnostic considerations-bone marrow biopsy\n\n\nGranulomatous infections (e.g., tuberculosis, histoplasmosis, sarcoidosis)\nPatients with abnormal complete blood counts (CBC)"
+    "section": "Bone marrow biopsy",
+    "text": "Bone marrow biopsy\n\n\nGranulomatous infections (e.g., tuberculosis, histoplasmosis, sarcoidosis)\nPatients with abnormal complete blood counts (CBC)"
   },
   {
     "objectID": "FUO.html#imaging-studies",
     "href": "FUO.html#imaging-studies",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Imaging studies",
-    "text": "Imaging studies\n\n\nGenerally low diagnostic yield without localizing symptoms\n\nCT of abdomen, chest\nUltrasound of gallbladder and hepatobiliary systems\nCT pulmonary angiograms for pulmonary embolus\nMRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)\nGallium-67 (67Ga) scanning"
+    "text": "Imaging studies\n\n\nGenerally low diagnostic yield without localizing symptoms\n\nCT of abdomen, chest\nUltrasound of gallbladder and hepatobiliary systems\nCT pulmonary angiograms for pulmonary embolus\nMRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)\nGallium-67 (67Ga) scanning (becoming less common)"
   },
   {
     "objectID": "FUO.html#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet",
     "href": "FUO.html#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "18F-fluorodeoxyglucose (FDG) positron emission tomography (PET)",
-    "text": "18F-fluorodeoxyglucose (FDG) positron emission tomography (PET)\n\n\n(wright2021?)\n(Kouijzer et al., 2018)"
+    "text": "18F-fluorodeoxyglucose (FDG) positron emission tomography (PET)\n\n\n\n(de Kleijn et al., 1997; Wright et al., 2021)"
   },
   {
     "objectID": "FUO.html#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1",
     "href": "FUO.html#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "F-fluorodeoxyglucose (FDG) positron emission tomography (PET)",
-    "text": "F-fluorodeoxyglucose (FDG) positron emission tomography (PET)\n\n\n(Kouijzer et al., 2018)"
+    "text": "F-fluorodeoxyglucose (FDG) positron emission tomography (PET)\n\n\n\n(Kouijzer et al., 2018)"
   },
   {
     "objectID": "FUO.html#invasive-diagnostic-procedures",
     "href": "FUO.html#invasive-diagnostic-procedures",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Invasive diagnostic procedures",
-    "text": "Invasive diagnostic procedures\n \n\nHistopathological examination of tissues obtained by excisional biopsy , needle biopsy or laparotomy can provide definitive diagnosis in some cases\nMajority of FUO patients will undergo at least one procedure, sometimes several"
+    "text": "Invasive diagnostic procedures\n \n\nHistopathological examination of tissues obtained by excisional biopsy , needle biopsy or laparotomy can provide definitive diagnosis in some cases\nMajority of FUO patients will undergo at least one procedure"
   },
   {
     "objectID": "FUO.html#treatment",
     "href": "FUO.html#treatment",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Treatment",
-    "text": "Treatment\n\n\nA fundamental principle in classic FUO is that therapy should be withheld, whenever possible, until the cause of fever is determined\n\nNon-specific treatment rarely cures FUO\nDelay the clinical diagnosis\n\nClinical reality is that therapeutic trials with corticosteroids, aspirin, antimicrobial agents may be considered\n\nMay delay correct diagnosis/treatment\nThe road to diagnosis of FUO is, by definition, long and frustrating\nClinicians are often pressured to treat symptoms"
+    "text": "Treatment\n\n\nA fundamental principle in classic FUO is that therapy should be withheld until the cause of fever is determined\n\nNon-specific treatment rarely “cures” FUO\nEmpiric treatment may delay the clinical diagnosis\n\nClinical reality is that therapeutic trials with corticosteroids, aspirin, antimicrobial agents may be considered\n\nMay delay correct diagnosis/treatment\nThe road to diagnosis of FUO is, by definition, long and frustrating\nClinicians are often pressured to treat symptoms"
   },
   {
     "objectID": "FUO.html#treatment-is-nearly-always-indicated",
@@ -403,7 +410,7 @@
     "href": "FUO.html#references",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\nCorey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. https://doi.org/10.1056/NEJM200201243460402.\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nKouijzer IJE, Mulders-Manders CM, Bleeker-Rovers CP, Oyen WJG. Fever of Unknown Origin: The Value of FDG-PET/CT. Seminars in Nuclear Medicine 2018;48:100–7. https://doi.org/10.1053/j.semnuclmed.2017.11.004.\n\n\nMackowiak PA, Bartlett JG, Borden EC, Goldblum SE, Hasday JD, Munford RS, et al. Concepts of Fever: Recent Advances and Lingering Dogma. Clinical Infectious Diseases 1997;25:119–38.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nPlayfair, J., Bancroft, G. Infection and Immunity, 4th Edition. Oxford University Press; 2013.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nSickles EA, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of Unknown Origin, Elsevier Health Sciences; 2015."
+    "text": "References\n\n\n\n\n\n\nCorey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. https://doi.org/10.1056/NEJM200201243460402.\n\n\nde Kleijn EM, Vandenbroucke JP, van der Meer JW. Fever of unknown origin (FUO). I A. Prospective multicenter study of 167 patients with FUO, using fixed epidemiologic entry criteria. The Netherlands FUO Study Group. Medicine 1997;76:392–400. https://doi.org/10.1097/00005792-199711000-00002.\n\n\nGabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. The New England Journal of Medicine 1999;340:448–54. https://doi.org/10.1056/NEJM199902113400607.\n\n\nHaidar G, Singh N. Fever of Unknown Origin. New England Journal of Medicine 2022;386:463–77. https://doi.org/10.1056/NEJMra2111003.\n\n\nKouijzer IJE, Mulders-Manders CM, Bleeker-Rovers CP, Oyen WJG. Fever of Unknown Origin: The Value of FDG-PET/CT. Seminars in Nuclear Medicine 2018;48:100–7. https://doi.org/10.1053/j.semnuclmed.2017.11.004.\n\n\nMackowiak PA, Bartlett JG, Borden EC, Goldblum SE, Hasday JD, Munford RS, et al. Concepts of Fever: Recent Advances and Lingering Dogma. Clinical Infectious Diseases 1997;25:119–38.\n\n\nMackowiak PA, Worden G. Carl Reinhold August Wunderlich and the evolution of clinical thermometry. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1994;18:458–67. https://doi.org/10.1093/clinids/18.3.458.\n\n\nPlayfair, J., Bancroft, G. Infection and Immunity, 4th Edition. Oxford University Press; 2013.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, Elsevier Health Sciences; n.d., p. 4739–452.\n\n\nSajadi, Mohammad M., Mackowiak, Philip A. Temperature Regulation and the Pathogenesis of Fever. Principles and Practice of Infectious Diseases, 8th Edition, London: Elsevier Health Sciences; 2015, p. 4739–520.\n\n\nSickles EA, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9.\n\n\nWright WF, Auwaerter PG, Dibble EH, Rowe SP, Mackowiak PA. Imaging a Fever-Redefining the Role of 2-deoxy-2-[18F]Fluoro-D-Glucose-Positron Emission Tomography/Computed Tomography in Fever of Unknown Origin Investigations. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 2021;72:1279–86. https://doi.org/10.1093/cid/ciaa1220.\n\n\nWright, William F., Mackowiak, Philip A. Principles and Practice of Infectious Diseases, 8th Edition. Fever of Unknown Origin, Elsevier Health Sciences; 2015."
   },
   {
     "objectID": "Index.html#welcome",
@@ -425,6 +432,125 @@
     "title": "Antimicrobial Resitance in ESCAPE Pathogens",
     "section": "Background reading",
     "text": "Background reading\nRecent comprehensive review of antimicrobial resistance in ESKAPE pathogens ESKAPE review\nInfectious Diseases Society of America Guidelines for Treating ESBL, CRE and Pseudomonas IDSA1\nInfectious Diseases Society of America Guidelines for Treating AMP-C beta-lactamases, Carbapenem-resistant Acinetobacter spp. and Stenotrophomonas IDSA2\nESCMID Guidelines for treatment of MDR Gram-Negative Organisms ESCMID\nExcellent review on AMP-C resistance AMP-C\nExcellent review on role of new antibiotics for carbapenem-resistant pathogens new agents"
+  },
+  {
+    "objectID": "immunosuppression.html#infections-in-the-immunocompromised-host-febrile-neutropenia",
+    "href": "immunosuppression.html#infections-in-the-immunocompromised-host-febrile-neutropenia",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Infections in the Immunocompromised Host Febrile Neutropenia",
+    "text": "Infections in the Immunocompromised Host Febrile Neutropenia\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
+  },
+  {
+    "objectID": "immunosuppression.html#objectives",
+    "href": "immunosuppression.html#objectives",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Objectives",
+    "text": "Objectives\n\n\nReview common immunosuppression risk factors for infection in patients undergoing treatment for cancer/hematological malignancies\nAnticipate most likely infections based on the the types of immunosuppression\nDefine appropriate prophylaxis and treatment strategies for immunocompromised hosts"
+  },
+  {
+    "objectID": "immunosuppression.html#microbial-colonization",
+    "href": "immunosuppression.html#microbial-colonization",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Microbial colonization",
+    "text": "Microbial colonization"
+  },
+  {
+    "objectID": "immunosuppression.html#healthy-hosts",
+    "href": "immunosuppression.html#healthy-hosts",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Healthy hosts",
+    "text": "Healthy hosts\n\n\nProtection against most pathogens through complex and redundant network of:\n\nProtective surfaces\nCells (e.g., granulocytes, macrophages, NK cells)\nSoluble factors (antibody, complement)\nResident microbiota (competition for binding sites and available nutrients as well as shaping the immune system)"
+  },
+  {
+    "objectID": "immunosuppression.html#classification-of-the-immunosuppressed-host",
+    "href": "immunosuppression.html#classification-of-the-immunosuppressed-host",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Classification of the immunosuppressed host",
+    "text": "Classification of the immunosuppressed host"
+  },
+  {
+    "objectID": "immunosuppression.html#deficiencies-in-host-defences",
+    "href": "immunosuppression.html#deficiencies-in-host-defences",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Deficiencies in host defences",
+    "text": "Deficiencies in host defences\n\n\nAlthough certain organisms can infect patients with specific immune defects, it is not always predictable\nBasic patterns are recognizable, but the types and severity of complications is often unpredictable\n\nSingle, isolated deficiencies are the exception rather than the rule\nMultiple defence mechanisms are often affected\n\ne.g., chemotherapy → mucosal barrier injury + neutropenia\ne.g., stem cell transplantation → chemotherapy → immunosuppressive therapy + delayed reconstitution of adaptive immunity + graft versus host disease (GVHD)"
+  },
+  {
+    "objectID": "immunosuppression.html#innate-immune-system",
+    "href": "immunosuppression.html#innate-immune-system",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Innate immune system",
+    "text": "Innate immune system\n\n\nPlayfair and Bancroft. Infection and Immunity 4th Edition"
+  },
+  {
+    "objectID": "immunosuppression.html#effector-mechanisms-and-targets-of-the-innate-immune-system",
+    "href": "immunosuppression.html#effector-mechanisms-and-targets-of-the-innate-immune-system",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Effector mechanisms and targets of the innate immune system",
+    "text": "Effector mechanisms and targets of the innate immune system"
+  },
+  {
+    "objectID": "immunosuppression.html#chemotherapy-effects-on-granulocytes",
+    "href": "immunosuppression.html#chemotherapy-effects-on-granulocytes",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Chemotherapy effects on granulocytes",
+    "text": "Chemotherapy effects on granulocytes\n\n\n\nVirtually all antineoplastic drugs in the treatment of malignant diseases have a deleterious effect on the proliferation of normal hematopoietic progenitor cells\nEffects are enhanced by radiation (depending on dose, rate, site)\n\nObliteration of the mitotic pool\nDepletion of the marrow reserve\n\nAntineoplastic drugs, glucocorticoids and irradiation also interfere with the function of non-proliferating granulocytes, resulting in\n\nDecreased chemotaxis\nDiminished phagocytic capacity\nDefective intracellular killing\n\nGlucocorticoids seem to enhance granulocytopoiesis and mobilize the marginal and marrow pool reserve, but\n\nreduce accumulation of granuloytes at site of infection (reduced adherence)\ndiminished chemotactic activity\ndecreased phagocytosis and intracellular killing"
+  },
+  {
+    "objectID": "immunosuppression.html#granulocytopenia",
+    "href": "immunosuppression.html#granulocytopenia",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Granulocytopenia",
+    "text": "Granulocytopenia\n\nInfection rateFatality rate\n\n\n  (Bodey et al., 1966)\n\n\n  (Bodey et al., 1966)"
+  },
+  {
+    "objectID": "immunosuppression.html#typical-antimicrobial-flora",
+    "href": "immunosuppression.html#typical-antimicrobial-flora",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Typical antimicrobial flora",
+    "text": "Typical antimicrobial flora"
+  },
+  {
+    "objectID": "immunosuppression.html#infection-model",
+    "href": "immunosuppression.html#infection-model",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Infection model",
+    "text": "Infection model"
+  },
+  {
+    "objectID": "immunosuppression.html#microbiologically-defined-bacterial-infections",
+    "href": "immunosuppression.html#microbiologically-defined-bacterial-infections",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Microbiologically defined bacterial infections",
+    "text": "Microbiologically defined bacterial infections"
+  },
+  {
+    "objectID": "immunosuppression.html#immunodeficiencies-and-assocaited-pathogens-1",
+    "href": "immunosuppression.html#immunodeficiencies-and-assocaited-pathogens-1",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Immunodeficiencies and assocaited pathogens #1",
+    "text": "Immunodeficiencies and assocaited pathogens #1"
+  },
+  {
+    "objectID": "immunosuppression.html#types-of-infection-versus-phases-of-neutropenia",
+    "href": "immunosuppression.html#types-of-infection-versus-phases-of-neutropenia",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Types of infection versus phases of neutropenia",
+    "text": "Types of infection versus phases of neutropenia"
+  },
+  {
+    "objectID": "immunosuppression.html#prolonged-neutropenia-is-a-risk-for-invasive-mold-disease",
+    "href": "immunosuppression.html#prolonged-neutropenia-is-a-risk-for-invasive-mold-disease",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "Prolonged neutropenia is a risk for invasive mold disease",
+    "text": "Prolonged neutropenia is a risk for invasive mold disease"
+  },
+  {
+    "objectID": "immunosuppression.html#references",
+    "href": "immunosuppression.html#references",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nBodey GP, Buckley M, Sathe YS, Freireich EJ. Quantitative relationships between circulating leukocytes and infection in patients with acute leukemia. Annals of Internal Medicine 1966;64:328–40."
   },
   {
     "objectID": "Allergies.html",
