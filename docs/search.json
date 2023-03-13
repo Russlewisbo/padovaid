@@ -196,13 +196,6 @@
     "text": "Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics\n\n\n(Corey and Boeckh, 2002)"
   },
   {
-    "objectID": "FUO.html#naproxen-nsiad-fever-suppression-test",
-    "href": "FUO.html#naproxen-nsiad-fever-suppression-test",
-    "title": "Fever of Unknown Origin (FUO)",
-    "section": "Naproxen (NSIAD) fever suppression test",
-    "text": "Naproxen (NSIAD) fever suppression test\n\n\nA trial of naproxen may differentiate neoplastic from non-neoplastic fever\n\nTemperature >37.8°C at least once a day;\nDuration of fever >2 weeks;\nLack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);\nAbsence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);\nLack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;\nPrompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen."
-  },
-  {
     "objectID": "FUO.html#cell-mediated-immunity-1",
     "href": "FUO.html#cell-mediated-immunity-1",
     "title": "Fever of Unknown Origin (FUO)",
@@ -243,6 +236,13 @@
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Etiology of fever in HIV-Associated FUO (n=70)",
     "text": "Etiology of fever in HIV-Associated FUO (n=70)\n\n\n\n\n\n\n\n(Wright, William F. and Mackowiak, Philip A., 2015)"
+  },
+  {
+    "objectID": "FUO.html#naproxen-nsiad-fever-suppression-test-for-tumor-fever",
+    "href": "FUO.html#naproxen-nsiad-fever-suppression-test-for-tumor-fever",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Naproxen (NSIAD) fever suppression test for “tumor fever”",
+    "text": "Naproxen (NSIAD) fever suppression test for “tumor fever”\n\n\nA trial of naproxen may differentiate neoplastic from non-neoplastic fever\n\nTemperature >37.8°C at least once a day;\nDuration of fever >2 weeks;\nLack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);\nAbsence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);\nLack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;\nPrompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen."
   },
   {
     "objectID": "FUO.html#diagnosis-of-fuo",
@@ -399,6 +399,13 @@
     "text": "Treatment\n\n\nA fundamental principle in classic FUO is that therapy should be withheld until the cause of fever is determined\n\nNon-specific treatment rarely “cures” FUO\nEmpiric treatment may delay the clinical diagnosis\n\nClinical reality is that therapeutic trials with corticosteroids, aspirin, antimicrobial agents may be considered\n\nMay delay correct diagnosis/treatment\nThe road to diagnosis of FUO is, by definition, long and frustrating\nClinicians are often pressured to treat symptoms"
   },
   {
+    "objectID": "FUO.html#diagnostic-summary",
+    "href": "FUO.html#diagnostic-summary",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Diagnostic summary",
+    "text": "Diagnostic summary\n\n\n(Wright and Auwaerter, 2020)"
+  },
+  {
     "objectID": "FUO.html#when-is-immediate-treatment-indicated",
     "href": "FUO.html#when-is-immediate-treatment-indicated",
     "title": "Fever of Unknown Origin (FUO)",
@@ -445,7 +452,7 @@
     "href": "FUOpage.html",
     "title": "Fever of Unknown Origin (FUO)",
     "section": "",
-    "text": "Lecture slides can be accessed here"
+    "text": "Lecture slides can be accessed here\nPDF version of the slides can be downloaded here"
   },
   {
     "objectID": "FUOpage.html#background-reading",
@@ -614,19 +621,5 @@
     "title": "Principles of Antibiotic Therapy",
     "section": "Links to Prof. Sebastian Wicha’s online precision antibiotic dosing models",
     "text": "Links to Prof. Sebastian Wicha’s online precision antibiotic dosing models\nClick on this link: TDMx\n Note: The UNIPD Proxy may block the TDMx landing page for the models, but individual drug model pages demonstrated in class still seemed to be accessible through the proxy:\nGentamicin  Vancomycin  Meropenem"
-  },
-  {
-    "objectID": "FUO.html#diagnostic-summary",
-    "href": "FUO.html#diagnostic-summary",
-    "title": "Fever of Unknown Origin (FUO)",
-    "section": "Diagnostic summary",
-    "text": "Diagnostic summary\n\n\n(Wright and Auwaerter, 2020)"
-  },
-  {
-    "objectID": "FUO.html#naproxen-nsiad-fever-suppression-test-for-tumor-fever",
-    "href": "FUO.html#naproxen-nsiad-fever-suppression-test-for-tumor-fever",
-    "title": "Fever of Unknown Origin (FUO)",
-    "section": "Naproxen (NSIAD) fever suppression test for “tumor fever”",
-    "text": "Naproxen (NSIAD) fever suppression test for “tumor fever”\n\n\nA trial of naproxen may differentiate neoplastic from non-neoplastic fever\n\nTemperature >37.8°C at least once a day;\nDuration of fever >2 weeks;\nLack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);\nAbsence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);\nLack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;\nPrompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen."
   }
 ]

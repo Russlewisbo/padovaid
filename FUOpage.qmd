@@ -8,6 +8,8 @@ editor: visual
 
 Lecture slides can be accessed [here](https://russlewisbo.github.io/padovaid/FUO.html#/fever-of-unknown-origin-fuo)
 
+PDF version of the slides can be downloaded [here](fuo.pdf)
+
 ## Background reading:
 
 Recent review on FUO in [NEJM](NEJM.pdf) <br> Excellent review on FUO in [OFID](Wright2020.pdf) <br> Classic review on fever patterns and classic [FUO Dogma](dogma1997.pdf) <br>

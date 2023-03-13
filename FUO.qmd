@@ -748,8 +748,6 @@ Febrile paroxysms may occur every other day for *P. vivax*, *P. ovale*, and *P. 
 
     -   Clinicians are often pressured to treat symptoms
 
-    -   
-
 ## Diagnostic summary
 
 ![](diagnosis.jpeg){fig-align="center" width="800"}
