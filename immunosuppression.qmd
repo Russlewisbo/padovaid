@@ -18,7 +18,7 @@ bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Infections in the Immunocompromised Host {background-image="/images/bacteria.png"}
+## Infections in the Immunocompromised Host <br>Febrile Neutropenia {background-image="/images/bacteria.png"}
 
 <br>
 
@@ -28,11 +28,17 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Objectives
 
+<br>
+
 -   Review common immunosuppression risk factors for infection in patients undergoing treatment for cancer/hematological malignancies
 -   Anticipate most likely infections based on the the types of immunosuppression
 -   Define appropriate prophylaxis and treatment strategies for immunocompromised hosts
 
-## Healthy host
+## Microbial colonization
+
+![](images_immune/flora.jpeg){fig-align="center"}
+
+## Healthy hosts
 
 <br>
 
@@ -45,7 +51,9 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
     -   Resident microbiota (competition for binding sites and available nutrients as well as shaping the immune system)
 
-## Immunosuppressed host
+## Classification of the immunosuppressed host {.smaller}
+
+<br> <br>
 
 ![](images_immune/immunodeficiency.png){fig-align="center"}
 
@@ -62,34 +70,98 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
         -   e.g., chemotherapy → mucosal barrier injury + neutropenia
 
         -   e.g., stem cell transplantation → chemotherapy → immunosuppressive therapy + delayed reconstitution of adaptive immunity + graft versus host disease (GVHD)
--   
 
 ## Innate immune system
 
-![](images_immune/Innate_immune_system.png){fig-align="center"}
+![](images_immune/innate.png){fig-align="center"}
 
 <div>
 
-Architha Srinivasan, Cambridge University
+Playfair and Bancroft. *Infection and Immunity 4th Edition*
 
 </div>
+
+## Effector mechanisms and targets of the innate immune system
+
+![](images_immune/innatekilling.png){fig-align="center"}
+
+## Chemotherapy effects on granulocytes
+
+<br>
+
+::: incremental
+-   Virtually all antineoplastic drugs in the treatment of malignant diseases have a deleterious effect on the proliferation of normal hematopoietic progenitor cells
+-   Effects are enhanced by radiation (depending on dose, rate, site)
+    -   Obliteration of the mitotic pool
+
+    -   Depletion of the marrow reserve
+-   Antineoplastic drugs, glucocorticoids and irradiation also interfere with the function of non-proliferating granulocytes, resulting in
+    -   Decreased chemotaxis
+
+    -   Diminished phagocytic capacity
+
+    -   Defective intracellular killing
+-   Glucocorticoids seem to enhance granulocytopoiesis and mobilize the marginal and marrow pool reserve, *but*
+    -   reduce accumulation of granuloytes at site of infection (reduced adherence)
+    -   diminished chemotactic activity
+    -   decreased phagocytosis and intracellular killing
+:::
 
 ## Granulocytopenia
 
 ::: panel-tabset
 ## Infection rate
 
-![](images_immune/gran_inf.png){fig-align="center" width="600"}
+![](images_immune/gran_inf.png){fig-align="center" width="400"} <br> [@bodey_etal66]
 
 ## Fatality rate
 
-![](images_immune/gran_fatality.png){fig-align="center" width="600"}
+![](images_immune/gran_fatality.png){fig-align="center" width="400"} <br> [@bodey_etal66]
 :::
+
+## Clinical manifestations of infection related to absolute neutrophil count (ANC)
+
+<br>
+
+| Signs and symptoms  | Infection | \% of patients with ANC\< 100 | \% of patients with ANC\>1000 |
+|---------------------|-----------|-------------------------------|-------------------------------|
+| **Fever**           | Overall   | 98                            | 76                            |
+| **Bacteremia**      | Overall   | 43                            | 13                            |
+| **Fluctuance**      | Anorectal | 8                             | 67                            |
+| **Exudate**         | Skin      | 5                             | 92                            |
+| **Purulent sputum** | Pneumonia | 8                             | 84                            |
+| **Pyuria**          | UTI       | 11                            | 97                            |
+
+<br>
 
 <div>
 
-[@bodey_etal66]
+[@sickles_etal75]
 
 </div>
+
+## Typical antimicrobial flora
+
+![](images_immune/mucositis.jpeg){fig-align="center"}
+
+## Infection model
+
+![](images_immune/infection%20model.jpeg){fig-align="center"}
+
+![](images_immune/bacterial.jpeg){fig-align="center"}
+
+## Microbiologically defined bacterial infections
+
+![](images_immune/bolognadata.png){fig-align="center"}
+
+## Immunodeficiencies and assocaited pathogens #1
+
+## Types of infection versus phases of neutropenia
+
+![](images_immune/duration.png){fig-align="center"}
+
+## Prolonged neutropenia is a risk for invasive mold disease
+
+![](images_immune/gerson.png){fig-align="center"}
 
 ## References

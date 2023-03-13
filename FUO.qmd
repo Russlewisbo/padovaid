@@ -28,6 +28,12 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Objectives
 
+<br>
+
+-   Recognize leading infectious causes of FUO in key patient groups
+-   Identify key fever patterns and clinical histories that may direct diagnosis
+-   Differentiate FUO risks and possible spectum of pathogens in immunocompromised hosts
+
 ## The history of fever {background-image="/images/hippocrates.jpg" background-opacity="0.2" data-background-size="contain"}
 
 <br>
@@ -39,7 +45,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 -   **Galen:** many types of fever developed from putrification of humors.
 -   **Middle ages:** demonic possession
 -   **18th century (Harvey's discovery of circulation)**- friction of blood flow through body causing fermentation and putrification in intestines
--   **Claude Bernard** in the 19th century- metabolic processes in the body
+-   **Claude Bernard** **in the 19th century**- metabolic processes in the body
 :::
 
 ## Febris- Roman Goddess of Fever
@@ -96,10 +102,10 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 
 ## Infection-associated fever
 
-![](images/fever.png){fig-align="center" width="800"}
+![](images/LPSfever.png){fig-align="center" width="600"}
 
 ::: aside
-[@sajadimohammadm__mackowiakphilipa_15]
+[@wright_auwaerter20]
 :::
 
 ## Sequelae of fever
@@ -119,6 +125,12 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 [@gabay_kushner99]
 
 </div>
+
+## Role of acute phase proteins
+
+<br>
+
+![](images_immune/Acute-Phase%20Proteins.png){fig-align="center" width="600"}
 
 ## Acute phase phenomena
 
@@ -151,13 +163,13 @@ The legend of Febris was said to center around the haunting marshes of Camagna i
 
         -   *However*, these definitions are largely subjective
 -   **Leading causes:**
-    -   Cancer (age dependent)
-
     -   Infections (geography dependent)
 
     -   Inflammatory conditions (age dependent)
 
-    -   Undiagnosed habitual hyperthermia
+    -   Cancer (age dependent)
+
+    -   Undiagnosed /unknown
 
 ## Frequency of the 5 main etiologic categories of FUO
 
@@ -173,12 +185,18 @@ Infectious causes decrease in patients above age 65 years
 
 ## Classic FUO- Infectious Etiology
 
--   Occult abscess
--   Endocarditis
--   Tuberculosis
--   Complicated urinary tract infections
+<br>
+
+-   Chronic or relapsing infections
+    -   Occult abscess
+    -   Endocarditis
+    -   Tuberculosis
+    -   Complicated urinary tract infections
+    -   Osteomyelitis
 
 ## Classic FUO work-up
+
+<br>
 
 ::: incremental
 -   **Medical history emphasis:**
@@ -203,17 +221,7 @@ Infectious causes decrease in patients above age 65 years
 
 ## Rare and miscellaneous causes of fever
 
-## Distinctive fever patterns {.smaller}
-
-![](images/feverpatterns.png){fig-align="center" width="1000"}
-
-A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pel-Ebstein pattern); <br> D. Borreliosis (relapsing fever pattern)
-
-<div>
-
-[@wrightwilliamf__mackowiakphilipa_15]
-
-</div>
+![](images/misc.jpeg){fig-align="center"}
 
 ## Classic FUO in infants and children
 
@@ -278,28 +286,30 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
     -   Blood transfusion
 
+    -   Reactions to contrast media
+
     -   *Clostridium difficile* colitis
 
 ## Fever in post-operative patients
 
 <br>
 
--   Although more than 1/3 of patients may manifest fever in first 5 days surgery, \< 10% of febrile patients have an identified source
--   Physiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection
+-   Although more than 1/3 of patients may manifest fever in first 5 days surgery, \< 10% of febrile patients have an identified source or positive cultures
+-   Fever may represent a physiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection
 
 ## FUO in ICU patients
 
 <br>
 
 -   Early fevers are common, often non-infectious, associated with good prognosis
--   Prolonged fever- poorer prognosis
+-   Prolonged fever carries a poorer prognosis
 -   Sinusitis as a complication of mechanical ventilation, supine position, feeding tubes
--   Other causes are similar to nosocomial infections
+-   Other causes are similar to nosocomial infections in non-ICU patients
     -   Abscess
 
     -   Drug fever
 
-    -   postoperative complications
+    -   Postoperative complications
 
     -   Septic thrombophlebitis
 
@@ -321,7 +331,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 ::: incremental
 -   ANC= Total WBC x (% Segs + % Bands)
 
--   ANC of \< 500 cells/mm^3^ or an ANC that is expected to decrease to \< 500 cells/mm^3^ during the next 48 h.
+-   Neutropenia is defined as an ANC of \< 500 cells/mm^3^ or an ANC that is expected to decrease to \< 500 cells/mm^3^ during the next 48 h.
 
     -   The term "profound" is sometimes used to describe neutropenia in which the ANC is \< 100 cells/mm^3^
 
@@ -341,7 +351,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 <br>
 
 | Signs and symptoms  | Infection | \% of patients with ANC\< 100 | \% of patients with ANC\>1000 |
-|----------------|----------------|---------------------|---------------------|
+|------------------|------------------|------------------|------------------|
 | **Fever**           | Overall   | 98                            | 76                            |
 | **Bacteremia**      | Overall   | 43                            | 13                            |
 | **Fluctuance**      | Anorectal | 8                             | 67                            |
@@ -366,21 +376,6 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 [@corey_boeckh02]
 
 </div>
-
-## Naproxen (NSIAD) fever suppression test
-
--   A trial of naproxen may differentiate neoplastic from non-neoplastic fever
-    -   Temperature \>37.8°C at least once a day;
-
-    -   Duration of fever \>2 weeks;
-
-    -   Lack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);
-
-    -   Absence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);
-
-    -   Lack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;
-
-    -   Prompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen.
 
 ## Cell-mediated immunity-1
 
@@ -422,6 +417,8 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 ## HIV-related FUO
 
+<br>
+
 -   Primary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion
 -   In later phases of untreated HIV, episodes of fever become common and often signify a superimposed illness- e.g., opportunistic infections that manifest in atypical fashion
 -   Once highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly
@@ -434,9 +431,28 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 [@wrightwilliamf__mackowiakphilipa_15]
 :::
 
+## Naproxen (NSIAD) fever suppression test for "tumor fever"
+
+<br>
+
+-   A trial of naproxen may differentiate neoplastic from non-neoplastic fever
+    -   Temperature \>37.8°C at least once a day;
+
+    -   Duration of fever \>2 weeks;
+
+    -   Lack of evidence of infection (eg physical examination, laboratory examinations, and imaging studies);
+
+    -   Absence of allergic mechanisms (eg, drug allergy, transfusion reaction, and radiation or chemotherapeutic drug reaction);
+
+    -   Lack of response of fever to an empiric, adequate antibiotic therapy for at least 7 days;
+
+    -   Prompt complete lysis by the naproxen test with sustained normal temperature while receiving naproxen.
+
 ## Diagnosis of FUO {background-image="/images/thermometer.jpg"}
 
 ## General diagnostic evaluation of FUO
+
+<br>
 
 | Comprehensive history                                                            |
 |------------------------------------------------------------------------|
@@ -445,7 +461,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 | Routine blood chemistry                                                          |
 | Urinalysis including microscopic examination                                     |
 | Chest radiograph                                                                 |
-| Erythrocyte sedimentation rate                                                   |
+| Erythrocyte sedimentation rate, C-reactive protein                               |
 | Antinuclear antibodies                                                           |
 | Rheumatoid factor                                                                |
 | Blood cultures- three separate specimens in the absence of antimicrobial therapy |
@@ -470,23 +486,23 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 ::: incremental
 -   **Helps guide choice of initial laboratory investigations**
--   **Particular attention should be give to:**
-    -   recent travel
+-   **Particular attention should be given to:**
+    -   Recent travel
 
-    -   exposure to pets and other animals
+    -   Exposure to pets and other animals
 
-    -   work environment
+    -   Work environment
 
-    -   recent contact with people with similar symptoms
+    -   Recent contact with people with similar symptoms
 
-    -   family history (e.g., familial Mediterranean fever)
+    -   Family history (e.g., familial Mediterranean fever)
 -   **Prior history of FUO**
 -   **Previously diagnosed conditions**
-    -   lymphoma
+    -   Lymphoma
 
-    -   rheumatic fever
+    -   Rheumatic fever
 
-    -   intraabdominal disorders
+    -   Intraabdominal disorders
 -   **Complete list of medications**
 :::
 
@@ -494,8 +510,8 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 <br>
 
--   Seems obvious, but often overlooked
--   In some series, up to 30% where determined not to have fever
+-   Obvious,... but often overlooked
+    -   In some series, up to 30% referred for FUO where determined to not have fever
 -   Fever patterns- arcane terminology:
     -   *remittent, intermittent, hectic, quotidian, sustained, quartan, saddleback fevers*
 -   Fever patterns are affected by:
@@ -517,21 +533,28 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
     -   Typhoid fever
     -   CNS disorders
     -   Tularemia
-    -   Falciparum (malignant tertian) malaria :::
+    -   Falciparum (malignant tertian) malaria
 
 ![](images/continuous.png){fig-align="center" width="500"}
 
 ::: aside
+[@mackowiak_etal97a]
 :::
+
+## Malaria fever
+
+![](images/malariafever.png){fig-align="center"}
+
+Febrile paroxysms may occur every other day for *P. vivax*, *P. ovale*, and *P. falciparum* and every third day for *P. malariae*. Paroxysms occurring at regular intervals are more common in the setting of infection due to *P. vivax* or *P. ovale* than *P. falciparum*. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.
 
 ## Intermittent fever
 
 <br>
 
--   Intermittent (septic, quotidian, "picket fence") fever with wide fluctuations, usually norma or low in the morning and peaking between 4:00 and 8:00 PM
+-   Intermittent (septic, quotidian, "picket fence") fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
     -   Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis
     -   Malaria (often with leukopenia) may present with daily (quotidian) daily spike or (tertian) spike every 3rd day, or (quartan) spike every 4th day.
-    -   Double quotidian patter (two daily spikes) aen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis
+    -   Double quotidian patter (two daily spikes) seen with salmonellosis, miliary tuberculosis, double malarial infections (more than one species), gonococcal and meningococcal endocarditis
 
 ::: aside
 [@mackowiak_etal97a]
@@ -541,7 +564,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 <br>
 
--   Several days of fever, distinct reductio in fever for \~ 1 day, and then several days of higher fever
+-   Several days of fever, distinct reduction in fever for \~ 1 day, and then several days of higher fever
     -   Dengue and yellow fever
     -   Colorado tick fever
     -   Rift valley Fever
@@ -557,7 +580,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
 <br>
 
--   Sporadic episodes of fever, periods of noram temperature with recurrence
+-   Sporadic episodes of fever, periods of normal temperature with recurrence
     -   Frequently seen in cholangitis associated with cholelithiasis, jaundice, leukocytosis and toxic signs
 
 ::: aside
@@ -571,7 +594,7 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 -   Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
     -   Hodgkin's disease
     -   Brucellosis due to *Brucella melitensis*
-    -   Occasionally tuberculosiso
+    -   Occasionally tuberculosis
 
 ![](images/pelebstein.png){fig-align="center" width="500"}
 
@@ -596,6 +619,10 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 [@mackowiak_etal97a]
 :::
 
+## Typhoid fever
+
+![](images/typhoidfever.png)
+
 ## Jarisch-Herxheimer reaction
 
 <br>
@@ -603,7 +630,8 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 <br>
 
 -   Sharply increased elevation of temperature with shivers and chills occurs within several hours after starting penicillin therapy
-    -   Primary or secondary syphilis Leptospirosis or tick-borne relapsing fever
+-   Lysis of spirochetes
+    -   Primary or secondary syphilis; Leptospirosis; or tick-borne relapsing fever
     -   Tetracycline or chloramphenicol therapy for acute brucellosis
 
 ::: aside
@@ -666,7 +694,9 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
     -   MRI for CNS, abdomen spleen and lymph nodes Aortic arch and proximal cervical arteries (vasculitis)
 
-    -   Gallium-67 (^67^Ga) scanning (becoming less common)
+    -   The indium 111- tagged white blood cell (WBC) scan (becoming less comon)
+
+    -   Gallium-67 (^67^Ga) scan (replaced by PET-CT)
 
 ## ^18^F-fluorodeoxyglucose (FDG) positron emission tomography (PET)
 
@@ -718,12 +748,24 @@ A. Maleria; B. Typhoid fever with relative bradycardia; C. Hodgkin's disease (Pe
 
     -   Clinicians are often pressured to treat symptoms
 
-## Treatment is nearly always indicated
+    -   
+
+## Diagnostic summary
+
+![](diagnosis.jpeg){fig-align="center" width="800"}
+
+<div>
+
+[@wright_auwaerter20]
+
+</div>
+
+## When is immediate treatment indicated?
 
 <br>
 
--   Empirical treatment with corticosteroids in patients with suspected temporal arteritis to prevent vascular complications such as blindness and stroke
--   Febrile neutropenia: high prevalence of serious bacterial infections- patients should receive broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures are obtained
+-   Empirical treatment with corticosteroids in patients with **suspected temporal arteritis** to prevent vascular complications such as blindness and stroke
+-   **Febrile neutropenia or other severely immunocompromised patients:** high prevalence of serious bacterial infections- patients should receive broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures are obtained
 -   Therapeutic trials with narrow spectrum therapy (e.g. anti-mycobacterial agents) may be considered in select cases with history suggestive of TB
 
 ## Prognosis

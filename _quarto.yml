@@ -12,6 +12,7 @@ website:
       - Antibiotic.qmd
       - Resistance.qmd
       - Allergies.qmd
+      - FUOpage.qmd
 format: 
   html:
     theme: flatly
