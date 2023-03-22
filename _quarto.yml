@@ -13,6 +13,8 @@ website:
       - Resistance.qmd
       - Allergies.qmd
       - FUOpage.qmd
+      - febrileneutropenia.qmd
+      - IFI.qmd
 format: 
   html:
     theme: flatly

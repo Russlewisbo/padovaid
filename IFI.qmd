@@ -1,0 +1,28 @@
+---
+title: "Invasive Fungal Infections"
+foquartormat: html
+editor: visual
+---
+
+## Lecture slides
+
+[slides](fungal.pdf) 
+
+[Review article on antifungal agents agents](Johnson.pdf)
+
+[Tissue penetration of antifungals](felton.pdf)
+
+[Review article on antifungal susceptibility testing](Wiederhold.pdf)
+
+[Review on invasive candidiasis](canidida.pdf)
+
+[Review on invasive aspergillosis](aspergillus.pdf)
+
+[Review on cryptococcosis](cryptococcosis.pdf)
+
+
+
+
+
+
+

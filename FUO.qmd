@@ -351,7 +351,7 @@ Infectious causes decrease in patients above age 65 years
 <br>
 
 | Signs and symptoms  | Infection | \% of patients with ANC\< 100 | \% of patients with ANC\>1000 |
-|------------------|------------------|------------------|------------------|
+|---------------------|-----------|-------------------------------|-------------------------------|
 | **Fever**           | Overall   | 98                            | 76                            |
 | **Bacteremia**      | Overall   | 43                            | 13                            |
 | **Fluctuance**      | Anorectal | 8                             | 67                            |
@@ -455,7 +455,7 @@ Infectious causes decrease in patients above age 65 years
 <br>
 
 | Comprehensive history                                                            |
-|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|
 | Repeated physical exams                                                          |
 | Complete blood count                                                             |
 | Routine blood chemistry                                                          |

@@ -434,6 +434,27 @@
     "text": "Welcome\nWelcome to the ME2491 Medicine and Surgery INFECTIOUS DISEASES educational resources page.\nUsing the navigation bar on the right, you can find links to reading, educational websites, podcasts, and online antibiotic dosing models that will be of interest as you progress through the course.\nCore course materials will also be posted on the University Moodle Course site when activated."
   },
   {
+    "objectID": "febrileneutropenia.html",
+    "href": "febrileneutropenia.html",
+    "title": "Febrile neutropenia",
+    "section": "",
+    "text": "slides"
+  },
+  {
+    "objectID": "febrileneutropenia.html#nccn-guidelines",
+    "href": "febrileneutropenia.html#nccn-guidelines",
+    "title": "Febrile neutropenia",
+    "section": "2022 NCCN Guidelines",
+    "text": "2022 NCCN Guidelines\nNCCN guidelines\nFungal infection lecture\nfungal"
+  },
+  {
+    "objectID": "IFI.html",
+    "href": "IFI.html",
+    "title": "Invasive Fungal Infections",
+    "section": "",
+    "text": "slides\nReview article on antifungal agents agents\nTissue penetration of antifungals\nReview article on antifungal susceptibility testing\nReview on invasive candidiasis\nReview on invasive aspergillosis\nReview on cryptococcosis"
+  },
+  {
     "objectID": "Resistance.html",
     "href": "Resistance.html",
     "title": "Antimicrobial Resitance in ESCAPE Pathogens",
@@ -462,11 +483,18 @@
     "text": "Background reading:\nRecent review on FUO in NEJM  Excellent review on FUO in OFID  Classic review on fever patterns and classic FUO Dogma"
   },
   {
-    "objectID": "FUOpage.html#podcast",
-    "href": "FUOpage.html#podcast",
+    "objectID": "FUOpage.html#fuo-podcast",
+    "href": "FUOpage.html#fuo-podcast",
     "title": "Fever of Unknown Origin (FUO)",
-    "section": "Podcast",
-    "text": "Podcast\nFever of Unknown Origin (FUO) with Dr. Raghuram\nIN this online lecture, Dr. Raghuram takes a look at traditional and new definitions of FUOs as well as a practical algorithm for their workup.She takes a comprehensive look at common non-infectious causes including often used drugs that can produce fevers in patients. Dr. Raghuram finishes with several cases presented in a board review style and walks through her thought process with evaluating the questions."
+    "section": "FUO podcast",
+    "text": "FUO podcast\nFebrile’s podcast episode on FUO"
+  },
+  {
+    "objectID": "FUOpage.html#online-lecture",
+    "href": "FUOpage.html#online-lecture",
+    "title": "Fever of Unknown Origin (FUO)",
+    "section": "Online lecture",
+    "text": "Online lecture\nFever of Unknown Origin (FUO) with Dr. Raghuram\nIN this online lecture, Dr. Raghuram takes a look at traditional and new definitions of FUOs as well as a practical algorithm for their workup.She takes a comprehensive look at common non-infectious causes including often used drugs that can produce fevers in patients. Dr. Raghuram finishes with several cases presented in a board review style and walks through her thought process with evaluating the questions.\nFe"
   },
   {
     "objectID": "immunosuppression.html#infections-in-the-immunocompromised-host-febrile-neutropenia",

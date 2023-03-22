@@ -1,0 +1,15 @@
+---
+title: "Febrile neutropenia"
+foquartormat: html
+editor: visual
+---
+
+## Lecture slides
+
+[slides](febrileneutropenia.pdf)
+
+## 2022 NCCN Guidelines
+
+[NCCN guidelines](NCCN.pdf)
+
+[Podcast episode](https://www.runthelistpodcast.com/hematologyoncology/#febrile-neutropenia) on febrile neutroopenia
