@@ -1,0 +1,105 @@
+---
+title: "Infectious Diarrhea"
+title-slide-attributes:
+  data-background-image: /images3/diarrhea.png
+format:
+  revealjs:
+    touch: true
+    controls: true
+    transition: fade
+    transition-speed: fast
+    scrollable: true
+    slide-number: false
+    incremental: false
+    multiplex: true
+    chalkboard: true
+    theme: [default, custom2.scss]
+bibliography: Diarrhea.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+## Infectious Diarrheal Diseases {background-image="/images3/diarrhea.png"}
+
+<br>
+
+<br>
+
+Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 27 March 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
+
+## Objectives
+
+<br>
+
+-   Identify the most common causes of infectious diarrhea in adult patients
+-   Describe how the patient history and clinical presentation of diarrhea may favour viral versus bacterial causes that benefit from antibiotic therapy
+-   Compare clinical spectrum of disease in resource-rich vs. resource-poor countries
+
+## Background {background-image="/images3/diarrhea2.png"}
+
+<br>
+
+-   Diarrheal disease is one of the top ten leading causes of death worldwide
+-   Diarrheal disease is a particular concern for children younger than five years old in resource-limited settings
+-   Among adults in resource-rich settings, diarrhea is often a "nuisance disease" in the healthy individual
+-   Most cases of acute diarrhea in adults are of infectious etiology, and most cases resolve with symptomatic treatment alone
+-   When clinicians care for adults with diarrhea, two important decision points are:
+    -   When to perform stool testing
+    -   Whether to initiate empiric antimicrobial therapy
+
+::: aside
+[@gbd2016diarrhoealdiseasecollaborators18; @fang_patel17]
+:::
+
+## Definitions {background-image="/images3/diarrhea3.png" background-opacity="0.3"}
+
+<br>
+
+<br>
+
+-   Diarrhea is defined as the passage of loose or watery stools, typically at least three times in a 24-hour period
+-   Reflects increased water content of the stool, whether due to impaired water absorption and/or active water secretion by the bowel
+    -   Acute -- 14 days or fewer in duration
+    -   Persistent diarrhea -- more than 14 but fewer than 30 days in duration
+    -   Chronic -- more than 30 days in duration
+-   Invasive diarrhea, *dysentery*- diarrhea with visible blood or mucous
+    -   Dysentery is commonly associated with fever and abdominal pain
+
+## Etiology {background-image="/images3/ecoli.png" background-opacity="0.2"}
+
+<br> <br>
+
+-   Most cases of acute diarrhea are due to infections and are self-limited.
+-   Most cases of acute infectious diarrhea are likely viral, as indicated by the observation that stool cultures are positive in only 1.5 to 5.6 percent of cases
+-   The major causes of acute infectious diarrhea include:
+    -   **Viruses** (norovirus, rotavirus, adenoviruses, astrovirus, and others)
+    -   **Bacteria** (Salmonella, Campylobacter, Shigella, enterotoxigenic Escherichia coli, Clostridioides difficile, and others)
+    -   **Protozoa** (Cryptosporidium, Giardia, Cyclospora, Entamoeba, and others
+
+::: aside
+[@dryden_etal96]
+:::
+
+## Causes of acute infectious diarrhea in adults in resource-rich settings {.smaller}
+
+<br> <br>
+
+|                                                                              | Likely pathogens          | Mean incubation period                                                  | Classic/common food sources                                                                                                              | Other epidemiologic clues                                                                                                                      |
+|------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Watery diarrhea                                                              | Norovirus                 | 24 to 48 hours                                                          | Shellfish, prepared foods, vegetables, fruit                                                                                             | Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations |
+| *Clostridioides* (formerly *Clostridium difficile*)                          | N/A                       | N/A                                                                     | Antibiotic use<br>- Hospitalization<br>- Cancer chemotherapy<br>- Gastric acid suppression<br>- Inflammatory bowel disease               |                                                                                                                                                |
+| *Clostridium perfringens*                                                    | 8 to 16 hours             | Meat, poultry, gravy, home-canned goods                                 |                                                                                                                                          |                                                                                                                                                |
+| Enterotoxigenic *Escherichia coli*                                           | 1 to 3 days               | Fecally contaminated food or water                                      | Travel to resource-limited settings                                                                                                      |                                                                                                                                                |
+| Other enteric viruses (rotavirus, enteric adenovirus, astrovirus, sapovirus) | 10 to 72 hours            | Fecally contaminated food or water                                      | Daycare centers<br>- Gastroenteritis in children<br>- Immunocompromised adults                                                           |                                                                                                                                                |
+| *Giardia lamblia*                                                            | 7 to 14 days              | Fecally contaminated food or water                                      | Daycare centers<br>- Swimming pools<br>- Travel, hiking, camping (particularly when there is contact with water in which beavers reside) |                                                                                                                                                |
+| *Cryptosporidium parvum*                                                     | 2 to 28 days              | Vegetables, fruit, unpasteurized milk                                   | Daycare centers<br>- Swimming pools and recreational water sources<br>- Animal exposure<br>- Chronic diarrhea in advanced HIV infection  |                                                                                                                                                |
+| *Listeria monocytogenes*                                                     | 1 day (gastroenteritis)   | Processed/delicatessen meats, hot dogs, soft cheese, pâtés, and fruit   | Pregnancy<br>- Immunocompromising condition<br>- Extremes of age                                                                         |                                                                                                                                                |
+| *Cyclospora cayetanensis*                                                    | 1 to 11 days              | Imported berries, herbs                                                 | Chronic diarrhea in advanced HIV infection                                                                                               |                                                                                                                                                |
+| **Inflammatory diarrhea** <br>(fever, mucoid or bloody stools)¶              | Nontyphoidal *Salmonella* | 1 to 3 days                                                             | Poultry, eggs, and egg products, fresh produce, meat, fish, unpasteurized milk or juice, nut butters, spices                             | Animal contact (petting zoos, reptiles, live poultry, other pets)<br>- Travel to resource-limited settings                                     |
+| *Campylobacter* spp                                                          | 1 to 3 days               | Poultry, meat, unpasteurized milk                                       | Travel to resource-limited settings<br>- Animal contact (young puppies or kittens, occupational contact)                                 |                                                                                                                                                |
+| *Shigella* spp                                                               | 1 to 3 days               | Raw vegetables                                                          | Daycare centers<br>- Crowded living conditions<br>- Men who have sex with men<br>- Travel to resource-limited settings                   |                                                                                                                                                |
+| Enterohemorrhagic *E. coli*                                                  | 1 to 8 days               | Ground beef and other meat, fresh produce, unpasteurized milk and juice | Daycare centers<br>- Nursing homes<br>- Extremes of age                                                                                  |                                                                                                                                                |
+| *Yersinia* spp                                                               | 4 to 6 days               | Pork or pork products, untreated water                                  | Abnormalities of iron-metabolism (eg, cirrhosis, hemochromatosis, thalassemia)<br>- Blood transfusion                                    |                                                                                                                                                |
+| *Vibrio parahemolyticus*                                                     | 1 to 3 days               | Raw seafood and shellfish                                               | Cirrhosis                                                                                                                                |                                                                                                                                                |
+| *Entamoeba histolytica*                                                      | 1 to 3 weeks              | Fecally contaminated food or water                                      | Travel to resource-limited settings<br>- Men who have sex with men                                                                       |                                                                                                                                                |
+
+## References

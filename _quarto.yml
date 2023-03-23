@@ -15,6 +15,7 @@ website:
       - FUOpage.qmd
       - febrileneutropenia.qmd
       - IFI.qmd
+      - Diarrheapage.qmd
 format: 
   html:
     theme: flatly
