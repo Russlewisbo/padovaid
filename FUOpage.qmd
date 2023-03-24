@@ -8,7 +8,7 @@ editor: visual
 
 Lecture slides can be accessed [here](https://russlewisbo.github.io/padovaid/FUO.html#/fever-of-unknown-origin-fuo)
 
-PDF version of the slides can be downloaded [here](fuoslides.pdf)
+PDF version of the slides can be downloaded [here](FUOslides.pdf)
 
 ## Background reading:
 

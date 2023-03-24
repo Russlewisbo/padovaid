@@ -10,7 +10,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: false
-    incremental: false
+    incremental: true
     multiplex: true
     chalkboard: true
     theme: [default, custom2.scss]
@@ -34,7 +34,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 -   Describe how the patient history and clinical presentation of diarrhea may favour viral versus bacterial causes that benefit from antibiotic therapy
 -   Compare clinical spectrum of disease in resource-rich vs. resource-poor countries
 
-## Background {background-image="/images3/diarrhea2.png"}
+## Background {.smaller background-image="/images3/diarrhea2.png" background-opacity="0.5"}
 
 <br>
 
@@ -50,7 +50,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 [@gbd2016diarrhoealdiseasecollaborators18; @fang_patel17]
 :::
 
-## Definitions {background-image="/images3/diarrhea3.png" background-opacity="0.3"}
+## Definitions {.smaller background-image="/images3/diarrhea3.png" background-opacity="0.2"}
 
 <br>
 
@@ -64,7 +64,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 -   Invasive diarrhea, *dysentery*- diarrhea with visible blood or mucous
     -   Dysentery is commonly associated with fever and abdominal pain
 
-## Etiology {background-image="/images3/ecoli.png" background-opacity="0.2"}
+## Etiology {.smaller background-image="/images3/ecoli.png" background-opacity="0.2"}
 
 <br> <br>
 
@@ -85,7 +85,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 |                                                                              | Likely pathogens          | Mean incubation period                                                  | Classic/common food sources                                                                                                              | Other epidemiologic clues                                                                                                                      |
 |------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Watery diarrhea                                                              | Norovirus                 | 24 to 48 hours                                                          | Shellfish, prepared foods, vegetables, fruit                                                                                             | Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations |
+| **Watery diarrhea**                                                          | Norovirus                 | 24 to 48 hours                                                          | Shellfish, prepared foods, vegetables, fruit                                                                                             | Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations |
 | *Clostridioides* (formerly *Clostridium difficile*)                          | N/A                       | N/A                                                                     | Antibiotic use<br>- Hospitalization<br>- Cancer chemotherapy<br>- Gastric acid suppression<br>- Inflammatory bowel disease               |                                                                                                                                                |
 | *Clostridium perfringens*                                                    | 8 to 16 hours             | Meat, poultry, gravy, home-canned goods                                 |                                                                                                                                          |                                                                                                                                                |
 | Enterotoxigenic *Escherichia coli*                                           | 1 to 3 days               | Fecally contaminated food or water                                      | Travel to resource-limited settings                                                                                                      |                                                                                                                                                |
@@ -101,5 +101,56 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 | *Yersinia* spp                                                               | 4 to 6 days               | Pork or pork products, untreated water                                  | Abnormalities of iron-metabolism (eg, cirrhosis, hemochromatosis, thalassemia)<br>- Blood transfusion                                    |                                                                                                                                                |
 | *Vibrio parahemolyticus*                                                     | 1 to 3 days               | Raw seafood and shellfish                                               | Cirrhosis                                                                                                                                |                                                                                                                                                |
 | *Entamoeba histolytica*                                                      | 1 to 3 weeks              | Fecally contaminated food or water                                      | Travel to resource-limited settings<br>- Men who have sex with men                                                                       |                                                                                                                                                |
+
+Clostridioides (formerly Clostridium) difficile can also present with inflammatory diarrhea.
+
+¶ Pathogens that are more classically associated with inflammatory diarrhea can also cause watery diarrhea, particularly early in the course of infection.
+
+## Evaluation of acute diarrhea in adults {.smaller}
+
+![](images3/algorithm1.png){fig-align="center" width="800"}
+
+::: aside
+Source: UptoDate
+:::
+
+## When should patient be evaluated in clinic?
+
+<br>
+
+-   Symptoms:
+    -   Persistent fever
+    -   Bloody diarrhea
+    -   Severe abdominal pain
+    -   Symptoms of volume depletion (eg, dark or scant urine, symptoms of orthostasis)
+    -   History of inflammatory bowel disease
+
+Hospitalization should be considered:
+
+-   History of immunosuppression (e.g., treatment for malignancy, transplantation, HIV
+-   Significant cardiovascular diseases
+
+## Patient Medical History {.smaller background-image="/images3/medical history.png" background-opacity="0.4"}
+
+-   Duration of symptoms
+-   Frequency and characteristics of stool
+-   Associate Symptoms
+-   Evidence of extracellular volume depletion (e.g., dark of scan urine, decreased skin turgor, orthostatic hypotension)
+
+## Enteric pathogens {.smaller}
+
+<br>
+
+| Pathogen | Small bowel                                                                                                                                                     | Colon                                                                                                                                                                                         |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bacteria | *Salmonella*<br>*Escherichia coli*¶<br>*Clostridium perfringens*<br>*Staphylococcus aureus*<br>*Aeromonas hydrophila*<br>*Bacillus cereus*<br>*Vibrio cholerae* | *Campylobacter*<br>*Shigella*<br>*Clostridioides difficile*<br>*Yersinia*<br>*Vibrio parahaemolyticus*<br>Enteroinvasive E. coli<br>*Plesiomonas shigelloides*<br>*Klebsiella oxytoca* (rare) |
+| Virus    | Rotavirus<br>Norovirus<br>Astrovirus                                                                                                                            | Cytomegalovirus\*<br>Adenovirus<br>Herpes simplex virus                                                                                                                                       |
+| Protozoa | \*Cryptosporidium *Microsporidium*<br>\_Cystoisospor\*a\_<br>*Cyclospora*<br>*Giardia lamblia*                                                                  | *Entamoeba histolytica*                                                                                                                                                                       |
+
+¶ EPEC, EAggEC, EHEC, ETEC may all contribute; routine laboratories and cultures will not differentiate these from E. coli which are normal flora
+
+## Exposures {.smaller background-image="/images3/potatosalad.png" background-opacity="0.4"}
+
+-   Food history, residence, occupational exposure, recent and remote travel, pets, and hobbies, can also provide further diagnostic clues.
 
 ## References
