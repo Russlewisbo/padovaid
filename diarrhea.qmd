@@ -218,7 +218,7 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 
 ## Campylobacter {background-image="/images3/campy.png" background-opacity="0.4"}
 
--   Gram-negative that belongs to the Enterobacteriales (previously known as a *Vibrio-*type organism associated with abortion in cattle and sheep)
+-   Gram-negative that belongs to the Enterobacterales (previously known as a *Vibrio-*type organism associated with abortion in cattle and sheep)
 -   Seen worldwide and a leading cause of gastroenteritis, including in the Arctic and temperate areas
 -   *Campylobacter jejuni* most common species
 
@@ -226,28 +226,61 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 
 <br>
 
--   Cross-contamination of food: Common commensal in GI tract of wild and domestic animals, **poultry** and birds
-    -   Food handlers: good hand hygiene; meat should be cooked to high temperatures (82°C, 180°F).
+-   Common commensal in GI tract of wild and domestic animals, **poultry** and birds
+    -   Food handlers: good hand hygiene essential; meat should be cooked to high temperatures (82°C, 180°F).
     -   Don't drink unpasteurized milk
     -   Infection can occur from eating undercooked meat
--   Survives in freshwater (including at temps below (15°C) → infection from swimming or drinking contaminated water
+-   Campylobacter survive in freshwater (including at temps below (15°C) → infection from swimming or drinking contaminated water
 -   Direct transmission from infected animals, pets, carcasses- handwashing should be encouraged especially for vulnerable adults or children visiting farms or petting zoos
 -   Person-to-person transmission (nursery staff working with infected children)
 -   Sexual transmission (anal intercourse)
--   Increased infection risk in patients with increased gastric acidity (achlorhydria or protein pump inhibitor use)
+-   Increased infection risk in patients with increased gastric acidity (achlorhydria or proton pump inhibitor use)
 
-## Clinical factures of campylobacter infection {background-image="/images3/abdominalpain2.png" background-opacity="0.4"}
+## Clinical features of Campylobacter infection {.smaller}
 
 <br>
 
+::: nonincremental
 -   Mean incubation 3 days (range 1-7)
 -   *Campylobacter* can affect either large or small bowel, hence causes both watery and bloody diarrhea
 -   Classic prodrome: Fevers, rigours, dizziness in 1/3 of patients prior to GI symptoms → increased severity of disease
 -   Abdominal pain:
     -   Abrupt, sever, cramping, colicky, periumbilical- not always accompanied by diarrhea
-    -   
 
-## Salmonella
+    -   Radiates to right iliac fossa in time, mimicking appendicitis and may persist after diarrhea settles
+
+    -   Nausea and vomiting (15-25% of patients)
+
+    -   Bacteremia (0.1-1%), especially immunocompromised, hypogammaglobulinemic
+
+![](images3/abdominalpainmap.png){fig-align="center" width="600"}
+:::
+
+## Campylobacter complications {background-image="/images3/campy.png" background-opacity="0.4"}
+
+<br>
+
+-   ***Guillian-Barré*** **disease**
+    -   Acute, immune-related polyneuropathy that occurs 1-2 weeks after infections
+    -   Linked to *Campylobacter* infection in 3-40% of cases, alterative variate Miller-Fischer
+        -   100-fold higher incidence vs. population following *C. jejuni* infection
+        -   Mechanism: Antibody formation that cross-reacts with GM1 ganglioside present in peripheral nerve myelin
+
+**Reactive arthritis**
+
+-   Seen in 2.6% of patients, not related to severity of illness
+
+-   Linked to HLAB27
+
+-   Onset 1-2 weeks after infection, affecting joints, wrist, knees, ankles
+
+-   May last for several weeks to months
+
+-   Typically resolves, treated with non-streroidal anti-inflammatory agents (NSAIDS)
+
+## Campylobacter diagnosis
+
+## ![](images3/campystool.png)Salmonella
 
 ## Enteric fever or typhoid (*Salmonella enterica* serotype typhi*)*
 
@@ -262,7 +295,7 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 | **Watery diarrhea**                                                          | Norovirus                 | 24 to 48 hours                                                          | -Shellfish, prepared foods, vegetables, fruit                                                                                             | Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations |
 | *Clostridioides* (formerly *Clostridium difficile*)                          | N/A                       | N/A                                                                     | Antibiotic use<br>- Hospitalization<br>- Cancer chemotherapy<br>- Gastric acid suppression<br>- Inflammatory bowel disease                |                                                                                                                                                |
 | *Clostridium perfringens*                                                    | 8 to 16 hours             | Meat, poultry, gravy, home-canned goods                                 |                                                                                                                                           |                                                                                                                                                |
-| Enterotoxigenic *Escherichia coli*                                           | 1 to 3 days               | Fecally contaminated food or water                                      | -Travel to resource-limited settings                                                                                                      |                                                                                                                                                |
+| Enterotoxigenic *Escherichia coli* (ETEC)                                    | 1 to 3 days               | Fecally contaminated food or water                                      | -Travel to resource-limited settings                                                                                                      |                                                                                                                                                |
 | Other enteric viruses (rotavirus, enteric adenovirus, astrovirus, sapovirus) | 10 to 72 hours            | Fecally contaminated food or water                                      | -Daycare centers<br> -Gastroenteritis in children<br> -Immunocompromised adults                                                           |                                                                                                                                                |
 | *Giardia lamblia*                                                            | 7 to 14 days              | Fecally contaminated food or water                                      | -Daycare centers<br> -Swimming pools<br> -Travel, hiking, camping (particularly when there is contact with water in which beavers reside) |                                                                                                                                                |
 | *Cryptosporidium parvum*                                                     | 2 to 28 days              | Vegetables, fruit, unpasteurized milk                                   | -Daycare centers<br>-Swimming pools and recreational water sources<br>- Animal exposure<br> -Chronic diarrhea in advanced HIV infection   |                                                                                                                                                |
@@ -271,7 +304,7 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 | **Inflammatory diarrhea** <br>(fever, mucoid or bloody stools)¶              | Nontyphoidal *Salmonella* | 1 to 3 days                                                             | -Poultry, eggs, and egg products, fresh produce, meat, fish, unpasteurized milk or juice, nut butters, spices                             | -Animal contact (petting zoos, reptiles, live poultry, other pets)<br>-Travel to resource-limited settings                                     |
 | *Campylobacter* spp                                                          | 1 to 3 days               | Poultry, meat, unpasteurized milk                                       | -Travel to resource-limited settings<br> -Animal contact (young puppies or kittens, occupational contact)                                 |                                                                                                                                                |
 | *Shigella* spp                                                               | 1 to 3 days               | Raw vegetables                                                          | -Daycare centers<br> Crowded living conditions<br> -Men who have sex with men<br> -Travel to resource-limited settings                    |                                                                                                                                                |
-| Enterohemorrhagic *E. coli*                                                  | 1 to 8 days               | Ground beef and other meat, fresh produce, unpasteurized milk and juice | -Daycare centers<br> -Nursing homes<br> -Extremes of age                                                                                  |                                                                                                                                                |
+| Enterohemorrhagic *E. coli* (EHEC)                                           | 1 to 8 days               | Ground beef and other meat, fresh produce, unpasteurized milk and juice | -Daycare centers<br> -Nursing homes<br> -Extremes of age                                                                                  |                                                                                                                                                |
 | *Yersinia* spp                                                               | 4 to 6 days               | Pork or pork products, untreated water                                  | -Abnormalities of iron-metabolism (eg, cirrhosis, hemochromatosis, thalassemia)<br> -Blood transfusion                                    |                                                                                                                                                |
 | *Vibrio parahemolyticus*                                                     | 1 to 3 days               | Raw seafood and shellfish                                               | Cirrhosis                                                                                                                                 |                                                                                                                                                |
 | *Entamoeba histolytica*                                                      | 1 to 3 weeks              | Fecally contaminated food or water                                      | Travel to resourcelimited settings<br> Men who have sex with men                                                                          |                                                                                                                                                |
