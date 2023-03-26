@@ -9,7 +9,7 @@ format:
     transition: fade
     transition-speed: fast
     scrollable: true
-    slide-number: false
+    slide-number: true
     incremental: true
     multiplex: true
     chalkboard: true
@@ -450,9 +450,9 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
         ![](images3/shigellaulcer.png){width="300"}
 
-## Diagnosis and treaetment of Shigella infections {.smaller}
+## Diagnosis and treatment of Shigella infections {.smaller}
 
--   Best yieled from mucous still
+-   Best culture yield from mucous stool
 -   White blood cells and red blood cells commonly seen by microbiology
 -   PCR testing of Shigella, but culture important for susceptibility testing
     -   Asia and Africa: 20-30% resistance; TMP/SMX 65-85%
@@ -463,9 +463,59 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
     -   Patients at risk transmitting to others (Food handlers, residential home workers, nursery staff)
 -   Drug of choice (no resistance concerns): fluoroquinolone; or ceftriaxone pending susceptibilities
 
-## Yersina
+## Yersina {background-image="/images3/pigs.png" background-opacity="0.4"}
 
-## Vibrio
+-   Yersiniosis, causes by *Yersinia entercolitica* or *Yersinia pseudotuberculosis* is a zoonotic infection
+
+-   Associated with unpasteurized milk, undercooked meat (especially pork), water contaminated with feces- pigs are common source of infection
+
+-   After ingestion, organism proliferates in lymphoid tissue of small intestine where it may cause hyperemia, neutrophil infiltration and ulceration
+
+-   Patients may present with pharyngitis (20%)- not seen with other causes of gastroenteritis
+
+    -   Throat cultures may be positive
+
+## Yersina presentation {background-image="/images3/pigs.png" background-opacity="0.4"}
+
+-   Incubation period 1-14 days
+-   Localization of pain to right lower quandrant may be a diagnostic clue
+-   Hematogenous spread can lead to abscess infmation in the liver, spleen, mesenteric adenitis, terminal ileitis, pseudoappendicitis
+-   Post-infectious immunologic sequale (reactive arthritis, erythyma nodosum)
+-   No established data that antibiotic treatment is beneficial for uncomplicated disease, fluroquinolones may be given- IV ceftriaxone or cprofloxacin in septic patients
+
+## Vibrio {background-image="/images3/vibrio.png" background-opacity="0.4"}
+
+-   Natural inhabitants of brackish and salt water worldwide
+-   Diarrhea causing species are:
+    -   *Vibrio cholerae* (causative agent of cholera)
+        -   Epidemic: *V. cholerae* O1 (clasical and El Tor)
+            -   New Serogroup 0139 Bengal merged from Southern India
+    -   *Vibrio parahaemalyticus*
+    -   *Vibrio vulnificus* (can cause diarrhea, but isolated from blood and tissues of patients with liver disease
+    -   Vibrio
+    -   
+
+## Vibrio transmission {background-image="/images3/vibrio.png" background-opacity="0.4"}
+
+-   feco-oral
+-   Cholera outbreaks are most often associated with contaminated water and contaminated food, particuliarly undercooked or raw seafood
+-   *V. cholerae* O1 and O139 are producers of cholera toxin (CT)
+
+## John Snow, London
+
+::: columns
+::: {.column width="50%"}
+![](images3/snowmap.png)
+:::
+
+::: {.column width="50%"}
+![](images3/snow.png)
+:::
+:::
+
+## Vibrio clinical features
+
+-   Profuse, watery diarrhea "rice water stool"
 
 ## Others
 

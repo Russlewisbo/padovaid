@@ -1173,14 +1173,14 @@
     "href": "diarrhea.html#yersina",
     "title": "Infectious Diarrheal Diseases",
     "section": "Yersina",
-    "text": "Yersina"
+    "text": "Yersina\n\nYersiniosis, causes by Yersinia entercolitica or Yersinia pseudotuberculosis is a zoonotic infection\nAssociated with unpasteurized milk, undercooked meat (especially pork), water contaminated with feces- pigs are common source of infection\nAfter ingestion, organism proliferates in lymphoid tissue of small intestine where it may cause hyperemia, neutrophil infiltration and ulceration\nPatients may present with pharyngitis (20%)- not seen with other causes of gastroenteritis\n\nThroat cultures may be positive"
   },
   {
     "objectID": "diarrhea.html#vibrio",
     "href": "diarrhea.html#vibrio",
     "title": "Infectious Diarrheal Diseases",
     "section": "Vibrio",
-    "text": "Vibrio"
+    "text": "Vibrio\n\nNatural inhabitants of brackish and salt water worldwide\nDiarrhea causing species are:\n\nVibrio cholerae (causative agent of cholera)\n\nEpidemic: V. cholerae O1 (clasical and El Tor)\n\nNew Serogroup 0139 Bengal merged from Southern India\n\n\nVibrio parahaemalyticus\nVibrio vulnificus (can cause diarrhea, but isolated from blood and tissues of patients with liver disease\nVibrio"
   },
   {
     "objectID": "diarrhea.html#others",
@@ -1299,6 +1299,55 @@
     "href": "diarrhea.html#diagnosis-and-treaetment-of-shigella-infections",
     "title": "Infectious Diarrheal Diseases",
     "section": "Diagnosis and treaetment of Shigella infections",
-    "text": "Diagnosis and treaetment of Shigella infections\n\nBest yieled from mucous still\nWhite blood cells and red blood cells commonly seen by microbiology\nPCR testing of Shigella, but culture important for susceptibility testing\n\nAsia and Africa: 20-30% resistance; TMP/SMX 65-85%\nAntibiotic decrease duration of shedding and symptoms by 2 days\n\nMost infections are self limiting, but antibiotics are considerd for:\n\nImmunocompromised, including patients living with HIV\nBacteremia or extraintestinal disease\nPatients at risk transmitting to others (Food handlers, residential home workers, nursery staff)\n\nDrug of choice (no resistance concerns): fluoroquinolone; or ceftriaxone pending susceptibilities"
+    "text": "Diagnosis and treaetment of Shigella infections\n\nBest cultyre yield from mucous stool\nWhite blood cells and red blood cells commonly seen by microbiology\nPCR testing of Shigella, but culture important for susceptibility testing\n\nAsia and Africa: 20-30% resistance; TMP/SMX 65-85%\nAntibiotic decrease duration of shedding and symptoms by 2 days\n\nMost infections are self limiting, but antibiotics are considerd for:\n\nImmunocompromised, including patients living with HIV\nBacteremia or extraintestinal disease\nPatients at risk transmitting to others (Food handlers, residential home workers, nursery staff)\n\nDrug of choice (no resistance concerns): fluoroquinolone; or ceftriaxone pending susceptibilities"
+  },
+  {
+    "objectID": "diarrhea.html#diagnosis-and-treatment-of-shigella-infections",
+    "href": "diarrhea.html#diagnosis-and-treatment-of-shigella-infections",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Diagnosis and treatment of Shigella infections",
+    "text": "Diagnosis and treatment of Shigella infections\n\nBest culture yield from mucous stool\nWhite blood cells and red blood cells commonly seen by microbiology\nPCR testing of Shigella, but culture important for susceptibility testing\n\nAsia and Africa: 20-30% resistance; TMP/SMX 65-85%\nAntibiotic decrease duration of shedding and symptoms by 2 days\n\nMost infections are self limiting, but antibiotics are considerd for:\n\nImmunocompromised, including patients living with HIV\nBacteremia or extraintestinal disease\nPatients at risk transmitting to others (Food handlers, residential home workers, nursery staff)\n\nDrug of choice (no resistance concerns): fluoroquinolone; or ceftriaxone pending susceptibilities"
+  },
+  {
+    "objectID": "diarrhea.html#yersina-presentation",
+    "href": "diarrhea.html#yersina-presentation",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Yersina presentation",
+    "text": "Yersina presentation\n\nIncubation period 1-14 days\nLocalization of pain to right lower quandrant may be a diagnostic clue\nHematogenous spread can lead to abscess infmation in the liver, spleen, mesenteric adenitis, terminal ileitis, pseudoappendicitis\nPost-infectious immunologic sequale (reactive arthritis, erythyma nodosum)\nNo established data that antibiotic treatment is beneficial for uncomplicated disease, fluroquinolones may be given- IV ceftriaxone or cprofloxacin in septic patients"
+  },
+  {
+    "objectID": "diarrhea.html#vibrio-1",
+    "href": "diarrhea.html#vibrio-1",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Vibrio",
+    "text": "Vibrio"
+  },
+  {
+    "objectID": "diarrhea.html#vibrio-transmission",
+    "href": "diarrhea.html#vibrio-transmission",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Vibrio transmission",
+    "text": "Vibrio transmission\n\nfeco-oral\nCholera outbreaks are most often associated with contaminated water and contaminated food, particuliarly undercooked or raw seafood\nV. cholerae O1 and O139 are producers of cholera toxin (CT)"
+  },
+  {
+    "objectID": "diarrhea.html#john-snow",
+    "href": "diarrhea.html#john-snow",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "John Snow",
+    "text": "John Snow"
+  },
+  {
+    "objectID": "diarrhea.html#john-snow-london",
+    "href": "diarrhea.html#john-snow-london",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "John Snow, London",
+    "text": "John Snow, London"
+  },
+  {
+    "objectID": "diarrhea.html#vibrio-clinical-features",
+    "href": "diarrhea.html#vibrio-clinical-features",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Vibrio clinical features",
+    "text": "Vibrio clinical features\n\nProfuse, watery diarrhea “rice water stool”"
   }
 ]
