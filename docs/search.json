@@ -732,7 +732,7 @@
     "href": "diarrhea.html#patient-medical-history",
     "title": "Infectious Diarrheal Diseases",
     "section": "Patient Medical History",
-    "text": "Patient Medical History\n\n\nDuration of symptoms\nFrequency and characteristics of stool\nAssociated Symptoms\nEvidence of extracellular volume depletion (e.g., dark of scan urine, decreased skin turgor, orthostatic hypotension)"
+    "text": "Patient Medical History\n\n\n\n\n\n\n\n(Shane et al., 2017)"
   },
   {
     "objectID": "diarrhea.html#exxposures",
@@ -893,7 +893,7 @@
     "href": "diarrhea.html#stool-testing-molecular-methods",
     "title": "Infectious Diarrheal Diseases",
     "section": "Stool testing: molecular methods",
-    "text": "Stool testing: molecular methods\n\nMultipathogen molecular panels — Some laboratories have access to multiplex stool tests, with which molecular tests for a panel of many different pathogens (bacterial, viral, and parasitic) can be performed simultaneously on diarrheal stool samples and, in some cases, rectal swabs"
+    "text": "Stool testing: molecular methods\n\nMultipathogen molecular panels — Some laboratories have access to multiplex stool tests, with which molecular tests for a panel of many different pathogens (bacterial, viral, and parasitic) can be performed simultaneously on diarrheal stool samples and, in some cases, rectal swab"
   },
   {
     "objectID": "diarrhea.html#red-flag-symptoms-requiring-urgent-investigation",
@@ -1187,21 +1187,21 @@
     "href": "diarrhea.html#others",
     "title": "Infectious Diarrheal Diseases",
     "section": "Others",
-    "text": "Others"
+    "text": "Others\n\nAeromonas\nPlesiomonas shigelloides\nListeria (1% but associated with outbreaks in summer-high risk foods, unpasteurized milk\n\nCan cause invasive disease in pregnant and immunocompromised\nOral amoxicillin or trimethoprim/SMX"
   },
   {
     "objectID": "diarrhea.html#parasites",
     "href": "diarrhea.html#parasites",
     "title": "Infectious Diarrheal Diseases",
     "section": "Parasites",
-    "text": "Parasites"
+    "text": "Parasites\n\nConsider if diarrhea lasts > 14 days\nGiardia, Cyclospora, Cryptosporidium spp.\nMay be assocaited with community waterborne outbreaks\nDiagnosed by stool culture and examination for ova, cysts and parasites\n\nShed intermittently: May need 3 consecutive samples"
   },
   {
     "objectID": "diarrhea.html#toxins",
     "href": "diarrhea.html#toxins",
     "title": "Infectious Diarrheal Diseases",
     "section": "Toxins",
-    "text": "Toxins"
+    "text": "Toxins\n\nClostridium perfringes spores poorly cooked or stored meat\n\nType A : cause of outbreaks- infection through poorly heated food and meat products (spores survive reheating)\nTypes B and D do not produce disease\nType C : Hemorrhagic necrosis of the jejunum (pigbel disease) following consumption of pork products. Trypsin inhibitors in sweet potatoes may inhibit breakdown of toxin and potentiates the disease\n\nStaphylococcus aureus toxin\nBacillus cereus (rice) toxin"
   },
   {
     "objectID": "diarrhea.html#clostridium-perfringes",
@@ -1229,14 +1229,14 @@
     "href": "diarrhea.html#scombroid",
     "title": "Infectious Diarrheal Diseases",
     "section": "Scombroid",
-    "text": "Scombroid"
+    "text": "Scombroid\n\nFood poisoning associated with seafood\nCommonly misdiagnosed as allergy\nIncorrect storage above 4°C, resulting in bacterial overgrowth and build up of toxic levels of histamine and other biogenic amines by the bacterial enzyme histidine decarboxylase found in dark fish meat\n\nScombridae and Scoberesocidae: tuna (even open cans), mackerel, skip-jack, bonito, dolphin, tilapa, salmon, swordfish, trout, sardines\n\nHistamine is not broken down by cooking, freezing\n\nStoring fish at 20°C for 2-3 hours is enough to result in poisoning\n\nBacteria reposnsible: E. coli, K. pneumoniae, halophilic Vibrio sp., Proteus, Clostridium and Salmonella, and Shigella\nFish appear to have honey-combed scales and taste “peppery”, “bubbly” or “spicy”\nRaw milk contaminated before production of Swiss sheese results in siilar bacterial overgrowth and histamine build-up"
   },
   {
     "objectID": "diarrhea.html#ciguatera",
     "href": "diarrhea.html#ciguatera",
     "title": "Infectious Diarrheal Diseases",
     "section": "Ciguatera",
-    "text": "Ciguatera"
+    "text": "Ciguatera\n\nFoodborne illness caused by consumption of reef fish (barracuda, amberjack, moray eel, some types of grouper, snapper, parrotfish) contaminated with multiple toxins, including ciguatera toxin, which arises from dinoflagellates\nToxins accumulate in flash and organs\nDo not look, smell or taste different unlike scombroid poisoning\nPresents with GI symptoms and neurologic signs without altered mental status"
   },
   {
     "objectID": "diarrhea.html#clinical-features-of-enteric-fever-1",
@@ -1348,6 +1348,69 @@
     "href": "diarrhea.html#vibrio-clinical-features",
     "title": "Infectious Diarrheal Diseases",
     "section": "Vibrio clinical features",
-    "text": "Vibrio clinical features\n\nProfuse, watery diarrhea “rice water stool”"
+    "text": "Vibrio clinical features\n\n\nProfuse, watery diarrhea “rice water stool”\nMucous, but no blood present\nIncubation: A few hours to a few days\nSignificant hypovolemia and electrolyte abnormalities can occur within a few hours of symptom onset\nAbdominal discomfort, borborygmi, and vomiting are common"
+  },
+  {
+    "objectID": "diarrhea.html#vibrio-treatment",
+    "href": "diarrhea.html#vibrio-treatment",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Vibrio treatment",
+    "text": "Vibrio treatment\n\nAntibiotics shorten the duration of diarrhea, reduce the volume of stool losses, and decrease the duration of V. cholera shedding\nTreatment options include macrolides, fluoroquinolones, tetracyclines based on local resistance profile"
+  },
+  {
+    "objectID": "diarrhea.html#vibrio-vulficans",
+    "href": "diarrhea.html#vibrio-vulficans",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Vibrio vulficans",
+    "text": "Vibrio vulficans\n\nIngestion of shellfish may give rise to cellulitis and bullous lesions (especially in cirrhotic patients)\nEspecially in water temperatures above 20°C (only eat raw oysters in months that end with “R”)\nInfection can progress to invasive disease with bacteremia and systemic disease in immunosuppressed, those with cirrhotic disease or hemochromatosis\nHigh mortality rate with septicemia- exceeds 90% if patients present with hypotension\nPatients require immediate antibiotic therapy (tetracycline + 3rd generation cephalosporin) and transfer to the ICU - Fluroquinolone monotherapy alternative"
+  },
+  {
+    "objectID": "diarrhea.html#clostridioides-formally-clostridium-difficile",
+    "href": "diarrhea.html#clostridioides-formally-clostridium-difficile",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Clostridioides (formally Clostridium) difficile",
+    "text": "Clostridioides (formally Clostridium) difficile\n\nWill be discussed separate lecture in greater detail\nGram-positive anaerobic bacillus that is spore forming and able to produce toxin\nC. difficile causes an antibiotic-associated inflammatory colitis and in the commonest cause of healthcare-associated diarrhea\nInfection requires spores to be acquired and for gut microbiota to be disrupted, usually through preceding antibiotic therapy\nToxin A causes inflammation with intestinal fluid secretin and dmage to mucosa\nToxin B, more potent than Toxin A, acts as a virulence factor\nDiagnosis is established with 2-step process: glutamate dehydrogenase (GDH) and PCR testing or other NAAT for toxin\nTreatment: Oral vancomycin or fidoxamine > metronidazole"
+  },
+  {
+    "objectID": "diarrhea.html#scombroid-rash",
+    "href": "diarrhea.html#scombroid-rash",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Scombroid rash",
+    "text": "Scombroid rash\n\nSpec et al. Comprehensive review of infectious diseases"
+  },
+  {
+    "objectID": "diarrhea.html#management-summary",
+    "href": "diarrhea.html#management-summary",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Management summary",
+    "text": "Management summary"
+  },
+  {
+    "objectID": "diarrhea.html#patient-medical-history-1",
+    "href": "diarrhea.html#patient-medical-history-1",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Patient Medical History",
+    "text": "Patient Medical History\n\n\nDuration of symptoms\nFrequency and characteristics of stool\nAssociated Symptoms\nEvidence of extracellular volume depletion (e.g., dark of scan urine, decreased skin turgor, orthostatic hypotension)"
+  },
+  {
+    "objectID": "diarrhea.html#treatment",
+    "href": "diarrhea.html#treatment",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Treatment",
+    "text": "Treatment\n\nAntibiotic specific recommendations per pathogen.\n\nFluroquinolones, azithromycin, ceftriaxones (amoxicillin), trimethoprim-sulfamethoxazole, doxycycline\n\nOral rehydration when possible vs. IV"
+  },
+  {
+    "objectID": "diarrhea.html#fluid-repletion",
+    "href": "diarrhea.html#fluid-repletion",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Fluid repletion",
+    "text": "Fluid repletion\n\n\nThe most critical therapy in diarrheal illness is rehydration, preferably by the oral route, with solutions that contain water, salt, and sugar\nDiluted fruit juices and flavored soft drinks along with saltine crackers and broths or soups may meet the fluid and salt needs in patients with mild illness\nThe electrolyte concentrations of fluids used for sweat replacement (eg, Gatorade) are not equivalent to oral rehydration solutions, although they may be sufficient for the otherwise healthy patient with diarrhea who is not hypovolemic.\nOral rehydration solutions (ORS), including standard World Health Organization ORS or commercial ORS, such as Rehydralyte and Ceralyte, may be more appropriate in patients with more severe diarrheal disease. They should be used both to replete a volume depleted patient and also to maintain adequate volume status once replete."
+  },
+  {
+    "objectID": "diarrhea.html#composition-of-oral-rehydration-solutions-orsc-and-commonly-used-beverages",
+    "href": "diarrhea.html#composition-of-oral-rehydration-solutions-orsc-and-commonly-used-beverages",
+    "title": "Infectious Diarrheal Diseases",
+    "section": "Composition of oral rehydration solutions (ORSC) and commonly used beverages",
+    "text": "Composition of oral rehydration solutions (ORSC) and commonly used beverages\n\n\n\n\n\n\n\n\n\n\n\n\nCarbohydrate (g/L)\nmEq/L\n\n\nOsmolarity (mOSM/kg H2O)\n\n\n\n\nSodium\nPotassium\nBase (HCO3–)\n\n\n\n\n\nOral rehydration solutions\n\n\n\n\n\n\n\nCeraLyte\n40\n70\n20\n10\n235\n\n\nEnfalyte\n30\n50\n25\n30\n200\n\n\nPedialyte\n25\n45\n20\n30\n250\n\n\nRehydralyte\n25\n75\n20\n30\n310\n\n\nWHO (1975)\n20\n90\n30\n30\n310\n\n\nWHO (2002)\n13.5\n75\n20\n30\n245\n\n\nCommonly Used Beverages (not appropriate for repletion therapy)\n\n\n\n\n\n\n\nApple juice\n100 to 150\n3\n20\n0\n700\n\n\nChicken broth\n0\n250\n5\n0\n450\n\n\nColas\n100 to 150\n2\n0.1\n13\n550\n\n\nGatorade\n45\n20\n3\n3\n330\n\n\nGinger Ale\n90\n3.5\n0.1\n3.6\n565\n\n\nTea\n0\n0\n0\n0\n5\n\n\n\nORSs were developed following the realization that, in many small bowel diarrheal illnesses, intestinal glucose absorption via sodium-glucose cotransport remains intact. Thus, in diarrheal disease caused by any organism that depends on small bowel secretory processes, the intestine remains able to absorb water if glucose and salt are also present to assist in the transport of water from the intestinal lumen"
   }
 ]
