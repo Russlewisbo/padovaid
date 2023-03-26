@@ -31,11 +31,14 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 <br>
 
 -   Identify the most common causes of infectious diarrhea in adult patients in resource-rich settings
+
 -   Describe how the patient history and clinical presentation of diarrhea may favour viral versus bacterial causes that benefit from antibiotic therapy
+
 -   Recognize warning signs for severe diarrheal disease that require immediate hospitalization and/or antibiotic therapy
+
 -   Describe management approach and treatment of common infectious diarrheal pathogens
 
-We will not be discussing (in detail) diarrheal diseases in resource-poor countries. Information on these infections should be obtained from the [WHO guidelines](https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease#:~:text=Diarrhoea%20should%20be%20treated%20with,diarrhoea%20duration%20and%20improves%20outcomes.)
+-   We will not be discussing (in detail) diarrheal diseases in resource-poor countries. Information on these infections should be obtained from the [WHO guidelines](https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease#:~:text=Diarrhoea%20should%20be%20treated%20with,diarrhoea%20duration%20and%20improves%20outcomes.)
 
 ## Background {.smaller background-image="/images3/diarrhea2.png" background-opacity="0.5"}
 
@@ -67,7 +70,7 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 -   Invasive diarrhea, *dysentery*- diarrhea with visible blood or mucous
     -   Dysentery is commonly associated with fever and abdominal pain
 
-## Etiology {.smaller background-image="/images3/ecoli.png" background-opacity="0.2"}
+## General Etiology {background-image="/images3/ecoli.png" background-opacity="0.2"}
 
 <br> <br>
 
@@ -82,7 +85,24 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 [@dryden_etal96]
 :::
 
+## Red flag symptoms- urgent investigation {background-image="/images3/redflag.svg" background-opacity="0.4"}
+
+<br>
+
+-   Peristent stool \> 1 week
+-   Fever
+-   Bloody diarrhea
+-   Severe abdominal pain
+-   Signs and symptoms of dehydration (tachycardia, hypotension, confusion, decreased urine output)
+-   Weight loss
+-   Recent hospital stay or antibiotic exposure
+-   Pregnant
+-   Over the age of 65 years
+-   Diabetic, living with HIV, or immunocompromised
+
 ## Norovirus "winter vomiting virus"
+
+<br>
 
 ![](images3/norovirus.jpeg){fig-align="center"}
 
@@ -98,9 +118,8 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 
 -   **Epidemiology**
     -   Nonenveloped RNA virus from Caliciviradae family
-    -   Commonest cause of gastroenteritis worldwide
-    -   Although antibody prevalence rises through childhood.
-    -   Re-infection is common as their is no lasting immunity due to re-infection with diversity of strains
+    -   Most common cause of gastroenteritis worldwide
+    -   Although antibody prevalence rises through childhood, re-infection is common as their is no lasting immunity due to re-infection with diversity of strains
 -   **Transmission**
     -   Spread by fecal-oral route from person to person, aerosol in vomitus, contaminated food and water, fomite on surfaces (resists killing by alcohol or chlorine, temperatures up to 60°C)
     -   Outbreaks are common
@@ -130,16 +149,16 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 -   Occasionally causes diarrhea in elderly
 -   Vomiting less of a prominent feature vs. norovirus
 
-![image: Centers for Disease Control](images3/rotovirus.png){fig-align="center" width="300"}
+![Image: Centers for Disease Control](images3/rotovirus.png){fig-align="center" width="300"}
 
-## Enterotoxigenic Escherichia coli (ETEC) {background-image="/images3/ETEC.png" background-opacity="0.4"}
+## Enterotoxigenic *Escherichia coli* (ETEC) {background-image="/images3/ETEC.png" background-opacity="0.4"}
 
 <br>
 
--   Cause of dehydrating diarrhea , especially in developing world (\< 2 years) due to ability to survive in water and production of heat-stabile and heat-labile toxins
+-   Cause of dehydrating diarrhea , especially in developing world (\< 2 years age) due to ability to survive in water and production of heat-stabile and heat-labile toxins
 -   Causes watery diarrhea in returning travellers **with nausea but no vomiting** and symptoms lasting as long as 5 days
 
-## Enteropathogenic E. coli (EPEC) {background-image="/images3/EPEC.png" background-opacity="0.4"}
+## Enteropathogenic *E. coli* (EPEC) {background-image="/images3/EPEC.png" background-opacity="0.4"}
 
 <br>
 
@@ -147,21 +166,21 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 -   Sporadic outbreaks in adults
 -   Severe diarrhea that can result in dehydration and malnutrition
 
-## Entero-hemorrhagic E coli (EHEC) <br> or Shiga toxin-producing E. coli (STEC) {background-image="/images3/STEC.png" background-opacity="0.4"}
+## Entero-hemorrhagic *E. coli* (EHEC) <br> or Shiga toxin-producing *E. coli* (STEC) {background-image="/images3/STEC.png" background-opacity="0.4"}
 
 -   Incubation of 1-4 days
 
--   Main serotypes E. coli O157:H7 or E. coli O101:h4 (STEC)
+-   Main serotypes *E. coli* O157:H7 or *E. coli* O101:h4 (STEC)
 
 -   Often cause bloody diarrhea, abdominal tenderness **with lack of fever**
 
--   Occasional cause of pseudomembraneous colitis (when negative for C. difficile)
+-   Occasional cause of pseudomembranous colitis (when negative for *C. difficile*)
 
--   Increased White blood cell count
+-   Increased white blood cell count
 
 -   Associated with outbreaks (contaminated food)
 
--   Can cause hemolytic uremia syndrome (5-10 days after diarrhea) 6-9% of EHEC infections affecting mostly children \< 10 years:
+-   **Can cause hemolytic uremia syndrome (5-10 days after diarrhea) 6-9% of EHEC infections affecting mostly children \< 10 years:**
 
     -   Renal failure
 
@@ -169,7 +188,7 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 
     -   Thrombotic microangiopathic anemia (↓ PLT count, haptoglobin, RBC, ↑LDH, SeCr)
 
--   Neurologic symptoms-motor deficits and seizure)
+-   Neurologic symptoms-motor deficits and seizure (4%)
 
 ## Schistocytes seen in peripheral blood with <br>HUS
 
@@ -180,7 +199,6 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 <br>
 
 -   Renal failure and hypertension (39%)
--   Neurologic symptoms
 
 ## Italy: E. coli 0157:H7
 
@@ -188,17 +206,17 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 
 ![](images3/Italy_HUS.png){fig-align="center"}
 
-## How can E. coli O157 infection be detected?
+## How can *E. coli* O157 infection be detected?
 
 <br>
 
 -   Culture on sorbitol MacConkey (SMAC) agar with first 6 days of bloody diarrhea
-    -   E. coli O157 cannot ferment lactose, but can ferment sorbitol
+    -   *E. coli* O157 cannot ferment lactose, but can ferment sorbitol
 -   Toxin detection (Shiga toxin, EIA in stool)
 
 ![](images3/sorbitol.png){fig-align="center"}
 
-## Why is it important to identify E. coli 0157 (EHEC)?
+## Why is it important to identify *E. coli* 0157 (EHEC)?
 
 <br>
 
@@ -206,7 +224,9 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 -   **Antibiotic therapy increases the risk of HUS in EHEC by 25% and should be avoided, especially in young children**
 -   Treatment with supportive measures and avoidance of anti-motility agents (e.g., loperamide) to reduce the risk of complications
 
-## Other E. coli- Enteroinvasive (EIEC) and Enteroaggregative (EaggEC)
+## Other *E. coli*- Enteroinvasive (EIEC) and Enteroaggregative (EaggEC)
+
+<br>
 
 -   EIEC relatively rare, closely related to *Shigella*
     -   Often watery diarrhea- rarely progresses to bloody diarrhea
@@ -217,6 +237,8 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
     -   Can often be eradicated with antibiotics
 
 ## Campylobacter {background-image="/images3/campy.png" background-opacity="0.4"}
+
+<br>
 
 -   Gram-negative that belongs to the Enterobacterales (previously known as a *Vibrio-*type organism associated with abortion in cattle and sheep)
 -   Seen worldwide and a leading cause of gastroenteritis, including in the Arctic and temperate areas
@@ -230,10 +252,10 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
     -   Food handlers: good hand hygiene essential; meat should be cooked to high temperatures (82°C, 180°F).
     -   Don't drink unpasteurized milk
     -   Infection can occur from eating undercooked meat
--   Campylobacter survive in freshwater (including at temps below (15°C) → infection from swimming or drinking contaminated water
+-   *Campylobacter* survive in freshwater (including at temps below (15°C) → infection from swimming or drinking contaminated water
 -   Direct transmission from infected animals, pets, carcasses- handwashing should be encouraged especially for vulnerable adults or children visiting farms or petting zoos
 -   Person-to-person transmission (nursery staff working with infected children)
--   Sexual transmission (anal intercourse)
+-   Sexual transmission
 -   Increased infection risk in patients with increased gastric acidity (achlorhydria or proton pump inhibitor use)
 
 ## Clinical features of Campylobacter infection {.smaller}
@@ -265,26 +287,201 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
     -   Linked to *Campylobacter* infection in 3-40% of cases, alterative variate Miller-Fischer
         -   100-fold higher incidence vs. population following *C. jejuni* infection
         -   Mechanism: Antibody formation that cross-reacts with GM1 ganglioside present in peripheral nerve myelin
-
-**Reactive arthritis**
-
--   Seen in 2.6% of patients, not related to severity of illness
-
--   Linked to HLAB27
-
--   Onset 1-2 weeks after infection, affecting joints, wrist, knees, ankles
-
--   May last for several weeks to months
-
--   Typically resolves, treated with non-streroidal anti-inflammatory agents (NSAIDS)
+-   **Reactive arthritis**
+    -   Seen in 2.6% of patients, not related to severity of illness
+    -   Linked to HLAB27
+    -   Onset 1-2 weeks after infection, affecting joints, wrist, knees, ankles
+    -   May last for several weeks to months
+    -   Typically resolves, treated with non-steroidal anti-inflammatory agents (NSAIDS)
 
 ## Campylobacter diagnosis
 
-## ![](images3/campystool.png)Salmonella
+![Stool culture Gram stain](images3/campystool.png){fig-align="center" width="600"}
 
-## Enteric fever or typhoid (*Salmonella enterica* serotype typhi*)*
+<br>
 
-## Clostridiodes (Clostridium) difficile
+## Campylobacter infections: Treatment
+
+\<br\>
+
+-   Generally self-limiting, antimicrobial resistance a problem (e.g., fluoroquinolone resistance in SE Asia)
+-   Antibiotic treatment has been shown to reduce symptoms duration by 1 day, but is indicated when patient is:
+    -   Immunocompromised or pregnant
+    -   Has severe disease with fever, bloody diarrhea, symptoms \> 1 week, relapsing symptoms, or extraintestinal disease
+-   General approach: ciprofloxacin/levofloxacin or azithromycin x 3 days or until sings and symptoms have improved
+    -   7-14 days therapy recommended in immunocompromised
+-   In severe infections with bacteremia or patients unable to tolerate oral medication: carbapenem + aminoglycoside
+
+## Salmonella {background-image="/images3/salmonella.png" background-opacity="0.4"}
+
+-   Motile Gram-negative bacteria that belong to the Enterobacterales
+-   Can cause:
+    -   Gastroenteritis with non-typhoidal *Salmonella* spp.
+    -   Enteric fever (*Salmonella typhi* and *Salmonella paratyphi*)
+    -   Bacteremia and endovascular infections
+    -   Osteomyelitis and deep-seated metastatic abscess
+    -   Asymptomatic carriage
+
+## Salmonella epidemiology {background-image="/images3/salmonella.png" background-opacity="0.4"}
+
+-   Non-typhoidal *Salmonella* causes inflammatory diarrhea worldwide
+-   *Salmonella* *enteritidis* and *Salmonella typhimurium* are the most common causes of diarrhea
+-   Highest incidence: Asia (4 per 100 cases); second to norovirus in other developed countries
+-   Seasonal variation with peaks of infection in summer and autumn
+
+## Salmonella transmission {background-image="/images3/salmonella.png" background-opacity="0.4"}
+
+<br>
+
+-   Feco-oral route; ingestion of poultry, eggs, and meat products including fresh produce
+-   Transovarial transmission can occur from infected henst to intreact egg shells, subsequently resulting in infection
+-   Contaminated infant milk
+-   Contact with animals colonized with *Salmonella* spp. (snakes, iguana, lizards, frogs, **turtles in particular**) also mice, rats , hamsters, cats, dogs, chickens, ducklings
+-   Petting farms and zoos
+-   Travel oversees and poor food and water hygiene
+
+## Clinical features {background-image="/images3/salmonella2.png" background-opacity="0.4"}
+
+<br>
+
+-   Incubation period of 8-72 hours following ingestion of contained water/food (inoculum dependent
+-   Severity of symptoms related to bacterial dose- mild symptoms and asymptomatic carriage can occur
+-   Diarrhea with abdominal pain that resolves in 4-7 days, nausa, voming and fever generally resolve in \< 72 hours
+-   Bloody stools in children
+-   Less than 5% of non-typhoidal *Salmonella* develop bactermeia
+    -   However, when bacteremia develops: mycotic aneurysms, abscess, osteomyelitis, infective endocarditis, endovascular infection
+-   Patients with achlorhydria, inflammatory bowel disease, sickly cell disease are susceptible to more severe infection
+
+## Antibiotic treatment {background-image="/images3/antibiotic1.png" background-opacity="0.4"}
+
+<br>
+
+-   **Guided by antimicrobial sensitivity when possible**
+    -   Preferred agents: fluoroquinolones (ciprofloxacin, levofloxacin) but resistance increasing
+    -   Alternatives: ceftriaxone, azithromycin, trimethoprim-sulfamethoxazone
+-   **Treatment duration:**
+    -   3-7 days with severe GI disease but no bacteremia
+    -   3-14 days if at risk for endovascular infections or joint complications; or older patient
+-   Immunosuppressed patients have problems clearing *Salmonella* because it persists in reticuloendothelial cell system (RES)- prolonged treatment is required and patients are at higher risk for metastatic infections
+    -   14 days minimum to prevent infection relapsing or persisting
+    -   Patients with HIV with gastroenteritis may require 2-6 weeks of therapy
+
+## Asymptomatic carriage {background-image="/images3/poop.png" background-opacity="0.4"}
+
+-   Compared to other serotypes, *Salmonella typhimurium* is cleared quickly (less carriage)
+-   Following symptomatic infection, excretion can continue fora prolonged period-5 weeks
+-   Shedding can be intermittent, hence several cultures are required to detect carriage
+-   Previous short course antibiotic therapy does not reduce carriage, and may **prolong shedding**
+-   Chronic carrier states
+    -   Continued shedding for over 1 year (0.6-2%)
+        -   More common in women, older adults, young children, biliary tract abnormalities (e.g., gallstones)- may require cholecystectomy
+        -   Can attempt prolonged antibiotic therapy for clearance:
+            -   Quinolones 4-6 weeks, *or* amoxicillin or ampicillin 6 weeks *or* trimethoprim-sulfamethoxazole for 3 months
+            -   Follow-up cultures after 6 months performed to confirm eradication
+    -   Local health policies have specific rules about return to work (food handlers, healthcare workers)
+
+## Enteric fever or typhoid <br>(*Salmonella enterica* serotype typhi) {background-image="/images3/typhoidincidence.png" background-opacity="0.4"}
+
+<br>
+
+-   Humans the only know reservoir for infection
+-   Transmission through fecal-oral route, through direct contact with infected individual or indirect contact through food or water
+    -   Common in impoverished areas of the world
+    -   Highest rates in South-East Asia and East Africa
+-   Afflicts young children and Elderly
+-   **Often seen in returning travellers from Endemic areas- risk of antibiotic resistance**
+-   1-6% have chronic carriage with shedding in urine and stool for \> 12 months after infection (esp. biliary tree infection with stones)
+
+## Clinical features of enteric fever-1
+
+-   **Stepwise over a series of weeks:**
+
+    -   **Week 1:** Fevers \> 40°C with bacteremia, chills, rigours, bradycardia with pulse temperature association (see FUO lecture)
+        -   Patients may initially present with constipation, whereas diarrhea is more common in children and patients living with HIV
+    -   **Week 2:** Abdominal pain, "rose spots"
+
+    ![Spec et al. Comprehensive Review of Infectious Diseases](images3/rosepots.png){width="600"}
+
+## Clinical features of enteric fever-2 {background-image="/images3/typhoidfevercurve.png" background-opacity="0.2"}
+
+<br>
+
+-   **Week 3:** Abdominal perforation secondary to necrosis and lymphatic hyperplasia of Peye's patches (uncommon in children \< 5 years), hepatosplenomegaly, intestinal bleeding and secondary bacteremia → septic shock
+    -   Extraintestinal manifestations: headache 44-94% "typhoid encephalopathy", altered sleep patterns, myelitis, acute psychosis, signs of upper neuron disease, ataxia, parkinsonism (but meningitis is rare)
+    -   Bacteremia can seen cardiovascular, hepatobiliary, respiratory, genitourinary nad musculoskeletal system
+    -   Laboratory findings: leukopenia with anemia, but leukeocytosis seen in children or with intestinal perforation
+-   Most patients resolve the infection in weeks to months without antibiotic therapy (cause of FUO) although death can occur with abdominal perforation
+
+## How to establish typhoid fever diagnosis? {background-image="/images3/typhoidfevercurve.png" background-opacity="0.2"}
+
+<br>
+
+-   Blood and stool cultures (blood positive in 40-80%; stool 30-40%)
+-   Bone marrow \> 90% recovery- considered for complicated cases or if unresponsive to treatment (will remain positive at least 5 days after antibiotic treatment)
+-   Serology (anti-S. typhi antibiotics ) less frequently used
+
+## Typhoid fever treatment {background-image="/images3/antibiotic1.png" background-opacity="0.4"}
+
+-   Fluorquinolone and 3rd generation cephalosporin resistance increasing in SE Asia
+-   However, most strains still susceptible to 3rd generation cephalosporins and azithromycin, treatment of 10-14 days required
+    -   if no resistance suscepted, ciprofloxacin, which is bactericidal and concentrates intracellularly and in the bile will results in more rapid intraceiilar clearnace than beta-lactams
+    -   Alternatives azithromycin (5 days), ampicillin, tremimethoprim-sulfamathoxazole
+-   In uncomplicated cases, patients will defervesce in 4-6 days
+-   Relapse usually occurs after 2-3 weeks following fever resolution (depending on antibiotics) and requires further antibiotic treatment
+
+## Shigella {background-image="/images3/shigella.png" background-opacity="0.3"}
+
+-   Nonmotile Gram-negative facultative anaerobic bacteria belonging to Enterobacterales
+    -   *S. dysenteriae* (Serogroup A)
+    -   *S. flexneri* (Serogroup B)
+    -   *S. boydii* *(*Serogroup C)
+    -   *S. sonnei* (Serogroup D)
+-   3rd most common cause of gastroenteritis after *Salmonella* and *Campylobacter*
+-   Humans are the only known host and reservoir (spread from infected food water-fecal-oral)
+-   Sexual transmission (anal intercourse) and epidemiologically linked to azithromycin resistance
+
+## Clinical features of Shigella infections
+
+-   Invade the colon mucosa cells causing abscess formation and ulceration
+-   Spread from cell to cell and produce enterotoxcins (plasmid-encoded ShET2), chromosomally-encoded ShET (S. flexneri) and shiga toxicn (Stx) (*S. dysenteriae)*
+    -   Toxins result in loss of water and solutes
+
+    -   Cause HUS similar to E.Coli 0157 (Stx toxin)- 8% of children
+
+        ![](images3/shigellaulcer.png){width="300"}
+
+## Diagnosis and treaetment of Shigella infections {.smaller}
+
+-   Best yieled from mucous still
+-   White blood cells and red blood cells commonly seen by microbiology
+-   PCR testing of Shigella, but culture important for susceptibility testing
+    -   Asia and Africa: 20-30% resistance; TMP/SMX 65-85%
+    -   Antibiotic decrease duration of shedding and symptoms by 2 days
+-   Most infections are self limiting, but antibiotics are considerd for:
+    -   Immunocompromised, including patients living with HIV
+    -   Bacteremia or extraintestinal disease
+    -   Patients at risk transmitting to others (Food handlers, residential home workers, nursery staff)
+-   Drug of choice (no resistance concerns): fluoroquinolone; or ceftriaxone pending susceptibilities
+
+## Yersina
+
+## Vibrio
+
+## Others
+
+## Parasites
+
+## Toxins
+
+## *Clostridium perfringes* toxin
+
+## *Staphylococcus aureus* toxin
+
+## *Bacillus cereus* toxin
+
+## Scombroid
+
+## Ciguatera
 
 ## Causes of acute infectious diarrhea in adults in resource-rich settings {.smaller}
 
@@ -312,21 +509,6 @@ We will not be discussing (in detail) diarrheal diseases in resource-poor countr
 Clostridioides (formerly Clostridium) difficile can also present with inflammatory diarrhea.
 
 ¶ Pathogens that are more classically associated with inflammatory diarrhea can also cause watery diarrhea, particularly early in the course of infection.
-
-## Red flag symptoms requiring urgent investigation {background-image="/images3/redflag.svg" background-opacity="0.4"}
-
-<br>
-
--   Peristent stool \> 1 week
--   Fever
--   Bloody diarrhea
--   Severe abdominal pain
--   Signs and symptoms of dehydration (tachycardia, hypotension, confusion, decreased urine output)
--   Weight loss
--   Recent hospital stay of antibiotic exposure
--   Pregnant
--   Over the age of 65 years
--   Diabetic, living with HIV, or immunocompromised
 
 ## Evaluation of acute diarrhea in adults {.smaller}
 
