@@ -23,12 +23,6 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Objectives
 
-## World Malaria Day
-
-![](images_malaria/whomalaria.png)
-
-<br>
-
 ## Protozoa "first animals"
 
 +-----------------+-----------------------------+-------------------------------------------------------+
@@ -40,13 +34,13 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 |                 |                             |                                                       |
 |                 |                             | *Leishmania* (macrophage)                             |
 |                 |                             |                                                       |
-|                 |                             | South-America trypanasome (macrophage, muscle, nerve) |
+|                 |                             | South-America trypanosome (macrophage, muscle, nerve) |
 +-----------------+-----------------------------+-------------------------------------------------------+
 | Water-born      | Amoeba (gut)                | Toxoplasma (macrophage)                               |
 |                 |                             |                                                       |
 |                 | *Giardia* (gut)             |                                                       |
 |                 |                             |                                                       |
-|                 | *Cryptocporidium* (gut)     |                                                       |
+|                 | *Cryptosporidium* (gut)     |                                                       |
 |                 |                             |                                                       |
 |                 | *Isospora* (gut)            |                                                       |
 |                 |                             |                                                       |
@@ -57,7 +51,44 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 \*The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors
 :::
 
+## World Malaria Day
+
+![](images_malaria/whomalaria.png)
+
+<br>
+
 ## Plasmodium spp.
+
+![](images_malaria/Plasmodium.png)
+
+::: aside
+Image: Wikipedia
+:::
+
+## Four species of *Plasmodium* infection humans
+
+-   ***Plasmodium falciparum*** **(malignant tertain)**
+
+    -   Most deadly (1 million deaths per year- anaemia and cerebral malaria)
+
+    -   *Sequestration*- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema
+
+    ![](images_malaria/patho1.jpeg){width="600"}
+
+::: aside
+[@phillips2017]
+:::
+
+## Four species of *Plasmodium* infection humans
+
+<br>
+
+| *Plasmodium spp*. | Liver stage | Blood cycle and fever peaks | Disease features                             |
+|-------------------|-------------|-----------------------------|----------------------------------------------|
+| *P. falciprium*   | 6-14 days   | 48h (tertian)               | Major complications, fatal without treatment |
+| *P. vivax*        | 12-17 days  | 48h                         | Seldom fatal                                 |
+| *P. malariae*     | 13-40 days  | 72h (quartan)               | Nephrotic syndrome                           |
+| *P. ovale*        | 9-18 days   | 50h                         |                                              |
 
 ## References
 

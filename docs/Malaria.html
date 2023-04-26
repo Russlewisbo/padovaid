@@ -28,7 +28,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -339,11 +358,6 @@
 <section id="objectives" class="slide level2">
 <h2>Objectives</h2>
 </section>
-<section id="world-malaria-day" class="slide level2">
-<h2>World Malaria Day</h2>
-
-<img data-src="images_malaria/whomalaria.png" class="r-stretch"><p><br></p>
-</section>
 <section id="protozoa-first-animals" class="slide level2">
 <h2>Protozoa “first animals”</h2>
 <table style="width:99%;">
@@ -366,13 +380,13 @@
 <td>African trypanosome (blood)</td>
 <td><p><em>Plasmodium</em> (liver, red blood cells)</p>
 <p><em>Leishmania</em> (macrophage)</p>
-<p>South-America trypanasome (macrophage, muscle, nerve)</p></td>
+<p>South-America trypanosome (macrophage, muscle, nerve)</p></td>
 </tr>
 <tr class="even">
 <td>Water-born</td>
 <td><p>Amoeba (gut)</p>
 <p><em>Giardia</em> (gut)</p>
-<p><em>Cryptocporidium</em> (gut)</p>
+<p><em>Cryptosporidium</em> (gut)</p>
 <p><em>Isospora</em> (gut)</p>
 <p><em>Trichomonas</em> (urogenital)</p></td>
 <td>Toxoplasma (macrophage)</td>
@@ -383,15 +397,89 @@
 <aside><div>
 <p>*The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors</p>
 </div></aside></section>
+<section id="world-malaria-day" class="slide level2">
+<h2>World Malaria Day</h2>
+
+<img data-src="images_malaria/whomalaria.png" class="r-stretch"><p><br></p>
+</section>
 <section id="plasmodium-spp." class="slide level2">
 <h2>Plasmodium spp.</h2>
+<p><img data-src="images_malaria/Plasmodium.png"></p>
+
+<aside><div>
+<p>Image: Wikipedia</p>
+</div></aside></section>
+<section id="four-species-of-plasmodium-infection-humans" class="slide level2">
+<h2>Four species of <em>Plasmodium</em> infection humans</h2>
+<ul>
+<li><p><strong><em>Plasmodium falciparum</em></strong> <strong>(malignant tertain)</strong></p>
+<ul>
+<li><p>Most deadly (1 million deaths per year- anaemia and cerebral malaria)</p></li>
+<li><p><em>Sequestration</em>- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema</p></li>
+</ul>
+<p><img data-src="images_malaria/patho1.jpeg" width="600"></p></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="phillips2017">(<a href="#/references" role="doc-biblioref" onclick="">Phillips et al., 2017</a>)</span></p>
+</div></aside></section>
+<section id="four-species-of-plasmodium-infection-humans-1" class="slide level2">
+<h2>Four species of <em>Plasmodium</em> infection humans</h2>
+<p><br></p>
+<table>
+<colgroup>
+<col style="width: 17%">
+<col style="width: 12%">
+<col style="width: 27%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Plasmodium spp</em>.</th>
+<th>Liver stage</th>
+<th>Blood cycle and fever peaks</th>
+<th>Disease features</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>P. falciprium</em></td>
+<td>6-14 days</td>
+<td>48h (tertian)</td>
+<td>Major complications, fatal without treatment</td>
+</tr>
+<tr class="even">
+<td><em>P. vivax</em></td>
+<td>12-17 days</td>
+<td>48h</td>
+<td>Seldom fatal</td>
+</tr>
+<tr class="odd">
+<td><em>P. malariae</em></td>
+<td>13-40 days</td>
+<td>72h (quartan)</td>
+<td>Nephrotic syndrome</td>
+</tr>
+<tr class="even">
+<td><em>P. ovale</em></td>
+<td>9-18 days</td>
+<td>50h</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="references" class="slide level2">
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <p><br></p>
 
 <div class="footer footer-default">
 
+</div>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-phillips2017" class="csl-entry" role="listitem">
+Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017;3:17050. <a href="https://doi.org/10.1038/nrdp.2017.50">https://doi.org/10.1038/nrdp.2017.50</a>.
+</div>
 </div>
 </section>
     </div>
