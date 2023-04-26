@@ -52,6 +52,8 @@
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -261,6 +263,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -402,8 +405,34 @@
 
 <img data-src="images_malaria/whomalaria.png" class="r-stretch"><p><br></p>
 </section>
+<section id="the-impact-of-malaria-on-humans-is-staggering" class="slide level2 smaller">
+<h2>The impact of malaria on humans is staggering</h2>
+<ul>
+<li class="fragment"><p>Kills roughly 2000 people per day, most of whom are children in Africa</p></li>
+<li class="fragment"><p>Strongest known force for evolutionary selection in the recent history of the human genome.</p>
+<ul>
+<li class="fragment">Malaria is the evolutionary driving force behind sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects that together comprise the most common Mendelian diseases of humankind</li>
+</ul></li>
+<li class="fragment"><p>Malaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia</p></li>
+<li class="fragment"><p>Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors</p></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="kwiatkowski2005">(<a href="#/references" role="doc-biblioref" onclick="">Kwiatkowski, 2005</a>)</span></p>
+</div></aside></section>
+<section id="malaria-endemic-regions" class="slide level2">
+<h2>Malaria endemic regions</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images_malaria/map.png"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="phillips2017">(<a href="#/references" role="doc-biblioref" onclick="">Phillips et al., 2017</a>)</span></p>
+</div></aside></section>
 <section id="plasmodium-spp." class="slide level2">
-<h2>Plasmodium spp.</h2>
+<h2><em>Plasmodium</em> spp.</h2>
 <p><img data-src="images_malaria/Plasmodium.png"></p>
 
 <aside><div>
@@ -412,26 +441,25 @@
 <section id="four-species-of-plasmodium-infection-humans" class="slide level2">
 <h2>Four species of <em>Plasmodium</em> infection humans</h2>
 <ul>
-<li><p><strong><em>Plasmodium falciparum</em></strong> <strong>(malignant tertain)</strong></p>
+<li class="fragment"><p><strong><em>Plasmodium falciparum</em></strong> <strong>(malignant tertain)</strong></p>
 <ul>
-<li><p>Most deadly (1 million deaths per year- anaemia and cerebral malaria)</p></li>
-<li><p><em>Sequestration</em>- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema</p></li>
+<li class="fragment"><p>Most deadly (1 million deaths per year- anaemia and cerebral malaria)</p></li>
+<li class="fragment"><p><em>Sequestration</em>- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema</p></li>
+<li class="fragment"><p>Almost all deaths are caused by this species</p></li>
 </ul>
 <p><img data-src="images_malaria/patho1.jpeg" width="600"></p></li>
 </ul>
-
-<aside><div>
-<p><span class="citation" data-cites="phillips2017">(<a href="#/references" role="doc-biblioref" onclick="">Phillips et al., 2017</a>)</span></p>
-</div></aside></section>
+<p><span class="citation" data-cites="fairhurstrick2015">(<a href="#/references" role="doc-biblioref" onclick="">Fairhurst, Rick and Wellems, Thomas, 2015</a>)</span></p>
+</section>
 <section id="four-species-of-plasmodium-infection-humans-1" class="slide level2">
 <h2>Four species of <em>Plasmodium</em> infection humans</h2>
 <p><br></p>
-<table>
+<table style="width:98%;">
 <colgroup>
 <col style="width: 17%">
 <col style="width: 12%">
-<col style="width: 27%">
-<col style="width: 42%">
+<col style="width: 26%">
+<col style="width: 41%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -466,8 +494,17 @@
 <td>50h</td>
 <td></td>
 </tr>
+<tr class="odd">
+<td><em>P. knowlowsi</em></td>
+<td>9-12 days</td>
+<td>24h</td>
+<td>SouthEast Asia, monkey</td>
+</tr>
 </tbody>
 </table>
+</section>
+<section id="malaria-in-pregnancy" class="slide level2">
+<h2>Malaria in pregnancy</h2>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -477,6 +514,12 @@
 
 </div>
 <div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-fairhurstrick2015" class="csl-entry" role="listitem">
+Fairhurst, Rick, Wellems, Thomas. Malaria (plasmodium species). 8th ed., Elsivier; 2015.
+</div>
+<div id="ref-kwiatkowski2005" class="csl-entry" role="listitem">
+Kwiatkowski DP. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1224522/">How malaria has affected the human genome and what human genetics can teach us about malaria</a>. American Journal of Human Genetics 2005;77:171–92.
+</div>
 <div id="ref-phillips2017" class="csl-entry" role="listitem">
 Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017;3:17050. <a href="https://doi.org/10.1038/nrdp.2017.50">https://doi.org/10.1038/nrdp.2017.50</a>.
 </div>
@@ -492,6 +535,7 @@ Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells 
   <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -506,18 +550,19 @@ Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -534,7 +579,7 @@ Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells 
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -639,10 +684,10 @@ Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells 
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
+        transitionSpeed: 'fast',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
@@ -684,7 +729,7 @@ Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells 
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -693,44 +738,6 @@ Phillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells 
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -5,15 +5,19 @@ title-slide-attributes:
 format:
   revealjs:
     theme: [default, custom2.scss]
+    touch: true
+    controls: true
+    transition: fade
+    transition-speed: fast
+    scrollable: true
+    slide-number: true
+    incremental: true
+    chalkboard: true
 bibliography: Malaria.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
 ## Parasitic Diseases: Malaria and Leishmaniasis {background-image="/images_malaria/mosquito.png" background-opacity="0.5"}
-
-```{r}
-
-```
 
 <br>
 
@@ -57,7 +61,31 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 <br>
 
-## Plasmodium spp.
+## The impact of malaria on humans is staggering {.smaller}
+
+-   Kills roughly 2000 people per day, most of whom are children in Africa
+
+-   Strongest known force for evolutionary selection in the recent history of the human genome.
+
+    -   Malaria is the evolutionary driving force behind sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects that together comprise the most common Mendelian diseases of humankind
+
+-   Malaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia
+
+-   Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors
+
+::: aside
+[@kwiatkowski2005]
+:::
+
+## Malaria endemic regions
+
+![](images_malaria/map.png){fig-align="center"}
+
+::: aside
+[@phillips2017]
+:::
+
+## *Plasmodium* spp.
 
 ![](images_malaria/Plasmodium.png)
 
@@ -73,22 +101,31 @@ Image: Wikipedia
 
     -   *Sequestration*- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema
 
+    -   Almost all deaths are caused by this species
+
     ![](images_malaria/patho1.jpeg){width="600"}
 
-::: aside
-[@phillips2017]
-:::
+[@fairhurstrick2015]
 
 ## Four species of *Plasmodium* infection humans
 
 <br>
 
++-------------------+-------------+-----------------------------+----------------------------------------------+
 | *Plasmodium spp*. | Liver stage | Blood cycle and fever peaks | Disease features                             |
-|-------------------|-------------|-----------------------------|----------------------------------------------|
++===================+=============+=============================+==============================================+
 | *P. falciprium*   | 6-14 days   | 48h (tertian)               | Major complications, fatal without treatment |
++-------------------+-------------+-----------------------------+----------------------------------------------+
 | *P. vivax*        | 12-17 days  | 48h                         | Seldom fatal                                 |
++-------------------+-------------+-----------------------------+----------------------------------------------+
 | *P. malariae*     | 13-40 days  | 72h (quartan)               | Nephrotic syndrome                           |
++-------------------+-------------+-----------------------------+----------------------------------------------+
 | *P. ovale*        | 9-18 days   | 50h                         |                                              |
++-------------------+-------------+-----------------------------+----------------------------------------------+
+| *P. knowlowsi*    | 9-12 days   | 24h                         | SouthEast Asia, monkey                       |
++-------------------+-------------+-----------------------------+----------------------------------------------+
+
+## Malaria in pregnancy
 
 ## References
 
