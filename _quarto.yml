@@ -16,6 +16,7 @@ website:
       - febrileneutropenia.qmd
       - IFI.qmd
       - Diarrheapage.qmd
+      - Malariapage.qmd
 format: 
   html:
     theme: flatly

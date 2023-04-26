@@ -549,8 +549,8 @@
     "objectID": "immunosuppression.html#infections-in-the-immunocompromised-host-febrile-neutropenia",
     "href": "immunosuppression.html#infections-in-the-immunocompromised-host-febrile-neutropenia",
     "title": "Infections in the Immunocompromised Host",
-    "section": "Infections in the Immunocompromised Host Febrile Neutropenia",
-    "text": "Infections in the Immunocompromised Host Febrile Neutropenia\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
+    "section": "",
+    "text": "Russell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
   },
   {
     "objectID": "immunosuppression.html#objectives",
@@ -592,7 +592,7 @@
     "href": "immunosuppression.html#innate-immune-system",
     "title": "Infections in the Immunocompromised Host",
     "section": "Innate immune system",
-    "text": "Innate immune system\n\n\nPlayfair and Bancroft. Infection and Immunity 4th Edition"
+    "text": "Innate immune system\n\n\n\n\n\n\nPlayfair and Bancroft. Infection and Immunity 4th Edition"
   },
   {
     "objectID": "immunosuppression.html#effector-mechanisms-and-targets-of-the-innate-immune-system",
@@ -620,7 +620,7 @@
     "href": "immunosuppression.html#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc",
     "title": "Infections in the Immunocompromised Host",
     "section": "Clinical manifestations of infection related to absolute neutrophil count (ANC)",
-    "text": "Clinical manifestations of infection related to absolute neutrophil count (ANC)\n\n\n\n\n\n\n\n\n\n\nSigns and symptoms\nInfection\n% of patients with ANC< 100\n% of patients with ANC>1000\n\n\n\n\nFever\nOverall\n98\n76\n\n\nBacteremia\nOverall\n43\n13\n\n\nFluctuance\nAnorectal\n8\n67\n\n\nExudate\nSkin\n5\n92\n\n\nPurulent sputum\nPneumonia\n8\n84\n\n\nPyuria\nUTI\n11\n97\n\n\n\n\n\n(Sickles et al., 1975)"
+    "text": "Clinical manifestations of infection related to absolute neutrophil count (ANC)\n\n\n\n\n\n\n\n\n\n\nSigns and symptoms\nInfection\n% of patients with ANC&lt; 100\n% of patients with ANC&gt;1000\n\n\n\n\nFever\nOverall\n98\n76\n\n\nBacteremia\nOverall\n43\n13\n\n\nFluctuance\nAnorectal\n8\n67\n\n\nExudate\nSkin\n5\n92\n\n\nPurulent sputum\nPneumonia\n8\n84\n\n\nPyuria\nUTI\n11\n97\n\n\n\n\n\n(Sickles et al., 1975)"
   },
   {
     "objectID": "immunosuppression.html#typical-antimicrobial-flora",
@@ -1412,5 +1412,19 @@
     "title": "Infectious Diarrheal Diseases",
     "section": "Composition of oral rehydration solutions (ORSC) and commonly used beverages",
     "text": "Composition of oral rehydration solutions (ORSC) and commonly used beverages\n\n\n\n\n\n\n\n\n\n\n\n\nCarbohydrate (g/L)\nmEq/L\n\n\nOsmolarity (mOSM/kg H2O)\n\n\n\n\nSodium\nPotassium\nBase (HCO3–)\n\n\n\n\n\nOral rehydration solutions\n\n\n\n\n\n\n\nCeraLyte\n40\n70\n20\n10\n235\n\n\nEnfalyte\n30\n50\n25\n30\n200\n\n\nPedialyte\n25\n45\n20\n30\n250\n\n\nRehydralyte\n25\n75\n20\n30\n310\n\n\nWHO (1975)\n20\n90\n30\n30\n310\n\n\nWHO (2002)\n13.5\n75\n20\n30\n245\n\n\nCommonly Used Beverages (not appropriate for repletion therapy)\n\n\n\n\n\n\n\nApple juice\n100 to 150\n3\n20\n0\n700\n\n\nChicken broth\n0\n250\n5\n0\n450\n\n\nColas\n100 to 150\n2\n0.1\n13\n550\n\n\nGatorade\n45\n20\n3\n3\n330\n\n\nGinger Ale\n90\n3.5\n0.1\n3.6\n565\n\n\nTea\n0\n0\n0\n0\n5\n\n\n\nORSs were developed following the realization that, in many small bowel diarrheal illnesses, intestinal glucose absorption via sodium-glucose cotransport remains intact. Thus, in diarrheal disease caused by any organism that depends on small bowel secretory processes, the intestine remains able to absorb water if glucose and salt are also present to assist in the transport of water from the intestinal lumen"
+  },
+  {
+    "objectID": "febrileneutropenia.html#lecture-slides",
+    "href": "febrileneutropenia.html#lecture-slides",
+    "title": "Febrile neutropenia",
+    "section": "",
+    "text": "slides"
+  },
+  {
+    "objectID": "immunosuppression.html",
+    "href": "immunosuppression.html",
+    "title": "Infections in the Immunocompromised Host",
+    "section": "",
+    "text": "Russell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
   }
 ]
