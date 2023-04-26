@@ -1,24 +1,15 @@
 ---
-title: "Parasitic Infections: Malaria and Leishamoniasis"
+title: "Malaria and Leishmaniasis"
 title-slide-attributes:
   data-background-image: /images_malaria/mosquito.png
 format:
   revealjs:
-    touch: true
-    controls: true
-    transition: fade
-    transition-speed: fast
-    scrollable: true
-    slide-number: false
-    incremental: false
-    multiplex: true
-    chalkboard: true
     theme: [default, custom2.scss]
-bibliography: references.bib
+bibliography: Malaria.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Parasitic Disesease <br>Malaria and Leishemoniasis {background-image="/images/bacteria.png"}
+## Parasitic Diseases: Malaria and Leishmaniasis {background-image="/images_malaria/mosquito.png" background-opacity="0.5" }
 
 <br>
 
@@ -27,3 +18,9 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 2 May 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
 
 ## Objectives
+
+<br>
+
+## References
+
+<br>

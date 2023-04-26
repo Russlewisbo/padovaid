@@ -555,9 +555,9 @@
   {
     "objectID": "immunosuppression.html#objectives",
     "href": "immunosuppression.html#objectives",
-    "title": "Infections in the Immunocompromised Host",
+    "title": "Parasitic Infections: Malaria and Leishamoniasis",
     "section": "Objectives",
-    "text": "Objectives\n\n\nReview common immunosuppression risk factors for infection in patients undergoing treatment for cancer/hematological malignancies\nAnticipate most likely infections based on the the types of immunosuppression\nDefine appropriate prophylaxis and treatment strategies for immunocompromised hosts"
+    "text": "Objectives"
   },
   {
     "objectID": "immunosuppression.html#microbial-colonization",
@@ -886,7 +886,7 @@
     "href": "diarrhea.html#when-are-stool-cultures-considered",
     "title": "Infectious Diarrheal Diseases",
     "section": "When are stool cultures considered?",
-    "text": "When are stool cultures considered?\n\n\n\nSevere illness\n\nProfuse watery diarrhea with signs of hypovolemia\nPassage of > 6 unformed stools per 24 hours\nSevere abdominal pain\nNeed for hospitalization\n\nOther signs of symptoms concerning for inflammatory diarrhea\n\nBloody diarrhea\nPassage of many small stools containing blood and mucus\nTemperature >38.5°\n\nHigh-risk host features\n\nAge ≥ 70 years\nComorbidities such as cardiac disease (exacerbated by hypovolemia or complicating fluid replacement)\nImmunocompromised condition (including advanced HIV)\nInflammatory bowel disease\nPregnancy\nSymptoms persisting more than 1 week\n\nSuspected public health issue\n\n\nGoal: Identify a potential bacterial pathogen that would inform the potential for complications and treatment decisions"
+    "text": "When are stool cultures considered?\n\n\n\nSevere illness\n\nProfuse watery diarrhea with signs of hypovolemia\nPassage of &gt; 6 unformed stools per 24 hours\nSevere abdominal pain\nNeed for hospitalization\n\nOther signs of symptoms concerning for inflammatory diarrhea\n\nBloody diarrhea\nPassage of many small stools containing blood and mucus\nTemperature &gt;38.5°\n\nHigh-risk host features\n\nAge ≥ 70 years\nComorbidities such as cardiac disease (exacerbated by hypovolemia or complicating fluid replacement)\nImmunocompromised condition (including advanced HIV)\nInflammatory bowel disease\nPregnancy\nSymptoms persisting more than 1 week\n\nSuspected public health issue\n\n\nGoal: Identify a potential bacterial pathogen that would inform the potential for complications and treatment decisions"
   },
   {
     "objectID": "diarrhea.html#stool-testing-molecular-methods",
@@ -949,14 +949,14 @@
     "href": "diarrhea.html#enterotoxigenic-escherichia-coli-etec",
     "title": "Infectious Diarrheal Diseases",
     "section": "Enterotoxigenic Escherichia coli (ETEC)",
-    "text": "Enterotoxigenic Escherichia coli (ETEC)\n\n\nCause of dehydrating diarrhea , especially in developing world (< 2 years age) due to ability to survive in water and production of heat-stabile and heat-labile toxins\nCauses watery diarrhea in returning travellers with nausea but no vomiting and symptoms lasting as long as 5 days"
+    "text": "Enterotoxigenic Escherichia coli (ETEC)\n\n\nCause of dehydrating diarrhea , especially in developing world (&lt; 2 years age) due to ability to survive in water and production of heat-stabile and heat-labile toxins\nCauses watery diarrhea in returning travellers with nausea but no vomiting and symptoms lasting as long as 5 days"
   },
   {
     "objectID": "diarrhea.html#enteropathogenic-e.-coli-epec",
     "href": "diarrhea.html#enteropathogenic-e.-coli-epec",
     "title": "Infectious Diarrheal Diseases",
     "section": "Enteropathogenic E. coli (EPEC)",
-    "text": "Enteropathogenic E. coli (EPEC)\n\n\nDiarrhea common in children < 6 months in developing world\nSporadic outbreaks in adults\nSevere diarrhea that can result in dehydration and malnutrition"
+    "text": "Enteropathogenic E. coli (EPEC)\n\n\nDiarrhea common in children &lt; 6 months in developing world\nSporadic outbreaks in adults\nSevere diarrhea that can result in dehydration and malnutrition"
   },
   {
     "objectID": "diarrhea.html#entero-hemorrhagic-e-coli-ehec-of-shiga-toxin-producing-e.-coli-stec",
@@ -1040,7 +1040,7 @@
     "href": "diarrhea.html#enteric-fever-or-typhoid-salmonella-enterica-serotype-typhi",
     "title": "Infectious Diarrheal Diseases",
     "section": "Enteric fever or typhoid (Salmonella enterica serotype typhi)",
-    "text": "Enteric fever or typhoid (Salmonella enterica serotype typhi)\n\n\nHumans the only know reservoir for infection\nTransmission through fecal-oral route, through direct contact with infected individual or indirect contact through food or water\n\nCommon in impoverished areas of the world\nHighest rates in South-East Asia and East Africa\n\nAfflicts young children and Elderly\nOften seen in returning travellers from Endemic areas- risk of antibiotic resistance\n1-6% have chronic carriage with shedding in urine and stool for > 12 months after infection (esp. biliary tree infection with stones)"
+    "text": "Enteric fever or typhoid (Salmonella enterica serotype typhi)\n\n\nHumans the only know reservoir for infection\nTransmission through fecal-oral route, through direct contact with infected individual or indirect contact through food or water\n\nCommon in impoverished areas of the world\nHighest rates in South-East Asia and East Africa\n\nAfflicts young children and Elderly\nOften seen in returning travellers from Endemic areas- risk of antibiotic resistance\n1-6% have chronic carriage with shedding in urine and stool for &gt; 12 months after infection (esp. biliary tree infection with stones)"
   },
   {
     "objectID": "diarrhea.html#clostridiodes-clostridium-difficile",
@@ -1096,21 +1096,21 @@
     "href": "diarrhea.html#red-flag-symptoms--urgent-investigation",
     "title": "Infectious Diarrheal Diseases",
     "section": "Red flag symptoms- urgent investigation",
-    "text": "Red flag symptoms- urgent investigation\n\n\nPeristent stool > 1 week\nFever\nBloody diarrhea\nSevere abdominal pain\nSigns and symptoms of dehydration (tachycardia, hypotension, confusion, decreased urine output)\nWeight loss\nRecent hospital stay or antibiotic exposure\nPregnant\nOver the age of 65 years\nDiabetic, living with HIV, or immunocompromised"
+    "text": "Red flag symptoms- urgent investigation\n\n\nPeristent stool &gt; 1 week\nFever\nBloody diarrhea\nSevere abdominal pain\nSigns and symptoms of dehydration (tachycardia, hypotension, confusion, decreased urine output)\nWeight loss\nRecent hospital stay or antibiotic exposure\nPregnant\nOver the age of 65 years\nDiabetic, living with HIV, or immunocompromised"
   },
   {
     "objectID": "diarrhea.html#entero-hemorrhagic-e.-coli-ehec-or-shiga-toxin-producing-e.-coli-stec",
     "href": "diarrhea.html#entero-hemorrhagic-e.-coli-ehec-or-shiga-toxin-producing-e.-coli-stec",
     "title": "Infectious Diarrheal Diseases",
     "section": "Entero-hemorrhagic E. coli (EHEC)  or Shiga toxin-producing E. coli (STEC)",
-    "text": "Entero-hemorrhagic E. coli (EHEC)  or Shiga toxin-producing E. coli (STEC)\n\nIncubation of 1-4 days\nMain serotypes E. coli O157:H7 or E. coli O101:h4 (STEC)\nOften cause bloody diarrhea, abdominal tenderness with lack of fever\nOccasional cause of pseudomembranous colitis (when negative for C. difficile)\nIncreased white blood cell count\nAssociated with outbreaks (contaminated food)\nCan cause hemolytic uremia syndrome (5-10 days after diarrhea) 6-9% of EHEC infections affecting mostly children < 10 years:\n\nRenal failure\nThrombocytopenia\nThrombotic microangiopathic anemia (↓ PLT count, haptoglobin, RBC, ↑LDH, SeCr)\n\nNeurologic symptoms-motor deficits and seizure (4%)"
+    "text": "Entero-hemorrhagic E. coli (EHEC)  or Shiga toxin-producing E. coli (STEC)\n\nIncubation of 1-4 days\nMain serotypes E. coli O157:H7 or E. coli O101:h4 (STEC)\nOften cause bloody diarrhea, abdominal tenderness with lack of fever\nOccasional cause of pseudomembranous colitis (when negative for C. difficile)\nIncreased white blood cell count\nAssociated with outbreaks (contaminated food)\nCan cause hemolytic uremia syndrome (5-10 days after diarrhea) 6-9% of EHEC infections affecting mostly children &lt; 10 years:\n\nRenal failure\nThrombocytopenia\nThrombotic microangiopathic anemia (↓ PLT count, haptoglobin, RBC, ↑LDH, SeCr)\n\nNeurologic symptoms-motor deficits and seizure (4%)"
   },
   {
     "objectID": "diarrhea.html#campylobacter-infections-treatment",
     "href": "diarrhea.html#campylobacter-infections-treatment",
     "title": "Infectious Diarrheal Diseases",
     "section": "Campylobacter infections: Treatment",
-    "text": "Campylobacter infections: Treatment\n<br>\n\nGenerally self-limiting, antimicrobial resistance a problem (e.g., fluoroquinolone resistance in SE Asia)\nAntibiotic treatment has been shown to reduce symptoms duration by 1 day, but is indicated when patient is:\n\nImmunocompromised or pregnant\nHas severe disease with fever, bloody diarrhea, symptoms > 1 week, relapsing symptoms, or extraintestinal disease\n\nGeneral approach: ciprofloxacin/levofloxacin or azithromycin x 3 days or until sings and symptoms have improved\n\n7-14 days therapy recommended in immunocompromised\n\nIn severe infections with bacteremia or patients unable to tolerate oral medication: carbapenem + aminoglycoside"
+    "text": "Campylobacter infections: Treatment\n&lt;br&gt;\n\nGenerally self-limiting, antimicrobial resistance a problem (e.g., fluoroquinolone resistance in SE Asia)\nAntibiotic treatment has been shown to reduce symptoms duration by 1 day, but is indicated when patient is:\n\nImmunocompromised or pregnant\nHas severe disease with fever, bloody diarrhea, symptoms &gt; 1 week, relapsing symptoms, or extraintestinal disease\n\nGeneral approach: ciprofloxacin/levofloxacin or azithromycin x 3 days or until sings and symptoms have improved\n\n7-14 days therapy recommended in immunocompromised\n\nIn severe infections with bacteremia or patients unable to tolerate oral medication: carbapenem + aminoglycoside"
   },
   {
     "objectID": "diarrhea.html#salmonella-epidemiology",
@@ -1131,7 +1131,7 @@
     "href": "diarrhea.html#clinical-features",
     "title": "Infectious Diarrheal Diseases",
     "section": "Clinical features",
-    "text": "Clinical features\n\n\nIncubation period of 8-72 hours following ingestion of contained water/food (inoculum dependent\nSeverity of symptoms related to bacterial dose- mild symptoms and asymptomatic carriage can occur\nDiarrhea with abdominal pain that resolves in 4-7 days, nausa, voming and fever generally resolve in < 72 hours\nBloody stools in children\nLess than 5% of non-typhoidal Salmonella develop bactermeia\n\nHowever, when bacteremia develops: mycotic aneurysms, abscess, osteomyelitis, infective endocarditis, endovascular infection\n\nPatients with achlorhydria, inflammatory bowel disease, sickly cell disease are susceptible to more severe infection"
+    "text": "Clinical features\n\n\nIncubation period of 8-72 hours following ingestion of contained water/food (inoculum dependent\nSeverity of symptoms related to bacterial dose- mild symptoms and asymptomatic carriage can occur\nDiarrhea with abdominal pain that resolves in 4-7 days, nausa, voming and fever generally resolve in &lt; 72 hours\nBloody stools in children\nLess than 5% of non-typhoidal Salmonella develop bactermeia\n\nHowever, when bacteremia develops: mycotic aneurysms, abscess, osteomyelitis, infective endocarditis, endovascular infection\n\nPatients with achlorhydria, inflammatory bowel disease, sickly cell disease are susceptible to more severe infection"
   },
   {
     "objectID": "diarrhea.html#antibiotic-treatment",
@@ -1194,7 +1194,7 @@
     "href": "diarrhea.html#parasites",
     "title": "Infectious Diarrheal Diseases",
     "section": "Parasites",
-    "text": "Parasites\n\nConsider if diarrhea lasts > 14 days\nGiardia, Cyclospora, Cryptosporidium spp.\nMay be assocaited with community waterborne outbreaks\nDiagnosed by stool culture and examination for ova, cysts and parasites\n\nShed intermittently: May need 3 consecutive samples"
+    "text": "Parasites\n\nConsider if diarrhea lasts &gt; 14 days\nGiardia, Cyclospora, Cryptosporidium spp.\nMay be assocaited with community waterborne outbreaks\nDiagnosed by stool culture and examination for ova, cysts and parasites\n\nShed intermittently: May need 3 consecutive samples"
   },
   {
     "objectID": "diarrhea.html#toxins",
@@ -1243,21 +1243,21 @@
     "href": "diarrhea.html#clinical-features-of-enteric-fever-1",
     "title": "Infectious Diarrheal Diseases",
     "section": "Clinical features of enteric fever-1",
-    "text": "Clinical features of enteric fever-1\n\nStepwise over a series of weeks:\n\nWeek 1: Fevers > 40°C with bacteremia, chills, rigours, bradycardia with pulse temperature association (see FUO lecture)\n\nPatients may initially present with constipation, whereas diarrhea is more common in children and patients living with HIV\n\nWeek 2: Abdominal pain, “rose spots”\n\n\n\n\nSpec et al. Comprehensive Review of Infectious Diseases"
+    "text": "Clinical features of enteric fever-1\n\nStepwise over a series of weeks:\n\nWeek 1: Fevers &gt; 40°C with bacteremia, chills, rigours, bradycardia with pulse temperature association (see FUO lecture)\n\nPatients may initially present with constipation, whereas diarrhea is more common in children and patients living with HIV\n\nWeek 2: Abdominal pain, “rose spots”"
   },
   {
     "objectID": "diarrhea.html#clinical-features-of-enteric-fever-2",
     "href": "diarrhea.html#clinical-features-of-enteric-fever-2",
     "title": "Infectious Diarrheal Diseases",
     "section": "Clinical features of enteric fever-2",
-    "text": "Clinical features of enteric fever-2\n\n\nWeek 3: Abdominal perforation secondary to necrosis and lymphatic hyperplasia of Peye’s patches (uncommon in children < 5 years), hepatosplenomegaly, intestinal bleeding and secondary bacteremia → septic shock\n\nExtraintestinal manifestations: headache 44-94% “typhoid encephalopathy”, altered sleep patterns, myelitis, acute psychosis, signs of upper neuron disease, ataxia, parkinsonism (but meningitis is rare)\nBacteremia can seen cardiovascular, hepatobiliary, respiratory, genitourinary nad musculoskeletal system\nLaboratory findings: leukopenia with anemia, but leukeocytosis seen in children or with intestinal perforation\n\nMost patients resolve the infection in weeks to months without antibiotic therapy (cause of FUO) although death can occur with abdominal perforation"
+    "text": "Clinical features of enteric fever-2\n\n\nWeek 3: Abdominal perforation secondary to necrosis and lymphatic hyperplasia of Peye’s patches (uncommon in children &lt; 5 years), hepatosplenomegaly, intestinal bleeding and secondary bacteremia → septic shock\n\nExtraintestinal manifestations: headache 44-94% “typhoid encephalopathy”, altered sleep patterns, myelitis, acute psychosis, signs of upper neuron disease, ataxia, parkinsonism (but meningitis is rare)\nBacteremia can seen cardiovascular, hepatobiliary, respiratory, genitourinary nad musculoskeletal system\nLaboratory findings: leukopenia with anemia, but leukeocytosis seen in children or with intestinal perforation\n\nMost patients resolve the infection in weeks to months without antibiotic therapy (cause of FUO) although death can occur with abdominal perforation"
   },
   {
     "objectID": "diarrhea.html#how-to-establish-typhoid-fever-diagnosis",
     "href": "diarrhea.html#how-to-establish-typhoid-fever-diagnosis",
     "title": "Infectious Diarrheal Diseases",
     "section": "How to establish typhoid fever diagnosis?",
-    "text": "How to establish typhoid fever diagnosis?\n\n\nBlood and stool cultures (blood positive in 40-80%; stool 30-40%)\nBone marrow > 90% recovery- considered for complicated cases or if unresponsive to treatment (will remain positive at least 5 days after antibiotic treatment)\nSerology (anti-S. typhi antibiotics ) less frequently used"
+    "text": "How to establish typhoid fever diagnosis?\n\n\nBlood and stool cultures (blood positive in 40-80%; stool 30-40%)\nBone marrow &gt; 90% recovery- considered for complicated cases or if unresponsive to treatment (will remain positive at least 5 days after antibiotic treatment)\nSerology (anti-S. typhi antibiotics ) less frequently used"
   },
   {
     "objectID": "diarrhea.html#typhoid-fever-treatment",
@@ -1369,7 +1369,7 @@
     "href": "diarrhea.html#clostridioides-formally-clostridium-difficile",
     "title": "Infectious Diarrheal Diseases",
     "section": "Clostridioides (formally Clostridium) difficile",
-    "text": "Clostridioides (formally Clostridium) difficile\n\nWill be discussed separate lecture in greater detail\nGram-positive anaerobic bacillus that is spore forming and able to produce toxin\nC. difficile causes an antibiotic-associated inflammatory colitis and in the commonest cause of healthcare-associated diarrhea\nInfection requires spores to be acquired and for gut microbiota to be disrupted, usually through preceding antibiotic therapy\nToxin A causes inflammation with intestinal fluid secretin and dmage to mucosa\nToxin B, more potent than Toxin A, acts as a virulence factor\nDiagnosis is established with 2-step process: glutamate dehydrogenase (GDH) and PCR testing or other NAAT for toxin\nTreatment: Oral vancomycin or fidoxamine > metronidazole"
+    "text": "Clostridioides (formally Clostridium) difficile\n\nWill be discussed separate lecture in greater detail\nGram-positive anaerobic bacillus that is spore forming and able to produce toxin\nC. difficile causes an antibiotic-associated inflammatory colitis and in the commonest cause of healthcare-associated diarrhea\nInfection requires spores to be acquired and for gut microbiota to be disrupted, usually through preceding antibiotic therapy\nToxin A causes inflammation with intestinal fluid secretin and dmage to mucosa\nToxin B, more potent than Toxin A, acts as a virulence factor\nDiagnosis is established with 2-step process: glutamate dehydrogenase (GDH) and PCR testing or other NAAT for toxin\nTreatment: Oral vancomycin or fidoxamine &gt; metronidazole"
   },
   {
     "objectID": "diarrhea.html#scombroid-rash",
@@ -1426,5 +1426,40 @@
     "title": "Infections in the Immunocompromised Host",
     "section": "",
     "text": "Russell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  13 March 2023"
+  },
+  {
+    "objectID": "immunosuppression.html#parasitic-disesease-malaria-and-leishemoniasis",
+    "href": "immunosuppression.html#parasitic-disesease-malaria-and-leishemoniasis",
+    "title": "Parasitic Infections: Malaria and Leishamoniasis",
+    "section": "Parasitic Disesease Malaria and Leishemoniasis",
+    "text": "Parasitic Disesease Malaria and Leishemoniasis\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  2 May 2023"
+  },
+  {
+    "objectID": "Malaria.html#parasitic-diseases-malaria-and-leishmaniasis",
+    "href": "Malaria.html#parasitic-diseases-malaria-and-leishmaniasis",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Parasitic Diseases: Malaria and Leishmaniasis",
+    "text": "Parasitic Diseases: Malaria and Leishmaniasis\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  2 May 2023"
+  },
+  {
+    "objectID": "Malaria.html#objectives",
+    "href": "Malaria.html#objectives",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Objectives",
+    "text": "Objectives"
+  },
+  {
+    "objectID": "Malaria.html#references",
+    "href": "Malaria.html#references",
+    "title": "Malaria and Leishmaniasis",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "Malaria.html#parasitic-diseases-malaria-and-leishmaniasis-background-imageimages_malariamosquito.png-background-opacity-0.5",
+    "href": "Malaria.html#parasitic-diseases-malaria-and-leishmaniasis-background-imageimages_malariamosquito.png-background-opacity-0.5",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Parasitic Diseases: Malaria and Leishmaniasis {background-image=“/images_malaria/mosquito.png” background-opacity 0.5}",
+    "text": "Parasitic Diseases: Malaria and Leishmaniasis {background-image=“/images_malaria/mosquito.png” background-opacity 0.5}\n\n\nRussell Lewis  Associate Professor, Infectious Diseases  Department of Molecular Medicine  MEP 2491 Infectious Diseases  2 May 2023"
   }
 ]

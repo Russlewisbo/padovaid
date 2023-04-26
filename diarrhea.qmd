@@ -630,7 +630,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 <br> <br>
 
 |                                                                              | Likely pathogens          | Mean incubation period                                                  | Classic/ common food sources                                                                                                              | Other epidemiologic clues                                                                                                                      |
-|---------------|---------------|---------------|---------------|---------------|
+|------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Watery diarrhea**                                                          | Norovirus                 | 24 to 48 hours                                                          | -Shellfish, prepared foods, vegetables, fruit                                                                                             | Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations |
 | *Clostridioides* (formerly *Clostridium difficile*)                          | N/A                       | N/A                                                                     | Antibiotic use<br>- Hospitalization<br>- Cancer chemotherapy<br>- Gastric acid suppression<br>- Inflammatory bowel disease                |                                                                                                                                                |
 | *Clostridium perfringens*                                                    | 8 to 16 hours             | Meat, poultry, gravy, home-canned goods                                 |                                                                                                                                           |                                                                                                                                                |
@@ -685,7 +685,7 @@ Clostridioides (formerly Clostridium) difficile can also present with inflammato
 <br>
 
 | Pathogen | Small bowel                                                                                                                                                     | Colon                                                                                                                                                                                         |
-|-------------------|-------------------------|----------------------------|
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bacteria | *Salmonella*<br>*Escherichia coli*¶<br>*Clostridium perfringens*<br>*Staphylococcus aureus*<br>*Aeromonas hydrophila*<br>*Bacillus cereus*<br>*Vibrio cholerae* | *Campylobacter*<br>*Shigella*<br>*Clostridioides difficile*<br>*Yersinia*<br>*Vibrio parahaemolyticus*<br>Enteroinvasive E. coli<br>*Plesiomonas shigelloides*<br>*Klebsiella oxytoca* (rare) |
 | Virus    | Rotavirus<br>Norovirus<br>Astrovirus                                                                                                                            | Cytomegalovirus\*<br>Adenovirus<br>Herpes simplex virus                                                                                                                                       |
 | Protozoa | \*Cryptosporidium *Microsporidium*<br>\_Cystoisospor\*a\_<br>*Cyclospora*<br>*Giardia lamblia*                                                                  | *Entamoeba histolytica*                                                                                                                                                                       |
@@ -735,7 +735,7 @@ Fever, bloody or mucoid stools suggest invasive bacteria (eg, *Salmonella,* *Shi
 <br>
 
 | Major presenting symptom        | Likely microbes     | Incubation period                                                | Likely food sources                    |
-|------------------|------------------|-------------------|------------------|
+|---------------------------------|---------------------|------------------------------------------------------------------|----------------------------------------|
 | Vomiting                        | *S. aureus*         | 1 to 6 hours                                                     | Prepared food, eg, salads, dairy, meat |
 | *B. cereus*                     | 1 to 6 hours        | Rice, meat                                                       |                                        |
 | Norwalk-like viruses            | 24 to 48 hours      | Shellfish, prepared foods, salads, sandwiches, fruit             |                                        |
@@ -873,14 +873,14 @@ Goal: Identify a potential bacterial pathogen that would inform the potential fo
 <br>
 
 -   The most critical therapy in diarrheal illness is rehydration, preferably by the oral route, with solutions that contain water, salt, and sugar
--    Diluted fruit juices and flavored soft drinks along with saltine crackers and broths or soups may meet the fluid and salt needs in patients with mild illness
--    The electrolyte concentrations of fluids used for sweat replacement (eg, Gatorade) are not equivalent to [oral rehydration solutions](https://www.uptodate.com/contents/oral-rehydration-solutions-drug-information?search=infectious+diarrhea&topicRef=2717&source=see_link), although they may be sufficient for the otherwise healthy patient with diarrhea who is not hypovolemic.
+-   Diluted fruit juices and flavored soft drinks along with saltine crackers and broths or soups may meet the fluid and salt needs in patients with mild illness
+-   The electrolyte concentrations of fluids used for sweat replacement (eg, Gatorade) are not equivalent to [oral rehydration solutions](https://www.uptodate.com/contents/oral-rehydration-solutions-drug-information?search=infectious+diarrhea&topicRef=2717&source=see_link), although they may be sufficient for the otherwise healthy patient with diarrhea who is not hypovolemic.
 -   [Oral rehydration solutions](https://www.uptodate.com/contents/oral-rehydration-solutions-drug-information?search=infectious+diarrhea&topicRef=2717&source=see_link) (ORS), including standard World Health Organization ORS or commercial ORS, such as Rehydralyte and Ceralyte, may be more appropriate in patients with more severe diarrheal disease. They should be used both to replete a volume depleted patient and also to maintain adequate volume status once replete.
 
 ## Composition of oral rehydration solutions (ORSC) and commonly used beverages
 
 |                                                                 | Carbohydrate <br>(g/L) | mEq/L         |     |     | Osmolarity <br>(mOSM/kg H2O) |
-|------------------------|----------|----------|----------|----------|----------|
+|-----------------------------------------------------------------|------------------------|---------------|-----|-----|------------------------------|
 | Sodium                                                          | Potassium              | Base (HCO3--) |     |     |                              |
 | Oral rehydration solutions                                      |                        |               |     |     |                              |
 | CeraLyte                                                        | 40                     | 70            | 20  | 10  | 235                          |
