@@ -338,7 +338,53 @@
 </section>
 <section id="objectives" class="slide level2">
 <h2>Objectives</h2>
-<p><br></p>
+</section>
+<section id="world-malaria-day" class="slide level2">
+<h2>World Malaria Day</h2>
+
+<img data-src="images_malaria/whomalaria.png" class="r-stretch"><p><br></p>
+</section>
+<section id="protozoa-first-animals" class="slide level2">
+<h2>Protozoa “first animals”</h2>
+<table style="width:99%;">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 28%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Means of spread</th>
+<th><p>Habitat</p>
+<p>Extracellular</p></th>
+<th>Intracellular</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insect-borne*</td>
+<td>African trypanosome (blood)</td>
+<td><p><em>Plasmodium</em> (liver, red blood cells)</p>
+<p><em>Leishmania</em> (macrophage)</p>
+<p>South-America trypanasome (macrophage, muscle, nerve)</p></td>
+</tr>
+<tr class="even">
+<td>Water-born</td>
+<td><p>Amoeba (gut)</p>
+<p><em>Giardia</em> (gut)</p>
+<p><em>Cryptocporidium</em> (gut)</p>
+<p><em>Isospora</em> (gut)</p>
+<p><em>Trichomonas</em> (urogenital)</p></td>
+<td>Toxoplasma (macrophage)</td>
+</tr>
+</tbody>
+</table>
+
+<aside><div>
+<p>*The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors</p>
+</div></aside></section>
+<section id="plasmodium-spp." class="slide level2">
+<h2>Plasmodium spp.</h2>
 </section>
 <section id="references" class="slide level2">
 <h2>References</h2>
@@ -559,6 +605,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

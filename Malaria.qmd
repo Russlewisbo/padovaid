@@ -9,7 +9,11 @@ bibliography: Malaria.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Parasitic Diseases: Malaria and Leishmaniasis {background-image="/images_malaria/mosquito.png" background-opacity="0.5" }
+## Parasitic Diseases: Malaria and Leishmaniasis {background-image="/images_malaria/mosquito.png" background-opacity="0.5"}
+
+```{r}
+
+```
 
 <br>
 
@@ -19,7 +23,41 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Objectives
 
+## World Malaria Day
+
+![](images_malaria/whomalaria.png)
+
 <br>
+
+## Protozoa "first animals"
+
++-----------------+-----------------------------+-------------------------------------------------------+
+| Means of spread | Habitat                     | Intracellular                                         |
+|                 |                             |                                                       |
+|                 | Extracellular               |                                                       |
++=================+=============================+=======================================================+
+| Insect-borne\*  | African trypanosome (blood) | *Plasmodium* (liver, red blood cells)                 |
+|                 |                             |                                                       |
+|                 |                             | *Leishmania* (macrophage)                             |
+|                 |                             |                                                       |
+|                 |                             | South-America trypanasome (macrophage, muscle, nerve) |
++-----------------+-----------------------------+-------------------------------------------------------+
+| Water-born      | Amoeba (gut)                | Toxoplasma (macrophage)                               |
+|                 |                             |                                                       |
+|                 | *Giardia* (gut)             |                                                       |
+|                 |                             |                                                       |
+|                 | *Cryptocporidium* (gut)     |                                                       |
+|                 |                             |                                                       |
+|                 | *Isospora* (gut)            |                                                       |
+|                 |                             |                                                       |
+|                 | *Trichomonas* (urogenital)  |                                                       |
++-----------------+-----------------------------+-------------------------------------------------------+
+
+::: aside
+\*The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors
+:::
+
+## Plasmodium spp.
 
 ## References
 
