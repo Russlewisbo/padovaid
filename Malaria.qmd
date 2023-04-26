@@ -61,21 +61,29 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 <br>
 
-## The impact of malaria on humans is staggering {.smaller}
+## The impact of malaria on humans is <br> is staggering {.smaller}
+
+<br>
 
 -   Kills roughly 2000 people per day, most of whom are children in Africa
 
--   Strongest known force for evolutionary selection in the recent history of the human genome.
+-   The strongest documented force for evolutionary selection in the recent history of the human genome
 
     -   Malaria is the evolutionary driving force behind sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects that together comprise the most common Mendelian diseases of humankind
 
 -   Malaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia
 
--   Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors
+    -   Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors
 
 ::: aside
 [@kwiatkowski2005]
 :::
+
+## The vector
+
+<br>
+
+![Malaria is transmitted by the bite of *Plasmodium*-infected female mosquitoes of the *Anophelus* genus](images_malaria/mosquito2.png){fig-align="center" width="600"}
 
 ## Malaria endemic regions
 
@@ -85,15 +93,17 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 [@phillips2017]
 :::
 
-## *Plasmodium* spp.
+## 
 
-![](images_malaria/Plasmodium.png)
+<br>
+
+![](images_malaria/Plasmodium.png){fig-align="center" width="600"}
 
 ::: aside
 Image: Wikipedia
 :::
 
-## Four species of *Plasmodium* infection humans
+## *Plasmodium* infection humans
 
 -   ***Plasmodium falciparum*** **(malignant tertain)**
 
@@ -107,23 +117,57 @@ Image: Wikipedia
 
 [@fairhurstrick2015]
 
-## Four species of *Plasmodium* infection humans
+## Five species of *Plasmodium* infection in humans
 
 <br>
 
-+-------------------+-------------+-----------------------------+----------------------------------------------+
-| *Plasmodium spp*. | Liver stage | Blood cycle and fever peaks | Disease features                             |
-+===================+=============+=============================+==============================================+
-| *P. falciprium*   | 6-14 days   | 48h (tertian)               | Major complications, fatal without treatment |
-+-------------------+-------------+-----------------------------+----------------------------------------------+
-| *P. vivax*        | 12-17 days  | 48h                         | Seldom fatal                                 |
-+-------------------+-------------+-----------------------------+----------------------------------------------+
-| *P. malariae*     | 13-40 days  | 72h (quartan)               | Nephrotic syndrome                           |
-+-------------------+-------------+-----------------------------+----------------------------------------------+
-| *P. ovale*        | 9-18 days   | 50h                         |                                              |
-+-------------------+-------------+-----------------------------+----------------------------------------------+
-| *P. knowlowsi*    | 9-12 days   | 24h                         | SouthEast Asia, monkey                       |
-+-------------------+-------------+-----------------------------+----------------------------------------------+
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+| *Plasmodium spp*. | Liver stage | Blood cycle and fever peaks | Disease features                                                                               |
++===================+=============+=============================+================================================================================================+
+| *P. falciprium*   | 6-14 days   | 48h (tertian)               | Major complications, fatal without treatment                                                   |
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+| *P. vivax*        | 12-17 days  | 48h                         | Seldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver |
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+| *P. malariae*     | 13-40 days  | 72h (quartan)               | Nephrotic syndrome                                                                             |
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+| *P. ovale*        | 9-18 days   | 50h                         |                                                                                                |
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+| *P. knowlowsi*    | 9-12 days   | 24h                         | Southeast Asia, monkey                                                                         |
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+|                   |             |                             |                                                                                                |
++-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+
+## Plasmodium spp. life cycle
+
+![](images_malaria/lifecycle.png){fig-align="center" width="800"}
+
+::: aside
+[@phillips2017a]
+:::
+
+## Malaria- acquired immunity
+
+<br>
+
+-   Not sterilizing, instead "disease-controlling immunity" despite presence of parasites in bloodstream
+
+-   Immunity increases with age, cumulative episodes and time living in endemic area
+
+    -   Short-lived without continued exposure to different *P. falciparum* variants
+
+    -   Antigen switching results in new waves of parasitemia, escape from antibody responses
+
+    -   Disease controlling immunity (premunition) after repeated infection episodes associated with development of antibpdy repertoire that recognizes the full spectrum PfEMP-1 variant antigens
+
+    -   Antibodies play a role in antibody-dependent cellular cytotoxicity, opsonization for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions
+
+        ![](images_malaria/recurrent.jpeg){width="400"}
+
+## 
+
+-   Splenomegaly common in malaria (removal of infected erythrocytes) but contributed to anaemia
+
+    -   Splenectomised patients develop extremely high parasite loads
 
 ## Malaria in pregnancy
 
