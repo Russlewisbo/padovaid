@@ -61,23 +61,11 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 <br>
 
-## The impact of malaria on humans is <br> is staggering {.smaller}
+## The pathogen
 
 <br>
 
--   Kills roughly 2000 people per day, most of whom are children in Africa
-
--   The strongest documented force for evolutionary selection in the recent history of the human genome
-
-    -   Malaria is the evolutionary driving force behind sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects that together comprise the most common Mendelian diseases of humankind
-
--   Malaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia
-
-    -   Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors
-
-::: aside
-[@kwiatkowski2005]
-:::
+![](images_malaria/Plasmodium.png){fig-align="center" width="600"}
 
 ## The vector
 
@@ -87,35 +75,94 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Malaria endemic regions
 
-![](images_malaria/map.png){fig-align="center"}
+<br>
+
+![](images_malaria/map.png){fig-align="center" width="800"}
+
+::: aside
+[@phillips2017a]
+:::
+
+## The impact of malaria on humans is <br> is staggering {.smaller}
+
+<br>
+
+-   Kills roughly 2000 people per day, most of whom are children in Africa
+
+-   The strongest documented force for evolutionary selection in the recent history of the human genome
+
+    -   Malaria is the evolutionary driving force behind the most common Mendelian diseases of humankind: sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects
+
+-   Malaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia (chloroquine-based treatment, large-scale insecticide using DDT)
+
+    -   Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors
+    -   More selective vector control approaches (insecticide bed nets, indoor residual spraying) have led to a reduction in some areas of the world in the last 20 years
+
+-   Growing resistance to insecticides in mosquitoes (*Anopheles gambiae)*
+
+    -   Of the 78 countries that monitor insecticide resistance, 60 have reported resistance
+    -   Increasing resistance to first-line XXXXX
+
+::: aside
+[@kwiatkowski2005a; @phillips2017a]
+:::
+
+## Trends in Malaria death rates in 2021
+
+```{=html}
+<iframe src="https://ourworldindata.org/grapher/malaria-death-rates-by-age" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+```
+<div>
+
+Source: Our World in Data
+
+</div>
+
+## Malaria deaths by age
+
+```{=html}
+<iframe src="https://ourworldindata.org/grapher/malaria-deaths-by-age" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+```
+<div>
+
+Source: Our World in Data
+
+</div>
+
+## Share of children with fever receiving appropriate anti-malarial drug
+
+```{=html}
+<iframe src="https://ourworldindata.org/grapher/share-of-children-with-a-fever-receiving-antimalarial-drugs?time=2018" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+```
+<div>
+
+Source: Our World in Data
+
+</div>
+
+## Pathogenesis {background-image="/images_malaria/mosquito2.png" background-opacity="0.5"}
+
+## Plasmodium spp. life cycle
+
+![](images_malaria/lifecycle.png){fig-align="center" width="800"}
 
 ::: aside
 [@phillips2017]
 :::
 
-## 
+## Clinical presentation
 
 <br>
 
-![](images_malaria/Plasmodium.png){fig-align="center" width="600"}
-
-::: aside
-Image: Wikipedia
-:::
-
-## *Plasmodium* infection humans
-
--   ***Plasmodium falciparum*** **(malignant tertain)**
-
-    -   Most deadly (1 million deaths per year- anaemia and cerebral malaria)
-
-    -   *Sequestration*- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema
-
-    -   Almost all deaths are caused by this species
-
-    ![](images_malaria/patho1.jpeg){width="600"}
-
-[@fairhurstrick2015]
+-   First symptoms are typically experienced 2-4 weeks after mosquito bite
+-   Asexual replication in RBCs results in subsequent waves of merozoite invasion (increased parasite density) and paroxysms of chills, fevers and sweats and other manifestations of disease with merozoite release
+-   Cycle repeats every:
+    -   24 hours *Plasmodium knowlesi*
+    -   48 hours *Plasmodium falciparam, Plasmodium vivax, Plasmodium ovale*
+    -   72 hours *Plasmodium malaria*
+-   Some *P. vivax* and *P. ovale* can postpone development in liver as latent forms called hypnozoites (not eradicated by standard therapy e.g., chloroquine) directed against blood stages.
+-   Hyponozoite development can resume months to years later leading to relapse
+    -   Relapse can be prevented with primaquine, but only moderately effective
 
 ## Five species of *Plasmodium* infection in humans
 
@@ -126,23 +173,31 @@ Image: Wikipedia
 +===================+=============+=============================+================================================================================================+
 | *P. falciprium*   | 6-14 days   | 48h (tertian)               | Major complications, fatal without treatment                                                   |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. vivax*        | 12-17 days  | 48h                         | Seldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver |
+| *P. vivax*        | 12-17 days  | 48h (tertian)               | Seldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
 | *P. malariae*     | 13-40 days  | 72h (quartan)               | Nephrotic syndrome                                                                             |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. ovale*        | 9-18 days   | 50h                         |                                                                                                |
+| *P. ovale*        | 9-18 days   | 48h (tertian)               |                                                                                                |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. knowlowsi*    | 9-12 days   | 24h                         | Southeast Asia, monkey                                                                         |
+| *P. knowlowsi*    | 9-12 days   | 24h (quotidian)             | Southeast Asia, monkey                                                                         |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
 |                   |             |                             |                                                                                                |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
 
-## Plasmodium spp. life cycle
+## *Plasmodium* infection humans
 
-![](images_malaria/lifecycle.png){fig-align="center" width="800"}
+<br>
 
-::: aside
-[@phillips2017a]
+::: nonincremental
+-   ***Plasmodium falciparum*** **(malignant tertain)**
+
+    -   Most deadly (1 million deaths per year- anaemia and cerebral malaria)
+
+    -   *Sequestration*- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema
+
+    -   Almost all deaths are caused by this species
+
+![](images_malaria/patho1.jpeg){width="600"}
 :::
 
 ## Malaria- acquired immunity
@@ -157,19 +212,19 @@ Image: Wikipedia
 
     -   Antigen switching results in new waves of parasitemia, escape from antibody responses
 
-    -   Disease controlling immunity (premunition) after repeated infection episodes associated with development of antibpdy repertoire that recognizes the full spectrum PfEMP-1 variant antigens
+    -   Disease controlling immunity (premunition) after repeated infection episodes associated with development of antibody repertoire that recognizes the full spectrum PfEMP-1 variant antigens
 
     -   Antibodies play a role in antibody-dependent cellular cytotoxicity, opsonization for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions
 
         ![](images_malaria/recurrent.jpeg){width="400"}
 
-## 
+## Underlying conditions associated with severe malaria
 
--   Splenomegaly common in malaria (removal of infected erythrocytes) but contributed to anaemia
+-   Splenectomy - high parasite loads
 
-    -   Splenectomised patients develop extremely high parasite loads
+    -   Splenomegaly common in malaria (removal of infected erythrocytes) but contributes to anaemia associated with disease
 
-## Malaria in pregnancy
+-   Pregnancy
 
 ## References
 

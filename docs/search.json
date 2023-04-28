@@ -1453,7 +1453,7 @@
     "href": "Malaria.html#references",
     "title": "Malaria and Leishmaniasis",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\n\nFairhurst, Rick, Wellems, Thomas. Malaria (plasmodium species). 8th ed., Elsivier; 2015.\n\n\nKwiatkowski DP. How malaria has affected the human genome and what human genetics can teach us about malaria. American Journal of Human Genetics 2005;77:171–92.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017a;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017b;3:17050. https://doi.org/10.1038/nrdp.2017.50."
+    "text": "References\n\n\n\n\n\n\n\nKwiatkowski DP. How malaria has affected the human genome and what human genetics can teach us about malaria. American Journal of Human Genetics 2005;77:171–92.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017b;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017a;3:17050. https://doi.org/10.1038/nrdp.2017.50."
   },
   {
     "objectID": "Malaria.html#parasitic-diseases-malaria-and-leishmaniasis-background-imageimages_malariamosquito.png-background-opacity-0.5",
@@ -1509,7 +1509,7 @@
     "href": "Malaria.html#malaria-endemic-regions",
     "title": "Malaria and Leishmaniasis",
     "section": "Malaria endemic regions",
-    "text": "Malaria endemic regions\n\n\n\n\n\n\n\n(Phillips et al., 2017a)"
+    "text": "Malaria endemic regions\n\n\n\n\n\n\n\n\n(Phillips et al., 2017a)"
   },
   {
     "objectID": "Malaria.html#malaria-in-preganancy",
@@ -1530,7 +1530,7 @@
     "href": "Malaria.html#the-impact-of-malaria-on-humans-is-is-staggering",
     "title": "Malaria and Leishmaniasis",
     "section": "The impact of malaria on humans is  is staggering",
-    "text": "The impact of malaria on humans is  is staggering\n\n\nKills roughly 2000 people per day, most of whom are children in Africa\nThe strongest documented force for evolutionary selection in the recent history of the human genome\n\nMalaria is the evolutionary driving force behind sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects that together comprise the most common Mendelian diseases of humankind\n\nMalaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia\n\nMalaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors\n\n\n\n\n(Kwiatkowski, 2005)"
+    "text": "The impact of malaria on humans is  is staggering\n\n\nKills roughly 2000 people per day, most of whom are children in Africa\nThe strongest documented force for evolutionary selection in the recent history of the human genome\n\nMalaria is the evolutionary driving force behind the most common Mendelian diseases of humankind: sickle-cell disease, thalassemia, glucose-6-phosphatase deficiency, and other erythrocyte defects\n\nMalaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia (chloroquine-based treatment, large-scale insecticide using DDT)\n\nMalaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors\nMore selective vector control approaches (insecticide bed nets, indoor residual spraying) have led to a reduction in some areas of the world in the last 20 years\n\nGrowing resistance to insecticides in mosquitoes (Anopheles gambiae)\n\nOf the 78 countries that monitor insecticide resistance, 60 have reported resistance\nIncreasing resistance to first-line XXXXX\n\n\n\n\n(Kwiatkowski, 2005; Phillips et al., 2017a)"
   },
   {
     "objectID": "Malaria.html#the-vector",
@@ -1544,7 +1544,7 @@
     "href": "Malaria.html#plasmodium-infection-humans",
     "title": "Malaria and Leishmaniasis",
     "section": "Plasmodium infection humans",
-    "text": "Plasmodium infection humans\n\nPlasmodium falciparum (malignant tertain)\n\nMost deadly (1 million deaths per year- anaemia and cerebral malaria)\nSequestration- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema\nAlmost all deaths are caused by this species\n\n\n\n(Fairhurst, Rick and Wellems, Thomas, 2015)"
+    "text": "Plasmodium infection humans\n\n\n\nPlasmodium falciparum (malignant tertain)\n\nMost deadly (1 million deaths per year- anaemia and cerebral malaria)\nSequestration- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema\nAlmost all deaths are caused by this species"
   },
   {
     "objectID": "Malaria.html#five-species-of-plasmodium-infection-humans",
@@ -1565,7 +1565,7 @@
     "href": "Malaria.html#five-species-of-plasmodium-infection-in-humans",
     "title": "Malaria and Leishmaniasis",
     "section": "Five species of Plasmodium infection in humans",
-    "text": "Five species of Plasmodium infection in humans\n\n\n\n\n\n\n\n\n\n\nPlasmodium spp.\nLiver stage\nBlood cycle and fever peaks\nDisease features\n\n\n\n\nP. falciprium\n6-14 days\n48h (tertian)\nMajor complications, fatal without treatment\n\n\nP. vivax\n12-17 days\n48h\nSeldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver\n\n\nP. malariae\n13-40 days\n72h (quartan)\nNephrotic syndrome\n\n\nP. ovale\n9-18 days\n50h\n\n\n\nP. knowlowsi\n9-12 days\n24h\nSoutheast Asia, monkey"
+    "text": "Five species of Plasmodium infection in humans\n\n\n\n\n\n\n\n\n\n\nPlasmodium spp.\nLiver stage\nBlood cycle and fever peaks\nDisease features\n\n\n\n\nP. falciprium\n6-14 days\n48h (tertian)\nMajor complications, fatal without treatment\n\n\nP. vivax\n12-17 days\n48h (tertian)\nSeldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver\n\n\nP. malariae\n13-40 days\n72h (quartan)\nNephrotic syndrome\n\n\nP. ovale\n9-18 days\n48h (tertian)\n\n\n\nP. knowlowsi\n9-12 days\n24h (quotidian)\nSoutheast Asia, monkey"
   },
   {
     "objectID": "Malaria.html#plasmodium-spp.-life-cycle",
@@ -1579,7 +1579,7 @@
     "href": "Malaria.html#malaria--acquired-immunity",
     "title": "Malaria and Leishmaniasis",
     "section": "Malaria- acquired immunity",
-    "text": "Malaria- acquired immunity\n\n\nNot sterilizing, instead “disease-controlling immunity” despite presence of parasites in bloodstream\nImmunity increases with age, cumulative episodes and time living in endemic area\n\nShort-lived without continued exposure to different P. falciparum variants\nAntigen switching results in new waves of parasitemia, escape from antibody responses\nDisease controlling immunity (premunition) after repeated infection episodes associated with development of antibpdy repertoire that recognizes the full spectrum PfEMP-1 variant antigens\nAntibodies play a role in antibody-dependent cellular cytotoxicity, opsonization for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions"
+    "text": "Malaria- acquired immunity\n\n\nNot sterilizing, instead “disease-controlling immunity” despite presence of parasites in bloodstream\nImmunity increases with age, cumulative episodes and time living in endemic area\n\nShort-lived without continued exposure to different P. falciparum variants\nAntigen switching results in new waves of parasitemia, escape from antibody responses\nDisease controlling immunity (premunition) after repeated infection episodes associated with development of antibody repertoire that recognizes the full spectrum PfEMP-1 variant antigens\nAntibodies play a role in antibody-dependent cellular cytotoxicity, opsonization for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions"
   },
   {
     "objectID": "Malaria.html#section-1",
@@ -1587,5 +1587,75 @@
     "title": "Malaria and Leishmaniasis",
     "section": "",
     "text": "Splenomegaly common in malaria (removal of infected erythrocytes) but contributed to anaemia\n\nSplenectomised patients develop extremely high parasite loads"
+  },
+  {
+    "objectID": "Malaria.html#malaria-immunity",
+    "href": "Malaria.html#malaria-immunity",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Malaria immunity",
+    "text": "Malaria immunity\n\nSplenomegaly common in malaria (removal of infected erythrocytes) but contributed to anaemia\n\nSplenectomised patients develop extremely high parasite loads"
+  },
+  {
+    "objectID": "Malaria.html#the-pathogen",
+    "href": "Malaria.html#the-pathogen",
+    "title": "Malaria and Leishmaniasis",
+    "section": "The pathogen",
+    "text": "The pathogen"
+  },
+  {
+    "objectID": "Malaria.html#malaria-death-rates-in-2021",
+    "href": "Malaria.html#malaria-death-rates-in-2021",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Malaria death rates in 2021",
+    "text": "Malaria death rates in 2021\n\n\nSource: Our World in Data"
+  },
+  {
+    "objectID": "Malaria.html#underlying-conditions-associated-with-severe-malaria",
+    "href": "Malaria.html#underlying-conditions-associated-with-severe-malaria",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Underlying conditions associated with severe malaria",
+    "text": "Underlying conditions associated with severe malaria\n\nSplenectomy - high parasite loads\n\nSplenomegaly common in malaria (removal of infected erythrocytes) but contributes to anaemia associated with disease\n\nPregnancy"
+  },
+  {
+    "objectID": "Malaria.html#malaria-deaths-by-age",
+    "href": "Malaria.html#malaria-deaths-by-age",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Malaria deaths by age",
+    "text": "Malaria deaths by age\n\n\nSource: Our World in Data"
+  },
+  {
+    "objectID": "Malaria.html#malaria-deaths-by-age-1",
+    "href": "Malaria.html#malaria-deaths-by-age-1",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Malaria deaths by age",
+    "text": "Malaria deaths by age\n\n\nSource: Our World in Data"
+  },
+  {
+    "objectID": "Malaria.html#share-of-children-with-fever-receiving-appropriate-anti-malarial-drug",
+    "href": "Malaria.html#share-of-children-with-fever-receiving-appropriate-anti-malarial-drug",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Share of children with fever receiving appropriate anti-malarial drug",
+    "text": "Share of children with fever receiving appropriate anti-malarial drug\n\n\nSource: Our World in Data"
+  },
+  {
+    "objectID": "Malaria.html#trends-in-malaria-death-rates-in-2021",
+    "href": "Malaria.html#trends-in-malaria-death-rates-in-2021",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Trends in Malaria death rates in 2021",
+    "text": "Trends in Malaria death rates in 2021\n\n\nSource: Our World in Data"
+  },
+  {
+    "objectID": "Malaria.html#pathogenesis",
+    "href": "Malaria.html#pathogenesis",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Pathogenesis",
+    "text": "Pathogenesis"
+  },
+  {
+    "objectID": "Malaria.html#clinical-presentation",
+    "href": "Malaria.html#clinical-presentation",
+    "title": "Malaria and Leishmaniasis",
+    "section": "Clinical presentation",
+    "text": "Clinical presentation\n\n\nFirst symptoms are typically experienced 2-4 weeks after mosquito bite\nAsexual replication in RBCs results in subsequent waves of merozoite invasion (increased parasite density) and paroxysms of chills, fevers and sweats and other manifestations of disease with merozoite release\nCycle repeats every:\n\n24 hours Plasmodium knowlesi\n48 hours Plasmodium falciparam, Plasmodium vivax, Plasmodium ovale\n72 hours Plasmodium malaria\n\nSome P. vivax and P. ovale can postpone development in liver as latent forms called hypnozoites (not eradicated by standard therapy e.g., chloroquine) directed against blood stages.\nHyponozoite development can resume months to years later leading to relapse\n\nRelapse can be prevented with primaquine, but only moderately effective"
   }
 ]
