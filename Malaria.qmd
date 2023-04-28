@@ -116,6 +116,8 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 Source: Our World in Data
 
+Improvements due to
+
 </div>
 
 ## Malaria deaths by age
@@ -129,16 +131,21 @@ Source: Our World in Data
 
 </div>
 
-## Share of children with fever receiving appropriate anti-malarial drug
+## Airport or "suitcase-associated" Malaria
 
-```{=html}
-<iframe src="https://ourworldindata.org/grapher/share-of-children-with-a-fever-receiving-antimalarial-drugs?time=2018" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-```
+<br>
+
+![](images_malaria/aiportmalaria.png){fig-align="center"}
+
 <div>
 
-Source: Our World in Data
+[@tatem2006]
 
 </div>
+
+## Unusual cases
+
+!["It's the first time in my 30-year career that I've seen a case of malaria originating in Trentino," said Dr Claudio Paternoster, an infectious diseases specialist at Trento's Santa Chiara Hospital. Since the 1950s, Italy has not had a malaria problem because mosquito-infested marshes were drained. There is speculation that Sofia might have caught malaria from one of two children treated for it at the Trento hospital after 15 August. They had caught it in Africa, and recovered.](images_malaria/Malaria_Italy.png){fig-align="center"}
 
 ## Pathogenesis {background-image="/images_malaria/mosquito2.png" background-opacity="0.5"}
 
@@ -155,7 +162,7 @@ Source: Our World in Data
 <br>
 
 -   First symptoms are typically experienced 2-4 weeks after mosquito bite
--   Asexual replication in RBCs results in subsequent waves of merozoite invasion (increased parasite density) and paroxysms of chills, fevers and sweats and other manifestations of disease with merozoite release
+-   Asexual replication in RBCs results in subsequent waves of merozoite and malaria endotoxin release (heamozoin and parasite DNA) → TNF-α and paroxysms of chills, fevers and sweats for several hours followed by extreme fatigue
 -   Cycle repeats every:
     -   24 hours *Plasmodium knowlesi*
     -   48 hours *Plasmodium falciparam, Plasmodium vivax, Plasmodium ovale*
@@ -184,27 +191,47 @@ Source: Our World in Data
 |                   |             |                             |                                                                                                |
 +-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
 
-## *Plasmodium* infection humans
+## *Plasmodium falciparum*
 
 <br>
 
-::: nonincremental
--   ***Plasmodium falciparum*** **(malignant tertain)**
+![SEM demonstrating effect of malaria parasite on host erythrocyte](images_malaria/erythrocyteeffect.jpeg){fig-align="center"}
 
-    -   Most deadly (1 million deaths per year- anaemia and cerebral malaria)
-
-    -   *Sequestration*- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema
-
-    -   Almost all deaths are caused by this species
-
-![](images_malaria/patho1.jpeg){width="600"}
+::: aside
+[@fairhurstrick2015]
 :::
+
+## *Plasmodium falciparum*
+
+::: nonincremental
+-   Most deadly (1 million deaths per year- anaemia and cerebral malaria)
+
+-   *Sequestration*- parasitized RBCs: glomerulonephritis, hypoglycaemia, pulmonary edema
+
+-   Almost all deaths are caused by this species
+
+![](images_malaria/patho1.jpeg){width="800"}
+:::
+
+<div>
+
+[@fairhurstrick2015]
+
+</div>
+
+## Malaria complications
+
+-   Cerebral malaria (intense sequesteraì
 
 ## Malaria- acquired immunity
 
 <br>
 
--   Not sterilizing, instead "disease-controlling immunity" despite presence of parasites in bloodstream
+-   Mediated by IgG antibodies against surface proteins of sporozoite (blocking hepatocyte invasion)
+
+    -   Antibody-dependent cellular cytotoxicity, opsonisation for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions
+
+-   Immunity not sterilizing, instead "disease-controlling immunity" despite presence of parasites in bloodstream
 
 -   Immunity increases with age, cumulative episodes and time living in endemic area
 
@@ -214,17 +241,86 @@ Source: Our World in Data
 
     -   Disease controlling immunity (premunition) after repeated infection episodes associated with development of antibody repertoire that recognizes the full spectrum PfEMP-1 variant antigens
 
-    -   Antibodies play a role in antibody-dependent cellular cytotoxicity, opsonization for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions
+        ![](images_malaria/recurrent.jpeg){width="600"}
 
-        ![](images_malaria/recurrent.jpeg){width="400"}
+## Host traits that influence disease severity (besides blood disorders)
 
-## Underlying conditions associated with severe malaria
+<br>
 
--   Splenectomy - high parasite loads
+-   **Splenectomy** - high parasite loads
 
     -   Splenomegaly common in malaria (removal of infected erythrocytes) but contributes to anaemia associated with disease
 
--   Pregnancy
+-   **Pregnancy** - parasites that express protein surface variant antigen 2-CSA (chondroitin sulphate-2, a glycoproteins expressed in the placenta) leading to infected red blood cell sequestration in the placenta
+
+    -   Increased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality
+
+-   HIV (higher degree of parasetemia, moratlity)
+
+-   *Mycobacterium tuberculosis*
+
+## Complications of malaria
+
+<br>
+
+-   **Hypoglycaemia (coma, convulsions)**
+
+    -   Children: Impaired hepatic gluconeogenesis, increased glucose consumption in peripheral tissues and by parasites, **normal insulin levels**
+
+    -   Adults: Hyperinsulinemia due to parasite stimulation of pancreatic islet cells or quinine/quinidine therapy
+
+    -   Decreased food intake during prodromal period
+
+-   **Anaemia**
+
+    -   Intra vascular lysis and phagocytic removal of erythrocytes
+
+-   **Pulmonary oedema and respiratory distress**
+
+-   **Metabolic (lactic) acidosis**
+
+-   **Acute renal failure**
+
+## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
+
+## Parasitemia
+
+## Microscopic images of parasite infected red blood cells
+
+::: aside
+:::
+
+## Rapid diagnostic tests (RDTs)
+
+## Prevention and vulnerable populations
+
+## Vector control methods
+
+## Chemoprotection
+
+## Chemoprevention
+
+## Vaccines
+
+## Management {background-image="/images_malaria/rings.png" background-opacity="0.5"}
+
+## Uncomplicated malaria vs. complicated malaria
+
+## P. falciparum malaria
+
+## P. vivax malaria
+
+## Drug resistance-1
+
+## Drug resistance-2
+
+## Drug resistance-3
+
+## Outlook
+
+## Malaria elimination and erdication
+
+## Drug discovery and development pipeline
 
 ## References
 
