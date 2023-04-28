@@ -131,7 +131,7 @@ Source: Our World in Data
 
 </div>
 
-## Airport or "suitcase-associated" Malaria
+## Airport or "suitcase-associated" malaria
 
 <br>
 
@@ -143,7 +143,16 @@ Source: Our World in Data
 
 </div>
 
-## Unusual cases
+## Autochthonous transmission
+
+<br>
+
+-   Airport malaria
+-   Asymptomatic donors from endemic aras with low-level parasitemia
+    -   Blood donors
+    -   Solid organ transplant
+
+## Cases in Italy
 
 !["It's the first time in my 30-year career that I've seen a case of malaria originating in Trentino," said Dr Claudio Paternoster, an infectious diseases specialist at Trento's Santa Chiara Hospital. Since the 1950s, Italy has not had a malaria problem because mosquito-infested marshes were drained. There is speculation that Sofia might have caught malaria from one of two children treated for it at the Trento hospital after 15 August. They had caught it in Africa, and recovered.](images_malaria/Malaria_Italy.png){fig-align="center"}
 
@@ -219,9 +228,30 @@ Source: Our World in Data
 
 </div>
 
-## Malaria complications
+## Cerebral malaria
 
--   Cerebral malaria (intense sequesteraì
+<br>
+
+-   Cerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)
+-   Ring hemorrhages, perivascular leukocyte infiltrates, thrombin deposition
+-   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilloedema, and multiple retinal haemorrhages
+-   Impairement of local delivery of oxygen and glucose
+-   Often does not produce neurological sequelae akin to thrombotic stroke
+    -   Recovery within 48 hours common
+
+## Imaging findings cerebral malaria
+
+::: columns
+::: {.column width="50%"}
+![](images_malaria/mri.png){fig-align="center"}
+:::
+
+![](images_malaria/retinopathy.png){fig-align="center"}
+:::
+
+::: aside
+[@idro2005]
+:::
 
 ## Malaria- acquired immunity
 
@@ -243,7 +273,7 @@ Source: Our World in Data
 
         ![](images_malaria/recurrent.jpeg){width="600"}
 
-## Host traits that influence disease severity (besides blood disorders)
+## Host traits that influence disease severity <br>(besides blood disorders)
 
 <br>
 
@@ -255,11 +285,11 @@ Source: Our World in Data
 
     -   Increased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality
 
--   HIV (higher degree of parasetemia, moratlity)
+-   **HIV** (higher degree of parasetemia, moratlity)
 
--   *Mycobacterium tuberculosis*
+-   **Tuberculosis**
 
-## Complications of malaria
+## Complications of malaria {.smaller}
 
 <br>
 
@@ -273,17 +303,34 @@ Source: Our World in Data
 
 -   **Anaemia**
 
-    -   Intra vascular lysis and phagocytic removal of erythrocytes
+    -   Intra vascular lysis and phagocytic removal of infected erythrocytes
+    -   TNF-α associated suppression of erythropoeitin
+    -   Normochromic, normocytic anemia without robust reticolocyte response
 
 -   **Pulmonary oedema and respiratory distress**
 
+    -   Non-cardiogenic pulmonary oedema due to sequesterization of infected erythromyctes → inflammatory response → capillary permability → pulmonary oedema → hypoxia →acute lung injury → ARDS
+    -   Dyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., acessory muscle breathing) and radiologic signs (increased interestitial markings)
+
 -   **Metabolic (lactic) acidosis**
+
+    -   Reduced delivery of oxygen to tissues from combined effects of anaemia, sequesterization and hypovolemia
+    -   Shift from aerobic to anaerobic metabolism causes lactate levels to rise
+    -   Lactate clearance by liver reduced
 
 -   **Acute renal failure**
 
 ## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
 
 ## Parasitemia
+
+![](images_malaria/smear.png){fig-align="center" width="500"}
+
+<br>
+
+::: aside
+[@phillips2017b] Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell.
+:::
 
 ## Microscopic images of parasite infected red blood cells
 
