@@ -462,11 +462,44 @@ Source: Our World in Data
 
     -   Hyperpyrexia
 
+## Diseases with similar clinical presentations
+
+-   Malaria should always fall near the top of the differential for fever in travellers or immigrants who have been in an endemic area in the previous 3 months (and remain in consideration for years afterword)
+
+-   Common differential diagnosis:
+
+    -   Influenzae
+
+    -   Enteric fever
+
+    -   Bactermia/sepsis
+
+    -   Classic dengue fever (typically more severe myalgias , shorter incubation of 4-7 days, rash and lymphadenopathy)
+
+    -   Acute schistosomiasis (Katayama fever-freshwater exposure) urticaria at site of cercarial penetration (usually legs) and eosonophilia
+
+    -   Leptospirosis (conjunctival suffusion and rash progressing to haemorrhagic manifestations)
+
+    -   African tick fever (lymphadenitis, multiple inoculation eschars)
+
+    -   East African trypanosomiasis (sleeping sickness) -red chancre at bite site, posterior cervical lymphadenopathy, rash)
+
+    -   Yellow fever (conjunctival suffusion, shorter incubation period 3-6 days relative bradycardia). Unlikely in patients who have been vaccinated in last 10 years
+
+## Therapy {background-image="/images_malaria/Artemisinin.png" background-opacity="0.5"}
+
+## Therapy- General principles
+
+- P. falciparam malaria can be fatal if not diagnosed and treated promptly an appropriately
+  
+    -   Especially true for non-immune travalers returning from vistis to malaria-endemic areas
+- Malaria is a disease of protean manifestations, diagnosis is delayed by non-specific clinical presentation and unimpressive normal laboratory tests- especially if blood smears (and available rapid diagnostic tests) are not examined
+
 ## Prevention and vulnerable populations
 
 ## Vector control methods
 
-## Chemoprotection
+## Chemoprotection 
 
 ## Chemoprevention
 
