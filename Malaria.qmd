@@ -83,7 +83,7 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 [@phillips2017a]
 :::
 
-## The impact of malaria on humans is <br> is staggering {.smaller}
+## The impact of malaria on humans is <br> is staggering
 
 <br>
 
@@ -115,8 +115,6 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 <div>
 
 Source: Our World in Data
-
-Improvements due to
 
 </div>
 
@@ -291,7 +289,7 @@ Source: Our World in Data
 
 -   **Tuberculosis**
 
-## Complications of malaria {.smaller}
+## Complications of malaria
 
 <br>
 
@@ -333,7 +331,7 @@ Source: Our World in Data
 
 ## Clinical History
 
--   **Febrile illness** (cyclic paroxysms of chills rigors and fever with drenching night sweats FTER travel to an endemic area)
+-   **Febrile illness** (cyclic paroxysms of chills rigors and fever with drenching night sweats after travel to an endemic area)
 
     -   Fever 100%
 
@@ -360,14 +358,13 @@ Source: Our World in Data
     -   Jaundice, diminished consciousness, convulsions (severe malaria)
     -   Less common (rash, lymphadenopathy, pulmonary consolidations)
 
-## Parasites can be detected on light microscope examination of blood smear
+## Parasites can be detected on light microscope examination of blood smear {.smaller}
 
-![](images_malaria/smear.png){fig-align="center"}
+![](images_malaria/smear.png){fig-align="center" width="600"}
 
 ::: aside
 [@phillips2017b] Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell.
 :::
-
 
 ## Parasitemia
 
@@ -400,11 +397,11 @@ Source: Our World in Data
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
 | *P. vivax* schizont                                                                                    | ![](images_malaria/7e.jpeg) |
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
-| P. vivax spherical gametocyte                                                                          | ![](images_malaria/7f.jpeg) |
+| *P. vivax* spherical gametocyte                                                                        | ![](images_malaria/7f.jpeg) |
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
-| *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyrte                           | ![](images_malaria/7g.jpeg) |
+| *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyte                            | ![](images_malaria/7g.jpeg) |
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
-| Characteristic band form trophozoite of P. malariae containing intracellular pigment hemozoin          | ![](images_malaria/7h.jpeg) |
+| Characteristic band form trophozoite of *P. malariae* containing intracellular pigment hemozoin        | ![](images_malaria/7h.jpeg) |
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
 
 ::: aside
@@ -422,6 +419,48 @@ Source: Our World in Data
     -   Less sensitive at parasite densities of 100-1000/μL (may miss non-immune travellers with symptoms at low parasite densities)
 
 -   **Detection of *P. falciparum* specific lactate dehydrogenase (LDH) and pan-*Plasmodium* LDH**
+
+    -   Adequate sensitivity for *P. vivax, P. ovale,* and *P. malaria* with less sensitivity for *P. falciparum*
+
+    -   However, positive signal is proportional to *P. falciparum* parasitaemia, allowing for monitoring of therapeutic response
+
+-   **Combination tests of HRP-2/LDH under development**
+
+## Other laboratory tests
+
+-   Decreases in haemoglobin, hematocrit and haptoglobin and increases in LDH expected
+
+-   Leukocyte and platelet counts are
+
+## WHO diagnostic features of severe malaria <br> (emergency requiring ICU care)
+
+-   Any of the following criteria + *P. falciparum* parasitaemia
+
+    -   Cerebral malaria (decreases consciousness, seizures)
+
+    -   Respiratory distress
+
+    -   Prostration
+
+    -   Hyperparasitaemia
+
+    -   Severe anaemia
+
+    -   Hypoglycemia
+
+    -   Jaundice/icterus
+
+    -   Renal insufficiency
+
+    -   Hemoglobinuria
+
+    -   Shock
+
+    -   Cessation of eating or drinking
+
+    -   Repetitive vomiting
+
+    -   Hyperpyrexia
 
 ## Prevention and vulnerable populations
 
@@ -449,7 +488,7 @@ Source: Our World in Data
 
 ## Outlook
 
-## Malaria elimination and erdication
+## Malaria elimination and eradication
 
 ## Drug discovery and development pipeline
 
