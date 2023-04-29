@@ -1453,7 +1453,11 @@
     "href": "Malaria.html#references",
     "title": "Malaria and Leishmaniasis",
     "section": "References",
+<<<<<<< HEAD
     "text": "References\n\n\n\n\n\n\n\nFairhurst, Rick, Wellems, Thomas. Malaria (plasmodium species). 8th ed., Elsivier; 2015a.\n\n\nFairhurst, Rick, Wellems, Thomas. Malaria (plasmodium species). 8th ed., Elsivier; 2015b.\n\n\nIdro R, Jenkins NE, Newton CR. Pathogenesis, clinical features, and neurological outcome of cerebral malaria. The Lancet Neurology 2005;4:827–40. https://doi.org/10.1016/S1474-4422(05)70247-7.\n\n\nKwiatkowski DP. How malaria has affected the human genome and what human genetics can teach us about malaria. American Journal of Human Genetics 2005;77:171–92.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017b;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017a;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017c;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nTatem AJ, Rogers DJ, Hay SI. Estimating the malaria risk of african mosquito movement by air travel. Malaria Journal 2006;5:57. https://doi.org/10.1186/1475-2875-5-57."
+=======
+    "text": "References\n\n\n\n\n\n\n\nFairhurst, Rick, Wellems, Thomas. Malaria (plasmodium species). 8th ed., Elsivier; 2015.\n\n\nIdro R, Jenkins NE, Newton CR. Pathogenesis, clinical features, and neurological outcome of cerebral malaria. The Lancet Neurology 2005;4:827–40. https://doi.org/10.1016/S1474-4422(05)70247-7.\n\n\nKwiatkowski DP. How malaria has affected the human genome and what human genetics can teach us about malaria. American Journal of Human Genetics 2005;77:171–92.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017b;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017a;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nPhillips MA, Burrows JN, Manyando C, Huijsduijnen RH van, Van Voorhis WC, Wells TNC. Malaria. Nature Reviews Disease Primers 2017c;3:17050. https://doi.org/10.1038/nrdp.2017.50.\n\n\nTatem AJ, Rogers DJ, Hay SI. Estimating the malaria risk of african mosquito movement by air travel. Malaria Journal 2006;5:57. https://doi.org/10.1186/1475-2875-5-57."
+>>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
   },
   {
     "objectID": "Malaria.html#parasitic-diseases-malaria-and-leishmaniasis-background-imageimages_malariamosquito.png-background-opacity-0.5",
@@ -1677,7 +1681,11 @@
     "href": "Malaria.html#complications-of-malaria",
     "title": "Malaria and Leishmaniasis",
     "section": "Complications of malaria",
+<<<<<<< HEAD
     "text": "Complications of malaria\n\n\nHypoglycaemia (coma, convulsions)\n\nChildren: Impaired hepatic gluconeogenesis, increased glucose consumption in peripheral tissues and by parasites, normal insulin levels\nAdults: Hyperinsulinemia due to parasite stimulation of pancreatic islet cells or quinine/quinidine therapy\nDecreased food intake during prodromal period\n\nAnaemia\n\nIntra vascular lysis and phagocytic removal of infected erythrocytes\nTNF-α associated suppression of erythropoetin\nNormochromic, normocytic anaemia without robust reticulocyte response\n\nPulmonary oedema and respiratory distress\n\nNon-cardiogenic pulmonary oedema due to sequestration of infected erythrocytes → inflammatory response → capillary permeability → pulmonary oedema → hypoxia →acute lung injury → ARDS\nDyspnea and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., accessory muscle breathing) and radiologic signs (increased interstitial markings)\n\nMetabolic (lactic) acidosis\n\nReduced delivery of oxygen to tissues from combined effects of anaemia, sequesterization and hypovolemia\nShift from aerobic to anaerobic metabolism causes lactate levels to rise\nLactate clearance by liver reduced\n\nAcute renal failure"
+=======
+    "text": "Complications of malaria\n\n\nHypoglycaemia (coma, convulsions)\n\nChildren: Impaired hepatic gluconeogenesis, increased glucose consumption in peripheral tissues and by parasites, normal insulin levels\nAdults: Hyperinsulinemia due to parasite stimulation of pancreatic islet cells or quinine/quinidine therapy\nDecreased food intake during prodromal period\n\nAnaemia\n\nIntra vascular lysis and phagocytic removal of infected erythrocytes\nTNF-α associated suppression of erythropoeitin\nNormochromic, normocytic anemia without robust reticolocyte response\n\nPulmonary oedema and respiratory distress\n\nNon-cardiogenic pulmonary oedema due to sequesterization of infected erythromyctes → inflammatory response → capillary permability → pulmonary oedema → hypoxia →acute lung injury → ARDS\nDyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., acessory muscle breathing) and radiologic signs (increased interestitial markings)\n\nMetabolic (lactic) acidosis\n\nReduced delivery of oxygen to tissues from combined effects of anaemia, sequesterization and hypovolemia\nShift from aerobic to anaerobic metabolism causes lactate levels to rise\nLactate clearance by liver reduced\n\nAcute renal failure"
+>>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
   },
   {
     "objectID": "Malaria.html#airport-malaria",
@@ -1719,7 +1727,11 @@
     "href": "Malaria.html#host-traits-that-influence-disease-severity-besides-blood-disorders",
     "title": "Malaria and Leishmaniasis",
     "section": "Host traits that influence disease severity (besides blood disorders)",
+<<<<<<< HEAD
     "text": "Host traits that influence disease severity (besides blood disorders)\n\n\nSplenectomy - high parasite loads\n\nSplenomegaly common in malaria (removal of infected erythrocytes) but contributes to anaemia associated with disease\n\nPregnancy - parasites that express protein surface variant antigen 2-CSA (chondroitin sulphate-2, a glycoproteins expressed in the placenta) leading to infected red blood cell sequestration in the placenta\n\nIncreased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality\n\nHIV (higher degree of parasitemia, mortality)\nTuberculosis"
+=======
+    "text": "Host traits that influence disease severity (besides blood disorders)\n\n\nSplenectomy - high parasite loads\n\nSplenomegaly common in malaria (removal of infected erythrocytes) but contributes to anaemia associated with disease\n\nPregnancy - parasites that express protein surface variant antigen 2-CSA (chondroitin sulphate-2, a glycoproteins expressed in the placenta) leading to infected red blood cell sequestration in the placenta\n\nIncreased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality\n\nHIV (higher degree of parasetemia, moratlity)\nTuberculosis"
+>>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
   },
   {
     "objectID": "Malaria.html#diagnosis-and-screening",
@@ -1852,7 +1864,11 @@
     "href": "Malaria.html#parasitemia",
     "title": "Malaria and Leishmaniasis",
     "section": "Parasitemia",
+<<<<<<< HEAD
     "text": "Parasitemia\n\nLight microscopy of Giemsa-stained blood smears is the accepted standard for diagnosis\nThick smears concentrate red cell layers 40-fold and used to screen large amounts of blood for parasites- RBCs lyse so parasites are visualized outside red cells\n\nParasite density can be calculated by counting the number of parasites per 200 WBCs x 40 = number of parasites per μL blood\nFor P. falciparum, initial blood smears may be negative because mature erythrocytes (trophozoites and schizonts are sequestered in peripheral tissues)\nSmear is repeated every 12 hours until diagnosis is ruled in or ruled out\n\nThin smears used tp determine Plasmodium species"
+=======
+    "text": "Parasitemia\n\nParasites can be detected on light microscope examination of blood smear\n\n\n\n\n\n\n\n\n(Phillips et al., 2017c)"
+>>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
   },
   {
     "objectID": "Malaria.html#cases-in-italy",
@@ -1873,7 +1889,11 @@
     "href": "Malaria.html#cerebral-malaria",
     "title": "Malaria and Leishmaniasis",
     "section": "Cerebral malaria",
+<<<<<<< HEAD
     "text": "Cerebral malaria\n\n\nCerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)\nRing haemorrhages, perivascular leukocyte infiltrates, thrombin deposition\nRetinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilledema, and multiple retinal haemorrhages\nImpairment of local delivery of oxygen and glucose\nOften does not produce neurological sequelae akin to thrombotic stroke\n\nRecovery within 48 hours common"
+=======
+    "text": "Cerebral malaria\n\n\nCerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)\nRing hemorrhages, perivascular leukocyte infiltrates, thrombin deposition\nRetinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilloedema, and multiple retinal haemorrhages\nImpairement of local delivery of oxygen and glucose\nOften does not produce neurological sequelae akin to thrombotic stroke\n\nRecovery within 48 hours common"
+>>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
   },
   {
     "objectID": "Malaria.html#imaging-findings-cerebral-malaria",
@@ -1881,6 +1901,7 @@
     "title": "Malaria and Leishmaniasis",
     "section": "Imaging findings cerebral malaria",
     "text": "Imaging findings cerebral malaria\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Idro et al., 2005)"
+<<<<<<< HEAD
   },
   {
     "objectID": "Malaria.html#parasitemia-1",
@@ -1902,5 +1923,7 @@
     "title": "Malaria and Leishmaniasis",
     "section": "Parasitemia (blood smear)",
     "text": "Parasitemia (blood smear)\n\n\n\n\n\n\n\n\n(Phillips et al., 2017c) Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell."
+=======
+>>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
   }
 ]
