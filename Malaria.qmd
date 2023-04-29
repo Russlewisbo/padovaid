@@ -233,9 +233,9 @@ Source: Our World in Data
 <br>
 
 -   Cerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)
--   Ring hemorrhages, perivascular leukocyte infiltrates, thrombin deposition
--   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilloedema, and multiple retinal haemorrhages
--   Impairement of local delivery of oxygen and glucose
+-   Ring haemorrhages, perivascular leukocyte infiltrates, thrombin deposition
+-   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilledema, and multiple retinal haemorrhages
+-   Impairment of local delivery of oxygen and glucose
 -   Often does not produce neurological sequelae akin to thrombotic stroke
     -   Recovery within 48 hours common
 
@@ -259,7 +259,7 @@ Source: Our World in Data
 
 -   Mediated by IgG antibodies against surface proteins of sporozoite (blocking hepatocyte invasion)
 
-    -   Antibody-dependent cellular cytotoxicity, opsonisation for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearance interactions
+    -   Antibody-dependent cellular cytotoxicity, opsonisation for uptake, destruction by splenic macrophages, interference with PfEMP-1 mediated cytoadhearence interactions
 
 -   Immunity not sterilizing, instead "disease-controlling immunity" despite presence of parasites in bloodstream
 
@@ -285,7 +285,7 @@ Source: Our World in Data
 
     -   Increased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality
 
--   **HIV** (higher degree of parasetemia, moratlity)
+-   **HIV** (higher degree of parasitemia, mortality)
 
 -   **Tuberculosis**
 
@@ -304,13 +304,13 @@ Source: Our World in Data
 -   **Anaemia**
 
     -   Intra vascular lysis and phagocytic removal of infected erythrocytes
-    -   TNF-α associated suppression of erythropoeitin
-    -   Normochromic, normocytic anemia without robust reticolocyte response
+    -   TNF-α associated suppression of erythropoetin
+    -   Normochromic, normocytic anaemia without robust reticulocyte response
 
 -   **Pulmonary oedema and respiratory distress**
 
-    -   Non-cardiogenic pulmonary oedema due to sequesterization of infected erythromyctes → inflammatory response → capillary permability → pulmonary oedema → hypoxia →acute lung injury → ARDS
-    -   Dyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., acessory muscle breathing) and radiologic signs (increased interestitial markings)
+    -   Non-cardiogenic pulmonary oedema due to sequestration of infected erythrocytes → inflammatory response → capillary permeability → pulmonary oedema → hypoxia →acute lung injury → ARDS
+    -   Dyspnea and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., accessory muscle breathing) and radiologic signs (increased interstitial markings)
 
 -   **Metabolic (lactic) acidosis**
 
@@ -322,7 +322,36 @@ Source: Our World in Data
 
 ## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
 
-## Parasitemia
+## Clinical History
+
+-   **Febrile illness** (cyclic paroxysms of chills rigors and fever with drenching night sweats FTER travel to an endemic area)
+
+    -   Fever 100%
+
+    -   Headache 100%
+
+    -   Weakness 94%
+
+    -   Pofuse night sweats 91%
+
+    -   Insomina 61%
+
+    -   Arthrlagias 59%
+
+    -   myalgias 56%
+
+    -   Diarrhea 13%
+
+    -   Abdominal cramps 8%
+
+-   **Physical exam**
+
+    -   Pallor
+    -   Hepatosplenomegaly
+    -   Jaundice, diminished consciousness, convulsions (severe malaria)
+    -   Less common (rash, lymphadenopathy, pulmonary consolidations)
+
+## Parasitemia (blood smear)
 
 ![](images_malaria/smear.png){fig-align="center" width="500"}
 
@@ -332,12 +361,61 @@ Source: Our World in Data
 [@phillips2017b] Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell.
 :::
 
-## Microscopic images of parasite infected red blood cells
+## Parasitemia
+
+-   Light microscopy of Giemsa-stained blood smears is the accepted standard for diagnosis
+
+-   Thick smears concentrate red cell layers 40-fold and used to screen large amounts of blood for parasites- RBCs lyse so parasites are visualized *outside* red cells
+
+    -   Parasite density can be calculated by counting the number of parasites per 200 WBCs x 40 = number of parasites per μL blood
+
+    -   For P. falciparum, initial blood smears may be negative because mature erythrocytes (trophozoites and schizonts are sequestered in peripheral tissues)
+
+    -   Smear is repeated every 12 hours until diagnosis is ruled in or ruled out
+
+-   Thin smears used tp determine *Plasmodium* species
+
+## Microscopic images of parasite <br>infected red blood cells {.smaller}
+
+\<br\>
+
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| Description                                                                                            | Image                       |
++========================================================================================================+=============================+
+| Multiple signet-ring *P. falciparum* trophozoites visualized outside erythrocytes in thick blood smear | ![](images_malaria/7a.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| Multiply infected erythrocyte containing containing signet-ring *P. falciparum* trophozytes            | ![](images_malaria/7b.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| Banana-shaped gametocyte unique to *P. falciparum*                                                     | ![](images_malaria/7c.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| Ameboid trophozoite characteristic of *P. vivax*                                                       | ![](images_malaria/7d.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| *P. vivax* schizont                                                                                    | ![](images_malaria/7e.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| P. vivax spherical gametocyte                                                                          | ![](images_malaria/7f.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyrte                           | ![](images_malaria/7g.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
+| Characteristic band form trophozoite of P. malariae containing intracellular pigment hemozoin          | ![](images_malaria/7h.jpeg) |
++--------------------------------------------------------------------------------------------------------+-----------------------------+
 
 ::: aside
+[@fairhurstrick2015a]
 :::
 
 ## Rapid diagnostic tests (RDTs)
+
+-   **Detection of *Plasmodium* histidine-rich protein-2 (HRP-2)**
+
+    -   Limited to *P. falciparum*
+
+    -   Not useful for monitoring treatment response (positive for 28 days)
+
+    -   Less sensitive at parasite densities of 100-1000/μL (may miss non-immune travellers with symptoms at low parasite densities)
+
+-   **Detection of *P. falciparum* specific lactate dehydrogenase (LDH) and pan-*Plasmodium* LDH**
+
+    -   
 
 ## Prevention and vulnerable populations
 
