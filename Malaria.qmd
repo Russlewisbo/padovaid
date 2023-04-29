@@ -52,7 +52,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 +-----------------+-----------------------------+-------------------------------------------------------+
 
 ::: aside
-\*The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors
+The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors
 :::
 
 ## World Malaria Day
@@ -233,15 +233,11 @@ Source: Our World in Data
 <br>
 
 -   Cerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)
-<<<<<<< HEAD
 -   Ring haemorrhages, perivascular leukocyte infiltrates, thrombin deposition
 -   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilledema, and multiple retinal haemorrhages
--   Impairment of local delivery of oxygen and glucose
-=======
 -   Ring hemorrhages, perivascular leukocyte infiltrates, thrombin deposition
 -   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilloedema, and multiple retinal haemorrhages
 -   Impairement of local delivery of oxygen and glucose
->>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
 -   Often does not produce neurological sequelae akin to thrombotic stroke
     -   Recovery within 48 hours common
 
@@ -291,11 +287,7 @@ Source: Our World in Data
 
     -   Increased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality
 
-<<<<<<< HEAD
 -   **HIV** (higher degree of parasitemia, mortality)
-=======
--   **HIV** (higher degree of parasetemia, moratlity)
->>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
 
 -   **Tuberculosis**
 
@@ -314,7 +306,6 @@ Source: Our World in Data
 -   **Anaemia**
 
     -   Intra vascular lysis and phagocytic removal of infected erythrocytes
-<<<<<<< HEAD
     -   TNF-α associated suppression of erythropoetin
     -   Normochromic, normocytic anaemia without robust reticulocyte response
 
@@ -322,7 +313,6 @@ Source: Our World in Data
 
     -   Non-cardiogenic pulmonary oedema due to sequestration of infected erythrocytes → inflammatory response → capillary permeability → pulmonary oedema → hypoxia →acute lung injury → ARDS
     -   Dyspnea and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., accessory muscle breathing) and radiologic signs (increased interstitial markings)
-=======
     -   TNF-α associated suppression of erythropoeitin
     -   Normochromic, normocytic anemia without robust reticolocyte response
 
@@ -330,7 +320,6 @@ Source: Our World in Data
 
     -   Non-cardiogenic pulmonary oedema due to sequesterization of infected erythromyctes → inflammatory response → capillary permability → pulmonary oedema → hypoxia →acute lung injury → ARDS
     -   Dyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., acessory muscle breathing) and radiologic signs (increased interestitial markings)
->>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
 
 -   **Metabolic (lactic) acidosis**
 
@@ -344,7 +333,6 @@ Source: Our World in Data
 
 ## Clinical History
 
-<<<<<<< HEAD
 -   **Febrile illness** (cyclic paroxysms of chills rigors and fever with drenching night sweats FTER travel to an endemic area)
 
     -   Fever 100%
@@ -372,26 +360,14 @@ Source: Our World in Data
     -   Jaundice, diminished consciousness, convulsions (severe malaria)
     -   Less common (rash, lymphadenopathy, pulmonary consolidations)
 
-## Parasitemia (blood smear)
-
-![](images_malaria/smear.png){fig-align="center" width="500"}
-
-<br>
-=======
--   Parasites can be detected on light microscope examination of blood smear
+## Parasites can be detected on light microscope examination of blood smear
 
 ![](images_malaria/smear.png){fig-align="center"}
 
 ::: aside
-[@phillips2017b]
-:::
-
-## Microscopic images of parasite infected red blood cells
->>>>>>> 3011376455a66c1e8cf9f682c2a4d992a3f5f992
-
-::: aside
 [@phillips2017b] Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell.
 :::
+
 
 ## Parasitemia
 
@@ -409,7 +385,7 @@ Source: Our World in Data
 
 ## Microscopic images of parasite <br>infected red blood cells {.smaller}
 
-\<br\>
+<br>
 
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
 | Description                                                                                            | Image                       |
@@ -447,8 +423,6 @@ Source: Our World in Data
 
 -   **Detection of *P. falciparum* specific lactate dehydrogenase (LDH) and pan-*Plasmodium* LDH**
 
-    -   
-
 ## Prevention and vulnerable populations
 
 ## Vector control methods
@@ -475,7 +449,7 @@ Source: Our World in Data
 
 ## Outlook
 
-## Malaria elimination and erdication
+## Malaria elimination and erdication
 
 ## Drug discovery and development pipeline
 
