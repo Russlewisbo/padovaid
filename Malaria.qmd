@@ -314,7 +314,7 @@ Source: Our World in Data
 -   **Pulmonary oedema and respiratory distress**
 
     -   Non-cardiogenic pulmonary oedema due to sequestration of infected erythromyctes → inflammatory response → capillary permeability → pulmonary oedema → hypoxia →acute lung injury → ARDS
-    -   Dyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., accessory muscle breathing) and radiologic signs (increased interstitial markings)
+    -   Dyspnea and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., accessory muscle breathing) and radiologic signs (increased interstitial markings)
 
 -   **Metabolic (lactic) acidosis**
 
@@ -362,7 +362,7 @@ Source: Our World in Data
 ![](images_malaria/smear.png){fig-align="center" width="600"}
 
 ::: aside
-[@phillips2017b] Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell.
+[@phillips2017] Microscopic images of parasite-infected red blood cells. Thin blood films showing Plasmodium falciparum (upper panel) and Plasmodium vivax (lower panel) at different stages of blood-stage development. The images are from methanol-fixed thin films that were stained for 30 minutes in 5% Giemsa. The samples were taken from Thai and Korean patients with malaria: Ethical Review Committee for Research in Human Subjects, Ministry of Public Health, Thailand (reference no. 4/2549, 6 February 2006). The sex symbols represent microgametes (male symbol) and macrogametes (female symbol). ER, early ring stage; ES, early schizont stage; ET, early trophozoite stage; FM, free merozoites; LR, late ring stage; LS, late schizont stage; LT, late trophozoite stage; U, uninfected red blood cell.
 :::
 
 ## Parasitemia
@@ -453,7 +453,7 @@ Source: Our World in Data
 
     -   Classic dengue fever (typically more severe myalgias , shorter incubation of 4-7 days, rash and lymphadenopathy)
 
-    -   Acute schistosomiasis (Katayama fever-freshwater exposure) urticaria at site of cercarial penetration (usually legs) and eosonophilia
+    -   Acute schistosomiasis (Katayama fever-freshwater exposure) urticaria at site of cercarial penetration (usually legs) and eosinophilia
 
     -   Leptospirosis (conjunctival suffusion and rash progressing to haemorrhagic manifestations)
 
@@ -541,7 +541,7 @@ Source: Our World in Data
 
 -   Most rapid clearance time relative to other antimalarial drugs
 
--   Administered in combination with second drug that has longer half life to forstall artemisinin resistance
+-   Administered in combination with second drug that has longer half life to forestall artemisinin resistance
 
 ## WHO recommendations: <br> Uncomplicated malaria treatment {.smaller}
 
@@ -616,7 +616,7 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 Avoid in pregnant patients and infants \< 6 months
 
-[@worldhealthorganization2022a]
+[@worldhealthorganization2022]
 
 </div>
 
@@ -658,7 +658,7 @@ Avoid in pregnant patients and infants \< 6 months
 
 Delayed haemolysis starting \>1 week after artesunate treatment of severe malaria has been reported in hyperparasitaemic non-immune travellers.
 
-When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM. [@worldhealthorganization2022b]
+When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM. [@worldhealthorganization2022]
 
 </div>
 
@@ -742,13 +742,38 @@ When artesunate not available, artemether is considered as second line therapy f
 
 ![](images_malaria/spectrum.jpeg){fig-align="center"}
 
+## Pathophysiology
+
+<br>
+
+-   
+
+    ```         
+    *Leishmania* invade and replciate inside host macrophages
+    ```
+
+-   
+
+    ```         
+    Many infections are asymptomatic (subclinical), reflecting the host ability to control the infection
+    ```
+
+-   
+
+    ```         
+    Subclinical infections can reactive during periods of immunosuppression
+    ```
+
 ## Classic presentation of VL (kala-azar)
 
 -   Prolonged fever
 -   Weight loss
--   Hepatosplenomegaly
--   Pancytopenia
--   Hypergammaglobinumeia
+-   Hepato- splenomegaly
+    -   Parasite replicate in reticuliendothelial system (RES), with high parasite loads accumulating in liver, spleen and bone marrow
+-   Pancytopenia (due to bone marrow suppression)
+-   Hypergammaglobinumeia (polyclonal B cell activation)
+-   Late in course of infection thrombocytopenia nad liver dysfunction
+-   Uniformally lethal without treatment
 
 ## Clinical manifestations <br>
 
@@ -756,14 +781,48 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Clinical disease may first become symptomatic years after exposure in patients who are immunocompromised
 -   Insidious development: fever, weakness, loss of appetite, weightloss, failure to thrive, abdominal enlargement caused by hepatosplenomegaly
 -   Acute presentation in non-immune patients with high fever and chills, sometimes with a periodicity suggestive of malaria
-    -   Spleen can become massively enlarges, soft and non-tender
-    -Elevated liver enzymes and bilirubin occasionally present
-- Patients often become cachetic with oetechia and ecchymoses with possible epistaxis and gingival bleeding
+    -   Spleen can become massively enlarges, soft and non-tender -Elevated liver enzymes and bilirubin occasionally present
+-   Patients often become cachetic with petechia and ecchymoses with possible epistaxis and gingival bleeding
 
-## Portruding abdomen with hepatosplenomegaly
+## Protruding abdomen with hepatosplenomegaly
 
 ![](images_malaria/hepatomegaly.jpeg){fig-align="center"}
 
+## Diagnosis Pentad {background-image="/images_malaria/donkey.png" background-opacity="0.7"}
+
+<br>
+
+-   Prolonged fever
+-   Progressive weight-loss
+-   Pronounced splnomegaly
+-   Pancytopenia
+-   Hypergammaglobulinemia
+
+## Diagnosis confirmation
+
+-   Parasitologic diagnosis: Amastigotes in tissues
+-   Isolation of promastigotes in cultures
+-   Splenic aspiration, liver biopsy, lymph node or bone marrow aspirates (safer but lower sensitivity)
+-   PCR assay
+-   Antileishmanial antibodies
+
+## Treatment
+
+<br>
+
+-   Liposomal amphotericin B 10 mg/kg two consecutive days or 3 mg/kg days 1-5, 14, and 21
+-   Amphotericin B deoxycholate 1 mg/kg for 15 days or 1 mg/kg every other day for 30 days
+-   Pentamidine (hypotension, hypoglycemia, insulin-dependent diabetes mellitus)
+-   Miltefosine (oral, GI toxicity, elevated liver transaminases)
+
+## Treatment response
+
+<br>
+
+-   Fever resolution (1-2 weeks)
+-   Decrease in spleen size over 1 month
+-   Weight gain
+-   Patients need to be followed for 12 month and instructed to return if symptoms recur.
 
 ## References
 
