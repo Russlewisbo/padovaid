@@ -327,7 +327,7 @@ Source: Our World in Data
 
 -   **Acute renal failure**
 
-## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
+    -   Less common in children \## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
 
 ## Clinical History
 
@@ -432,36 +432,6 @@ Source: Our World in Data
 
 -   Leukocyte and platelet counts are
 
-## WHO diagnostic features of severe malaria <br> (emergency requiring ICU care)
-
--   Any of the following criteria + *P. falciparum* parasitaemia
-
-    -   Cerebral malaria (decreases consciousness, seizures)
-
-    -   Respiratory distress
-
-    -   Prostration
-
-    -   Hyperparasitaemia
-
-    -   Severe anaemia
-
-    -   Hypoglycemia
-
-    -   Jaundice/icterus
-
-    -   Renal insufficiency
-
-    -   Hemoglobinuria
-
-    -   Shock
-
-    -   Cessation of eating or drinking
-
-    -   Repetitive vomiting
-
-    -   Hyperpyrexia
-
 ## Diseases with similar clinical presentations
 
 -   Malaria should always fall near the top of the differential for fever in travellers or immigrants who have been in an endemic area in the previous 3 months (and remain in consideration for years afterword)
@@ -488,42 +458,233 @@ Source: Our World in Data
 
 ## Therapy {background-image="/images_malaria/Artemisinin.png" background-opacity="0.5"}
 
+## Definition of severe malaria
+
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Manifestations         | Definitions                                                                                                                                                                                                                                                                                                                          |
++========================+======================================================================================================================================================================================================================================================================================================================================+
+| Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow                                                                                                                                                                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Prostration            | Generalized weakness so that a person is unable to sit, stand, or walk without assistance                                                                                                                                                                                                                                            |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Multiple convulsions   | More than two episodes within 24 hours                                                                                                                                                                                                                                                                                               |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Acidosis               | A base deficit of \>8 mEq/L, a plasma bicarbonate level of \<15 mmol/L, or venous plasma lactate ≥5 mmol/L. Clinical indicators of acidosis include rapid, deep, labored breathing.                                                                                                                                                  |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hypoglycaemia          | Blood or plasma glucose \<40 mg/dL (\<2.2 mmol/L) for children ≥5 years and adults; blood or plasma glucose \<54 mg/dL (\<3 mmol/L) for children \<5 years                                                                                                                                                                           |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Severe anaemia         | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL                                                                                                                                                           |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Renal impairment       | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L                                                                                                                                                                                                                                                          |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jaundice               | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL                                                                                                                            |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pulmonary edaema       | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation                                                                                                                                                                      |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Significant bleeding   | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena                                                                                                                                                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Shock                  | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hyperparasitaemia      | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 ## Therapy- General principles
 
-- P. falciparam malaria can be fatal if not diagnosed and treated promptly an appropriately
-  
-    -   Especially true for non-immune travalers returning from vistis to malaria-endemic areas
-- Malaria is a disease of protean manifestations, diagnosis is delayed by non-specific clinical presentation and unimpressive normal laboratory tests- especially if blood smears (and available rapid diagnostic tests) are not examined
+-   *P. falciparum* malaria can be fatal if not diagnosed and treated promptly an appropriately
 
-## Prevention and vulnerable populations
+    -   Especially true for non-immune travellers returning from visits to malaria-endemic areas
 
-## Vector control methods
+-   Malaria is a disease of protean manifestations, diagnosis is delayed by non-specific clinical presentation and unimpressive normal laboratory tests- especially if blood smears (and available rapid diagnostic tests) are not examined
 
-## Chemoprotection 
+-   Life-threatening manifestation (i.e. convulsions, hypoglycaemia, pulmonary oedema) can develop rapidly in patients who appear well at presentation or respond to antimalarial drugs
 
-## Chemoprevention
+-   Pregnant women, young children and elderly are at increased risk and should be hospitalized regardless
 
-## Vaccines
+-   If patient develops malaria despite prophylaxis, they should receive a different antimalarial regimen for treatment
 
-## Management {background-image="/images_malaria/rings.png" background-opacity="0.5"}
+## Drug treatment versus parasitic life cycle
 
-## Uncomplicated malaria vs. complicated malaria
+![](images_malaria/drugstagecycle.png){fig-align="center"}
 
-## P. falciparum malaria
+# Artemisinin parasite clearance
 
-## P. vivax malaria
+![](images_malaria/artemisinins.png){fig-align="center"}
 
-## Drug resistance-1
+<div>
 
-## Drug resistance-2
+[@Dondorp2011]
 
-## Drug resistance-3
+</div>
 
-## Outlook
+# Artemisinin-based combination therapy (ACT)
 
-## Malaria elimination and eradication
+-   Low side effect profile
 
-## Drug discovery and development pipeline
+-   Potent against all states (asexual forms) of malaria
+
+-   Most rapid clearance time relative to other antimalarial drugs
+
+-   Administered in combination with second drug that has longer half life to forstall artemisinin resistance
+
+## WHO recommendations: <br> Uncomplicated malaria treatment {.smaller}
+
+![](images_malaria/act%20therapy.png){fig-align="center"}
+
+::: aside
+In the absence of resistance to the partner drug, the five recommended ACTs have all been shown to achieve a PCR- adjusted treatment failure rate of 5% in many trials in several settings in both adults and children (high-quality evidence) See WHO guidelines for age and weight-specific dosing and toxicity risks in specific populations. Regimens should not be used for pregnant women in first trimester.
+
+[@worldhealthorganization2022]
+:::
+
+## Duration of treatment
+
+![](images_malaria/duration.png){fig-align="center"}
+
+<div>
+
+[@worldhealthorganization2022a]
+
+</div>
+
+## Treatment of pregnant patients
+
+![](images_malaria/pregnant.png){fig-align="center"}
+
+<div>
+
+[@worldhealthorganization2022b]
+
+</div>
+
+## Relapse or Recurrence {.smaller}
+
+-   Follow-up blood smears should document clearance of parasitemia within 48-72 hours of appropriate therapy. Follow-up smears every 12-24 hours are common.
+
+-   **Recurrence of *P. falciparum* malaria can result from re-infection or recrudescence (treatment failure)**
+
+    -   Failure :\< 28 days: Persistent fever, parasitemia → treat with another ACT regimen effective in region. Treatment with same ACT considered if no second line regimens are available
+
+    -   Failure \> 28 days: Likely re-infection: Treat with first-line ACT
+
+-   **Treatment failure may result from:**
+
+    -   Drug resistance
+
+    -   Inadequate exposure to the drug due to sub-optimal dosing, poor adherence, vomiting, unusual pharmacokinetics in an individual,
+
+    -   Substandard (counterfeited) medicine
+
+## Artemisinin resistance
+
+-   Southeast Asia, parts of sub-Saharan Africa, South America
+
+-   Consider in patients with epidemiological exposure
+
+-   Evaluation:
+
+    -   Malarial blood smear on day 3: Unlikely if parasite density \< 3% with initial parasite density of \> 100,000 parasites/μL
+
+## Reducing transmissability
+
+![](images_malaria/drugstagecycle.png){fig-align="center"}
+
+## Reducing transmissability
+
+-   Gametocytes may persist in blood after successful treatment of infection; not harmful to patient but serve as a source of ongoing transmission
+-   Single doses of primaquine \> 0.4 mg/kg bw reduced gametocyte carriage at day 8 by around two thirds (moderate- quality evidence).
+
+![](images_malaria/transmission.png)
+
+<div>
+
+Avoid in pregnant patients and infants \< 6 months
+
+[@worldhealthorganization2022a]
+
+</div>
+
+## Definition of severe malaria
+
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Manifestations         | Definitions                                                                                                                                                                                                                                                                                                                          |
++========================+======================================================================================================================================================================================================================================================================================================================================+
+| Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow                                                                                                                                                                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Prostration            | Generalized weakness so that a person is unable to sit, stand, or walk without assistance                                                                                                                                                                                                                                            |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Multiple convulsions   | More than two episodes within 24 hours                                                                                                                                                                                                                                                                                               |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Acidosis               | A base deficit of \>8 mEq/L, a plasma bicarbonate level of \<15 mmol/L, or venous plasma lactate ≥5 mmol/L. Clinical indicators of acidosis include rapid, deep, labored breathing.                                                                                                                                                  |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hypoglycaemia          | Blood or plasma glucose \<40 mg/dL (\<2.2 mmol/L) for children ≥5 years and adults; blood or plasma glucose \<54 mg/dL (\<3 mmol/L) for children \<5 years                                                                                                                                                                           |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Severe anaemia         | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL                                                                                                                                                           |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Renal impairment       | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L                                                                                                                                                                                                                                                          |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jaundice               | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL                                                                                                                            |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pulmonary edaema       | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation                                                                                                                                                                      |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Significant bleeding   | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena                                                                                                                                                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Shock                  | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hyperparasitaemia      | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Treatment of severe malaria
+
+![](images_malaria/severemalarai.png){fig-align="center"}
+
+<div>
+
+Delayed haemolysis starting \>1 week after artesunate
+treatment of severe malaria has been reported in
+hyperparasitaemic non-immune travellers.
+
+When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM.
+[@worldhealthorganization2022b]
+
+</div>
+
+## Pre-referral treatment options
+
+![](images_malaria/prereferrel.png){fig-align="center"}
+
+<div>
+
+[@worldhealthorganization2022c]
+
+</div>
+
+## Prevention of malaria infection in travellers
+
+-   Areas chloroquine-resistant *P. falciparum*
+
+    -   Mosquito avoidance
+
+    -   Chemoprophylaxis (atovaquone-proguanil, mefloquine, doxycycline, tafenoquine)
+
+        -   Fewest side effects with atovaquone-proguanil
+
+        -   Weekly mefloquine
+
+        -   Doxycycline must be taken daily, sun sensitization
+
+        -   Test for G6PD deficiency before using tefenoquine
+
+    -   Start chemoprophylaxis prior to departure, continued regularly during travel, and continued for a timeperiod after departure (duration is drug dependnent)
+
+        -   Shortest discontinuation time is with atovaquone-proguanil and tafenoquine (one week)
+
+-   Other options are available for areas with chloroquine-sensitive *P. falciparum* or *P. vivax*
+
+## Vector control
+
+## Vaccine
+
+## 
 
 ## References
 
