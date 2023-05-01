@@ -29,6 +29,8 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 
 ## Protozoa "first animals"
 
+<br>
+
 +-----------------+-----------------------------+-------------------------------------------------------+
 | Means of spread | Habitat                     | Intracellular                                         |
 |                 |                             |                                                       |
@@ -85,8 +87,6 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 
 ## The impact of malaria on humans is <br> is staggering
 
-<br>
-
 -   Kills roughly 2000 people per day, most of whom are children in Africa
 
 -   The strongest documented force for evolutionary selection in the recent history of the human genome
@@ -99,9 +99,6 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
     -   More selective vector control approaches (insecticide bed nets, indoor residual spraying) have led to a reduction in some areas of the world in the last 20 years
 
 -   Growing resistance to insecticides in mosquitoes (*Anopheles gambiae)*
-
-    -   Of the 78 countries that monitor insecticide resistance, 60 have reported resistance
-    -   Increasing resistance to first-line XXXXX
 
 ::: aside
 [@kwiatkowski2005a; @phillips2017]
@@ -548,9 +545,7 @@ Source: Our World in Data
 
 ## WHO recommendations: <br> Uncomplicated malaria treatment {.smaller}
 
-<br>
-
-![](images_malaria/act%20therapy.png){fig-align="center"}
+![](images_malaria/act%20therapy.png){fig-align="center" width="800"}
 
 ::: aside
 In the absence of resistance to the partner drug, the five recommended ACTs have all been shown to achieve a PCR- adjusted treatment failure rate of 5% in many trials in several settings in both adults and children (high-quality evidence) See WHO guidelines for age and weight-specific dosing and toxicity risks in specific populations. Regimens should not be used for pregnant women in first trimester.
@@ -606,11 +601,11 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
     -   Malarial blood smear on day 3: Unlikely if parasite density \< 3% with initial parasite density of \> 100,000 parasites/μL
 
-## Reducing transmissability
+## Reducing transmissibility
 
 ![](images_malaria/drugstagecycle.png){fig-align="center"}
 
-## Reducing transmissability
+## Reducing transmissibility
 
 -   Gametocytes may persist in blood after successful treatment of infection; not harmful to patient but serve as a source of ongoing transmission
 -   Single doses of primaquine \> 0.4 mg/kg bw reduced gametocyte carriage at day 8 by around two thirds (moderate- quality evidence).
@@ -717,17 +712,57 @@ When artesunate not available, artemether is considered as second line therapy f
 
 -   Seasonal malaria chemoprevention campaigns targeting children \< 5 years
 
-    -   e.g., Monthly treatment with sulfadoxine-pyrimethamine treatment during rainy season, \> 80% reduction in malaria cases, with \> 50% reduction in mortality
+    -   e.g., monthly treatment with sulfadoxine-pyrimethamine treatment during rainy season, \> 80% reduction in malaria cases, with \> 50% reduction in mortality
 
     -   Rebound effect? Child looses immunity, treatment stopped because of age limit, social instability, resistance
 
-## Vaccine prospects  {background-image="/images_malaria/vaccine.png" background-opacity="0.5"}
+## Vaccine prospects {background-image="/images_malaria/vaccine.png" background-opacity="0.5"}
 
 ![](images_malaria/vaccine2.png){fig-align="center" width="600"}
 
 ## Leishmania infections {background-image="/images_malaria/sandfly.jpeg" background-opacity="0.7"}
 
-##
+## Tissue smear from patient with *Leishmania*
+
+![](images_malaria/leish2.jpeg){fig-align="center" width="800"}
+
+## Leishmaniasis classification
+
+![](images_malaria/leish_class.png){fig-align="center"}
+
+## Distribution of cutaneous leishmaniasis
+
+![](images_malaria/cutaneous.jpeg){fig-align="center"}
+
+## Distribution of visceral leishmaniasis
+
+![](images_malaria/visceral.jpeg){fig-align="center"}
+
+## Spectrum of Leishmania infection and disease
+
+![](images_malaria/spectrum.jpeg){fig-align="center"}
+
+## Classic presentation of VL (kala-azar)
+
+-   Prolonged fever
+-   Weight loss
+-   Hepatosplenomegaly
+-   Pancytopenia
+-   Hypergammaglobinumeia
+
+## Clinical manifestations <br>
+
+-   incubation period (2-8 months) but can be as short as 8 10 days
+-   Clinical disease may first become symptomatic years after exposure in patients who are immunocompromised
+-   Insidious development: fever, weakness, loss of appetite, weightloss, failure to thrive, abdominal enlargement caused by hepatosplenomegaly
+-   Acute presentation in non-immune patients with high fever and chills, sometimes with a periodicity suggestive of malaria
+    -   Spleen can become massively enlarges, soft and non-tender
+    -Elevated liver enzymes and bilirubin occasionally present
+- Patients often become cachetic with oetechia and ecchymoses with possible epistaxis and gingival bleeding
+
+## Portruding abdomen with hepatosplenomegaly
+
+![](images_malaria/hepatomegaly.jpeg){fig-align="center"}
 
 
 ## References
