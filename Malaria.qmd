@@ -11,7 +11,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: true
-    incremental: false
+    incremental: true
     chalkboard: true
 bibliography: Malaria.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
@@ -67,7 +67,7 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 
 <br>
 
-![](images_malaria/Plasmodium.png){fig-align="center" width="600"}
+![Apicomplexa group of protozoa- specialized complex of apical organelles (micronemes, rhoptries, dense granules) involved in host invasion](images_malaria/Plasmodium.png){fig-align="center" width="600"}
 
 ## The vector
 
@@ -96,12 +96,12 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 -   Malaria was once prevalent throughout much of the inhabited world, but has been eliminated from the USA and Canada, Europe, and Russia (chloroquine-based treatment, large-scale insecticide using DDT)
 
     -   Malaria prevalence resurged in tropical countries from the 1970s to the 1990s because of a combination of relaxation of control efforts, increasing antimalarial drug resistance, and insecticide resistance in the mosquito vectors
-    -   More selective vector control approaches (insecticide bed nets, indoor residual spraying) have led to a reduction in some areas of the world in the last 20 years
+    -   More selective vector control approaches (insecticide bed nets, indoor residual spraying) and the introduction of artemisinin-based regimens have led to an overall reduction in mortality in the last 20 years
 
 -   Growing resistance to insecticides in mosquitoes (*Anopheles gambiae)*
 
 ::: aside
-[@kwiatkowski2005a; @phillips2017]
+[@kwiatkowski2005; @phillips2017]
 :::
 
 ## Trends in Malaria death rates in 2021
@@ -143,7 +143,7 @@ Source: Our World in Data
 <br>
 
 -   Airport malaria
--   Asymptomatic donors from endemic aras with low-level parasitemia
+-   Asymptomatic donors from endemic areas with low-level parasitaemia
     -   Blood donors
     -   Solid organ transplant
 
@@ -229,10 +229,7 @@ Source: Our World in Data
 
 -   Cerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)
 -   Ring haemorrhages, perivascular leukocyte infiltrates, thrombin deposition
--   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilledema, and multiple retinal haemorrhages
--   Ring hemorrhages, perivascular leukocyte infiltrates, thrombin deposition
--   Retinal abnormalities are common in children with characteristic features include whitening of the macula (that spares the central fovea), peripheral retina, retinal vessels, papilloedema, and multiple retinal haemorrhages
--   Impairement of local delivery of oxygen and glucose
+-   Impairment of local delivery of oxygen and glucose
 -   Often does not produce neurological sequelae akin to thrombotic stroke
     -   Recovery within 48 hours common
 
@@ -243,7 +240,7 @@ Source: Our World in Data
 ![Increased brain volume and increased intracranial pressure](images_malaria/mri.png){fig-align="center" width="600"}
 :::
 
-![Malarial retinopathy with white-centered hemoerrhages un the optic fundi. Pathognomonic for cerebral malaria](images_malaria/retinopathy.png){fig-align="center" width="600"}
+![Malarial retinopathy with white-centred hemorrhages un the optic fundi. Pathognomonic for cerebral malaria](images_malaria/retinopathy.png){fig-align="center" width="600"}
 :::
 
 ::: aside
@@ -278,7 +275,7 @@ Source: Our World in Data
 
     -   Splenomegaly common in malaria (removal of infected erythrocytes) but contributes to anaemia associated with disease
 
--   **Pregnancy** - parasites that express protein surface variant antigen 2-CSA (chondroitin sulphate-2, a glycoproteins expressed in the placenta) leading to infected red blood cell sequestration in the placenta
+-   **Pregnancy** - parasites that express protein surface variant antigen 2-CSA (chondroitin sulphate-2) attaching to glycoproteins expressed in the placenta ...leading to infected red blood cell sequestration in the placenta
 
     -   Increased risk of maternal and/or foetal death, miscarriage, inter-uterine growth retardation, low-birth weight, increased newborn mortality
 
@@ -324,13 +321,15 @@ Source: Our World in Data
 
 -   **Acute renal failure**
 
-    -   Less common in children \## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
+    -   Less common in children
+
+##  Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
 
 ## Clinical History
 
 <br>
 
--   **Febrile illness** (cyclic paroxysms of chills rigors and fever with drenching night sweats after travel to an endemic area)
+-   **Febrile illness** (cyclic paroxysms of chills rigours and fever with drenching night sweats after travel to an endemic area)
 
     -   Fever 100%
 
@@ -340,9 +339,9 @@ Source: Our World in Data
 
     -   Profuse night sweats 91%
 
-    -   Insomina 61%
+    -   Insomnia 61%
 
-    -   Arthrlagias 59%
+    -   Arthralgias 59%
 
     -   Myalgias 56%
 
@@ -573,7 +572,7 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 </div>
 
-## Relapse or Recurrence {.smaller}
+## Relapse or Recurrence 
 
 -   Follow-up blood smears should document clearance of parasitemia within 48-72 hours of appropriate therapy. Follow-up smears every 12-24 hours are common.
 
@@ -746,23 +745,13 @@ When artesunate not available, artemether is considered as second line therapy f
 
 <br>
 
--   
+-    *Leishmania* invade and replciate inside host macrophages
 
-    ```         
-    *Leishmania* invade and replciate inside host macrophages
-    ```
 
--   
+-   Many infections are asymptomatic (subclinical), reflecting the host ability to control the infection
+ 
 
-    ```         
-    Many infections are asymptomatic (subclinical), reflecting the host ability to control the infection
-    ```
-
--   
-
-    ```         
-    Subclinical infections can reactive during periods of immunosuppression
-    ```
+-   Subclinical infections can reactive during periods of immunosuppression
 
 ## Classic presentation of VL (kala-azar)
 
@@ -772,8 +761,8 @@ When artesunate not available, artemether is considered as second line therapy f
     -   Parasite replicate in reticuliendothelial system (RES), with high parasite loads accumulating in liver, spleen and bone marrow
 -   Pancytopenia (due to bone marrow suppression)
 -   Hypergammaglobinumeia (polyclonal B cell activation)
--   Late in course of infection thrombocytopenia nad liver dysfunction
--   Uniformally lethal without treatment
+-   Late in course of infection thrombocytopenia and liver dysfunction
+-   Uniformly lethal without treatment
 
 ## Clinical manifestations <br>
 
@@ -823,6 +812,11 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Decrease in spleen size over 1 month
 -   Weight gain
 -   Patients need to be followed for 12 month and instructed to return if symptoms recur.
+
+## Reading
+
+
+
 
 ## References
 
