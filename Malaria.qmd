@@ -723,13 +723,12 @@ When artesunate not available, artemether is considered as second line therapy f
 
 ## Vaccine prospects  {background-image="/images_malaria/vaccine.png" background-opacity="0.5"}
 
-## <br> {background-image="/images_malaria/vaccine.png" background-opacity="0.5"}
-
 ![](images_malaria/vaccine2.png){fig-align="center" width="600"}
 
-## Leishmania infections:
+## Leishmania infections {background-image="/images_malaria/sandfly.jpeg" background-opacity="0.7"}
 
-### Visceral (Kala-Azar), Cutaneous, and Mucosal Leishmaniasis
+##
+
 
 ## References
 
