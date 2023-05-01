@@ -11,7 +11,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: true
-    incremental: true
+    incremental: false
     chalkboard: true
 bibliography: Malaria.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
@@ -80,7 +80,7 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 ![](images_malaria/map.png){fig-align="center" width="800"}
 
 ::: aside
-[@phillips2017a]
+[@phillips2017]
 :::
 
 ## The impact of malaria on humans is <br> is staggering
@@ -104,7 +104,7 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
     -   Increasing resistance to first-line XXXXX
 
 ::: aside
-[@kwiatkowski2005a; @phillips2017a]
+[@kwiatkowski2005a; @phillips2017]
 :::
 
 ## Trends in Malaria death rates in 2021
@@ -243,10 +243,10 @@ Source: Our World in Data
 
 ::: columns
 ::: {.column width="50%"}
-![](images_malaria/mri.png){fig-align="center"}
+![Increased brain volume and increased intracranial pressure](images_malaria/mri.png){fig-align="center" width="600"}
 :::
 
-![](images_malaria/retinopathy.png){fig-align="center"}
+![Malarial retinopathy with white-centered hemoerrhages un the optic fundi. Pathognomonic for cerebral malaria](images_malaria/retinopathy.png){fig-align="center" width="600"}
 :::
 
 ::: aside
@@ -316,8 +316,8 @@ Source: Our World in Data
 
 -   **Pulmonary oedema and respiratory distress**
 
-    -   Non-cardiogenic pulmonary oedema due to sequesterization of infected erythromyctes → inflammatory response → capillary permability → pulmonary oedema → hypoxia →acute lung injury → ARDS
-    -   Dyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., acessory muscle breathing) and radiologic signs (increased interestitial markings)
+    -   Non-cardiogenic pulmonary oedema due to sequestration of infected erythromyctes → inflammatory response → capillary permeability → pulmonary oedema → hypoxia →acute lung injury → ARDS
+    -   Dyspne and increasing respiratory rate are features of impending pulmonary oedema and preclude other clinical (e.g., accessory muscle breathing) and radiologic signs (increased interstitial markings)
 
 -   **Metabolic (lactic) acidosis**
 
@@ -331,6 +331,8 @@ Source: Our World in Data
 
 ## Clinical History
 
+<br>
+
 -   **Febrile illness** (cyclic paroxysms of chills rigors and fever with drenching night sweats after travel to an endemic area)
 
     -   Fever 100%
@@ -339,15 +341,15 @@ Source: Our World in Data
 
     -   Weakness 94%
 
-    -   Pofuse night sweats 91%
+    -   Profuse night sweats 91%
 
     -   Insomina 61%
 
     -   Arthrlagias 59%
 
-    -   myalgias 56%
+    -   Myalgias 56%
 
-    -   Diarrhea 13%
+    -   Diarrhoea 13%
 
     -   Abdominal cramps 8%
 
@@ -368,9 +370,11 @@ Source: Our World in Data
 
 ## Parasitemia
 
+<br>
+
 -   Light microscopy of Giemsa-stained blood smears is the accepted standard for diagnosis
 
--   Thick smears concentrate red cell layers 40-fold and used to screen large amounts of blood for parasites- RBCs lyse so parasites are visualized *outside* red cells
+-   Thick smears concentrate red cell layers 40-fold and used to screen large amounts of blood for parasites- RBCs lyse so parasites are visualized outside red cells
 
     -   Parasite density can be calculated by counting the number of parasites per 200 WBCs x 40 = number of parasites per μL blood
 
@@ -378,7 +382,7 @@ Source: Our World in Data
 
     -   Smear is repeated every 12 hours until diagnosis is ruled in or ruled out
 
--   Thin smears used tp determine *Plasmodium* species
+-   **Thin smears used to determine *Plasmodium* species**
 
 ## Microscopic images of parasite <br>infected red blood cells {.smaller}
 
@@ -405,10 +409,12 @@ Source: Our World in Data
 +--------------------------------------------------------------------------------------------------------+-----------------------------+
 
 ::: aside
-[@fairhurstrick2015a]
+[@fairhurstrick2015]
 :::
 
 ## Rapid diagnostic tests (RDTs)
+
+<br>
 
 -   **Detection of *Plasmodium* histidine-rich protein-2 (HRP-2)**
 
@@ -428,11 +434,15 @@ Source: Our World in Data
 
 ## Other laboratory tests
 
+<br>
+
 -   Decreases in haemoglobin, hematocrit and haptoglobin and increases in LDH expected
 
 -   Leukocyte and platelet counts are
 
 ## Diseases with similar clinical presentations
+
+<br>
 
 -   Malaria should always fall near the top of the differential for fever in travellers or immigrants who have been in an endemic area in the previous 3 months (and remain in consideration for years afterword)
 
@@ -459,6 +469,8 @@ Source: Our World in Data
 ## Therapy {background-image="/images_malaria/Artemisinin.png" background-opacity="0.5"}
 
 ## Definition of severe malaria
+
+<br>
 
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Manifestations         | Definitions                                                                                                                                                                                                                                                                                                                          |
@@ -490,6 +502,8 @@ Source: Our World in Data
 
 ## Therapy- General principles
 
+<br>
+
 -   *P. falciparum* malaria can be fatal if not diagnosed and treated promptly an appropriately
 
     -   Especially true for non-immune travellers returning from visits to malaria-endemic areas
@@ -504,9 +518,13 @@ Source: Our World in Data
 
 ## Drug treatment versus parasitic life cycle
 
+<br>
+
 ![](images_malaria/drugstagecycle.png){fig-align="center"}
 
-# Artemisinin parasite clearance
+## Artemisinin parasite clearance
+
+<br>
 
 ![](images_malaria/artemisinins.png){fig-align="center"}
 
@@ -516,7 +534,9 @@ Source: Our World in Data
 
 </div>
 
-# Artemisinin-based combination therapy (ACT)
+## Artemisinin-based combination therapy (ACT)
+
+<br>
 
 -   Low side effect profile
 
@@ -527,6 +547,8 @@ Source: Our World in Data
 -   Administered in combination with second drug that has longer half life to forstall artemisinin resistance
 
 ## WHO recommendations: <br> Uncomplicated malaria treatment {.smaller}
+
+<br>
 
 ![](images_malaria/act%20therapy.png){fig-align="center"}
 
@@ -542,7 +564,7 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 <div>
 
-[@worldhealthorganization2022a]
+[@worldhealthorganization2022]
 
 </div>
 
@@ -552,7 +574,7 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 <div>
 
-[@worldhealthorganization2022b]
+[@worldhealthorganization2022]
 
 </div>
 
@@ -639,12 +661,9 @@ Avoid in pregnant patients and infants \< 6 months
 
 <div>
 
-Delayed haemolysis starting \>1 week after artesunate
-treatment of severe malaria has been reported in
-hyperparasitaemic non-immune travellers.
+Delayed haemolysis starting \>1 week after artesunate treatment of severe malaria has been reported in hyperparasitaemic non-immune travellers.
 
-When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM.
-[@worldhealthorganization2022b]
+When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM. [@worldhealthorganization2022b]
 
 </div>
 
@@ -654,7 +673,7 @@ When artesunate not available, artemether is considered as second line therapy f
 
 <div>
 
-[@worldhealthorganization2022c]
+[@worldhealthorganization2022]
 
 </div>
 
@@ -674,7 +693,7 @@ When artesunate not available, artemether is considered as second line therapy f
 
         -   Test for G6PD deficiency before using tefenoquine
 
-    -   Start chemoprophylaxis prior to departure, continued regularly during travel, and continued for a timeperiod after departure (duration is drug dependnent)
+    -   Start chemoprophylaxis prior to departure, continued regularly during travel, and continued for a time period after departure (duration is drug dependent)
 
         -   Shortest discontinuation time is with atovaquone-proguanil and tafenoquine (one week)
 
@@ -682,9 +701,35 @@ When artesunate not available, artemether is considered as second line therapy f
 
 ## Vector control
 
-## Vaccine
+<br>
 
-## 
+::: columns
+![](images_malaria/nets.png){fig-align="center" width="400"}
+
+::: {.column width="50%"}
+![](images_malaria/indoor.png){fig-align="center" width="400"}
+:::
+:::
+
+## Chemoprevention
+
+<br>
+
+-   Seasonal malaria chemoprevention campaigns targeting children \< 5 years
+
+    -   e.g., Monthly treatment with sulfadoxine-pyrimethamine treatment during rainy season, \> 80% reduction in malaria cases, with \> 50% reduction in mortality
+
+    -   Rebound effect? Child looses immunity, treatment stopped because of age limit, social instability, resistance
+
+## Vaccine prospects  {background-image="/images_malaria/vaccine.png" background-opacity="0.5"}
+
+## <br> {background-image="/images_malaria/vaccine.png" background-opacity="0.5"}
+
+![](images_malaria/vaccine2.png){fig-align="center" width="600"}
+
+## Leishmania infections:
+
+### Visceral (Kala-Azar), Cutaneous, and Mucosal Leishmaniasis
 
 ## References
 
