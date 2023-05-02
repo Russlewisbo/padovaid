@@ -25,8 +25,6 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 2 May 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
 
-## Objectives
-
 ## Protozoa "first animals"
 
 <br>
@@ -428,13 +426,11 @@ Source: Our World in Data
 
 -   **Combination tests of HRP-2/LDH under development**
 
-## Other laboratory tests
-
-<br>
-
--   Decreases in haemoglobin, hematocrit and haptoglobin and increases in LDH expected
-
--   Leukocyte and platelet counts are
+- PCR and quantitative PCR (becoming gold standard)
+    -   Identifies species
+    -   Detets low levels paracetemia
+    -   qPCR can be used to monitor therapy
+    -   Availability in endemic areas?
 
 ## Diseases with similar clinical presentations
 
@@ -812,10 +808,6 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Decrease in spleen size over 1 month
 -   Weight gain
 -   Patients need to be followed for 12 month and instructed to return if symptoms recur.
-
-## Reading
-
-
 
 
 ## References
