@@ -4,4 +4,10 @@ foquartormat: html
 editor: visual
 ---
 
-## Coming soon!
+[Handout](malariahandout.pdf)
+
+[WHO Malaria Treatmetn Guidelines](WHOguidelines.pdf)
+
+[Comprehensive Review on Malaria](Naturereviews.pdf)
+
+[Review on leishmaniasis](leishreview.pdf)
