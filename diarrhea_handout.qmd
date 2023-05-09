@@ -13,7 +13,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 <br>
 
-Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 27 March 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
+Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 27 March 2023 <br> <br> ![](800-unipd.png){fig-align="left" width="300"}
 
 ## Objectives
 
@@ -74,7 +74,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 <br> <br>
 
 |                                                                              | Likely pathogens          | Mean incubation period                                                  | Classic/common food sources                                                                                                              | Other epidemiologic clues                                                                                                                      |
-|------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|-------------|-------------|----------------|-----------------|
 | Watery diarrhea                                                              | Norovirus                 | 24 to 48 hours                                                          | Shellfish, prepared foods, vegetables, fruit                                                                                             | Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations |
 | *Clostridioides* (formerly *Clostridium difficile*)                          | N/A                       | N/A                                                                     | Antibiotic use<br>- Hospitalization<br>- Cancer chemotherapy<br>- Gastric acid suppression<br>- Inflammatory bowel disease               |                                                                                                                                                |
 | *Clostridium perfringens*                                                    | 8 to 16 hours             | Meat, poultry, gravy, home-canned goods                                 |                                                                                                                                          |                                                                                                                                                |

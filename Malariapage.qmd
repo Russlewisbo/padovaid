@@ -6,8 +6,8 @@ editor: visual
 
 [Handout](malariahandout.pdf)
 
-[WHO Malaria Treatmetn Guidelines](WHOguidelines.pdf)
+[WHO Malaria Treatment Guidelines](WHOguidelines.pdf)
 
 [Comprehensive Review on Malaria](Naturereviews.pdf)
 
-[Review on leishmaniasis](leishreview.pdf)
+[Review on leishmaniasis](nrmicro1748.pdf)
