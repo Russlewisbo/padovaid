@@ -6,7 +6,9 @@ editor: visual
 
 ## Lecture slides
 
-[slides](fungal.pdf) 
+[Slides](fungal.pdf)
+
+[Study guide](fungalinfections.docx)
 
 [Review article on antifungal agents agents](Johnson.pdf)
 
@@ -19,10 +21,3 @@ editor: visual
 [Review on invasive aspergillosis](aspergillus.pdf)
 
 [Review on cryptococcosis](cryptococcosis.pdf)
-
-
-
-
-
-
-
