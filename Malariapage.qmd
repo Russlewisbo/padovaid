@@ -1,10 +1,12 @@
 ---
-title: "Parasites: Malaria and Leishmeniasis"
+title: "Parasites: Malaria and Leishmaniasis"
 foquartormat: html
 editor: visual
 ---
 
 [Handout](malariahandout.pdf)
+
+[Study guide](malaria.docx)
 
 [WHO Malaria Treatment Guidelines](WHOguidelines.pdf)
 

@@ -4,7 +4,7 @@ title-slide-attributes:
   data-background-image: /images_malaria/mosquito.png
 format:
   revealjs:
-    theme: [default, custom2.scss]
+    theme: [custom2.scss]
     touch: true
     controls: true
     transition: fade
