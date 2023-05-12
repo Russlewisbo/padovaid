@@ -8,5 +8,6 @@ editor: visual
 
 A PDF copy of lecture slides can be downloaded [here](Intraabdominal.pdf)
 
-[IDSA guidelines](idsaintraabdominal.pdf) <br>
-[Surgical Infection Society Guidelines](SIS.pdf) <br>
+[Study guide](intraabdominal.docx)
+
+[IDSA guidelines](idsaintraabdominal.pdf) <br> [Surgical Infection Society Guidelines](SIS.pdf) <br>

@@ -12,8 +12,6 @@ editor: visual
 
 [ACG Clinical Guideline: Diagnosis, Treatment, and Prevention of Acute Diarrheal Infections in Adults](ACG.pdf)
 
-[2017 Infectious Diseases Society of America Clinical
-Practice Guidelines for the Diagnosis and Management of
-Infectious Diarrhea](IDSAdiarrhae.pdf)
+[2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea](IDSAdiarrhae.pdf)
 
 A useful review that contains information on when and what tests to use for symptomatic diarhhea [Syndromic Panel-Based Testing in Clinical Microbiology](Syndromic.pdf)
