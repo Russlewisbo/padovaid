@@ -16,10 +16,11 @@ website:
       - febrileneutropenia.qmd
       - IFI.qmd
       - Diarrheapage.qmd
+      - Intraabdominal.qmd
       - Malariapage.qmd
 format: 
   html:
-    theme: flatly
+    theme: journal
     css: styles.css
     toc: true
 editor: visual

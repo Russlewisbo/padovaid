@@ -4,7 +4,7 @@ title-slide-attributes:
   data-background-image: /images_malaria/mosquito.png
 format:
   revealjs:
-    theme: [default, custom2.scss]
+    theme: [custom2.scss]
     touch: true
     controls: true
     transition: fade
@@ -99,7 +99,7 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 -   Growing resistance to insecticides in mosquitoes (*Anopheles gambiae)*
 
 ::: aside
-[@kwiatkowski2005; @phillips2017]
+[@phillips2017; @kwiatkowski2005]
 :::
 
 ## Trends in Malaria death rates in 2021
@@ -321,7 +321,7 @@ Source: Our World in Data
 
     -   Less common in children
 
-##  Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
+## Diagnosis and Screening {background-image="/images_malaria/rings.png" background-opacity="0.5"}
 
 ## Clinical History
 
@@ -426,7 +426,8 @@ Source: Our World in Data
 
 -   **Combination tests of HRP-2/LDH under development**
 
-- PCR and quantitative PCR (becoming gold standard)
+-   PCR and quantitative PCR (becoming gold standard)
+
     -   Identifies species
     -   Detets low levels paracetemia
     -   qPCR can be used to monitor therapy
@@ -444,7 +445,7 @@ Source: Our World in Data
 
     -   Enteric fever
 
-    -   Bactermia/sepsis
+    -   Bacteraemia/sepsis
 
     -   Classic dengue fever (typically more severe myalgias , shorter incubation of 4-7 days, rash and lymphadenopathy)
 
@@ -522,7 +523,7 @@ Source: Our World in Data
 
 <div>
 
-[@Dondorp2011]
+[@dondorp2011]
 
 </div>
 
@@ -545,30 +546,26 @@ Source: Our World in Data
 ::: aside
 In the absence of resistance to the partner drug, the five recommended ACTs have all been shown to achieve a PCR- adjusted treatment failure rate of 5% in many trials in several settings in both adults and children (high-quality evidence) See WHO guidelines for age and weight-specific dosing and toxicity risks in specific populations. Regimens should not be used for pregnant women in first trimester.
 
-[@worldhealthorganization2022]
+[@worldhealthorganization22a]
 :::
 
 ## Duration of treatment
 
 ![](images_malaria/duration.png){fig-align="center"}
 
-<div>
-
-[@worldhealthorganization2022]
-
-</div>
+::: aside
+[@worldhealthorganization22a]
+:::
 
 ## Treatment of pregnant patients
 
 ![](images_malaria/pregnant.png){fig-align="center"}
 
-<div>
+::: aside
+[@worldhealthorganization22a]
+:::
 
-[@worldhealthorganization2022]
-
-</div>
-
-## Relapse or Recurrence 
+## Relapse or Recurrence
 
 -   Follow-up blood smears should document clearance of parasitemia within 48-72 hours of appropriate therapy. Follow-up smears every 12-24 hours are common.
 
@@ -611,7 +608,9 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 Avoid in pregnant patients and infants \< 6 months
 
-[@worldhealthorganization2022]
+::: aside
+[@worldhealthorganization22a]
+:::
 
 </div>
 
@@ -653,19 +652,19 @@ Avoid in pregnant patients and infants \< 6 months
 
 Delayed haemolysis starting \>1 week after artesunate treatment of severe malaria has been reported in hyperparasitaemic non-immune travellers.
 
-When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM. [@worldhealthorganization2022]
+When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM. 
 
-</div>
+::: aside
+[@worldhealthorganization22a]
+:::
 
 ## Pre-referral treatment options
 
 ![](images_malaria/prereferrel.png){fig-align="center"}
 
-<div>
-
-[@worldhealthorganization2022]
-
-</div>
+::: aside
+[@worldhealthorganization22a]
+:::
 
 ## Prevention of malaria infection in travellers
 
@@ -741,11 +740,9 @@ When artesunate not available, artemether is considered as second line therapy f
 
 <br>
 
--    *Leishmania* invade and replciate inside host macrophages
-
+-   *Leishmania* invade and replciate inside host macrophages
 
 -   Many infections are asymptomatic (subclinical), reflecting the host ability to control the infection
- 
 
 -   Subclinical infections can reactive during periods of immunosuppression
 
@@ -754,9 +751,9 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Prolonged fever
 -   Weight loss
 -   Hepato- splenomegaly
-    -   Parasite replicate in reticuliendothelial system (RES), with high parasite loads accumulating in liver, spleen and bone marrow
+    -   Parasite replicate in reticuloendothelial system (RES), with high parasite loads accumulating in liver, spleen and bone marrow
 -   Pancytopenia (due to bone marrow suppression)
--   Hypergammaglobinumeia (polyclonal B cell activation)
+-   Hypergammaglobinumia (polyclonal B cell activation)
 -   Late in course of infection thrombocytopenia and liver dysfunction
 -   Uniformly lethal without treatment
 
@@ -767,7 +764,7 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Insidious development: fever, weakness, loss of appetite, weightloss, failure to thrive, abdominal enlargement caused by hepatosplenomegaly
 -   Acute presentation in non-immune patients with high fever and chills, sometimes with a periodicity suggestive of malaria
     -   Spleen can become massively enlarges, soft and non-tender -Elevated liver enzymes and bilirubin occasionally present
--   Patients often become cachetic with petechia and ecchymoses with possible epistaxis and gingival bleeding
+-   Patients often become cachectic with petechia and ecchymoses with possible epistaxis and gingival bleeding
 
 ## Protruding abdomen with hepatosplenomegaly
 
@@ -779,7 +776,7 @@ When artesunate not available, artemether is considered as second line therapy f
 
 -   Prolonged fever
 -   Progressive weight-loss
--   Pronounced splnomegaly
+-   Pronounced spelnomegaly
 -   Pancytopenia
 -   Hypergammaglobulinemia
 
@@ -797,7 +794,7 @@ When artesunate not available, artemether is considered as second line therapy f
 
 -   Liposomal amphotericin B 10 mg/kg two consecutive days or 3 mg/kg days 1-5, 14, and 21
 -   Amphotericin B deoxycholate 1 mg/kg for 15 days or 1 mg/kg every other day for 30 days
--   Pentamidine (hypotension, hypoglycemia, insulin-dependent diabetes mellitus)
+-   Pentamidine (hypotension, hypoglycaemia, insulin-dependent diabetes mellitus)
 -   Miltefosine (oral, GI toxicity, elevated liver transaminases)
 
 ## Treatment response
@@ -808,7 +805,6 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Decrease in spleen size over 1 month
 -   Weight gain
 -   Patients need to be followed for 12 month and instructed to return if symptoms recur.
-
 
 ## References
 

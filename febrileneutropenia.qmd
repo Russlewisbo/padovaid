@@ -6,11 +6,15 @@ editor: visual
 
 ## Lecture slides
 
-[slides](febrileneutropenia.pdf)
+[Slides](febrileneutropenia.pdf)
+
+[Study guide](FNstudyguide.docx)
 
 ## 2022 NCCN Guidelines
 
 [NCCN guidelines](NCCN.pdf)
+
+[Infectious Diseases Society of America Fegrile Neutropenia Guidelines](Freifeld2011.pdf) These guidelines are somewhat out of date but the general management approach and explanation of evidence is still valid. <br>
 
 [Prophylaxis recommendations](Talpitz.pdf)
 

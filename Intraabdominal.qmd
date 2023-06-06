@@ -1,0 +1,13 @@
+---
+title: "Intraabdominal infections"
+foquartormat: html
+editor: visual
+---
+
+## Slides
+
+A PDF copy of lecture slides can be downloaded [here](Intraabdominal.pdf)
+
+[Study guide](intraabdominal.docx)
+
+[IDSA guidelines](idsaintraabdominal.pdf) <br> [Surgical Infection Society Guidelines](SIS.pdf) <br>

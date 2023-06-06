@@ -8,7 +8,11 @@ editor: visual
 
 Lecture slides can be downloaded [here](allergies_2023.pdf)
 
+[Allergies Study guide](Allergies.docx)
+
 [Essential review on diagnosing and managing penicillin allergies](jama.pdf)
+
+[Detailed review on immunological mechanisms of drug reactions](Pichler.pdf)
 
 The following links below may require access via University proxy. Click on the the "multimedia" link to find the videos and podcasts.
 
