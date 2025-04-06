@@ -25,6 +25,10 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 7 April 2025 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
 
+## Recent cases in the news
+
+![](images_malaria/mal_new1.png){fig-align="center"}
+
 ## Protozoa "first animals"
 
 <br>
@@ -57,9 +61,9 @@ The protozoa carried by inset vectors are mainly confined to tropics by the dist
 
 ## World Malaria Day
 
-![](images_malaria/whomalaria.png)
-
 <br>
+
+![](images_malaria/worldmalariaday.png){fig-align="center"}
 
 ## The pathogen
 
@@ -240,7 +244,7 @@ Source: Our World in Data
 ![Increased brain volume and increased intracranial pressure](images_malaria/mri.png){fig-align="center" width="600"}
 :::
 
-![Malarial retinopathy with white-centred hemorrhages un the optic fundi. Pathognomonic for cerebral malaria](images_malaria/retinopathy.png){fig-align="center" width="600"}
+![Malarial retinopathy with white-centred hemorrhages un the optic fundi. Pathognomonic for cerebral malaria](images_malaria/retinopathy.png){fig-align="center" width="400"}
 ::::
 
 ::: aside
