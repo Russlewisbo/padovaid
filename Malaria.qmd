@@ -183,19 +183,13 @@ Source: Our World in Data
 
 <br>
 
-+-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *Plasmodium spp*. | Liver stage | Blood cycle and fever peaks | Disease features                                                                               |
-+===================+=============+=============================+================================================================================================+
-| *P. falciprium*   | 6-14 days   | 48h (tertian)               | Major complications, fatal without treatment                                                   |
-+-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. vivax*        | 12-17 days  | 48h (tertian)               | Seldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver |
-+-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. malariae*     | 13-40 days  | 72h (quartian)              | Nephrotic syndrome                                                                             |
-+-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. ovale*        | 9-18 days   | 48h (tertian)               |                                                                                                |
-+-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
-| *P. knowlowsi*    | 9-12 days   | 24h (quotidian)             | Southeast Asia, monkey                                                                         |
-+-------------------+-------------+-----------------------------+------------------------------------------------------------------------------------------------+
+| *Plasmodium spp*. | Liver stage | Blood cycle and fever peaks | Disease features |
+|----|----|----|----|
+| *P. falciprium* | 6-14 days | 48h (tertian) | Major complications, fatal without treatment |
+| *P. vivax* | 12-17 days | 48h (tertian) | Seldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver |
+| *P. malariae* | 13-40 days | 72h (quartian) | Nephrotic syndrome |
+| *P. ovale* | 9-18 days | 48h (tertian) |  |
+| *P. knowlowsi* | 9-12 days | 24h (quotidian) | Southeast Asia, monkey |
 
 ## *Plasmodium falciparum*
 
@@ -386,25 +380,16 @@ Source: Our World in Data
 
 <br>
 
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| Description                                                                                            | Image                                    |
-+========================================================================================================+==========================================+
+| Description | Image |
+|----|----|
 | Multiple signet-ring *P. falciparum* trophozoites visualized outside erythrocytes in thick blood smear | ![](images_malaria/7a.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| Multiply infected erythrocyte containing containing signet-ring *P. falciparum* trophozytes            | ![](images_malaria/7b.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| Banana-shaped gametocyte unique to *P. falciparum*                                                     | ![](images_malaria/7c.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| Ameboid trophozoite characteristic of *P. vivax*                                                       | ![](images_malaria/7d.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| *P. vivax* schizont                                                                                    | ![](images_malaria/7e.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| *P. vivax* spherical gametocyte                                                                        | ![](images_malaria/7f.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyte                            | ![](images_malaria/7g.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
-| Characteristic band form trophozoite of *P. malariae* containing intracellular pigment hemozoin        | ![](images_malaria/7h.jpeg){width="800"} |
-+--------------------------------------------------------------------------------------------------------+------------------------------------------+
+| Multiply infected erythrocyte containing containing signet-ring *P. falciparum* trophozytes | ![](images_malaria/7b.jpeg){width="800"} |
+| Banana-shaped gametocyte unique to *P. falciparum* | ![](images_malaria/7c.jpeg){width="800"} |
+| Ameboid trophozoite characteristic of *P. vivax* | ![](images_malaria/7d.jpeg){width="800"} |
+| *P. vivax* schizont | ![](images_malaria/7e.jpeg){width="800"} |
+| *P. vivax* spherical gametocyte | ![](images_malaria/7f.jpeg){width="800"} |
+| *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyte | ![](images_malaria/7g.jpeg){width="800"} |
+| Characteristic band form trophozoite of *P. malariae* containing intracellular pigment hemozoin | ![](images_malaria/7h.jpeg){width="800"} |
 
 ::: aside
 [@fairhurstrick2015]
@@ -469,33 +454,20 @@ Source: Our World in Data
 
 <br>
 
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Manifestations         | Definitions                                                                                                                                                                                                                                                                                                                          |
-+========================+======================================================================================================================================================================================================================================================================================================================================+
-| Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow                                                                                                                                                                                                                                       |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Prostration            | Generalized weakness so that a person is unable to sit, stand, or walk without assistance                                                                                                                                                                                                                                            |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Multiple convulsions   | More than two episodes within 24 hours                                                                                                                                                                                                                                                                                               |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Acidosis               | A base deficit of \>8 mEq/L, a plasma bicarbonate level of \<15 mmol/L, or venous plasma lactate ≥5 mmol/L. Clinical indicators of acidosis include rapid, deep, labored breathing.                                                                                                                                                  |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Hypoglycaemia          | Blood or plasma glucose \<40 mg/dL (\<2.2 mmol/L) for children ≥5 years and adults; blood or plasma glucose \<54 mg/dL (\<3 mmol/L) for children \<5 years                                                                                                                                                                           |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Severe anaemia         | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL                                                                                                                                                           |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Renal impairment       | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L                                                                                                                                                                                                                                                          |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Jaundice               | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL                                                                                                                            |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Pulmonary edaema       | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation                                                                                                                                                                      |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Significant bleeding   | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena                                                                                                                                                                                                                       |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Shock                  | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Hyperparasitaemia      | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds                                                                                       |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Manifestations | Definitions |
+|----|----|
+| Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow |
+| Prostration | Generalized weakness so that a person is unable to sit, stand, or walk without assistance |
+| Multiple convulsions | More than two episodes within 24 hours |
+| Acidosis | A base deficit of \>8 mEq/L, a plasma bicarbonate level of \<15 mmol/L, or venous plasma lactate ≥5 mmol/L. Clinical indicators of acidosis include rapid, deep, labored breathing. |
+| Hypoglycaemia | Blood or plasma glucose \<40 mg/dL (\<2.2 mmol/L) for children ≥5 years and adults; blood or plasma glucose \<54 mg/dL (\<3 mmol/L) for children \<5 years |
+| Severe anaemia | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL |
+| Renal impairment | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L |
+| Jaundice | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL |
+| Pulmonary edaema | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation |
+| Significant bleeding | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena |
+| Shock | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
+| Hyperparasitaemia | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds |
 
 ## Therapy- General principles
 
@@ -618,35 +590,21 @@ Avoid in pregnant patients and infants \< 6 months
 
 ## Definition of severe malaria {.smaller}
 
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Manifestations         | Definitions                                                                                                                                                                                                                                                                                                                          |
-+========================+======================================================================================================================================================================================================================================================================================================================================+
-| Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow                                                                                                                                                                                                                                       |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Prostration            | Generalized weakness so that a person is unable to sit, stand, or walk without assistance                                                                                                                                                                                                                                            |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Multiple convulsions   | More than two episodes within 24 hours                                                                                                                                                                                                                                                                                               |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Acidosis               | A base deficit of \>8 mEq/L, a plasma bicarbonate level of \<15 mmol/L, or venous plasma lactate ≥5 mmol/L. Clinical indicators of acidosis include rapid, deep, labored breathing.                                                                                                                                                  |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Hypoglycaemia          | Blood or plasma glucose \<40 mg/dL (\<2.2 mmol/L) for children ≥5 years and adults; blood or plasma glucose \<54 mg/dL (\<3 mmol/L) for children \<5 years                                                                                                                                                                           |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Severe anaemia         | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL                                                                                                                                                           |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Renal impairment       | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L                                                                                                                                                                                                                                                          |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Jaundice               | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL                                                                                                                            |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                        |                                                                                                                                                                                                                                                                                                                                      |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Pulmonary edema        | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation                                                                                                                                                                      |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Significant bleeding   | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena                                                                                                                                                                                                                       |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Shock                  | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Hyperparasitaemia      | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds                                                                                       |
-+------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Manifestations | Definitions |
+|----|----|
+| Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow |
+| Prostration | Generalized weakness so that a person is unable to sit, stand, or walk without assistance |
+| Multiple convulsions | More than two episodes within 24 hours |
+| Acidosis | A base deficit of \>8 mEq/L, a plasma bicarbonate level of \<15 mmol/L, or venous plasma lactate ≥5 mmol/L. Clinical indicators of acidosis include rapid, deep, labored breathing. |
+| Hypoglycaemia | Blood or plasma glucose \<40 mg/dL (\<2.2 mmol/L) for children ≥5 years and adults; blood or plasma glucose \<54 mg/dL (\<3 mmol/L) for children \<5 years |
+| Severe anaemia | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL |
+| Renal impairment | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L |
+| Jaundice | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL |
+|  |  |
+| Pulmonary edema | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation |
+| Significant bleeding | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena |
+| Shock | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
+| Hyperparasitaemia | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds |
 
 ## Treatment of severe malaria
 
