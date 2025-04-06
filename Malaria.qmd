@@ -25,7 +25,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 7 April 2025 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
 
-## 
+## Recent cases in the news
 
 ![](images_malaria/mal_new1.png){fig-align="center"}
 
@@ -56,7 +56,7 @@ Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of M
 +-----------------+-----------------------------+-------------------------------------------------------+
 
 ::: aside
-The protozoa carried by insect vectors are mainly confined to tropics by the distribution of the vectors
+The protozoa carried by inset vectors are mainly confined to tropics by the distribution of of the vectors
 :::
 
 ## World Malaria Day
@@ -187,9 +187,16 @@ Source: Our World in Data
 |----|----|----|----|
 | *P. falciprium* | 6-14 days | 48h (tertian) | Major complications, fatal without treatment |
 | *P. vivax* | 12-17 days | 48h (tertian) | Seldom fatal, but can better survive unfavourable temperatures and remain dormant in the liver |
+<<<<<<< HEAD
 | *P. malariae* | 13-40 days | 72h (quartian) | Nephrotic syndrome |
 | *P. ovale* | 9-18 days | 48h (tertian) |  |
 | *P. knowlowsi* | 9-12 days | 24h (quotidian) | Southeast Asia, monkey |
+=======
+| *P. malariae* | 13-40 days | 72h (quartan) | Nephrotic syndrome |
+| *P. ovale* | 9-18 days | 48h (tertian) |  |
+| *P. knowlowsi* | 9-12 days | 24h (quotidian) | Southeast Asia, monkey |
+|  |  |  |  |
+>>>>>>> 64360160bd5778e6ad987f80bd36187402945158
 
 ## *Plasmodium falciparum*
 
@@ -226,20 +233,18 @@ Source: Our World in Data
 -   Cerebral malaria (intense sequestration of infected erythrocytes in cerebral microvessels)
 -   Ring haemorrhages, perivascular leukocyte infiltrates, thrombin deposition
 -   Impairment of local delivery of oxygen and glucose
--   Often does *not* produce neurological sequelae akin to thrombotic stroke
+-   Often does not produce neurological sequelae akin to thrombotic stroke
     -   Recovery within 48 hours common
 
 ## Imaging findings cerebral malaria
 
-::::: columns
+:::: columns
 ::: {.column width="50%"}
-![Increased brain volume and increased intracranial pressure](images_malaria/mri.png){fig-align="center" width="300"}
+![Increased brain volume and increased intracranial pressure](images_malaria/mri.png){fig-align="center" width="600"}
 :::
 
-::: {.column width="50%"}
 ![Malarial retinopathy with white-centred hemorrhages un the optic fundi. Pathognomonic for cerebral malaria](images_malaria/retinopathy.png){fig-align="center" width="400"}
-:::
-:::::
+::::
 
 ::: aside
 [@idro2005]
@@ -262,6 +267,8 @@ Source: Our World in Data
     -   Antigen switching results in new waves of parasitemia, escape from antibody responses
 
     -   Disease controlling immunity (premunition) after repeated infection episodes associated with development of antibody repertoire that recognizes the full spectrum PfEMP-1 variant antigens
+
+        ![](images_malaria/recurrent.jpeg){width="600"}
 
 ## Host traits that influence disease severity <br>(besides blood disorders)
 
@@ -293,8 +300,8 @@ Source: Our World in Data
 
 -   **Anaemia**
 
-    -   Intra-vascular lysis and phagocytic removal of infected erythrocytes
-    -   TNF-α associated suppression of erythropoietin
+    -   Intra vascular lysis and phagocytic removal of infected erythrocytes
+    -   TNF-α associated suppression of erythropoetin
     -   Normochromic, normocytic anaemia without robust reticulocyte response
 
 -   **Pulmonary oedema and respiratory distress**
@@ -370,7 +377,7 @@ Source: Our World in Data
 
     -   Parasite density can be calculated by counting the number of parasites per 200 WBCs x 40 = number of parasites per μL blood
 
-    -   For *P. falciparum*, initial blood smears may be negative because mature erythrocytes (trophozoites and schizonts are sequestered in peripheral tissues)
+    -   For P. falciparum, initial blood smears may be negative because mature erythrocytes (trophozoites and schizonts are sequestered in peripheral tissues)
 
     -   Smear is repeated every 12 hours until diagnosis is ruled in or ruled out
 
@@ -382,6 +389,7 @@ Source: Our World in Data
 
 | Description | Image |
 |----|----|
+<<<<<<< HEAD
 | Multiple signet-ring *P. falciparum* trophozoites visualized outside erythrocytes in thick blood smear | ![](images_malaria/7a.jpeg){width="800"} |
 | Multiply infected erythrocyte containing containing signet-ring *P. falciparum* trophozytes | ![](images_malaria/7b.jpeg){width="800"} |
 | Banana-shaped gametocyte unique to *P. falciparum* | ![](images_malaria/7c.jpeg){width="800"} |
@@ -390,6 +398,16 @@ Source: Our World in Data
 | *P. vivax* spherical gametocyte | ![](images_malaria/7f.jpeg){width="800"} |
 | *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyte | ![](images_malaria/7g.jpeg){width="800"} |
 | Characteristic band form trophozoite of *P. malariae* containing intracellular pigment hemozoin | ![](images_malaria/7h.jpeg){width="800"} |
+=======
+| Multiple signet-ring *P. falciparum* trophozoites visualized outside erythrocytes in thick blood smear | ![](images_malaria/7a.jpeg) |
+| Multiply infected erythrocyte containing containing signet-ring *P. falciparum* trophozytes | ![](images_malaria/7b.jpeg) |
+| Banana-shaped gametocyte unique to *P. falciparum* | ![](images_malaria/7c.jpeg) |
+| Ameboid trophozoite characteristic of *P. vivax* | ![](images_malaria/7d.jpeg) |
+| *P. vivax* schizont | ![](images_malaria/7e.jpeg) |
+| *P. vivax* spherical gametocyte | ![](images_malaria/7f.jpeg) |
+| *P. ovale* trophozoite. Note Shuffner's dots and ovoid shape of erythrocyte | ![](images_malaria/7g.jpeg) |
+| Characteristic band form trophozoite of *P. malariae* containing intracellular pigment hemozoin | ![](images_malaria/7h.jpeg) |
+>>>>>>> 64360160bd5778e6ad987f80bd36187402945158
 
 ::: aside
 [@fairhurstrick2015]
@@ -426,7 +444,7 @@ Source: Our World in Data
 
 <br>
 
--   Malaria **should always fall near the top of the differential diagnosis** for fever in travellers or immigrants who have been in an endemic area in the previous 3 months (and remain in consideration for years afterword)
+-   Malaria should always fall near the top of the differential for fever in travellers or immigrants who have been in an endemic area in the previous 3 months (and remain in consideration for years afterword)
 
 -   Common differential diagnosis:
 
@@ -450,7 +468,7 @@ Source: Our World in Data
 
 ## Therapy {background-image="/images_malaria/Artemisinin.png" background-opacity="0.5"}
 
-## Definition of severe malaria {.smaller}
+## Definition of severe malaria
 
 <br>
 
@@ -479,13 +497,13 @@ Source: Our World in Data
 
 -   Malaria is a disease of protean manifestations, diagnosis is delayed by non-specific clinical presentation and unimpressive normal laboratory tests- especially if blood smears (and available rapid diagnostic tests) are not examined
 
--   Life-threatening manifestation (i.e. convulsions, hypoglycaemia, pulmonary oedema) [can develop rapidly]{.underline} in patients who appear well at presentation or respond to antimalarial drugs
+-   Life-threatening manifestation (i.e. convulsions, hypoglycaemia, pulmonary oedema) can develop rapidly in patients who appear well at presentation or respond to antimalarial drugs
 
 -   Pregnant women, young children and elderly are at increased risk and should be hospitalized regardless
 
 -   If patient develops malaria despite prophylaxis, they should receive a different antimalarial regimen for treatment
 
-## Drug treatment: non-sexual versus parasitic life cycle
+## Drug treatment versus parasitic life cycle
 
 <br>
 
@@ -543,9 +561,7 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 ## Relapse or Recurrence
 
--   Follow-up blood smears should document clearance of parasitemia within 48-72 hours of appropriate therapy.
-
-    -   Follow-up smears every 12-24 hours are common.
+-   Follow-up blood smears should document clearance of parasitemia within 48-72 hours of appropriate therapy. Follow-up smears every 12-24 hours are common.
 
 -   **Recurrence of *P. falciparum* malaria can result from re-infection or recrudescence (treatment failure)**
 
@@ -575,12 +591,14 @@ In the absence of resistance to the partner drug, the five recommended ACTs have
 
 ![](images_malaria/drugstagecycle.png){fig-align="center"}
 
-## Reducing transmission
-
-![](images_malaria/transmission.png){fig-align="center"}
+## Reducing transmissibility
 
 -   Gametocytes may persist in blood after successful treatment of infection; not harmful to patient but serve as a source of ongoing transmission
--   Single doses of primaquine 0.25 mg/kg bw reduced gametocyte carriage at day 8 by around two thirds (moderate- quality evidence).
+-   Single doses of primaquine \> 0.4 mg/kg bw reduced gametocyte carriage at day 8 by around two thirds (moderate- quality evidence).
+
+![](images_malaria/transmission.png)
+
+<div>
 
 Avoid in pregnant patients and infants \< 6 months
 
@@ -588,8 +606,13 @@ Avoid in pregnant patients and infants \< 6 months
 [@worldhealthorganization22a]
 :::
 
-## Definition of severe malaria {.smaller}
+</div>
 
+<<<<<<< HEAD
+=======
+## Definition of severe malaria
+
+>>>>>>> 64360160bd5778e6ad987f80bd36187402945158
 | Manifestations | Definitions |
 |----|----|
 | Impaired consciousness | Glasgow coma score \<11 in adults or Blantyre coma score \<3 in children; inability to swallow |
@@ -600,8 +623,12 @@ Avoid in pregnant patients and infants \< 6 months
 | Severe anaemia | Haemoglobin concentration ≤5 g/dL or hematocrit ≤15% in children \<12 years of age (\<7 g/dL and \<20%, respectively, in adults) with parasite count \>10,000 parasites/uL |
 | Renal impairment | Plasma or serum creatinine \>3 mg/dL (265 umol/L) or blood urea \>20 mmol/L |
 | Jaundice | Plasma or serum bilirubin \>50 umol/L (3 mg/dL) with one of the following:<br>- Plasmodium fal*ciparum parasite coun*t \>2.5% parasitemia<br>- Plasmodium knowlesi parasite *count \>20,000 para*sites/uL |
+<<<<<<< HEAD
 |  |  |
 | Pulmonary edema | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation |
+=======
+| Pulmonary edaema | Radiographically confirmed or oxygen saturation \<92% on room air with respiratory rate \>30/minute, often with chest indrawing and crepitation on auscultation |
+>>>>>>> 64360160bd5778e6ad987f80bd36187402945158
 | Significant bleeding | Including recurrent or prolonged bleeding (from the nose, gums, or venipuncture sites), hematemesis, or melena |
 | Shock | Compensated shock is defined as capillary refill ≥3 seconds or temperature gradient on leg (mid to proximal limb), but no hypotension. Decompensated shock is defined as systolic blood pressure \<70 mmHg in children or \<80 mmHg in adults, with evidence of impaired perfusion (cool peripheries or prolonged capillary refill). |
 | Hyperparasitaemia | *P. falciparum*:<br>- In non-immune travelers: parasitemia ≥5%\[3\]<br>- All patients: parasitemia \>10%<br>*P. knowlesi*:<br>- Parasite density \>100,000 parasites/uL<br>*Plasmodium vivax*:<br>- No established parasite density thresholds |
@@ -610,7 +637,9 @@ Avoid in pregnant patients and infants \< 6 months
 
 ![](images_malaria/severemalarai.png){fig-align="center"}
 
-Delayed hemolysis starting \>1 week after artesunate treatment of severe malaria has been reported in hyperparasitaemic non-immune travellers.
+<div>
+
+Delayed haemolysis starting \>1 week after artesunate treatment of severe malaria has been reported in hyperparasitaemic non-immune travellers.
 
 When artesunate not available, artemether is considered as second line therapy followed by quinine (dihyrdochloride)- must be given by slow infusion or IM.
 
@@ -660,11 +689,11 @@ When artesunate not available, artemether is considered as second line therapy f
 :::
 ::::
 
-## Chemo-prevention
+## Chemoprevention
 
 <br>
 
--   Seasonal malaria chemo-prevention campaigns targeting children \< 5 years
+-   Seasonal malaria chemoprevention campaigns targeting children \< 5 years
 
     -   e.g., monthly treatment with sulfadoxine-pyrimethamine treatment during rainy season, \> 80% reduction in malaria cases, with \> 50% reduction in mortality
 
@@ -700,7 +729,7 @@ When artesunate not available, artemether is considered as second line therapy f
 
 <br>
 
--   *Leishmania* invade and replicate inside host macrophages
+-   *Leishmania* invade and replciate inside host macrophages
 
 -   Many infections are asymptomatic (subclinical), reflecting the host ability to control the infection
 
@@ -713,13 +742,13 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Hepato- splenomegaly
     -   Parasite replicate in reticuloendothelial system (RES), with high parasite loads accumulating in liver, spleen and bone marrow
 -   Pancytopenia (due to bone marrow suppression)
--   Hypergammaglobulinemia (polyclonal B cell activation)
+-   Hypergammaglobinumia (polyclonal B cell activation)
 -   Late in course of infection thrombocytopenia and liver dysfunction
 -   Uniformly lethal without treatment
 
 ## Clinical manifestations <br>
 
--   Incubation period (2-8 months) but can be as short as 8 10 days
+-   incubation period (2-8 months) but can be as short as 8 10 days
 -   Clinical disease may first become symptomatic years after exposure in patients who are immunocompromised
 -   Insidious development: fever, weakness, loss of appetite, weightloss, failure to thrive, abdominal enlargement caused by hepatosplenomegaly
 -   Acute presentation in non-immune patients with high fever and chills, sometimes with a periodicity suggestive of malaria
@@ -736,7 +765,7 @@ When artesunate not available, artemether is considered as second line therapy f
 
 -   Prolonged fever
 -   Progressive weight-loss
--   Pronounced splenomegaly
+-   Pronounced spelnomegaly
 -   Pancytopenia
 -   Hypergammaglobulinemia
 
@@ -764,8 +793,10 @@ When artesunate not available, artemether is considered as second line therapy f
 -   Fever resolution (1-2 weeks)
 -   Decrease in spleen size over 1 month
 -   Weight gain
--   Patients need to be followed for 12 months and instructed to return if symptoms recur.
+-   Patients need to be followed for 12 month and instructed to return if symptoms recur.
 
 ## References
 
 <br>
+
+</div>
