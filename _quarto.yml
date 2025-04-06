@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-title: "ME2491 Infectious Diseases"
+title: "Infectious Diseases"
 website:
   sidebar:
     pinned: true
@@ -10,14 +10,7 @@ website:
     contents:
       - Index.qmd
       - Antibiotic.qmd
-      - Resistance.qmd
       - Allergies.qmd
-      - FUOpage.qmd
-      - febrileneutropenia.qmd
-      - IFI.qmd
-      - Diarrheapage.qmd
-      - Intraabdominal.qmd
-      - Malariapage.qmd
 format: 
   html:
     theme: journal
