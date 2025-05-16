@@ -6,7 +6,7 @@ editor: visual
 
 ## Slides
 
-Lecture slides can be acessed [here](https://docs.google.com/presentation/d/1jh-NSAFjtxpndh4KNvsQxJ_gWqAu0qNMitbGwUrP7V0/edit?usp=sharing)
+Lecture slides can be acessed [here](https://docs.google.com/presentation/d/1Xt3MMIcwQvsKzO-Ujjtwc9roPQwtQaP79lFJ8DUgUAk/edit?usp=sharing)
 
 ## Background reading
 
