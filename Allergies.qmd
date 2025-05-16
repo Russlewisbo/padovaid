@@ -6,9 +6,7 @@ editor: visual
 
 ## 
 
-Lecture slides can be downloaded [here](allergies_2023.pdf)
-
-[Allergies Study guide](Allergies.docx)
+Lecture slides can be accessed [here](https://docs.google.com/presentation/d/1jh-NSAFjtxpndh4KNvsQxJ_gWqAu0qNMitbGwUrP7V0/edit?usp=sharing)
 
 [Essential review on diagnosing and managing penicillin allergies](jama.pdf)
 

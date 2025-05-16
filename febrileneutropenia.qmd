@@ -6,11 +6,9 @@ editor: visual
 
 ## Lecture slides
 
-[Slides](febrileneutropenia.pdf)
+[Slides](https://docs.google.com/presentation/d/11IfJl-JII2avlUhQrndvM10jLvldK2cyH76dsb0kS3I/edit?usp=sharing)
 
-[Study guide](FNstudyguide.docx)
-
-## 2022 NCCN Guidelines
+## 2024 NCCN Guidelines
 
 [NCCN guidelines](NCCN.pdf)
 

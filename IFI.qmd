@@ -6,9 +6,7 @@ editor: visual
 
 ## Lecture slides
 
-[Slides](fungal.pdf)
-
-[Study guide](fungalinfections.docx)
+[Slides](https://docs.google.com/presentation/d/1YMPuoVTPXKCEKUQoexAR_fmsm3fmKM65VJXmwWpngi0/edit?usp=sharing)
 
 [Review article on antifungal agents agents](Johnson.pdf)
 
