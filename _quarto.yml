@@ -11,8 +11,7 @@ website:
       - Index.qmd
       - Antibiotic.qmd
       - Allergies.qmd
-      - febrileneutropenia.qmd
-      - IFI.qmd
+    
 format: 
   html:
     theme: journal

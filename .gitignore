@@ -5,3 +5,5 @@
 /.quarto/
 Diarrheapage.qmd
 Malaria.qmd
+
+**/*.quarto_ipynb
