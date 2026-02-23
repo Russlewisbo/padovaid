@@ -1,0 +1,1954 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a67ac2868200dddf7a4f0e3ae403775c.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.16">
+
+  <title>Infectious Diarrheal Diseases</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-bb3ecf04dc7ce7d93ab248d38d9127f3.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="./images3/diarrhea.png" class="quarto-title-block center">
+  <h1 class="title">Infectious Diarrheal Diseases</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="infectious-diarrheal-diseases" class="slide level2" data-background-image="./images3/diarrhea.png">
+<h2>Infectious Diarrheal Diseases</h2>
+<p><br></p>
+<p><br></p>
+<p>Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 27 March 2023 <br> <br> <img data-src="800-unipd.svg" class="quarto-figure quarto-figure-left" width="300"></p>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><p>Identify the most common causes of infectious diarrhea in adult patients in resource-rich settings</p></li>
+<li class="fragment"><p>Describe how the patient history and clinical presentation of diarrhea may favour viral versus bacterial causes that benefit from antibiotic therapy</p></li>
+<li class="fragment"><p>Recognize warning signs for severe diarrheal disease that require immediate hospitalization and/or antibiotic therapy</p></li>
+<li class="fragment"><p>Describe management approach and treatment of common infectious diarrheal pathogens</p></li>
+<li class="fragment"><p>We will not be discussing (in detail) diarrheal diseases in resource-poor countries. Information on these infections should be obtained from the <a href="https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease#:~:text=Diarrhoea%20should%20be%20treated%20with,diarrhoea%20duration%20and%20improves%20outcomes.">WHO guidelines</a></p></li>
+</ul>
+</section>
+<section id="background" class="slide level2 smaller" data-background-image="./images3/diarrhea2.png" data-background-opacity="0.5">
+<h2>Background</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Diarrheal disease is one of the top ten leading causes of death worldwide</li>
+<li class="fragment">Diarrheal disease is a particular concern for children younger than five years old in resource-limited settings</li>
+<li class="fragment">Among adults in resource-rich settings, diarrhea is often a “nuisance disease” in the healthy individual</li>
+<li class="fragment">Most cases of acute diarrhea in adults are of infectious etiology, and most cases resolve with symptomatic treatment alone</li>
+<li class="fragment">When clinicians care for adults with diarrhea, two important decision points are:
+<ul>
+<li class="fragment">When to perform stool testing</li>
+<li class="fragment">Whether to initiate empiric antimicrobial therapy</li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="gbd2016diarrhoealdiseasecollaborators18 shane_etal17a">(<a href="#/references" role="doc-biblioref" onclick="">GBD 2016 Diarrhoeal Disease Collaborators, 2018</a>; <a href="#/references" role="doc-biblioref" onclick="">Shane et al., 2017</a>)</span></p>
+</div></aside></section>
+<section id="definitions" class="slide level2 smaller" data-background-image="./images3/diarrhea3.png" data-background-opacity="0.2">
+<h2>Definitions</h2>
+<p><br></p>
+<p><br></p>
+<ul>
+<li class="fragment">Diarrhea is defined as the passage of loose or watery stools, typically at least three times in a 24-hour period</li>
+<li class="fragment">Reflects increased water content of the stool, whether due to impaired water absorption and/or active water secretion by the bowel
+<ul>
+<li class="fragment">Acute – 14 days or fewer in duration</li>
+<li class="fragment">Persistent diarrhea – more than 14 but fewer than 30 days in duration</li>
+<li class="fragment">Chronic – more than 30 days in duration</li>
+</ul></li>
+<li class="fragment">Invasive diarrhea, <em>dysentery</em>- diarrhea with visible blood or mucous
+<ul>
+<li class="fragment">Dysentery is commonly associated with fever and abdominal pain</li>
+</ul></li>
+</ul>
+</section>
+<section id="general-etiology" class="slide level2" data-background-image="./images3/ecoli.png" data-background-opacity="0.2">
+<h2>General Etiology</h2>
+<p><br> <br></p>
+<ul>
+<li class="fragment">Most cases of acute diarrhea are due to infections and are self-limited</li>
+<li class="fragment">Most cases of acute infectious diarrhea are viral, as indicated by the observation that stool cultures are positive in only 1.5 to 5.6 % of cases</li>
+<li class="fragment">The major causes of acute infectious diarrhea include:
+<ul>
+<li class="fragment"><strong>Viruses</strong> (norovirus, rotavirus, adenoviruses, astrovirus, and others)</li>
+<li class="fragment"><strong>Bacteria</strong> (Salmonella, Campylobacter, Shigella, enterotoxigenic Escherichia coli, Clostridioides difficile, and others)</li>
+<li class="fragment"><strong>Protozoa</strong> (Cryptosporidium, Giardia, Cyclospora, Entamoeba, and others)</li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="dryden_etal96">(<a href="#/references" role="doc-biblioref" onclick="">Dryden et al., 1996</a>)</span></p>
+</div></aside></section>
+<section id="red-flag-symptoms--urgent-investigation" class="slide level2" data-background-image="./images3/redflag.png" data-background-opacity="0.4">
+<h2>Red flag symptoms- urgent investigation</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Peristent stool &gt; 1 week</li>
+<li class="fragment">Fever</li>
+<li class="fragment">Bloody diarrhea</li>
+<li class="fragment">Severe abdominal pain</li>
+<li class="fragment">Signs and symptoms of dehydration (tachycardia, hypotension, confusion, decreased urine output)</li>
+<li class="fragment">Weight loss</li>
+<li class="fragment">Recent hospital stay or antibiotic exposure</li>
+<li class="fragment">Pregnant</li>
+<li class="fragment">Over the age of 65 years</li>
+<li class="fragment">Diabetic, living with HIV, or immunocompromised</li>
+</ul>
+</section>
+<section id="norovirus-winter-vomiting-virus" class="slide level2">
+<h2>Norovirus “winter vomiting virus”</h2>
+<p><br></p>
+
+<img data-src="images3/norovirus.jpeg" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="Ahmed2014">(<a href="#/references" role="doc-biblioref" onclick="">Ahmed et al., 2014</a>)</span></p>
+</div>
+</section>
+<section id="norovirus" class="slide level2" data-background-image="./images3/norovirus.png" data-background-opacity="0.4">
+<h2>Norovirus</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Epidemiology</strong>
+<ul>
+<li class="fragment">Nonenveloped RNA virus from Caliciviradae family</li>
+<li class="fragment">Most common cause of gastroenteritis worldwide</li>
+<li class="fragment">Although antibody prevalence rises through childhood, re-infection is common as their is no lasting immunity due to re-infection with diversity of strains</li>
+</ul></li>
+<li class="fragment"><strong>Transmission</strong>
+<ul>
+<li class="fragment">Spread by fecal-oral route from person to person, aerosol in vomitus, contaminated food and water, fomite on surfaces (resists killing by alcohol or chlorine, temperatures up to 60°C)</li>
+<li class="fragment">Outbreaks are common</li>
+</ul></li>
+</ul>
+</section>
+<section id="norovirus-1" class="slide level2" data-background-image="./images3/norovirus.png" data-background-opacity="0.4">
+<h2>Norovirus</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Clinical manifestations</strong>:
+<ul>
+<li class="fragment">Vomiting</li>
+<li class="fragment">Watery diarrhea, non-bloody and non-bilious, 4-8 stools/ 24 hours period</li>
+<li class="fragment">Fever in 50% of cases</li>
+<li class="fragment">Malaise, headache</li>
+<li class="fragment">Abdominal pain</li>
+<li class="fragment">Patients at risk of dehydration</li>
+<li class="fragment">White blood cell count elevated or normal, lymphopenia common</li>
+<li class="fragment">Short duration of illness (48-72 hours) with complete recovery</li>
+</ul></li>
+<li class="fragment"><strong>Diagnosis</strong>:
+<ul>
+<li class="fragment">Diagnosed clinically although antigen detection (enzyme immunoassay) or PCR may be used in outbreak settings.</li>
+</ul></li>
+<li class="fragment"><strong>Treatment</strong>:
+<ul>
+<li class="fragment">Supportive care (hydration)</li>
+</ul></li>
+</ul>
+</section>
+<section id="rotavirus" class="slide level2">
+<h2>Rotavirus</h2>
+<ul>
+<li class="fragment">Mean duration of symptoms for 3-8 days</li>
+<li class="fragment">Occurs in children 6 months-2 years</li>
+<li class="fragment">Occasionally causes diarrhea in elderly</li>
+<li class="fragment">Vomiting less of a prominent feature vs.&nbsp;norovirus</li>
+</ul>
+
+<img data-src="images3/rotovirus.png" width="300" class="r-stretch quarto-figure-center"><p class="caption">Image: Centers for Disease Control</p></section>
+<section id="enterotoxigenic-escherichia-coli-etec" class="slide level2" data-background-image="./images3/ETEC.png" data-background-opacity="0.4">
+<h2>Enterotoxigenic <em>Escherichia coli</em> (ETEC)</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Cause of dehydrating diarrhea , especially in developing world (&lt; 2 years age) due to ability to survive in water and production of heat-stabile and heat-labile toxins</li>
+<li class="fragment">Causes watery diarrhea in returning travellers <strong>with nausea but no vomiting</strong> and symptoms lasting as long as 5 days</li>
+</ul>
+</section>
+<section id="enteropathogenic-e.-coli-epec" class="slide level2" data-background-image="./images3/EPEC.png" data-background-opacity="0.4">
+<h2>Enteropathogenic <em>E. coli</em> (EPEC)</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Diarrhea common in children &lt; 6 months in developing world</li>
+<li class="fragment">Sporadic outbreaks in adults</li>
+<li class="fragment">Severe diarrhea that can result in dehydration and malnutrition</li>
+</ul>
+</section>
+<section id="entero-hemorrhagic-e.-coli-ehec-or-shiga-toxin-producing-e.-coli-stec" class="slide level2" data-background-image="./images3/STEC.png" data-background-opacity="0.4">
+<h2>Entero-hemorrhagic <em>E. coli</em> (EHEC) <br> or Shiga toxin-producing <em>E. coli</em> (STEC)</h2>
+<ul>
+<li class="fragment"><p>Incubation of 1-4 days</p></li>
+<li class="fragment"><p>Main serotypes <em>E. coli</em> O157:H7 or <em>E. coli</em> O101:h4 (STEC)</p></li>
+<li class="fragment"><p>Often cause bloody diarrhea, abdominal tenderness <strong>with lack of fever</strong></p></li>
+<li class="fragment"><p>Occasional cause of pseudomembranous colitis (when negative for <em>C. difficile</em>)</p></li>
+<li class="fragment"><p>Increased white blood cell count</p></li>
+<li class="fragment"><p>Associated with outbreaks (contaminated food)</p></li>
+<li class="fragment"><p><strong>Can cause hemolytic uremia syndrome (5-10 days after diarrhea) 6-9% of EHEC infections affecting mostly children &lt; 10 years:</strong></p>
+<ul>
+<li class="fragment"><p>Renal failure</p></li>
+<li class="fragment"><p>Thrombocytopenia</p></li>
+<li class="fragment"><p>Thrombotic microangiopathic anemia (↓ PLT count, haptoglobin, RBC, ↑LDH, SeCr)</p></li>
+</ul></li>
+<li class="fragment"><p>Neurologic symptoms-motor deficits and seizure (4%)</p></li>
+</ul>
+</section>
+<section id="schistocytes-seen-in-peripheral-blood-with-hus" class="slide level2">
+<h2>Schistocytes seen in peripheral blood with <br>HUS</h2>
+
+<img data-src="images3/schistocytes.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="hus-long-term-sequelae" class="slide level2" data-background-image="./images3/STEC.png" data-background-opacity="0.4">
+<h2>HUS long-term sequelae</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Renal failure and hypertension (39%)</li>
+</ul>
+</section>
+<section id="italy-e.-coli-0157h7" class="slide level2">
+<h2>Italy: E. coli 0157:H7</h2>
+<p><br></p>
+
+<img data-src="images3/Italy_HUS.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="how-can-e.-coli-o157-infection-be-detected" class="slide level2">
+<h2>How can <em>E. coli</em> O157 infection be detected?</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Culture on sorbitol MacConkey (SMAC) agar with first 6 days of bloody diarrhea
+<ul>
+<li class="fragment"><em>E. coli</em> O157 cannot ferment lactose, but can ferment sorbitol</li>
+</ul></li>
+<li class="fragment">Toxin detection (Shiga toxin, EIA in stool)</li>
+</ul>
+
+<img data-src="images3/sorbitol.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="why-is-it-important-to-identify-e.-coli-0157-ehec" class="slide level2">
+<h2>Why is it important to identify <em>E. coli</em> 0157 (EHEC)?</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Tracing an outbreak (i.e.&nbsp;contaminated produce)</li>
+<li class="fragment"><strong>Antibiotic therapy increases the risk of HUS in EHEC by 25% and should be avoided, especially in young children</strong></li>
+<li class="fragment">Treatment with supportive measures and avoidance of anti-motility agents (e.g., loperamide) to reduce the risk of complications</li>
+</ul>
+</section>
+<section id="other-e.-coli--enteroinvasive-eiec-and-enteroaggregative-eaggec" class="slide level2">
+<h2>Other <em>E. coli</em>- Enteroinvasive (EIEC) and Enteroaggregative (EaggEC)</h2>
+<p><br></p>
+<ul>
+<li class="fragment">EIEC relatively rare, closely related to <em>Shigella</em>
+<ul>
+<li class="fragment">Often watery diarrhea- rarely progresses to bloody diarrhea</li>
+</ul></li>
+<li class="fragment">EaggEC
+<ul>
+<li class="fragment">Affects the immunocompromised</li>
+<li class="fragment">Cause of persistent diarrhea in patients with HIV</li>
+<li class="fragment">Affects young children more frequently</li>
+<li class="fragment">Can often be eradicated with antibiotics</li>
+</ul></li>
+</ul>
+</section>
+<section id="campylobacter" class="slide level2" data-background-image="./images3/campy.png" data-background-opacity="0.4">
+<h2>Campylobacter</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Gram-negative that belongs to the Enterobacterales (previously known as a <em>Vibrio-</em>type organism associated with abortion in cattle and sheep)</li>
+<li class="fragment">Seen worldwide and a leading cause of gastroenteritis, including in the Arctic and temperate areas</li>
+<li class="fragment"><em>Campylobacter jejuni</em> most common species</li>
+</ul>
+</section>
+<section id="campylobacter-transmission" class="slide level2" data-background-image="./images3/pettingzoo.png" data-background-opacity="0.4">
+<h2>Campylobacter transmission</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Common commensal in GI tract of wild and domestic animals, <strong>poultry</strong> and birds
+<ul>
+<li class="fragment">Food handlers: good hand hygiene essential; meat should be cooked to high temperatures (82°C, 180°F).</li>
+<li class="fragment">Don’t drink unpasteurized milk</li>
+<li class="fragment">Infection can occur from eating undercooked meat</li>
+</ul></li>
+<li class="fragment"><em>Campylobacter</em> survive in freshwater (including at temps below (15°C) → infection from swimming or drinking contaminated water</li>
+<li class="fragment">Direct transmission from infected animals, pets, carcasses- handwashing should be encouraged especially for vulnerable adults or children visiting farms or petting zoos</li>
+<li class="fragment">Person-to-person transmission (nursery staff working with infected children)</li>
+<li class="fragment">Sexual transmission</li>
+<li class="fragment">Increased infection risk in patients with increased gastric acidity (achlorhydria or proton pump inhibitor use)</li>
+</ul>
+</section>
+<section id="clinical-features-of-campylobacter-infection" class="slide level2 smaller">
+<h2>Clinical features of Campylobacter infection</h2>
+<p><br></p>
+<ul>
+<li>Mean incubation 3 days (range 1-7)</li>
+<li><em>Campylobacter</em> can affect either large or small bowel, hence causes both watery and bloody diarrhea</li>
+<li>Classic prodrome: Fevers, rigours, dizziness in 1/3 of patients prior to GI symptoms → increased severity of disease</li>
+<li>Abdominal pain:
+<ul>
+<li><p>Abrupt, sever, cramping, colicky, periumbilical- not always accompanied by diarrhea</p></li>
+<li><p>Radiates to right iliac fossa in time, mimicking appendicitis and may persist after diarrhea settles</p></li>
+<li><p>Nausea and vomiting (15-25% of patients)</p></li>
+<li><p>Bacteremia (0.1-1%), especially immunocompromised, hypogammaglobulinemic</p></li>
+</ul></li>
+</ul>
+
+<img data-src="images3/abdominalpainmap.png" class="quarto-figure quarto-figure-center r-stretch" width="600"></section>
+<section id="campylobacter-complications" class="slide level2" data-background-image="./images3/campy.png" data-background-opacity="0.4">
+<h2>Campylobacter complications</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong><em>Guillian-Barré</em></strong> <strong>disease</strong>
+<ul>
+<li class="fragment">Acute, immune-related polyneuropathy that occurs 1-2 weeks after infections</li>
+<li class="fragment">Linked to <em>Campylobacter</em> infection in 3-40% of cases, alterative variate Miller-Fischer
+<ul>
+<li class="fragment">100-fold higher incidence vs.&nbsp;population following <em>C. jejuni</em> infection</li>
+<li class="fragment">Mechanism: Antibody formation that cross-reacts with GM1 ganglioside present in peripheral nerve myelin</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><strong>Reactive arthritis</strong>
+<ul>
+<li class="fragment">Seen in 2.6% of patients, not related to severity of illness</li>
+<li class="fragment">Linked to HLAB27</li>
+<li class="fragment">Onset 1-2 weeks after infection, affecting joints, wrist, knees, ankles</li>
+<li class="fragment">May last for several weeks to months</li>
+<li class="fragment">Typically resolves, treated with non-steroidal anti-inflammatory agents (NSAIDS)</li>
+</ul></li>
+</ul>
+</section>
+<section id="campylobacter-diagnosis" class="slide level2">
+<h2>Campylobacter diagnosis</h2>
+
+<img data-src="images3/campystool.png" width="600" class="r-stretch quarto-figure-center"><p class="caption">Stool culture Gram stain</p><p><br></p>
+</section>
+<section id="campylobacter-infections-treatment" class="slide level2">
+<h2>Campylobacter infections: Treatment</h2>
+<ul>
+<li class="fragment">Generally self-limiting, antimicrobial resistance a problem (e.g., fluoroquinolone resistance in SE Asia)</li>
+<li class="fragment">Antibiotic treatment has been shown to reduce symptoms duration by 1 day, but is indicated when patient is:
+<ul>
+<li class="fragment">Immunocompromised or pregnant</li>
+<li class="fragment">Has severe disease with fever, bloody diarrhea, symptoms &gt; 1 week, relapsing symptoms, or extraintestinal disease</li>
+</ul></li>
+<li class="fragment">General approach: ciprofloxacin/levofloxacin or azithromycin x 3 days or until sings and symptoms have improved
+<ul>
+<li class="fragment">7-14 days therapy recommended in immunocompromised</li>
+</ul></li>
+<li class="fragment">In severe infections with bacteremia or patients unable to tolerate oral medication: carbapenem + aminoglycoside</li>
+</ul>
+</section>
+<section id="salmonella" class="slide level2" data-background-image="./images3/salmonella.png" data-background-opacity="0.4">
+<h2>Salmonella</h2>
+<ul>
+<li class="fragment">Motile Gram-negative bacteria that belong to the Enterobacterales</li>
+<li class="fragment">Can cause:
+<ul>
+<li class="fragment">Gastroenteritis with non-typhoidal <em>Salmonella</em> spp.</li>
+<li class="fragment">Enteric fever (<em>Salmonella typhi</em> and <em>Salmonella paratyphi</em>)</li>
+<li class="fragment">Bacteremia and endovascular infections</li>
+<li class="fragment">Osteomyelitis and deep-seated metastatic abscess</li>
+<li class="fragment">Asymptomatic carriage</li>
+</ul></li>
+</ul>
+</section>
+<section id="salmonella-epidemiology" class="slide level2" data-background-image="./images3/salmonella.png" data-background-opacity="0.4">
+<h2>Salmonella epidemiology</h2>
+<ul>
+<li class="fragment">Non-typhoidal <em>Salmonella</em> causes inflammatory diarrhea worldwide</li>
+<li class="fragment"><em>Salmonella</em> <em>enteritidis</em> and <em>Salmonella typhimurium</em> are the most common causes of diarrhea</li>
+<li class="fragment">Highest incidence: Asia (4 per 100 cases); second to norovirus in other developed countries</li>
+<li class="fragment">Seasonal variation with peaks of infection in summer and autumn</li>
+</ul>
+</section>
+<section id="salmonella-transmission" class="slide level2" data-background-image="./images3/salmonella.png" data-background-opacity="0.4">
+<h2>Salmonella transmission</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Feco-oral route; ingestion of poultry, eggs, and meat products including fresh produce</li>
+<li class="fragment">Transovarial transmission can occur from infected henst to intreact egg shells, subsequently resulting in infection</li>
+<li class="fragment">Contaminated infant milk</li>
+<li class="fragment">Contact with animals colonized with <em>Salmonella</em> spp. (snakes, iguana, lizards, frogs, <strong>turtles in particular</strong>) also mice, rats , hamsters, cats, dogs, chickens, ducklings</li>
+<li class="fragment">Petting farms and zoos</li>
+<li class="fragment">Travel oversees and poor food and water hygiene</li>
+</ul>
+</section>
+<section id="clinical-features" class="slide level2" data-background-image="./images3/salmonella2.png" data-background-opacity="0.4">
+<h2>Clinical features</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Incubation period of 8-72 hours following ingestion of contained water/food (inoculum dependent</li>
+<li class="fragment">Severity of symptoms related to bacterial dose- mild symptoms and asymptomatic carriage can occur</li>
+<li class="fragment">Diarrhea with abdominal pain that resolves in 4-7 days, nausa, voming and fever generally resolve in &lt; 72 hours</li>
+<li class="fragment">Bloody stools in children</li>
+<li class="fragment">Less than 5% of non-typhoidal <em>Salmonella</em> develop bactermeia
+<ul>
+<li class="fragment">However, when bacteremia develops: mycotic aneurysms, abscess, osteomyelitis, infective endocarditis, endovascular infection</li>
+</ul></li>
+<li class="fragment">Patients with achlorhydria, inflammatory bowel disease, sickly cell disease are susceptible to more severe infection</li>
+</ul>
+</section>
+<section id="antibiotic-treatment" class="slide level2" data-background-image="./images3/antibiotic1.png" data-background-opacity="0.4">
+<h2>Antibiotic treatment</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Guided by antimicrobial sensitivity when possible</strong>
+<ul>
+<li class="fragment">Preferred agents: fluoroquinolones (ciprofloxacin, levofloxacin) but resistance increasing</li>
+<li class="fragment">Alternatives: ceftriaxone, azithromycin, trimethoprim-sulfamethoxazone</li>
+</ul></li>
+<li class="fragment"><strong>Treatment duration:</strong>
+<ul>
+<li class="fragment">3-7 days with severe GI disease but no bacteremia</li>
+<li class="fragment">3-14 days if at risk for endovascular infections or joint complications; or older patient</li>
+</ul></li>
+<li class="fragment">Immunosuppressed patients have problems clearing <em>Salmonella</em> because it persists in reticuloendothelial cell system (RES)- prolonged treatment is required and patients are at higher risk for metastatic infections
+<ul>
+<li class="fragment">14 days minimum to prevent infection relapsing or persisting</li>
+<li class="fragment">Patients with HIV with gastroenteritis may require 2-6 weeks of therapy</li>
+</ul></li>
+</ul>
+</section>
+<section id="asymptomatic-carriage" class="slide level2" data-background-image="./images3/poop.png" data-background-opacity="0.4">
+<h2>Asymptomatic carriage</h2>
+<ul>
+<li class="fragment">Compared to other serotypes, <em>Salmonella typhimurium</em> is cleared quickly (less carriage)</li>
+<li class="fragment">Following symptomatic infection, excretion can continue fora prolonged period-5 weeks</li>
+<li class="fragment">Shedding can be intermittent, hence several cultures are required to detect carriage</li>
+<li class="fragment">Previous short course antibiotic therapy does not reduce carriage, and may <strong>prolong shedding</strong></li>
+<li class="fragment">Chronic carrier states
+<ul>
+<li class="fragment">Continued shedding for over 1 year (0.6-2%)
+<ul>
+<li class="fragment">More common in women, older adults, young children, biliary tract abnormalities (e.g., gallstones)- may require cholecystectomy</li>
+<li class="fragment">Can attempt prolonged antibiotic therapy for clearance:
+<ul>
+<li class="fragment">Quinolones 4-6 weeks, <em>or</em> amoxicillin or ampicillin 6 weeks <em>or</em> trimethoprim-sulfamethoxazole for 3 months</li>
+<li class="fragment">Follow-up cultures after 6 months performed to confirm eradication</li>
+</ul></li>
+</ul></li>
+<li class="fragment">Local health policies have specific rules about return to work (food handlers, healthcare workers)</li>
+</ul></li>
+</ul>
+</section>
+<section id="enteric-fever-or-typhoid-salmonella-enterica-serotype-typhi" class="slide level2" data-background-image="./images3/typhoidincidence.png" data-background-opacity="0.4">
+<h2>Enteric fever or typhoid <br>(<em>Salmonella enterica</em> serotype typhi)</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Humans the only know reservoir for infection</li>
+<li class="fragment">Transmission through fecal-oral route, through direct contact with infected individual or indirect contact through food or water
+<ul>
+<li class="fragment">Common in impoverished areas of the world</li>
+<li class="fragment">Highest rates in South-East Asia and East Africa</li>
+</ul></li>
+<li class="fragment">Afflicts young children and Elderly</li>
+<li class="fragment"><strong>Often seen in returning travellers from Endemic areas- risk of antibiotic resistance</strong></li>
+<li class="fragment">1-6% have chronic carriage with shedding in urine and stool for &gt; 12 months after infection (esp.&nbsp;biliary tree infection with stones)</li>
+</ul>
+</section>
+<section id="clinical-features-of-enteric-fever-1" class="slide level2">
+<h2>Clinical features of enteric fever-1</h2>
+<ul>
+<li class="fragment"><p><strong>Stepwise over a series of weeks:</strong></p>
+<ul>
+<li class="fragment"><strong>Week 1:</strong> Fevers &gt; 40°C with bacteremia, chills, rigours, bradycardia with pulse temperature association (see FUO lecture)
+<ul>
+<li class="fragment">Patients may initially present with constipation, whereas diarrhea is more common in children and patients living with HIV</li>
+</ul></li>
+<li class="fragment"><strong>Week 2:</strong> Abdominal pain, “rose spots”</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images3/rosepots.png" width="600"></p>
+<figcaption>Spec et al.&nbsp;Comprehensive Review of Infectious Diseases</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="clinical-features-of-enteric-fever-2" class="slide level2" data-background-image="./images3/typhoidfevercurve.png" data-background-opacity="0.2">
+<h2>Clinical features of enteric fever-2</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Week 3:</strong> Abdominal perforation secondary to necrosis and lymphatic hyperplasia of Peye’s patches (uncommon in children &lt; 5 years), hepatosplenomegaly, intestinal bleeding and secondary bacteremia → septic shock
+<ul>
+<li class="fragment">Extraintestinal manifestations: headache 44-94% “typhoid encephalopathy”, altered sleep patterns, myelitis, acute psychosis, signs of upper neuron disease, ataxia, parkinsonism (but meningitis is rare)</li>
+<li class="fragment">Bacteremia can seen cardiovascular, hepatobiliary, respiratory, genitourinary nad musculoskeletal system</li>
+<li class="fragment">Laboratory findings: leukopenia with anemia, but leukeocytosis seen in children or with intestinal perforation</li>
+</ul></li>
+<li class="fragment">Most patients resolve the infection in weeks to months without antibiotic therapy (cause of FUO) although death can occur with abdominal perforation</li>
+</ul>
+</section>
+<section id="how-to-establish-typhoid-fever-diagnosis" class="slide level2" data-background-image="./images3/typhoidfevercurve.png" data-background-opacity="0.2">
+<h2>How to establish typhoid fever diagnosis?</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Blood and stool cultures (blood positive in 40-80%; stool 30-40%)</li>
+<li class="fragment">Bone marrow &gt; 90% recovery- considered for complicated cases or if unresponsive to treatment (will remain positive at least 5 days after antibiotic treatment)</li>
+<li class="fragment">Serology (anti-S. typhi antibiotics ) less frequently used</li>
+</ul>
+</section>
+<section id="typhoid-fever-treatment" class="slide level2" data-background-image="./images3/antibiotic1.png" data-background-opacity="0.4">
+<h2>Typhoid fever treatment</h2>
+<ul>
+<li class="fragment">Fluorquinolone and 3rd generation cephalosporin resistance increasing in SE Asia</li>
+<li class="fragment">However, most strains still susceptible to 3rd generation cephalosporins and azithromycin, treatment of 10-14 days required
+<ul>
+<li class="fragment">if no resistance suscepted, ciprofloxacin, which is bactericidal and concentrates intracellularly and in the bile will results in more rapid intraceiilar clearnace than beta-lactams</li>
+<li class="fragment">Alternatives azithromycin (5 days), ampicillin, tremimethoprim-sulfamathoxazole</li>
+</ul></li>
+<li class="fragment">In uncomplicated cases, patients will defervesce in 4-6 days</li>
+<li class="fragment">Relapse usually occurs after 2-3 weeks following fever resolution (depending on antibiotics) and requires further antibiotic treatment</li>
+</ul>
+</section>
+<section id="shigella" class="slide level2" data-background-image="./images3/shigella.png" data-background-opacity="0.3">
+<h2>Shigella</h2>
+<ul>
+<li class="fragment">Nonmotile Gram-negative facultative anaerobic bacteria belonging to Enterobacterales
+<ul>
+<li class="fragment"><em>S. dysenteriae</em> (Serogroup A)</li>
+<li class="fragment"><em>S. flexneri</em> (Serogroup B)</li>
+<li class="fragment"><em>S. boydii</em> <em>(</em>Serogroup C)</li>
+<li class="fragment"><em>S. sonnei</em> (Serogroup D)</li>
+</ul></li>
+<li class="fragment">3rd most common cause of gastroenteritis after <em>Salmonella</em> and <em>Campylobacter</em></li>
+<li class="fragment">Humans are the only known host and reservoir (spread from infected food water-fecal-oral)</li>
+<li class="fragment">Sexual transmission (anal intercourse) and epidemiologically linked to azithromycin resistance</li>
+</ul>
+</section>
+<section id="clinical-features-of-shigella-infections" class="slide level2">
+<h2>Clinical features of Shigella infections</h2>
+<ul>
+<li class="fragment">Invade the colon mucosa cells causing abscess formation and ulceration</li>
+<li class="fragment">Spread from cell to cell and produce enterotoxcins (plasmid-encoded ShET2), chromosomally-encoded ShET (S. flexneri) and shiga toxicn (Stx) (<em>S. dysenteriae)</em>
+<ul>
+<li class="fragment"><p>Toxins result in loss of water and solutes</p></li>
+<li class="fragment"><p>Cause HUS similar to E.Coli 0157 (Stx toxin)- 8% of children</p>
+<p><img data-src="images3/shigellaulcer.png" width="300"></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="diagnosis-and-treatment-of-shigella-infections" class="slide level2 smaller">
+<h2>Diagnosis and treatment of Shigella infections</h2>
+<ul>
+<li class="fragment">Best culture yield from mucous stool</li>
+<li class="fragment">White blood cells and red blood cells commonly seen by microbiology</li>
+<li class="fragment">PCR testing of Shigella, but culture important for susceptibility testing
+<ul>
+<li class="fragment">Asia and Africa: 20-30% resistance; TMP/SMX 65-85%</li>
+<li class="fragment">Antibiotic decrease duration of shedding and symptoms by 2 days</li>
+</ul></li>
+<li class="fragment">Most infections are self limiting, but antibiotics are considerd for:
+<ul>
+<li class="fragment">Immunocompromised, including patients living with HIV</li>
+<li class="fragment">Bacteremia or extraintestinal disease</li>
+<li class="fragment">Patients at risk transmitting to others (Food handlers, residential home workers, nursery staff)</li>
+</ul></li>
+<li class="fragment">Drug of choice (no resistance concerns): fluoroquinolone; or ceftriaxone pending susceptibilities</li>
+</ul>
+</section>
+<section id="yersina" class="slide level2" data-background-image="./images3/pigs.png" data-background-opacity="0.4">
+<h2>Yersina</h2>
+<ul>
+<li class="fragment"><p>Yersiniosis, causes by <em>Yersinia entercolitica</em> or <em>Yersinia pseudotuberculosis</em> is a zoonotic infection</p></li>
+<li class="fragment"><p>Associated with unpasteurized milk, undercooked meat (especially pork), water contaminated with feces- pigs are common source of infection</p></li>
+<li class="fragment"><p>After ingestion, organism proliferates in lymphoid tissue of small intestine where it may cause hyperemia, neutrophil infiltration and ulceration</p></li>
+<li class="fragment"><p>Patients may present with pharyngitis (20%)- not seen with other causes of gastroenteritis</p>
+<ul>
+<li class="fragment">Throat cultures may be positive</li>
+</ul></li>
+</ul>
+</section>
+<section id="yersina-presentation" class="slide level2" data-background-image="./images3/pigs.png" data-background-opacity="0.4">
+<h2>Yersina presentation</h2>
+<ul>
+<li class="fragment">Incubation period 1-14 days</li>
+<li class="fragment">Localization of pain to right lower quandrant may be a diagnostic clue</li>
+<li class="fragment">Hematogenous spread can lead to abscess infmation in the liver, spleen, mesenteric adenitis, terminal ileitis, pseudoappendicitis</li>
+<li class="fragment">Post-infectious immunologic sequale (reactive arthritis, erythyma nodosum)</li>
+<li class="fragment">No established data that antibiotic treatment is beneficial for uncomplicated disease, fluroquinolones may be given- IV ceftriaxone or cprofloxacin in septic patients</li>
+</ul>
+</section>
+<section id="vibrio" class="slide level2" data-background-image="./images3/vibrio.png" data-background-opacity="0.4">
+<h2>Vibrio</h2>
+<ul>
+<li class="fragment">Natural inhabitants of brackish and salt water worldwide</li>
+<li class="fragment">Diarrhea causing species are:
+<ul>
+<li class="fragment"><em>Vibrio cholerae</em> (causative agent of cholera)
+<ul>
+<li class="fragment">Epidemic: <em>V. cholerae</em> O1 (clasical and El Tor)
+<ul>
+<li class="fragment">New Serogroup 0139 Bengal merged from Southern India</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><em>Vibrio parahaemalyticus</em></li>
+<li class="fragment"><em>Vibrio vulnificus</em> (can cause diarrhea, but isolated from blood and tissues of patients with liver disease</li>
+<li class="fragment">Vibrio</li>
+<li class="fragment"></li>
+</ul></li>
+</ul>
+</section>
+<section id="vibrio-transmission" class="slide level2" data-background-image="./images3/vibrio.png" data-background-opacity="0.4">
+<h2>Vibrio transmission</h2>
+<ul>
+<li class="fragment">feco-oral</li>
+<li class="fragment">Cholera outbreaks are most often associated with contaminated water and contaminated food, particuliarly undercooked or raw seafood</li>
+<li class="fragment"><em>V. cholerae</em> O1 and O139 are producers of cholera toxin (CT)</li>
+</ul>
+</section>
+<section id="john-snow-london" class="slide level2">
+<h2>John Snow, London</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images3/snowmap.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images3/snow.png"></p>
+</div></div>
+</section>
+<section id="vibrio-clinical-features" class="slide level2">
+<h2>Vibrio clinical features</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Profuse, watery diarrhea “rice water stool”</li>
+<li class="fragment">Mucous, but no blood present</li>
+<li class="fragment">Incubation: A few hours to a few days</li>
+<li class="fragment">Significant hypovolemia and electrolyte abnormalities can occur within a few hours of symptom onset</li>
+<li class="fragment">Abdominal discomfort, borborygmi, and vomiting are common</li>
+</ul>
+</section>
+<section id="vibrio-treatment" class="slide level2" data-background-image="./images3/antiobiotcsq.png" data-background-opacity="0.4">
+<h2>Vibrio treatment</h2>
+<ul>
+<li class="fragment">Antibiotics shorten the duration of diarrhea, reduce the volume of stool losses, and decrease the duration of <em>V. cholera</em> shedding</li>
+<li class="fragment">Treatment options include macrolides, fluoroquinolones, tetracyclines based on local resistance profile</li>
+</ul>
+</section>
+<section id="vibrio-vulficans" class="slide level2" data-background-image="./images3/shellfish2.png" data-background-opacity="0.4">
+<h2>Vibrio vulficans</h2>
+<ul>
+<li class="fragment">Ingestion of shellfish may give rise to cellulitis and bullous lesions (especially in cirrhotic patients)</li>
+<li class="fragment">Especially in water temperatures above 20°C (only eat raw oysters in months that end with “R”)</li>
+<li class="fragment">Infection can progress to invasive disease with bacteremia and systemic disease in immunosuppressed, those with cirrhotic disease or hemochromatosis</li>
+<li class="fragment">High mortality rate with septicemia- exceeds 90% if patients present with hypotension</li>
+<li class="fragment">Patients require immediate antibiotic therapy (tetracycline + 3rd generation cephalosporin) and transfer to the ICU - Fluroquinolone monotherapy alternative</li>
+</ul>
+
+<img data-src="images3/bullous.png" class="quarto-figure quarto-figure-center r-stretch" width="600"></section>
+<section id="clostridioides-formally-clostridium-difficile" class="slide level2" data-background-image="./images3/cdiff.png" data-background-opacity="0.3">
+<h2>Clostridioides (formally Clostridium) difficile</h2>
+<ul>
+<li class="fragment">Will be discussed separate lecture in greater detail</li>
+<li class="fragment">Gram-positive anaerobic bacillus that is spore forming and able to produce toxin</li>
+<li class="fragment"><em>C. difficile</em> causes an antibiotic-associated inflammatory colitis and in the commonest cause of healthcare-associated diarrhea</li>
+<li class="fragment">Infection requires spores to be acquired and for gut microbiota to be disrupted, usually through preceding antibiotic therapy</li>
+<li class="fragment">Toxin A causes inflammation with intestinal fluid secretin and dmage to mucosa</li>
+<li class="fragment">Toxin B, more potent than Toxin A, acts as a virulence factor</li>
+<li class="fragment">Diagnosis is established with 2-step process: glutamate dehydrogenase (GDH) and PCR testing or other NAAT for toxin</li>
+<li class="fragment">Treatment: Oral vancomycin or fidoxamine &gt; metronidazole</li>
+</ul>
+</section>
+<section id="others" class="slide level2">
+<h2>Others</h2>
+<ul>
+<li class="fragment">Aeromonas</li>
+<li class="fragment">Plesiomonas shigelloides</li>
+<li class="fragment">Listeria (1% but associated with outbreaks in summer-high risk foods, unpasteurized milk
+<ul>
+<li class="fragment">Can cause invasive disease in pregnant and immunocompromised</li>
+<li class="fragment">Oral amoxicillin or trimethoprim/SMX</li>
+</ul></li>
+</ul>
+</section>
+<section id="parasites" class="slide level2" data-background-image="./images3/giardia.png" data-background-opacity="0.4">
+<h2>Parasites</h2>
+<ul>
+<li class="fragment">Consider if diarrhea lasts &gt; 14 days</li>
+<li class="fragment">Giardia, Cyclospora, Cryptosporidium spp.</li>
+<li class="fragment">May be assocaited with community waterborne outbreaks</li>
+<li class="fragment">Diagnosed by stool culture and examination for ova, cysts and parasites
+<ul>
+<li class="fragment">Shed intermittently: May need 3 consecutive samples</li>
+</ul></li>
+</ul>
+</section>
+<section id="toxins" class="slide level2">
+<h2>Toxins</h2>
+<ul>
+<li class="fragment"><em>Clostridium perfringes</em> spores poorly cooked or stored meat
+<ul>
+<li class="fragment">Type A : cause of outbreaks- infection through poorly heated food and meat products (spores survive reheating)</li>
+<li class="fragment">Types B and D do not produce disease</li>
+<li class="fragment">Type C : Hemorrhagic necrosis of the jejunum (pigbel disease) following consumption of pork products. Trypsin inhibitors in sweet potatoes may inhibit breakdown of toxin and potentiates the disease</li>
+</ul></li>
+<li class="fragment"><em>Staphylococcus aureus</em> toxin</li>
+<li class="fragment"><em>Bacillus cereus</em> (rice) toxin</li>
+</ul>
+</section>
+<section id="scombroid" class="slide level2" data-background-image="./images3/fishmarket.png" data-background-opacity="0.4">
+<h2>Scombroid</h2>
+<ul>
+<li class="fragment">Food poisoning associated with seafood</li>
+<li class="fragment">Commonly misdiagnosed as allergy</li>
+<li class="fragment">Incorrect storage above 4°C, resulting in bacterial overgrowth and build up of toxic levels of histamine and other biogenic amines by the bacterial enzyme histidine decarboxylase found in dark fish meat
+<ul>
+<li class="fragment">Scombridae and Scoberesocidae: tuna (even open cans), mackerel, skip-jack, bonito, dolphin, tilapa, salmon, swordfish, trout, sardines</li>
+</ul></li>
+<li class="fragment">Histamine is not broken down by cooking, freezing
+<ul>
+<li class="fragment">Storing fish at 20°C for 2-3 hours is enough to result in poisoning</li>
+</ul></li>
+<li class="fragment">Bacteria reposnsible: E. coli, K. pneumoniae, halophilic Vibrio sp., Proteus, Clostridium and Salmonella, and Shigella</li>
+<li class="fragment">Fish appear to have honey-combed scales and taste “peppery”, “bubbly” or “spicy”</li>
+<li class="fragment">Raw milk contaminated before production of Swiss sheese results in siilar bacterial overgrowth and histamine build-up</li>
+</ul>
+</section>
+<section id="scombroid-rash" class="slide level2">
+<h2>Scombroid rash</h2>
+
+<img data-src="images3/scombroid.jpeg" class="r-stretch quarto-figure-center"><p class="caption">Spec et al.&nbsp;Comprehensive review of infectious diseases</p></section>
+<section id="ciguatera" class="slide level2">
+<h2>Ciguatera</h2>
+<ul>
+<li class="fragment">Foodborne illness caused by consumption of reef fish (barracuda, amberjack, moray eel, some types of grouper, snapper, parrotfish) contaminated with multiple toxins, including ciguatera toxin, which arises from dinoflagellates</li>
+<li class="fragment">Toxins accumulate in flash and organs</li>
+<li class="fragment">Do not look, smell or taste different unlike scombroid poisoning</li>
+<li class="fragment">Presents with GI symptoms and neurologic signs without altered mental status</li>
+</ul>
+</section>
+<section id="management-summary" class="slide level2" data-background-image="./images3/diarrhea.png" data-background-opacity="0.4">
+<h2>Management summary</h2>
+</section>
+<section id="evaluation-of-acute-diarrhea-in-adults" class="slide level2 smaller">
+<h2>Evaluation of acute diarrhea in adults</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images3/algorithm.png" class="quarto-figure quarto-figure-center" width="800"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="riddle_etal16">(<a href="#/references" role="doc-biblioref" onclick="">Riddle et al., 2016</a>)</span></p>
+</div></aside></section>
+<section id="when-should-patient-be-evaluated-in-clinic" class="slide level2">
+<h2>When should patient be evaluated in clinic?</h2>
+</section>
+<section id="extraintestinal-manifestations" class="slide level2">
+<h2>Extraintestinal manifestations</h2>
+
+<img data-src="images3/extraintestine.jpeg" class="quarto-figure quarto-figure-center r-stretch"><p><br></p>
+<ul>
+<li class="fragment">Symptoms:
+<ul>
+<li class="fragment">Persistent fever</li>
+<li class="fragment">Bloody diarrhea</li>
+<li class="fragment">Severe abdominal pain</li>
+<li class="fragment">Symptoms of volume depletion (eg, dark or scant urine, symptoms of orthostasis)</li>
+<li class="fragment">History of inflammatory bowel disease</li>
+<li class="fragment">Hospitalization should be considered:</li>
+<li class="fragment">History of immunosuppression (e.g., treatment for malignancy, transplantation, HIV</li>
+<li class="fragment">Significant cardiovascular diseases</li>
+</ul></li>
+</ul>
+</section>
+<section id="causes-of-acute-infectious-diarrhea-in-adults-in-resource-rich-settings" class="slide level2 smaller">
+<h2>Causes of acute infectious diarrhea in adults in resource-rich settings</h2>
+<p><br> <br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 30%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Likely pathogens</th>
+<th>Mean incubation period</th>
+<th>Classic/ common food sources</th>
+<th>Other epidemiologic clues</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Watery diarrhea</strong></td>
+<td>Norovirus</td>
+<td>24 to 48 hours</td>
+<td>-Shellfish, prepared foods, vegetables, fruit</td>
+<td>Outbreaks in:<br> - Restaurants<br> - Health care facilities<br> - Schools and childcare centers<br> - Cruise ships<br> - Military populations</td>
+</tr>
+<tr class="even">
+<td><em>Clostridioides</em> (formerly <em>Clostridium difficile</em>)</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>Antibiotic use<br>- Hospitalization<br>- Cancer chemotherapy<br>- Gastric acid suppression<br>- Inflammatory bowel disease</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Clostridium perfringens</em></td>
+<td>8 to 16 hours</td>
+<td>Meat, poultry, gravy, home-canned goods</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Enterotoxigenic <em>Escherichia coli</em> (ETEC)</td>
+<td>1 to 3 days</td>
+<td>Fecally contaminated food or water</td>
+<td>-Travel to resource-limited settings</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Other enteric viruses (rotavirus, enteric adenovirus, astrovirus, sapovirus)</td>
+<td>10 to 72 hours</td>
+<td>Fecally contaminated food or water</td>
+<td>-Daycare centers<br> -Gastroenteritis in children<br> -Immunocompromised adults</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Giardia lamblia</em></td>
+<td>7 to 14 days</td>
+<td>Fecally contaminated food or water</td>
+<td>-Daycare centers<br> -Swimming pools<br> -Travel, hiking, camping (particularly when there is contact with water in which beavers reside)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Cryptosporidium parvum</em></td>
+<td>2 to 28 days</td>
+<td>Vegetables, fruit, unpasteurized milk</td>
+<td>-Daycare centers<br>-Swimming pools and recreational water sources<br>- Animal exposure<br> -Chronic diarrhea in advanced HIV infection</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Listeria monocytogenes</em></td>
+<td>1 day (gastroenteritis)</td>
+<td>Processed/delicatessen meats, hot dogs, soft cheese, pâtés, and fruit</td>
+<td>-Pregnancy<br>-Immunocompromising condition<br>-Extremes of age</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Cyclospora cayetanensis</em></td>
+<td>1 to 11 days</td>
+<td>Imported berries, herbs</td>
+<td>-Chronic diarrhea in advanced HIV infection</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Inflammatory diarrhea</strong> <br>(fever, mucoid or bloody stools)¶</td>
+<td>Nontyphoidal <em>Salmonella</em></td>
+<td>1 to 3 days</td>
+<td>-Poultry, eggs, and egg products, fresh produce, meat, fish, unpasteurized milk or juice, nut butters, spices</td>
+<td>-Animal contact (petting zoos, reptiles, live poultry, other pets)<br>-Travel to resource-limited settings</td>
+</tr>
+<tr class="odd">
+<td><em>Campylobacter</em> spp</td>
+<td>1 to 3 days</td>
+<td>Poultry, meat, unpasteurized milk</td>
+<td>-Travel to resource-limited settings<br> -Animal contact (young puppies or kittens, occupational contact)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Shigella</em> spp</td>
+<td>1 to 3 days</td>
+<td>Raw vegetables</td>
+<td>-Daycare centers<br> Crowded living conditions<br> -Men who have sex with men<br> -Travel to resource-limited settings</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Enterohemorrhagic <em>E. coli</em> (EHEC)</td>
+<td>1 to 8 days</td>
+<td>Ground beef and other meat, fresh produce, unpasteurized milk and juice</td>
+<td>-Daycare centers<br> -Nursing homes<br> -Extremes of age</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Yersinia</em> spp</td>
+<td>4 to 6 days</td>
+<td>Pork or pork products, untreated water</td>
+<td>-Abnormalities of iron-metabolism (eg, cirrhosis, hemochromatosis, thalassemia)<br> -Blood transfusion</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Vibrio parahemolyticus</em></td>
+<td>1 to 3 days</td>
+<td>Raw seafood and shellfish</td>
+<td>Cirrhosis</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Entamoeba histolytica</em></td>
+<td>1 to 3 weeks</td>
+<td>Fecally contaminated food or water</td>
+<td>Travel to resourcelimited settings<br> Men who have sex with men</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Clostridioides (formerly Clostridium) difficile can also present with inflammatory diarrhea.</p>
+<p>¶ Pathogens that are more classically associated with inflammatory diarrhea can also cause watery diarrhea, particularly early in the course of infection.</p>
+</section>
+<section id="patient-medical-history" class="slide level2" data-background-image="./images3/medical history.png" data-background-opacity="0.4">
+<h2>Patient Medical History</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images3/history.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="shane_etal17a">(<a href="#/references" role="doc-biblioref" onclick="">Shane et al., 2017</a>)</span></p>
+</div></aside></section>
+<section id="patient-medical-history-1" class="slide level2" data-background-image="./images3/medical history.png" data-background-opacity="0.4">
+<h2>Patient Medical History</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Duration of symptoms</li>
+<li class="fragment"><strong><em>Frequency and characteristics of stool</em></strong></li>
+<li class="fragment"><strong><em>Associated Symptoms</em></strong></li>
+<li class="fragment">Evidence of extracellular volume depletion (e.g., dark of scan urine, decreased skin turgor, orthostatic hypotension)</li>
+</ul>
+</section>
+<section id="small-bowel-vs.-colon" class="slide level2 smaller">
+<h2>Small Bowel vs.&nbsp;Colon</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Diarrhea of <em>small bowel</em> is typically:
+<ul>
+<li class="fragment">Watery</li>
+<li class="fragment">Large volume</li>
+<li class="fragment">Accompanied by abdominal cramping, bloating and gas</li>
+</ul></li>
+<li class="fragment">Diarrhea of <em>large intestine</em> is typically: - Frequent - Regular - Small volume - Painful - Bloody or mucoid stools (red blood and inflammatory cells seen in stool microscopy)</li>
+<li class="fragment">Caveat: Patients can have both small and large bowel involvement</li>
+</ul>
+</section>
+<section id="small-bowel-vs.-colon-1" class="slide level2 smaller">
+<h2>Small Bowel vs.&nbsp;Colon</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 44%">
+<col style="width: 52%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pathogen</th>
+<th>Small bowel</th>
+<th>Colon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bacteria</td>
+<td><em>Salmonella</em><br><em>Escherichia coli</em>¶<br><em>Clostridium perfringens</em><br><em>Staphylococcus aureus</em><br><em>Aeromonas hydrophila</em><br><em>Bacillus cereus</em><br><em>Vibrio cholerae</em></td>
+<td><em>Campylobacter</em><br><em>Shigella</em><br><em>Clostridioides difficile</em><br><em>Yersinia</em><br><em>Vibrio parahaemolyticus</em><br>Enteroinvasive E. coli<br><em>Plesiomonas shigelloides</em><br><em>Klebsiella oxytoca</em> (rare)</td>
+</tr>
+<tr class="even">
+<td>Virus</td>
+<td>Rotavirus<br>Norovirus<br>Astrovirus</td>
+<td>Cytomegalovirus*<br>Adenovirus<br>Herpes simplex virus</td>
+</tr>
+<tr class="odd">
+<td>Protozoa</td>
+<td>*Cryptosporidium <em>Microsporidium</em><br>_Cystoisospor*a_<br><em>Cyclospora</em><br><em>Giardia lamblia</em></td>
+<td><em>Entamoeba histolytica</em></td>
+</tr>
+</tbody>
+</table>
+<p>¶ EPEC, EAggEC, EHEC, ETEC may all contribute; routine laboratories and cultures will not differentiate these from E. coli which are normal flora</p>
+</section>
+<section id="inflammatory-signs-large-bowel-infection" class="slide level2" data-background-image="./images/thermometer.jpg" data-background-opacity="0.4">
+<h2>Inflammatory signs: large-bowel infection</h2>
+<p><br></p>
+<p>Fever, bloody or mucoid stools suggest invasive bacteria (eg, <em>Salmonella,</em> <em>Shigella</em>, or <em>Campylobacter</em>), enteric viruses (eg, cytomegalovirus [CMV] or adenovirus), <em>Entamoeba histolytica</em>, or <em>C. difficile</em>.</p>
+<ul>
+<li class="fragment">Bloody stools, think: Shiga toxin-producing <em>E. coli</em> (STEC) (eg, <em>E. coli</em> O157:H7) infection.
+<ul>
+<li class="fragment">Other bacterial causes of visibly bloody diarrhea are <em>Shigella</em>, <em>Campylobacter</em>, and <em>Salmonella</em> species.</li>
+<li class="fragment">Bloody diarrhea can also reflect noninfectious etiologies such as inflammatory bowel disease or ischemic colitis.</li>
+<li class="fragment">Syndromes that begin with diarrhea but progress to fever and systemic complaints, such as headache and muscle aches, should raise the possibility of :
+<ul>
+<li class="fragment">Typhoidal illness (particularly in travellers from resource-limited settings)</li>
+<li class="fragment"><em>Listeria monocytogenes</em> (particularly if a stiff neck is also present in pregnant patient)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="riddle_etal16">(<a href="#/references" role="doc-biblioref" onclick="">Riddle et al., 2016</a>)</span></p>
+</div></aside></section>
+<section id="medical-history-exposures" class="slide level2" data-background-image="./images3/medical history.png" data-background-opacity="0.4">
+<h2>Medical History: Exposures</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Food history</li>
+<li class="fragment">Residence</li>
+<li class="fragment">Occupational exposure</li>
+<li class="fragment">Recent and remote travel</li>
+<li class="fragment">Pets</li>
+<li class="fragment">Hobbies</li>
+</ul>
+</section>
+<section id="food-history" class="slide level2" data-background-image="./images3/potatosalad.png" data-background-opacity="0.4">
+<h2>Food history</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Consumption of unpasteurized dairy products, raw or undercooked meat or fish, or organic vitamin preparations may suggest certain pathogens.</li>
+<li class="fragment">The timing of symptom onset following exposure to the suspected offending food can be an important clue to the diagnosis
+<ul>
+<li class="fragment"><strong>Within six hours</strong> – suggests ingestion of a preformed toxin of <em>Staphylococcus aureus</em> or <em>Bacillus cereus</em>, particularly if nausea and vomiting were the initial symptoms</li>
+<li class="fragment"><strong>At 8 to 16 hours</strong> – suggests infection with <em>Clostridium perfringens</em></li>
+<li class="fragment"><strong>More than 16 hours</strong> – suggests either viral or other bacterial infection (eg, contamination of food with enterotoxigenic or STEC or other pathogens)</li>
+</ul></li>
+</ul>
+</section>
+<section id="major-foodborne-microbes-by-the-principal-presenting-gastrointestinal-symptom" class="slide level2 smaller">
+<h2>Major foodborne microbes by the principal presenting gastrointestinal symptom</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 13%">
+<col style="width: 41%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major presenting symptom</th>
+<th>Likely microbes</th>
+<th>Incubation period</th>
+<th>Likely food sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Vomiting</td>
+<td><em>S. aureus</em></td>
+<td>1 to 6 hours</td>
+<td>Prepared food, eg, salads, dairy, meat</td>
+</tr>
+<tr class="even">
+<td><em>B. cereus</em></td>
+<td>1 to 6 hours</td>
+<td>Rice, meat</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Norwalk-like viruses</td>
+<td>24 to 48 hours</td>
+<td>Shellfish, prepared foods, salads, sandwiches, fruit</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Watery diarrhea</td>
+<td><em>C. perfringens</em></td>
+<td>8 to 16 hours</td>
+<td>Meat, poultry, gravy</td>
+</tr>
+<tr class="odd">
+<td>Enterotoxigenic <em>E. coli</em></td>
+<td>1 to 3 days</td>
+<td>Fecally contaminated food or water</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Enteric viruses</td>
+<td>10 to 72 hours</td>
+<td>Fecally contaminated food or water</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>C. parvum</em></td>
+<td>2 to 28 days</td>
+<td>Vegetables, fruit, unpasteurized milk, water</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>C. cayetanensis</em></td>
+<td>1 to 11 days</td>
+<td>Imported berries, basil</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Inflammatory diarrhea</td>
+<td><em>Campylobacter</em> spp</td>
+<td>2 to 5 days</td>
+<td>Poultry, unpasteurized milk, water</td>
+</tr>
+<tr class="even">
+<td>Nontyphoidal Salmonella</td>
+<td>1 to 3 days</td>
+<td>Eggs, poultry, meat, unpasteurized milk or juice, fresh produce</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Shiga toxin-producing <em>E. coli</em></td>
+<td>1 to 8 days</td>
+<td>Ground beef, unpasteurized milk and juice, raw vegetables, water</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Shigella</em> spp</td>
+<td>1 to 3 days</td>
+<td>Fecal contamination of food and water</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>V. parahemolyticus</em></td>
+<td>2 to 48 hours</td>
+<td>Raw shellfish</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Incubation period and likely food sources are shown for each.</p>
+<p>Modified from Centers for Disease Control and Prevention. Diagnosis and management of food borne illness, a primer for physicians. MMWR Recomm Rep April 16, 2004 / 53(RR04);1-33</p>
+</section>
+<section id="other-exposures" class="slide level2" data-background-image="./images3/pettingzoo.png" data-background-opacity="0.4">
+<h2>Other exposures</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Exposure to animals (poultry, turtles, petting zoos) has been associated with <em>Salmonella</em> infection.</li>
+<li class="fragment">Travel to a resource-limited setting increases the risk of bacterial diarrhea and also informs the risk of certain parasitic infections</li>
+<li class="fragment">Occupation in daycare centres has been associated with:
+<ul>
+<li class="fragment">infections with <em>Shigella</em>, <em>Cryptosporidium</em>, and <em>Giardia</em>.</li>
+<li class="fragment">Rotavirus is a potential consideration, but decreased with vaccination</li>
+</ul></li>
+</ul>
+</section>
+<section id="additional-medical-history" class="slide level2" data-background-image="./images3/medical history.png" data-background-opacity="0.4">
+<h2>Additional Medical history</h2>
+<p><br><br></p>
+<ul>
+<li class="fragment">Recent antibiotic use (as a clue to the presence of <em>C. difficile</em> infection)</li>
+<li class="fragment">Other medications (such as proton pump inhibitors, which can increase the risk of infectious diarrhea)</li>
+<li class="fragment">Predisposing conditions:
+<ul>
+<li class="fragment">Immunocompromised host or the possibility of nosocomial infection</li>
+<li class="fragment">Medical history informing the likelihood of various pathogens</li>
+<li class="fragment">Pregnancy increases the risk of listeriosis following consumption of contaminated meat products or unpasteurized dairy products approximately 20-fold</li>
+<li class="fragment">Cirrhosis has been associated with <em>Vibrio</em> infection</li>
+<li class="fragment">Hemochromatosis has been associated with Y<em>ersinia</em> infection</li>
+</ul></li>
+</ul>
+</section>
+<section id="physical-exam-1" class="slide level2">
+<h2>Physical exam-1</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Exam focus- volume status and identifying complications</strong>
+<ul>
+<li class="fragment">Volume depletion can be suggested by:
+<ul>
+<li class="fragment">dry mucous membranes</li>
+<li class="fragment">diminished skin turgor<br>
+</li>
+<li class="fragment">postural or frank reductions in blood pressure</li>
+<li class="fragment">altered sensorium</li>
+</ul></li>
+</ul></li>
+<li class="fragment">These signs can be mild or absent with early hypovolemia</li>
+</ul>
+</section>
+<section id="physical-exam-2" class="slide level2">
+<h2>Physical exam-2</h2>
+<ul>
+<li class="fragment"><p>Abdominal examination should focus on signs that suggest ileus or peritonitis</p>
+<ul>
+<li class="fragment">Abdominal distension</li>
+<li class="fragment">Pain with gentle percussion</li>
+<li class="fragment">Abdominal rigidity, or rebound tenderness</li>
+</ul></li>
+<li class="fragment"><p><img data-src="images3/abdominalpain.png">{width=“600” center}</p></li>
+</ul>
+</section>
+<section id="laboratory-exam" class="slide level2" data-background-image="./images3/bloodsample.jpeg" data-background-opacity="0.4">
+<h2>Laboratory exam</h2>
+<ul>
+<li class="fragment">Laboratory tests are not routinely warranted for most patients with acute diarrhea</li>
+<li class="fragment">If substantial volume depletion is present (suggested by signs or symptoms such as dark and concentrated urine), a basic metabolic panel should be performed to screen for hypokalemia or renal dysfunction</li>
+<li class="fragment">The complete blood count does not reliably distinguish bacterial etiologies of diarrhea from others but may be helpful in suggesting severe disease or potential complications
+<ul>
+<li class="fragment">A low platelet count may prompt concern for the development of the hemolytic-uremic syndrome</li>
+<li class="fragment">Leukemoid reaction is consistent with the diagnosis of <em>C. difficile</em> infection.</li>
+</ul></li>
+<li class="fragment">Blood cultures should be obtained in patients with high fevers or who appear systemically ill</li>
+</ul>
+</section>
+<section id="when-are-stool-cultures-considered" class="slide level2 smaller" data-background-image="./images3/stool-test.jpg" data-background-opacity="0.4">
+<h2>When are stool cultures considered?</h2>
+<p><br></p>
+<ul>
+<li><strong>Severe illness</strong>
+<ul>
+<li>Profuse watery diarrhea with signs of hypovolemia</li>
+<li>Passage of &gt; 6 unformed stools per 24 hours</li>
+<li>Severe abdominal pain</li>
+<li>Need for hospitalization</li>
+</ul></li>
+<li><strong>Other signs of symptoms concerning for inflammatory diarrhea</strong>
+<ul>
+<li>Bloody diarrhea</li>
+<li>Passage of many small stools containing blood and mucus</li>
+<li>Temperature &gt;38.5°</li>
+</ul></li>
+<li><strong>High-risk host features</strong>
+<ul>
+<li>Age ≥ 70 years</li>
+<li>Comorbidities such as cardiac disease (exacerbated by hypovolemia or complicating fluid replacement)</li>
+<li>Immunocompromised condition (including advanced HIV)</li>
+<li>Inflammatory bowel disease</li>
+<li>Pregnancy</li>
+<li>Symptoms persisting more than 1 week</li>
+</ul></li>
+<li><strong>Suspected public health issue</strong></li>
+</ul>
+<p>Goal: Identify a potential bacterial pathogen that would inform the potential for complications and treatment decisions</p>
+</section>
+<section id="stool-cultures" class="slide level2 smaller">
+<h2>Stool cultures</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><p>The optimal specimen for culture is a diarrheal stool specimen (conforms to container)o, which should be inoculated onto culture plates as quickly as possible.</p></li>
+<li class="fragment"><p>Routine stool culture will identify <em>Salmonella</em>, <em>Campylobacter</em>, and <em>Shigella</em></p></li>
+<li class="fragment"><p><em>E. coli</em> O157:H7 can be isolated on sorbitol-MacConkey plates or identified with antigen testing or polymerase chain reaction of stool</p></li>
+<li class="fragment"><p>A stool culture that is positive for one of these pathogens in a patient with acute diarrheal symptoms can be interpreted as a true positive.</p></li>
+<li class="fragment"><p>If a stool specimen cannot be obtained promptly, a rectal swab culture can be obtained to accelerate the diagnosis although some data suggest decreased sensitivity in adults</p></li>
+<li class="fragment"><p>May need to specify bacteria of interest</p>
+<ul>
+<li class="fragment">Campylobacter</li>
+<li class="fragment">Aeromonas, Yersina</li>
+<li class="fragment">Vibrio-requires selective media</li>
+</ul></li>
+<li class="fragment"><p>Bacterial pathogens are generally excreted continuously, in contrast to ova and parasites, which are often shed intermittently.</p></li>
+<li class="fragment"><p><strong>Thus, a negative culture is usually not a false negative, and repeat specimens are rarely required.</strong></p></li>
+</ul>
+</section>
+<section id="stool-testing-molecular-methods" class="slide level2">
+<h2>Stool testing: molecular methods</h2>
+<ul>
+<li class="fragment">Multipathogen molecular panels — Some laboratories have access to multiplex stool tests, with which molecular tests for a panel of many different pathogens (bacterial, viral, and parasitic) can be performed simultaneously on diarrheal stool samples and, in some cases, rectal swab</li>
+</ul>
+</section>
+<section id="treatment" class="slide level2">
+<h2>Treatment</h2>
+<ul>
+<li class="fragment">Antibiotic specific recommendations per pathogen.
+<ul>
+<li class="fragment">Fluroquinolones, azithromycin, ceftriaxones (amoxicillin), trimethoprim-sulfamethoxazole, doxycycline</li>
+</ul></li>
+<li class="fragment">Oral rehydration when possible vs.&nbsp;IV</li>
+</ul>
+</section>
+<section id="fluid-repletion" class="slide level2">
+<h2>Fluid repletion</h2>
+<p><br></p>
+<ul>
+<li class="fragment">The most critical therapy in diarrheal illness is rehydration, preferably by the oral route, with solutions that contain water, salt, and sugar</li>
+<li class="fragment">Diluted fruit juices and flavored soft drinks along with saltine crackers and broths or soups may meet the fluid and salt needs in patients with mild illness</li>
+<li class="fragment">The electrolyte concentrations of fluids used for sweat replacement (eg, Gatorade) are not equivalent to <a href="https://www.uptodate.com/contents/oral-rehydration-solutions-drug-information?search=infectious+diarrhea&amp;topicRef=2717&amp;source=see_link">oral rehydration solutions</a>, although they may be sufficient for the otherwise healthy patient with diarrhea who is not hypovolemic.</li>
+<li class="fragment"><a href="https://www.uptodate.com/contents/oral-rehydration-solutions-drug-information?search=infectious+diarrhea&amp;topicRef=2717&amp;source=see_link">Oral rehydration solutions</a> (ORS), including standard World Health Organization ORS or commercial ORS, such as Rehydralyte and Ceralyte, may be more appropriate in patients with more severe diarrheal disease. They should be used both to replete a volume depleted patient and also to maintain adequate volume status once replete.</li>
+</ul>
+</section>
+<section id="composition-of-oral-rehydration-solutions-orsc-and-commonly-used-beverages" class="slide level2">
+<h2>Composition of oral rehydration solutions (ORSC) and commonly used beverages</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 16%">
+<col style="width: 10%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Carbohydrate <br>(g/L)</th>
+<th>mEq/L</th>
+<th></th>
+<th></th>
+<th>Osmolarity <br>(mOSM/kg H2O)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sodium</td>
+<td>Potassium</td>
+<td>Base (HCO3–)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Oral rehydration solutions</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>CeraLyte</td>
+<td>40</td>
+<td>70</td>
+<td>20</td>
+<td>10</td>
+<td>235</td>
+</tr>
+<tr class="even">
+<td>Enfalyte</td>
+<td>30</td>
+<td>50</td>
+<td>25</td>
+<td>30</td>
+<td>200</td>
+</tr>
+<tr class="odd">
+<td>Pedialyte</td>
+<td>25</td>
+<td>45</td>
+<td>20</td>
+<td>30</td>
+<td>250</td>
+</tr>
+<tr class="even">
+<td>Rehydralyte</td>
+<td>25</td>
+<td>75</td>
+<td>20</td>
+<td>30</td>
+<td>310</td>
+</tr>
+<tr class="odd">
+<td>WHO (1975)</td>
+<td>20</td>
+<td>90</td>
+<td>30</td>
+<td>30</td>
+<td>310</td>
+</tr>
+<tr class="even">
+<td>WHO (2002)</td>
+<td>13.5</td>
+<td>75</td>
+<td>20</td>
+<td>30</td>
+<td>245</td>
+</tr>
+<tr class="odd">
+<td>Commonly Used Beverages (not appropriate for repletion therapy)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Apple juice</td>
+<td>100 to 150</td>
+<td>3</td>
+<td>20</td>
+<td>0</td>
+<td>700</td>
+</tr>
+<tr class="odd">
+<td>Chicken broth</td>
+<td>0</td>
+<td>250</td>
+<td>5</td>
+<td>0</td>
+<td>450</td>
+</tr>
+<tr class="even">
+<td>Colas</td>
+<td>100 to 150</td>
+<td>2</td>
+<td>0.1</td>
+<td>13</td>
+<td>550</td>
+</tr>
+<tr class="odd">
+<td>Gatorade</td>
+<td>45</td>
+<td>20</td>
+<td>3</td>
+<td>3</td>
+<td>330</td>
+</tr>
+<tr class="even">
+<td>Ginger Ale</td>
+<td>90</td>
+<td>3.5</td>
+<td>0.1</td>
+<td>3.6</td>
+<td>565</td>
+</tr>
+<tr class="odd">
+<td>Tea</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>ORSs were developed following the realization that, in many small bowel diarrheal illnesses, intestinal glucose absorption via sodium-glucose cotransport remains intact. Thus, in diarrheal disease caused by any organism that depends on small bowel secretory processes, the intestine remains able to absorb water if glucose and salt are also present to assist in the transport of water from the intestinal lumen</p>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<p><br></p>
+
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-Ahmed2014" class="csl-entry" role="listitem">
+Ahmed SM, Hall AJ, Robinson AE, Verhoef L, Premkumar P, Parashar UD, et al. Global prevalence of norovirus in cases of gastroenteritis: a systematic review and meta-analysis. The Lancet Infectious Diseases 2014;14:725–30. <a href="https://doi.org/10.1016/s1473-3099(14)70767-4">https://doi.org/10.1016/s1473-3099(14)70767-4</a>.
+</div>
+<div id="ref-dryden_etal96" class="csl-entry" role="listitem">
+Dryden MS, Gabb RJ, Wright SK. Empirical treatment of severe acute community-acquired gastroenteritis with ciprofloxacin. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 1996;22:1019–25. <a href="https://doi.org/10.1093/clinids/22.6.1019">https://doi.org/10.1093/clinids/22.6.1019</a>.
+</div>
+<div id="ref-gbd2016diarrhoealdiseasecollaborators18" class="csl-entry" role="listitem">
+GBD 2016 Diarrhoeal Disease Collaborators. Estimates of the global, regional, and national morbidity, mortality, and aetiologies of diarrhoea in 195 countries: A systematic analysis for the <span>Global Burden</span> of <span>Disease Study</span> 2016. The Lancet Infectious Diseases 2018;18:1211–28. <a href="https://doi.org/10.1016/S1473-3099(18)30362-1">https://doi.org/10.1016/S1473-3099(18)30362-1</a>.
+</div>
+<div id="ref-riddle_etal16" class="csl-entry" role="listitem">
+Riddle MS, DuPont HL, Connor BA. <span>ACG Clinical Guideline</span>: <span>Diagnosis</span>, <span>Treatment</span>, and <span>Prevention</span> of <span>Acute Diarrheal Infections</span> in <span>Adults</span>. The American Journal of Gastroenterology 2016;111:602–22. <a href="https://doi.org/10.1038/ajg.2016.126">https://doi.org/10.1038/ajg.2016.126</a>.
+</div>
+<div id="ref-shane_etal17a" class="csl-entry" role="listitem">
+Shane AL, Mody RK, Crump JA, Tarr PI, Steiner TS, Karen L. Kotloff, et al. 2017 <span>Infectious Diseases Society</span> of <span>America Clinical Practice Guidelines</span> for the <span>Diagnosis</span> and <span>Management</span> of <span>Infectious Diarrhea</span>. Clinical Infectious Diseases 2017;65:1963–73. <a href="https://doi.org/10.1093/cid/cix669">https://doi.org/10.1093/cid/cix669</a>.
+</div>
+</div>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'multiplex': {"secret":null,"id":"a4a0ff71ea640847","url":"https://reveal-multiplex.glitch.me/"},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
