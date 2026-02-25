@@ -8,7 +8,7 @@ editor: visual
 
 HTML version of lecture slides can be accessed [here](https://russlewisbo.github.io/pcnallergy/Lecture1.html#/penicillin-and-antibiotic-allergies)
 
-PDF version of lecture slides can be accessed [here](allergies_handout.pdf)
+PDF version of lecture slides can be accessed [here](allergies_.pdf)
 
 [Essential review on diagnosing and managing penicillin allergies](jama.pdf)
 

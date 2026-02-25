@@ -1,0 +1,2372 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="Principles_lecture_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Principles_lecture_files/libs/quarto-html/tabby.min.js"></script>
+<script src="Principles_lecture_files/libs/quarto-html/popper.min.js"></script>
+<script src="Principles_lecture_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="Principles_lecture_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Principles_lecture_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="Principles_lecture_files/libs/quarto-html/quarto-syntax-highlighting-a67ac2868200dddf7a4f0e3ae403775c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="Principles_lecture_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="Principles_lecture_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="Principles_lecture_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="Principles_lecture_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="Principles_lecture_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.16">
+
+  <title>principles_lecture</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Principles_lecture_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="Principles_lecture_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="Principles_lecture_files/libs/revealjs/dist/theme/quarto-0563d62cdbbc8706427edc095c1dc872.css">
+  <link href="Principles_lecture_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="Principles_lecture_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="Principles_lecture_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="Principles_lecture_files/libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="Principles_lecture_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="principles-of-antibiotic-therapy" class="slide level2" data-background-color="#9B0014">
+<h2>Principles of Antibiotic Therapy</h2>
+<p><br> <br></p>
+<center>
+<p>Prof.&nbsp;Russell Lewis <br> Department of Molecular Medicine <br> University of Padua</p>
+<p><br> <i class="fa-solid fa-envelope fa-1x" aria-label="envelope"></i> russelledward.lewis@unipd.it <br> <i class="fa-brands fa-github fa-1x" aria-label="github"></i> https://github.com/Russlewisbo</p>
+<p><br> slides available at: www.padovaid.com</p>
+</center>
+<table class="caption-top">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 51%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/dmmunipd_logo.jpeg" width="100"></td>
+<td><img data-src="images/unipd_seal_white.svg" width="100"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="antibiotics--the-medical-miracle" class="slide level2">
+<h2>Antibiotics- The Medical Miracle</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="resistance.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="resistance.jpg" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+</section>
+<section id="medicine-in-the-pre-antibiotic-era" class="slide level2">
+<h2>Medicine in the pre-antibiotic era</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/rx.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="images/rx.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+<p>A copy of a doctor’s prescription issued to a patient in Massachusetts in 1925. The doctor here wrote in a common Latin term, “Spts frumenti” or <em>spiritus frumenti</em> -i.e.&nbsp;whiskey</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/ginger.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="images/ginger.png" class="quarto-figure quarto-figure-center" width="300"></a></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="dawn-of-antibiotic-discovery" class="slide level2 smaller">
+<h2>Dawn of antibiotic discovery</h2>
+<p><br></p>
+<table class="caption-top" style="width:99%;">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 40%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Paul Ehrlich, Salvarsan 1909</th>
+<th><p>Alexander Fleming, Penicilllin 1929 <br></p>
+<p>Purified and tested by Florey, Chain, Heatley-1940</p></th>
+<th>Gerhard Domagk, Sulfanilamides 1931</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/Erhlich.png" width="300"></td>
+<td><img data-src="images/Fleming.png" width="406"></td>
+<td><img data-src="images/Domagk.png" width="250"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mortality-reduction-with-antibiotic-therapy" class="slide level2">
+<h2>Mortality reduction with antibiotic therapy</h2>
+<p><br></p>
+<p><br></p>
+<table class="caption-top" style="width:98%;">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 24%">
+<col style="width: 20%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Disease</th>
+<th>Pre-antibiotic era</th>
+<th>Antibiotic era</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Community-acquired pneumonia</td>
+<td>~ 35%</td>
+<td>~ 10%</td>
+<td>-25%</td>
+</tr>
+<tr class="even">
+<td>Nosocomial pneumonia</td>
+<td>~ 60%</td>
+<td>~ 30%</td>
+<td>-30%</td>
+</tr>
+<tr class="odd">
+<td>Bacterial endocarditis</td>
+<td>~ 100%</td>
+<td>~ 25%</td>
+<td>-75%</td>
+</tr>
+<tr class="even">
+<td>Gram-negative bacteremia</td>
+<td>~ 70%</td>
+<td>~ 10%</td>
+<td>-60%</td>
+</tr>
+<tr class="odd">
+<td>Bacterial meningitis</td>
+<td>&gt; 80%</td>
+<td>&lt; 20%</td>
+<td>-60%</td>
+</tr>
+<tr class="even">
+<td>Cellulitis</td>
+<td>~ 11%</td>
+<td>&lt; 0.5%</td>
+<td>-10%</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+
+<aside><div>
+<p><span class="citation" data-cites="spellberg2025">(<a href="#/references" role="doc-biblioref" onclick="">Spellberg, 2025a</a>)</span></p>
+</div></aside></section>
+<section id="antibiotics-essential-for-practice-of-modern-medicine" class="slide level2" data-background-image="images/antibiotic-resistance.jpg" data-background-opacity="0.3">
+<h2>Antibiotics: <br> Essential for practice of modern medicine</h2>
+<p><br></p>
+<ul>
+<li><p>Enable complicated and deeply-invasive surgery</p></li>
+<li><p>Aggressive chemotherapy for cancer</p></li>
+<li><p>Fundamental aspects of critical care</p>
+<ul>
+<li>e.g., central venous catheters, mechanical ventilation</li>
+</ul></li>
+<li><p>Care for premature infants, mothers (post-partum sepsis)</p></li>
+<li><p>Solid organ and stem cell transplantation</p></li>
+<li><p><strong>Antibiotics created a revolution in the practice of medicine, transforming a primarily diagnostic-focused field to a <em>therapeutic, interventional</em> profession</strong></p></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="spellberg2025">(<a href="#/references" role="doc-biblioref" onclick="">Spellberg, 2025a</a>)</span></p>
+</div></aside></section>
+<section id="current-antibiotic-resistance-statistics" class="slide level2 smaller">
+<h2>Current antibiotic resistance statistics</h2>
+<iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="90%" height="700px">
+</iframe>
+
+<aside><div>
+<p>Source: healthdata.org</p>
+</div></aside></section>
+<section id="world-health-organization-who-pathogen-priority-list" class="slide level2 smaller">
+<h2>World Health Organization (WHO) <br> Pathogen Priority List</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/WHO.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="images/WHO.png" class="quarto-figure quarto-figure-center" width="500"></a></p>
+</figure>
+</div>
+</section>
+<section id="methicillin-resistant-staphylococcus-aureus-mrsa" class="slide level2">
+<h2>Methicillin-resistant <br> <em>Staphylococcus aureus</em> (MRSA)</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/MRSA_ITALY.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="images/MRSA_ITALY.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="carbapenem-resistant-enterobacterales-cre" class="slide level2">
+<h2>Carbapenem-resistant Enterobacterales (CRE)</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/CRE_ITALY.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="images/CRE_ITALY.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="multi-drug-resistant-mdr-acinetobacter-baumannii" class="slide level2">
+<h2>Multi-drug resistant (MDR) <br><em>Acinetobacter baumannii</em></h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/MDRABUAM_ITALY.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="images/MDRABUAM_ITALY.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="antibiotic-discovery-is-slowing" class="slide level2">
+<h2>Antibiotic discovery is slowing</h2>
+<p><br></p>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/discovery.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/discovery.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="antibiotics-are-a-societal-trust" class="slide level2">
+<h2>Antibiotics are a societal trust</h2>
+<p><br> <br></p>
+<ul>
+<li><p>Antibiotic overprescription is a <strong><em>tragedy of the commons</em></strong>: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large</p></li>
+<li><p>When such an action is undertaken rarely, the harm to society is not noticeable</p></li>
+<li><p>When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, <strong>the collective harm to society can be catastrophic</strong></p></li>
+<li><p>Given the power of antibiotics to save lives, and the constant erosion of that power through their use, <strong>one of the most important functions of the physician is to serve as an expert <em>in the use and protection of antimicrobial agents</em></strong></p></li>
+</ul>
+</section>
+<section id="antibiotic-stewardship" class="slide level2">
+<h2>Antibiotic stewardship</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/steward1.png" width="800"></td>
+<td><img data-src="images/steward.jpeg" width="800"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principles-for-effective-antibiotic-use" class="slide level2 scrollable">
+<h2>Principles for effective antibiotic use</h2>
+<ol type="1">
+<li><p>Accurate differential diagnosis</p></li>
+<li><p>Only use antibiotics when they alter the clinical course of disease</p></li>
+<li><p>Empirically target microbes in differential diagnosis</p></li>
+<li><p>A lower threshold for empirical therapy should be used in critically-ill patients</p></li>
+<li><p>Host factors affect the spectrum of empirical therapy</p></li>
+<li><p>Use PK/PD principles to select and optimally dose treatment</p></li>
+<li><p>De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses</p></li>
+<li><p>If therapy is not working, consider source control or alternative diagnosis before broadening therapy</p></li>
+<li><p>Distiniguish new infection from failure of initial therapy</p></li>
+<li><p>The duration of therapy should be as short as possible based on available evidence (shorter is better)</p></li>
+</ol>
+</section>
+<section>
+<section id="principle-1-develop-an-accurate-differential-diagnosis" class="title-slide slide level1" data-background-color="#9B0014">
+<h1>Principle #1: Develop an accurate <br> differential diagnosis</h1>
+<p><br></p>
+<p><br></p>
+</section>
+<section id="what-is-the-most-important-component-in-diagnosing-infectious-diseases" class="slide level2">
+<h2>What is the most important component in diagnosing infectious diseases?</h2>
+<p><br></p>
+<p>A. Patient medical history</p>
+<p>B. Physical exam</p>
+<p>C. Radiological imaging (e.g., X-ray, CT or MRI)</p>
+<p>D. Biomarkers of infections (e.g., c-reactive protein, procalcitonin)</p>
+<p>E. Microbiological tests (e.g., culture, PCR, serology)</p>
+</section>
+<section id="medical-history-is-80-of-diagnosis" class="slide level2 smaller">
+<h2>Medical history is 80% of diagnosis?</h2>
+<p><br></p>
+<ul>
+<li><p><strong>What are the current symptoms</strong> (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)</p>
+<ul>
+<li><strong>8 cardinal descriptors</strong>: Timing, Location, Character, Aggravating factors, Alleviating factors, Associated symptoms, Severity, Setting</li>
+</ul></li>
+<li><p><strong>Fever</strong> How high, how long, what pattern?</p></li>
+<li><p><strong>Risk factors for infection</strong> (e.g., indwelling devices -urinary catheters, vascular catheters, prosthetic joints, cardiac devices), recent medical procedures, immunosuppression, diabetes, history of injection drug use, and previous infections</p></li>
+<li><p><strong>Travel or exposure history</strong> (e.g., recent travel -countries, regions, urban/rural, dates, exposure to animals or insect bites, contact with ill individuals, and consumption of potentially contaminated food or water)</p></li>
+<li><p><strong>Sexual history</strong> and risk for sexually transmitted infections</p></li>
+<li><p><strong>Vaccination history</strong></p></li>
+<li><p><strong>Past medical and surgical history, medication use, and allergies?</strong></p></li>
+<li><p><strong>Recent changes in medications or antibiotic use?</strong></p></li>
+<li><p><strong>Social history?</strong> (e.g.&nbsp;long-term care facility, occupation, hobbies, substance use, unusual exposures)</p></li>
+</ul>
+</section>
+<section id="case-example" class="slide level2">
+<h2>Case Example</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p><strong>Chief complaint:</strong> 34 year-old farmer from Sicily presents with worsening back pain after sitting for more than couple of hours</p></li>
+<li><p><strong>No other significant past medical history</strong></p></li>
+<li><p><strong>Spondylitis etiologies:</strong></p>
+<ul>
+<li><p>&gt; 50% <em>Staphylococcus aureus, Staphylococcus epidermidis</em></p></li>
+<li><p>~ 25% <em>Streptococcus</em> spp., <em>Enterococcus</em> spp. <em>Pseudomonas aeruginosa,</em> <em>Enterobacter</em> spp., <em>Proteus</em> spp. <em>E. coli</em>, <em>Serratia</em> spp., Anaerobes, <em>Mycobacterium tuberculosis</em> (Pott’s disease)</p></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/spondylitis.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Initial lateral radiograph (left) shows a cortical disruption at the inferior epiphyseal plate of L4 vertebral body (arrows). The sagittal fat suppressed contrast enhanced T1-w MR image (right) shows septic discitis (open arrow) and bone marrow edema on both L4 and L5 vertebral bodies (arrows), suggesting spondylitis."><img data-src="images/spondylitis.png" class="quarto-figure quarto-figure-center" alt="Initial lateral radiograph (left) shows a cortical disruption at the inferior epiphyseal plate of L4 vertebral body (arrows). The sagittal fat suppressed contrast enhanced T1-w MR image (right) shows septic discitis (open arrow) and bone marrow edema on both L4 and L5 vertebral bodies (arrows), suggesting spondylitis."></a></p>
+</figure>
+</div>
+<figcaption>Initial lateral radiograph (left) shows a cortical disruption at the inferior epiphyseal plate of L4 vertebral body (arrows). The sagittal fat suppressed contrast enhanced T1-w MR image (right) shows septic discitis (open arrow) and bone marrow edema on both L4 and L5 vertebral bodies (arrows), suggesting spondylitis.</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="pertinent-history" class="slide level2">
+<h2>Pertinent history</h2>
+<p><br></p>
+<ul>
+<li><p>Patient works as a sheep and cattle farmer in a small enterprise 54 minutes from Messina that produces milk and cheese: Percorino salato and Ricotta</p></li>
+<li><p>Patient reported pain was first noticed at end of May after a bad case of flu “fever, achy joints, headache”</p></li>
+<li><p>Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement</p></li>
+<li><p>Other 3 brothers and cousin who work on farm report no illness</p></li>
+</ul>
+</section>
+<section id="could-this-be-brucellosis" class="slide level2">
+<h2>Could this be brucellosis?</h2>
+<p><br></p>
+<p><img data-src="images/brucellosis.png" class="quarto-figure quarto-figure-center"> Zoonotic Gram-negative coccobacilli</p>
+
+<aside><div>
+<p><span class="citation" data-cites="massis2005">(<a href="#/references" role="doc-biblioref" onclick="">Massis et al., 2005</a>)</span></p>
+</div></aside></section>
+<section id="diagnosis-and-treatment-of-brucellosis-spondylitis" class="slide level2">
+<h2>Diagnosis and treatment of <br>Brucellosis spondylitis: <br></h2>
+<center>
+<em>Specialized diagnostics and therapy!</em>
+</center>
+<p><br></p>
+<ul>
+<li><p>Blood cultures require special procedures (prolonged incubation), bone biopsy culture may be needed</p></li>
+<li><p>Brucella PCR from clinical specimen</p></li>
+<li><p>Combination serologic studies</p></li>
+<li><p>Treatment- Gentamicin + Doxycycline + Rifampin</p>
+<ul>
+<li>Unconventional treatment: would not be covered by standard spondylitis treatment regimens</li>
+</ul></li>
+</ul>
+</section>
+<section id="antibiotics-are-usually-started-empirically" class="slide level2 smaller">
+<h2>Antibiotics are usually started empirically</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="480" viewbox="0.00 0.00 1205.13 481.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 477)">
+<title>infection_timeline</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-477 1201.13,-477 1201.13,4 -4,4"></polygon>
+<!-- t0 -->
+<g id="node1" class="node">
+<title>t0</title>
+<path fill="transparent" stroke="transparent" d="M810.06,-473C810.06,-473 618.06,-473 618.06,-473 612.06,-473 606.06,-467 606.06,-461 606.06,-461 606.06,-442 606.06,-442 606.06,-436 612.06,-430 618.06,-430 618.06,-430 810.06,-430 810.06,-430 816.06,-430 822.06,-436 822.06,-442 822.06,-442 822.06,-461 822.06,-461 822.06,-467 816.06,-473 810.06,-473"></path>
+<text text-anchor="middle" x="714.06" y="-446.1" font-family="Arial" font-size="18.00" fill="#333333">0h</text>
+</g>
+<!-- t1 -->
+<g id="node2" class="node">
+<title>t1</title>
+<path fill="transparent" stroke="transparent" d="M810.06,-365.5C810.06,-365.5 618.06,-365.5 618.06,-365.5 612.06,-365.5 606.06,-359.5 606.06,-353.5 606.06,-353.5 606.06,-334.5 606.06,-334.5 606.06,-328.5 612.06,-322.5 618.06,-322.5 618.06,-322.5 810.06,-322.5 810.06,-322.5 816.06,-322.5 822.06,-328.5 822.06,-334.5 822.06,-334.5 822.06,-353.5 822.06,-353.5 822.06,-359.5 816.06,-365.5 810.06,-365.5"></path>
+<text text-anchor="middle" x="714.06" y="-338.6" font-family="Arial" font-size="18.00" fill="#333333">1h</text>
+</g>
+<!-- t24 -->
+<g id="node3" class="node">
+<title>t24</title>
+<path fill="transparent" stroke="transparent" d="M810.06,-258C810.06,-258 618.06,-258 618.06,-258 612.06,-258 606.06,-252 606.06,-246 606.06,-246 606.06,-227 606.06,-227 606.06,-221 612.06,-215 618.06,-215 618.06,-215 810.06,-215 810.06,-215 816.06,-215 822.06,-221 822.06,-227 822.06,-227 822.06,-246 822.06,-246 822.06,-252 816.06,-258 810.06,-258"></path>
+<text text-anchor="middle" x="714.06" y="-231.1" font-family="Arial" font-size="18.00" fill="#333333">24h</text>
+</g>
+<!-- t48 -->
+<g id="node4" class="node">
+<title>t48</title>
+<path fill="transparent" stroke="transparent" d="M810.06,-157C810.06,-157 618.06,-157 618.06,-157 612.06,-157 606.06,-151 606.06,-145 606.06,-145 606.06,-126 606.06,-126 606.06,-120 612.06,-114 618.06,-114 618.06,-114 810.06,-114 810.06,-114 816.06,-114 822.06,-120 822.06,-126 822.06,-126 822.06,-145 822.06,-145 822.06,-151 816.06,-157 810.06,-157"></path>
+<text text-anchor="middle" x="714.06" y="-130.1" font-family="Arial" font-size="18.00" fill="#333333">36-48h</text>
+</g>
+<!-- t72 -->
+<g id="node5" class="node">
+<title>t72</title>
+<path fill="transparent" stroke="transparent" d="M810.06,-49.5C810.06,-49.5 618.06,-49.5 618.06,-49.5 612.06,-49.5 606.06,-43.5 606.06,-37.5 606.06,-37.5 606.06,-18.5 606.06,-18.5 606.06,-12.5 612.06,-6.5 618.06,-6.5 618.06,-6.5 810.06,-6.5 810.06,-6.5 816.06,-6.5 822.06,-12.5 822.06,-18.5 822.06,-18.5 822.06,-37.5 822.06,-37.5 822.06,-43.5 816.06,-49.5 810.06,-49.5"></path>
+<text text-anchor="middle" x="714.06" y="-22.6" font-family="Arial" font-size="18.00" fill="#333333">72-96h</text>
+</g>
+<!-- definitive -->
+<g id="node7" class="node">
+<title>definitive</title>
+<path fill="transparent" stroke="transparent" d="M1185.2,-56C1185.2,-56 876.93,-56 876.93,-56 870.93,-56 864.93,-50 864.93,-44 864.93,-44 864.93,-12 864.93,-12 864.93,-6 870.93,0 876.93,0 876.93,0 1185.2,0 1185.2,0 1191.2,0 1197.2,-6 1197.2,-12 1197.2,-12 1197.2,-44 1197.2,-44 1197.2,-50 1191.2,-56 1185.2,-56"></path>
+<text text-anchor="start" x="873" y="-31.4" font-family="Arial" font-size="24.00" fill="#333333">Change to </text>
+<text text-anchor="start" x="990.42" y="-31.4" font-family="Arial" font-weight="bold" font-size="24.00" fill="#333333">definitive therapy</text>
+<text text-anchor="start" x="874.3" y="-7.4" font-family="Arial" font-size="24.00" fill="#333333">for patient-specific pathogens</text>
+</g>
+<!-- t72&#45;&gt;definitive -->
+<!-- empiric -->
+<g id="node6" class="node">
+<title>empiric</title>
+<path fill="transparent" stroke="transparent" d="M292.19,-372C292.19,-372 11.94,-372 11.94,-372 5.94,-372 -0.06,-366 -0.06,-360 -0.06,-360 -0.06,-328 -0.06,-328 -0.06,-322 5.94,-316 11.94,-316 11.94,-316 292.19,-316 292.19,-316 298.19,-316 304.19,-322 304.19,-328 304.19,-328 304.19,-360 304.19,-360 304.19,-366 298.19,-372 292.19,-372"></path>
+<text text-anchor="start" x="8" y="-347.4" font-family="Arial" font-size="24.00" fill="#333333">Begin </text>
+<text text-anchor="start" x="76.05" y="-347.4" font-family="Arial" font-weight="bold" font-size="24.00" fill="#333333">empiric therapy </text>
+<text text-anchor="start" x="261.45" y="-347.4" font-family="Arial" font-size="24.00" fill="#333333"> for</text>
+<text text-anchor="start" x="66.01" y="-323.4" font-family="Arial" font-size="24.00" fill="#333333">likely pathogens</text>
+</g>
+<!-- culture -->
+<g id="node9" class="node">
+<title>culture</title>
+<path fill="#f5ddd1" stroke="#f5ddd1" d="M551.06,-365.5C551.06,-365.5 359.06,-365.5 359.06,-365.5 353.06,-365.5 347.06,-359.5 347.06,-353.5 347.06,-353.5 347.06,-334.5 347.06,-334.5 347.06,-328.5 353.06,-322.5 359.06,-322.5 359.06,-322.5 551.06,-322.5 551.06,-322.5 557.06,-322.5 563.06,-328.5 563.06,-334.5 563.06,-334.5 563.06,-353.5 563.06,-353.5 563.06,-359.5 557.06,-365.5 551.06,-365.5"></path>
+<text text-anchor="middle" x="455.06" y="-339.8" font-family="Arial" font-size="14.00">Culture suspected sites</text>
+</g>
+<!-- empiric&#45;&gt;culture -->
+<!-- suspect -->
+<g id="node8" class="node">
+<title>suspect</title>
+<path fill="#f5ddd1" stroke="#f5ddd1" d="M551.06,-473C551.06,-473 359.06,-473 359.06,-473 353.06,-473 347.06,-467 347.06,-461 347.06,-461 347.06,-442 347.06,-442 347.06,-436 353.06,-430 359.06,-430 359.06,-430 551.06,-430 551.06,-430 557.06,-430 563.06,-436 563.06,-442 563.06,-442 563.06,-461 563.06,-461 563.06,-467 557.06,-473 551.06,-473"></path>
+<text text-anchor="middle" x="455.06" y="-447.3" font-family="Arial" font-size="14.00">Suspect infection</text>
+</g>
+<!-- suspect&#45;&gt;t0 -->
+<!-- suspect&#45;&gt;culture -->
+<g id="edge1" class="edge">
+<title>suspect-&gt;culture</title>
+<path fill="none" stroke="#d4764a" stroke-width="1.5" d="M455.06,-429.75C455.06,-429.75 455.06,-373.72 455.06,-373.72"></path>
+<polygon fill="#d4764a" stroke="#d4764a" stroke-width="1.5" points="457.86,-373.72 455.06,-365.72 452.26,-373.72 457.86,-373.72"></polygon>
+</g>
+<!-- culture&#45;&gt;t1 -->
+<!-- gram -->
+<g id="node10" class="node">
+<title>gram</title>
+<path fill="#f5ddd1" stroke="#f5ddd1" d="M551.06,-258C551.06,-258 359.06,-258 359.06,-258 353.06,-258 347.06,-252 347.06,-246 347.06,-246 347.06,-227 347.06,-227 347.06,-221 353.06,-215 359.06,-215 359.06,-215 551.06,-215 551.06,-215 557.06,-215 563.06,-221 563.06,-227 563.06,-227 563.06,-246 563.06,-246 563.06,-252 557.06,-258 551.06,-258"></path>
+<text text-anchor="middle" x="455.06" y="-232.3" font-family="Arial" font-size="14.00">Gram stain</text>
+</g>
+<!-- culture&#45;&gt;gram -->
+<g id="edge2" class="edge">
+<title>culture-&gt;gram</title>
+<path fill="none" stroke="#d4764a" stroke-width="1.5" d="M455.06,-322.25C455.06,-322.25 455.06,-266.22 455.06,-266.22"></path>
+<polygon fill="#d4764a" stroke="#d4764a" stroke-width="1.5" points="457.86,-266.22 455.06,-258.22 452.26,-266.22 457.86,-266.22"></polygon>
+</g>
+<!-- gram&#45;&gt;t24 -->
+<!-- id -->
+<g id="node11" class="node">
+<title>id</title>
+<path fill="#f5ddd1" stroke="#f5ddd1" d="M551.06,-157C551.06,-157 359.06,-157 359.06,-157 353.06,-157 347.06,-151 347.06,-145 347.06,-145 347.06,-126 347.06,-126 347.06,-120 353.06,-114 359.06,-114 359.06,-114 551.06,-114 551.06,-114 557.06,-114 563.06,-120 563.06,-126 563.06,-126 563.06,-145 563.06,-145 563.06,-151 557.06,-157 551.06,-157"></path>
+<text text-anchor="middle" x="455.06" y="-131.3" font-family="Arial" font-size="14.00">Identification</text>
+</g>
+<!-- gram&#45;&gt;id -->
+<g id="edge3" class="edge">
+<title>gram-&gt;id</title>
+<path fill="none" stroke="#d4764a" stroke-width="1.5" d="M455.06,-214.58C455.06,-214.58 455.06,-165.03 455.06,-165.03"></path>
+<polygon fill="#d4764a" stroke="#d4764a" stroke-width="1.5" points="457.86,-165.03 455.06,-157.03 452.26,-165.03 457.86,-165.03"></polygon>
+</g>
+<!-- id&#45;&gt;t48 -->
+<!-- suscept -->
+<g id="node12" class="node">
+<title>suscept</title>
+<path fill="#f5ddd1" stroke="#f5ddd1" d="M551.06,-49.5C551.06,-49.5 359.06,-49.5 359.06,-49.5 353.06,-49.5 347.06,-43.5 347.06,-37.5 347.06,-37.5 347.06,-18.5 347.06,-18.5 347.06,-12.5 353.06,-6.5 359.06,-6.5 359.06,-6.5 551.06,-6.5 551.06,-6.5 557.06,-6.5 563.06,-12.5 563.06,-18.5 563.06,-18.5 563.06,-37.5 563.06,-37.5 563.06,-43.5 557.06,-49.5 551.06,-49.5"></path>
+<text text-anchor="middle" x="455.06" y="-23.8" font-family="Arial" font-size="14.00">Susceptibilities</text>
+</g>
+<!-- id&#45;&gt;suscept -->
+<g id="edge4" class="edge">
+<title>id-&gt;suscept</title>
+<path fill="none" stroke="#d4764a" stroke-width="1.5" d="M455.06,-113.75C455.06,-113.75 455.06,-57.72 455.06,-57.72"></path>
+<polygon fill="#d4764a" stroke="#d4764a" stroke-width="1.5" points="457.86,-57.72 455.06,-49.72 452.26,-57.72 457.86,-57.72"></polygon>
+</g>
+<!-- suscept&#45;&gt;t72 -->
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="antibiotics-are-usually-started-empirically-1" class="slide level2 smaller">
+<h2>Antibiotics are usually started empirically</h2>
+<p>Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: <br><strong>&gt;90% of upper respiratory tract infections are caused by viruses</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/URI.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="images/URI.png" class="quarto-figure quarto-figure-center" width="400"></a></p>
+</figure>
+</div>
+<center>
+Clinicians frequently <em>overestimate</em> the risk of bacterial infection
+</center>
+
+<aside><div>
+<p><span class="citation" data-cites="chow2012">(<a href="#/references" role="doc-biblioref" onclick="">Chow et al., 2012</a>)</span></p>
+</div></aside></section>
+<section id="doctors-frequently-underestimate-the-risks-of-antibiotic-therapy" class="slide level2">
+<h2>Doctors frequently <em>underestimate</em> the risks of antibiotic therapy</h2>
+<p><br></p>
+<p><br></p>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>1 in 5 patients given antibiotic prescriptions are harmed by them because of adverse events or superinfection by resistant pathogens or <em>Clostridioides difficile</em></strong></p>
+</div>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Every additional 10 days of antibiotic therapy confers a 3% increased risk of an adverse drug effect</strong></p>
+</div>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<p>A combination of:</p>
+<ul>
+<li><p>Fear from uncertainty of the diagnosis</p></li>
+<li><p>Lack of appreciation of how dangerous antibiotics can be</p></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="tamma2017b">(<a href="#/references" role="doc-biblioref" onclick="">Tamma et al., 2017</a>)</span></p>
+</div></aside></section>
+<section id="association-of-adverse-events-with-antibiotic-use-in-hospitalized-patients" class="slide level2">
+<h2>Association of adverse events with antibiotic use in hospitalized patients</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/adverseeffects.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="images/adverseeffects.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="tamma2017b">(<a href="#/references" role="doc-biblioref" onclick="">Tamma et al., 2017</a>)</span></p>
+</div></aside></section>
+<section id="positive-cultures-are-not-always-proof-of-infection" class="slide level2 smaller">
+<h2>Positive cultures <br>are not always proof of infection</h2>
+<p><br></p>
+<ul>
+<li><p>A positive culture in the absence of signs or symptoms of infection <strong>should not</strong> reflexively trigger antibiotic therapy</p></li>
+<li><p>Without symptoms, a positive culture often represents <strong>colonization or contamination</strong> <br></p></li>
+</ul>
+<table class="caption-top" style="width:98%;">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 20%">
+<col style="width: 23%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wound swabs</th>
+<th>Urine cultures</th>
+<th>Bronchial alveolar lavage</th>
+<th>Respiratory samples</th>
+<th>GI tract/stool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/wound.png"></td>
+<td><img data-src="images/urine.png"></td>
+<td><img data-src="images/BAL.png"></td>
+<td><img data-src="images/nasal%20swab.png"></td>
+<td><img data-src="images/stool.png"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="simple-stewardship-interventions" class="slide level2">
+<h2>Simple stewardship interventions</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/computer.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="images/computer.png" class="quarto-figure quarto-figure-center" width="400"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="luu2021">(<a href="#/references" role="doc-biblioref" onclick="">Luu et al., 2021</a>)</span></p>
+</div></aside></section>
+<section id="simple-stewardship-intervention" class="slide level2 smaller">
+<h2>Simple stewardship intervention</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/outcomes.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/outcomes.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="luu2021">(<a href="#/references" role="doc-biblioref" onclick="">Luu et al., 2021</a>)</span></p>
+</div></aside></section></section>
+<section>
+<section id="principle-2-only-use-antibiotics-when-they-alter-a-patients-clinical-course-of-patients" class="title-slide slide level1" data-background-color="#9B0014">
+<h1>Principle #2: Only use antibiotics when they alter a patient’s clinical course of patients</h1>
+
+</section>
+<section id="antibiotics-are-not-the-only-answer" class="slide level2">
+<h2>Antibiotics are not the only answer</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>The administration of antibiotics should not be a reflexive response to infection, but should be incorporated into an overall, rational therapeutic plan for the patient.</p></li>
+<li><p>Patients who lack bacterial infections cannot have their clinical course improved by antibiotics (as discussed in Principle #1).</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/osteo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="images/osteo.png" class="quarto-figure quarto-figure-center" width="200"></a></p>
+</figure>
+</div>
+<p>Classic example: osteomyelitis with persistently exposed bone</p>
+</div></div>
+</section>
+<section id="ethical-dilemmas-for-use-of-antimicrobial-therapy" class="slide level2">
+<h2>Ethical dilemmas for use of <br>antimicrobial therapy</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>End of life (comfort care)</th>
+<th>Non-adherent HIV therapy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/terminal.png"></td>
+<td><img data-src="images/HIV.png"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-3-empirically-target-microbes-in-differential-diagnosis" class="slide level2" data-background-color="#9B0014">
+<h2>Principle #3: Empirically target microbes in differential diagnosis</h2>
+</section>
+<section id="know-the-spectrum-of-activity" class="slide level2">
+<h2>Know the spectrum of activity</h2>
+<p><br> <br></p>
+<table class="caption-top">
+<tbody>
+<tr class="odd">
+<td><ul>
+<li>Spectrum of activity of the empirical antiinfective agents prescribed should be tailored to cover the likely microbial flora that cause the diseases in the differential diagnosis</li>
+</ul></td>
+<td><p><a href="images/Sanford.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="images/Sanford.png"></a></p>
+<p><a href="https://web.sanfordguide.com/">Sanford Guide</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="community-acquired-vs.-nosocomial" class="slide level2">
+<h2>Community-acquired vs.&nbsp;nosocomial</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/respiratory.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="images/respiratory.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="basic-principles-of-coverage" class="slide level2 smaller">
+<h2>Basic principles of coverage</h2>
+<p><br> <br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 56%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Community infections</th>
+<th>Nosocomial infections</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ul>
+<li><p>Community-associated infections are infrequently caused by MDR gram-negative bacteria.</p></li>
+<li><p>Empirical antibiotic coverage should not routinely considered</p></li>
+</ul></td>
+<td><ul>
+<li>More often caused by more resistant pathogens, and hence require coverage for P<em>seudomonas</em> or other non-fermenting gram-negative bacilli</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Avoid using routine methicillin-resistant <em>S. aureus</em> (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA</td>
+<td>Greater risk for MRSA, especially is patient has recently received antibiotic therapy</td>
+</tr>
+<tr class="odd">
+<td>Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies</td>
+<td>May require “frontline” used of lastline antibiotic if patient has risk factors for multidrug resistant infection</td>
+</tr>
+</tbody>
+</table>
+<p><br> <br> <em>Special circumstances create exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by Pseudomonas in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.</em></p>
+</section></section>
+<section>
+<section id="principle-4-there-is-a-lower-threshold-for-empirical-therapy-in-critically-ill-patients" class="title-slide slide level1" data-background-color="#9B0014">
+<h1>Principle #4: There is a lower threshold for empirical therapy in critically-ill patients</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/ICU.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="images/ICU.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+</section>
+<section id="antibiotic-timing-is-critical-in-septic-shock" class="slide level2">
+<h2>Antibiotic timing is critical in septic shock</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/kumar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img data-src="images/kumar.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Antibiotics should be administered immediately in patients with hemodynamic compromise <span class="citation" data-cites="kumar2006">(<a href="#/references" role="doc-biblioref" onclick="">Kumar et al., 2006</a>)</span></p>
+</div></aside></section>
+<section id="principle-5-host-factors-affect-the-spectrum-of-empirical-therapy" class="slide level2 smaller">
+<h2>Principle #5: Host factors affect the spectrum of empirical therapy</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/immunocompromise.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="images/immunocompromise.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+</section>
+<section id="common-immunocompromised-conditions" class="slide level2 smaller scrollable">
+<h2>Common immunocompromised conditions</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/patient.png"></td>
+<td><ol type="1">
+<li><p>Chronic diseases (e.g., type 1 diabetes, chronic obstructive pulmonary disease)</p></li>
+<li><p>Autoimmune diseases (e.g., lupus, rheumatoid arthritis)</p></li>
+<li><p>Genetic diseases (primary immunodeficiencies)</p></li>
+<li><p>Cancer and/or chemotherapy</p></li>
+<li><p>Human immunodeficiency virus (HIV)</p></li>
+<li><p>Solid organ or bone marrow transplant</p></li>
+<li><p>Advanced age</p></li>
+<li><p>Malnutrition</p></li>
+<li><p><strong>Chronic use of corticosteroids or other immunosuppressive medications</strong></p></li>
+<li><p>Chronic infections</p></li>
+<li><p>Smoking</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="glucocorticoids-credit-cards-of-immunosuppressive-therapy" class="slide level2">
+<h2>Glucocorticoids: <br>“Credit cards” of immunosuppressive therapy</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/glucocorticoids.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="images/glucocorticoids.png" class="quarto-figure quarto-figure-center" width="400"></a></p>
+</figure>
+</div>
+<p>Dose-dependent increase in the risk of opportunistic infections &gt; 10 mg of prednisone equivalents (PEQ) per day for 2-4 weeks</p>
+
+<aside><div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><span class="citation" data-cites="chastain2023">(<a href="#/references" role="doc-biblioref" onclick="">Chastain et al., 2023</a>)</span></p>
+</div></aside></section>
+<section id="community-acquired-pneumonia-cap-vs.-pneumocystis-jirovecii-pneumonia-pcp" class="slide level2">
+<h2>Community acquired pneumonia (CAP) <br> vs.&nbsp;Pneumocystis jirovecii pneumonia (PCP)</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 51%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><a href="images/PCP_xray.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img data-src="images/PCP_xray.png" width="449"></a></p>
+<p>Diffuse bilateral infiltrates</p></td>
+<td><p><a href="images/PCP_CT.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img data-src="images/PCP_CT.png" width="427"></a></p>
+<p>Patchy areas of ground-glass attenuation</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-6-use-pkpd-principles-to-optimize-treatment-selection-and-dosing" class="slide level2">
+<h2>Principle #6: Use PK/PD principles to optimize <br> treatment selection and dosing</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="480" viewbox="0.00 0.00 633.69 332.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-328 629.69,-328 629.69,4 -4,4"></polygon>
+<!-- patient -->
+<g id="node1" class="node">
+<title>patient</title>
+<text text-anchor="middle" x="48.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Patient factors</text>
+</g>
+<!-- PK -->
+<g id="node2" class="node">
+<title>PK</title>
+<ellipse fill="none" stroke="black" cx="157.24" cy="-234" rx="100.75" ry="18"></ellipse>
+<text text-anchor="middle" x="157.24" y="-229.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacokinetics (PK)</text>
+</g>
+<!-- patient&#45;&gt;PK -->
+<g id="edge1" class="edge">
+<title>patient-&gt;PK</title>
+<path fill="none" stroke="black" d="M74.9,-287.88C89.34,-278.61 107.33,-267.05 122.82,-257.1"></path>
+<polygon fill="black" stroke="black" points="125.07,-259.81 131.6,-251.47 121.29,-253.92 125.07,-259.81"></polygon>
+</g>
+<!-- PKPD -->
+<g id="node8" class="node">
+<title>PKPD</title>
+<ellipse fill="none" stroke="black" cx="270.24" cy="-162" rx="38.32" ry="18"></ellipse>
+<text text-anchor="middle" x="270.24" y="-157.8" font-family="Lato,Arial,sans-serif" font-size="14.00">PK/PD</text>
+</g>
+<!-- PK&#45;&gt;PKPD -->
+<g id="edge6" class="edge">
+<title>PK-&gt;PKPD</title>
+<path fill="none" stroke="black" d="M183.73,-216.59C200.39,-206.26 221.97,-192.9 239.4,-182.1"></path>
+<polygon fill="black" stroke="black" points="241.43,-184.96 248.09,-176.72 237.75,-179.01 241.43,-184.96"></polygon>
+</g>
+<!-- drug -->
+<g id="node3" class="node">
+<title>drug</title>
+<text text-anchor="middle" x="157.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Drug factors</text>
+</g>
+<!-- drug&#45;&gt;PK -->
+<g id="edge2" class="edge">
+<title>drug-&gt;PK</title>
+<path fill="none" stroke="black" d="M157.24,-287.7C157.24,-279.98 157.24,-270.71 157.24,-262.11"></path>
+<polygon fill="black" stroke="black" points="160.74,-262.1 157.24,-252.1 153.74,-262.1 160.74,-262.1"></polygon>
+</g>
+<!-- intrinsic -->
+<g id="node4" class="node">
+<title>intrinsic</title>
+<text text-anchor="middle" x="279.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Intrinsic resistance</text>
+</g>
+<!-- PD -->
+<g id="node5" class="node">
+<title>PD</title>
+<ellipse fill="none" stroke="black" cx="402.24" cy="-234" rx="107.7" ry="18"></ellipse>
+<text text-anchor="middle" x="402.24" y="-229.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacodynamics (PD)</text>
+</g>
+<!-- intrinsic&#45;&gt;PD -->
+<g id="edge3" class="edge">
+<title>intrinsic-&gt;PD</title>
+<path fill="none" stroke="black" d="M309.33,-287.88C325.92,-278.43 346.69,-266.61 364.37,-256.55"></path>
+<polygon fill="black" stroke="black" points="366.34,-259.45 373.3,-251.47 362.88,-253.37 366.34,-259.45"></polygon>
+</g>
+<!-- PD&#45;&gt;PKPD -->
+<g id="edge7" class="edge">
+<title>PD-&gt;PKPD</title>
+<path fill="none" stroke="black" d="M371.29,-216.59C351.07,-205.86 324.66,-191.86 303.92,-180.86"></path>
+<polygon fill="black" stroke="black" points="305.3,-177.63 294.82,-176.04 302.02,-183.82 305.3,-177.63"></polygon>
+</g>
+<!-- acquired -->
+<g id="node6" class="node">
+<title>acquired</title>
+<text text-anchor="middle" x="421.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Acquired resistance</text>
+</g>
+<!-- acquired&#45;&gt;PD -->
+<g id="edge4" class="edge">
+<title>acquired-&gt;PD</title>
+<path fill="none" stroke="black" d="M416.54,-287.7C414.42,-279.9 411.87,-270.51 409.52,-261.83"></path>
+<polygon fill="black" stroke="black" points="412.88,-260.84 406.88,-252.1 406.12,-262.67 412.88,-260.84"></polygon>
+</g>
+<!-- inoculum -->
+<g id="node7" class="node">
+<title>inoculum</title>
+<text text-anchor="middle" x="564.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Infection inoculum</text>
+</g>
+<!-- inoculum&#45;&gt;PD -->
+<g id="edge5" class="edge">
+<title>inoculum-&gt;PD</title>
+<path fill="none" stroke="black" d="M524.61,-287.88C501.62,-277.94 472.55,-265.38 448.52,-255"></path>
+<polygon fill="black" stroke="black" points="449.8,-251.74 439.24,-250.99 447.03,-258.17 449.8,-251.74"></polygon>
+</g>
+<!-- microbiological -->
+<g id="node9" class="node">
+<title>microbiological</title>
+<polygon fill="none" stroke="black" points="349.14,-108 191.33,-108 191.33,-72 349.14,-72 349.14,-108"></polygon>
+<text text-anchor="middle" x="270.24" y="-85.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Microbiological outcome</text>
+</g>
+<!-- PKPD&#45;&gt;microbiological -->
+<g id="edge8" class="edge">
+<title>PKPD-&gt;microbiological</title>
+<path fill="none" stroke="black" d="M270.24,-143.7C270.24,-135.98 270.24,-126.71 270.24,-118.11"></path>
+<polygon fill="black" stroke="black" points="273.74,-118.1 270.24,-108.1 266.74,-118.1 273.74,-118.1"></polygon>
+</g>
+<!-- clinical -->
+<g id="node10" class="node">
+<title>clinical</title>
+<polygon fill="none" stroke="black" points="326.27,-36 214.21,-36 214.21,0 326.27,0 326.27,-36"></polygon>
+<text text-anchor="middle" x="270.24" y="-13.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Clinical outcome</text>
+</g>
+<!-- microbiological&#45;&gt;clinical -->
+<g id="edge9" class="edge">
+<title>microbiological-&gt;clinical</title>
+<path fill="none" stroke="black" d="M270.24,-71.7C270.24,-63.98 270.24,-54.71 270.24,-46.11"></path>
+<polygon fill="black" stroke="black" points="273.74,-46.1 270.24,-36.1 266.74,-46.1 273.74,-46.1"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="theuretzbacher2012">(<a href="#/references" role="doc-biblioref" onclick="">Theuretzbacher, 2012</a>)</span></p>
+</div></aside></section>
+<section id="pharmacology-of-antimicrobials" class="slide level2">
+<h2>Pharmacology of antimicrobials</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="480" viewbox="0.00 0.00 586.13 250.40" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 246.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-246.4 582.13,-246.4 582.13,4 -4,4"></polygon>
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<polygon fill="lightblue" stroke="lightblue" points="8,-75.4 8,-234.4 397.89,-234.4 397.89,-75.4 8,-75.4"></polygon>
+<text text-anchor="middle" x="202.95" y="-217.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacokinetics (PK)</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<polygon fill="lightblue" stroke="lightblue" points="417.89,-79.4 417.89,-222.4 574.13,-222.4 574.13,-79.4 417.89,-79.4"></polygon>
+<text text-anchor="middle" x="496.01" y="-205.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacodynamics (PD)</text>
+</g>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<polygon fill="white" stroke="white" points="121.73,-156.4 16.09,-156.4 16.09,-120.4 121.73,-120.4 121.73,-156.4"></polygon>
+<text text-anchor="middle" x="68.91" y="-134.2" font-family="Lato,Arial,sans-serif" font-size="14.00">Dosing regimen</text>
+</g>
+<!-- dosing -->
+<g id="node2" class="node">
+<title>dosing</title>
+<polygon fill="yellow" stroke="yellow" points="254.55,-159 157.57,-159 157.57,-117.8 254.55,-117.8 254.55,-159"></polygon>
+<text text-anchor="middle" x="206.06" y="-142.6" font-family="Lato,Arial,sans-serif" font-size="14.00">Conc. vs. </text>
+<text text-anchor="middle" x="206.06" y="-125.8" font-family="Lato,Arial,sans-serif" font-size="14.00"> time in serum</text>
+<text text-anchor="middle" x="122.23" y="-105" font-family="Lato,Arial,sans-serif" font-size="14.00"> </text>
+<text text-anchor="middle" x="122.23" y="-88.2" font-family="Lato,Arial,sans-serif" font-size="14.00"> &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="middle" x="122.23" y="-71.4" font-family="Lato,Arial,sans-serif" font-size="14.00"> &nbsp;</text>
+<text text-anchor="middle" x="122.23" y="-54.6" font-family="Lato,Arial,sans-serif" font-size="14.00">Absorption </text>
+<text text-anchor="middle" x="122.23" y="-37.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Distribution </text>
+<text text-anchor="middle" x="122.23" y="-21" font-family="Lato,Arial,sans-serif" font-size="14.00">Metabolism </text>
+<text text-anchor="middle" x="122.23" y="-4.2" font-family="Lato,Arial,sans-serif" font-size="14.00">Elimination</text>
+</g>
+<!-- start&#45;&gt;dosing -->
+<g id="edge1" class="edge">
+<title>start-&gt;dosing</title>
+<path fill="none" stroke="black" d="M121.78,-138.4C130.14,-138.4 138.84,-138.4 147.33,-138.4"></path>
+<polygon fill="black" stroke="black" points="147.54,-141.9 157.54,-138.4 147.54,-134.9 147.54,-141.9"></polygon>
+</g>
+<!-- tissue -->
+<g id="node3" class="node">
+<title>tissue</title>
+<polygon fill="white" stroke="white" points="387.26,-125 292.94,-125 292.94,-83.8 387.26,-83.8 387.26,-125"></polygon>
+<text text-anchor="middle" x="340.1" y="-108.6" font-family="Lato,Arial,sans-serif" font-size="14.00">Conc. vs. </text>
+<text text-anchor="middle" x="340.1" y="-91.8" font-family="Lato,Arial,sans-serif" font-size="14.00"> time in tissue</text>
+</g>
+<!-- dosing&#45;&gt;tissue -->
+<g id="edge2" class="edge">
+<title>dosing-&gt;tissue</title>
+<path fill="none" stroke="black" d="M254.36,-126.22C263.58,-123.85 273.34,-121.33 282.83,-118.89"></path>
+<polygon fill="black" stroke="black" points="283.76,-122.26 292.58,-116.38 282.02,-115.48 283.76,-122.26"></polygon>
+</g>
+<!-- infection -->
+<g id="node4" class="node">
+<title>infection</title>
+<polygon fill="white" stroke="white" points="389.69,-201.8 290.51,-201.8 290.51,-143 389.69,-143 389.69,-201.8"></polygon>
+<text text-anchor="middle" x="340.1" y="-185" font-family="Lato,Arial,sans-serif" font-size="14.00">Conc. vs. </text>
+<text text-anchor="middle" x="340.1" y="-168.2" font-family="Lato,Arial,sans-serif" font-size="14.00"> time at site of </text>
+<text text-anchor="middle" x="340.1" y="-151.4" font-family="Lato,Arial,sans-serif" font-size="14.00"> infection</text>
+</g>
+<!-- dosing&#45;&gt;infection -->
+<g id="edge3" class="edge">
+<title>dosing-&gt;infection</title>
+<path fill="none" stroke="black" d="M254.36,-150.58C262.85,-152.77 271.8,-155.07 280.56,-157.33"></path>
+<polygon fill="black" stroke="black" points="279.8,-160.74 290.35,-159.85 281.54,-153.96 279.8,-160.74"></polygon>
+</g>
+<!-- PD1 -->
+<g id="node5" class="node">
+<title>PD1</title>
+<polygon fill="white" stroke="white" points="562.25,-129 429.77,-129 429.77,-87.8 562.25,-87.8 562.25,-129"></polygon>
+<text text-anchor="middle" x="496.01" y="-112.6" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacological or &nbsp;</text>
+<text text-anchor="middle" x="496.01" y="-95.8" font-family="Lato,Arial,sans-serif" font-size="14.00"> toxicological effect</text>
+</g>
+<!-- tissue&#45;&gt;PD1 -->
+<g id="edge4" class="edge">
+<title>tissue-&gt;PD1</title>
+<path fill="none" stroke="black" d="M387.28,-105.6C397.51,-105.87 408.62,-106.15 419.68,-106.44"></path>
+<polygon fill="black" stroke="black" points="419.72,-109.94 429.8,-106.71 419.9,-102.95 419.72,-109.94"></polygon>
+</g>
+<!-- PD2 -->
+<g id="node6" class="node">
+<title>PD2</title>
+<polygon fill="white" stroke="white" points="560.52,-189 431.51,-189 431.51,-147.8 560.52,-147.8 560.52,-189"></polygon>
+<text text-anchor="middle" x="496.01" y="-172.6" font-family="Lato,Arial,sans-serif" font-size="14.00">Antimicrobal effect </text>
+<text text-anchor="middle" x="496.01" y="-155.8" font-family="Lato,Arial,sans-serif" font-size="14.00"> vs. time</text>
+</g>
+<!-- infection&#45;&gt;PD2 -->
+<g id="edge5" class="edge">
+<title>infection-&gt;PD2</title>
+<path fill="none" stroke="black" d="M389.8,-171.13C399.81,-170.87 410.56,-170.59 421.23,-170.32"></path>
+<polygon fill="black" stroke="black" points="421.5,-173.81 431.41,-170.05 421.32,-166.81 421.5,-173.81"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="craig_1998">(<a href="#/references" role="doc-biblioref" onclick="">Craig, 1998</a>)</span></p>
+</div></aside></section>
+<section id="key-pharmacokinetic-variables" class="slide level2">
+<h2>Key pharmacokinetic variables</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/AUC.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img data-src="images/AUC.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="key-pharmacokinetic-variable-volume-of-distribution-vd" class="slide level2">
+<h2>Key pharmacokinetic variable: <br>Volume of distribution (Vd)</h2>
+<p><br></p>
+<ul>
+<li><p>The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma</p>
+<ul>
+<li>It is estimated, not directly measured</li>
+</ul></li>
+<li><p>Reported in liters (L) or liters per kilogram (L/kg)</p></li>
+<li><p>Average plasma volume in adults is approximately 3 L</p></li>
+</ul>
+</section>
+<section id="key-pharmacokinetic-variable-volume-of-distribution-vd-1" class="slide level2">
+<h2>Key pharmacokinetic variable: <br>Volume of distribution (Vd)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/vd_breakdown.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img data-src="images/vd_breakdown.png" class="quarto-figure quarto-figure-center" width="400"></a></p>
+</figure>
+</div>
+</section>
+<section id="volume-of-distribution" class="slide level2">
+<h2>Volume of distribution</h2>
+<p><br></p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="images/Vd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img data-src="images/Vd.png" width="600"></a></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><p>Plasma volume= 3L+ Extracellular water 16 L = Total body water (~20L)</p></li>
+<li><p>Higher Vd (e.g., &gt; 46 L Vd)= sequestered in depot (e.g., fat) and serum concentrations will be lower</p></li>
+</ul>
+</div></div>
+</section>
+<section id="volume-of-distribution-vd-relevance-for-antibiotic-selection" class="slide level2">
+<h2>Volume of distribution (Vd): <br> relevance for antibiotic selection</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/vd_clinical%20relevance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="images/vd_clinical%20relevance.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="vd-alterations" class="slide level2">
+<h2>Vd alterations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-943880396.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="images/clipboard-943880396.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="vd-changes-in-critical-illness" class="slide level2">
+<h2>Vd changes in critical illness</h2>
+<p><a href="images/clipboard-20417349.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="images/clipboard-20417349.png"></a></p>
+</section>
+<section id="drug-penetration-in-ventilator-associated-pneumonia" class="slide level2">
+<h2>Drug penetration in ventilator-associated pneumonia</h2>
+<p><a href="images/clipboard-1264925385.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img data-src="images/clipboard-1264925385.png"></a></p>
+</section>
+<section id="anatomically-privileged-sites" class="slide level2">
+<h2>Anatomically-privileged sites</h2>
+<p><a href="images/clipboard-1377245329.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img data-src="images/clipboard-1377245329.png"></a></p>
+</section>
+<section id="anatomically-privileged-sites-1" class="slide level2">
+<h2>Anatomically-privileged sites</h2>
+<p><a href="images/clipboard-1890359177.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img data-src="images/clipboard-1890359177.png" width="800"></a></p>
+</section>
+<section id="match-the-antibiotic-to-site-of-infection" class="slide level2">
+<h2>Match the antibiotic to site of infection</h2>
+<p><a href="images/clipboard-1230498658.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img data-src="images/clipboard-1230498658.png"></a></p>
+</section>
+<section id="urinary-concentrations-of-antibiotics" class="slide level2">
+<h2>Urinary concentrations of antibiotics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-2574271174.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img data-src="images/clipboard-2574271174.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="gilbert2006a">(<a href="#/references" role="doc-biblioref" onclick="">Gilbert, 2006</a>)</span></p>
+</div></aside></section>
+<section id="second-key-pharmacokinetic-variable-clearance-cl" class="slide level2">
+<h2>Second key pharmacokinetic variable: <br> Clearance (CL)</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clearance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img data-src="images/clearance.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</div><div class="column" style="width:70%;">
+<ul>
+<li><p><strong>Drug elimination from the body</strong></p>
+<ul>
+<li><p>Described by volume of blood removed of drug unit per time</p></li>
+<li><p>Unit of measure mL/min or L/hr</p></li>
+</ul></li>
+<li><p>Clearance is affected by patient’s disease, organ function genetics, interactions with other drugs…etc.</p></li>
+<li><p><strong>Total body clearance:</strong></p>
+<ul>
+<li>CL renal + CL hepatic + CL other</li>
+</ul></li>
+<li><p>Formulas for calculating antibiotic clearance can be found in the medical literature or some drug references</p></li>
+</ul>
+</div></div>
+</section>
+<section id="important-distinctions-between-vd-and-cl-in-antibiotic-dosing" class="slide level2">
+<h2>Important distinctions between <br> Vd and CL in antibiotic dosing</h2>
+<p><br></p>
+<ul>
+<li><p><strong>Vd and CL are both physiologically-based</strong></p>
+<ul>
+<li><p>A change in patient fluid status or distribution can affect volume of distribution (Vd)</p></li>
+<li><p>A change in patient kidney or liver function affects drug clearance (CL)</p></li>
+</ul></li>
+<li><p><strong>However, these parameters do not directly interact with each other</strong></p>
+<ul>
+<li>A change in volume of distribution does not change clearance and vice versa</li>
+</ul></li>
+<li><p><strong>Volume of distribution is useful for calculating an initial dose of antibiotic regimens (loading dose)</strong></p></li>
+<li><p><strong>Clearance is useful for calculating maintenance doses of antibiotic regimens</strong></p>
+<ul>
+<li><em>CL is NOT USED to determine how much of an initial dose (or loading dose) of an antibiotic to give to a patient</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="most-antibiotics-are-eliminated-via-the-kidneys-and-maintenance-doses-must-be-adjusted-for-renal-function" class="slide level2 smaller">
+<h2>Most antibiotics are eliminated via the kidneys and maintenance doses must be adjusted for renal function</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/mero-dose%20adjustment.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35"><img data-src="images/mero-dose%20adjustment.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="estimating-renal-function" class="slide level2">
+<h2>Estimating renal function</h2>
+<p><br></p>
+<p>Cockcroft-Gault formula (other formulas MDRD…etc.)</p>
+<p><br></p>
+<p><span class="math display">\[
+\text{CrCl (mL/min)} = \frac{(140 - \text{age}) \times \text{weight (kg)}}{72 \times \text{SCr (mg/dL)}} \times 0.85 \text{ (if female)}
+\]</span></p>
+<p><br></p>
+<ul>
+<li><p>Formula developed primarily in Caucasian males with chronic renal disease</p></li>
+<li><p>Does not take into account effects on older age, comorbidities and drug interactions with renal tubular secretion</p></li>
+<li><p>Antibiotic dosing in dialysis (drug-specific dosing guidance)</p></li>
+</ul>
+</section>
+<section id="problems-of-using-serum-creatinine-based-dosing-adjustments" class="slide level2">
+<h2>Problems of using serum creatinine-based dosing adjustments</h2>
+<p><br></p>
+<ul>
+<li><p>Antibiotic renal dose adjustments in drug labels are based on patients with chronic kidney disease</p></li>
+<li><p>Renal impairment is acute, not chronic, in up to 50% of patients with infection <strong>and frequently resolves within the first 48 hours</strong></p></li>
+<li><p>Creatinine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury</p>
+<ul>
+<li>Decreases in SeCr are delayed with respect to injury resolution</li>
+</ul></li>
+<li><p><strong>Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics</strong></p></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="crassRenalDosingAntibiotics2019">(<a href="#/references" role="doc-biblioref" onclick="">Crass et al., 2019</a>)</span></p>
+</div></aside></section>
+<section id="hepatic-clearance-of-antibiotics" class="slide level2">
+<h2>Hepatic clearance of antibiotics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/hepatic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36"><img data-src="images/hepatic.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="drug-interaction-screening" class="slide level2">
+<h2>Drug interaction screening</h2>
+<p><br> <br></p>
+<center>
+https://www.uptodate.com/contents/search <br> <a href="https://www.uptodate.com/contents/search">UptoDate</a>
+</center>
+</section>
+<section id="pkpd-indices" class="slide level2">
+<h2>PK/PD indices</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-2657724390.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37"><img data-src="images/clipboard-2657724390.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+</section>
+<section id="how-are-pkpd-indicies-identified" class="slide level2">
+<h2>How are PK/PD indicies identified?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-2182940819.png" class="lightbox" data-gallery="quarto-lightbox-gallery-38"><img data-src="images/clipboard-2182940819.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="do-pkpd-indices-correlate-with-clinical-outcome-of-antibiotic-therapy" class="slide level2">
+<h2>Do PK/PD indices correlate with <br> clinical outcome of antibiotic therapy</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-406664738.png" class="lightbox" data-gallery="quarto-lightbox-gallery-39"><img data-src="images/clipboard-406664738.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="pkpd-characteristics-of-common-antibiotic-classes" class="slide level2">
+<h2>PK/PD characteristics of common <br> antibiotic classes</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-3004890051.png" class="lightbox" data-gallery="quarto-lightbox-gallery-40"><img data-src="images/clipboard-3004890051.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="application-optimized-dosing-of-meropenem" class="slide level2">
+<h2>Application: Optimized dosing of meropenem</h2>
+<iframe src="https://tdmx.shinyapps.io/Meropenem/" width="100%" height="900px">
+</iframe>
+<p><a href="https://www.tdmx.eu/Launch-TDMx/" class="uri">https://www.tdmx.eu/Launch-TDMx/</a></p>
+</section>
+<section id="daptomycin-is-inactivated-in-the-lung" class="slide level2">
+<h2>Daptomycin is inactivated in the lung</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clipboard-3779354213.png" class="lightbox" data-gallery="quarto-lightbox-gallery-41"><img data-src="images/clipboard-3779354213.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="antibiotic-activity-in-abscess" class="slide level2">
+<h2>Antibiotic activity in abscess</h2>
+<p><br><strong>Aminoglycosides</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Bind and are inactivated by purulent material</p></li>
+<li><p>Decrease aminoglycoside uptake into facultative aerobic bacteria at low pH</p></li>
+<li><p><strong>Penicillins and tetracyclines</strong></p>
+<ul>
+<li><p>Bound by hemoglobin, less effective with hematoma formation</p></li>
+<li><p>Emphasizes importance of source control (abscess drainage, removal of prosthetic material)</p></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><a href="images/clipboard-3855805086.png" class="lightbox" data-gallery="quarto-lightbox-gallery-42"><img data-src="images/clipboard-3855805086.png"></a></p>
+</div></div>
+</section>
+<section id="principle-7-de-escalate-antibiotic-therapy-based-on-microbiology-results-and-clinical-biomarker-responses" class="slide level2">
+<h2>Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/microbiological%20workup.png" class="lightbox" data-gallery="quarto-lightbox-gallery-43"><img data-src="images/microbiological%20workup.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="antibiotic-de-escalation" class="slide level2">
+<h2>Antibiotic de-escalation</h2>
+<p><br></p>
+<ul>
+<li><p><strong>De-escalation with pathogen identification</strong></p>
+<ul>
+<li>e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures</li>
+</ul></li>
+<li><p><strong>Clinical improvement-reduction in fever and leukocytosis</strong></p></li>
+<li><p>Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown from culture</p>
+<ul>
+<li>e.g., stopping empirical vancomycin in a patient without positive MRSA cultures</li>
+</ul></li>
+<li><p><strong>Biomarkers:</strong> C-reactive protein (clinical utility questioned), procalcitonin -<em>areas of diagnostic stewardship as tests are frequently abused</em></p></li>
+</ul>
+<aside class="notes">
+<p>Clinicians often ignore negative results but may use a positive procalcitonin to justify antibiotic use</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="incorporation-of-procalcitonin-into-therapeutic-decisions-reduces-antibiotic-use" class="slide level2">
+<h2>Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use<br></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/pct.png" class="lightbox" data-gallery="quarto-lightbox-gallery-44"><img data-src="images/pct.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+<div class="footer">
+<p><span class="citation" data-cites="schuetzProcalcitoninGuideInitiation2012">(<a href="#/references" role="doc-biblioref" onclick="">Schuetz et al., 2012</a>)</span></p>
+</div>
+</section>
+<section id="choosing-therapy-gram-stain-vs.-guidelines" class="slide level2 smaller">
+<h2>Choosing therapy : <br> gram-stain vs.&nbsp;guidelines</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/grace_trial.png" class="lightbox" data-gallery="quarto-lightbox-gallery-45"><img data-src="images/grace_trial.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+<ul>
+<li><p>Gram strain guided therapy resulted in a 30% reduction in use of anti-pseudomonal agents and 40% reduction in MRSA agents</p></li>
+<li><p>Gram-stain guided therapy resulted in higher rate of appropriate antibiotic escalation (7% vs.&nbsp;1%, p=0.03)</p></li>
+</ul>
+<div class="footer">
+<p><span class="citation" data-cites="yoshimura2022">(<a href="#/references" role="doc-biblioref" onclick="">Yoshimura et al., 2022</a>)</span></p>
+</div>
+</section>
+<section id="susceptibility-testing-mean-inhibitory-concentration" class="slide level2">
+<h2>Susceptibility testing-Mean inhibitory concentration</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/MIC.png" class="lightbox" data-gallery="quarto-lightbox-gallery-46"><img data-src="images/MIC.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="principle-8-if-therapy-is-not-working-consider-source-control-or-alternative-diagnosis-before-assuming-resistance-and-broadening-therapy" class="slide level2">
+<h2>Principle #8: If therapy is not working, consider source control or alternative diagnosis before assuming resistance and broadening therapy</h2>
+<ul>
+<li><p>Consider changing antibiotics of the following parameters do not improve: <br> <br></p>
+<ul>
+<li>Fever curve</li>
+<li>White blood cell count</li>
+<li>Purulent secretions</li>
+<li>Signs of inflammation (<em>rubor, tumor, dolor, calor)</em></li>
+<li>Biomarkers (procalcitonin)</li>
+</ul></li>
+</ul>
+</section>
+<section id="source-control" class="slide level2 smaller">
+<h2>Source control</h2>
+<p><br> <br></p>
+<table class="caption-top" style="width:99%;">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 21%">
+<col style="width: 17%">
+<col style="width: 23%">
+<col style="width: 18%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Occult subcutaneous abscess in cellulitis</td>
+<td>New abscess formation in intraabdominal infection</td>
+<td>Empyema in community-acquired pneumonia</td>
+<td>Visceral or skeletal abscess in patient with bacteremia</td>
+<td>Failure to remove a central venous catheter</td>
+</tr>
+<tr class="even">
+<td><img data-src="images/abscess.png"></td>
+<td><img data-src="images/abdominlaabscess.png"></td>
+<td><img data-src="images/empyema.png"></td>
+<td><img data-src="images/spondylitis.png"></td>
+<td><img data-src="images/biofilm.png"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="biofilms-a-key-source-of-antibiotic-failure" class="slide level2">
+<h2>Biofilms: A key source of antibiotic failure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/biofilm2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-47"><img data-src="images/biofilm2.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="antibiotic-fail" class="slide level2">
+<h2>Antibiotic FAIL</h2>
+<p><br></p>
+<p><br></p>
+<ul>
+<li><p><strong>F</strong>alse diagnosis</p></li>
+<li><p><strong>A</strong>llergies</p></li>
+<li><p><strong>I</strong>ntercurrent infections</p></li>
+<li><p><strong>L</strong>ocalized process</p></li>
+</ul>
+</section>
+<section id="principle-9-distinguish-new-infection-from-failure-of-initial-therapy" class="slide level2 smaller">
+<h2>Principle #9: Distinguish new infection from failure of initial therapy</h2>
+<p><br></p>
+<ul>
+<li><p><strong>New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection</strong></p></li>
+<li><p><strong>Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens</strong></p>
+<ul>
+<li><p>This may be seen more with specific bacterial pathogens, such as <em>Acinetobacter baumannii</em>, than with others</p></li>
+<li><p>An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary</p></li>
+</ul></li>
+<li><p>**I*n these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens**</p>
+<ul>
+<li>Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens</li>
+</ul></li>
+<li><p><strong>When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)</strong></p></li>
+</ul>
+</section>
+<section id="principle-10-the-duration-of-therapy-should-be-as-short-as-possible-based-on-evidence" class="slide level2 smaller">
+<h2>Principle #10: The duration of therapy should be as short as possible based on evidence <br></h2>
+<p><br></p>
+<table class="caption-top" style="width:99%;">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 17%">
+<col style="width: 29%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Disease</th>
+<th>Short course (days)</th>
+<th>Long course (days)</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bacteremia, gram-negative</td>
+<td>7</td>
+<td>14</td>
+<td>Equivalent</td>
+</tr>
+<tr class="even">
+<td>Chronic bronchitis and COPD</td>
+<td>≤ 5 days</td>
+<td>≥ 7</td>
+<td>Equivalent</td>
+</tr>
+<tr class="odd">
+<td>Intra-abdominal infection</td>
+<td>4</td>
+<td>10</td>
+<td>Equivalent</td>
+</tr>
+<tr class="even">
+<td>Neutropenic fever</td>
+<td>Until afebrile and stable</td>
+<td>Until, afebrile, stable and non-neutropenic</td>
+<td>Equivalent</td>
+</tr>
+<tr class="odd">
+<td>Osteomyelitis, chronic</td>
+<td>42</td>
+<td>84</td>
+<td>Equivalent</td>
+</tr>
+<tr class="even">
+<td>Pneumonia, community-acquired</td>
+<td>3-5</td>
+<td>7-10</td>
+<td>Equivalent</td>
+</tr>
+<tr class="odd">
+<td>Pneumonia, nosocomial (including VAP)</td>
+<td>≤ 8</td>
+<td>10-15</td>
+<td>Equivalent</td>
+</tr>
+<tr class="even">
+<td>Pyelonephritis</td>
+<td>5-7</td>
+<td>10-14</td>
+<td>Equivalent</td>
+</tr>
+<tr class="odd">
+<td>Skin infections (cellulitis, major abscess, wound infections)</td>
+<td>5-6</td>
+<td>10-14</td>
+<td>Equivalent</td>
+</tr>
+<tr class="even">
+<td>Sinusitis, acute bacterial</td>
+<td>5</td>
+<td>10</td>
+<td>Equivalent</td>
+</tr>
+</tbody>
+</table>
+
+<aside><div>
+<p><span class="citation" data-cites="spellbergPrinciplesAntibioticTherapy2025">(<a href="#/references" role="doc-biblioref" onclick="">Spellberg, 2025b</a>)</span></p>
+</div></aside></section></section>
+<section>
+<section id="common-myths-of-antibiotic-therapy" class="title-slide slide level1" data-background-color="#9B0014">
+<h1>Common myths of antibiotic therapy</h1>
+
+</section>
+<section id="myth-1-bactericidal-antibiotics-are-more-effective-than-bacteriostatic" class="slide level2 smaller">
+<h2>Myth 1:<br> “Bactericidal” antibiotics are more effective <br> than “bacteriostatic”</h2>
+<ul>
+<li><p>Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours</p></li>
+<li><p>Bactericidal antibiotic: MBC of drug is 4-fold or less above the MIC</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/MIC_MBC.png" class="lightbox" data-gallery="quarto-lightbox-gallery-48"><img data-src="images/MIC_MBC.png" class="quarto-figure quarto-figure-center" width="350"></a></p>
+</figure>
+</div>
+<p><em>However, “bacteriostatic” drugs do kill bacteria, they just require higher concentrations</em></p>
+</section>
+<section id="systematic-literature-reviews-cidal-vs.-static-antibiotics-for-bacterial-infections" class="slide level2">
+<h2>Systematic literature reviews: <em>cidal vs.&nbsp;static</em> <br> antibiotics for bacterial infections*</h2>
+<p><br> <br></p>
+<ul>
+<li><p>56 randomized controlled trials identified</p></li>
+<li><p>49/56 found no difference in clinical outcomes, including highly-lethal infections in critically-ill patients</p>
+<ul>
+<li>Typhoid fever, severe pneumonia, severe sepsis</li>
+</ul></li>
+<li><p>6 trials reported linezolid (static antibiotic) to be superior to “cidal” agents (vancomycin, teicoplanin or cephalosporins)</p></li>
+<li><p>1 trial found imipenem superior to tigecycline in ventilator associated pneumonia- however tigecycline dosage was too low:</p>
+<ul>
+<li>A subsequent study using double to dose of tigecycline found no difference</li>
+</ul></li>
+</ul>
+<div class="footer">
+<p><span class="citation" data-cites="wald-dicklerBustingMythStatic2017">(<a href="#/references" role="doc-biblioref" onclick="">Wald-Dickler et al., 2017</a>)</span></p>
+</div>
+</section>
+<section id="other-examples-where-more-rapid-bactericidal-activity-failed-to-show-clinical-superiority" class="slide level2" data-background-image="\images\busted.png" data-background-opacity="0.2">
+<h2>Other examples where more rapid bactericidal activity failed to show clinical superiority</h2>
+<ul>
+<li><p>Daptomycin (rapidly bactericidal) vs.&nbsp;vancomycin (slowly bactericidal) against <em>Staphylococcus aureus</em> bacteremia and right-sided endocarditis</p></li>
+<li><p>Addition of aminoglycosides to ß-lactams or ß-lactams to vancomycin/daptomycin results in more rapid kill of staphylococci, but in clinical trials no improvement in outcomes and higher rates of nephrotoxicity</p></li>
+<li><p>Bacterial endocarditis: Historical artifact?</p>
+<ul>
+<li><p>Early studies compared high Vd drugs (tetracyclines, marcolides) to penicillins (low Vd drugs) for endocarditis</p></li>
+<li><p>Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="myth-2-oral-antibioic-therapy-is-less-effective-than-iv-for-complex-infections" class="slide level2">
+<h2>Myth 2: Oral antibioic therapy is less effective <br> than IV for complex infections</h2>
+<p><br> <br></p>
+<ul>
+<li><p><strong>Osteomyelitis</strong>: Earlier studies with oral sulfanilamide, erythromycin, tetracycline with low blood and bone concentrations were associated with higher failure rates-did not surpass pathon MICs</p></li>
+<li><p><strong>However</strong>, numerous modern antibiotics can acheive levels in blood and bone that are well in excess of target pathogen MICs</p></li>
+</ul>
+</section>
+<section id="oral-is-the-new-iv" class="slide level2">
+<h2>Oral is the new IV</h2>
+<p><br></p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Osteomyelitis</a></li><li><a href="#tabset-1-2">Bacteremia</a></li><li><a href="#tabset-1-3">Endocarditis</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><a href="images\osteo_meta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-49"><img data-src="images\osteo_meta.png"></a></p>
+</div>
+<div id="tabset-1-2">
+<p><a href="images\bactermia_meta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-50"><img data-src="images\bactermia_meta.png"></a></p>
+</div>
+<div id="tabset-1-3">
+<p><a href="images\endo_meta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-51"><img data-src="images\endo_meta.png"></a></p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="wald-dicklerOralNewIV2022">(<a href="#/references" role="doc-biblioref" onclick="">Wald-Dickler et al., 2022</a>)</span></p>
+</div></aside></section>
+<section id="transitioning-to-oral-therapy-key-considerations" class="slide level2">
+<h2>Transitioning to oral therapy: <br> Key considerations</h2>
+<p><br></p>
+<ul>
+<li><p>Is the patient hemodynamically stable?</p></li>
+<li><p>Will the patient absorb the medication (functioning GI tract)?</p></li>
+<li><p>Can the patient take drugs by mouth</p></li>
+<li><p>Do we have an antibiotic option with good bioavailability for the infection?</p></li>
+</ul>
+</section>
+<section id="oral-bioavailability-of-antibiotics" class="slide level2">
+<h2>Oral bioavailability of antibiotics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/bioavail.png" class="lightbox" data-gallery="quarto-lightbox-gallery-52"><img data-src="images/bioavail.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="myth-3-combination-therapy-the-good-the-badand-the-ugly" class="slide level2">
+<h2>Myth #3: Combination therapy: <br><em>The good, the bad,…and the ugly</em></h2>
+<p><br> <br></p>
+<ul>
+<li><p>Are 2, 3 or 4 drugs better than 1?…..it depends on the situation</p></li>
+<li><p><strong>Synergistic combination</strong> the killing effect of two or more antibiotics is greater than the added effect of each antibiotic by itself</p></li>
+<li><p>Clinically, suggests that the success rate (however measured) is better when the two antibiotics are administered simultaneously</p></li>
+</ul>
+</section>
+<section id="microbiological-rationale-checkerboard-test" class="slide level2">
+<h2>Microbiological rationale: Checkerboard test</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/Screenshot%202026-01-15%20101119.png" class="lightbox" data-gallery="quarto-lightbox-gallery-53"><img data-src="images/Screenshot%202026-01-15%20101119.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="combination-therapy-the-good" class="slide level2">
+<h2>Combination therapy: <em>The good</em></h2>
+<p><br></p>
+<ul>
+<li><p><strong>Spectrum</strong>: More than one drug is required to provide adequate coverage</p>
+<ul>
+<li><p>e.g., adding macrolide or doxycycline to cover atypical pathogens not treated by backbone ß-lactam</p></li>
+<li><p>Specific ICU ward or hospital ward with high rates of MDR- Two drugs may have greater coverage of MDR pathogens</p></li>
+</ul></li>
+<li><p><strong>Preventing emergence of resistance in specific clinical scenarios</strong></p>
+<ul>
+<li><p>Tuberculosis: Slow growth, non-replicating or low-replicating persister cells and can achieve high bacterial densities in cavitary disease with spontaneous mutations</p></li>
+<li><p>HIV and hepatitis C: Resistance converts a treatable (HIV) or curable (HCV) infection into a fatal illness</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="combination-therapy-the-good-cont." class="slide level2">
+<h2>Combination therapy: <em>The good, cont.</em></h2>
+<p><br> <br></p>
+<ul>
+<li><p><strong>Two active agents results in superior clinical outcomes compared to single active agent</strong></p>
+<ul>
+<li><p>Slow growing infection/non replicating persisters- e.g.&nbsp;anti-tubular activity of rifampin and PZA ensure (1) empirical therapy is active; (2) prevent emergence of resistance; (3) improve clinical cure with shorter duration of therapy</p></li>
+<li><p>Bone and joint infections (nonreplicating bacteria in biofilm): Reduced relapse rates with addition of rifampin, especially to fluoroquinolones</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="exotoxin-mediated-infections--necrotizing-fasciitis" class="slide level2">
+<h2>Exotoxin-mediated infections- <br> Necrotizing fasciitis</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/necr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-54"><img data-src="images/necr.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Streptococci or <em>Clostriudium</em> infections that are extremely destructive and aggressive</li>
+<li>Addition of clindamycin or linezolid as a 2nd agent terminates protein synthgesis: shutting down toxin production in the bacteria</li>
+<li>Adding protein synthesis inhibitors to backbone antibacterial therapy has been associated with improved survival in retrospective studies</li>
+</ul>
+</div></div>
+</section>
+<section id="eukaryotic-infections-combination-therapy-is-beneficial" class="slide level2">
+<h2>Eukaryotic infections: <br> Combination therapy is beneficial</h2>
+<ul>
+<li><p>Cryptococcal meningitis (fungal infection): Amphotericin B + 5-FC</p></li>
+<li><p>Protozoal infection (<em>Plasmodium vivax P. ovale</em>): Primaquine added to backbone therapy to kill hepatic -phase hypnozoites not killed by other agents, which lead to late relapse</p></li>
+<li><p>Acute amebic colitis: Metronidazole + luminicidal agent (iodoquinol or paromomycin) to kill encysted, non-meatabolically actuve organisms in the bowel lumen</p></li>
+<li><p>Nematode infections: Doxycycline added to ivermectin or albendazole to kill commensal bacteria <em>Wolbachia</em>, which play a role in the parasite viability and fertility.</p></li>
+<li><p>Neurocystosis: Albendazole plus praziquantel: Dula mechanism of killing and pharmacokinetic interaction leading to higher drug exposures in the CNS and cysts within the sequestered site</p></li>
+</ul>
+</section>
+<section id="combination-therapy-the-bad-redundant-definitive-therapy-for-typical-infections" class="slide level2">
+<h2>Combination therapy <em>the bad-Redundant definitive therapy for “typical infections”</em></h2>
+<p><br></p>
+<ul>
+<li><p>Very few data supporting the use of two active agents for acute, pyogenic bacterial infections</p>
+<ul>
+<li><p>Organisms are in planktonic growth, not multiple phases of life cycle</p></li>
+<li><p>No commensal organisms inside the bacteria to kill</p></li>
+<li><p>Pharmacology and killing activity of single agents is good</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="combination-therapy-for-pseudomonas-aeruginosa" class="slide level2">
+<h2>Combination therapy for <br><em>Pseudomonas aeruginosa</em></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/psa_meta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-55"><img data-src="images/psa_meta.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+<ul>
+<li><p>Combination therapy studies for severe infections/sepsis have also found no advantage for dual therapy</p></li>
+<li><p>Dual therapy more likely to result in toxicity and microbiom harm- potential resistance to 2 drug classes</p></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="huCombinationAntibioticTherapy2013">(<a href="#/references" role="doc-biblioref" onclick="">Hu et al., 2013</a>)</span></p>
+</div></aside></section>
+<section id="combination-therapy--the-ugly-imperfect-data" class="slide level2">
+<h2>Combination therapy- <em>The ugly: imperfect data</em></h2>
+<p><br> <br></p>
+<ul>
+<li><p>Fungal infections outside cryptococcosis</p>
+<ul>
+<li><p><em>Candida</em> infections- no clear benefit</p></li>
+<li><p><em>Aspergillus</em> infection- possible benefit with echinocandins and triazoles</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="does-combination-therapy-prevent-resistance" class="slide level2">
+<h2>Does combination therapy prevent resistance?</h2>
+<p><br></p>
+<ul>
+<li><p><em><strong>Yes-</strong> Tuberculosis, HIV, HCV</em></p></li>
+<li><p>In test tubes (in theory) may work- <em>but Pyrrhic victory- greater selection for resistance, greater impact on microbiome?</em></p></li>
+</ul>
+</section>
+<section id="conclusions" class="slide level2" data-background-image="images/antibiotic-resistance.jpg" data-background-opacity="0.3">
+<h2>Conclusions</h2>
+<ul>
+<li>Antibiotic therapy are miracle cures that have fundamentally altered the practice of medicine</li>
+<li>Their incredible power to effectively treat patients is fleeting</li>
+<li>Physicians bear the burden of using antibiotics effectively to heal and cure patients while preserving this awesome power</li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<p><br> <br></p>
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-chastain2023" class="csl-entry" role="listitem">
+Chastain DB, Spradlin M, Ahmad H, Henao-Martínez AF. Unintended consequences: Risk of opportunistic infections associated with long-term glucocorticoid therapies in adults. Clinical Infectious Diseases 2023:ciad474. <a href="https://doi.org/10.1093/cid/ciad474">https://doi.org/10.1093/cid/ciad474</a>.
+</div>
+<div id="ref-chow2012" class="csl-entry" role="listitem">
+Chow AW, Benninger MS, Brook I, Brozek JL, Goldstein EJC, Hicks LA, et al. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. Clinical Infectious Diseases 2012;54:e72–112. <a href="https://doi.org/10.1093/cid/cir1043">https://doi.org/10.1093/cid/cir1043</a>.
+</div>
+<div id="ref-craig_1998" class="csl-entry" role="listitem">
+Craig WA. Pharmacokinetic/pharmacodynamic parameters: Rationale for antibacterial dosing of mice and men. Clinical Infectious Diseases 1998;26:1–10. <a href="https://doi.org/10.1086/516284">https://doi.org/10.1086/516284</a>.
+</div>
+<div id="ref-crassRenalDosingAntibiotics2019" class="csl-entry" role="listitem">
+Crass RL, Rodvold KA, Mueller BA, Pai MP. Renal dosing of antibiotics: Are we jumping the gun? Clinical Infectious Diseases 2019;68:1596–602. <a href="https://doi.org/10.1093/cid/ciy790">https://doi.org/10.1093/cid/ciy790</a>.
+</div>
+<div id="ref-gilbert2006a" class="csl-entry" role="listitem">
+Gilbert DN. Urinary tract infections in patients with chronic renal insufficiency. Clinical Journal of the American Society of Nephrology 2006;1:327. <a href="https://doi.org/10.2215/CJN.01931105">https://doi.org/10.2215/CJN.01931105</a>.
+</div>
+<div id="ref-huCombinationAntibioticTherapy2013" class="csl-entry" role="listitem">
+Hu Y, Li L, Li W, Xu H, He P, Yan X, et al. Combination antibiotic therapy versus monotherapy for pseudomonas aeruginosa bacteraemia: A meta-analysis of retrospective and prospective studies. International Journal of Antimicrobial Agents 2013;42:492–6. <a href="https://doi.org/10.1016/j.ijantimicag.2013.09.002">https://doi.org/10.1016/j.ijantimicag.2013.09.002</a>.
+</div>
+<div id="ref-kumar2006" class="csl-entry" role="listitem">
+Kumar A, Roberts D, Wood KE, Light B, Parrillo JE, Sharma S, et al. Duration of hypotension before initiation of effective antimicrobial therapy is the critical determinant of survival in human septic shock*. Critical Care Medicine 2006;34:1589. <a href="https://doi.org/10.1097/01.CCM.0000217961.75225.E9">https://doi.org/10.1097/01.CCM.0000217961.75225.E9</a>.
+</div>
+<div id="ref-luu2021" class="csl-entry" role="listitem">
+Luu A, Dominguez F, Yeshoua B, Vo C, Nallapa S, Chung D, et al. Reducing catheter-associated urinary tract infections via cost-saving diagnostic stewardship. Clinical Infectious Diseases 2021;72:e883–6. <a href="https://doi.org/10.1093/cid/ciaa1512">https://doi.org/10.1093/cid/ciaa1512</a>.
+</div>
+<div id="ref-massis2005" class="csl-entry" role="listitem">
+Massis FD, Girolamo AD, Petrini A, Pizzigallo E, Giovannini A. Correlation between animal and human brucellosis in italy during the period 1997<span></span>2002. Clinical Microbiology and Infection 2005;11:632–6. <a href="https://doi.org/10.1111/j.1469-0691.2005.01204.x">https://doi.org/10.1111/j.1469-0691.2005.01204.x</a>.
+</div>
+<div id="ref-schuetzProcalcitoninGuideInitiation2012" class="csl-entry" role="listitem">
+Schuetz P, Briel M, Christ-Crain M, Stolz D, Bouadma L, Wolff M, et al. Procalcitonin to guide initiation and duration of antibiotic treatment in acute respiratory infections: An individual patient data meta-analysis. Clinical Infectious Diseases 2012;55:651–62. <a href="https://doi.org/10.1093/cid/cis464">https://doi.org/10.1093/cid/cis464</a>.
+</div>
+<div id="ref-spellberg2025" class="csl-entry" role="listitem">
+Spellberg B. Principles of antibiotic therapy. vol. 1. 10th ed., 2025a, p. 218–28.
+</div>
+<div id="ref-spellbergPrinciplesAntibioticTherapy2025" class="csl-entry" role="listitem">
+Spellberg B. Principles of antibiotic therapy. Mandell, douglas, and bennett’s principles and practice of infectious diseases 10th edition, vol. 1. 10th ed., 2025b, p. 218–28.
+</div>
+<div id="ref-tamma2017b" class="csl-entry" role="listitem">
+Tamma PD, Avdic E, Li DX, Dzintars K, Cosgrove SE. Association of adverse events with antibiotic use in hospitalized patients. JAMA Internal Medicine 2017;177:1308–15. <a href="https://doi.org/10.1001/jamainternmed.2017.1938">https://doi.org/10.1001/jamainternmed.2017.1938</a>.
+</div>
+<div id="ref-theuretzbacher2012" class="csl-entry" role="listitem">
+Theuretzbacher U. Pharmacokinetic and pharmacodynamic issues for antimicrobial therapy in patients with cancer. Clinical Infectious Diseases 2012;54:1785–92. <a href="https://doi.org/10.1093/cid/cis210">https://doi.org/10.1093/cid/cis210</a>.
+</div>
+<div id="ref-wald-dicklerOralNewIV2022" class="csl-entry" role="listitem">
+Wald-Dickler N, Holtom PD, Phillips MC, Centor RM, Lee RachaelA, Baden R, et al. Oral is the new IV. Challenging decades of blood and bone infection dogma: A systematic review. The American Journal of Medicine 2022;135:369–379.e1. <a href="https://doi.org/10.1016/j.amjmed.2021.10.007">https://doi.org/10.1016/j.amjmed.2021.10.007</a>.
+</div>
+<div id="ref-wald-dicklerBustingMythStatic2017" class="csl-entry" role="listitem">
+Wald-Dickler N, Holtom P, Spellberg B. Busting the myth of <span>“static vs. Cidal”</span>: A systemic literature review. Clinical Infectious Diseases: An 2017. <a href="https://doi.org/10.1093/cid/cix1127">https://doi.org/10.1093/cid/cix1127</a>.
+</div>
+<div id="ref-yoshimura2022" class="csl-entry" role="listitem">
+Yoshimura J, Yamakawa K, Ohta Y, Nakamura K, Hashimoto H, Kawada M, et al. Effect of gram stain–guided initial antibiotic therapy on clinical response in patients with ventilator-associated pneumonia: The GRACE-VAP randomized clinical trial. JAMA Network Open 2022;5:e226136. <a href="https://doi.org/10.1001/jamanetworkopen.2022.6136">https://doi.org/10.1001/jamanetworkopen.2022.6136</a>.
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="Principles_lecture_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="Principles_lecture_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/multiplex/multiplex.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="Principles_lecture_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="Principles_lecture_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'multiplex': {"secret":"f7110158923cc635f2fa4fb8001ed798","id":"36216641fb8812554cb71d371acdec12c61b0793c36f8797fd9c0ef844a8abad","url":"https://multiplex.up.railway.app/"},
+'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>
