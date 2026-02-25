@@ -34,13 +34,13 @@ Click on this link: [TDMx](http://www.tdmx.eu/Launch-TDMx/)
 
 [Gentamicin](http://52.17.60.199/Gentamicin1/) <br> [Vancomycin](https://tdmx.shinyapps.io/vancomycin/) <br> [Meropenem](https://tdmx.shinyapps.io/Meropenem/) <br>
 
-## Lecture Part 1 
+## Lecture notes- Part 1 
 
 <iframe src="Principles_handout_web.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">
 
 </iframe>
 
-## Lecture Part 2 
+## Lecture notes- Part 2 
 
 <iframe src="Principles_handout_web_part2.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">
 
