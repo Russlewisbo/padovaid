@@ -17,5 +17,6 @@ format:
     theme: journal
     css: styles.css
     toc: true
+    include-before-body: translate.html
 editor: visual
 

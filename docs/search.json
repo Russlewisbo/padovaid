@@ -1,20 +1,10 @@
 [
   {
-    "objectID": "Antibiotic.html",
-    "href": "Antibiotic.html",
-    "title": "Principles of Antibiotic Therapy",
-    "section": "",
-    "text": "Web (HTML) version of lecture slides can be accessed here\nPDF version of slides (interactive content will not work) can be accessed: here",
-    "crumbs": [
-      "Principles of Antibiotic Therapy"
-    ]
-  },
-  {
     "objectID": "Antibiotic.html#slides",
     "href": "Antibiotic.html#slides",
     "title": "Principles of Antibiotic Therapy",
-    "section": "",
-    "text": "Web (HTML) version of lecture slides can be accessed here\nPDF version of slides (interactive content will not work) can be accessed: here",
+    "section": "Slides",
+    "text": "Slides\nWeb (HTML) version of lecture slides can be accessed here\nPDF version of slides (interactive content will not work) can be accessed: here",
     "crumbs": [
       "Principles of Antibiotic Therapy"
     ]
@@ -74,18 +64,11 @@
     "text": "Objectives"
   },
   {
-    "objectID": "Resistance.html",
-    "href": "Resistance.html",
-    "title": "Antimicrobial Resitance in ESCAPE Pathogens",
-    "section": "",
-    "text": "A PDF copy of lecture slides can be downloaded here"
-  },
-  {
     "objectID": "Resistance.html#slides",
     "href": "Resistance.html#slides",
     "title": "Antimicrobial Resitance in ESCAPE Pathogens",
-    "section": "",
-    "text": "A PDF copy of lecture slides can be downloaded here"
+    "section": "Slides",
+    "text": "Slides\nA PDF copy of lecture slides can be downloaded here"
   },
   {
     "objectID": "Resistance.html#background-reading",
@@ -95,18 +78,11 @@
     "text": "Background reading\nRecent comprehensive review of antimicrobial resistance in ESKAPE pathogens ESKAPE review\nInfectious Diseases Society of America Guidelines for Treating ESBL, CRE and Pseudomonas IDSA1\nInfectious Diseases Society of America Guidelines for Treating AMP-C beta-lactamases, Carbapenem-resistant Acinetobacter spp. and Stenotrophomonas IDSA2\nESCMID Guidelines for treatment of MDR Gram-Negative Organisms ESCMID\nExcellent review on AMP-C resistance AMP-C\nExcellent review on role of new antibiotics for carbapenem-resistant pathogens new agents"
   },
   {
-    "objectID": "febrileneutropenia.html",
-    "href": "febrileneutropenia.html",
-    "title": "Febrile neutropenia",
-    "section": "",
-    "text": "Slides"
-  },
-  {
     "objectID": "febrileneutropenia.html#lecture-slides",
     "href": "febrileneutropenia.html#lecture-slides",
     "title": "Febrile neutropenia",
-    "section": "",
-    "text": "Slides"
+    "section": "Lecture slides",
+    "text": "Lecture slides\nSlides"
   },
   {
     "objectID": "febrileneutropenia.html#nccn-guidelines",
@@ -998,18 +974,11 @@
     "text": "References"
   },
   {
-    "objectID": "Intraabdominal.html",
-    "href": "Intraabdominal.html",
-    "title": "Intraabdominal infections",
-    "section": "",
-    "text": "A PDF copy of lecture slides can be downloaded here\nStudy guide\nIDSA guidelines  Surgical Infection Society Guidelines"
-  },
-  {
     "objectID": "Intraabdominal.html#slides",
     "href": "Intraabdominal.html#slides",
     "title": "Intraabdominal infections",
-    "section": "",
-    "text": "A PDF copy of lecture slides can be downloaded here\nStudy guide\nIDSA guidelines  Surgical Infection Society Guidelines"
+    "section": "Slides",
+    "text": "Slides\nA PDF copy of lecture slides can be downloaded here\nStudy guide\nIDSA guidelines  Surgical Infection Society Guidelines"
   },
   {
     "objectID": "Malaria2.html#parasitic-diseases-malaria-and-leishmaniasis",
@@ -1038,13 +1007,6 @@
     "title": "Parasites: Malaria and Leishmaniasis",
     "section": "",
     "text": "Handout\nStudy guide\nWHO Malaria Treatment Guidelines\nComprehensive Review on Malaria\nReview on leishmaniasis"
-  },
-  {
-    "objectID": "Diarrheapage.html",
-    "href": "Diarrheapage.html",
-    "title": "Infectious Diarrhea",
-    "section": "",
-    "text": "Slides\nStudy guide\nACG Clinical Guideline: Diagnosis, Treatment, and Prevention of Acute Diarrheal Infections in Adults\n2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea\nA useful review that contains information on when and what tests to use for symptomatic diarhhea Syndromic Panel-Based Testing in Clinical Microbiology"
   },
   {
     "objectID": "Diarrheapage.html#section",
@@ -1617,32 +1579,18 @@
     ]
   },
   {
-    "objectID": "IFI.html",
-    "href": "IFI.html",
-    "title": "Invasive Fungal Infections",
-    "section": "",
-    "text": "Slides\nReview article on antifungal agents agents\nTissue penetration of antifungals\nReview article on antifungal susceptibility testing\nReview on invasive candidiasis\nReview on invasive aspergillosis\nReview on cryptococcosis"
-  },
-  {
     "objectID": "IFI.html#lecture-slides",
     "href": "IFI.html#lecture-slides",
     "title": "Invasive Fungal Infections",
-    "section": "",
-    "text": "Slides\nReview article on antifungal agents agents\nTissue penetration of antifungals\nReview article on antifungal susceptibility testing\nReview on invasive candidiasis\nReview on invasive aspergillosis\nReview on cryptococcosis"
-  },
-  {
-    "objectID": "FUOpage.html",
-    "href": "FUOpage.html",
-    "title": "Fever of Unknown Origin (FUO)",
-    "section": "",
-    "text": "Lecture slides can be accessed here\nPDF version of the slides can be downloaded here\nStudy guide"
+    "section": "Lecture slides",
+    "text": "Lecture slides\nSlides\nReview article on antifungal agents agents\nTissue penetration of antifungals\nReview article on antifungal susceptibility testing\nReview on invasive candidiasis\nReview on invasive aspergillosis\nReview on cryptococcosis"
   },
   {
     "objectID": "FUOpage.html#lecture-slides",
     "href": "FUOpage.html#lecture-slides",
     "title": "Fever of Unknown Origin (FUO)",
-    "section": "",
-    "text": "Lecture slides can be accessed here\nPDF version of the slides can be downloaded here\nStudy guide"
+    "section": "Lecture slides",
+    "text": "Lecture slides\nLecture slides can be accessed here\nPDF version of the slides can be downloaded here\nStudy guide"
   },
   {
     "objectID": "FUOpage.html#background-reading",
@@ -1664,16 +1612,6 @@
     "title": "Fever of Unknown Origin (FUO)",
     "section": "Online lecture",
     "text": "Online lecture\nFever of Unknown Origin (FUO) with Dr. Raghuram\nIN this online lecture, Dr. Raghuram takes a look at traditional and new definitions of FUOs as well as a practical algorithm for their workup.She takes a comprehensive look at common non-infectious causes including often used drugs that can produce fevers in patients. Dr. Raghuram finishes with several cases presented in a board review style and walks through her thought process with evaluating the questions.\nFe"
-  },
-  {
-    "objectID": "Allergies.html",
-    "href": "Allergies.html",
-    "title": "Antibiotic allergies",
-    "section": "",
-    "text": "HTML version of lecture slides can be accessed here\nPDF version of lecture slides can be accessed here\nEssential review on diagnosing and managing penicillin allergies\nDetailed review on immunological mechanisms of drug reactions\nThe following links below may require access via University proxy. Click on the the “multimedia” link to find the videos and podcasts.\nJAMA Educational Videos and Podcasts on Evaulating, Manging and Testing Penicillin Allergies\nWhat every new doctor should know about adverse drug reactions\nExcellent and entertaining dicussion on PCN de-labeling\nPatient information on PCN allergy testing\nAmoxicillin challenge forms",
-    "crumbs": [
-      "Antibiotic allergies"
-    ]
   },
   {
     "objectID": "Allergies.html#section",
