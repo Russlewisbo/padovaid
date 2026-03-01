@@ -11,6 +11,7 @@ website:
       - Index.qmd
       - Antibiotic.qmd
       - Allergies.qmd
+      - Intraabdominal.qmd
     
 format: 
   html:

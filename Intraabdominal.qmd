@@ -4,10 +4,12 @@ foquartormat: html
 editor: visual
 ---
 
-## Slides
+## Lecture part 1.
 
-A PDF copy of lecture slides can be downloaded [here](Intraabdominal.pdf)
+Link to html slides is found [here](https://russlewisbo.github.io/intraabdominal_pt1/chapter-slides.html#/title-slide)
 
-[Study guide](intraabdominal.docx)
+A PDF copy of lecture slides can be downloaded [here](Intraabdominal_handout.pdf)
+
+
 
 [IDSA guidelines](idsaintraabdominal.pdf) <br> [Surgical Infection Society Guidelines](SIS.pdf) <br>
