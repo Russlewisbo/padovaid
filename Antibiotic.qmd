@@ -4,7 +4,6 @@ foquartormat: html
 editor: visual
 ---
 
-
 ## Slides
 
 Web (HTML) version of lecture slides can be accessed [here](https://russlewisbo.github.io/antibiotictreatment/Principles_lecture.html#/principles-of-antibiotic-therapy)
