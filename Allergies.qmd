@@ -25,3 +25,7 @@ The following links below may require access via University proxy. Click on the 
 [Patient information on PCN allergy testing](patient.pdf)
 
 [Amoxicillin challenge forms](amoxchallenge.pdf)
+
+Lecture notes: <iframe src="Handout_Antibiotic_Allergy.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms">
+
+</iframe>
