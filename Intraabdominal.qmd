@@ -23,13 +23,15 @@ A PDF copy of lecture slides can be downloaded [here](intraabdominal-2.pdf)
 ::: {.callout-note collapse="false"}
 ## 📖 Interactive Lecture Notes
 
-You can view the full lecture notes below, or [open them in a new window](chapter-webpage.html){target="_blank"} for better readability.
+You can view the full lecture notes below, [open them in a new window](chapter-webpage.html){target="_blank"} for better readability, or save as PDF.
+
+<button onclick="window.open('chapter-webpage.html', '_blank'); setTimeout(function(){ var printWindow = window.open('chapter-webpage.html'); printWindow.onload = function(){ printWindow.print(); }; }, 500);" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+  📥 Print/Save as PDF
+</button>
 :::
 
 ::: {style="margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden;"}
-<iframe src="chapter-webpage.html" 
-          width="100%" 
-          height="900px" 
-          style="border: none; display: block;"
-          title="Lecture Notes on Intraabdominal Infections"> </iframe>
+<iframe src="chapter-webpage.html" width="100%" height="900px" style="border: none; display: block;" title="Lecture Notes on Intraabdominal Infections">
+
+</iframe>
 :::

@@ -202,7 +202,10 @@ function googleTranslateElementInit() {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>You can view the full lecture notes below, or <a href="chapter-webpage.html" target="_blank">open them in a new window</a> for better readability.</p>
+<p>You can view the full lecture notes below, <a href="chapter-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
+<button onclick="window.open('chapter-webpage.html', '_blank'); setTimeout(function(){ var printWindow = window.open('chapter-webpage.html'); printWindow.onload = function(){ printWindow.print(); }; }, 500);" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+📥 Print/Save as PDF
+</button>
 </div>
 </div>
 </div>
