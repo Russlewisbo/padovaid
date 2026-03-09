@@ -1,0 +1,67 @@
+/* Custom styles for padovaid website */
+
+/* Improve iframe embedding */
+iframe {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px 0;
+  display: block;
+}
+
+/* Ensure iframes are responsive */
+iframe[width="100%"] {
+  width: 100%;
+  min-height: 800px;
+}
+
+/* Improve overall readability */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Better spacing for content */
+.quarto-content {
+  max-width: 1200px;
+}
+
+/* Style links in the main content */
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Improve callout boxes if used */
+.callout {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Better spacing for sections */
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Improve PDF link styling */
+a[href$=".pdf"] {
+  font-weight: 500;
+}
+
+/* Style for embedded content containers */
+.embedded-content {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
