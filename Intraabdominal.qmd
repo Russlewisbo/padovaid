@@ -20,3 +20,6 @@ A PDF copy of lecture slides can be downloaded [here](intraabdominal-2.pdf)
 
 Lecture 1. Notes
 
+ <iframe src="chapter-webpage.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms">
+
+</iframe>
