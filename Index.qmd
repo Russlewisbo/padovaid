@@ -15,5 +15,3 @@ To the slide repository and resources page for Prof. Lewis
 Instructions for accessing UptoDate are found [here](uptodate.pdf)
 
 Treviso students: Recorded lectures can be found [here](treviso.qmd)
-
-
