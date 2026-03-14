@@ -13,3 +13,16 @@ editor: visual
 To the slide repository and resources page for Prof. Lewis
 
 Instructions for accessing UptoDate are found [here](uptodate.pdf)
+
+Russell Edward Lewis is inviting you to a scheduled Zoom meeting.\
+Join Zoom Meeting\
+<https://unipd.zoom.us/j/86496365672?pwd=Yj8ciB30qStXPQVs4JVXAjMjXxwvUd.1>\
+\
+Meeting ID: 864 9636 5672\
+Passcode: 251642
+
+Lecture: Part 1:
+
+<iframe src="https://drive.google.com/file/d/1Fjp_joIkh2so52FUDYlCHsKYclqHfGSX/preview" width="1000" height="600" allow="autoplay">
+
+</iframe>

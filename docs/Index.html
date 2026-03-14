@@ -189,6 +189,15 @@ function googleTranslateElementInit() {
 <h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
 <p>To the slide repository and resources page for Prof.&nbsp;Lewis</p>
 <p>Instructions for accessing UptoDate are found <a href="uptodate.pdf">here</a></p>
+<p>Russell Edward Lewis is inviting you to a scheduled Zoom meeting.<br>
+Join Zoom Meeting<br>
+<a href="https://unipd.zoom.us/j/86496365672?pwd=Yj8ciB30qStXPQVs4JVXAjMjXxwvUd.1" class="uri">https://unipd.zoom.us/j/86496365672?pwd=Yj8ciB30qStXPQVs4JVXAjMjXxwvUd.1</a><br>
+<br>
+Meeting ID: 864 9636 5672<br>
+Passcode: 251642</p>
+<p>Lecture: Part 1:</p>
+<iframe src="https://drive.google.com/file/d/1Fjp_joIkh2so52FUDYlCHsKYclqHfGSX/preview" width="1000" height="600" allow="autoplay">
+</iframe>
 
 
 </section>
@@ -267,7 +276,7 @@ function googleTranslateElementInit() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/padovaid\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
