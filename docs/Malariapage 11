@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Principles of Immunosuppression and Infection Risk</title>
+<title>Parasites: Malaria and Leishmaniasis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Principles of Immunosuppression and Infection Risk</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Parasites: Malaria and Leishmaniasis</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -130,16 +130,8 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -160,7 +152,7 @@ function googleTranslateElementInit() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Principles of Immunosuppression and Infection Risk</h1>
+<h1 class="title">Parasites: Malaria and Leishmaniasis</h1>
 </div>
 
 
@@ -177,22 +169,13 @@ function googleTranslateElementInit() {
 </header>
 
 
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p>Web (HTML) version of lecture slides can be accessed <a href="https://russlewisbo.github.io/immuncompromise/chapter-slides.html#/title-slide">here</a></p>
-<p>PDF version of slides (interactive content will not work) can be accessed: <a href="Immunosuppressionoverview.pdf">here</a></p>
-</section>
-<section id="lecture-notes" class="level2">
-<h2 class="anchored" data-anchor-id="lecture-notes">Lecture notes</h2>
-<p><a href="Immunosuppressionoverview.pdf" class="btn btn-primary" target="_blank">📄 Download PDF version</a></p>
-<iframe src="chapter-draft.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">
-</iframe>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<p><a href="malariahandout.pdf">Handout</a></p>
+<p><a href="malaria.docx">Study guide</a></p>
+<p><a href="WHOguidelines.pdf">WHO Malaria Treatment Guidelines</a></p>
+<p><a href="Naturereviews.pdf">Comprehensive Review on Malaria</a></p>
+<p><a href="nrmicro1748.pdf">Review on leishmaniasis</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
