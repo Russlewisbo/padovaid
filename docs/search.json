@@ -1182,7 +1182,7 @@
     "href": "chapter-slides.html#intraabdominal-infections-part-2",
     "title": "Intra-abdominal Infections",
     "section": "Intraabdominal Infections, Part 2",
-    "text": "Intraabdominal Infections, Part 2\n \n\nProf. Russell E. Lewis  Department of Molecular Medicine  University of Padua\n {{&lt; fa solid envelope size=1x &gt;}} russelledward.lewis@unipd.it  {{&lt; fa brands github size=1x &gt;}} https://github.com/Russlewisbo\n slides available at: www.padovaid.com"
+    "text": "Intraabdominal Infections, Part 2\n \n\nProf. Russell E. Lewis  Department of Molecular Medicine  University of Padua\n  russelledward.lewis@unipd.it   https://github.com/Russlewisbo\n slides available at: www.padovaid.com"
   },
   {
     "objectID": "chapter-slides.html#what-is-appendicitis",
@@ -2162,14 +2162,20 @@
     "href": "immunosuppression.html#slides",
     "title": "Principles of Immunosuppression and Infection Risk",
     "section": "Slides",
-    "text": "Slides\nWeb (HTML) version of lecture slides can be accessed here\nPDF version of slides (interactive content will not work) can be accessed: here"
+    "text": "Slides\nWeb (HTML) version of lecture slides can be accessed here\nPDF version of slides (interactive content will not work) can be accessed: here",
+    "crumbs": [
+      "Principles of Immunosuppression and Infection Risk"
+    ]
   },
   {
     "objectID": "immunosuppression.html#lecture-notes",
     "href": "immunosuppression.html#lecture-notes",
     "title": "Principles of Immunosuppression and Infection Risk",
     "section": "Lecture notes",
-    "text": "Lecture notes\n📄 Download PDF version"
+    "text": "Lecture notes\n📄 Download PDF version",
+    "crumbs": [
+      "Principles of Immunosuppression and Infection Risk"
+    ]
   },
   {
     "objectID": "Allergies.html#section",

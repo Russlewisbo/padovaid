@@ -14,7 +14,7 @@ website:
       - Antibiotic.qmd
       - Allergies.qmd
       - Intraabdominal.qmd
-      - Immunosuppression.qmd
+      - immunosuppression.qmd
     
 format: 
   html:
