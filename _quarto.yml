@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - chapter-draft_files/
 title: "Infectious Diseases"
 website:
   sidebar:
@@ -12,6 +14,7 @@ website:
       - Antibiotic.qmd
       - Allergies.qmd
       - Intraabdominal.qmd
+      - Immunosuppression.qmd
     
 format: 
   html:
