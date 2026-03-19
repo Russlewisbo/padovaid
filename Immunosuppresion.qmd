@@ -12,7 +12,6 @@ PDF version of slides (interactive content will not work) can be accessed: [here
 
 ## Lecture notes
 
-
 [📄 Download PDF version](Immunosuppressionoverview.pdf){.btn .btn-primary target="_blank"}
 
 <iframe src="chapter-draft.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">

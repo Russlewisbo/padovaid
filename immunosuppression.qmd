@@ -1,29 +1,21 @@
 ---
-title: "Parasitic Infections: Malaria and Leishamoniasis"
-title-slide-attributes:
-  data-background-image: /images_malaria/mosquito.png
-format:
-  revealjs:
-    touch: true
-    controls: true
-    transition: fade
-    transition-speed: fast
-    scrollable: true
-    slide-number: false
-    incremental: false
-    multiplex: true
-    chalkboard: true
-    theme: [default, custom2.scss]
-bibliography: references.bib
-csl: diagnostic-microbiology-and-infectious-disease.csl
+title: "Principles of Immunosuppression and Infection Risk"
+foquartormat: html
+editor: visual
 ---
 
-## Parasitic Disesease <br>Malaria and Leishemoniasis {background-image="/images/bacteria.png"}
+## Slides
 
-<br>
+Web (HTML) version of lecture slides can be accessed [here](https://russlewisbo.github.io/immuncompromise/chapter-slides.html#/title-slide)
 
-<br>
+PDF version of slides (interactive content will not work) can be accessed: [here](Immunosuppressionoverview.pdf)
 
-Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 2 May 2023 <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
+## Lecture notes
 
-## Objectives
+[📄 Download PDF version](Immunosuppressionoverview.pdf){.btn .btn-primary target="_blank"}
+
+<iframe src="chapter-draft.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">
+
+</iframe>
+
+## 
