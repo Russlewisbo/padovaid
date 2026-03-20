@@ -15,7 +15,11 @@ website:
       - Allergies.qmd
       - Intraabdominal.qmd
       - immunosuppression.qmd
+      - Diarrheapage.qmd
     
+bibliography: diarrhea-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+
 format: 
   html:
     theme: journal
