@@ -1,17 +1,18 @@
 ---
 title: "Infectious Diarrhea"
-foquartormat: html
 editor: visual
 ---
 
 ## 
 
-[Slides](infectdiarrhea.pdf)
+[HTML Slides](https://russlewisbo.github.io/diarrhea/diarrhea-slides.html#/title-slide#/title-slide)
 
-[Study guide](diarrhea.docx)
+[PDF slide](enteric.pdf)
 
 [ACG Clinical Guideline: Diagnosis, Treatment, and Prevention of Acute Diarrheal Infections in Adults](ACG.pdf)
 
 [2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea](IDSAdiarrhae.pdf)
 
-A useful review that contains information on when and what tests to use for symptomatic diarhhea [Syndromic Panel-Based Testing in Clinical Microbiology](Syndromic.pdf)
+A useful review that contains information on when and what tests to use for symptomatic diarrhea [Syndromic Panel-Based Testing in Clinical Microbiology](Syndromic.pdf)
+
+{{< include diarrhea-webpage.qmd >}}
