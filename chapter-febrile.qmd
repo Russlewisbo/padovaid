@@ -6,7 +6,7 @@ author:
     affiliation: "Department of Molecular Medicine, University of Padua"
     email: russelledward.lewis@unipd.it
 date: last-modified
-bibliography: references.bib
+bibliography: references-febrile.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 format:
   html:

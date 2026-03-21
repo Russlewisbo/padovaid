@@ -1,10 +1,40 @@
 ---
 title: "Febrile neutropenia"
-format: html
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+          #pdf-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4em;
+            margin: 0.75em 0 1.25em;
+            padding: 0.45em 1em;
+            background: #2c7be5;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            text-decoration: none;
+          }
+          #pdf-btn:hover { background: #1a68d1; }
+          @media print {
+            #pdf-btn, .navbar, .sidebar, #quarto-sidebar,
+            #quarto-margin-sidebar, .quarto-title-banner { display: none !important; }
+          }
+        </style>
 editor: visual
 bibliography: references-febrile.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
+
+```{=html}
+<button id="pdf-btn" onclick="window.print()">
+  &#x1F4BE; Download as PDF
+</button>
+```
 
 ## Lecture slides
 
