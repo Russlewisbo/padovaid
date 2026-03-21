@@ -6,7 +6,9 @@ editor: visual
 
 ## Lecture slides
 
-[Slides](https://docs.google.com/presentation/d/11IfJl-JII2avlUhQrndvM10jLvldK2cyH76dsb0kS3I/edit?usp=sharing)
+[HTML slides](https://russlewisbo.github.io/febrileneutropenia/Lecture1.html#/febrile-neutropenia)
+
+[PDF of lecture slides](febrile_neutropenia.pdf)
 
 ## 2024 NCCN Guidelines
 
@@ -17,3 +19,5 @@ editor: visual
 [Prophylaxis recommendations](Talpitz.pdf)
 
 [Podcast episode](https://www.runthelistpodcast.com/hematologyoncology/#febrile-neutropenia) on febrile neutroopenia
+
+

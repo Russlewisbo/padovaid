@@ -15,6 +15,7 @@ website:
       - Allergies.qmd
       - Intraabdominal.qmd
       - immunosuppression.qmd
+      - febrileneutropenia.qmd
       - Diarrheapage.qmd
     
 bibliography: diarrhea-references.bib

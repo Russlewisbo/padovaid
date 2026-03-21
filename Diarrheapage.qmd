@@ -15,6 +15,4 @@ editor: visual
 
 A useful review that contains information on when and what tests to use for symptomatic diarrhea [Syndromic Panel-Based Testing in Clinical Microbiology](Syndromic.pdf)
 
-
-
 {{< include diarrhea-webpage.qmd >}}

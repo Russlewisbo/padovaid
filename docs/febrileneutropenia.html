@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Febrile neutropenia</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./febrileneutropenia.html">Febrile neutropenia</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -129,6 +129,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./immunosuppression.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Principles of Immunosuppression and Infection Risk</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./febrileneutropenia.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Febrile neutropenia</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -204,7 +210,8 @@ function googleTranslateElementInit() {
 
 <section id="lecture-slides" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-slides">Lecture slides</h2>
-<p><a href="https://docs.google.com/presentation/d/11IfJl-JII2avlUhQrndvM10jLvldK2cyH76dsb0kS3I/edit?usp=sharing">Slides</a></p>
+<p><a href="https://russlewisbo.github.io/febrileneutropenia/Lecture1.html#/febrile-neutropenia">HTML slides</a></p>
+<p><a href="febrileneutropenia.pdf">PDF of lecture slides</a></p>
 </section>
 <section id="nccn-guidelines" class="level2">
 <h2 class="anchored" data-anchor-id="nccn-guidelines">2024 NCCN Guidelines</h2>
@@ -290,7 +297,7 @@ function googleTranslateElementInit() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/padovaid\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
