@@ -1,14 +1,16 @@
 ---
 title: "Febrile neutropenia"
-foquartormat: html
+format: html
 editor: visual
+bibliography: references-febrile.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
 ## Lecture slides
 
 [HTML slides](https://russlewisbo.github.io/febrileneutropenia/Lecture1.html#/febrile-neutropenia)
 
-[PDF of lecture slides](febrile_neutropenia.pdf)
+[PDF of lecture slides](febrileneutropenia.pdf)
 
 ## 2024 NCCN Guidelines
 
@@ -20,4 +22,6 @@ editor: visual
 
 [Podcast episode](https://www.runthelistpodcast.com/hematologyoncology/#febrile-neutropenia) on febrile neutroopenia
 
+Lecture notes:
 
+{{< include chapter-febrile.qmd >}}

@@ -23,7 +23,7 @@ The clinical presentation of infectious diarrhea varies considerably depending o
 
 Noninflammatory diarrhea typically results from secretory mechanisms or osmotic effects caused by pathogens that do not directly invade or damage the intestinal epithelium. Such infections commonly present with watery stools, minimal abdominal cramping, and the characteristic absence of blood or inflammatory cells in stool samples. In contrast, inflammatory diarrhea involves direct mucosal invasion or toxin-mediated damage, leading to the presence of blood, mucus, and leukocytes in stool. This distinction guides both diagnostic approach and empiric management decisions.
 
-::: {.callout-important}
+::: callout-important
 ## Clinical Pearl: Distinguishing Inflammatory from Noninflammatory Diarrhea
 
 The presence of fever in combination with visible blood in the stool strongly suggests inflammatory diarrhea caused by invasive pathogens such as Salmonella, Shigella, Campylobacter, or enteroinvasive Escherichia coli. This clinical presentation should prompt evaluation for bacterial pathogens and consideration of antimicrobial therapy, whereas uncomplicated noninflammatory diarrhea often resolves without specific antimicrobial agents.
@@ -79,7 +79,7 @@ Rotavirus causes an estimated 100 million or more cases annually in children wor
 
 #### Virology and Classification
 
-Rotavirus belongs to the family Reoviridae and exists in multiple serotypes designated A through E (groups A through E). The virus exhibits two major classification systems: the G-type system, based on the variable outer capsid VP7 protein, and the P-type system, based on the VP4 spike protein. These classification systems identify which glycoprotein (G-type) and which protease-sensitive protein (P-type) are present in individual strains. The most common combination in human disease is G1P[8], though G2P[4], G3P[8], and G4P[8] also cause human infection.
+Rotavirus belongs to the family Reoviridae and exists in multiple serotypes designated A through E (groups A through E). The virus exhibits two major classification systems: the G-type system, based on the variable outer capsid VP7 protein, and the P-type system, based on the VP4 spike protein. These classification systems identify which glycoprotein (G-type) and which protease-sensitive protein (P-type) are present in individual strains. The most common combination in human disease is G1P\[8\], though G2P\[4\], G3P\[8\], and G4P\[8\] also cause human infection.
 
 #### Pathophysiology
 
@@ -144,7 +144,7 @@ Bocaviruses, pestiviruses, and toroviruses have been increasingly identified in 
 ### Viral Pathogens Causing Gastroenteritis
 
 | Category | Established Pathogens | Likely/Emerging Pathogens |
-|---|---|---|
+|----|----|----|
 | **Confirmed Major Pathogens** | Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41) | Bocavirus, Astrovirus |
 | **Increasingly Recognized** | Caliciviruses (Norovirus, Sapovirus) | Pestivirus, Torovirus |
 | **Novel/Emerging** | — | SARS-CoV-2, Other Coronaviruses |
@@ -165,7 +165,7 @@ Two main species cause human infection: *Cryptosporidium parvum* and *Cryptospor
 
 #### Clinical Manifestations
 
-In immunocompetent individuals, cryptosporidiosis typically presents with acute watery diarrhea, abdominal cramping, and constitutional symptoms that resolve spontaneously within one to two weeks. However, in severely immunocompromised individuals, particularly those with advanced HIV infection (CD4 count <100 cells/μL), the infection becomes severe and protracted. Chronic diarrhea lasting months or longer can result in substantial weight loss and malnutrition. Prior to the widespread availability of effective antiretroviral therapy for HIV, cryptosporidial diarrhea represented one of the defining opportunistic infections in AIDS patients.
+In immunocompetent individuals, cryptosporidiosis typically presents with acute watery diarrhea, abdominal cramping, and constitutional symptoms that resolve spontaneously within one to two weeks. However, in severely immunocompromised individuals, particularly those with advanced HIV infection (CD4 count \<100 cells/μL), the infection becomes severe and protracted. Chronic diarrhea lasting months or longer can result in substantial weight loss and malnutrition. Prior to the widespread availability of effective antiretroviral therapy for HIV, cryptosporidial diarrhea represented one of the defining opportunistic infections in AIDS patients.
 
 #### Pathophysiology
 
@@ -195,7 +195,7 @@ Diagnosis of giardiasis relies on identification of trophozoites or cysts in sto
 
 #### Treatment
 
-Metronidazole represents the traditional first-line agent for giardiasis treatment, achieving cure rates of approximately 70% with a standard seven-day course. Alternative agents include tinidazole, which achieves higher cure rates (>90%) with shorter duration of treatment, and nitazoxanide. The lower efficacy of metronidazole, despite decades of clinical use, has led to investigation of combination therapy or alternative regimens in cases of persistent infection.
+Metronidazole represents the traditional first-line agent for giardiasis treatment, achieving cure rates of approximately 70% with a standard seven-day course. Alternative agents include tinidazole, which achieves higher cure rates (\>90%) with shorter duration of treatment, and nitazoxanide. The lower efficacy of metronidazole, despite decades of clinical use, has led to investigation of combination therapy or alternative regimens in cases of persistent infection.
 
 ## 6. Bacterial Pathogens
 
@@ -215,7 +215,7 @@ ETEC represents the most common bacterial cause of diarrhea in travelers to deve
 
 STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia @Tarr2005. The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
 
-::: {.callout-warning}
+::: callout-warning
 ## Critical Warning: Antibiotic Avoidance in Shiga Toxin-Producing *E. coli*
 
 The use of antibiotics in STEC infection remains controversial and potentially harmful. Evidence suggests that certain antibiotics, particularly fluoroquinolones, may increase the risk of progression to hemolytic-uremic syndrome, possibly through induction of Shiga toxin release from stressed bacteria. Current recommendations generally advise against antimicrobial therapy in uncomplicated STEC gastroenteritis and favor supportive care with careful monitoring of renal function and hemoglobin levels for development of HUS.
@@ -312,7 +312,7 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 ### Etiology of Acute Traveler's Diarrhea
 
 | Pathogen Category | Specific Agents | Approximate Frequency |
-|---|---|---|
+|----|----|----|
 | **Bacterial (40-60%)** | ETEC, Campylobacter, Salmonella, Shigella | Most common overall |
 | **Viral (5-15%)** | Norovirus, Rotavirus, Other enteroviruses | Variable by season/location |
 | **Parasitic (3-5%)** | Giardia, Cryptosporidium, Entamoeba | More common in persistent diarrhea |
@@ -336,17 +336,17 @@ Severely immunocompromised patients experience substantially different epidemiol
 
 ### 8.1 Diarrhea in HIV/AIDS
 
-Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count <200 cells/μL) @Sanchez2005 and represents one of the major causes of morbidity in this population. The spectrum of pathogens causing diarrhea in AIDS patients differs from that in immunocompetent individuals, with opportunistic pathogens becoming predominant as the CD4 count declines.
+Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @Sanchez2005 and represents one of the major causes of morbidity in this population. The spectrum of pathogens causing diarrhea in AIDS patients differs from that in immunocompetent individuals, with opportunistic pathogens becoming predominant as the CD4 count declines.
 
 #### Pathogens in Advanced HIV Infection
 
 | Pathogen | CD4 Threshold | Characteristics |
-|---|---|---|
-| **Cryptosporidium** | <200 | Chronic, severe; may resolve with immune reconstitution |
-| **Microsporidium** | <100 | Chronic diarrhea, malabsorption |
-| **Mycobacterium avium complex** | <50 | Systemic infection with GI involvement |
-| **Cytomegalovirus** | <50 | Ulcerative disease, perforation risk |
-| **Histoplasma** | <50 | Disseminated disease with GI involvement |
+|----|----|----|
+| **Cryptosporidium** | \<200 | Chronic, severe; may resolve with immune reconstitution |
+| **Microsporidium** | \<100 | Chronic diarrhea, malabsorption |
+| **Mycobacterium avium complex** | \<50 | Systemic infection with GI involvement |
+| **Cytomegalovirus** | \<50 | Ulcerative disease, perforation risk |
+| **Histoplasma** | \<50 | Disseminated disease with GI involvement |
 | **Isospora** | Variable | Chronic diarrhea, tropical distribution |
 
 : Pathogens Causing Diarrhea in Advanced HIV/AIDS {#tbl-aids-pathogens}
@@ -447,7 +447,7 @@ Tropical sprue represents an idiopathic syndrome of chronic diarrhea and malabso
 
 ### Small Intestinal Bacterial Overgrowth (SIBO)
 
-Small intestinal bacterial overgrowth occurs when the proximal small intestine contains excessive numbers of bacteria (>10^5 organisms per milliliter), exceeding the normal bacterial density. The condition results in chronic diarrhea, bloating, and malabsorption through bacterial deconjugation of bile salts, carbohydrate malabsorption, and epithelial damage.
+Small intestinal bacterial overgrowth occurs when the proximal small intestine contains excessive numbers of bacteria (\>10\^5 organisms per milliliter), exceeding the normal bacterial density. The condition results in chronic diarrhea, bloating, and malabsorption through bacterial deconjugation of bile salts, carbohydrate malabsorption, and epithelial damage.
 
 Diagnosis of SIBO employs hydrogen and methane breath testing, which measures bacterial fermentation of oral lactulose or glucose. Treatment involves antimicrobial therapy targeting small intestinal bacteria, with rifaxomicin emerging as a preferred agent due to minimal systemic absorption and low resistance development.
 
@@ -485,7 +485,7 @@ Advances in preventive strategies, including rotavirus vaccination and improved 
 
 Future directions in management and prevention include development of improved oral vaccines against major enteric pathogens, enhancement of diagnostic capabilities through molecular methods, optimization of antimicrobial stewardship to combat emerging resistance, and expansion of access to clean water and sanitation infrastructure in resource-limited settings.
 
----
+------------------------------------------------------------------------
 
 ## References
 
