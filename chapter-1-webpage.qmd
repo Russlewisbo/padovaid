@@ -4,6 +4,7 @@ subtitle: "Peritonitis and Intraperitoneal Abscesses"
 author:
   - name: "Russell E. Lewis"
 date: "2026-02-27"
+bibliography: references-intraabdom1.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
@@ -81,9 +82,7 @@ The peritoneal cavity is a complex anatomic space that accommodates multiple org
 
 The peritoneum is a serous membrane composed of a monolayer of mesothelial cells beneath which are lymphatic vessels, blood vessels, and nerve endings. Normal peritoneal fluid (approximately 100 mL) is clear yellow with low specific gravity and protein content (typically \<3 g/dL), containing few leukocytes (\<250/mm³, predominantly mononuclear). The peritoneal membrane has high permeability and facilitates both fluid exudation and absorption.
 
-<!-- IMAGE NEEDED: Schema of posterior peritoneal reflections and anatomic recesses (FIG. 76.1) -->
-
-<!-- IMAGE NEEDED: Sagittal section showing peritoneal spaces in upper abdomen (FIG. 76.2) -->
+![Anatomy of the peritoneal cavity showing key anatomic spaces relevant to intraabdominal infection.](intraabdominal_images1/peritoneum.png){fig-align="center" width="70%"}
 
 ## Classification and Definitions
 
@@ -137,7 +136,11 @@ Primary peritonitis (spontaneous bacterial peritonitis, SBP) represents infectio
   - Elevated serum bilirubin (\>2.5 mg/dL)
   - Proton pump inhibitor use [@Ref26; @Ref38]
 
+![Tense ascites in a cirrhotic patient — a major risk factor for the development of SBP.](intraabdominal_images1/ascitis.png){fig-align="center" width="55%"}
+
 The common pathogenic link is the presence of ascites, likely due to impaired reticuloendothelial clearance of bacteria and reduced opsonic activity in ascitic fluid [@Ref41].
+
+![Cirrhosis with portal hypertension is the most common predisposing condition for SBP, present in 10–30% of hospitalized cirrhotic patients with ascites.](intraabdominal_images1/cirrhosis.png){fig-align="center" width="65%"}
 
 ## Bacteriologic Characteristics
 
@@ -218,6 +221,8 @@ Primary peritonitis often presents insidiously in cirrhotic patients with minima
 **Diagnostic Technique**: Inoculation of blood culture bottles with 10-20 mL of ascitic fluid at bedside improves culture yield, particularly for fastidious organisms.
 :::
 
+![Bedside paracentesis for ascitic fluid sampling — essential for diagnosis of SBP. Inoculation of blood culture bottles at the bedside improves culture sensitivity.](intraabdominal_images1/paracentesis.png){fig-align="center" width="55%"}
+
 ### Additional Studies
 
 - **Serum-ascitic albumin gradient \>1.1 g/dL**: Suggests portal hypertension (not peritonitis)
@@ -288,6 +293,8 @@ Albumin is indicated to prevent renal insufficiency and reduce mortality:
   - Serum creatinine \>1 mg/dL, BUN \>30 mg/dL, or total bilirubin \>4 mg/dL
 - **Mechanism**: Maintains effective arterial blood volume and prevents acute kidney injury
 - **Evidence**: Reduces mortality from 35% to 16% and acute kidney injury from 31% to 8%
+
+![Albumin infusion reduces renal vasoconstriction and prevents acute kidney injury in SBP — a key adjunct to antibiotic therapy.](intraabdominal_images1/albumin.png){fig-align="center" width="65%"}
 
 ### Vasopressor Consideration
 
@@ -425,6 +432,8 @@ Following peritoneal contamination, a characteristic local inflammatory response
 
 Possible outcomes: spontaneous resolution, localized abscess, or diffuse progressive peritonitis.
 
+![CT imaging demonstrating peritonitis with bowel wall thickening, mesenteric stranding, and free fluid characteristic of secondary peritonitis.](intraabdominal_images1/peritonitis.png){fig-align="center" width="70%"}
+
 ### Systemic Response
 
 Cytokines mediate systemic manifestations:
@@ -475,6 +484,10 @@ The presentation varies depending on acuity and extent of contamination:
 - Bedside capability
 - Less sensitive than CT for free air and early peritonitis
 - Better for ascites quantification
+
+![CT abdomen showing intraperitoneal abscess — CT is the gold standard for identifying the source of peritonitis and guiding percutaneous drainage.](intraabdominal_images1/IP_abscess.png){fig-align="center" width="70%"}
+
+![Bedside ultrasound demonstrating free intraperitoneal fluid — useful when CT is not immediately available.](intraabdominal_images1/ultrasound.png){fig-align="center" width="65%"}
 
 ### Laboratory Studies
 
@@ -992,11 +1005,11 @@ The presentation depends on abscess size, location, and host factors:
 - **Sensitivity testing**: Essential for appropriate directed therapy
 - **Cell count**: Many PMN, variable organisms
 
-<!-- IMAGE NEEDED: CT scan showing intraperitoneal abscess with drainage catheter (FIG. 76.3) -->
+![CT scan showing intraperitoneal abscess with drainage catheter in situ.](intraabdominal_images1/fig-ct-abscess-drainage.svg){fig-align="center" width="70%"}
 
-<!-- IMAGE NEEDED: CT showing liver abscesses with percutaneous drains (FIG. 76.4) -->
+![CT showing liver abscesses with percutaneous drains.](intraabdominal_images1/fig-ct-liver-abscess.svg){fig-align="center" width="70%"}
 
-<!-- IMAGE NEEDED: CT showing percutaneous drainage of intraperitoneal abscess (FIG. 76.5) -->
+![CT showing percutaneous drainage of intraperitoneal abscess.](intraabdominal_images1/fig-ct-percutaneous-drainage.svg){fig-align="center" width="70%"}
 
 ## Prognosis
 

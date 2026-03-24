@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Principles of Immunosuppression and Infection Risk</title>
+<title>Infections in the Immunocompromised Host: General Principles</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -83,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./immunosuppression.html">Principles of Immunosuppression and Infection Risk</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./immunosuppression.html">Infections in the Immunocompromised Host: General Principles</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -130,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./immunosuppression.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Principles of Immunosuppression and Infection Risk</span></a>
+ <span class="menu-text">Infections in the Immunocompromised Host: General Principles</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -157,7 +177,43 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#the-net-state-of-immunosuppression" id="toc-the-net-state-of-immunosuppression" class="nav-link" data-scroll-target="#the-net-state-of-immunosuppression">The Net State of Immunosuppression</a></li>
+  <li><a href="#infectious-complications-and-mortality" id="toc-infectious-complications-and-mortality" class="nav-link" data-scroll-target="#infectious-complications-and-mortality">Infectious Complications and Mortality</a></li>
+  <li><a href="#measuring-immunosuppression" id="toc-measuring-immunosuppression" class="nav-link" data-scroll-target="#measuring-immunosuppression">Measuring Immunosuppression</a></li>
+  </ul></li>
+  <li><a href="#sources-and-risks-of-various-infections" id="toc-sources-and-risks-of-various-infections" class="nav-link" data-scroll-target="#sources-and-risks-of-various-infections">Sources and Risks of Various Infections</a></li>
+  <li><a href="#components-of-host-defense" id="toc-components-of-host-defense" class="nav-link" data-scroll-target="#components-of-host-defense">Components of Host Defense</a>
+  <ul class="collapse">
+  <li><a href="#cellular-and-humoral-immunity" id="toc-cellular-and-humoral-immunity" class="nav-link" data-scroll-target="#cellular-and-humoral-immunity">Cellular and Humoral Immunity</a></li>
+  <li><a href="#innate-immunity" id="toc-innate-immunity" class="nav-link" data-scroll-target="#innate-immunity">Innate Immunity</a>
+  <ul class="collapse">
+  <li><a href="#granulocytes" id="toc-granulocytes" class="nav-link" data-scroll-target="#granulocytes">Granulocytes</a></li>
+  <li><a href="#monocytes-and-macrophages" id="toc-monocytes-and-macrophages" class="nav-link" data-scroll-target="#monocytes-and-macrophages">Monocytes and Macrophages</a></li>
+  <li><a href="#natural-killer-cells" id="toc-natural-killer-cells" class="nav-link" data-scroll-target="#natural-killer-cells">Natural Killer Cells</a></li>
+  <li><a href="#platelets" id="toc-platelets" class="nav-link" data-scroll-target="#platelets">Platelets</a></li>
+  </ul></li>
+  <li><a href="#acquired-immunity" id="toc-acquired-immunity" class="nav-link" data-scroll-target="#acquired-immunity">Acquired Immunity</a>
+  <ul class="collapse">
+  <li><a href="#cellular-immunity" id="toc-cellular-immunity" class="nav-link" data-scroll-target="#cellular-immunity">Cellular Immunity</a></li>
+  <li><a href="#humoral-immunity" id="toc-humoral-immunity" class="nav-link" data-scroll-target="#humoral-immunity">Humoral Immunity</a></li>
+  </ul></li>
+  <li><a href="#the-integument-as-host-defense" id="toc-the-integument-as-host-defense" class="nav-link" data-scroll-target="#the-integument-as-host-defense">The Integument as Host Defense</a>
+  <ul class="collapse">
+  <li><a href="#skin" id="toc-skin" class="nav-link" data-scroll-target="#skin">Skin</a></li>
+  <li><a href="#oropharynx" id="toc-oropharynx" class="nav-link" data-scroll-target="#oropharynx">Oropharynx</a></li>
+  <li><a href="#alimentary-tract" id="toc-alimentary-tract" class="nav-link" data-scroll-target="#alimentary-tract">Alimentary Tract</a></li>
+  </ul></li>
+  <li><a href="#immunomodulatory-therapy-toxicities" id="toc-immunomodulatory-therapy-toxicities" class="nav-link" data-scroll-target="#immunomodulatory-therapy-toxicities">Immunomodulatory Therapy Toxicities</a></li>
+  </ul></li>
+  <li><a href="#common-infections-in-immunocompromised-hosts" id="toc-common-infections-in-immunocompromised-hosts" class="nav-link" data-scroll-target="#common-infections-in-immunocompromised-hosts">Common Infections in Immunocompromised Hosts</a>
+  <ul class="collapse">
+  <li><a href="#common-viral-infections" id="toc-common-viral-infections" class="nav-link" data-scroll-target="#common-viral-infections">Common Viral Infections</a></li>
+  <li><a href="#common-fungal-infections" id="toc-common-fungal-infections" class="nav-link" data-scroll-target="#common-fungal-infections">Common Fungal Infections</a></li>
+  <li><a href="#common-bacterial-infections" id="toc-common-bacterial-infections" class="nav-link" data-scroll-target="#common-bacterial-infections">Common Bacterial Infections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -180,13 +236,19 @@ function googleTranslateElementInit() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Principles of Immunosuppression and Infection Risk</h1>
+<h1 class="title">Infections in the Immunocompromised Host: General Principles</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Russell E. Lewis </p>
+          </div>
+  </div>
     
   
     
@@ -204,17 +266,501 @@ function googleTranslateElementInit() {
 </section>
 <section id="lecture-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-notes">Lecture notes</h2>
-<p><a href="Immunosuppressionoverview.pdf" class="btn btn-primary" target="_blank">📄 Download PDF version</a></p>
-<iframe src="chapter-draft.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">
-</iframe>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📖 Interactive Lecture Notes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>You can view the full lecture notes below, <a href="chapter-immunocompromise.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
+<button onclick="var printWindow = window.open('chapter-immunocompromise.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+📥 Print/Save as PDF
+</button>
+</div>
+</div>
+</div>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Given advances in medicine, including increased longevity and improved outcomes with various medical conditions, we are facing an ever-enlarging population of immunocompromised hosts. Although fairly heterogenous, it has been estimated that 6% of the population in the United States and between 4–6% of the Italian population and other Western European populations are immunocompromised <span class="citation" data-cites="Martinson2024">(<a href="#ref-Martinson2024" role="doc-biblioref">Martinson and Lapham, 2024</a>)</span>. Using direct pharmaceutical claims in a large cohort of adults in the United States to describe the contemporary prevalence of drug-induced immunosuppression (including corticosteroids, antirejection medications, tumor necrosis factor inhibitors, antineoplastic agents, and other biologic medications), Wallace and colleagues found that 2.8% of the population met the criteria for drug-induced immunosuppression during the period January 1, 2018 through December 31, 2019 <span class="citation" data-cites="Wallace2021">(<a href="#ref-Wallace2021" role="doc-biblioref"><span class="nocase">Wallace et al.</span>, 2021</a>)</span>. Using a broader definition, Clark and associates found that an estimated 1 in 5 people throughout the world were at risk for severe COVID-19, based on risk factors such as age, chronic kidney disease, diabetes, cardiovascular disease, and chronic respiratory disease <span class="citation" data-cites="Clark2020">(<a href="#ref-Clark2020" role="doc-biblioref"><span class="nocase">Clark et al.</span>, 2020</a>)</span>.</p>
+<p>The immunocompromised host thus constitutes a sizeable and growing proportion of the population, with estimates contingent on the definition used. Factors to consider in assessing the general level of immunosuppression in an individual patient include disease severity, duration, clinical stability, complications, comorbidities, and any potentially immunosuppressive medications or therapies.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/immunodeficiency.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>The spectrum of immunodeficiency — ranging from primary immunodeficiencies to drug-induced and disease-related immunosuppression — determines the type and severity of infectious risk.</figcaption>
+</figure>
+</div>
+<p>In an era of increasingly complex medical care, many patients have extensive prior treatments and immunosuppression that render them at higher risk for infectious complications when they undergo subsequent therapies, such as transplant (hematopoietic cell or solid organ) or CAR-T cell therapy <span class="citation" data-cites="Maschmeyer2019">(<a href="#ref-Maschmeyer2019" role="doc-biblioref"><span class="nocase">Maschmeyer et al.</span>, 2019</a>)</span>. Some agents, such as fludarabine, antithymocyte globulin, and alemtuzumab, can affect the immune system for many months afterward. In addition, complications such as mucositis, cytopenias, and surgical site infections can increase vulnerability for infection.</p>
+<div id="tbl-immunocompromise" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-immunocompromise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Major Conditions Leading to Immunocompromise
+</figcaption>
+<div aria-describedby="tbl-immunocompromise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Immunocompromising Conditions and/or Therapies</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Active treatment for solid tumor or hematologic malignancies</td>
+</tr>
+<tr class="even">
+<td>Immunosuppressive therapy for solid-organ transplant</td>
+</tr>
+<tr class="odd">
+<td>CAR T-cell or hematopoietic stem cell transplant</td>
+</tr>
+<tr class="even">
+<td>Moderate or severe primary immunodeficiency (e.g., DiGeorge syndrome, Wiskott-Aldrich syndrome)</td>
+</tr>
+<tr class="odd">
+<td>Advanced or untreated HIV infection</td>
+</tr>
+<tr class="even">
+<td>High-dose corticosteroids (≥20 mg prednisone or equivalent per day)</td>
+</tr>
+<tr class="odd">
+<td>Alkylating agents, antimetabolites</td>
+</tr>
+<tr class="even">
+<td>Transplant-related immunosuppressive drugs</td>
+</tr>
+<tr class="odd">
+<td>Cancer chemotherapeutic agents classified as severely immunosuppressive</td>
+</tr>
+<tr class="even">
+<td>Tumor-necrosis factor blockers and other biologic agents that are immunosuppressive or immunomodulatory</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<section id="the-net-state-of-immunosuppression" class="level2">
+<h2 class="anchored" data-anchor-id="the-net-state-of-immunosuppression">The Net State of Immunosuppression</h2>
+<p>The “net state of immunosuppression,” a term originally described by Dr.&nbsp;Robert Rubin at Massachusetts General Hospital in Boston, represents a composite of host, underlying disease, treatment, and other factors that may contribute to an augmented risk of infection.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/Rubin.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Dr.&nbsp;Robert Rubin’s concept of the “net state of immunosuppression” — a framework integrating all host and treatment factors that collectively determine infectious risk.</figcaption>
+</figure>
+</div>
+<p>Autoimmune diseases (i.e., lupus, rheumatoid arthritis, sarcoidosis, others) often have higher rates of infection, even without immunosuppressive therapies. Advanced organ disease, such as kidney, liver, heart, and lung disease for those awaiting organ transplant, as well as other comorbidities or conditions (i.e., poorly controlled diabetes, obesity, malnutrition, weight loss, hypogammaglobulinemia) and advanced age can all augment infection risk. Acute issues around the time of treatment, such as the need for renal replacement therapy, hemorrhage, long ischemic times and/or need for retransplantation of an organ, long intensive care unit stays, and extensive transfusion needs can all augment the risk of infection.</p>
+<p>Some concomitant infections, such as human immunodeficiency virus (HIV), cytomegalovirus (CMV), Epstein-Barr virus (EBV) or alterations in the microbiome can also contribute to the net state of immunosuppression. Exogenous immunosuppression is perhaps the most obvious contributor and is often used at higher doses initially followed by chronic doses <span class="citation" data-cites="Roberts2021">(<a href="#ref-Roberts2021" role="doc-biblioref">Roberts and Fishman, 2021</a>)</span>. Treatment of organ transplant rejection or graft-versus-host disease (GVHD) can cause extended periods of high infection risk.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Clinical Pearl
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The “net state of immunosuppression” is a composite measure that includes host factors, underlying disease, treatment effects, and other variables that contribute to infection risk. This concept helps clinicians assess individual patient risk and guide preventive strategies.</p>
+</div>
+</div>
+</section>
+<section id="infectious-complications-and-mortality" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-complications-and-mortality">Infectious Complications and Mortality</h2>
+<p>Infectious complications result in significant morbidity and mortality in people with immunocompromise. In a cohort of solid organ transplant (SOT) recipients in Switzerland evaluated from 2008–2014, 6% died from infection within the first year after transplant <span class="citation" data-cites="vanDelden2020">(<a href="#ref-vanDelden2020" role="doc-biblioref"><span class="nocase">Delden et al.</span>, 2020</a>)</span>. In a cohort of 804 renal transplant recipients in the German Center of Infectious Diseases, 55% had 972 infections in the first year after transplant, with about half occurring in the first 3 months, and of those infections, bacteria caused 66%, viruses caused 29%, and fungi caused 5% <span class="citation" data-cites="Sommerer2022">(<a href="#ref-Sommerer2022" role="doc-biblioref"><span class="nocase">Sommerer et al.</span>, 2022</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/sot.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Infections after solid organ transplant (SOT) — bacterial infections predominate, followed by viral and fungal infections. Mortality risk is highest in the first 3 months after transplant.</figcaption>
+</figure>
+</div>
+<p>The leading cause of mortality in hematopoietic cell transplant (HCT) recipients is relapse of primary disease; infection comes second. Those patients undergoing chimeric antigen receptor (CAR-T) cell therapy are often profoundly immunosuppressed; up to one-third of patients will suffer a serious bacterial infection in the first 30 days after therapy <span class="citation" data-cites="Stewart2021">(<a href="#ref-Stewart2021" role="doc-biblioref">Stewart and Henden, 2021</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/car-t.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>CAR-T cell therapy vein-to-vein process — patients undergoing CAR-T therapy are profoundly immunosuppressed and at high risk for serious bacterial infections in the first 30 days.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/allo_hcst.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Allogeneic hematopoietic cell transplant (HCT) — infection is the second leading cause of mortality after relapse of primary disease, particularly in the first 100 days.</figcaption>
+</figure>
+</div>
+</section>
+<section id="measuring-immunosuppression" class="level2">
+<h2 class="anchored" data-anchor-id="measuring-immunosuppression">Measuring Immunosuppression</h2>
+<p>Measuring the extent of immunosuppression has been a long sought-after goal. In persons living with HIV (PLWHIV), much is known about how the absolute CD4 count, CD4 percentage, and CD4/CD8 ratio correlate with risk of specific infections. Neutropenia and lymphopenia have been shown to correlate with an augmented risk.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/immunoknow.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>The ImmuKnow assay detects intracellular ATP production from CD4+ T cells and has been used to assess immune function in transplant recipients, though clinical uptake remains limited.</figcaption>
+</figure>
+</div>
+<p>Inflammatory markers such as the erythrocyte sedimentation rate, C-reactive protein, and procalcitonin have not been shown to be predictive markers in this population. Therapeutic drug monitoring of immunosuppression can be done for only a limited number of agents (i.e., tacrolimus, cyclosporine, sirolimus), and when used in isolation does not correlate with risk of infection in an individual.</p>
+</section>
+</section>
+<section id="sources-and-risks-of-various-infections" class="level1">
+<h1>Sources and Risks of Various Infections</h1>
+<p>A plethora of pathogens can infect the immunocompromised host, from many different sources, with the most common mimicking those that occur and/or are acquired in the community. In addition, given the augmented frequency with which they are in contact with health care settings, these patients are at higher risk for multidrug resistant and other nosocomial organisms.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/infection model.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>The infection model in immunocompromised hosts: endogenous flora, exogenous community pathogens, nosocomial organisms, and reactivation of latent infections all contribute to the spectrum of infectious risk.</figcaption>
+</figure>
+</div>
+<p>Immunosuppressed persons are also at risk for reactivation of latent infections, such as <em>Mycobacterium tuberculosis</em>, <em>Strongyloides</em>, hepatitis B, <em>Coccidioides</em>, <em>Histoplasma</em>, and <em>Trypanosoma cruzi</em> (the etiologic agent of Chagas disease). Donor-derived infections, acquired from the organ transplant, stem cell transplant, blood products, or other tissues, may occur, especially in the first 6 months after transplant.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key Point: Timing of Infections
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Solid organ and stem cell transplant recipients are at highest risk for infection in the first 100 days after transplant, with the risk gradually falling over the next 1–2 years. Active prophylaxis alters the risk of various infections and can help guide the differential diagnosis.</p>
+</div>
+</div>
+<p>Prophylaxis against <em>Pneumocystis</em> includes trimethoprim-sulfamethoxazole, which can prevent a variety of other pathogens, ranging from <em>Toxoplasma</em> to <em>Staphylococcus aureus</em> and <em>Nocardia</em>, as well as numerous other gram-positive and gram-negative organisms. Anti-herpes viral prophylaxis with valganciclovir, letermovir, acyclovir, valacyclovir, and famciclovir can greatly decrease the risk for CMV, herpes simplex, and disseminated zoster.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/duration.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Duration of immunosuppression and infection risk — the timeline of specific infections varies by type of transplant and prophylactic strategy in use.</figcaption>
+</figure>
+</div>
+</section>
+<section id="components-of-host-defense" class="level1">
+<h1>Components of Host Defense</h1>
+<section id="cellular-and-humoral-immunity" class="level2">
+<h2 class="anchored" data-anchor-id="cellular-and-humoral-immunity">Cellular and Humoral Immunity</h2>
+<p>Host defense against pathogenic microorganisms includes innate and acquired immunity. The innate immune system comprises both cellular components, including monocytes, neutrophils, natural killer (NK) cells, and innate lymphoid cells; humoral components include complement, some antibodies, antimicrobial peptides, and lysozyme. The innate immune system not only specifically recognizes various classes of microorganisms via pattern recognition receptors that sense conserved structures of the invading microorganisms, but also initiates and modulates the subsequent adaptive responses delivered by T cells and B cells <span class="citation" data-cites="Quintana-Murci2007">(<a href="#ref-Quintana-Murci2007" role="doc-biblioref"><span class="nocase">Quintana-Murci et al.</span>, 2007</a>)</span>.</p>
+</section>
+<section id="innate-immunity" class="level2">
+<h2 class="anchored" data-anchor-id="innate-immunity">Innate Immunity</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images_immune/Innate_immune_system.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Overview of the innate immune system — the first line of defense against invading pathogens, including granulocytes, monocytes, natural killer cells, and complement.</figcaption>
+</figure>
+</div>
+<section id="granulocytes" class="level3">
+<h3 class="anchored" data-anchor-id="granulocytes">Granulocytes</h3>
+<p>Virtually all cytotoxic drugs used in the treatment of malignant diseases have a deleterious effect on the proliferation of normal hematopoietic progenitor cells. Therefore, after obliteration of the mitotic pool and depletion of the marrow pool reserve, neutropenia ensues <span class="citation" data-cites="Takizawa2012">(<a href="#ref-Takizawa2012" role="doc-biblioref">Takizawa et al., 2012</a>)</span>. Profound neutropenia is an unavoidable consequence of the treatment of malignancy and may persist for 3 or 4 weeks or even longer.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images_immune/neutropenia.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Relationship between neutropenia severity, duration and infection risk — deeper and more prolonged neutropenia correlates with a dramatically increased risk of serious infection.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images_immune/gran_fatality.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>Infection frequency and fatality in relation to granulocyte count — data from Bodey et al.&nbsp;demonstrating the inverse relationship between neutrophil count and infection risk.</figcaption>
+</figure>
+</div>
+<p>Granulocytes that accumulate at the site of infection are of little use if they are unable to function normally. Some antineoplastic drugs and irradiation interfere with these nonproliferating cells and their function, resulting in decreased chemotaxis, diminished phagocytic capacity, and defective intracellular killing by granulocytes. Glucocorticosteroids curb the accumulation of neutrophils at the site of inflammation by reducing their adherent capacity and diminishing their chemotactic activity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images_immune/innatekilling.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>Intracellular killing mechanisms of granulocytes — both oxygen-dependent and oxygen-independent pathways are impaired by cytotoxic therapy and corticosteroids.</figcaption>
+</figure>
+</div>
+</section>
+<section id="monocytes-and-macrophages" class="level3">
+<h3 class="anchored" data-anchor-id="monocytes-and-macrophages">Monocytes and Macrophages</h3>
+<p>Monocytes reside in the bloodstream and contribute to rapid responses against invading bacteria and fungi. Monocytopenia can occur in parallel with neutropenia and sometimes be overlooked as a risk for infection. Activation of macrophages is a complex process, primarily under the control of cytokines (e.g., IFN-γ) provided by T lymphocytes.</p>
+<p>An example is ibrutinib, a specific inhibitor of B-cell signaling through Bruton tyrosine kinase (BTK), used in some people with lymphoid malignancies. Studies have shown heightened risks for pulmonary and disseminated aspergillosis, especially in people receiving concurrent glucocorticoid therapy — now considered to be largely mediated by a secondary impact on monocyte/macrophage function.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/ibrutinib.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Ibrutinib (BTK inhibitor) — beyond its B-cell effects, ibrutinib impairs monocyte/macrophage function, explaining the heightened risk of invasive aspergillosis in treated patients.</figcaption>
+</figure>
+</div>
+</section>
+<section id="natural-killer-cells" class="level3">
+<h3 class="anchored" data-anchor-id="natural-killer-cells">Natural Killer Cells</h3>
+<p>NK cells are cytotoxic lymphocytes belonging to the pool of innate lymphoid cells, responding primarily to viruses and malignant cells. Depletion of NK cells by monoclonal antibodies or dysfunction during transplant immunosuppression contributes to the overall susceptibility to viral and probably fungal infections.</p>
+</section>
+<section id="platelets" class="level3">
+<h3 class="anchored" data-anchor-id="platelets">Platelets</h3>
+<p>Not typically considered a significant component of innate immunity, recent studies outline potential protective roles of platelets against bacterial and fungal infections. Thrombocytopenia appears to be an independent risk factor for bacteremia <span class="citation" data-cites="Gafter-Gvili2011">(<a href="#ref-Gafter-Gvili2011" role="doc-biblioref"><span class="nocase">Gafter-Gvili et al.</span>, 2011</a>)</span>. Animal models have shown that platelets may be particularly important in protection against both yeast and mold infections <span class="citation" data-cites="Tischler2020">(<a href="#ref-Tischler2020" role="doc-biblioref"><span class="nocase">Tischler et al.</span>, 2020</a>)</span>.</p>
+</section>
+</section>
+<section id="acquired-immunity" class="level2">
+<h2 class="anchored" data-anchor-id="acquired-immunity">Acquired Immunity</h2>
+<section id="cellular-immunity" class="level3">
+<h3 class="anchored" data-anchor-id="cellular-immunity">Cellular Immunity</h3>
+<p>Both antigen-specific and antigen-nonspecific cells contribute to the development of cellular immunity. Long-term cytotoxic therapy, extensive irradiation, and immunosuppressive drugs such as corticosteroids, azathioprine, cyclosporine, tacrolimus, and the mTOR inhibitors sirolimus and everolimus suppress cellular immunity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/cell_mediated.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Cell-mediated immunity — T-cell-dependent responses are critical for controlling intracellular pathogens, fungi, and viruses; their suppression leads to characteristic opportunistic infections.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/cell_mediated2.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Targeted therapies and their impact on cellular immunity — ibrutinib, ruxolitinib, idelalisib, and venetoclax each have characteristic opportunistic infection risks.</figcaption>
+</figure>
+</div>
+<p>Purine analogues, including fludarabine and cladribine, are particularly detrimental to cellular immunity and create a situation similar to acquired immunodeficiency syndrome. Emerging targeted therapies — including TKIs, BCL2 inhibitors, JAK-STAT inhibitors, and PI3K inhibitors — have an impact on specific cellular immunity, exemplified by the occurrence of opportunistic infections with ruxolitinib, ibrutinib, and idelalisib <span class="citation" data-cites="Teh2016">(<a href="#ref-Teh2016" role="doc-biblioref"><span class="nocase">Teh et al.</span>, 2016</a>)</span>.</p>
+</section>
+<section id="humoral-immunity" class="level3">
+<h3 class="anchored" data-anchor-id="humoral-immunity">Humoral Immunity</h3>
+<p>The humoral branch of the immune system, which is primarily responsible for clearing extracellular bacteria, involves the interaction of B cells with antigen and their subsequent proliferation and differentiation into antibody-secreting plasma cells.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/antibody.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>B-cell-mediated humoral immunity — production of opsonizing antibodies is critical for clearance of encapsulated bacteria; its impairment leads to recurrent bacterial infections.</figcaption>
+</figure>
+</div>
+<p>The production of immunoglobulins is decreased in lymphoproliferative disorders such as CLL and multiple myeloma. Monoclonal antibodies such as rituximab and blinatumomab and CD19- and CD22-targeted CAR-T cells deplete B lymphocytes, may induce profound and long-lasting hypogammaglobulinemia and infections <span class="citation" data-cites="Brudno2016 Maude2015">(<a href="#ref-Brudno2016" role="doc-biblioref">Brudno and Kochenderfer, 2016</a>; <a href="#ref-Maude2015" role="doc-biblioref"><span class="nocase">Maude et al.</span>, 2015</a>)</span>. Cytokines and chemokines are indispensable for communication between innate and acquired immune cells; interference by anticytokine antibodies (e.g., infliximab, anakinra, tocilizumab) results in increased risk for infection <span class="citation" data-cites="Grijalva2011">(<a href="#ref-Grijalva2011" role="doc-biblioref"><span class="nocase">Grijalva et al.</span>, 2011</a>)</span>. The lack of opsonizing antibodies impairs the activity of all phagocytic cells, including granulocytes, monocytes, and macrophages. Splenectomy results in reduced complement factor properdin, suboptimal opsonization, and low circulating IgM, impairing clearance of encapsulated bacteria such as <em>Streptococcus pneumoniae</em> and <em>Haemophilus influenzae</em> <span class="citation" data-cites="VanderMeer1994">(<a href="#ref-VanderMeer1994" role="doc-biblioref">Van der Meer, 1994</a>)</span>.</p>
+</section>
+</section>
+<section id="the-integument-as-host-defense" class="level2">
+<h2 class="anchored" data-anchor-id="the-integument-as-host-defense">The Integument as Host Defense</h2>
+<p>The skin, the respiratory tract, the ears and conjunctivae, the alimentary tract, and the genitourinary tract are in contact with the environment and provide a first line of defense against microbial invasion.</p>
+<section id="skin" class="level3">
+<h3 class="anchored" data-anchor-id="skin">Skin</h3>
+<p>Immunosuppressive treatments, such as chemotherapy and irradiation, can cause radical changes in healthy skin. Needle punctures and catheters provide a ready means of access for microorganisms through the stratum corneum and into the bloodstream <span class="citation" data-cites="Roth1988">(<a href="#ref-Roth1988" role="doc-biblioref">Roth and James, 1988</a>)</span>. When the skin is broken, the release of fibronectin is thought to assist colonization with <em>S. aureus</em>.</p>
+</section>
+<section id="oropharynx" class="level3">
+<h3 class="anchored" data-anchor-id="oropharynx">Oropharynx</h3>
+<p>Mucous membranes lining the oropharynx and salivary glands constitute a special first line of defense. Concurrent antibiotics, corticosteroids, and loss of saliva production through surgery, drugs, or irradiation lead to modification of this barrier function and to overgrowth of enteric microorganisms. As a result, oral candidiasis (thrush) and bacterial infections occur with increased frequency.</p>
+</section>
+<section id="alimentary-tract" class="level3">
+<h3 class="anchored" data-anchor-id="alimentary-tract">Alimentary Tract</h3>
+<p>Antibiotic-induced changes in the gut microbiome predispose to acquisition of exogenous pathogens, with a particular risk for <em>Clostridioides difficile</em> infection <span class="citation" data-cites="Hooper2001">(<a href="#ref-Hooper2001" role="doc-biblioref">Hooper and Gordon, 2001</a>)</span>. High-dose chemotherapy damages gut epithelium — the so-called mucosal barrier injury — which facilitates translocation of aerobic intestinal bacteria.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/mucositis.jpeg" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>Mucositis — chemotherapy-induced mucosal barrier injury facilitates translocation of oral and intestinal flora, leading to bacteremia and sepsis in neutropenic patients.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images_immune/neutropenicfever.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Neutropenic fever — the clinical consequence of combined neutropenia and mucosal barrier injury, requiring prompt empirical antibiotic therapy.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="immunomodulatory-therapy-toxicities" class="level2">
+<h2 class="anchored" data-anchor-id="immunomodulatory-therapy-toxicities">Immunomodulatory Therapy Toxicities</h2>
+<p>Checkpoint inhibitors and other immunomodulatory therapies can cause adverse reactions in many organ systems <span class="citation" data-cites="Haanen2017">(<a href="#ref-Haanen2017" role="doc-biblioref"><span class="nocase">Haanen et al.</span>, 2017</a>)</span>. Recognizing these is essential because, although they affect immunocompromised hosts, these adverse reactions often mimic clinical presentations of infections. Affected organs include the skin, endocrine glands, lung, gastrointestinal tract, liver, and heart.</p>
+</section>
+</section>
+<section id="common-infections-in-immunocompromised-hosts" class="level1">
+<h1>Common Infections in Immunocompromised Hosts</h1>
+<section id="common-viral-infections" class="level2">
+<h2 class="anchored" data-anchor-id="common-viral-infections">Common Viral Infections</h2>
+<p>Herpes zoster is common in immunocompromised persons <span class="citation" data-cites="McKay2020">(<a href="#ref-McKay2020" role="doc-biblioref">McKay et al., 2020</a>)</span>. Reactivation disease may be complicated by skin dissemination, cutaneous bacterial superinfection, visceral disease, or post-herpetic neuralgia <span class="citation" data-cites="Balfour1988">(<a href="#ref-Balfour1988" role="doc-biblioref">Balfour Jr., 1988</a>)</span>. CMV reactivation causes many syndromes in immunocompromised hosts. BK virus may cause nephropathy or hemorrhagic cystitis after stem cell transplant <span class="citation" data-cites="Imlay2022 Imlay2020">(<a href="#ref-Imlay2022" role="doc-biblioref"><span class="nocase">Imlay et al.</span>, 2022</a>, <a href="#ref-Imlay2020" role="doc-biblioref">2020</a>)</span>. Respiratory viruses may be associated with mortality in hematopoietic cell transplant recipients <span class="citation" data-cites="Seo2017">(<a href="#ref-Seo2017" role="doc-biblioref"><span class="nocase">Seo et al.</span>, 2017</a>)</span>.</p>
+</section>
+<section id="common-fungal-infections" class="level2">
+<h2 class="anchored" data-anchor-id="common-fungal-infections">Common Fungal Infections</h2>
+<p>Invasive fungal disease is a serious complication of acute leukemia, high-dose chemotherapy, and stem cell and solid organ transplant <span class="citation" data-cites="Hammond2010 Pergam2017">(<a href="#ref-Hammond2010" role="doc-biblioref">Hammond et al., 2010</a>; <a href="#ref-Pergam2017" role="doc-biblioref">Pergam, 2017</a>)</span>. After HCT, invasive mold infections may occur during neutropenia or GVHD <span class="citation" data-cites="Lindsay2023 Marr2010">(<a href="#ref-Lindsay2023" role="doc-biblioref"><span class="nocase">Lindsay et al.</span>, 2023</a>; <a href="#ref-Marr2010" role="doc-biblioref">Marr, 2010</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/cns_aspergillosis.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>CNS aspergillosis — a devastating complication of prolonged neutropenia or GVHD, demonstrating the importance of early antifungal prophylaxis in high-risk patients.</figcaption>
+</figure>
+</div>
+</section>
+<section id="common-bacterial-infections" class="level2">
+<h2 class="anchored" data-anchor-id="common-bacterial-infections">Common Bacterial Infections</h2>
+<p>Bacteremia remains a significant problem in immunocompromised hosts, with gram-negative infections becoming more common and potentially multidrug resistant <span class="citation" data-cites="Zimmer2022 Neofytos2023">(<a href="#ref-Neofytos2023" role="doc-biblioref"><span class="nocase">Neofytos et al.</span>, 2023</a>; <a href="#ref-Zimmer2022" role="doc-biblioref"><span class="nocase">Zimmer et al.</span>, 2022</a>)</span>. Antimicrobial resistance, including vancomycin-resistant <em>Enterococcus</em>, is a major concern <span class="citation" data-cites="Ubeda2010 Gottesdiener2023 Ford2017">(<a href="#ref-Ford2017" role="doc-biblioref"><span class="nocase">Ford et al.</span>, 2017</a>; <a href="#ref-Gottesdiener2023" role="doc-biblioref">Gottesdiener and Satlin, 2023</a>; <a href="#ref-Ubeda2010" role="doc-biblioref"><span class="nocase">Ubeda et al.</span>, 2010</a>)</span>. Nontuberculous mycobacteria cause infections in solid organ transplant recipients and those with other immunosuppression <span class="citation" data-cites="Abad2016 Tabaja2022">(<a href="#ref-Abad2016" role="doc-biblioref">Abad and Razonable, 2016</a>; <a href="#ref-Tabaja2022" role="doc-biblioref">Tabaja et al., 2022</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/bacterial.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Bacterial infection risk by type of immune defect — neutropenia predisposes primarily to gram-positive cocci and gram-negative bacilli; damaged integument favours coagulase-negative staphylococci and <em>Candida</em>.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images-immunocompromise/selection.jpeg" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>Antibiotic selection pressure and resistance — the ecology of colonizing flora in immunocompromised patients is heavily shaped by prior antibiotic exposure.</figcaption>
+</figure>
+</div>
+<div id="tbl-pathogens" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-pathogens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Immunodeficiencies and Associated Prevalent Pathogens
+</figcaption>
+<div aria-describedby="tbl-pathogens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>DEFECT</th>
+<th>PATHOGEN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neutropenia</td>
+<td><em>S. aureus</em>, coagulase-negative staphylococci, viridans streptococci, <em>E. coli</em>, <em>P. aeruginosa</em>, <em>K. pneumoniae</em></td>
+</tr>
+<tr class="even">
+<td>Damaged integument</td>
+<td>Coagulase-negative staphylococci, <em>S. aureus</em>, <em>Candida</em> spp., <em>Pseudomonas aeruginosa</em></td>
+</tr>
+<tr class="odd">
+<td>Oral mucositis</td>
+<td>Viridans streptococci, <em>Candida</em> spp., herpes simplex virus</td>
+</tr>
+<tr class="even">
+<td>Gut mucosal barrier injury</td>
+<td><em>E. coli</em>, <em>P. aeruginosa</em>, enterococci, <em>Candida</em> spp.</td>
+</tr>
+<tr class="odd">
+<td>Cellular immune deficiency</td>
+<td><em>Pneumocystis jirovecii</em>, <em>Listeria</em>, CMV, <em>Aspergillus</em>, <em>Cryptococcus</em></td>
+</tr>
+<tr class="even">
+<td>Humoral immune deficiency</td>
+<td><em>S. pneumoniae</em>, <em>H. influenzae</em>, enteroviruses</td>
+</tr>
+<tr class="odd">
+<td>Complement deficiency</td>
+<td>Encapsulated bacteria (<em>Neisseria</em>, <em>S. pneumoniae</em>)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="references" class="level2">
+
+
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-Abad2016" class="csl-entry" role="listitem">
+Abad CL, Razonable RR. Non-tuberculous mycobacterial infections in solid organ transplant recipients: An update. Journal of Clinical Tuberculosis and Other Mycobacterial Diseases 2016;4:1–8. <a href="https://doi.org/10.1016/j.jctube.2016.04.001">https://doi.org/10.1016/j.jctube.2016.04.001</a>.
+</div>
+<div id="ref-Balfour1988" class="csl-entry" role="listitem">
+Balfour Jr. HH. <a href="https://www.ncbi.nlm.nih.gov/pubmed/3044096">Varicella zoster virus infections in immunocompromised hosts. <span>A</span> review of the natural history and management</a>. American Journal of Medicine 1988;85:68–73.
+</div>
+<div id="ref-Brudno2016" class="csl-entry" role="listitem">
+Brudno JN, Kochenderfer JN. Toxicities of chimeric antigen receptor <span>T</span> cells: Recognition and management. Blood 2016;127:3321–30.
+</div>
+<div id="ref-Clark2020" class="csl-entry" role="listitem">
+<span class="nocase">Clark A, Jit M, Warren-Gash C, et al.</span> Global, regional, and national estimates of the population at increased risk of severe <span>COVID-19</span> due to underlying health conditions in 2020: A modelling study. Lancet Global Health 2020;8:e1003–17. <a href="https://doi.org/10.1016/S2214-109X(20)30264-3">https://doi.org/10.1016/S2214-109X(20)30264-3</a>.
+</div>
+<div id="ref-vanDelden2020" class="csl-entry" role="listitem">
+<span class="nocase">Delden C van, Stampf S, Hirsch HH, et al.</span> Burden and timeline of infectious diseases in the first year after solid organ transplantation in the <span>Swiss</span> transplant cohort study. Clinical Infectious Diseases 2020;71:e159–69. <a href="https://doi.org/10.1093/cid/ciz1113">https://doi.org/10.1093/cid/ciz1113</a>.
+</div>
+<div id="ref-Ford2017" class="csl-entry" role="listitem">
+<span class="nocase">Ford CD, Gazdik MA, Lopansri BK, et al.</span> Vancomycin-resistant <em>enterococcus</em> colonization and bacteremia and hematopoietic stem cell transplantation outcomes. Biology of Blood and Marrow Transplantation 2017;23:340–6. <a href="https://doi.org/10.1016/j.bbmt.2016.11.017">https://doi.org/10.1016/j.bbmt.2016.11.017</a>.
+</div>
+<div id="ref-Gafter-Gvili2011" class="csl-entry" role="listitem">
+<span class="nocase">Gafter-Gvili A, Mansur N, Bivas A, et al.</span> Thrombocytopenia in <em>staphylococcus aureus</em> bacteremia: Risk factors and prognostic importance. Mayo Clinic Proceedings 2011;86:389–96.
+</div>
+<div id="ref-Gottesdiener2023" class="csl-entry" role="listitem">
+Gottesdiener LS, Satlin MJ. Global impact of antibacterial resistance in patients with hematologic malignancies and hematopoietic cell transplant recipients. Transplant Infectious Disease 2023;25:e14169. <a href="https://doi.org/10.1111/tid.14169">https://doi.org/10.1111/tid.14169</a>.
+</div>
+<div id="ref-Grijalva2011" class="csl-entry" role="listitem">
+<span class="nocase">Grijalva CG, Chen L, Delzell E, et al.</span> Initiation of tumor necrosis factor-α antagonists and the risk of hospitalization for infection in patients with autoimmune diseases. JAMA 2011;306:2331–9.
+</div>
+<div id="ref-Haanen2017" class="csl-entry" role="listitem">
+<span class="nocase">Haanen JBAG, Carbonnel F, Robert C, et al.</span> <span>ESMO Guidelines Committee</span>. Management of toxicities from immunotherapy: <span>ESMO Clinical Practice Guidelines</span> for diagnosis, treatment and follow-up. Annals of Oncology 2017;28.
+</div>
+<div id="ref-Hammond2010" class="csl-entry" role="listitem">
+Hammond SP, Marty FM, Bryar JM, DeAngelo DJ, Baden LR. Invasive fungal disease in patients treated for newly diagnosed acute leukemia. American Journal of Hematology 2010;85:695–9. <a href="https://doi.org/10.1002/ajh.21776">https://doi.org/10.1002/ajh.21776</a>.
+</div>
+<div id="ref-Hooper2001" class="csl-entry" role="listitem">
+Hooper LV, Gordon JI. Commensal host-bacterial relationships in the gut. Science 2001;292:1115–8.
+</div>
+<div id="ref-Imlay2022" class="csl-entry" role="listitem">
+<span class="nocase">Imlay H, Baum P, Brennan DC, et al.</span> Consensus definitions of <span>BK</span> polyomavirus nephropathy in renal transplant recipients for clinical trials. Clinical Infectious Diseases 2022;75:1210–6. <a href="https://doi.org/10.1093/cid/ciac071">https://doi.org/10.1093/cid/ciac071</a>.
+</div>
+<div id="ref-Imlay2020" class="csl-entry" role="listitem">
+<span class="nocase">Imlay H, Xie H, Leisenring WM, et al.</span> Presentation of <span>BK</span> polyomavirus-associated hemorrhagic cystitis after allogeneic hematopoietic cell transplantation. Blood Advances 2020;4:617–28. <a href="https://doi.org/10.1182/bloodadvances.2019000802">https://doi.org/10.1182/bloodadvances.2019000802</a>.
+</div>
+<div id="ref-Lindsay2023" class="csl-entry" role="listitem">
+<span class="nocase">Lindsay J, Walti CS, Halpern AB, et al.</span> Invasive fungal infections after <span>CLAG-M/CLAG</span> chemotherapy for acute myeloid leukemia and high-grade myeloid neoplasms. Blood Advances 2023;7:3140–5. <a href="https://doi.org/10.1182/bloodadvances.2022009562">https://doi.org/10.1182/bloodadvances.2022009562</a>.
+</div>
+<div id="ref-Marr2010" class="csl-entry" role="listitem">
+Marr KA. Fungal infections in oncology patients: Update on epidemiology, prevention, and treatment. Current Opinion in Oncology 2010;22:138–42. <a href="https://doi.org/10.1097/CCO.0b013e328335a755">https://doi.org/10.1097/CCO.0b013e328335a755</a>.
+</div>
+<div id="ref-Martinson2024" class="csl-entry" role="listitem">
+Martinson ML, Lapham J. Prevalence of immunosuppression among <span>US</span> adults. JAMA 2024;331:880–2.
+</div>
+<div id="ref-Maschmeyer2019" class="csl-entry" role="listitem">
+<span class="nocase">Maschmeyer G, De Greef J, Mellinghoff SC, et al.</span> Infections associated with immunotherapeutic and molecular targeted agents in hematology and oncology. <span>A</span> position paper by the <span class="nocase">European Conference on Infections in Leukemia (ECIL)</span>. Leukemia 2019;33:844–62. <a href="https://doi.org/10.1038/s41375-019-0388-x">https://doi.org/10.1038/s41375-019-0388-x</a>.
+</div>
+<div id="ref-Maude2015" class="csl-entry" role="listitem">
+<span class="nocase">Maude SL, Teachey DT, Porter DL, et al.</span> <span class="nocase">CD19-targeted</span> chimeric antigen receptor <span class="nocase">T-cell</span> therapy for acute lymphoblastic leukemia. Blood 2015;125:4017–23.
+</div>
+<div id="ref-McKay2020" class="csl-entry" role="listitem">
+McKay SL, Guo A, Pergam SA, Dooling K. Herpes zoster risk in immunocompromised adults in the <span>United States</span>: A systematic review. Clinical Infectious Diseases 2020;71:e125–34. <a href="https://doi.org/10.1093/cid/ciz1090">https://doi.org/10.1093/cid/ciz1090</a>.
+</div>
+<div id="ref-Neofytos2023" class="csl-entry" role="listitem">
+<span class="nocase">Neofytos D, Stampf S, Hoessly LD, et al.</span> Bacteremia during the first year after solid organ transplantation: An epidemiological update. Open Forum Infectious Diseases 2023;10:ofad247. <a href="https://doi.org/10.1093/ofid/ofad247">https://doi.org/10.1093/ofid/ofad247</a>.
+</div>
+<div id="ref-Pergam2017" class="csl-entry" role="listitem">
+Pergam SA. Fungal pneumonia in patients with hematologic malignancies and hematopoietic cell transplantation. Clinics in Chest Medicine 2017;38:279–94. <a href="https://doi.org/10.1016/j.ccm.2016.12.006">https://doi.org/10.1016/j.ccm.2016.12.006</a>.
+</div>
+<div id="ref-Quintana-Murci2007" class="csl-entry" role="listitem">
+<span class="nocase">Quintana-Murci L, Alcais A, Abel L, et al.</span> Immunology <em>in natura</em>: Clinical, epidemiological and evolutionary genetics of infectious diseases. Nature Immunology 2007;8:1165–71.
+</div>
+<div id="ref-Roberts2021" class="csl-entry" role="listitem">
+Roberts MB, Fishman JA. Immunosuppressive agents and infectious risk in transplantation: Managing the <span>“net state of immunosuppression.”</span> Clinical Infectious Diseases 2021;73:e1302–17. <a href="https://doi.org/10.1093/cid/ciaa1189">https://doi.org/10.1093/cid/ciaa1189</a>.
+</div>
+<div id="ref-Roth1988" class="csl-entry" role="listitem">
+Roth RR, James WD. Microbial ecology of the skin. Annual Review of Microbiology 1988;42:441–64.
+</div>
+<div id="ref-Seo2017" class="csl-entry" role="listitem">
+<span class="nocase">Seo S, Waghmare A, Scott EM, et al.</span> Human rhinovirus detection in the lower respiratory tract of hematopoietic cell transplant recipients: Association with mortality. Haematologica 2017;102:1120–30. <a href="https://doi.org/10.3324/haematol.2016.153767">https://doi.org/10.3324/haematol.2016.153767</a>.
+</div>
+<div id="ref-Sommerer2022" class="csl-entry" role="listitem">
+<span class="nocase">Sommerer C, Schröter I, Gruneberg K, et al.</span> Incidences of infectious events in a renal transplant cohort of the <span class="nocase">German Center of Infectious Diseases (DZIF)</span>. Open Forum Infectious Diseases 2022;9. <a href="https://doi.org/10.1093/ofid/ofac243">https://doi.org/10.1093/ofid/ofac243</a>.
+</div>
+<div id="ref-Stewart2021" class="csl-entry" role="listitem">
+Stewart AG, Henden AS. Infectious complications of <span class="nocase">CAR T-cell</span> therapy: A clinical update. Therapeutic Advances in Infectious Disease 2021;8:20499361211036773. <a href="https://doi.org/10.1177/20499361211036773">https://doi.org/10.1177/20499361211036773</a>.
+</div>
+<div id="ref-Tabaja2022" class="csl-entry" role="listitem">
+Tabaja H, Jensen KL, Rivera CG, Misra A, Pruthi RK, Vergidis P. Multiple simultaneous infections with nontuberculous mycobacteria in the setting of <span>GATA2</span> mutation and myelodysplastic syndrome. Open Forum Infectious Diseases 2022;9:ofac309. <a href="https://doi.org/10.1093/ofid/ofac309">https://doi.org/10.1093/ofid/ofac309</a>.
+</div>
+<div id="ref-Takizawa2012" class="csl-entry" role="listitem">
+Takizawa H, Boettcher S, Manz MG. Demand-adapted regulation of early hematopoiesis in infection and inflammation. Blood 2012;119:2991–3002.
+</div>
+<div id="ref-Teh2016" class="csl-entry" role="listitem">
+<span class="nocase">Teh BW, Harrison SJ, Worth LJ, et al.</span> Infection risk with immunomodulatory and proteasome inhibitor-based therapies across treatment phases for multiple myeloma: A systematic review and meta-analysis. European Journal of Cancer 2016;67:21–37.
+</div>
+<div id="ref-Tischler2020" class="csl-entry" role="listitem">
+<span class="nocase">Tischler BY et al.</span> Platelets and infection. PLOS Pathogens 2020. <a href="https://doi.org/10.1371/journal.ppat.1008544">https://doi.org/10.1371/journal.ppat.1008544</a>.
+</div>
+<div id="ref-Ubeda2010" class="csl-entry" role="listitem">
+<span class="nocase">Ubeda C, Taur Y, Jenq RR, et al.</span> Vancomycin-resistant <em>enterococcus</em> domination of intestinal microbiota is enabled by antibiotic treatment in mice and precedes bloodstream invasion in humans. Journal of Clinical Investigation 2010;120:4332–41. <a href="https://doi.org/10.1172/JCI43918">https://doi.org/10.1172/JCI43918</a>.
+</div>
+<div id="ref-VanderMeer1994" class="csl-entry" role="listitem">
+Van der Meer J. Defects in host defense mechanisms. In: Rubin R, Young LS, editors. Current approaches to infection in the compromised host, New York: Plenum Medical; 1994, p. 33–66.
+</div>
+<div id="ref-Wallace2021" class="csl-entry" role="listitem">
+<span class="nocase">Wallace BI, Kenney B, Malani PN, et al.</span> Prevalence of immunosuppressive drug use among commercially insured <span>US</span> adults, 2018-2019. JAMA Network Open 2021;4:e214920. <a href="https://doi.org/10.1001/jamanetworkopen.2021.4920">https://doi.org/10.1001/jamanetworkopen.2021.4920</a>.
+</div>
+<div id="ref-Zimmer2022" class="csl-entry" role="listitem">
+<span class="nocase">Zimmer AJ, Stohs E, Meza J, et al.</span> Bloodstream infections in hematologic malignancy patients with fever and neutropenia: Are empirical antibiotic therapies in the <span>United States</span> still effective? Open Forum Infectious Diseases 2022;9:ofac240. <a href="https://doi.org/10.1093/ofid/ofac240">https://doi.org/10.1093/ofid/ofac240</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

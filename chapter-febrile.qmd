@@ -4,22 +4,7 @@ subtitle: "Febrile Neutropenia — From Risk Factors to Management"
 author:
   - name: "Russell E. Lewis"
     affiliation: "Department of Molecular Medicine, University of Padua"
-    email: russelledward.lewis@unipd.it
 date: last-modified
-bibliography: references-febrile.bib
-csl: diagnostic-microbiology-and-infectious-disease.csl
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    code-fold: true
-    theme: cosmo
-    fig-cap-location: bottom
-    tbl-cap-location: top
-    smooth-scroll: true
-    link-external-newwindow: true
-lightbox: true
 ---
 
 ## Learning Objectives {.unnumbered}
@@ -55,7 +40,7 @@ In general, the incidence and risks for infections are tightly correlated to the
 
 ::: {layout-ncol=2}
 
-![Normal hematopoiesis showing myeloid and lymphoid lineages](images/hematopoesis.png){#fig-hematopoiesis}
+![Normal hematopoiesis showing myeloid and lymphoid lineages](images-febrileneutropenia/hematopoesis.png){#fig-hematopoiesis}
 
 **Myeloid lineage** (neutrophils/platelets): Homogeneous, terminally differentiated effector cells that are short-lived and post-mitotic, with continuous high-throughput production and rapid quantitative recovery after chemotherapy (approximately 2--3 weeks).
 
@@ -74,7 +59,7 @@ Corticosteroids have paradoxical effects on granulocyte function [@chastainUnint
 - Decreased phagocytosis
 - Decreased intracellular killing
 
-![Effects of corticosteroids on immune function](images/corticosteroids.png){#fig-corticosteroids}
+![Effects of corticosteroids on immune function](images-febrileneutropenia/corticosteroids.png){#fig-corticosteroids}
 
 ### Innate Immune Cells and Their Functions
 
@@ -91,7 +76,7 @@ Corticosteroids have paradoxical effects on granulocyte function [@chastainUnint
 
 The seminal work of Bodey et al. established the quantitative relationship between circulating leukocytes and infection in patients with acute leukemia [@geraldp.bodey1966].
 
-![Relationship between neutrophil count and infection risk, from the landmark Bodey et al. study](images/bodey.png){#fig-bodey}
+![Relationship between neutrophil count and infection risk, from the landmark Bodey et al. study](images-febrileneutropenia/bodey.png){#fig-bodey}
 
 Key risk parameters for neutropenia-associated infection:
 
@@ -143,35 +128,35 @@ Fever may be the **only** sign of a life-threatening infection in a severely neu
 
 **Oropharynx:** Xerostomia combined with antibiotics leads to thrush and bacterial overgrowth.
 
-![Hypervirulent multidrug-resistant *Pseudomonas aeruginosa* infection in a neutropenic patient [@Coppola20201]](images/MDR%20pseudomonas.png){#fig-mdr-pseudomonas}
+![Hypervirulent multidrug-resistant *Pseudomonas aeruginosa* infection in a neutropenic patient [@Coppola20201]](images-febrileneutropenia/MDR%20pseudomonas.png){#fig-mdr-pseudomonas}
 
 ### Alimentary Tract and Mucosal Barrier Injury
 
 Chemotherapy causes disruption of the gastrointestinal microbiome (*Clostridioides difficile* risk), mucosal barrier injury, facilitation of bacterial translocation, and in the context of neutropenia, allows progression to sepsis [@basile2019].
 
-![Chemotherapy-associated dysbiosis of the gastrointestinal microbiome](images/dysbiosis.png){#fig-dysbiosis}
+![Chemotherapy-associated dysbiosis of the gastrointestinal microbiome](images-febrileneutropenia/dysbiosis.png){#fig-dysbiosis}
 
-![Model of mucosal barrier injury during anti-cancer treatment [@basile2019]](images/mucosalbarrier%20injury.png){#fig-mbi}
+![Model of mucosal barrier injury during anti-cancer treatment [@basile2019]](images-febrileneutropenia/mucosalbarrier%20injury.png){#fig-mbi}
 
-![WHO oral toxicity scale for grading mucositis severity](images/mucositis.png){#fig-mucositis}
+![WHO oral toxicity scale for grading mucositis severity](images-febrileneutropenia/mucositis.png){#fig-mucositis}
 
 ### Which Pathogens Translocate?
 
 The gastrointestinal tract is the major reservoir for pathogens that cause bloodstream infections in neutropenic patients, including *Enterobacterales*, *Enterococcus* spp., viridans streptococci, and *Candida* spp.
 
-![Gastrointestinal sources of translocating pathogens](images/GI%20sourse.png){#fig-gi-source}
+![Gastrointestinal sources of translocating pathogens](images-febrileneutropenia/GI%20sourse.png){#fig-gi-source}
 
 ### Most Common Bacterial Pathogens
 
 Infectious sources are documented in only 20--30% of febrile neutropenic episodes, and bacteremia is documented in 10--25% of patients with fever. Both aerobic gram-positive and gram-negative organisms are implicated [@mikulskaAetiologyResistanceBacteraemias2014].
 
-![Etiology of bloodstream infections in cancer patients](images/pathogens.png){#fig-pathogens}
+![Etiology of bloodstream infections in cancer patients](images-febrileneutropenia/pathogens.png){#fig-pathogens}
 
 ### Sequence of Infection During Neutropenia
 
 The temporal pattern of infections during neutropenia follows a predictable sequence based on the duration of immunosuppression.
 
-![Typical sequence of infections during neutropenia](images/sequence.png){#fig-sequence}
+![Typical sequence of infections during neutropenia](images-febrileneutropenia/sequence.png){#fig-sequence}
 
 ### Risk of Infection by Duration of Neutropenia
 
@@ -214,7 +199,7 @@ Phase I & II pathogens **plus**:
 
 The risk of invasive pulmonary aspergillosis increases dramatically with prolonged neutropenia [@gerson1984].
 
-![Relationship between duration of granulocytopenia and risk of invasive pulmonary aspergillosis](images/gerson.png){#fig-gerson}
+![Relationship between duration of granulocytopenia and risk of invasive pulmonary aspergillosis](images-febrileneutropenia/gerson.png){#fig-gerson}
 
 ### Non-Neutropenic Risk Factors
 
@@ -262,7 +247,7 @@ The role of CVCs in bacteremia might be overestimated, because CVCs can be a sit
 
 When cell-mediated immunity is impaired (e.g., by T-cell depleting therapies, corticosteroids, or certain biologic agents), the spectrum of possible pathogens broadens considerably to include intracellular organisms and opportunistic pathogens.
 
-![Pathogens associated with impaired cell-mediated immunity](images/cmi_pathogens.png){#fig-cmi-pathogens}
+![Pathogens associated with impaired cell-mediated immunity](images-febrileneutropenia/cmi_pathogens.png){#fig-cmi-pathogens}
 
 ::: {.callout-warning}
 These pathogens are **not** covered by typical empiric regimens used for febrile neutropenia!
@@ -624,7 +609,7 @@ Extended/continuous infusion of β-lactams improves pharmacodynamic target attai
 
 ### Mucormycosis
 
-![Clinical and radiographic features of mucormycosis](images/mucor.png){#fig-mucormycosis}
+![Clinical and radiographic features of mucormycosis](images-febrileneutropenia/mucor.png){#fig-mucormycosis}
 
 ### Antifungal Selection
 
@@ -642,9 +627,9 @@ Extended/continuous infusion of β-lactams improves pharmacodynamic target attai
 ### Central Venous Catheter Infections
 
 ::: {layout-ncol=2}
-![Biofilm formation cycle on central venous catheters](images/Biofilm%20Formation%20Cycle.png){#fig-biofilm-cycle}
+![Biofilm formation cycle on central venous catheters](images-febrileneutropenia/Biofilm%20Formation%20Cycle.png){#fig-biofilm-cycle}
 
-![*Staphylococcus aureus* biofilm on catheter surface](images/Staphylococcus_aureus_biofilm_01.jpg){#fig-staph-biofilm}
+![*Staphylococcus aureus* biofilm on catheter surface](images-febrileneutropenia/Staphylococcus_aureus_biofilm_01.jpg){#fig-staph-biofilm}
 :::
 
 **Management depends on:** organism (CoNS vs *S. aureus* vs gram-negatives), presence of tunnel/pocket infection, and clinical stability.
@@ -659,7 +644,7 @@ Extended/continuous infusion of β-lactams improves pharmacodynamic target attai
 
 Skin lesions in neutropenic patients may represent evidence of disseminated infection via hematogenous spread and should prompt urgent evaluation.
 
-![Skin lesions as evidence of disseminated infection in neutropenic patients](images/skin.png){#fig-skin-lesions}
+![Skin lesions as evidence of disseminated infection in neutropenic patients](images-febrileneutropenia/skin.png){#fig-skin-lesions}
 
 ### Oral and Upper GI Infections
 
@@ -667,7 +652,7 @@ Skin lesions in neutropenic patients may represent evidence of disseminated infe
 
 **Vesicular lesions** — Painful grouped lesions progressing to ulceration (HSV)
 
-![Oral infections in neutropenic patients: Candida and HSV](images/oral.png){#fig-oral-infections}
+![Oral infections in neutropenic patients: Candida and HSV](images-febrileneutropenia/oral.png){#fig-oral-infections}
 
 **Disseminated HSV** — Widespread vesicular rash, hepatitis (elevated AST/ALT, sometimes severe), pneumonitis
 
@@ -678,24 +663,24 @@ Among febrile neutropenic patients with a "normal" chest X-ray, up to **60%** ma
 :::
 
 ::: {layout-ncol=2}
-![Normal chest X-ray in a neutropenic patient with occult pneumonia](images/clipboard-4243987732.png){#fig-normal-cxr}
+![Normal chest X-ray in a neutropenic patient with occult pneumonia](images-febrileneutropenia/clipboard-4243987732.png){#fig-normal-cxr}
 
-![CT scan revealing pulmonary infiltrates not visible on chest X-ray](images/CT%20image.png){#fig-ct-pneumonia}
+![CT scan revealing pulmonary infiltrates not visible on chest X-ray](images-febrileneutropenia/CT%20image.png){#fig-ct-pneumonia}
 :::
 
 #### Common CT Findings in Neutropenic Pneumonia
 
-![CT imaging patterns and their differential diagnosis in neutropenic patients](images/ct_imaging.png){#fig-ct-patterns width="100%"}
+![CT imaging patterns and their differential diagnosis in neutropenic patients](images-febrileneutropenia/ct_imaging.png){#fig-ct-patterns width="100%"}
 
 <!-- IMAGE NEEDED: Labeled diagram showing halo sign, air-crescent sign, ground-glass opacities, and nodular patterns with differential diagnoses -->
 
 #### Bronchoscopy
 
-![Role of bronchoscopy and BAL in the diagnosis of pulmonary infections in neutropenic patients](images/BAL.png){#fig-bronchoscopy}
+![Role of bronchoscopy and BAL in the diagnosis of pulmonary infections in neutropenic patients](images-febrileneutropenia/BAL.png){#fig-bronchoscopy}
 
 ### Neutropenic Enterocolitis (Typhlitis)
 
-![CT findings in neutropenic enterocolitis showing bowel wall thickening](images/typhlitis.png){#fig-typhlitis}
+![CT findings in neutropenic enterocolitis showing bowel wall thickening](images-febrileneutropenia/typhlitis.png){#fig-typhlitis}
 
 **Key features:**
 
