@@ -17,6 +17,7 @@ website:
       - immunosuppression.qmd
       - febrileneutropenia.qmd
       - Diarrheapage.qmd
+      - FUOpage.qmd
     
 bibliography: diarrhea-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
