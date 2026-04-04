@@ -1,8 +1,9 @@
 ---
-title: "Parasites: Malaria and Leishmaniasis"
-foquartormat: html
+title: "Malaria"
 editor: visual
 ---
+
+HTML slide [link](https://russlewisbo.github.io/malaria/chapter-slides.html#/title-slide)
 
 [Handout](malariahandout.pdf)
 
