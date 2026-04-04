@@ -1,6 +1,8 @@
 ---
 title: "Infectious Diarrhea"
 editor: visual
+bibliography: diarrhea-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
 <a href="diarrhea-webpage.pdf" class="btn btn-outline-primary btn-sm" download>

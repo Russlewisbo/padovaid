@@ -1,7 +1,8 @@
 ---
 title: "Principles of Immunosuppression and Infection Risk"
-foquartormat: html
 editor: visual
+bibliography: references-immunocompromise.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
 ## Slides
@@ -12,10 +13,15 @@ PDF version of slides (interactive content will not work) can be accessed: [here
 
 ## Lecture notes
 
-[📄 Download PDF version](Immunosuppressionoverview.pdf){.btn .btn-primary target="_blank"}
+::: {.callout-note collapse="false"}
+## 📖 Interactive Lecture Notes
 
-<iframe src="chapter-draft.html" width="100%" height="900px" style="border: 1px solid #ddd; border-radius: 4px;">
+You can view the full lecture notes below, [open them in a new window](chapter-immunocompromise.html){target="_blank"} for better readability, or save as PDF.
 
-</iframe>
+<button onclick="var w = window.open('chapter-immunocompromise.html', '_blank'); setTimeout(function(){ w.print(); }, 1500);" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+  📥 Print/Save as PDF
+</button>
+:::
 
-## 
+{{< include chapter-immunocompromise.qmd >}}
+

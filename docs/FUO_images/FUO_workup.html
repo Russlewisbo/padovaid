@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@400;600&display=swap');
+
+  :root {
+    --teal:      #2a9d8f;
+    --teal-dark: #1e7b70;
+    --blue:      #457b9d;
+    --blue-lt:   #a8d8ea;
+    --red:       #e63946;
+    --green:     #52b788;
+    --orange:    #e76f51;
+    --bg:        #ffffff;
+    --text:      #1d3557;
+    --step-bg:   #1d3557;
+    --box-bg:    #e8f4f8;
+    --box-border:#6ab0c8;
+    --side-bg:   #f0f9f7;
+    --side-border:#2a9d8f;
+    --note-bg:   #fff8f0;
+    --note-border:#e76f51;
+    --radius:    6px;
+    --font:      'Source Sans 3', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 13.5px;
+    line-height: 1.45;
+  }
+
+  .flowchart {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 0 14px;
+    padding: 14px 16px;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  /* ── Step label ── */
+  .step-label {
+    display: inline-flex;
+    align-items: center;
+    background: var(--step-bg);
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 3px 10px 3px 8px;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+    margin-bottom: 5px;
+    align-self: flex-start;
+  }
+
+  /* ── Main boxes ── */
+  .box {
+    background: var(--box-bg);
+    border: 1.5px solid var(--box-border);
+    border-radius: var(--radius);
+    padding: 7px 10px;
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.45;
+  }
+
+  .box.decision {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* ── Connector arrows ── */
+  .arrow-down {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 18px;
+    margin: 3px 0;
+  }
+  .arrow-down svg { display: block; }
+
+  .arrow-down-center {
+    display: flex;
+    justify-content: center;
+    margin: 3px 0;
+  }
+
+  /* ── YES branch inline ── */
+  .yes-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 3px 0 3px 0;
+  }
+  .yes-badge {
+    background: var(--green);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11.5px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .positive-badge {
+    background: var(--teal);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11.5px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .negative-badge {
+    background: var(--red);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11.5px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    align-self: center;
+  }
+
+  /* ── NO circle ── */
+  .no-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 2px 0;
+    padding-left: 10px;
+  }
+  .no-badge {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid var(--red);
+    color: var(--red);
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #fff;
+  }
+
+  /* ── Side annotation boxes ── */
+  .side-col {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 2px;
+  }
+
+  .side-note {
+    background: var(--side-bg);
+    border-left: 3px solid var(--side-border);
+    border-radius: var(--radius);
+    padding: 7px 9px;
+    font-size: 12px;
+    color: #2c4a3e;
+    line-height: 1.45;
+    position: relative;
+  }
+  .side-note.orange {
+    background: var(--note-bg);
+    border-left-color: var(--orange);
+    color: #4a2e1a;
+  }
+
+  .side-note-label {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--teal-dark);
+    margin-bottom: 3px;
+  }
+  .side-note.orange .side-note-label {
+    color: var(--orange);
+  }
+
+  /* ── Spacer ── */
+  .spacer { height: 4px; }
+
+  /* ── Last step box ── */
+  .box.final {
+    background: #f8f4ff;
+    border-color: #9b72cf;
+    font-size: 12.5px;
+  }
+
+  /* ── Attribution ── */
+  .attribution {
+    text-align: right;
+    font-size: 11px;
+    color: #aaa;
+    padding: 4px 16px 8px;
+    font-style: italic;
+  }
+
+  /* Thin horizontal rule between steps */
+  .step-wrapper {
+    display: contents;
+  }
+
+  svg.arrow { overflow: visible; }
+</style>
+</head>
+<body>
+
+<div class="flowchart">
+
+  <!-- ═══════════════ LEFT COLUMN ═══════════════ -->
+  <div style="display:flex; flex-direction:column; gap:0;">
+
+    <!-- STEP 1 -->
+    <div class="step-label">Step 1</div>
+    <div class="box">
+      Perform a comprehensive history and complete physical examination.
+    </div>
+
+    <!-- Arrow down (green) -->
+    <div class="arrow-down">
+      <svg width="14" height="18" class="arrow">
+        <line x1="7" y1="0" x2="7" y2="12" stroke="#52b788" stroke-width="2"/>
+        <polygon points="2,12 12,12 7,18" fill="#52b788"/>
+      </svg>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step-label">Step 2</div>
+    <div class="box decision">
+      <span style="flex:1">PDCs identified?</span>
+      <div class="yes-badge">YES →</div>
+    </div>
+
+    <!-- NO circle -->
+    <div class="no-row">
+      <svg width="14" height="14">
+        <line x1="7" y1="0" x2="7" y2="14" stroke="#e63946" stroke-width="2"/>
+      </svg>
+      <div class="no-badge">NO</div>
+      <svg width="30" height="14">
+        <line x1="0" y1="7" x2="30" y2="7" stroke="#e63946" stroke-width="2"/>
+        <polygon points="24,3 30,7 24,11" fill="#e63946"/>
+      </svg>
+    </div>
+
+    <!-- Arrow down (green) -->
+    <div class="arrow-down">
+      <svg width="14" height="18" class="arrow">
+        <line x1="7" y1="0" x2="7" y2="12" stroke="#52b788" stroke-width="2"/>
+        <polygon points="2,12 12,12 7,18" fill="#52b788"/>
+      </svg>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step-label">Step 3</div>
+    <div class="box">
+      Order <strong>CBC, CMP, ESR, CRP, ferritin, TSH, RF, ANA</strong>, HIV-1/2 serology, hepatitis A, B, and E, urinalysis with microscopy, tuberculosis skin test or TB whole-blood interferon-γ releasing assay, blood cultures ×3, venous duplex imaging of the lower extremities, CT of chest and abdomen/pelvis, and echocardiography (TTE/TEE).
+    </div>
+
+    <!-- Arrow down (green) -->
+    <div class="arrow-down">
+      <svg width="14" height="18" class="arrow">
+        <line x1="7" y1="0" x2="7" y2="12" stroke="#52b788" stroke-width="2"/>
+        <polygon points="2,12 12,12 7,18" fill="#52b788"/>
+      </svg>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step-label">Step 4</div>
+    <div class="box decision">
+      <span style="flex:1">Any positive first-tier testing?</span>
+      <div class="yes-badge">YES →</div>
+    </div>
+
+    <!-- NO circle -->
+    <div class="no-row">
+      <svg width="14" height="14">
+        <line x1="7" y1="0" x2="7" y2="14" stroke="#e63946" stroke-width="2"/>
+      </svg>
+      <div class="no-badge">NO</div>
+    </div>
+
+    <!-- Arrow down (green) -->
+    <div class="arrow-down">
+      <svg width="14" height="18" class="arrow">
+        <line x1="7" y1="0" x2="7" y2="12" stroke="#52b788" stroke-width="2"/>
+        <polygon points="2,12 12,12 7,18" fill="#52b788"/>
+      </svg>
+    </div>
+
+    <!-- STEP 5 -->
+    <div class="step-label">Step 5</div>
+    <div class="box decision">
+      <span style="flex:1">Any PDCs by repeat history and physical examination?</span>
+      <div class="yes-badge">YES →</div>
+    </div>
+
+    <!-- NO circle -->
+    <div class="no-row">
+      <svg width="14" height="14">
+        <line x1="7" y1="0" x2="7" y2="14" stroke="#e63946" stroke-width="2"/>
+      </svg>
+      <div class="no-badge">NO</div>
+    </div>
+
+    <!-- Arrow down (green) -->
+    <div class="arrow-down">
+      <svg width="14" height="18" class="arrow">
+        <line x1="7" y1="0" x2="7" y2="12" stroke="#52b788" stroke-width="2"/>
+        <polygon points="2,12 12,12 7,18" fill="#52b788"/>
+      </svg>
+    </div>
+
+    <!-- STEP 6 -->
+    <div class="step-label">Step 6</div>
+    <div class="box decision">
+      <span style="flex:1">Order <strong>18FDG-PET/CT</strong> scan imaging (if not already performed).</span>
+      <div class="positive-badge">Positive →</div>
+    </div>
+
+    <!-- Negative result -->
+    <div class="no-row" style="margin-top:4px;">
+      <svg width="14" height="14">
+        <line x1="7" y1="0" x2="7" y2="14" stroke="#e63946" stroke-width="2"/>
+      </svg>
+      <div class="negative-badge">Negative Result</div>
+    </div>
+
+    <!-- Arrow down (green) -->
+    <div class="arrow-down">
+      <svg width="14" height="18" class="arrow">
+        <line x1="7" y1="0" x2="7" y2="12" stroke="#52b788" stroke-width="2"/>
+        <polygon points="2,12 12,12 7,18" fill="#52b788"/>
+      </svg>
+    </div>
+
+    <!-- STEP 7 -->
+    <div class="step-label">Step 7</div>
+    <div class="box final">
+      If there are still no new PDCs, re-evaluate the patient history and physical examination periodically. Continue to monitor for any new PDCs and apply appropriate noninvasive and/or invasive diagnostic testing based upon any new findings. At this stage, empiric use of <strong>nonsteroidal anti-inflammatory agents</strong> or <strong>immunosuppressant therapy</strong> such as corticosteroids could be entertained after discussing risks and benefits with the patient.
+    </div>
+
+  </div><!-- /left col -->
+
+  <!-- ═══════════════ RIGHT COLUMN ═══════════════ -->
+  <div class="side-col">
+
+    <!-- Step 2 annotation -->
+    <div class="side-note">
+      <div class="side-note-label">Step 2 — If YES</div>
+      Apply appropriate invasive or noninvasive diagnostic studies for investigation.
+    </div>
+
+    <!-- spacer to push Step 4 annotation to correct vertical position -->
+    <div style="flex:1; min-height: 130px;"></div>
+
+    <!-- Step 4 annotation -->
+    <div class="side-note">
+      <div class="side-note-label">Step 4 — If YES</div>
+      Apply second-tier testing such as specialized imaging (MRI, nuclear imaging, or 18FDG-PET scans) or appropriate biopsy methods for culture and histologic analysis.
+    </div>
+
+    <!-- spacer -->
+    <div style="flex:1; min-height: 40px;"></div>
+
+    <!-- Step 5 annotation -->
+    <div class="side-note">
+      <div class="side-note-label">Step 5 — If YES</div>
+      Apply appropriate invasive and noninvasive diagnostic studies for investigation.
+    </div>
+
+    <!-- spacer -->
+    <div style="flex:1; min-height: 16px;"></div>
+
+    <!-- Step 6 annotation -->
+    <div class="side-note orange">
+      <div class="side-note-label">Step 6 — Positive Result</div>
+      Apply appropriate invasive and noninvasive diagnostic studies for investigation.
+    </div>
+
+  </div><!-- /right col -->
+
+</div><!-- /flowchart -->
+
+<div class="attribution">Adapted from Cunha et al. © 2020 JHU/AAM</div>
+
+</body>
+</html>
