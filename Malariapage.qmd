@@ -6,10 +6,11 @@ editor: visual
 
 [Handout](malariahandout.pdf)
 
-[Study guide](malaria.docx)
+
 
 [WHO Malaria Treatment Guidelines](WHOguidelines.pdf)
 
 [Comprehensive Review on Malaria](Naturereviews.pdf)
 
-[Review on leishmaniasis](nrmicro1748.pdf)
+
+{{< include _malaria-chapter-webpage.qmd >}}

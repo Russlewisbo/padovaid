@@ -3,7 +3,9 @@ title: "Infectious Diarrhea"
 editor: visual
 ---
 
-## 
+<a href="diarrhea-webpage.pdf" class="btn btn-outline-primary btn-sm" download>
+  ⬇ Download PDF Handout
+</a>
 
 [HTML Slides](https://russlewisbo.github.io/diarrhea/diarrhea-slides.html#/title-slide#/title-slide)
 
@@ -15,4 +17,4 @@ editor: visual
 
 A useful review that contains information on when and what tests to use for symptomatic diarrhea [Syndromic Panel-Based Testing in Clinical Microbiology](Syndromic.pdf)
 
-{{< include diarrhea-webpage.qmd >}}
+{{< include _diarrhea-content.qmd >}}
