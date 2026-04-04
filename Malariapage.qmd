@@ -6,11 +6,8 @@ editor: visual
 
 [Handout](malariahandout.pdf)
 
-
-
 [WHO Malaria Treatment Guidelines](WHOguidelines.pdf)
 
 [Comprehensive Review on Malaria](Naturereviews.pdf)
 
-
-{{< include _malaria-chapter-webpage.qmd >}}
+{{< include malaria-chapter-webpage.qmd >}}
