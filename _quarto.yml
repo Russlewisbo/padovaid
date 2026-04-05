@@ -20,7 +20,9 @@ website:
       - Diarrheapage.qmd
       - Malariapage.qmd
     
-bibliography: diarrhea-references.bib
+bibliography:
+  - diarrhea-references.bib
+  - references_pt2.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 
 format: 

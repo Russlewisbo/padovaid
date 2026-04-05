@@ -3,6 +3,7 @@ title: "Intra-abdominal Infections: Appendicitis and Infections of the Liver and
 author:
   - name: "Russell Lewis"
 date: "2026-03-01"
+bibliography: references_pt2.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
@@ -218,7 +219,7 @@ Although *E. histolytica* is the only species of *Entamoeba* known to cause inva
 The microbiology of pyogenic liver abscess is complex. Abscess cultures are positive in 80% to 90% of cases. Anaerobic organisms are recovered 15% to 30% of the time. Many liver abscesses are polymicrobial, with estimates ranging from 20% to 50% [@Brook2008].
 
 | Type of Organism | Common (\>10%) | Uncommon (1%–10%) |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Gram-negative** | *Escherichia coli*, *Klebsiella* spp. | *Pseudomonas*, *Proteus*, *Enterobacter*, *Citrobacter*, *Serratia* |
 | **Gram-positive** | *Streptococcus* (anginosus group), *Enterococcus* spp., Other viridans group streptococci | *Staphylococcus aureus*, β-Hemolytic streptococci |
 | **Anaerobic** | *Bacteroides* spp. | *Fusobacterium*, Anaerobic streptococci, *Clostridium* spp., Lactobacilli |
@@ -311,10 +312,9 @@ Unlike amebic liver abscess, pyogenic liver abscesses usually require drainage i
 
 ![CT imaging of pyogenic liver abscess with percutaneous drainage. CT-guided aspiration is the preferred approach for both diagnostic confirmation and therapeutic drainage.](intraabdominla_images2/Liver%20abscess.png){#fig-liver-abscess-ct width="70%"}
 
-![CT-guided drainage of liver abscesses. (A) CT revealing multiple hypodense lesions in the right hepatic lobe; (B) follow-up showing catheter in place and decrease in abscess size.](intraabdominla_images2/fig-77-1-ct-drainage.png){#fig-ct-drainage}
 
 | Type of Therapy | Agents |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Monotherapy** |  |
 | β-Lactam–β-lactamase inhibitor combination | Piperacillin-tazobactam |
 | Carbapenem | Imipenem-cilastin, meropenem, ertapenem |
@@ -383,7 +383,7 @@ The choice of antibiotic for biliary tract infections must take into account the
 For community-acquired cholecystitis and cholangitis in patients without prior biliary instrumentation and low resistance risk, the following regimens are recommended:
 
 | Regimen | Agents |
-|----|----|
+|------------------------------------|------------------------------------|
 | 3rd-generation cephalosporin | Ceftriaxone, cefotaxime |
 | 2nd-generation cephalosporin | Cefuroxime |
 | 1st-generation cephalosporin | Cefazolin *(cholecystitis only)* |
@@ -403,7 +403,7 @@ Anaerobic coverage is **not required** for mild–moderate biliary tract infecti
 For Grade III cholangitis, healthcare-acquired infections, patients with prior biliary instrumentation, or those at high resistance risk, broader empiric therapy is warranted:
 
 | Regimen | Agents |
-|----|----|
+|------------------------------------|------------------------------------|
 | Carbapenem | Imipenem/cilastatin, meropenem, ertapenem |
 | β-Lactam/β-lactamase inhibitor | Piperacillin/tazobactam |
 | Fluoroquinolone + anaerobic cover | Ciprofloxacin or levofloxacin + metronidazole |
@@ -423,7 +423,7 @@ Add **vancomycin** if MRSA risk is present (prior MRSA colonization, healthcare-
 ### Comparing Hepato-Biliary Infections {#summary-hepatobiliary}
 
 |   | Appendicitis | Amebic Abscess | Pyogenic Abscess |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **Peak age** | 15–25 years | 30–40 years | 50–60 years |
 | **Cause** | Obstruction/dysbiosis | *E. histolytica* | Biliary/polymicrobial |
 | **Diagnosis** | CT | Serology + imaging | Culture + imaging |
@@ -434,7 +434,7 @@ Add **vancomycin** if MRSA risk is present (prior MRSA colonization, healthcare-
 ### Comparing Cholecystitis and Cholangitis {#summary-biliary}
 
 |   | Cholecystitis | Cholangitis |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Structure involved** | Gallbladder | Bile ducts |
 | **Cause** | Gallstone obstruction; acalculous in critically ill | Biliary obstruction (stones, stricture, malignancy) |
 | **Clinical features** | Fever, RUQ pain, Murphy's sign | Charcot triad (fever, jaundice, RUQ pain); Reynolds pentad if septic |
