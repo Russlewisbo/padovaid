@@ -1,0 +1,15 @@
+---
+title: "Parasites: Malaria and Leishmaniasis"
+format: html
+bibliography: refs-malaria.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+editor: visual
+---
+
+[Handout](malariahandout.pdf)
+
+[WHO Malaria Treatment Guidelines](WHOguidelines.pdf)
+
+[Comprehensive Review on Malaria](Naturereviews.pdf)
+
+{{< include malaria-webpage.qmd >}}

@@ -2,8 +2,8 @@
 title: "Intraabdominal infections"
 editor: visual
 bibliography:
-  - references-intraabdom1.bib
-  - references_pt2.bib
+  - refs-intraabdominal-1.bib
+  - refs-intraabdominal-2.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
@@ -35,7 +35,7 @@ You can view the full lecture notes below, [open them in a new window](chapter-w
 </button>
 :::
 
-{{< include chapter-1-webpage.qmd >}}
+{{< include intraabdominal-1-webpage.qmd >}}
 
 ## Lecture 2: Notes
 
@@ -51,4 +51,4 @@ You can view the full lecture notes below, [open them in a new window](chapter2-
 </button>
 :::
 
-{{< include chapter2-webpage.qmd >}}
+{{< include intraabdominal-2-webpage.qmd >}}

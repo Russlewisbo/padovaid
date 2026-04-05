@@ -4,9 +4,9 @@ format: html
 editor: visual
 ---
 
-![](images/800-unipd%202.svg){fig-align="center" width="600"}
+![](images-fuo/800-unipd%202.svg){fig-align="center" width="600"}
 
-![](images/DMM.png){fig-align="center" width="200"}
+![](images-fuo/DMM.png){fig-align="center" width="200"}
 
 ## Welcome
 

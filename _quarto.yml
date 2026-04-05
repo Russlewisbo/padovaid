@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: docs
   resources:
-    - chapter-draft_files/
     - diarrhea-webpage.pdf
 title: "Infectious Diseases"
 website:
@@ -11,18 +10,18 @@ website:
     style: "docked"
     search: true
     contents:
-      - Index.qmd
-      - Antibiotic.qmd
-      - Allergies.qmd
-      - Intraabdominal.qmd
+      - index.qmd
+      - antibiotic-principles.qmd
+      - allergies.qmd
+      - intraabdominal.qmd
       - immunosuppression.qmd
-      - febrileneutropenia.qmd
-      - Diarrheapage.qmd
-      - Malariapage.qmd
+      - febrile-neutropenia.qmd
+      - diarrhea.qmd
+      - malaria.qmd
     
 bibliography:
-  - diarrhea-references.bib
-  - references_pt2.bib
+  - refs-diarrhea.bib
+  - refs-intraabdominal-2.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 
 format: 

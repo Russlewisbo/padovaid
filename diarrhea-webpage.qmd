@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Syndromes of Enteric Infection: Infectious Diarrhea"
 author: "Russell E. Lewis"
 date: last-modified
@@ -15,7 +15,7 @@ format:
     toc: true
     toc-depth: 3
     number-sections: true
-bibliography: diarrhea-references.bib
+bibliography: refs-diarrhea.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
@@ -69,11 +69,11 @@ Foodborne outbreaks attributable to Salmonella species remain common in develope
 
 ## 4. Viral Pathogens
 
-![Global pathogen-attributable etiologies of acute gastroenteritis and estimated fatal attributable fractions. Pathogen-attributable etiologies (millions of episodes/year) of acute gastroenteritis measured in the Global Burden of Diseases (through 2016) and attributable fatal fractions for children ≤5 years of age (top) and ≥70 years of age (bottom). Adapted from @Troeger2018 and @Liu2016.](diarrhea-webpage-images/ch100-000.png){#fig-pathogen-etiologies width="90%"}
+![Global pathogen-attributable etiologies of acute gastroenteritis and estimated fatal attributable fractions. Pathogen-attributable etiologies (millions of episodes/year) of acute gastroenteritis measured in the Global Burden of Diseases (through 2016) and attributable fatal fractions for children ≤5 years of age (top) and ≥70 years of age (bottom). Adapted from @Troeger2018 and @Liu2016.](images-diarrhea-webpage/ch100-000.png){#fig-pathogen-etiologies width="90%"}
 
 ### 4.1 Rotavirus
 
-![Rotavirus structure and classification systems showing the segmented genome and capsid proteins.](diarrhea-webpage-images/ch100-001.png){#fig-rotavirus width="80%"}
+![Rotavirus structure and classification systems showing the segmented genome and capsid proteins.](images-diarrhea-webpage/ch100-001.png){#fig-rotavirus width="80%"}
 
 Rotavirus represents the most significant viral cause of severe diarrhea in young children worldwide, despite the introduction and implementation of rotavirus vaccines in many countries @Parashar2006. Prior to the vaccine era, rotavirus accounted for the vast majority of hospitalizations for severe diarrhea in infants and young children across all economic strata. Even in the post-vaccine era, rotavirus continues to cause substantial disease burden, particularly in regions where vaccine coverage remains suboptimal.
 
@@ -103,7 +103,7 @@ Norovirus has emerged as a leading cause of acute epidemic gastroenteritis in bo
 
 #### Virology and Genera
 
-![Norovirus electron micrograph and genetic classification of caliciviruses.](diarrhea-webpage-images/ch100-002.png){#fig-norovirus width="80%"}
+![Norovirus electron micrograph and genetic classification of caliciviruses.](images-diarrhea-webpage/ch100-002.png){#fig-norovirus width="80%"}
 
 Noroviruses belong to the family Caliciviridae and are divided into at least four distinct genera @Patel2008. Within the genus Norovirus, multiple genogroups have been identified, with genogroups I, II, and IV predominating in human disease. The virus exhibits remarkable genetic diversity and undergoes rapid evolution, leading to the circulation of numerous distinct strains and the capacity to reinfect individuals previously exposed to different norovirus strains.
 
@@ -148,18 +148,18 @@ Bocaviruses, pestiviruses, and toroviruses have been increasingly identified in 
 ### Viral Pathogens Causing Gastroenteritis
 
 | Category | Established Pathogens | Likely/Emerging Pathogens |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Confirmed Major Pathogens** | Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41) | Bocavirus, Astrovirus |
 | **Increasingly Recognized** | Caliciviruses (Norovirus, Sapovirus) | Pestivirus, Torovirus |
 | **Novel/Emerging** | — | SARS-CoV-2, Other Coronaviruses |
 
-: Viral Pathogens Causing Gastroenteritis {#tbl-viral-pathogens}
+: Viral Pathogens Causing Gastroenteritis
 
 ## 5. Protozoan Pathogens
 
 ### 5.1 Cryptosporidiosis
 
-![Cryptosporidium life cycle and oocyst morphology in acid-fast staining.](diarrhea-webpage-images/ch100-005.png){#fig-cryptosporidium width="80%"}
+![Cryptosporidium life cycle and oocyst morphology in acid-fast staining.](images-diarrhea-webpage/ch100-005.png){#fig-cryptosporidium width="80%"}
 
 Cryptosporidium species represent the second most common cause of acute noninflammatory diarrhea worldwide @Checkley2015, surpassed only by viral pathogens. The parasite exhibits a complex lifecycle involving oocyst formation that renders it relatively resistant to environmental stresses and chlorination used in standard water treatment processes.
 
@@ -203,7 +203,7 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 
 ## 6. Bacterial Pathogens
 
-![Mechanisms of bacterial diarrheal disease showing secretory and invasive pathways.](diarrhea-webpage-images/ch100-003.png){#fig-bacterial-mechanisms width="90%"}
+![Mechanisms of bacterial diarrheal disease showing secretory and invasive pathways.](images-diarrhea-webpage/ch100-003.png){#fig-bacterial-mechanisms width="90%"}
 
 ### 6.1 Enteropathogenic *Escherichia coli*
 
@@ -215,7 +215,7 @@ ETEC represents the most common bacterial cause of diarrhea in travelers to deve
 
 #### Shiga Toxin-Producing *E. coli* (STEC)
 
-![Shiga toxin-producing E. coli (STEC) and hemolytic uremic syndrome pathophysiology.](diarrhea-webpage-images/ch100-007.png){#fig-stec-hus width="80%"}
+![Shiga toxin-producing E. coli (STEC) and hemolytic uremic syndrome pathophysiology.](images-diarrhea-webpage/ch100-007.png){#fig-stec-hus width="80%"}
 
 STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia @Tarr2005. The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
 
@@ -231,7 +231,7 @@ EAEC strains cause persistent diarrhea, particularly in children and immunocompr
 
 ### 6.2 *Campylobacter jejuni*
 
-![Campylobacter jejuni microscopy and culture morphology.](diarrhea-webpage-images/ch100-009.png){#fig-campylobacter width="80%"}
+![Campylobacter jejuni microscopy and culture morphology.](images-diarrhea-webpage/ch100-009.png){#fig-campylobacter width="80%"}
 
 *Campylobacter jejuni* represents the leading bacterial cause of gastroenteritis in many developed nations and a major cause of diarrhea worldwide @Kaakoush2015. The microorganism is a microaerophilic, curved gram-negative rod that exhibits fastidious growth requirements.
 
@@ -289,7 +289,7 @@ Current first-line antimicrobial choices for shigellosis include fluoroquinolone
 
 ### 6.5 *Vibrio cholerae*
 
-![Vibrio cholerae electron micrograph and cholera toxin mechanism of action.](diarrhea-webpage-images/ch100-012.png){#fig-cholera width="80%"}
+![Vibrio cholerae electron micrograph and cholera toxin mechanism of action.](images-diarrhea-webpage/ch100-012.png){#fig-cholera width="80%"}
 
 *Vibrio cholerae* produces severe secretory diarrhea termed cholera @Sack2004; @Ali2015, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
 
@@ -316,13 +316,13 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 ### Etiology of Acute Traveler's Diarrhea
 
 | Pathogen Category | Specific Agents | Approximate Frequency |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Bacterial (40-60%)** | ETEC, Campylobacter, Salmonella, Shigella | Most common overall |
 | **Viral (5-15%)** | Norovirus, Rotavirus, Other enteroviruses | Variable by season/location |
 | **Parasitic (3-5%)** | Giardia, Cryptosporidium, Entamoeba | More common in persistent diarrhea |
 | **Unidentified (20-50%)** | Unknown pathogens | No organism identified |
 
-: Etiology of Acute Traveler's Diarrhea {#tbl-travelers-diarrhea}
+: Etiology of Acute Traveler's Diarrhea
 
 ### Prevention Strategies
 
@@ -345,7 +345,7 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @
 #### Pathogens in Advanced HIV Infection
 
 | Pathogen | CD4 Threshold | Characteristics |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Cryptosporidium** | \<200 | Chronic, severe; may resolve with immune reconstitution |
 | **Microsporidium** | \<100 | Chronic diarrhea, malabsorption |
 | **Mycobacterium avium complex** | \<50 | Systemic infection with GI involvement |
@@ -353,7 +353,7 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @
 | **Histoplasma** | \<50 | Disseminated disease with GI involvement |
 | **Isospora** | Variable | Chronic diarrhea, tropical distribution |
 
-: Pathogens Causing Diarrhea in Advanced HIV/AIDS {#tbl-aids-pathogens}
+: Pathogens Causing Diarrhea in Advanced HIV/AIDS
 
 #### Cryptosporidia in AIDS
 

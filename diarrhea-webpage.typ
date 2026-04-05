@@ -1,8 +1,38 @@
+// Simple numbering for non-book documents
+#let equation-numbering = "(1)"
+#let callout-numbering = "1"
+#let subfloat-numbering(n-super, subfloat-idx) = {
+  numbering("1a", n-super, subfloat-idx)
+}
+
+// Theorem configuration for theorion
+// Simple numbering for non-book documents (no heading inheritance)
+#let theorem-inherited-levels = 0
+
+// Theorem numbering format (can be overridden by extensions for appendix support)
+// This function returns the numbering pattern to use
+#let theorem-numbering(loc) = "1.1"
+
+// Default theorem render function
+#let theorem-render(prefix: none, title: "", full-title: auto, body) = {
+  if full-title != "" and full-title != auto and full-title != none {
+    strong[#full-title.]
+    h(0.5em)
+  }
+  body
+}
 // Some definitions presupposed by pandoc's typst output.
-#let blockquote(body) = [
-  #set text( size: 0.92em )
-  #block(inset: (left: 1.5em, top: 0.2em, bottom: 0.2em))[#body]
-]
+#let content-to-string(content) = {
+  if content.has("text") {
+    content.text
+  } else if content.has("children") {
+    content.children.map(content-to-string).join("")
+  } else if content.has("body") {
+    content-to-string(content.body)
+  } else if content == [ ] {
+    " "
+  }
+}
 
 #let horizontalrule = line(start: (25%,0%), end: (75%,0%))
 
@@ -10,14 +40,10 @@
   #stack(dir: ltr, spacing: 3pt, super[#num], contents)
 ]
 
-#show terms: it => {
-  it.children
-    .map(child => [
-      #strong[#child.term]
-      #block(inset: (left: 1.5em, top: -0.4em))[#child.description]
-      ])
-    .join()
-}
+#show terms.item: it => block(breakable: false)[
+  #text(weight: "bold")[#it.term]
+  #block(inset: (left: 1.5em, top: -0.4em))[#it.description]
+]
 
 // Some quarto-specific definitions.
 
@@ -29,15 +55,14 @@
   )
 
 #let block_with_new_content(old_block, new_content) = {
-  let d = (:)
   let fields = old_block.fields()
-  fields.remove("body")
+  let _ = fields.remove("body")
   if fields.at("below", default: none) != none {
     // TODO: this is a hack because below is a "synthesized element"
     // according to the experts in the typst discord...
     fields.below = fields.below.abs
   }
-  return block.with(..fields)(new_content)
+  block.with(..fields)(new_content)
 }
 
 #let empty(v) = {
@@ -69,7 +94,6 @@
   label: none,
   supplement: str,
   position: none,
-  subrefnumbering: "1a",
   subcapnumbering: "(a)",
   body,
 ) = {
@@ -82,16 +106,19 @@
       supplement: supplement,
       caption: caption,
       {
-        show figure.where(kind: kind): set figure(numbering: _ => numbering(subrefnumbering, n-super, quartosubfloatcounter.get().first() + 1))
+        show figure.where(kind: kind): set figure(numbering: _ => {
+          let subfloat-idx = quartosubfloatcounter.get().first() + 1
+          subfloat-numbering(n-super, subfloat-idx)
+        })
         show figure.where(kind: kind): set figure.caption(position: position)
 
         show figure: it => {
           let num = numbering(subcapnumbering, n-super, quartosubfloatcounter.get().first() + 1)
-          show figure.caption: it => {
+          show figure.caption: it => block({
             num.slice(2) // I don't understand why the numbering contains output that it really shouldn't, but this fixes it shrug?
             [ ]
             it.body
-          }
+          })
 
           quartosubfloatcounter.step()
           it
@@ -122,26 +149,36 @@
   // when we cleanup pandoc's emitted code to avoid spaces this will have to change
   let old_callout = it.body.children.at(1).body.children.at(1)
   let old_title_block = old_callout.body.children.at(0)
-  let old_title = old_title_block.body.body.children.at(2)
+  let children = old_title_block.body.body.children
+  let old_title = if children.len() == 1 {
+    children.at(0)  // no icon: title at index 0
+  } else {
+    children.at(1)  // with icon: title at index 1
+  }
 
   // TODO use custom separator if available
+  // Use the figure's counter display which handles chapter-based numbering
+  // (when numbering is a function that includes the heading counter)
+  let callout_num = it.counter.display(it.numbering)
   let new_title = if empty(old_title) {
-    [#kind #it.counter.display()]
+    [#kind #callout_num]
   } else {
-    [#kind #it.counter.display(): #old_title]
+    [#kind #callout_num: #old_title]
   }
 
   let new_title_block = block_with_new_content(
-    old_title_block, 
+    old_title_block,
     block_with_new_content(
-      old_title_block.body, 
-      old_title_block.body.body.children.at(0) +
-      old_title_block.body.body.children.at(1) +
-      new_title))
+      old_title_block.body,
+      if children.len() == 1 {
+        new_title  // no icon: just the title
+      } else {
+        children.at(0) + new_title  // with icon: preserve icon block + new title
+      }))
 
-  block_with_new_content(old_callout,
+  align(left, block_with_new_content(old_callout,
     block(below: 0pt, new_title_block) +
-    old_callout.body.children.at(1))
+    old_callout.body.children.at(1)))
 }
 
 // 2023-10-09: #fa-icon("fa-info") is not working, so we'll eval "#fa-info()" instead
@@ -157,9 +194,9 @@
       width: 100%, 
       below: 0pt, 
       block(
-        fill: background_color, 
-        width: 100%, 
-        inset: 8pt)[#text(icon_color, weight: 900)[#icon] #title]) +
+        fill: background_color,
+        width: 100%,
+        inset: 8pt)[#if icon != none [#text(icon_color, weight: 900)[#icon] ]#title]) +
       if(body != []){
         block(
           inset: 1pt, 
@@ -171,86 +208,124 @@
 
 
 
+
 #let article(
   title: none,
   subtitle: none,
   authors: none,
+  keywords: (),
   date: none,
-  abstract: none,
   abstract-title: none,
+  abstract: none,
+  thanks: none,
   cols: 1,
   lang: "en",
   region: "US",
-  font: "libertinus serif",
+  font: none,
   fontsize: 11pt,
   title-size: 1.5em,
   subtitle-size: 1.25em,
-  heading-family: "libertinus serif",
+  heading-family: none,
   heading-weight: "bold",
   heading-style: "normal",
   heading-color: black,
   heading-line-height: 0.65em,
+  mathfont: none,
+  codefont: none,
+  linestretch: 1,
   sectionnumbering: none,
+  linkcolor: none,
+  citecolor: none,
+  filecolor: none,
   toc: false,
   toc_title: none,
   toc_depth: none,
   toc_indent: 1.5em,
   doc,
 ) = {
-  set par(justify: true)
+  // Set document metadata for PDF accessibility
+  set document(title: title, keywords: keywords)
+  set document(
+    author: authors.map(author => content-to-string(author.name)).join(", ", last: " & "),
+  ) if authors != none and authors != ()
+  set par(
+    justify: true,
+    leading: linestretch * 0.65em
+  )
   set text(lang: lang,
            region: region,
-           font: font,
            size: fontsize)
+  set text(font: font) if font != none
+  show math.equation: set text(font: mathfont) if mathfont != none
+  show raw: set text(font: codefont) if codefont != none
+
   set heading(numbering: sectionnumbering)
-  if title != none {
-    align(center)[#block(inset: 2em)[
-      #set par(leading: heading-line-height)
-      #if (heading-family != none or heading-weight != "bold" or heading-style != "normal"
-           or heading-color != black) {
-        set text(font: heading-family, weight: heading-weight, style: heading-style, fill: heading-color)
-        text(size: title-size)[#title]
-        if subtitle != none {
-          parbreak()
-          text(size: subtitle-size)[#subtitle]
-        }
-      } else {
-        text(weight: "bold", size: title-size)[#title]
-        if subtitle != none {
-          parbreak()
-          text(weight: "bold", size: subtitle-size)[#subtitle]
-        }
+
+  show link: set text(fill: rgb(content-to-string(linkcolor))) if linkcolor != none
+  show ref: set text(fill: rgb(content-to-string(citecolor))) if citecolor != none
+  show link: this => {
+    if filecolor != none and type(this.dest) == label {
+      text(this, fill: rgb(content-to-string(filecolor)))
+    } else {
+      text(this)
+    }
+   }
+
+  place(
+    top,
+    float: true,
+    scope: "parent",
+    clearance: 4mm,
+    block(below: 1em, width: 100%)[
+
+      #if title != none {
+        align(center, block(inset: 2em)[
+          #set par(leading: heading-line-height) if heading-line-height != none
+          #set text(font: heading-family) if heading-family != none
+          #set text(weight: heading-weight)
+          #set text(style: heading-style) if heading-style != "normal"
+          #set text(fill: heading-color) if heading-color != black
+
+          #text(size: title-size)[#title #if thanks != none {
+            footnote(thanks, numbering: "*")
+            counter(footnote).update(n => n - 1)
+          }]
+          #(if subtitle != none {
+            parbreak()
+            text(size: subtitle-size)[#subtitle]
+          })
+        ])
       }
-    ]]
-  }
 
-  if authors != none {
-    let count = authors.len()
-    let ncols = calc.min(count, 3)
-    grid(
-      columns: (1fr,) * ncols,
-      row-gutter: 1.5em,
-      ..authors.map(author =>
-          align(center)[
-            #author.name \
-            #author.affiliation \
-            #author.email
-          ]
-      )
-    )
-  }
+      #if authors != none and authors != () {
+        let count = authors.len()
+        let ncols = calc.min(count, 3)
+        grid(
+          columns: (1fr,) * ncols,
+          row-gutter: 1.5em,
+          ..authors.map(author =>
+              align(center)[
+                #author.name \
+                #author.affiliation \
+                #author.email
+              ]
+          )
+        )
+      }
 
-  if date != none {
-    align(center)[#block(inset: 1em)[
-      #date
-    ]]
-  }
+      #if date != none {
+        align(center)[#block(inset: 1em)[
+          #date
+        ]]
+      }
 
-  if abstract != none {
-    block(inset: 2em)[
-    #text(weight: "semibold")[#abstract-title] #h(1em) #abstract
+      #if abstract != none {
+        block(inset: 2em)[
+        #text(weight: "semibold")[#abstract-title] #h(1em) #abstract
+        ]
+      }
     ]
-  }
+  )
 
   if toc {
     let title = if toc_title == none {
@@ -267,11 +342,7 @@
     ]
   }
 
-  if cols == 1 {
-    doc
-  } else {
-    columns(cols, doc)
-  }
+  doc
 }
 
 #set table(
@@ -279,11 +350,15 @@
   stroke: none
 )
 #import "@preview/fontawesome:0.5.0": *
+#let brand-color = (:)
+#let brand-color-background = (:)
+#let brand-logo = (:)
 
 #set page(
   paper: "us-letter",
   margin: (x: 1.25in, y: 1.25in),
   numbering: "1",
+  columns: 1,
 )
 
 #show: doc => article(
@@ -293,12 +368,11 @@
       affiliation: [],
       email: [] ),
     ),
-  date: [2026-03-23],
+  date: [2026-04-05],
   sectionnumbering: "1.1.a",
   toc: true,
   toc_title: [Table of contents],
   toc_depth: 3,
-  cols: 1,
   doc,
 )
 
@@ -338,7 +412,7 @@ white
 ]
 = 2. Epidemiology of Acute Noninflammatory Diarrhea
 <epidemiology-of-acute-noninflammatory-diarrhea>
-The epidemiologic burden of acute diarrheal disease remains enormous despite advances in prevention and treatment. According to recent global health assessments, acute diarrheal illnesses resulted in approximately 1.6 million deaths globally in 2016, making diarrhea the eighth leading cause of death worldwide #cite(<Troeger2018>, form: "prose");. This mortality burden disproportionately affects children younger than five years of age, with the vast majority of these deaths occurring in low- and middle-income countries in sub-Saharan Africa and South Asia #cite(<Liu2016>, form: "prose");.
+The epidemiologic burden of acute diarrheal disease remains enormous despite advances in prevention and treatment. According to recent global health assessments, acute diarrheal illnesses resulted in approximately 1.6 million deaths globally in 2016, making diarrhea the eighth leading cause of death worldwide #cite(<Troeger2018>, form: "prose"). This mortality burden disproportionately affects children younger than five years of age, with the vast majority of these deaths occurring in low- and middle-income countries in sub-Saharan Africa and South Asia #cite(<Liu2016>, form: "prose").
 
 == Differential Disease Burden by Geographic Region
 <differential-disease-burden-by-geographic-region>
@@ -373,11 +447,11 @@ Foodborne outbreaks attributable to Salmonella species remain common in develope
 = 4. Viral Pathogens
 <viral-pathogens>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-000.png", width: 90.0%))
+#box(image("images-diarrhea-webpage/ch100-000.png", width: 90.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
-Global pathogen-attributable etiologies of acute gastroenteritis and estimated fatal attributable fractions. Pathogen-attributable etiologies (millions of episodes/year) of acute gastroenteritis measured in the Global Burden of Diseases (through 2016) and attributable fatal fractions for children ≤5 years of age (top) and ≥70 years of age (bottom). Adapted from #cite(<Troeger2018>, form: "prose") and #cite(<Liu2016>, form: "prose");.
+Global pathogen-attributable etiologies of acute gastroenteritis and estimated fatal attributable fractions. Pathogen-attributable etiologies (millions of episodes/year) of acute gastroenteritis measured in the Global Burden of Diseases (through 2016) and attributable fatal fractions for children ≤5 years of age (top) and ≥70 years of age (bottom). Adapted from #cite(<Troeger2018>, form: "prose") and #cite(<Liu2016>, form: "prose").
 ]), 
 kind: "quarto-float-fig", 
 supplement: "Figure", 
@@ -388,7 +462,7 @@ supplement: "Figure",
 == 4.1 Rotavirus
 <rotavirus>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-001.png", width: 80.0%))
+#box(image("images-diarrhea-webpage/ch100-001.png", width: 80.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -400,11 +474,11 @@ supplement: "Figure",
 <fig-rotavirus>
 
 
-Rotavirus represents the most significant viral cause of severe diarrhea in young children worldwide, despite the introduction and implementation of rotavirus vaccines in many countries #cite(<Parashar2006>, form: "prose");. Prior to the vaccine era, rotavirus accounted for the vast majority of hospitalizations for severe diarrhea in infants and young children across all economic strata. Even in the post-vaccine era, rotavirus continues to cause substantial disease burden, particularly in regions where vaccine coverage remains suboptimal.
+Rotavirus represents the most significant viral cause of severe diarrhea in young children worldwide, despite the introduction and implementation of rotavirus vaccines in many countries #cite(<Parashar2006>, form: "prose"). Prior to the vaccine era, rotavirus accounted for the vast majority of hospitalizations for severe diarrhea in infants and young children across all economic strata. Even in the post-vaccine era, rotavirus continues to cause substantial disease burden, particularly in regions where vaccine coverage remains suboptimal.
 
 === Epidemiology and Clinical Burden
 <epidemiology-and-clinical-burden>
-Rotavirus causes an estimated 100 million or more cases annually in children worldwide, with approximately 150,000 deaths occurring in children under five years of age #cite(<Tate2012>, form: "prose");. The disease presents typically with acute watery diarrhea, vomiting, fever, and abdominal discomfort. The illness is generally self-limiting but carries substantial risk for dehydration in young children.
+Rotavirus causes an estimated 100 million or more cases annually in children worldwide, with approximately 150,000 deaths occurring in children under five years of age #cite(<Tate2012>, form: "prose"). The disease presents typically with acute watery diarrhea, vomiting, fever, and abdominal discomfort. The illness is generally self-limiting but carries substantial risk for dehydration in young children.
 
 === Virology and Classification
 <virology-and-classification>
@@ -416,7 +490,7 @@ The pathophysiologic mechanisms of rotavirus-induced diarrhea involve several ke
 
 === Vaccines
 <vaccines>
-Two rotavirus vaccines have been licensed and implemented in immunization programs worldwide #cite(<Vesikari2006>, form: "prose");; #cite(<Ruiz-Palacios2006>, form: "prose");. RotaTeq (manufactured by Merck) is a pentavalent vaccine containing five reassortant rotavirus strains derived from bovine and human parent strains, providing broad protection against multiple G and P types. Rotarix (manufactured by GlaxoSmithKline) is a monovalent vaccine containing a single attenuated rotavirus strain that nonetheless provides cross-protection against multiple serotypes through mechanisms not completely understood.
+Two rotavirus vaccines have been licensed and implemented in immunization programs worldwide #cite(<Vesikari2006>, form: "prose")\; #cite(<Ruiz-Palacios2006>, form: "prose"). RotaTeq (manufactured by Merck) is a pentavalent vaccine containing five reassortant rotavirus strains derived from bovine and human parent strains, providing broad protection against multiple G and P types. Rotarix (manufactured by GlaxoSmithKline) is a monovalent vaccine containing a single attenuated rotavirus strain that nonetheless provides cross-protection against multiple serotypes through mechanisms not completely understood.
 
 #block[
 #callout(
@@ -446,12 +520,12 @@ white
 ]
 == 4.2 Norovirus (Winter Vomiting Disease)
 <norovirus-winter-vomiting-disease>
-Norovirus has emerged as a leading cause of acute epidemic gastroenteritis in both children and adults, particularly in developed nations #cite(<Ahmed2014>, form: "prose");. The virus accounts for approximately one-third of all nonbacterial gastroenteritis outbreaks reported in the United States, making it the most common cause of foodborne illness outbreaks in recent years.
+Norovirus has emerged as a leading cause of acute epidemic gastroenteritis in both children and adults, particularly in developed nations #cite(<Ahmed2014>, form: "prose"). The virus accounts for approximately one-third of all nonbacterial gastroenteritis outbreaks reported in the United States, making it the most common cause of foodborne illness outbreaks in recent years.
 
 === Virology and Genera
 <virology-and-genera>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-002.png", width: 80.0%))
+#box(image("images-diarrhea-webpage/ch100-002.png", width: 80.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -463,7 +537,7 @@ supplement: "Figure",
 <fig-norovirus>
 
 
-Noroviruses belong to the family Caliciviridae and are divided into at least four distinct genera #cite(<Patel2008>, form: "prose");. Within the genus Norovirus, multiple genogroups have been identified, with genogroups I, II, and IV predominating in human disease. The virus exhibits remarkable genetic diversity and undergoes rapid evolution, leading to the circulation of numerous distinct strains and the capacity to reinfect individuals previously exposed to different norovirus strains.
+Noroviruses belong to the family Caliciviridae and are divided into at least four distinct genera #cite(<Patel2008>, form: "prose"). Within the genus Norovirus, multiple genogroups have been identified, with genogroups I, II, and IV predominating in human disease. The virus exhibits remarkable genetic diversity and undergoes rapid evolution, leading to the circulation of numerous distinct strains and the capacity to reinfect individuals previously exposed to different norovirus strains.
 
 === Epidemiology and Outbreak Characteristics
 <epidemiology-and-outbreak-characteristics>
@@ -505,33 +579,21 @@ Bocaviruses, pestiviruses, and toroviruses have been increasingly identified in 
 
 == Viral Pathogens Causing Gastroenteritis
 <viral-pathogens-causing-gastroenteritis>
-#figure([
 #table(
   columns: (33.33%, 33.33%, 33.33%),
   align: (auto,auto,auto,),
   table.header([Category], [Established Pathogens], [Likely/Emerging Pathogens],),
   table.hline(),
-  [#strong[Confirmed Major Pathogens];], [Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41)], [Bocavirus, Astrovirus],
-  [#strong[Increasingly Recognized];], [Caliciviruses (Norovirus, Sapovirus)], [Pestivirus, Torovirus],
-  [#strong[Novel/Emerging];], [---], [SARS-CoV-2, Other Coronaviruses],
+  [#strong[Confirmed Major Pathogens]], [Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41)], [Bocavirus, Astrovirus],
+  [#strong[Increasingly Recognized]], [Caliciviruses (Norovirus, Sapovirus)], [Pestivirus, Torovirus],
+  [#strong[Novel/Emerging]], [---], [SARS-CoV-2, Other Coronaviruses],
 )
-], caption: figure.caption(
-position: top, 
-[
-Viral Pathogens Causing Gastroenteritis
-]), 
-kind: "quarto-float-tbl", 
-supplement: "Table", 
-)
-<tbl-viral-pathogens>
-
-
 = 5. Protozoan Pathogens
 <protozoan-pathogens>
 == 5.1 Cryptosporidiosis
 <cryptosporidiosis>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-005.png", width: 80.0%))
+#box(image("images-diarrhea-webpage/ch100-005.png", width: 80.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -543,11 +605,11 @@ supplement: "Figure",
 <fig-cryptosporidium>
 
 
-Cryptosporidium species represent the second most common cause of acute noninflammatory diarrhea worldwide #cite(<Checkley2015>, form: "prose");, surpassed only by viral pathogens. The parasite exhibits a complex lifecycle involving oocyst formation that renders it relatively resistant to environmental stresses and chlorination used in standard water treatment processes.
+Cryptosporidium species represent the second most common cause of acute noninflammatory diarrhea worldwide #cite(<Checkley2015>, form: "prose"), surpassed only by viral pathogens. The parasite exhibits a complex lifecycle involving oocyst formation that renders it relatively resistant to environmental stresses and chlorination used in standard water treatment processes.
 
 === Species and Epidemiology
 <species-and-epidemiology>
-Two main species cause human infection: #emph[Cryptosporidium parvum] and #emph[Cryptosporidium hominis];. While #emph[\C. parvum] commonly infects both humans and animals, #emph[\C. hominis] exhibits species specificity for humans. The parasite spreads through consumption of contaminated water or food, or through direct contact with infected individuals or animals.
+Two main species cause human infection: #emph[Cryptosporidium parvum] and #emph[Cryptosporidium hominis]. While #emph[C. parvum] commonly infects both humans and animals, #emph[C. hominis] exhibits species specificity for humans. The parasite spreads through consumption of contaminated water or food, or through direct contact with infected individuals or animals.
 
 === Clinical Manifestations
 <clinical-manifestations>
@@ -561,11 +623,11 @@ Cryptosporidium organisms reside intracellularly within small intestinal epithel
 <diagnosis-and-treatment>
 Diagnosis relies on identification of oocysts in stool specimens through microscopy using special stains (such as acid-fast staining) or through antigen detection using enzyme immunoassay or immunofluorescence. Molecular diagnostic techniques using PCR have improved sensitivity and allow for species differentiation.
 
-Treatment of cryptosporidiosis depends on the host's immune status. In immunocompetent individuals, supportive care with rehydration often suffices, as the infection typically resolves spontaneously. In immunocompromised patients, specific antiparasitic therapy becomes necessary. Nitazoxanide represents the primary antimicrobial agent #cite(<Rossignol2006>, form: "prose");, though efficacy is incomplete and prolonged or repeated courses may be required. Immune reconstitution through antiretroviral therapy in HIV-infected individuals remains crucial for long-term resolution of cryptosporidial diarrhea.
+Treatment of cryptosporidiosis depends on the host's immune status. In immunocompetent individuals, supportive care with rehydration often suffices, as the infection typically resolves spontaneously. In immunocompromised patients, specific antiparasitic therapy becomes necessary. Nitazoxanide represents the primary antimicrobial agent #cite(<Rossignol2006>, form: "prose"), though efficacy is incomplete and prolonged or repeated courses may be required. Immune reconstitution through antiretroviral therapy in HIV-infected individuals remains crucial for long-term resolution of cryptosporidial diarrhea.
 
 == 5.2 Giardiasis
 <giardiasis>
-#emph[Giardia lamblia] (also known as #emph[Giardia intestinalis] or #emph[Giardia duodenalis];) ranks among the most common parasitic causes of diarrhea worldwide #cite(<Einarsson2016>, form: "prose") and represents a leading cause of chronic noninflammatory diarrhea in endemic regions.
+#emph[Giardia lamblia] (also known as #emph[Giardia intestinalis] or #emph[Giardia duodenalis]) ranks among the most common parasitic causes of diarrhea worldwide #cite(<Einarsson2016>, form: "prose") and represents a leading cause of chronic noninflammatory diarrhea in endemic regions.
 
 === Epidemiology and Transmission
 <epidemiology-and-transmission>
@@ -586,7 +648,7 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 = 6. Bacterial Pathogens
 <bacterial-pathogens>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-003.png", width: 90.0%))
+#box(image("images-diarrhea-webpage/ch100-003.png", width: 90.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -600,16 +662,16 @@ supplement: "Figure",
 
 == 6.1 Enteropathogenic #emph[Escherichia coli]
 <enteropathogenic-escherichia-coli>
-#emph[Escherichia coli] encompasses multiple pathotypes, each with distinct virulence mechanisms and epidemiologic distributions #cite(<Qadri2005>, form: "prose");. The major pathogenic categories include enterotoxigenic E. coli (ETEC), enteroaggregative E. coli (EAEC), enteropathogenic E. coli (EPEC), enteroinvasive E. coli (EIEC), and Shiga toxin-producing E. coli (STEC), also known as enterohemorrhagic E. coli (EHEC).
+#emph[Escherichia coli] encompasses multiple pathotypes, each with distinct virulence mechanisms and epidemiologic distributions #cite(<Qadri2005>, form: "prose"). The major pathogenic categories include enterotoxigenic E. coli (ETEC), enteroaggregative E. coli (EAEC), enteropathogenic E. coli (EPEC), enteroinvasive E. coli (EIEC), and Shiga toxin-producing E. coli (STEC), also known as enterohemorrhagic E. coli (EHEC).
 
-=== Enterotoxigenic #emph[\E. coli] (ETEC)
+=== Enterotoxigenic #emph[E. coli] (ETEC)
 <enterotoxigenic-e.-coli-etec>
 ETEC represents the most common bacterial cause of diarrhea in travelers to developing countries and in children in resource-limited settings. The pathogen produces diarrhea through elaboration of heat-labile (LT) enterotoxins and heat-stable (ST) enterotoxins. The LT enterotoxin resembles cholera toxin in structure and mechanism, activating adenylyl cyclase and increasing intestinal cAMP levels, resulting in secretory diarrhea. The ST enterotoxins activate guanylate cyclase, leading to increased intestinal cGMP and similar secretory effects. Some strains produce only LT, some only ST, and some produce both toxins.
 
-=== Shiga Toxin-Producing #emph[\E. coli] (STEC)
+=== Shiga Toxin-Producing #emph[E. coli] (STEC)
 <shiga-toxin-producing-e.-coli-stec>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-007.png", width: 80.0%))
+#box(image("images-diarrhea-webpage/ch100-007.png", width: 80.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -621,7 +683,7 @@ supplement: "Figure",
 <fig-stec-hus>
 
 
-STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia #cite(<Tarr2005>, form: "prose");. The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
+STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia #cite(<Tarr2005>, form: "prose"). The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
 
 #block[
 #callout(
@@ -633,7 +695,7 @@ The use of antibiotics in STEC infection remains controversial and potentially h
 , 
 title: 
 [
-Critical Warning: Antibiotic Avoidance in Shiga Toxin-Producing #emph[\E. coli]
+Critical Warning: Antibiotic Avoidance in Shiga Toxin-Producing #emph[E. coli]
 ]
 , 
 background_color: 
@@ -649,14 +711,14 @@ body_background_color:
 white
 )
 ]
-=== Other Pathogenic #emph[\E. coli] Strains
+=== Other Pathogenic #emph[E. coli] Strains
 <other-pathogenic-e.-coli-strains>
 EAEC strains cause persistent diarrhea, particularly in children and immunocompromised individuals. EPEC classically caused infantile diarrhea before modern sanitation improvements and remains significant in some developing regions. EIEC exhibits invasive properties similar to Shigella species.
 
 == 6.2 #emph[Campylobacter jejuni]
 <campylobacter-jejuni>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-009.png", width: 80.0%))
+#box(image("images-diarrhea-webpage/ch100-009.png", width: 80.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -668,11 +730,11 @@ supplement: "Figure",
 <fig-campylobacter>
 
 
-#emph[Campylobacter jejuni] represents the leading bacterial cause of gastroenteritis in many developed nations and a major cause of diarrhea worldwide #cite(<Kaakoush2015>, form: "prose");. The microorganism is a microaerophilic, curved gram-negative rod that exhibits fastidious growth requirements.
+#emph[Campylobacter jejuni] represents the leading bacterial cause of gastroenteritis in many developed nations and a major cause of diarrhea worldwide #cite(<Kaakoush2015>, form: "prose"). The microorganism is a microaerophilic, curved gram-negative rod that exhibits fastidious growth requirements.
 
 === Epidemiology and Sources
 <epidemiology-and-sources>
-The primary reservoir for #emph[\C. jejuni] is poultry, with transmission to humans occurring through consumption of contaminated poultry meat or contaminated water. The organism is increasingly recognized as a common pathogen in traveler's diarrhea.
+The primary reservoir for #emph[C. jejuni] is poultry, with transmission to humans occurring through consumption of contaminated poultry meat or contaminated water. The organism is increasingly recognized as a common pathogen in traveler's diarrhea.
 
 === Clinical Manifestations
 <clinical-manifestations-1>
@@ -680,7 +742,7 @@ Campylobacteriosis typically presents with diarrhea (often bloody), fever, and a
 
 === Complications
 <complications>
-Campylobacter infection carries risk for serious complications including Guillain-Barré syndrome (GBS), a postinfectious autoimmune neuropathy that develops in a small percentage of infected individuals (approximately 1 in 1,000 infections) #cite(<Nachamkin1998>, form: "prose");. The syndrome manifests with progressive ascending paralysis and can progress to require mechanical ventilation. Recovery typically occurs over weeks to months but may be incomplete in some patients.
+Campylobacter infection carries risk for serious complications including Guillain-Barré syndrome (GBS), a postinfectious autoimmune neuropathy that develops in a small percentage of infected individuals (approximately 1 in 1,000 infections) #cite(<Nachamkin1998>, form: "prose"). The syndrome manifests with progressive ascending paralysis and can progress to require mechanical ventilation. Recovery typically occurs over weeks to months but may be incomplete in some patients.
 
 Reactive arthritis represents another postinfectious complication of Campylobacter infection, particularly in individuals with specific HLA genotypes.
 
@@ -690,7 +752,7 @@ Diagnosis relies primarily on stool culture, which requires selective media favo
 
 == 6.3 #emph[Salmonella] Species
 <salmonella-species>
-#emph[Salmonella] species cause both acute gastroenteritis (non-typhoidal salmonellosis) and systemic infections (enteric or typhoid fever caused by #emph[Salmonella typhi] and #emph[Salmonella paratyphi];) #cite(<Majowicz2010>, form: "prose");.
+#emph[Salmonella] species cause both acute gastroenteritis (non-typhoidal salmonellosis) and systemic infections (enteric or typhoid fever caused by #emph[Salmonella typhi] and #emph[Salmonella paratyphi]) #cite(<Majowicz2010>, form: "prose").
 
 === Non-Typhoidal Salmonellosis
 <non-typhoidal-salmonellosis>
@@ -708,7 +770,7 @@ A proportion of individuals who recover from acute salmonellosis develop a chron
 
 == 6.4 #emph[Shigella] Species
 <shigella-species>
-#emph[Shigella] causes bacillary dysentery, characterized by bloody diarrhea with abundant leukocytes and mucus in stool #cite(<Kotloff2018>, form: "prose");. The four serogroups (#emph[Shigella dysenteriae];, #emph[Shigella flexneri];, #emph[Shigella boydii];, and #emph[Shigella sonnei];) differ in epidemiology and severity, with #emph[\S. dysenteriae] producing Shiga toxin and causing the most severe disease.
+#emph[Shigella] causes bacillary dysentery, characterized by bloody diarrhea with abundant leukocytes and mucus in stool #cite(<Kotloff2018>, form: "prose"). The four serogroups (#emph[Shigella dysenteriae], #emph[Shigella flexneri], #emph[Shigella boydii], and #emph[Shigella sonnei]) differ in epidemiology and severity, with #emph[S. dysenteriae] producing Shiga toxin and causing the most severe disease.
 
 === Epidemiology and Pathophysiology
 <epidemiology-and-pathophysiology>
@@ -725,7 +787,7 @@ Current first-line antimicrobial choices for shigellosis include fluoroquinolone
 == 6.5 #emph[Vibrio cholerae]
 <vibrio-cholerae>
 #figure([
-#box(image("diarrhea-webpage-images/ch100-012.png", width: 80.0%))
+#box(image("images-diarrhea-webpage/ch100-012.png", width: 80.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -737,7 +799,7 @@ supplement: "Figure",
 <fig-cholera>
 
 
-#emph[Vibrio cholerae] produces severe secretory diarrhea termed cholera #cite(<Sack2004>, form: "prose");; #cite(<Ali2015>, form: "prose");, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
+#emph[Vibrio cholerae] produces severe secretory diarrhea termed cholera #cite(<Sack2004>, form: "prose")\; #cite(<Ali2015>, form: "prose"), a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
 
 === Clinical Features
 <clinical-features>
@@ -753,36 +815,24 @@ The primary therapeutic intervention in cholera consists of aggressive fluid and
 
 = 7. Travel-Associated Diarrhea
 <travel-associated-diarrhea>
-Diarrhea affecting travelers to developing countries represents a substantial cause of morbidity and disruption of travel plans #cite(<Steffen2015>, form: "prose");; #cite(<Riddle2017>, form: "prose");. The incidence of traveler's diarrhea ranges from 5% to 50% depending on the destination, with highest risks in developing countries with poor sanitation and food safety practices. Travelers to Latin America, Africa, the Middle East, and Asia face substantially elevated risk compared to those visiting developed nations.
+Diarrhea affecting travelers to developing countries represents a substantial cause of morbidity and disruption of travel plans #cite(<Steffen2015>, form: "prose")\; #cite(<Riddle2017>, form: "prose"). The incidence of traveler's diarrhea ranges from 5% to 50% depending on the destination, with highest risks in developing countries with poor sanitation and food safety practices. Travelers to Latin America, Africa, the Middle East, and Asia face substantially elevated risk compared to those visiting developed nations.
 
 == Etiology and Epidemiology
 <etiology-and-epidemiology>
-The microbiologic causes of traveler's diarrhea vary geographically but follow some consistent patterns. Enterotoxigenic #emph[\E. coli] (ETEC) remains the most common bacterial cause, accounting for approximately 40-50% of identified bacterial pathogens. Other significant bacterial causes include #emph[Campylobacter jejuni];, non-typhoidal #emph[Salmonella];, and #emph[Shigella];. Viral pathogens, particularly noroviruses and rotavirus, contribute substantially to traveler's diarrhea epidemiology in some settings. Parasitic causes including #emph[Giardia lamblia] and #emph[Cryptosporidium] account for a smaller but clinically important proportion of cases, particularly when diarrhea persists beyond initial acute illness.
+The microbiologic causes of traveler's diarrhea vary geographically but follow some consistent patterns. Enterotoxigenic #emph[E. coli] (ETEC) remains the most common bacterial cause, accounting for approximately 40-50% of identified bacterial pathogens. Other significant bacterial causes include #emph[Campylobacter jejuni], non-typhoidal #emph[Salmonella], and #emph[Shigella]. Viral pathogens, particularly noroviruses and rotavirus, contribute substantially to traveler's diarrhea epidemiology in some settings. Parasitic causes including #emph[Giardia lamblia] and #emph[Cryptosporidium] account for a smaller but clinically important proportion of cases, particularly when diarrhea persists beyond initial acute illness.
 
 == Etiology of Acute Traveler's Diarrhea
 <etiology-of-acute-travelers-diarrhea>
-#figure([
 #table(
   columns: (33.33%, 33.33%, 33.33%),
   align: (auto,auto,auto,),
   table.header([Pathogen Category], [Specific Agents], [Approximate Frequency],),
   table.hline(),
-  [#strong[Bacterial (40-60%)];], [ETEC, Campylobacter, Salmonella, Shigella], [Most common overall],
-  [#strong[Viral (5-15%)];], [Norovirus, Rotavirus, Other enteroviruses], [Variable by season/location],
-  [#strong[Parasitic (3-5%)];], [Giardia, Cryptosporidium, Entamoeba], [More common in persistent diarrhea],
-  [#strong[Unidentified (20-50%)];], [Unknown pathogens], [No organism identified],
+  [#strong[Bacterial (40-60%)]], [ETEC, Campylobacter, Salmonella, Shigella], [Most common overall],
+  [#strong[Viral (5-15%)]], [Norovirus, Rotavirus, Other enteroviruses], [Variable by season/location],
+  [#strong[Parasitic (3-5%)]], [Giardia, Cryptosporidium, Entamoeba], [More common in persistent diarrhea],
+  [#strong[Unidentified (20-50%)]], [Unknown pathogens], [No organism identified],
 )
-], caption: figure.caption(
-position: top, 
-[
-Etiology of Acute Traveler's Diarrhea
-]), 
-kind: "quarto-float-tbl", 
-supplement: "Table", 
-)
-<tbl-travelers-diarrhea>
-
-
 == Prevention Strategies
 <prevention-strategies>
 Prevention of traveler's diarrhea involves careful attention to food and water safety. Travelers should consume only bottled or boiled water, avoid ice made from untreated water, eat foods that are cooked hot, avoid raw vegetables and fruits that cannot be peeled, and avoid dairy products and foods kept at ambient temperature. Despite careful food precautions, some cases of traveler's diarrhea remain inevitable.
@@ -791,7 +841,7 @@ Antimicrobial chemoprophylaxis can reduce the incidence of traveler's diarrhea i
 
 == Empiric Self-Treatment
 <empiric-self-treatment>
-Travelers to high-risk destinations should be provided with antimicrobial agents for empiric self-treatment of diarrhea that develops during travel. Azithromycin has become the preferred first-line agent due to high efficacy against ETEC and other major pathogens #cite(<DuPont2009>, form: "prose");. A three-day course of azithromycin (500 mg daily) typically resolves traveler's diarrhea within one to two days. Fluoroquinolones such as ciprofloxacin represent alternative agents, though resistance is increasingly common in some geographic regions. Loperamide may provide symptomatic relief of cramping but should be avoided in bloody diarrhea or severe infections.
+Travelers to high-risk destinations should be provided with antimicrobial agents for empiric self-treatment of diarrhea that develops during travel. Azithromycin has become the preferred first-line agent due to high efficacy against ETEC and other major pathogens #cite(<DuPont2009>, form: "prose"). A three-day course of azithromycin (500 mg daily) typically resolves traveler's diarrhea within one to two days. Fluoroquinolones such as ciprofloxacin represent alternative agents, though resistance is increasingly common in some geographic regions. Loperamide may provide symptomatic relief of cramping but should be avoided in bloody diarrhea or severe infections.
 
 = 8. Diarrhea in Immunocompromised Patients
 <diarrhea-in-immunocompromised-patients>
@@ -803,37 +853,25 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) #
 
 === Pathogens in Advanced HIV Infection
 <pathogens-in-advanced-hiv-infection>
-#figure([
 #table(
   columns: (33.33%, 33.33%, 33.33%),
   align: (auto,auto,auto,),
   table.header([Pathogen], [CD4 Threshold], [Characteristics],),
   table.hline(),
-  [#strong[Cryptosporidium];], [\<200], [Chronic, severe; may resolve with immune reconstitution],
-  [#strong[Microsporidium];], [\<100], [Chronic diarrhea, malabsorption],
-  [#strong[Mycobacterium avium complex];], [\<50], [Systemic infection with GI involvement],
-  [#strong[Cytomegalovirus];], [\<50], [Ulcerative disease, perforation risk],
-  [#strong[Histoplasma];], [\<50], [Disseminated disease with GI involvement],
-  [#strong[Isospora];], [Variable], [Chronic diarrhea, tropical distribution],
+  [#strong[Cryptosporidium]], [\<200], [Chronic, severe; may resolve with immune reconstitution],
+  [#strong[Microsporidium]], [\<100], [Chronic diarrhea, malabsorption],
+  [#strong[Mycobacterium avium complex]], [\<50], [Systemic infection with GI involvement],
+  [#strong[Cytomegalovirus]], [\<50], [Ulcerative disease, perforation risk],
+  [#strong[Histoplasma]], [\<50], [Disseminated disease with GI involvement],
+  [#strong[Isospora]], [Variable], [Chronic diarrhea, tropical distribution],
 )
-], caption: figure.caption(
-position: top, 
-[
-Pathogens Causing Diarrhea in Advanced HIV/AIDS
-]), 
-kind: "quarto-float-tbl", 
-supplement: "Table", 
-)
-<tbl-aids-pathogens>
-
-
 === Cryptosporidia in AIDS
 <cryptosporidia-in-aids>
 #emph[Cryptosporidium] species represent the most common parasitic cause of diarrhea in AIDS patients, particularly in those with CD4 counts below 200 cells/μL. Chronic, severe diarrhea results from massive fecal shedding of oocysts. The infection is frequently refractory to antimicrobial therapy unless immune reconstitution occurs. Nitazoxanide provides partial clinical improvement in some patients but cannot reliably achieve parasitologic cure without immune recovery.
 
 === Microsporidia
 <microsporidia>
-Microsporidia, particularly #emph[Enterocytozoon bieneusi];, cause chronic diarrhea and malabsorption in advanced AIDS patients. The organisms infect intestinal epithelial cells and produce diarrhea through mechanisms involving epithelial damage and alteration of intestinal permeability.
+Microsporidia, particularly #emph[Enterocytozoon bieneusi], cause chronic diarrhea and malabsorption in advanced AIDS patients. The organisms infect intestinal epithelial cells and produce diarrhea through mechanisms involving epithelial damage and alteration of intestinal permeability.
 
 === Cytomegalovirus Colitis
 <cytomegalovirus-colitis>
@@ -861,17 +899,17 @@ Diarrheal outbreaks in institutional settings represent a substantial public hea
 
 == Hospitals
 <hospitals>
-#emph[Clostridioides difficile] represents the most common nosocomial cause of infectious diarrhea in hospitalized patients #cite(<Lessa2015>, form: "prose");; #cite(<McDonald2018>, form: "prose");. Risk factors include hospitalization, advanced age, and antimicrobial exposure. CDI rates have increased dramatically over the past two decades, driven in part by the emergence of hypervirulent strains.
+#emph[Clostridioides difficile] represents the most common nosocomial cause of infectious diarrhea in hospitalized patients #cite(<Lessa2015>, form: "prose")\; #cite(<McDonald2018>, form: "prose"). Risk factors include hospitalization, advanced age, and antimicrobial exposure. CDI rates have increased dramatically over the past two decades, driven in part by the emergence of hypervirulent strains.
 
 Other nosocomial pathogens include rotavirus and norovirus, which spread readily in healthcare settings and can lead to ward closures and substantial infection control measures.
 
 == Long-Term Care Facilities
 <long-term-care-facilities>
-Long-term care facility residents experience substantially elevated rates of diarrheal disease due to multiple factors including immunosenescence, multiple comorbidities, frequent antimicrobial exposure, and the congregate living environment. Rotavirus, norovirus, and #emph[\C. difficile] cause the majority of infectious outbreaks in long-term care facilities.
+Long-term care facility residents experience substantially elevated rates of diarrheal disease due to multiple factors including immunosenescence, multiple comorbidities, frequent antimicrobial exposure, and the congregate living environment. Rotavirus, norovirus, and #emph[C. difficile] cause the majority of infectious outbreaks in long-term care facilities.
 
 == Daycare Centers
 <daycare-centers>
-Daycare centers serve as amplification sites for transmissible diarrheal pathogens, particularly rotavirus (in the pre-vaccine era) and #emph[Giardia lamblia];. The fecal-oral transmission route, combined with the low infectious dose required for many pathogens and the hygiene challenges inherent in caring for young children, create ideal conditions for pathogen spread.
+Daycare centers serve as amplification sites for transmissible diarrheal pathogens, particularly rotavirus (in the pre-vaccine era) and #emph[Giardia lamblia]. The fecal-oral transmission route, combined with the low infectious dose required for many pathogens and the hygiene challenges inherent in caring for young children, create ideal conditions for pathogen spread.
 
 = 10. Treatment of Acute Noninflammatory Diarrhea
 <treatment-of-acute-noninflammatory-diarrhea>
@@ -879,7 +917,7 @@ The management of acute diarrheal disease follows general principles applicable 
 
 == Rehydration: The Cornerstone of Management
 <rehydration-the-cornerstone-of-management>
-Rehydration represents the fundamental and most important therapeutic intervention in virtually all cases of acute diarrhea #cite(<Munos2010>, form: "prose");. The goal of rehydration therapy is to replace fluid and electrolyte losses and restore euvolemia. The choice between oral rehydration solution (ORS) and intravenous rehydration depends on the severity of dehydration, the ability to tolerate oral intake, and the clinical setting.
+Rehydration represents the fundamental and most important therapeutic intervention in virtually all cases of acute diarrhea #cite(<Munos2010>, form: "prose"). The goal of rehydration therapy is to replace fluid and electrolyte losses and restore euvolemia. The choice between oral rehydration solution (ORS) and intravenous rehydration depends on the severity of dehydration, the ability to tolerate oral intake, and the clinical setting.
 
 #block[
 #callout(
@@ -991,10 +1029,8 @@ Future directions in management and prevention include development of improved o
 ] <refs>
 
 
- 
-  
-#set bibliography(style: "diagnostic-microbiology-and-infectious-disease.csl") 
 
+#set bibliography(style: "diagnostic-microbiology-and-infectious-disease.csl")
 
-#bibliography("diarrhea-references.bib")
+#bibliography(("refs-diarrhea.bib"))
 

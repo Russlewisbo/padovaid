@@ -1,7 +1,7 @@
 ---
 title: "Principles of Immunosuppression and Infection Risk"
 editor: visual
-bibliography: references-immunocompromise.bib
+bibliography: refs-immunocompromise.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
@@ -23,5 +23,5 @@ You can view the full lecture notes below, [open them in a new window](chapter-i
 </button>
 :::
 
-{{< include chapter-immunocompromise.qmd >}}
+{{< include immunocompromise-webpage.qmd >}}
 
