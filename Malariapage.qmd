@@ -1,9 +1,10 @@
 ---
-title: "Malaria"
+title: "Parasites: Malaria and Leishmaniasis"
+format: html
+bibliography: references-malaria-page.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 editor: visual
 ---
-
-HTML slide [link](https://russlewisbo.github.io/malaria/chapter-slides.html#/title-slide)
 
 [Handout](malariahandout.pdf)
 

@@ -8,3 +8,16 @@ Malaria.qmd
 
 **/*.quarto_ipynb
 .positai
+
+# Root-level HTML files rendered by Quarto (output goes to docs/)
+/*.html
+
+# Duplicate/versioned files created by macOS or Quarto previews
+docs/*\ 2.html
+docs/*\ 3.html
+docs/*\ 2.css
+docs/*\ 3.css
+docs/site_libs/revealjs/
+docs/site_libs/quarto-html/light-border.css
+docs/site_libs/quarto-html/tabby.min.js
+docs/site_libs/quarto-contrib/glightbox/
