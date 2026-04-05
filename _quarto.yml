@@ -21,6 +21,8 @@ website:
     
 bibliography:
   - refs-diarrhea.bib
+  - refs-febrile-neutropenia.bib
+  - refs-intraabdominal-1.bib
   - refs-intraabdominal-2.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 

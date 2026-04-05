@@ -12,7 +12,9 @@ format:
     preview-links: auto
     scrollable: true
     smaller: true
-bibliography: refs-general.bib
+bibliography:
+  - refs-general.bib
+  - refs-intraabdominal-1.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 editor: 
   markdown: 
