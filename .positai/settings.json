@@ -2,6 +2,11 @@
   "permission": {
     "edit": {
       "*": "allow"
+    },
+    "bash": {
+      "grep *": "allow",
+      "head *": "allow",
+      "tail *": "allow"
     }
   }
 }
