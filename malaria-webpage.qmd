@@ -250,7 +250,7 @@ The vast majority of severe malaria is caused by *P. falciparum*; caveats for *P
 ### Severe Malaria Criteria {#tbl-severe-criteria}
 
 | **Manifestation** | **Diagnostic Threshold** |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Impaired consciousness** | Adults: Glasgow Coma Score \<11; Children: Blantyre Coma Score \<3 |
 | **Prostration** | Generalized weakness (unable to sit, stand, or walk without assistance) |
 | **Multiple convulsions** | More than two fits within 24 hours |
@@ -304,7 +304,7 @@ Expert microscopic examination of Giemsa-stained **thick and thin blood smears**
 ![Morphologic features of *Plasmodium* parasites. (A) Transmission EM of *P. knowlesi* merozoite invading an erythrocyte. (B) EM of *P. falciparum* trophozoite with digestive vacuole (DV), hemozoin (H), and cytostomes. (C–D) Scanning EM showing knobs and membrane deformation by *P. falciparum*. (E) EM of adherence between *P. falciparum*-infected RBC (P) and endothelial cell (EC). (F) Light microscopy of rosetting. (From Fujioka H, Aikawa M, 1999; Aikawa M et al., *J Parasitol* 1983.)](images-fuo/fig280-3.png){#fig-morphology fig-alt="Electron and light microscopy images of Plasmodium parasites in erythrocytes"}
 
 | **Feature** | ***P. falciparum*** | ***P. vivax*** | ***P. ovale*** | ***P. malariae*** | ***P. knowlesi*** |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Erythrocyte size** | Normal | Enlarged | Enlarged, oval | Normal/small | Normal |
 | **Schüffner's dots** | Absent | Present | Present | Absent | Absent |
 | **Maurer's clefts** | Present | Absent | Absent | Absent | Absent |
@@ -318,7 +318,7 @@ Expert microscopic examination of Giemsa-stained **thick and thin blood smears**
 ### TABLE 280.2b — Comparison of Malaria Diagnostic Methods {#tbl-diagnosticcomparison}
 
 | Feature | Expert Microscopy | Conventional RDT (HRP2/pLDH) | Ultrasensitive RDT (us-RDT) | PCR / LAMP | qRT-PCR |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Detection limit** | 50–500 parasites/μL (thick); 200–500 (thin) | 100–200 parasites/μL (HRP2); 200–500 (pLDH) | 1–10 parasites/μL | 0.5–5 parasites/μL | 0.02–1 parasite/μL |
 | **Turnaround time** | 30–60 min (trained reader) | 15–20 min | 15–20 min | 1–3 hours (PCR); 30–60 min (LAMP) | 2–4 hours |
 | **Species identification** | Yes (thin smear morphology) | *Pf* only (HRP2); *Pf* + pan (combo tests) | *Pf* only or *Pf* + pan | Yes (species-specific primers for all five species) | Yes (multiplex assays) |
@@ -414,7 +414,7 @@ ACTs—combining an artemisinin derivative with a partner drug—are the **first
 Artemether-lumefantrine is a fixed-dose combination available as 20/120 mg tablets. It is administered as a **6-dose regimen over 3 days** (doses at 0, 8, 24, 36, 48, and 60 hours). Each dose must be taken with **fatty food or whole milk** — lumefantrine bioavailability increases 16-fold when taken with fat.
 
 | **Body Weight** | **Dose (artemether/lumefantrine)** | **Tablets per dose** | **Schedule** |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | 5 to \<15 kg | 20/120 mg | 1 tablet | 0, 8, 24, 36, 48, 60 h |
 | 15 to \<25 kg | 40/240 mg | 2 tablets | 0, 8, 24, 36, 48, 60 h |
 | 25 to \<35 kg | 60/360 mg | 3 tablets | 0, 8, 24, 36, 48, 60 h |
@@ -423,7 +423,7 @@ Artemether-lumefantrine is a fixed-dose combination available as 20/120 mg table
 ### All WHO-Recommended ACTs: Drug Doses and Key Points {#tbl-allacts}
 
 | **Regimen** | **Artemisinin Component Dose** | **Partner Drug Dose** | **Schedule** | **Key Clinical Considerations** |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | **Artemether-lumefantrine (AL)** | Artemether 1.7 mg/kg/dose (adult: 80 mg) | Lumefantrine 12 mg/kg/dose (adult: 480 mg) | 6 doses: 0, 8, 24, 36, 48, 60 h | **Must take with fat**; 2nd dose at 8h often missed; FDA-approved in US |
 | **Artesunate-amodiaquine (AS-AQ)** | Artesunate 4 mg/kg/day | Amodiaquine 10 mg base/kg/day | Once daily × 3 days | Fixed-dose combo (ASAQ) available; risk of hepatotoxicity with repeated courses |
 | **DHA-piperaquine (DHA-PPQ)** | Dihydroartemisinin 4 mg/kg/day | Piperaquine 18 mg/kg/day | Once daily × 3 days | **QTc prolongation risk** — obtain ECG if cardiac risk factors; no food requirement; longest post-treatment prophylactic effect (PPQ t½ \~5 weeks) |
@@ -436,7 +436,7 @@ Artemether-lumefantrine is a fixed-dose combination available as 20/120 mg table
 When ACTs are unavailable, contraindicated, or when treating infections from chloroquine-sensitive areas, the following regimens are used:
 
 | **Regimen** | **Dosing** | **Duration** | **Indications and Notes** |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Atovaquone-proguanil (Malarone)** | Adults: 4 tablets (1000/400 mg total) daily with food; Pediatric (11–20 kg): 1 adult tab daily; (21–30 kg): 2; (31–40 kg): 3 | 3 days | Uncomplicated *Pf* malaria; common in US/Europe; well tolerated; contraindicated in pregnancy and \<5 kg; **treatment dose is 4× the prophylactic dose** — a common prescribing error |
 | **Quinine sulfate + doxycycline** | Quinine 650 mg (10 mg salt/kg) PO q8h + doxycycline 100 mg PO BID | Quinine 3 days (Africa/South America) or 7 days (SE Asia) + doxy 7 days | Alternative for ACT-intolerant patients; cinchonism common; not in pregnancy or children \<8 y |
 | **Quinine sulfate + clindamycin** | Quinine 650 mg PO q8h + clindamycin 20 mg/kg/day ÷ 3 doses | Quinine 3–7 days + clindamycin 7 days | **Pregnancy-safe alternative** to quinine-doxycycline; safe in children of all ages |
@@ -508,7 +508,7 @@ Malaria can largely be prevented in travelers to endemic areas when recommended 
 Key regimen selection factors: - Geographic drug-resistance epidemiology - Patient age, comorbidities, drug–drug interactions - Pregnancy status - Compliance factors: dosing interval, duration, cost, tolerability
 
 | **Drug** | **Indication** | **Adult Dose** | **Pediatric Dose** | **Timing (Pre/During/Post-Travel)** | **Key Contraindications and Adverse Effects** |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Atovaquone-proguanil (Malarone)** | All areas | 250/100 mg (1 adult tab) daily | 11–20 kg: 62.5/25 mg (1 peds tab) daily; 21–30 kg: 2 peds tabs daily; 31–40 kg: 3 peds tabs daily; \>40 kg: adult dose | 1–2 days before → during travel → 7 days after | Not recommended in pregnancy (insufficient data) or infants \<5 kg; GI upset in \~15%; must take with food or milky drink; **shortest post-travel continuation** |
 | **Doxycycline** | All areas | 100 mg daily | 2.2 mg/kg/day (max 100 mg), **≥8 years only** | 1–2 days before → during travel → **4 weeks after** | Contraindicated in pregnancy, breastfeeding, and children \<8 y; photosensitivity (use sunscreen); pill esophagitis (take upright with full glass of water); candidal vaginitis; also provides protection against leptospirosis, rickettsial diseases, and STIs |
 | **Mefloquine** | All areas **except SE Asia** | 228 mg base (250 mg salt) weekly | ≥5 kg: 5 mg/kg base weekly (max 228 mg base); ¼ tab (5–19 kg), ½ tab (20–30 kg), ¾ tab (31–44 kg), 1 tab (≥45 kg) | **1–2 weeks before** → during travel → **4 weeks after** | Neuropsychiatric AEs (vivid dreams, anxiety, depression, psychosis — FDA boxed warning); seizure disorder; cardiac conduction abnormalities; **start 2+ weeks early to detect intolerance**; avoid in SE Asia (resistance); avoid in scuba divers (vertigo) |
@@ -613,7 +613,7 @@ Potential clinical applications: seasonal prevention as an alternative to SMC (s
 ### Vaccine Pipeline
 
 | **Approach** | **Development Stage** | **Target** | **Key Features** |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **PfSPZ Vaccine** (Sanaria) | Phase 2 | Whole radiation-attenuated sporozoites | Induces broad immune response; requires IV administration and strict cold chain (-150°C to -196°C) |
 | **PfSPZ-CVac** | Phase 2 | Live sporozoites + chloroquine chemoprophylaxis | Controlled human malaria infection approach; generates sterile immunity in \~50–65% |
 | **mRNA-CSP vaccines** | Phase 1 | CSP (Moderna, BioNTech platforms) | Leverages COVID-19 mRNA platform technology; rapid manufacturing; thermostability challenges |
