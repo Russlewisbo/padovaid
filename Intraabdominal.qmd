@@ -1,10 +1,6 @@
 ---
 title: "Intraabdominal infections"
 editor: visual
-bibliography:
-  - refs-intraabdominal-1.bib
-  - refs-intraabdominal-2.bib
-csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
 ## Lecture part 1.

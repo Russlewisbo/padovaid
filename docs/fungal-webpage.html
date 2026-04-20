@@ -158,6 +158,12 @@ div.csl-indent {
  <span class="menu-text">Malaria (<em>Plasmodium</em> Species)</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./IFI.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Invasive Fungal Infections</span></a>
+  </div>
+</li>
     </ul>
     </div>
     <nav id="TOC" role="doc-toc" class="toc-active">
@@ -2530,7 +2536,7 @@ Table&nbsp;17: Key Azole Drug Interactions via CYP450
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/padovaid\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

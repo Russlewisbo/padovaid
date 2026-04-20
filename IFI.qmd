@@ -10,8 +10,6 @@ editor: visual
 
 [PDF handout](IFI.pdf)
 
-
-
 [Review article on antifungal agents agents](Johnson.pdf)
 
 [Tissue penetration of antifungals](felton.pdf)
@@ -24,5 +22,4 @@ editor: visual
 
 [Review on cryptococcosis](cryptococcosis.pdf)
 
-LEcture notes: 
-{{< include fungal-webpage.qmd >}}
+Lecture notes: {{< include fungal-webpage.qmd >}}

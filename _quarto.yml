@@ -18,6 +18,7 @@ website:
       - febrile-neutropenia.qmd
       - diarrhea.qmd
       - malaria.qmd
+      - IFI.qmd
     
 bibliography:
   - refs-diarrhea.bib

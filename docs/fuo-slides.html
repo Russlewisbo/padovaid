@@ -1,276 +1,171 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.35">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Fever of Unknown Origin (FUO)</title>
-<style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
-
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<html lang="en"><head>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ceee093ee53242059709e97eee98c8e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.35">
 
-
-<link rel="stylesheet" href="styles.css">
+  <title>Fever of Unknown Origin (FUO)</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-e43077716b3a7932135fb8a73aa1db47.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
 </head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
 
-<body class="nav-sidebar docked slimcontent quarto-light">
+<section id="title-slide" data-background-image="./images-fuo/bacteria.png" class="quarto-title-block center">
+  <h1 class="title">Fever of Unknown Origin (FUO)</h1>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Fever of Unknown Origin (FUO)</li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./antibiotic-principles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Principles of Antibiotic Therapy</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./immunosuppression.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Infections in the Immunocompromised Host: General Principles</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./febrile-neutropenia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prophylaxis and Empirical Therapy of Infection in Cancer Patients</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./diarrhea.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Infectious Diarrhea</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./malaria.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Malaria (<em>Plasmodium</em> Species)</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#fever-of-unknown-origin-fuo" id="toc-fever-of-unknown-origin-fuo" class="nav-link active" data-scroll-target="#fever-of-unknown-origin-fuo">Fever of unknown origin (FUO)</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#the-history-of-fever" id="toc-the-history-of-fever" class="nav-link" data-scroll-target="#the-history-of-fever">The history of fever</a></li>
-  <li><a href="#febris--roman-goddess-of-fever" id="toc-febris--roman-goddess-of-fever" class="nav-link" data-scroll-target="#febris--roman-goddess-of-fever">Febris- Roman Goddess of Fever</a></li>
-  <li><a href="#galileo-and-the-room-thermometer-in-padova" id="toc-galileo-and-the-room-thermometer-in-padova" class="nav-link" data-scroll-target="#galileo-and-the-room-thermometer-in-padova">Galileo and the room thermometer in Padova</a></li>
-  <li><a href="#fever-in-modern-medicine" id="toc-fever-in-modern-medicine" class="nav-link" data-scroll-target="#fever-in-modern-medicine">Fever in modern medicine</a></li>
-  <li><a href="#thermal-homeostasis" id="toc-thermal-homeostasis" class="nav-link" data-scroll-target="#thermal-homeostasis">Thermal homeostasis</a></li>
-  <li><a href="#infection-associated-fever" id="toc-infection-associated-fever" class="nav-link" data-scroll-target="#infection-associated-fever">Infection-associated fever</a></li>
-  <li><a href="#sequelae-of-fever" id="toc-sequelae-of-fever" class="nav-link" data-scroll-target="#sequelae-of-fever">Sequelae of fever</a></li>
-  <li><a href="#acute-phase-proteins" id="toc-acute-phase-proteins" class="nav-link" data-scroll-target="#acute-phase-proteins">Acute phase proteins</a></li>
-  <li><a href="#role-of-acute-phase-proteins" id="toc-role-of-acute-phase-proteins" class="nav-link" data-scroll-target="#role-of-acute-phase-proteins">Role of acute phase proteins</a></li>
-  <li><a href="#acute-phase-phenomena" id="toc-acute-phase-phenomena" class="nav-link" data-scroll-target="#acute-phase-phenomena">Acute phase phenomena</a></li>
-  <li><a href="#epidemiology-of-fuo--definitions" id="toc-epidemiology-of-fuo--definitions" class="nav-link" data-scroll-target="#epidemiology-of-fuo--definitions">Epidemiology of FUO- Definitions</a></li>
-  <li><a href="#classic-fuo" id="toc-classic-fuo" class="nav-link" data-scroll-target="#classic-fuo">Classic FUO</a></li>
-  <li><a href="#frequency-of-the-5-main-etiologic-categories-of-fuo" id="toc-frequency-of-the-5-main-etiologic-categories-of-fuo" class="nav-link" data-scroll-target="#frequency-of-the-5-main-etiologic-categories-of-fuo">Frequency of the 5 main etiologic categories of FUO</a></li>
-  <li><a href="#classic-fuo--infectious-etiology" id="toc-classic-fuo--infectious-etiology" class="nav-link" data-scroll-target="#classic-fuo--infectious-etiology">Classic FUO- Infectious Etiology</a></li>
-  <li><a href="#classic-fuo-work-up" id="toc-classic-fuo-work-up" class="nav-link" data-scroll-target="#classic-fuo-work-up">Classic FUO work-up</a></li>
-  <li><a href="#rare-and-miscellaneous-causes-of-fever" id="toc-rare-and-miscellaneous-causes-of-fever" class="nav-link" data-scroll-target="#rare-and-miscellaneous-causes-of-fever">Rare and miscellaneous causes of fever</a></li>
-  <li><a href="#classic-fuo-in-infants-and-children" id="toc-classic-fuo-in-infants-and-children" class="nav-link" data-scroll-target="#classic-fuo-in-infants-and-children">Classic FUO in infants and children</a></li>
-  <li><a href="#classic-fuo-in-elderly-patients" id="toc-classic-fuo-in-elderly-patients" class="nav-link" data-scroll-target="#classic-fuo-in-elderly-patients">Classic FUO in elderly patients</a></li>
-  <li><a href="#returning-travellers" id="toc-returning-travellers" class="nav-link" data-scroll-target="#returning-travellers">Returning travellers</a></li>
-  <li><a href="#nosocomial-health-care-associated-fuo" id="toc-nosocomial-health-care-associated-fuo" class="nav-link" data-scroll-target="#nosocomial-health-care-associated-fuo">Nosocomial (Health-Care Associated) FUO</a></li>
-  <li><a href="#fever-in-post-operative-patients" id="toc-fever-in-post-operative-patients" class="nav-link" data-scroll-target="#fever-in-post-operative-patients">Fever in post-operative patients</a></li>
-  <li><a href="#fuo-in-icu-patients" id="toc-fuo-in-icu-patients" class="nav-link" data-scroll-target="#fuo-in-icu-patients">FUO in ICU patients</a></li>
-  <li><a href="#fuo-in-stroke-patients" id="toc-fuo-in-stroke-patients" class="nav-link" data-scroll-target="#fuo-in-stroke-patients">FUO in stroke patients</a></li>
-  <li><a href="#fuo-in-neutropenic-patients" id="toc-fuo-in-neutropenic-patients" class="nav-link" data-scroll-target="#fuo-in-neutropenic-patients">FUO in neutropenic patients</a></li>
-  <li><a href="#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc" id="toc-clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc" class="nav-link" data-scroll-target="#clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc">Clinical manifestations of infection related to absolute neutrophil count (ANC)</a></li>
-  <li><a href="#possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics" id="toc-possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics" class="nav-link" data-scroll-target="#possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics">Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics</a></li>
-  <li><a href="#cell-mediated-immunity-1" id="toc-cell-mediated-immunity-1" class="nav-link" data-scroll-target="#cell-mediated-immunity-1">Cell-mediated immunity-1</a></li>
-  <li><a href="#cell-mediated-immunity-2" id="toc-cell-mediated-immunity-2" class="nav-link" data-scroll-target="#cell-mediated-immunity-2">Cell-mediated immunity-2</a></li>
-  <li><a href="#cell-mediated-immunity-drug-allergy" id="toc-cell-mediated-immunity-drug-allergy" class="nav-link" data-scroll-target="#cell-mediated-immunity-drug-allergy">Cell-mediated immunity-Drug allergy</a></li>
-  <li><a href="#infections-in-immunocompromised-hosts" id="toc-infections-in-immunocompromised-hosts" class="nav-link" data-scroll-target="#infections-in-immunocompromised-hosts">Infections in immunocompromised hosts</a></li>
-  <li><a href="#hiv-related-fuo" id="toc-hiv-related-fuo" class="nav-link" data-scroll-target="#hiv-related-fuo">HIV-related FUO</a></li>
-  <li><a href="#etiology-of-fever-in-hiv-associated-fuo-n70" id="toc-etiology-of-fever-in-hiv-associated-fuo-n70" class="nav-link" data-scroll-target="#etiology-of-fever-in-hiv-associated-fuo-n70">Etiology of fever in HIV-Associated FUO (n=70)</a></li>
-  <li><a href="#naproxen-nsiad-fever-suppression-test-for-tumor-fever" id="toc-naproxen-nsiad-fever-suppression-test-for-tumor-fever" class="nav-link" data-scroll-target="#naproxen-nsiad-fever-suppression-test-for-tumor-fever">Naproxen (NSIAD) fever suppression test for “tumor fever”</a></li>
-  <li><a href="#diagnosis-of-fuo" id="toc-diagnosis-of-fuo" class="nav-link" data-scroll-target="#diagnosis-of-fuo">Diagnosis of FUO</a></li>
-  <li><a href="#general-diagnostic-evaluation-of-fuo" id="toc-general-diagnostic-evaluation-of-fuo" class="nav-link" data-scroll-target="#general-diagnostic-evaluation-of-fuo">General diagnostic evaluation of FUO</a></li>
-  <li><a href="#patient-history" id="toc-patient-history" class="nav-link" data-scroll-target="#patient-history">Patient history</a></li>
-  <li><a href="#verification-of-fever-and-fever-pattern" id="toc-verification-of-fever-and-fever-pattern" class="nav-link" data-scroll-target="#verification-of-fever-and-fever-pattern">Verification of fever and fever pattern</a></li>
-  <li><a href="#continuous-sustained-fever" id="toc-continuous-sustained-fever" class="nav-link" data-scroll-target="#continuous-sustained-fever">Continuous sustained fever</a></li>
-  <li><a href="#malaria-fever" id="toc-malaria-fever" class="nav-link" data-scroll-target="#malaria-fever">Malaria fever</a></li>
-  <li><a href="#intermittent-fever" id="toc-intermittent-fever" class="nav-link" data-scroll-target="#intermittent-fever">Intermittent fever</a></li>
-  <li><a href="#saddle-back-biphasic" id="toc-saddle-back-biphasic" class="nav-link" data-scroll-target="#saddle-back-biphasic">Saddle-back (biphasic)</a></li>
-  <li><a href="#intermittent-hectic-charcots-fever" id="toc-intermittent-hectic-charcots-fever" class="nav-link" data-scroll-target="#intermittent-hectic-charcots-fever">Intermittent hectic (Charcot’s) fever</a></li>
-  <li><a href="#pel-ebstein-fever" id="toc-pel-ebstein-fever" class="nav-link" data-scroll-target="#pel-ebstein-fever">Pel-Ebstein fever</a></li>
-  <li><a href="#typus-inversus" id="toc-typus-inversus" class="nav-link" data-scroll-target="#typus-inversus"><em>Typus Inversus</em></a></li>
-  <li><a href="#typhoid-fever" id="toc-typhoid-fever" class="nav-link" data-scroll-target="#typhoid-fever">Typhoid fever</a></li>
-  <li><a href="#jarisch-herxheimer-reaction" id="toc-jarisch-herxheimer-reaction" class="nav-link" data-scroll-target="#jarisch-herxheimer-reaction">Jarisch-Herxheimer reaction</a></li>
-  <li><a href="#physical-examination" id="toc-physical-examination" class="nav-link" data-scroll-target="#physical-examination">Physical examination</a></li>
-  <li><a href="#laboratory-investigations" id="toc-laboratory-investigations" class="nav-link" data-scroll-target="#laboratory-investigations">Laboratory investigations</a></li>
-  <li><a href="#examples-of-potential-diagnostic-clues" id="toc-examples-of-potential-diagnostic-clues" class="nav-link" data-scroll-target="#examples-of-potential-diagnostic-clues">Examples of potential diagnostic clues</a></li>
-  <li><a href="#bone-marrow-biopsy" id="toc-bone-marrow-biopsy" class="nav-link" data-scroll-target="#bone-marrow-biopsy">Bone marrow biopsy</a></li>
-  <li><a href="#imaging-studies" id="toc-imaging-studies" class="nav-link" data-scroll-target="#imaging-studies">Imaging studies</a></li>
-  <li><a href="#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet" id="toc-f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet" class="nav-link" data-scroll-target="#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet"><sup>18</sup>F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</a></li>
-  <li><a href="#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1" id="toc-f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1" class="nav-link" data-scroll-target="#f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1">F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</a></li>
-  <li><a href="#invasive-diagnostic-procedures" id="toc-invasive-diagnostic-procedures" class="nav-link" data-scroll-target="#invasive-diagnostic-procedures">Invasive diagnostic procedures</a></li>
-  <li><a href="#treatment" id="toc-treatment" class="nav-link" data-scroll-target="#treatment">Treatment</a></li>
-  <li><a href="#diagnostic-summary" id="toc-diagnostic-summary" class="nav-link" data-scroll-target="#diagnostic-summary">Diagnostic summary</a></li>
-  <li><a href="#when-is-immediate-treatment-indicated" id="toc-when-is-immediate-treatment-indicated" class="nav-link" data-scroll-target="#when-is-immediate-treatment-indicated">When is immediate treatment indicated?</a></li>
-  <li><a href="#prognosis" id="toc-prognosis" class="nav-link" data-scroll-target="#prognosis">Prognosis</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="fuo-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
-    </div>
-<!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
-<!-- Google Translate Widget -->
-<div id="google_translate_element" style="margin: 1em 0;"></div>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,it',
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-    autoDisplay: false
-  }, 'google_translate_element');
-}
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Fever of Unknown Origin (FUO)</h1>
+<div class="quarto-title-authors">
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="fever-of-unknown-origin-fuo" class="level2" data-background-image="./images-fuo/bacteria.png">
-<h2 data-background-image="/images-fuo/bacteria.png" class="anchored" data-anchor-id="fever-of-unknown-origin-fuo">Fever of unknown origin (FUO)</h2>
-<p><br></p>
-<p><br></p>
-<p>Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 13 March 2023 <br> <br> <img src="800-unipd.svg" class="img-fluid quarto-figure quarto-figure-left" width="300"></p>
 </section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<section id="fever-of-unknown-origin-fuo" class="slide level2" data-background-image="./images-fuo/bacteria.png">
+<h2>Fever of unknown origin (FUO)</h2>
+<p><br></p>
+<p><br></p>
+<p>Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> 13 March 2023 <br> <br> <img data-src="800-unipd.svg" class="quarto-figure quarto-figure-left" width="300"></p>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
 <p><br></p>
 <ul>
 <li>Recognize leading infectious causes of FUO in key patient groups</li>
@@ -278,91 +173,80 @@ function googleTranslateElementInit() {
 <li>Differentiate FUO risks and possible spectum of pathogens in immunocompromised hosts</li>
 </ul>
 </section>
-<section id="the-history-of-fever" class="level2" data-background-image="./images-fuo/hippocrates.jpg" data-background-opacity="0.2" data-background-size="contain">
-<h2 data-background-image="/images-fuo/hippocrates.jpg" data-background-opacity="0.2" data-background-size="contain" class="anchored" data-anchor-id="the-history-of-fever">The history of fever</h2>
+<section id="the-history-of-fever" class="slide level2" data-background-image="./images-fuo/hippocrates.jpg" data-background-opacity="0.2" data-background-size="contain">
+<h2>The history of fever</h2>
 <p><br></p>
-<div class="incremental">
-<ul class="incremental">
-<li><strong>10th Century BCE Persian Physician Akhawayni</strong> defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)</li>
-<li><strong>Hippocratic physicians</strong> proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile.
-<ul class="incremental">
-<li>Fever was due to excess of yellow bile (many infections caused jaundice)</li>
+<ul>
+<li class="fragment"><strong>10th Century BCE Persian Physician Akhawayni</strong> defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)</li>
+<li class="fragment"><strong>Hippocratic physicians</strong> proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile.
+<ul>
+<li class="fragment">Fever was due to excess of yellow bile (many infections caused jaundice)</li>
 </ul></li>
-<li><strong>Galen:</strong> many types of fever developed from putrification of humors.</li>
-<li><strong>Middle ages:</strong> demonic possession</li>
-<li><strong>18th century (Harvey’s discovery of circulation)</strong>- friction of blood flow through body causing fermentation and putrification in intestines</li>
-<li><strong>Claude Bernard</strong> <strong>in the 19th century</strong>- metabolic processes in the body</li>
+<li class="fragment"><strong>Galen:</strong> many types of fever developed from putrification of humors.</li>
+<li class="fragment"><strong>Middle ages:</strong> demonic possession</li>
+<li class="fragment"><strong>18th century (Harvey’s discovery of circulation)</strong>- friction of blood flow through body causing fermentation and putrification in intestines</li>
+<li class="fragment"><strong>Claude Bernard</strong> <strong>in the 19th century</strong>- metabolic processes in the body</li>
 </ul>
-</div>
 </section>
-<section id="febris--roman-goddess-of-fever" class="level2">
-<h2 class="anchored" data-anchor-id="febris--roman-goddess-of-fever">Febris- Roman Goddess of Fever</h2>
+<section id="febris--roman-goddess-of-fever" class="slide level2">
+<h2>Febris- Roman Goddess of Fever</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/Febris.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
-</figure>
-</div>
-<p><br></p>
+
+<img data-src="images-fuo/Febris.png" class="quarto-figure quarto-figure-center r-stretch" width="600"><p><br></p>
 <p>The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.</p>
 </section>
-<section id="galileo-and-the-room-thermometer-in-padova" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="galileo-and-the-room-thermometer-in-padova">Galileo and the room thermometer in Padova</h2>
+<section id="galileo-and-the-room-thermometer-in-padova" class="slide level2 smaller">
+<h2>Galileo and the room thermometer in Padova</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><img src="images-fuo/Galileo.png" class="img-fluid" width="600"></p>
+<p><img data-src="images-fuo/Galileo.png" width="600"></p>
 </div><div class="column" style="width:50%;">
 <p><br></p>
 <p><br></p>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/Galileo thermometer.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
+<figure>
+<p><img data-src="images-fuo/Galileo thermometer.png" class="quarto-figure quarto-figure-center" width="600"></p>
 </figure>
 </div>
-</div>
-</div>
+</div></div>
 </section>
-<section id="fever-in-modern-medicine" class="level2">
-<h2 class="anchored" data-anchor-id="fever-in-modern-medicine">Fever in modern medicine</h2>
+<section id="fever-in-modern-medicine" class="slide level2">
+<h2>Fever in modern medicine</h2>
 <ul>
 <li><p>Wunderlich’s pioneering studies of thermometry-normal 37°C</p></li>
 <li><p>Since the 19th century, humans have become gradually colder-0.05° to 0.5°C per decade</p></li>
 <li><p>Current normal range is 36.3 to 36.5°C</p></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/Wunderlich.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="mackowiak_worden94">(<a href="#ref-mackowiak_worden94" role="doc-biblioref">Mackowiak and Worden, 1994</a>)</span></p>
+
+<img data-src="images-fuo/Wunderlich.png" class="quarto-figure quarto-figure-center r-stretch" width="600"><div>
+<p><span class="citation" data-cites="mackowiak_worden94">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak and Worden, 1994</a>)</span></p>
 </div>
 </section>
-<section id="thermal-homeostasis" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="thermal-homeostasis">Thermal homeostasis</h2>
+<section id="thermal-homeostasis" class="slide level2">
+<h2>Thermal homeostasis</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/thermoregulation.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="800"></p>
+<figure>
+<p><img data-src="images-fuo/thermoregulation.png" class="quarto-figure quarto-figure-center" width="800"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="sajadimohammadm__mackowiakphilipa_">(<a href="#ref-sajadimohammadm__mackowiakphilipa_" role="doc-biblioref">Sajadi, Mohammad M. and Mackowiak, Philip A., n.d.</a>)</span></p>
-</div></div></section>
-<section id="infection-associated-fever" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="infection-associated-fever">Infection-associated fever</h2>
+<aside><div>
+<p><span class="citation" data-cites="sajadimohammadm__mackowiakphilipa_">(<a href="#/references" role="doc-biblioref" onclick="">Sajadi, Mohammad M. and Mackowiak, Philip A., n.d.</a>)</span></p>
+</div></aside></section>
+<section id="infection-associated-fever" class="slide level2">
+<h2>Infection-associated fever</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/LPSfever.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
+<figure>
+<p><img data-src="images-fuo/LPSfever.png" class="quarto-figure quarto-figure-center" width="600"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="wright_auwaerter20">(<a href="#ref-wright_auwaerter20" role="doc-biblioref">Wright and Auwaerter, 2020</a>)</span></p>
-</div></div></section>
-<section id="sequelae-of-fever" class="level2">
-<h2 class="anchored" data-anchor-id="sequelae-of-fever">Sequelae of fever</h2>
+<aside><div>
+<p><span class="citation" data-cites="wright_auwaerter20">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Auwaerter, 2020</a>)</span></p>
+</div></aside></section>
+<section id="sequelae-of-fever" class="slide level2">
+<h2>Sequelae of fever</h2>
 <p><br></p>
 <ul>
 <li>Phylogenetic conservation of fever over the millennia suggests fever is beneficial</li>
@@ -370,50 +254,38 @@ function googleTranslateElementInit() {
 <li>Fever generates hepatic iron-sequestering compounds the bind free iron necessary for microbial replication</li>
 </ul>
 </section>
-<section id="acute-phase-proteins" class="level2">
-<h2 class="anchored" data-anchor-id="acute-phase-proteins">Acute phase proteins</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/acutephase1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="gabay_kushner99">(<a href="#ref-gabay_kushner99" role="doc-biblioref">Gabay and Kushner, 1999</a>)</span></p>
+<section id="acute-phase-proteins" class="slide level2">
+<h2>Acute phase proteins</h2>
+
+<img data-src="images-fuo/acutephase1.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="gabay_kushner99">(<a href="#/references" role="doc-biblioref" onclick="">Gabay and Kushner, 1999</a>)</span></p>
 </div>
 </section>
-<section id="role-of-acute-phase-proteins" class="level2">
-<h2 class="anchored" data-anchor-id="role-of-acute-phase-proteins">Role of acute phase proteins</h2>
+<section id="role-of-acute-phase-proteins" class="slide level2">
+<h2>Role of acute phase proteins</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-immunocompromise-slides/Acute-Phase Proteins.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
-</figure>
+
+<img data-src="images-immunocompromise-slides/Acute-Phase Proteins.png" class="quarto-figure quarto-figure-center r-stretch" width="600"></section>
+<section id="acute-phase-phenomena" class="slide level2">
+<h2>Acute phase phenomena</h2>
+
+<img data-src="images-fuo/acutephase.png" class="quarto-figure quarto-figure-center r-stretch" width="600"><div>
+<p><span class="citation" data-cites="gabay_kushner99">(<a href="#/references" role="doc-biblioref" onclick="">Gabay and Kushner, 1999</a>)</span></p>
 </div>
 </section>
-<section id="acute-phase-phenomena" class="level2">
-<h2 class="anchored" data-anchor-id="acute-phase-phenomena">Acute phase phenomena</h2>
+<section id="epidemiology-of-fuo--definitions" class="slide level2 smaller">
+<h2>Epidemiology of FUO- Definitions</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/acutephase.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="gabay_kushner99">(<a href="#ref-gabay_kushner99" role="doc-biblioref">Gabay and Kushner, 1999</a>)</span></p>
-</div>
-</section>
-<section id="epidemiology-of-fuo--definitions" class="level2 smaller page-columns page-full">
-<h2 class="smaller anchored" data-anchor-id="epidemiology-of-fuo--definitions">Epidemiology of FUO- Definitions</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/FUOdef.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="700"></p>
+<figure>
+<p><img data-src="images-fuo/FUOdef.png" class="quarto-figure quarto-figure-center" width="700"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="haidar_singh22">(<a href="#ref-haidar_singh22" role="doc-biblioref">Haidar and Singh, 2022</a>)</span></p>
-</div></div></section>
-<section id="classic-fuo" class="level2">
-<h2 class="anchored" data-anchor-id="classic-fuo">Classic FUO</h2>
+<aside><div>
+<p><span class="citation" data-cites="haidar_singh22">(<a href="#/references" role="doc-biblioref" onclick="">Haidar and Singh, 2022</a>)</span></p>
+</div></aside></section>
+<section id="classic-fuo" class="slide level2">
+<h2>Classic FUO</h2>
 <p><br></p>
 <ul>
 <li><strong>Definition:</strong>
@@ -434,20 +306,16 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="frequency-of-the-5-main-etiologic-categories-of-fuo" class="level2">
-<h2 class="anchored" data-anchor-id="frequency-of-the-5-main-etiologic-categories-of-fuo">Frequency of the 5 main etiologic categories of FUO</h2>
+<section id="frequency-of-the-5-main-etiologic-categories-of-fuo" class="slide level2">
+<h2>Frequency of the 5 main etiologic categories of FUO</h2>
 <p>Infectious causes decrease in patients above age 65 years</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/FUOcat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#ref-wrightwilliamf__mackowiakphilipa_15" role="doc-biblioref">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+
+<img data-src="images-fuo/FUOcat.png" class="quarto-figure quarto-figure-center r-stretch" width="600"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
 </div>
 </section>
-<section id="classic-fuo--infectious-etiology" class="level2">
-<h2 class="anchored" data-anchor-id="classic-fuo--infectious-etiology">Classic FUO- Infectious Etiology</h2>
+<section id="classic-fuo--infectious-etiology" class="slide level2">
+<h2>Classic FUO- Infectious Etiology</h2>
 <p><br></p>
 <ul>
 <li>Chronic or relapsing infections
@@ -460,42 +328,36 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="classic-fuo-work-up" class="level2">
-<h2 class="anchored" data-anchor-id="classic-fuo-work-up">Classic FUO work-up</h2>
+<section id="classic-fuo-work-up" class="slide level2">
+<h2>Classic FUO work-up</h2>
 <p><br></p>
-<div class="incremental">
-<ul class="incremental">
-<li><strong>Medical history emphasis:</strong>
-<ul class="incremental">
-<li><p>Travel</p></li>
-<li><p>Contacts</p></li>
-<li><p>Animal and insect exposure</p></li>
-<li><p>Medications</p></li>
-<li><p>Immunizations</p></li>
-<li><p>Family history</p></li>
-<li><p>Cardiac valve disorder</p></li>
+<ul>
+<li class="fragment"><strong>Medical history emphasis:</strong>
+<ul>
+<li class="fragment"><p>Travel</p></li>
+<li class="fragment"><p>Contacts</p></li>
+<li class="fragment"><p>Animal and insect exposure</p></li>
+<li class="fragment"><p>Medications</p></li>
+<li class="fragment"><p>Immunizations</p></li>
+<li class="fragment"><p>Family history</p></li>
+<li class="fragment"><p>Cardiac valve disorder</p></li>
 </ul></li>
-<li><strong>Examination emphasis</strong>
-<ul class="incremental">
-<li>Fundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins</li>
+<li class="fragment"><strong>Examination emphasis</strong>
+<ul>
+<li class="fragment">Fundi, oropharynx, temporal artery, abdomen, lymph nodes, spleen, joints, skin, nails, genitalia, rectum or prostate, lower limb deep veins</li>
 </ul></li>
-<li><strong>Investigation emphasis:</strong>
-<ul class="incremental">
-<li>Imaging, biopsies, sedimentation rate, skin tests</li>
+<li class="fragment"><strong>Investigation emphasis:</strong>
+<ul>
+<li class="fragment">Imaging, biopsies, sedimentation rate, skin tests</li>
 </ul></li>
 </ul>
-</div>
 </section>
-<section id="rare-and-miscellaneous-causes-of-fever" class="level2">
-<h2 class="anchored" data-anchor-id="rare-and-miscellaneous-causes-of-fever">Rare and miscellaneous causes of fever</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/misc.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="classic-fuo-in-infants-and-children" class="level2">
-<h2 class="anchored" data-anchor-id="classic-fuo-in-infants-and-children">Classic FUO in infants and children</h2>
+<section id="rare-and-miscellaneous-causes-of-fever" class="slide level2">
+<h2>Rare and miscellaneous causes of fever</h2>
+
+<img data-src="images-fuo/misc.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="classic-fuo-in-infants-and-children" class="slide level2">
+<h2>Classic FUO in infants and children</h2>
 <p><br></p>
 <ul>
 <li>Respiratory tract infections</li>
@@ -509,8 +371,8 @@ function googleTranslateElementInit() {
 <li>Joint involvement is an important sign of a potentially serious disorder- <em>e.g., connective tissue disease, endocarditis, leukemia</em></li>
 </ul>
 </section>
-<section id="classic-fuo-in-elderly-patients" class="level2">
-<h2 class="anchored" data-anchor-id="classic-fuo-in-elderly-patients">Classic FUO in elderly patients</h2>
+<section id="classic-fuo-in-elderly-patients" class="slide level2">
+<h2>Classic FUO in elderly patients</h2>
 <p><br></p>
 <ul>
 <li><strong>In developed countries: connective tissue diseases &gt; infections</strong>
@@ -528,20 +390,16 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="returning-travellers" class="level2">
-<h2 class="anchored" data-anchor-id="returning-travellers">Returning travellers</h2>
+<section id="returning-travellers" class="slide level2">
+<h2>Returning travellers</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/traveler.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#ref-wrightwilliamf__mackowiakphilipa_15" role="doc-biblioref">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+
+<img data-src="images-fuo/traveler.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
 </div>
 </section>
-<section id="nosocomial-health-care-associated-fuo" class="level2">
-<h2 class="anchored" data-anchor-id="nosocomial-health-care-associated-fuo">Nosocomial (Health-Care Associated) FUO</h2>
+<section id="nosocomial-health-care-associated-fuo" class="slide level2">
+<h2>Nosocomial (Health-Care Associated) FUO</h2>
 <p><br></p>
 <ul>
 <li><strong>Leading causes:</strong>
@@ -559,16 +417,16 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="fever-in-post-operative-patients" class="level2">
-<h2 class="anchored" data-anchor-id="fever-in-post-operative-patients">Fever in post-operative patients</h2>
+<section id="fever-in-post-operative-patients" class="slide level2">
+<h2>Fever in post-operative patients</h2>
 <p><br></p>
 <ul>
 <li>Although more than 1/3 of patients may manifest fever in first 5 days surgery, &lt; 10% of febrile patients have an identified source or positive cultures</li>
 <li>Fever may represent a physiological response to surgically-induced tissue injury with release of pyrogenic cytokines and interleukins rather than result of infection</li>
 </ul>
 </section>
-<section id="fuo-in-icu-patients" class="level2">
-<h2 class="anchored" data-anchor-id="fuo-in-icu-patients">FUO in ICU patients</h2>
+<section id="fuo-in-icu-patients" class="slide level2">
+<h2>FUO in ICU patients</h2>
 <p><br></p>
 <ul>
 <li>Early fevers are common, often non-infectious, associated with good prognosis</li>
@@ -585,38 +443,36 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="fuo-in-stroke-patients" class="level2">
-<h2 class="anchored" data-anchor-id="fuo-in-stroke-patients">FUO in stroke patients</h2>
+<section id="fuo-in-stroke-patients" class="slide level2">
+<h2>FUO in stroke patients</h2>
 <p><br></p>
 <ul>
 <li>Non-infective fevers are commonly seen in patients with intracranial mass effects and occur earlier after stroke than infection</li>
 <li>UTI are common related to urinary catheterization</li>
 </ul>
 </section>
-<section id="fuo-in-neutropenic-patients" class="level2">
-<h2 class="anchored" data-anchor-id="fuo-in-neutropenic-patients">FUO in neutropenic patients</h2>
+<section id="fuo-in-neutropenic-patients" class="slide level2">
+<h2>FUO in neutropenic patients</h2>
 <p><br></p>
-<div class="incremental">
-<ul class="incremental">
-<li><p>ANC= Total WBC x (% Segs + % Bands)</p></li>
-<li><p>Neutropenia is defined as an ANC of &lt; 500 cells/mm<sup>3</sup> or an ANC that is expected to decrease to &lt; 500 cells/mm<sup>3</sup> during the next 48 h.</p>
-<ul class="incremental">
-<li>The term “profound” is sometimes used to describe neutropenia in which the ANC is &lt; 100 cells/mm<sup>3</sup></li>
+<ul>
+<li class="fragment"><p>ANC= Total WBC x (% Segs + % Bands)</p></li>
+<li class="fragment"><p>Neutropenia is defined as an ANC of &lt; 500 cells/mm<sup>3</sup> or an ANC that is expected to decrease to &lt; 500 cells/mm<sup>3</sup> during the next 48 h.</p>
+<ul>
+<li class="fragment">The term “profound” is sometimes used to describe neutropenia in which the ANC is &lt; 100 cells/mm<sup>3</sup></li>
 </ul></li>
-<li><p>Fever occurs frequently during chemotherapy-induced neutropenia:</p>
-<ul class="incremental">
-<li><p>10%–50% of patients with solid tumors</p></li>
-<li><p>80% of those with hematologic malignancies will develop fever during &gt;1 chemotherapy cycle associated with neutropenia</p></li>
+<li class="fragment"><p>Fever occurs frequently during chemotherapy-induced neutropenia:</p>
+<ul>
+<li class="fragment"><p>10%–50% of patients with solid tumors</p></li>
+<li class="fragment"><p>80% of those with hematologic malignancies will develop fever during &gt;1 chemotherapy cycle associated with neutropenia</p></li>
 </ul></li>
-<li><p>Most patients will have no infectious etiology documented.</p></li>
-<li><p>Signs of inflammation are notoriously absent other than fever</p></li>
+<li class="fragment"><p>Most patients will have no infectious etiology documented.</p></li>
+<li class="fragment"><p>Signs of inflammation are notoriously absent other than fever</p></li>
 </ul>
-</div>
 </section>
-<section id="clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc" class="level2">
-<h2 class="anchored" data-anchor-id="clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc">Clinical manifestations of infection related to absolute neutrophil count (ANC)</h2>
+<section id="clinical-manifestations-of-infection-related-to-absolute-neutrophil-count-anc" class="slide level2">
+<h2>Clinical manifestations of infection related to absolute neutrophil count (ANC)</h2>
 <p><br></p>
-<table class="caption-top table">
+<table class="caption-top">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 20%">
@@ -672,65 +528,45 @@ function googleTranslateElementInit() {
 </table>
 <p><br></p>
 <div>
-<p><span class="citation" data-cites="sickles_etal75">(<a href="#ref-sickles_etal75" role="doc-biblioref">Sickles et al., 1975</a>)</span></p>
+<p><span class="citation" data-cites="sickles_etal75">(<a href="#/references" role="doc-biblioref" onclick="">Sickles et al., 1975</a>)</span></p>
 </div>
 </section>
-<section id="possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics" class="level2">
-<h2 class="anchored" data-anchor-id="possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics">Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/fuo_neutro.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="corey_boeckh02">(<a href="#ref-corey_boeckh02" role="doc-biblioref">Corey and Boeckh, 2002</a>)</span></p>
+<section id="possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics" class="slide level2">
+<h2>Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics</h2>
+
+<img data-src="images-fuo/fuo_neutro.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="corey_boeckh02">(<a href="#/references" role="doc-biblioref" onclick="">Corey and Boeckh, 2002</a>)</span></p>
 </div>
 </section>
-<section id="cell-mediated-immunity-1" class="level2">
-<h2 class="anchored" data-anchor-id="cell-mediated-immunity-1">Cell-mediated immunity-1</h2>
+<section id="cell-mediated-immunity-1" class="slide level2">
+<h2>Cell-mediated immunity-1</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/CMI_Th1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#ref-playfairj__bancroftg_13" role="doc-biblioref">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
+
+<img data-src="images-fuo/CMI_Th1.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
 </div>
 </section>
-<section id="cell-mediated-immunity-2" class="level2">
-<h2 class="anchored" data-anchor-id="cell-mediated-immunity-2">Cell-mediated immunity-2</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/CMI_Th2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#ref-playfairj__bancroftg_13" role="doc-biblioref">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
+<section id="cell-mediated-immunity-2" class="slide level2">
+<h2>Cell-mediated immunity-2</h2>
+
+<img data-src="images-fuo/CMI_Th2.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
 </div>
 </section>
-<section id="cell-mediated-immunity-drug-allergy" class="level2">
-<h2 class="anchored" data-anchor-id="cell-mediated-immunity-drug-allergy">Cell-mediated immunity-Drug allergy</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/CMI_allergy.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#ref-playfairj__bancroftg_13" role="doc-biblioref">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
+<section id="cell-mediated-immunity-drug-allergy" class="slide level2">
+<h2>Cell-mediated immunity-Drug allergy</h2>
+
+<img data-src="images-fuo/CMI_allergy.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair, J. and Bancroft, G., 2013</a>)</span></p>
 </div>
 </section>
-<section id="infections-in-immunocompromised-hosts" class="level2">
-<h2 class="anchored" data-anchor-id="infections-in-immunocompromised-hosts">Infections in immunocompromised hosts</h2>
+<section id="infections-in-immunocompromised-hosts" class="slide level2">
+<h2>Infections in immunocompromised hosts</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/immunocomp.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="hiv-related-fuo" class="level2">
-<h2 class="anchored" data-anchor-id="hiv-related-fuo">HIV-related FUO</h2>
+
+<img data-src="images-fuo/immunocomp.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="hiv-related-fuo" class="slide level2">
+<h2>HIV-related FUO</h2>
 <p><br></p>
 <ul>
 <li>Primary phase of infection characterized by mononucleosis-like illness where fever is common, may be undiagnosed if it precedes seroconversion</li>
@@ -738,19 +574,19 @@ function googleTranslateElementInit() {
 <li>Once highly-active antiretroviral therapy (HAART) is started and HIC viral load is effectively suppressed, the frequency of FUO falls markedly</li>
 </ul>
 </section>
-<section id="etiology-of-fever-in-hiv-associated-fuo-n70" class="level2 smaller page-columns page-full">
-<h2 class="smaller anchored" data-anchor-id="etiology-of-fever-in-hiv-associated-fuo-n70">Etiology of fever in HIV-Associated FUO (n=70)</h2>
+<section id="etiology-of-fever-in-hiv-associated-fuo-n70" class="slide level2 smaller">
+<h2>Etiology of fever in HIV-Associated FUO (n=70)</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/FUO_HIV.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+<figure>
+<p><img data-src="images-fuo/FUO_HIV.png" class="quarto-figure quarto-figure-center" width="500"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#ref-wrightwilliamf__mackowiakphilipa_15" role="doc-biblioref">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
-</div></div></section>
-<section id="naproxen-nsiad-fever-suppression-test-for-tumor-fever" class="level2">
-<h2 class="anchored" data-anchor-id="naproxen-nsiad-fever-suppression-test-for-tumor-fever">Naproxen (NSIAD) fever suppression test for “tumor fever”</h2>
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+</div></aside></section>
+<section id="naproxen-nsiad-fever-suppression-test-for-tumor-fever" class="slide level2">
+<h2>Naproxen (NSIAD) fever suppression test for “tumor fever”</h2>
 <p><br></p>
 <ul>
 <li>A trial of naproxen may differentiate neoplastic from non-neoplastic fever
@@ -764,13 +600,13 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="diagnosis-of-fuo" class="level2" data-background-image="./images-fuo/thermometer.jpg">
-<h2 data-background-image="/images-fuo/thermometer.jpg" class="anchored" data-anchor-id="diagnosis-of-fuo">Diagnosis of FUO</h2>
+<section id="diagnosis-of-fuo" class="slide level2" data-background-image="./images-fuo/thermometer.jpg">
+<h2>Diagnosis of FUO</h2>
 </section>
-<section id="general-diagnostic-evaluation-of-fuo" class="level2">
-<h2 class="anchored" data-anchor-id="general-diagnostic-evaluation-of-fuo">General diagnostic evaluation of FUO</h2>
+<section id="general-diagnostic-evaluation-of-fuo" class="slide level2">
+<h2>General diagnostic evaluation of FUO</h2>
 <p><br></p>
-<table class="caption-top table">
+<table class="caption-top">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -834,36 +670,34 @@ function googleTranslateElementInit() {
 </tbody>
 </table>
 <div>
-<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#ref-wrightwilliamf__mackowiakphilipa_15" role="doc-biblioref">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
 </div>
 </section>
-<section id="patient-history" class="level2">
-<h2 class="anchored" data-anchor-id="patient-history">Patient history</h2>
+<section id="patient-history" class="slide level2">
+<h2>Patient history</h2>
 <p><br></p>
-<div class="incremental">
-<ul class="incremental">
-<li><strong>Helps guide choice of initial laboratory investigations</strong></li>
-<li><strong>Particular attention should be given to:</strong>
-<ul class="incremental">
-<li><p>Recent travel</p></li>
-<li><p>Exposure to pets and other animals</p></li>
-<li><p>Work environment</p></li>
-<li><p>Recent contact with people with similar symptoms</p></li>
-<li><p>Family history (e.g., familial Mediterranean fever)</p></li>
+<ul>
+<li class="fragment"><strong>Helps guide choice of initial laboratory investigations</strong></li>
+<li class="fragment"><strong>Particular attention should be given to:</strong>
+<ul>
+<li class="fragment"><p>Recent travel</p></li>
+<li class="fragment"><p>Exposure to pets and other animals</p></li>
+<li class="fragment"><p>Work environment</p></li>
+<li class="fragment"><p>Recent contact with people with similar symptoms</p></li>
+<li class="fragment"><p>Family history (e.g., familial Mediterranean fever)</p></li>
 </ul></li>
-<li><strong>Prior history of FUO</strong></li>
-<li><strong>Previously diagnosed conditions</strong>
-<ul class="incremental">
-<li><p>Lymphoma</p></li>
-<li><p>Rheumatic fever</p></li>
-<li><p>Intraabdominal disorders</p></li>
+<li class="fragment"><strong>Prior history of FUO</strong></li>
+<li class="fragment"><strong>Previously diagnosed conditions</strong>
+<ul>
+<li class="fragment"><p>Lymphoma</p></li>
+<li class="fragment"><p>Rheumatic fever</p></li>
+<li class="fragment"><p>Intraabdominal disorders</p></li>
 </ul></li>
-<li><strong>Complete list of medications</strong></li>
+<li class="fragment"><strong>Complete list of medications</strong></li>
 </ul>
-</div>
 </section>
-<section id="verification-of-fever-and-fever-pattern" class="level2">
-<h2 class="anchored" data-anchor-id="verification-of-fever-and-fever-pattern">Verification of fever and fever pattern</h2>
+<section id="verification-of-fever-and-fever-pattern" class="slide level2">
+<h2>Verification of fever and fever pattern</h2>
 <p><br></p>
 <ul>
 <li>Obvious,… but often overlooked
@@ -883,8 +717,8 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="continuous-sustained-fever" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="continuous-sustained-fever">Continuous sustained fever</h2>
+<section id="continuous-sustained-fever" class="slide level2">
+<h2>Continuous sustained fever</h2>
 <p><br></p>
 <ul>
 <li>Continuous (sustained) fever with slight remission not exceed 2°C
@@ -898,25 +732,21 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/continuous.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+<figure>
+<p><img data-src="images-fuo/continuous.png" class="quarto-figure quarto-figure-center" width="500"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="malaria-fever" class="level2">
-<h2 class="anchored" data-anchor-id="malaria-fever">Malaria fever</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/malariafever.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>Febrile paroxysms may occur every other day for <em>P. vivax</em>, <em>P. ovale</em>, and <em>P. falciparum</em> and every third day for <em>P. malariae</em>. Paroxysms occurring at regular intervals are more common in the setting of infection due to <em>P. vivax</em> or <em>P. ovale</em> than <em>P. falciparum</em>. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.</p>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="malaria-fever" class="slide level2">
+<h2>Malaria fever</h2>
+
+<img data-src="images-fuo/malariafever.png" class="quarto-figure quarto-figure-center r-stretch"><p>Febrile paroxysms may occur every other day for <em>P. vivax</em>, <em>P. ovale</em>, and <em>P. falciparum</em> and every third day for <em>P. malariae</em>. Paroxysms occurring at regular intervals are more common in the setting of infection due to <em>P. vivax</em> or <em>P. ovale</em> than <em>P. falciparum</em>. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.</p>
 </section>
-<section id="intermittent-fever" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="intermittent-fever">Intermittent fever</h2>
+<section id="intermittent-fever" class="slide level2">
+<h2>Intermittent fever</h2>
 <p><br></p>
 <ul>
 <li>Intermittent (septic, quotidian, “picket fence”) fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
@@ -927,11 +757,11 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="saddle-back-biphasic" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="saddle-back-biphasic">Saddle-back (biphasic)</h2>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="saddle-back-biphasic" class="slide level2">
+<h2>Saddle-back (biphasic)</h2>
 <p><br></p>
 <ul>
 <li>Several days of fever, distinct reduction in fever for ~ 1 day, and then several days of higher fever
@@ -943,16 +773,16 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/saddle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+<figure>
+<p><img data-src="images-fuo/saddle.png" class="quarto-figure quarto-figure-center" width="500"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="intermittent-hectic-charcots-fever" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="intermittent-hectic-charcots-fever">Intermittent hectic (Charcot’s) fever</h2>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="intermittent-hectic-charcots-fever" class="slide level2">
+<h2>Intermittent hectic (Charcot’s) fever</h2>
 <p><br></p>
 <ul>
 <li>Sporadic episodes of fever, periods of normal temperature with recurrence
@@ -961,11 +791,11 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="pel-ebstein-fever" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="pel-ebstein-fever">Pel-Ebstein fever</h2>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="pel-ebstein-fever" class="slide level2">
+<h2>Pel-Ebstein fever</h2>
 <p><br></p>
 <ul>
 <li>Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
@@ -976,16 +806,16 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/pelebstein.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+<figure>
+<p><img data-src="images-fuo/pelebstein.png" class="quarto-figure quarto-figure-center" width="500"></p>
 </figure>
 </div>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="typus-inversus" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="typus-inversus"><em>Typus Inversus</em></h2>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="typus-inversus" class="slide level2">
+<h2><em>Typus Inversus</em></h2>
 <p><br></p>
 <ul>
 <li>Reversal of diurnal pattern, with highest temperatures in the early morning hours rather than during the late afternoon or evening
@@ -997,15 +827,15 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="typhoid-fever" class="level2">
-<h2 class="anchored" data-anchor-id="typhoid-fever">Typhoid fever</h2>
-<p><img src="images-fuo/typhoidfever.png" class="img-fluid"></p>
-</section>
-<section id="jarisch-herxheimer-reaction" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="jarisch-herxheimer-reaction">Jarisch-Herxheimer reaction</h2>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="typhoid-fever" class="slide level2">
+<h2>Typhoid fever</h2>
+
+<img data-src="images-fuo/typhoidfever.png" class="r-stretch"></section>
+<section id="jarisch-herxheimer-reaction" class="slide level2">
+<h2>Jarisch-Herxheimer reaction</h2>
 <p><br></p>
 <p><br></p>
 <ul>
@@ -1017,26 +847,22 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></p>
-</div></div></section>
-<section id="physical-examination" class="level2">
-<h2 class="anchored" data-anchor-id="physical-examination">Physical examination</h2>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="physical-examination" class="slide level2">
+<h2>Physical examination</h2>
 <ul>
 <li>Some signs are subtle and may require repeated exams to be appreciated</li>
 <li>Vigorous search for lymphadenopathy (consideration for biopsy)</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/clinicalsigns.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#ref-wrightwilliamf__mackowiakphilipa_15" role="doc-biblioref">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+
+<img data-src="images-fuo/clinicalsigns.jpeg" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
 </div>
 </section>
-<section id="laboratory-investigations" class="level2">
-<h2 class="anchored" data-anchor-id="laboratory-investigations">Laboratory investigations</h2>
+<section id="laboratory-investigations" class="slide level2">
+<h2>Laboratory investigations</h2>
 <p><br></p>
 <p>“The cause is more often a <em>common</em> <em>disease</em> presenting in an <em>atypical fashion</em> than a <em>rare disease</em> presenting in a <em>typical fashion</em>.</p>
 <ul>
@@ -1049,27 +875,23 @@ function googleTranslateElementInit() {
 <li>History and physical exam (most important) should guide the choice and sequence of tests</li>
 </ul>
 </section>
-<section id="examples-of-potential-diagnostic-clues" class="level2">
-<h2 class="anchored" data-anchor-id="examples-of-potential-diagnostic-clues">Examples of potential diagnostic clues</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/diagnosticcludes.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#ref-wrightwilliamf__mackowiakphilipa_15" role="doc-biblioref">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
+<section id="examples-of-potential-diagnostic-clues" class="slide level2">
+<h2>Examples of potential diagnostic clues</h2>
+
+<img data-src="images-fuo/diagnosticcludes.jpeg" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright, William F. and Mackowiak, Philip A., 2015</a>)</span></p>
 </div>
 </section>
-<section id="bone-marrow-biopsy" class="level2">
-<h2 class="anchored" data-anchor-id="bone-marrow-biopsy">Bone marrow biopsy</h2>
+<section id="bone-marrow-biopsy" class="slide level2">
+<h2>Bone marrow biopsy</h2>
 <p><br></p>
 <ul>
 <li>Granulomatous infections (e.g., tuberculosis, histoplasmosis, sarcoidosis)</li>
 <li>Patients with abnormal complete blood counts (CBC)</li>
 </ul>
 </section>
-<section id="imaging-studies" class="level2">
-<h2 class="anchored" data-anchor-id="imaging-studies">Imaging studies</h2>
+<section id="imaging-studies" class="slide level2">
+<h2>Imaging studies</h2>
 <p><br></p>
 <ul>
 <li>Generally low diagnostic yield without localizing symptoms
@@ -1083,40 +905,32 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet" class="level2">
-<h2 class="anchored" data-anchor-id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet"><sup>18</sup>F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</h2>
+<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet" class="slide level2">
+<h2><sup>18</sup>F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/pet1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="dekleijn_etal97 wright_etal21">(<a href="#ref-dekleijn_etal97" role="doc-biblioref"><span class="nocase">de Kleijn et al.</span>, 1997</a>; <a href="#ref-wright_etal21" role="doc-biblioref">Wright et al., 2021</a>)</span></p>
+
+<img data-src="images-fuo/pet1.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="dekleijn_etal97 wright_etal21">(<a href="#/references" role="doc-biblioref" onclick=""><span class="nocase">de Kleijn et al.</span>, 1997</a>; <a href="#/references" role="doc-biblioref" onclick="">Wright et al., 2021</a>)</span></p>
 </div>
 </section>
-<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1" class="level2">
-<h2 class="anchored" data-anchor-id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1">F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</h2>
+<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-1" class="slide level2">
+<h2>F-fluorodeoxyglucose (FDG) positron emission tomography (PET)</h2>
 <p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images-fuo/pet2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="kouijzer_etal18">(<a href="#ref-kouijzer_etal18" role="doc-biblioref">Kouijzer et al., 2018</a>)</span></p>
+
+<img data-src="images-fuo/pet2.png" class="quarto-figure quarto-figure-center r-stretch"><div>
+<p><span class="citation" data-cites="kouijzer_etal18">(<a href="#/references" role="doc-biblioref" onclick="">Kouijzer et al., 2018</a>)</span></p>
 </div>
 </section>
-<section id="invasive-diagnostic-procedures" class="level2">
-<h2 class="anchored" data-anchor-id="invasive-diagnostic-procedures">Invasive diagnostic procedures</h2>
+<section id="invasive-diagnostic-procedures" class="slide level2">
+<h2>Invasive diagnostic procedures</h2>
 <p><br> <br></p>
 <ul>
 <li><p>Histopathological examination of tissues obtained by excisional biopsy , needle biopsy or laparotomy can provide definitive diagnosis in some cases</p></li>
 <li><p>Majority of FUO patients will undergo at least one procedure</p></li>
 </ul>
 </section>
-<section id="treatment" class="level2" data-background-image="./images-fuo/thermometer.jpg" data-background-opacity="0.2">
-<h2 data-background-image="/images-fuo/thermometer.jpg" data-background-opacity="0.2" class="anchored" data-anchor-id="treatment">Treatment</h2>
+<section id="treatment" class="slide level2" data-background-image="./images-fuo/thermometer.jpg" data-background-opacity="0.2">
+<h2>Treatment</h2>
 <p><br></p>
 <ul>
 <li><p>A fundamental principle in classic FUO is that therapy should be withheld until the cause of fever is determined</p>
@@ -1132,19 +946,15 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="diagnostic-summary" class="level2">
-<h2 class="anchored" data-anchor-id="diagnostic-summary">Diagnostic summary</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="diagnosis.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="800"></p>
-</figure>
-</div>
-<div>
-<p><span class="citation" data-cites="wright_auwaerter20">(<a href="#ref-wright_auwaerter20" role="doc-biblioref">Wright and Auwaerter, 2020</a>)</span></p>
+<section id="diagnostic-summary" class="slide level2">
+<h2>Diagnostic summary</h2>
+
+<img data-src="diagnosis.jpeg" class="quarto-figure quarto-figure-center r-stretch" width="800"><div>
+<p><span class="citation" data-cites="wright_auwaerter20">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Auwaerter, 2020</a>)</span></p>
 </div>
 </section>
-<section id="when-is-immediate-treatment-indicated" class="level2">
-<h2 class="anchored" data-anchor-id="when-is-immediate-treatment-indicated">When is immediate treatment indicated?</h2>
+<section id="when-is-immediate-treatment-indicated" class="slide level2">
+<h2>When is immediate treatment indicated?</h2>
 <p><br></p>
 <ul>
 <li>Empirical treatment with corticosteroids in patients with <strong>suspected temporal arteritis</strong> to prevent vascular complications such as blindness and stroke</li>
@@ -1152,8 +962,8 @@ function googleTranslateElementInit() {
 <li>Therapeutic trials with narrow spectrum therapy (e.g.&nbsp;anti-mycobacterial agents) may be considered in select cases with history suggestive of TB</li>
 </ul>
 </section>
-<section id="prognosis" class="level2">
-<h2 class="anchored" data-anchor-id="prognosis">Prognosis</h2>
+<section id="prognosis" class="slide level2">
+<h2>Prognosis</h2>
 <p><br></p>
 <ul>
 <li>Determined y the cause of fever and nature of underlying disease(s)</li>
@@ -1171,14 +981,11 @@ function googleTranslateElementInit() {
 </ul></li>
 </ul>
 </section>
-<section id="references" class="level2">
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-corey_boeckh02" class="csl-entry" role="listitem">
 Corey L, Boeckh M. Persistent fever in patients with neutropenia. The New England Journal of Medicine 2002;346:222–4. <a href="https://doi.org/10.1056/NEJM200201243460402">https://doi.org/10.1056/NEJM200201243460402</a>.
 </div>
@@ -1218,410 +1025,396 @@ Wright WF, Auwaerter PG, Dibble EH, Rowe SP, Mackowiak PA. Imaging a <span>Fever
 <div id="ref-wrightwilliamf__mackowiakphilipa_15" class="csl-entry" role="listitem">
 Wright, William F., Mackowiak, Philip A. Principles and <span>Practice</span> of <span>Infectious Diseases</span>, 8th <span>Edition</span>. Fever of <span>Unknown Origin</span>, <span>Elsevier Health Sciences</span>; 2015.
 </div>
-</div></section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
+</div>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'multiplex': {"secret":null,"id":"5c6faba880eca43f16e3dbe3b4c7c9704eeba78eb3c8598cf3c655cb98a0deae","url":"https://multiplex.up.railway.app/"},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
         },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          
+          RevealSearch,
+          RevealZoom
+        ]
       });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
           }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
           }
-          return note.innerHTML;
+          return codeEl.innerText;
         }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/padovaid\.com");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
         }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
             }
           } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
             });
           }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
         }
-      }, function(instance) {
       });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-</div> <!-- /content -->
-
-
-
+      </script>
+    
 
 </body></html>
