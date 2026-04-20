@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antifungal Spectrum of Activity</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans 3', -apple-system, sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .chart-wrapper {
+    max-width: 1100px;
+    width: 100%;
+  }
+
+  .chart-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+  }
+
+  .chart-subtitle {
+    text-align: center;
+    font-size: 0.82rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  /* Column widths */
+  col.label-col { width: 200px; }
+  col.group-label-col { width: 44px; }
+  col.drug-col { width: auto; }
+
+  /* Drug class headers */
+  thead tr.class-row th {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    padding: 0 0 2px 0;
+    text-align: center;
+    border-bottom: 2px solid #1a1a1a;
+    letter-spacing: 0.02em;
+  }
+  thead tr.class-row th.no-border { border-bottom: none; }
+
+  /* Drug name headers */
+  thead tr.drug-row th {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #333;
+    padding: 6px 2px 8px 2px;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+  /* Group label cells (Yeasts, Molds, Dimorphic) */
+  td.group-label {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #1a1a1a;
+    padding: 8px 4px;
+    vertical-align: middle;
+    border-right: 2.5px solid #1a1a1a;
+    letter-spacing: 0.03em;
+  }
+
+  /* Organism name cells */
+  td.organism {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding: 0 12px 0 4px;
+    text-align: right;
+    white-space: nowrap;
+    font-style: italic;
+    height: 36px;
+    vertical-align: middle;
+  }
+
+  /* Activity cells */
+  td.activity {
+    padding: 3px 3px;
+    vertical-align: middle;
+    height: 36px;
+  }
+
+  /* The bar inside each cell */
+  .bar {
+    width: 100%;
+    height: 26px;
+    border-radius: 2px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .bar .segment {
+    height: 100%;
+    transition: opacity 0.15s;
+  }
+
+  .green  { background: #2ca02c; }
+  .orange { background: #f5921b; }
+  .empty  { background: transparent; }
+
+  /* Separator rows between groups */
+  tr.separator td {
+    height: 14px;
+    border: none;
+  }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.25rem;
+    padding-top: 0.75rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .legend-swatch {
+    width: 22px;
+    height: 16px;
+    border-radius: 2px;
+  }
+
+  .footnote {
+    text-align: center;
+    font-size: 0.72rem;
+    color: #888;
+    margin-top: 0.75rem;
+    line-height: 1.5;
+  }
+
+  /* Hover effect */
+  tbody tr:not(.separator):hover td.organism {
+    color: #000;
+  }
+  tbody tr:not(.separator):hover .bar .segment {
+    opacity: 0.85;
+  }
+</style>
+</head>
+<body>
+
+<div class="chart-wrapper">
+
+  <table>
+    <colgroup>
+      <col class="group-label-col">
+      <col class="label-col">
+      <col class="drug-col"><!-- AmB -->
+      <col class="drug-col"><!-- FLU -->
+      <col class="drug-col"><!-- ITR -->
+      <col class="drug-col"><!-- VRC -->
+      <col class="drug-col"><!-- POS -->
+      <col class="drug-col"><!-- ISA -->
+      <col class="drug-col"><!-- AND -->
+      <col class="drug-col"><!-- CAS -->
+      <col class="drug-col"><!-- MFG -->
+      <col class="drug-col"><!-- 5FC -->
+    </colgroup>
+
+    <thead>
+      <!-- Drug class row -->
+      <tr class="class-row">
+        <th class="no-border"></th>
+        <th class="no-border"></th>
+        <th style="border-bottom:2px solid #1a1a1a">Polyene</th>
+        <th colspan="5" style="border-bottom:2px solid #1a1a1a">Triazoles</th>
+        <th colspan="3" style="border-bottom:2px solid #1a1a1a">Echinocandins</th>
+        <th class="no-border"></th>
+      </tr>
+      <!-- Drug name row -->
+      <tr class="drug-row">
+        <th></th>
+        <th></th>
+        <th>AmB</th>
+        <th>FLU</th>
+        <th>ITR</th>
+        <th>VRC</th>
+        <th>POS</th>
+        <th>ISA</th>
+        <th>AND</th>
+        <th>CAS</th>
+        <th>MFG</th>
+        <th>5FC</th>
+      </tr>
+    </thead>
+
+    <tbody id="chart-body"></tbody>
+  </table>
+
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-swatch green"></div>
+      Generally active
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch orange"></div>
+      Variable or species/isolate-specific
+    </div>
+  </div>
+
+  <div class="footnote">
+    AMB—amphotericin B; FLU—fluconazole; ITR—itraconazole; VRC—voriconazole; POS—posaconazole; ISA—isavuconazole;<br>
+    AND—anidulafungin; CAS—caspofungin; MFG—micafungin; 5FC—flucytosine
+  </div>
+
+</div>
+
+<script>
+// Data: each entry is [green%, orange%] where total ≤ 100
+// 0,0 = no activity (empty cell)
+// 100,0 = full green
+// 0,100 = full orange
+// 60,40 = mostly green, some variable  etc.
+
+const data = [
+  {
+    group: "Yeasts",
+    organisms: [
+      { name: "Candida albicans",
+        //       AmB      FLU      ITR      VRC      POS      ISA      AND      CAS      MFG      5FC
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0]] },
+      { name: "Candida tropicalis",
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0]] },
+      { name: "Candida parapsilosis",
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,100], [0,100], [0,100], [100,0]] },
+      { name: "Candida krusei",
+        drugs: [[100,0], [0,0],   [50,50], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,100]] },
+      { name: "Candida glabrata",
+        drugs: [[100,0], [50,50], [50,50], [50,50], [50,50], [50,50], [100,0], [100,0], [100,0], [100,0]] },
+      { name: "Cryptococcus neoformans",
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,0],   [0,0],   [0,0],   [100,0]] },
+      { name: "Candida auris",
+        drugs: [[50,50], [30,70], [0,100], [40,60], [0,100], [0,100], [50,50], [50,50], [50,50], [0,100]] },
+    ]
+  },
+  {
+    group: "Molds",
+    organisms: [
+      { name: "Aspergillus fumigatus",
+        drugs: [[30,0],  [0,0],   [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,0]] },
+      { name: "Aspergillus terreus",
+        drugs: [[0,0],   [0,0],   [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,0]] },
+      { name: "Mucorales",
+        drugs: [[60,40], [0,0],   [0,100], [0,0],   [50,50], [50,50], [0,0],   [0,0],   [0,0],   [0,0]] },
+      { name: "Fusarium spp.",
+        drugs: [[50,50], [0,0],   [0,0],   [50,50], [0,100], [0,100], [0,0],   [0,0],   [0,0],   [0,0]] },
+      { name: "Lomentospora prolificans",
+        drugs: [[0,0],   [0,0],   [0,0],   [50,50], [0,100], [0,100], [0,0],   [0,0],   [0,0],   [0,0]] },
+    ]
+  },
+  {
+    group: "Dimorphic",
+    organisms: [
+      { name: "Histoplasma capsulatum",
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,0],   [0,0],   [0,0],   [0,0]] },
+      { name: "Blastomyces dermatitidis",
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,0],   [0,0],   [0,0],   [0,0]] },
+      { name: "Coccidioides immitis",
+        drugs: [[100,0], [100,0], [100,0], [100,0], [100,0], [100,0], [0,0],   [0,0],   [0,0],   [0,0]] },
+    ]
+  }
+];
+
+const tbody = document.getElementById('chart-body');
+
+data.forEach((group, gi) => {
+  // Add separator before each group except the first
+  if (gi > 0) {
+    const sep = document.createElement('tr');
+    sep.className = 'separator';
+    sep.innerHTML = '<td colspan="12"></td>';
+    tbody.appendChild(sep);
+  }
+
+  group.organisms.forEach((org, oi) => {
+    const tr = document.createElement('tr');
+
+    // Group label (only on first organism of group, spanning all rows)
+    if (oi === 0) {
+      const gtd = document.createElement('td');
+      gtd.className = 'group-label';
+      gtd.rowSpan = group.organisms.length;
+      gtd.textContent = group.group;
+      tr.appendChild(gtd);
+    }
+
+    // Organism name
+    const otd = document.createElement('td');
+    otd.className = 'organism';
+    otd.textContent = org.name;
+    tr.appendChild(otd);
+
+    // Drug activity bars
+    org.drugs.forEach(([g, o]) => {
+      const td = document.createElement('td');
+      td.className = 'activity';
+
+      const total = g + o;
+      if (total > 0) {
+        const bar = document.createElement('div');
+        bar.className = 'bar';
+
+        if (g > 0) {
+          const seg = document.createElement('div');
+          seg.className = 'segment green';
+          seg.style.width = (g / total * 100) + '%';
+          bar.appendChild(seg);
+        }
+        if (o > 0) {
+          const seg = document.createElement('div');
+          seg.className = 'segment orange';
+          seg.style.width = (o / total * 100) + '%';
+          bar.appendChild(seg);
+        }
+
+        td.appendChild(bar);
+      }
+      // else: empty cell, no bar
+
+      tr.appendChild(td);
+    });
+
+    tbody.appendChild(tr);
+  });
+});
+</script>
+
+</body>
+</html>

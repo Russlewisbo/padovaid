@@ -6,7 +6,11 @@ editor: visual
 
 ## Lecture slides
 
-[Slides](https://docs.google.com/presentation/d/1YMPuoVTPXKCEKUQoexAR_fmsm3fmKM65VJXmwWpngi0/edit?usp=sharing)
+[Slides](https://russlewisbo.github.io/IFI/chapter-slides.html)
+
+[PDF handout](IFI.pdf)
+
+
 
 [Review article on antifungal agents agents](Johnson.pdf)
 
@@ -19,3 +23,6 @@ editor: visual
 [Review on invasive aspergillosis](aspergillus.pdf)
 
 [Review on cryptococcosis](cryptococcosis.pdf)
+
+LEcture notes: 
+{{< include fungal-webpage.qmd >}}

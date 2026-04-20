@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Cultures Miss 50% of Cases</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans 3', -apple-system, sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+
+  .figure {
+    width: 520px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.25;
+    margin-bottom: 1.2rem;
+  }
+
+  .venn-container {
+    position: relative;
+    width: 520px;
+    height: 360px;
+    margin: 0 auto;
+  }
+
+  svg.venn {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Labels positioned over the SVG */
+  .venn-label {
+    position: absolute;
+    font-size: 0.88rem;
+    line-height: 1.35;
+    color: #1a1a1a;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .label-left {
+    width: 130px;
+    top: 50%;
+    left: 52px;
+    transform: translateY(-50%);
+  }
+
+  .label-center {
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+  }
+
+  .label-right {
+    width: 120px;
+    top: 50%;
+    right: 42px;
+    transform: translateY(-50%);
+  }
+
+  /* Bracket annotation for the right circle */
+  .bracket-annotation {
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .bracket-text {
+    font-size: 0.78rem;
+    color: #b30000;
+    font-weight: 700;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<div class="figure">
+  <div class="title">Blood cultures miss<br>50% of cases</div>
+
+  <div class="venn-container">
+    <svg class="venn" viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Clip for the intersection: right circle clipped to left circle -->
+        <clipPath id="clip-left">
+          <ellipse cx="195" cy="180" rx="155" ry="155"/>
+        </clipPath>
+        <clipPath id="clip-right">
+          <ellipse cx="325" cy="180" rx="155" ry="155"/>
+        </clipPath>
+      </defs>
+
+      <!-- Left circle (white fill) -->
+      <ellipse cx="195" cy="180" rx="155" ry="155"
+               fill="#ffffff" stroke="#1a1a1a" stroke-width="2.2"/>
+
+      <!-- Right circle (light gray fill) -->
+      <ellipse cx="325" cy="180" rx="155" ry="155"
+               fill="#d9d9d9" stroke="#1a1a1a" stroke-width="2.2"/>
+
+      <!-- Intersection: slightly darker gray -->
+      <ellipse cx="325" cy="180" rx="155" ry="155"
+               fill="#c0c0c0" stroke="none" clip-path="url(#clip-left)"/>
+
+      <!-- Re-draw strokes on top so they're clean -->
+      <ellipse cx="195" cy="180" rx="155" ry="155"
+               fill="none" stroke="#1a1a1a" stroke-width="2.2"/>
+      <ellipse cx="325" cy="180" rx="155" ry="155"
+               fill="none" stroke="#1a1a1a" stroke-width="2.2"/>
+    </svg>
+
+    <!-- Text labels -->
+    <div class="venn-label label-left">
+      Candidemia<br>in the<br>absence of<br>deep-seated<br>candidiasis
+    </div>
+
+    <div class="venn-label label-center">
+      Candidemia and<br>deep-seated<br>candidiasis
+    </div>
+
+    <div class="venn-label label-right">
+      Deep-seated<br>candidiasis
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

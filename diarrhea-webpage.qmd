@@ -144,7 +144,7 @@ Bocaviruses, pestiviruses, and toroviruses have been increasingly identified in 
 ### Viral Pathogens Causing Gastroenteritis
 
 | Category | Established Pathogens | Likely/Emerging Pathogens |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Confirmed Major Pathogens** | Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41) | Bocavirus, Astrovirus |
 | **Increasingly Recognized** | Caliciviruses (Norovirus, Sapovirus) | Pestivirus, Torovirus |
 | **Novel/Emerging** | — | SARS-CoV-2, Other Coronaviruses |
@@ -312,7 +312,7 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 ### Etiology of Acute Traveler's Diarrhea
 
 | Pathogen Category | Specific Agents | Approximate Frequency |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Bacterial (40-60%)** | ETEC, Campylobacter, Salmonella, Shigella | Most common overall |
 | **Viral (5-15%)** | Norovirus, Rotavirus, Other enteroviruses | Variable by season/location |
 | **Parasitic (3-5%)** | Giardia, Cryptosporidium, Entamoeba | More common in persistent diarrhea |
@@ -341,7 +341,7 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @
 #### Pathogens in Advanced HIV Infection
 
 | Pathogen | CD4 Threshold | Characteristics |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Cryptosporidium** | \<200 | Chronic, severe; may resolve with immune reconstitution |
 | **Microsporidium** | \<100 | Chronic diarrhea, malabsorption |
 | **Mycobacterium avium complex** | \<50 | Systemic infection with GI involvement |

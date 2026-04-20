@@ -11,8 +11,6 @@ HTML Lecture slides can be accessed [here](https://russlewisbo.github.io/FUO/cha
 
 PDF version of the slides can be downloaded [here](FUO_handout_2026.pdf)
 
-
-
 ## Background reading:
 
 Recent review on FUO in [NEJM](NEJM.pdf) <br> Excellent review on FUO in [OFID](Wright2020.pdf) <br> Classic review on fever patterns and classic [FUO Dogma](dogma1997.pdf) <br>
@@ -31,8 +29,10 @@ IN this online lecture, Dr. Raghuram takes a look at traditional and new definit
 
 You can view the full lecture notes below, [open them in a new window](FUO_chapter-webpage.html){target="_blank"} for better readability, or save as PDF.
 
-<button onclick="var printWindow = window.open('FUO_chapter-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
-  📥 Print/Save as PDF
+<button onclick="var printWindow = window.open(&#39;FUO_chapter-webpage.html&#39;, &#39;_blank&#39;); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+
+📥 Print/Save as PDF
+
 </button>
 
 {{< include fuo-webpage.qmd >}}
