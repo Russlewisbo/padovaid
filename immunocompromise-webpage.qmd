@@ -30,7 +30,7 @@ A definition of those considered to have moderate-to-severe immune compromise, a
 | \- Cancer chemotherapeutic agents classified as severely immunosuppressive |
 | \- Tumor-necrosis factor blockers and other biologic agents that are immunosuppressive or immunomodulatory |
 
-: Major Conditions Leading to Immunocompromise
+: Major Conditions Leading to Immunocompromise {#tbl-conditions}
 
 ## The Net State of Immunosuppression
 
@@ -58,7 +58,7 @@ The type of HSCT profoundly shapes the nature and duration of immunosuppression 
 | **Allogeneic — haploidentical** | Peripheral blood, bone marrow | Half-matched family member (parent, child, sibling) | Very severe; requires intensive T-cell depletion or post-transplant cyclophosphamide |
 | **Allogeneic — umbilical cord blood** | Umbilical cord blood | Unrelated cord blood unit | Very severe; delayed immune reconstitution due to low cell dose |
 
-: Major HSCT types and associated immunosuppressive burden
+: Major HSCT types and associated immunosuppressive burden {#tbl-hsct-types}
 
 ![The vein-to-vein CAR-T cell therapy process. The patient's T cells are collected, genetically engineered with a viral vector to express a chimeric antigen receptor (CAR), expanded ex vivo, and then reinfused to identify and kill cancer cells bearing the target antigen.](images-immunocompromise-webpage/Chimeric%20Antigen%20Receptor%20(CAR)%20T%20Cell%20Therapy_%20Vein-to-Vein%20Process.png){#fig-cart-process fig-align="center"}
 
@@ -263,7 +263,7 @@ Nontuberculous mycobacteria cause infections in solid organ transplant recipient
 |  | Hepatitis B reactivation |
 | PI3K inhibitor (idelalisib); specific inhibitor of phosphatidylinositol 3-kinase delta-Akt pathway B-lymphocyte signaling | *Pneumocystis jirovecii* |
 
-: Immunodeficiencies and Associated Prevalent Pathogens
+: Immunodeficiencies and Associated Prevalent Pathogens {#tbl-pathogens}
 
 # Prevention Strategies
 
@@ -284,7 +284,7 @@ Evaluation prior to initiating immunosuppressive therapy is essential to identif
 | Varicella-zoster virus | IgG serology | Vaccinate if seronegative ≥4 weeks before therapy |
 | *Coccidioides*, *Histoplasma* | Serology (endemic exposure) | Antifungal prophylaxis if seropositive and high-risk regimen planned |
 
-: Pre-immunosuppression infectious disease screening
+: Pre-immunosuppression infectious disease screening {#tbl-screening}
 
 ::: callout-note
 ## Clinical Pearl
@@ -310,7 +310,7 @@ Antifungal prophylaxis should be risk-stratified based on the specific type and 
 | **Intermediate risk** (*Candida* prophylaxis) | Autologous HSCT; neutropenia \>7 days with mucositis; broad-spectrum antibiotics | Fluconazole; micafungin |
 | **Low risk** | SOT recipients on standard maintenance immunosuppression | Not routinely indicated beyond perioperative period |
 
-: Risk-stratified antifungal prophylaxis
+: Risk-stratified antifungal prophylaxis {#tbl-antifungal}
 
 ### Hepatitis B Reactivation Prevention
 
@@ -342,7 +342,7 @@ The optimal window for vaccination in SOT candidates is the pre-transplant perio
 | MMR, VZV (live) | ✓ ≥4 weeks before Tx | **Contraindicated** | Vaccinate all seronegative candidates pre-listing |
 | HPV | ✓ (if age-eligible) | ✓ ≥6 months post-Tx | Three-dose series; responses may be attenuated |
 
-: Vaccination recommendations for solid organ transplant recipients
+: Vaccination recommendations for solid organ transplant recipients {#tbl-vax-sot}
 
 ### Hematopoietic Stem Cell Transplant Recipients
 
@@ -360,7 +360,7 @@ HSCT ablates immunological memory; recipients must be **fully revaccinated** pos
 | Meningococcal (ACWY + B) | ≥6 months | Particularly important in functional asplenia post-HSCT |
 | MMR, VZV (live) | ≥24 months post-HSCT | Only if: off all immunosuppression, no active GVHD, CD4 ≥200 cells/μL |
 
-: Revaccination schedule for hematopoietic stem cell transplant recipients
+: Revaccination schedule for hematopoietic stem cell transplant recipients {#tbl-vax-hsct}
 
 ## Immunoglobulin Replacement Therapy
 
@@ -385,7 +385,7 @@ For outpatients, education regarding specific high-risk activities is essential.
 | **Asplenia / functional hyposplenism** | Splenectomy, sickle cell disease, splenic irradiation | Penicillin V or amoxicillin (lifelong in many patients) | Not routinely required | Not routinely required | PCV20 + PPSV23, MenACWY + MenB, Hib, annual influenza; emergency antibiotic supply |
 | **Combined severe defect** | Allo-HSCT + active GVHD, prolonged combination immunosuppressive therapy | TMP-SMX | Posaconazole (mold-active) | Letermovir or valganciclovir + acyclovir | IVIG; preemptive CMV PCR monitoring; TB and HBV prophylaxis as indicated |
 
-: Prophylaxis recommendations by immunodeficiency type
+: Prophylaxis recommendations by immunodeficiency type {#tbl-prophylaxis}
 
 †Fluoroquinolone prophylaxis reduces febrile neutropenia episodes but is controversial due to selection of resistant organisms; use guided by institutional epidemiology. LTBI = latent tuberculosis infection; CVID = common variable immunodeficiency.
 
