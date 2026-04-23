@@ -5,7 +5,6 @@ author:
   - name: "Russell E. Lewis"
     affiliation: "Department of Molecular Medicine, University of Padua"
 date: last-modified
-bibliography: refs-febrile-neutropenia.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 

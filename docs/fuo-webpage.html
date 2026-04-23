@@ -24,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -71,6 +91,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -547,7 +596,7 @@ function googleTranslateElementInit() {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/LPSfever.png" class="img-fluid figure-img" width="600"></p>
-<figcaption>The febrile cascade: LPS and other PAMPs activate macrophages to release pyrogenic cytokines (IL-1, TNF-α, IL-6), which stimulate PGE₂ synthesis in the hypothalamus and reset the thermoregulatory set point upward. <span class="citation" data-cites="wright_auwaerter20">(<a href="#ref-wright_auwaerter20" role="doc-biblioref"><strong>wright_auwaerter20?</strong></a>)</span></figcaption>
+<figcaption>The febrile cascade: LPS and other PAMPs activate macrophages to release pyrogenic cytokines (IL-1, TNF-α, IL-6), which stimulate PGE₂ synthesis in the hypothalamus and reset the thermoregulatory set point upward. <span class="citation" data-cites="wright_auwaerter20">(<a href="#ref-wright_auwaerter20" role="doc-biblioref">Wright and Auwaerter, 2020</a>)</span></figcaption>
 </figure>
 </div>
 <p>Prostaglandin E₂ produced in the vicinity of the preoptic anterior hypothalamus acts on EP3 receptors on warm-sensitive neurons within this region. The normal tonic activity of warm-sensitive neurons provides inhibition of cold-defense mechanisms; PGE₂-mediated activation of these neurons enhances their inhibitory output, paradoxically leading to a net increase in the firing of cold-defense neurons through the mechanism of disinhibition. This increased activity of cold-defense neurons raises the thermoregulatory set point, leading to heat generation and conservation as the body attempts to achieve the new, higher set point temperature.</p>
@@ -957,14 +1006,14 @@ function googleTranslateElementInit() {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/continuous.png" class="img-fluid figure-img" width="550"></p>
-<figcaption><strong>Continuous/sustained fever pattern.</strong> Temperature remains elevated with variation of less than 2°C. Associated with lobar pneumonia, rickettsiosis, typhoid fever, CNS disorders, tularemia, and falciparum malaria. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref"><strong>mackowiak_etal97a?</strong></a>)</span></figcaption>
+<figcaption><strong>Continuous/sustained fever pattern.</strong> Temperature remains elevated with variation of less than 2°C. Associated with lobar pneumonia, rickettsiosis, typhoid fever, CNS disorders, tularemia, and falciparum malaria. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></figcaption>
 </figure>
 </div>
 <p>Intermittent or quotidian fever, in which fever spikes occur daily (usually in the late afternoon or evening) with return to normal or near-normal temperature, is characteristic of pyogenic infections such as osteomyelitis, endocarditis, and abscesses. Malaria classically presents with quotidian fever (fever every day), though tertian fever (every other day) and quartan fever (every third day) patterns also occur depending on the Plasmodium species involved.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/intermittent.png" class="img-fluid figure-img" width="550"></p>
-<figcaption><strong>Intermittent (quotidian) fever pattern.</strong> Wide daily fluctuations with temperature peaking between 4–8 PM. A double quotidian pattern (two daily spikes) is seen in salmonellosis, miliary tuberculosis, and gonococcal/meningococcal endocarditis. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref"><strong>mackowiak_etal97a?</strong></a>)</span></figcaption>
+<figcaption><strong>Intermittent (quotidian) fever pattern.</strong> Wide daily fluctuations with temperature peaking between 4–8 PM. A double quotidian pattern (two daily spikes) is seen in salmonellosis, miliary tuberculosis, and gonococcal/meningococcal endocarditis. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -977,21 +1026,21 @@ function googleTranslateElementInit() {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/biphasic.png" class="img-fluid figure-img" width="550"></p>
-<figcaption><strong>Saddle-back (biphasic) fever pattern.</strong> Several days of fever, followed by a distinct period of near-defervescence (~1 day), then recurrence with a second febrile phase. Classic for dengue, yellow fever, Colorado tick fever, and influenza. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref"><strong>mackowiak_etal97a?</strong></a>)</span></figcaption>
+<figcaption><strong>Saddle-back (biphasic) fever pattern.</strong> Several days of fever, followed by a distinct period of near-defervescence (~1 day), then recurrence with a second febrile phase. Classic for dengue, yellow fever, Colorado tick fever, and influenza. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></figcaption>
 </figure>
 </div>
 <p>Pel-Ebstein fever, an intermittent pattern with periods of fever alternating with periods of afebrile or hypothermic days, was historically associated with Hodgkin’s disease but is now recognized to occur with other conditions including brucellosis and is not sufficiently specific to be diagnostically useful.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/Pelebstein.png" class="img-fluid figure-img" width="550"></p>
-<figcaption><strong>Undulating (Pel-Ebstein) fever pattern.</strong> Weekly or longer cycles of fever alternating with equally long afebrile periods. Classically associated with Hodgkin’s disease and brucellosis due to <em>Brucella melitensis</em>. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref"><strong>mackowiak_etal97a?</strong></a>)</span></figcaption>
+<figcaption><strong>Undulating (Pel-Ebstein) fever pattern.</strong> Weekly or longer cycles of fever alternating with equally long afebrile periods. Classically associated with Hodgkin’s disease and brucellosis due to <em>Brucella melitensis</em>. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></figcaption>
 </figure>
 </div>
 <p>Typus inversus, in which the normal diurnal pattern of temperature variation is inverted (with the nadir in the afternoon and zenith in the early morning), is described in miliary tuberculosis, salmonellosis, and hepatic abscess, though this pattern is not frequently encountered and is not sufficiently specific to be relied upon for diagnosis.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/typhus_inversus.png" class="img-fluid figure-img" width="550"></p>
-<figcaption><strong><em>Typus inversus</em> fever pattern.</strong> Reversal of the normal diurnal rhythm, with the highest temperatures occurring in the early morning hours rather than the late afternoon. Described in miliary TB, salmonellosis, hepatic abscess, and bacterial endocarditis. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref"><strong>mackowiak_etal97a?</strong></a>)</span></figcaption>
+<figcaption><strong><em>Typus inversus</em> fever pattern.</strong> Reversal of the normal diurnal rhythm, with the highest temperatures occurring in the early morning hours rather than the late afternoon. Described in miliary TB, salmonellosis, hepatic abscess, and bacterial endocarditis. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -1011,7 +1060,7 @@ function googleTranslateElementInit() {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/recurrent.png" class="img-fluid figure-img" width="550"></p>
-<figcaption><strong>Hectic (Charcot’s) intermittent fever.</strong> Sporadic fever episodes with periods of normal temperature in between. Frequently seen in cholangitis associated with cholelithiasis — the classic Charcot’s triad is jaundice, fever, and right upper quadrant pain. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref"><strong>mackowiak_etal97a?</strong></a>)</span></figcaption>
+<figcaption><strong>Hectic (Charcot’s) intermittent fever.</strong> Sporadic fever episodes with periods of normal temperature in between. Frequently seen in cholangitis associated with cholelithiasis — the classic Charcot’s triad is jaundice, fever, and right upper quadrant pain. <span class="citation" data-cites="mackowiak_etal97a">(<a href="#ref-mackowiak_etal97a" role="doc-biblioref">Mackowiak et al., 1997</a>)</span></figcaption>
 </figure>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -1062,7 +1111,7 @@ function googleTranslateElementInit() {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/pet2.png" class="img-fluid figure-img" width="600"></p>
-<figcaption>¹⁸F-FDG PET/CT has revolutionized FUO diagnosis, with sensitivities of 86–98% and specificities of 52–85%. It is particularly valuable for detecting abscesses, osteomyelitis, vasculitis, adult-onset Still disease, and sites for targeted biopsy. <span class="citation" data-cites="kouijzer_etal18">(<a href="#ref-kouijzer_etal18" role="doc-biblioref"><strong>kouijzer_etal18?</strong></a>)</span></figcaption>
+<figcaption>¹⁸F-FDG PET/CT has revolutionized FUO diagnosis, with sensitivities of 86–98% and specificities of 52–85%. It is particularly valuable for detecting abscesses, osteomyelitis, vasculitis, adult-onset Still disease, and sites for targeted biopsy. <span class="citation" data-cites="kouijzer_etal18">(<a href="#ref-kouijzer_etal18" role="doc-biblioref">Kouijzer et al., 2018</a>)</span></figcaption>
 </figure>
 </div>
 <p>Echocardiography should be performed in any patient with suspected endocarditis, as transthoracic echocardiography can visualize vegetations on valves, and transesophageal echocardiography provides superior resolution and should be performed if transthoracic echocardiography is negative but clinical suspicion for endocarditis remains high. Echocardiography is also valuable for assessing cardiac structure and function in patients with suspected cardiac pathology as a cause of fever (such as myocarditis).</p>
@@ -1079,7 +1128,7 @@ function googleTranslateElementInit() {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images-fuo-webpage/clinicalsigns.jpeg" class="img-fluid figure-img" width="700"></p>
-<figcaption>Diagnostic summary and approach to fever of unknown origin. A stepwise, history-guided evaluation is the foundation of efficient FUO workup. <span class="citation" data-cites="wright_auwaerter20">(<a href="#ref-wright_auwaerter20" role="doc-biblioref"><strong>wright_auwaerter20?</strong></a>)</span></figcaption>
+<figcaption>Diagnostic summary and approach to fever of unknown origin. A stepwise, history-guided evaluation is the foundation of efficient FUO workup. <span class="citation" data-cites="wright_auwaerter20">(<a href="#ref-wright_auwaerter20" role="doc-biblioref">Wright and Auwaerter, 2020</a>)</span></figcaption>
 </figure>
 </div>
 </section>
@@ -1145,10 +1194,21 @@ function googleTranslateElementInit() {
 <p>Understanding both the physiology and the clinical approach to fever allows clinicians to interpret fever appropriately, distinguish fever from hyperthermia, recognize the emergency nature of febrile neutropenia and other high-risk scenarios, and pursue diagnosis methodically in patients with prolonged fever. The integration of these two chapters provides a comprehensive framework for understanding fever in all its manifestations—from the beneficial fever of acute infection to the diagnostic challenge of prolonged unexplained fever—and enables clinicians to provide optimal care to febrile patients.</p>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-kouijzer_etal18" class="csl-entry" role="listitem">
+Kouijzer IJE, Vos FJ, Rijnders BJA, Aarntzen EAHG, Bleeker-Rovers CP. The value of <span><span class="math inline">\(^{18}\)</span>F-FDG</span> <span>PET/CT</span> in diagnosing infectious endocarditis. European Journal of Nuclear Medicine and Molecular Imaging 2018;45:1085–99.
+</div>
+<div id="ref-mackowiak_etal97a" class="csl-entry" role="listitem">
+Mackowiak PA, Wasserman SS, Levine MM. Concepts of fever: Recent advances and lingering dogma. Clinical Infectious Diseases 1997;25:996–1003.
+</div>
+<div id="ref-wright_auwaerter20" class="csl-entry" role="listitem">
+Wright WF, Auwaerter PG. Chapter 58: <span>F</span>ever of <span>U</span>nknown <span>O</span>rigin. Mandell’s principles and practice of infectious diseases. 9th ed., Elsevier; 2020.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -1222,7 +1282,7 @@ function googleTranslateElementInit() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/padovaid\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

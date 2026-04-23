@@ -3,7 +3,6 @@ title: "Intra-abdominal Infections: Appendicitis and Infections of the Liver and
 author:
   - name: "Russell Lewis"
 date: "2026-03-01"
-bibliography: refs-intraabdominal-2.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 

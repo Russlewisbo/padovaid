@@ -2,6 +2,8 @@
 title: "Invasive Fungal Infections"
 format: html
 editor: visual
+bibliography: fungal-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
 ## Lecture slides
@@ -22,4 +24,6 @@ editor: visual
 
 [Review on cryptococcosis](cryptococcosis.pdf)
 
-Lecture notes: {{< include fungal-webpage.qmd >}}
+Lecture notes:
+
+{{< include _fungal-content.qmd >}}

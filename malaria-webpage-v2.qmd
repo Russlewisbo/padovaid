@@ -24,40 +24,40 @@ link-citations: true
 
 **Definition**
 
--   The spectrum of malaria infections spans six species of *Plasmodium* and ranges from asymptomatic infections (in those with acquired anti-disease immunity) to uncomplicated malaria to life-threatening severe malaria disease.
--   Uncomplicated malaria presents with fever, headaches, body aches, and malaise, and can easily be mistaken for "flu."
--   Severe malaria can develop into a life-threatening illness very quickly and should be treated as a medical emergency.
+- The spectrum of malaria infections spans six species of *Plasmodium* and ranges from asymptomatic infections (in those with acquired anti-disease immunity) to uncomplicated malaria to life-threatening severe malaria disease.
+- Uncomplicated malaria presents with fever, headaches, body aches, and malaise, and can easily be mistaken for "flu."
+- Severe malaria can develop into a life-threatening illness very quickly and should be treated as a medical emergency.
 
 **Epidemiology**
 
--   Malaria is endemic in tropical and subtropical areas of Africa, the Americas, Asia, and Oceania (see @fig-worldmap).
--   Among populations with regular repeated exposure, the highest risk of disease is in younger children and pregnant women.
--   Malaria is most often transmitted by the bite of a female *Anopheles* mosquito, but can also be acquired congenitally or by blood transfusion.
+- Malaria is endemic in tropical and subtropical areas of Africa, the Americas, Asia, and Oceania (see @fig-worldmap).
+- Among populations with regular repeated exposure, the highest risk of disease is in younger children and pregnant women.
+- Malaria is most often transmitted by the bite of a female *Anopheles* mosquito, but can also be acquired congenitally or by blood transfusion.
 
 **Microbiology**
 
--   *Plasmodia* are parasitic protozoa of the Apicomplexa phylum.
--   Six species infect humans: *P. falciparum*, *P. vivax*, *P. ovale curtisi*, *P. ovale wallikeri*, *P. malariae*, and *P. knowlesi*.
--   Zoonotic spillover of other *Plasmodia* continues to be reported.
+- *Plasmodia* are parasitic protozoa of the Apicomplexa phylum.
+- Six species infect humans: *P. falciparum*, *P. vivax*, *P. ovale curtisi*, *P. ovale wallikeri*, *P. malariae*, and *P. knowlesi*.
+- Zoonotic spillover of other *Plasmodia* continues to be reported.
 
 **Laboratory Diagnosis** (see @tbl-labdiagnosis)
 
--   Parasites can be identified, quantified, and speciated by expert microscopic examination of Giemsa-stained thick and thin blood smears.
--   Rapid diagnostic tests (RDTs) are most accurate for *P. falciparum* but provide no quantitative information and are increasingly compromised by target antigen (HRP-2) deletions.
--   PCR is the most sensitive test and provides speciation and quantification, but turnaround time limits its use for acute diagnosis.
+- Parasites can be identified, quantified, and speciated by expert microscopic examination of Giemsa-stained thick and thin blood smears.
+- Rapid diagnostic tests (RDTs) are most accurate for *P. falciparum* but provide no quantitative information and are increasingly compromised by target antigen (HRP-2) deletions.
+- PCR is the most sensitive test and provides speciation and quantification, but turnaround time limits its use for acute diagnosis.
 
 **Therapy** (see @tbl-treatment)
 
--   Treatment decisions depend primarily on *Plasmodium* spp., disease severity, drug-resistance epidemiology, patient age, and pregnancy status.
--   Artemisinin-based combination therapies (ACTs) are first-line for uncomplicated malaria worldwide. Only artemether-lumefantrine (Coartem) is FDA-approved in the United States.
--   Relapses of *P. vivax* and *P. ovale* malaria are prevented with primaquine or tafenoquine (both contraindicated in pregnancy and G6PD deficiency).
--   For severe malaria, intravenous artesunate is the drug of first choice.
+- Treatment decisions depend primarily on *Plasmodium* spp., disease severity, drug-resistance epidemiology, patient age, and pregnancy status.
+- Artemisinin-based combination therapies (ACTs) are first-line for uncomplicated malaria worldwide. Only artemether-lumefantrine (Coartem) is FDA-approved in the United States.
+- Relapses of *P. vivax* and *P. ovale* malaria are prevented with primaquine or tafenoquine (both contraindicated in pregnancy and G6PD deficiency).
+- For severe malaria, intravenous artesunate is the drug of first choice.
 
 **Prevention** (see @tbl-prophylaxis)
 
--   Chemoprophylaxis is recommended for travelers and non-immunes in endemic areas. Atovaquone-proguanil, doxycycline, and tafenoquine (Arakoda) can be used in all areas.
--   Insect repellents and insecticide-treated bed nets (LLINs) are essential non-pharmacologic measures.
--   Two malaria vaccines (RTS,S and R21/Matrix-M) are now approved for children in endemic regions.
+- Chemoprophylaxis is recommended for travelers and non-immunes in endemic areas. Atovaquone-proguanil, doxycycline, and tafenoquine (Arakoda) can be used in all areas.
+- Insect repellents and insecticide-treated bed nets (LLINs) are essential non-pharmacologic measures.
+- Two malaria vaccines (RTS,S and R21/Matrix-M) are now approved for children in endemic regions.
 :::
 
 ------------------------------------------------------------------------
@@ -118,10 +118,10 @@ Malaria epidemiology and transmission are governed by three factors: distributio
 
 Malaria infections occur mostly in tropical regions of sub-Saharan Africa, Asia, Oceania, and Latin America. Key facts on distribution:
 
--   Africa is home to 94% of global malaria cases and 95% of *P. falciparum* deaths, largely among young children.
--   *P. vivax* accounts for \~3% of worldwide cases globally but 72% in Central and South America.
--   *P. knowlesi* is the most common zoonotic malaria, primarily in Malaysia and Indonesia.
--   In 2022, 36% of pregnancies in 33 moderate- and high-transmission countries in the WHO African Region were exposed to malaria [@MalariaPregnancy2022].
+- Africa is home to 94% of global malaria cases and 95% of *P. falciparum* deaths, largely among young children.
+- *P. vivax* accounts for \~3% of worldwide cases globally but 72% in Central and South America.
+- *P. knowlesi* is the most common zoonotic malaria, primarily in Malaysia and Indonesia.
+- In 2022, 36% of pregnancies in 33 moderate- and high-transmission countries in the WHO African Region were exposed to malaria [@MalariaPregnancy2022].
 
 The [Malaria Atlas Project](https://malariaatlas.org/) and the CDC ([malaria distribution data](https://www.cdc.gov/malaria/about/distribution.html)) provide up-to-date geographic distribution information.
 
@@ -129,10 +129,10 @@ The [Malaria Atlas Project](https://malariaatlas.org/) and the CDC ([malaria dis
 
 Malaria is transmitted person-to-person by female **anopheline** mosquitoes. Approximately 40 of the 400 known *Anopheles* species are vectors of major importance. Female mosquitoes require protein (blood) for egg development. Key vector considerations include:
 
--   Different species have different habitat, biting, and resting preferences.
--   Environmental and climatic factors (temperature, rainfall) influence biting rates, larval maturation, and sporogonic cycle speed.
--   Vector control methods are increasingly threatened by **insecticide resistance**.
--   *Anopheles stephensi*, an invasive urban species, has recently established itself in East Africa with evidence of significant westward spread.
+- Different species have different habitat, biting, and resting preferences.
+- Environmental and climatic factors (temperature, rainfall) influence biting rates, larval maturation, and sporogonic cycle speed.
+- Vector control methods are increasingly threatened by **insecticide resistance**.
+- *Anopheles stephensi*, an invasive urban species, has recently established itself in East Africa with evidence of significant westward spread.
 
 ## Malaria Transmission
 
@@ -146,9 +146,9 @@ Inoculation of sporozoites into the skin and ingestion of gametocytes from the b
 
 Malaria may also be acquired by:
 
--   Needles shared among drug users
--   Blood transfusion (transfusion-transmitted malaria, rare in the US: 12 cases 2000–2021)
--   Congenital/neonatal transmission (in utero or at delivery)
+- Needles shared among drug users
+- Blood transfusion (transfusion-transmitted malaria, rare in the US: 12 cases 2000–2021)
+- Congenital/neonatal transmission (in utero or at delivery)
 
 ------------------------------------------------------------------------
 
@@ -176,10 +176,10 @@ The total parasite biomass drives pathological processes through three main mech
 
 The cytoadherence system of *P. falciparum* is central to pathogenesis:
 
--   Infected RBCs display **PfEMP-1**, **STEVOR**, and **RIFIN** proteins on surface knobs.
--   PfEMP-1 binds to endothelial receptors: **CD36**, **ICAM-1**, **thrombospondin**, **PECAM/CD31**, **EPCR**, and chondroitin sulfate A (CSA, in the placenta).
--   **Rosetting** (binding of iRBCs to uninfected RBCs) and **platelet-mediated clumping** further obstruct microvessels.
--   PfEMP-1 binding to EPCR is strongly associated with cerebral malaria; binding to CSA mediates selective sequestration in placental tissue.
+- Infected RBCs display **PfEMP-1**, **STEVOR**, and **RIFIN** proteins on surface knobs.
+- PfEMP-1 binds to endothelial receptors: **CD36**, **ICAM-1**, **thrombospondin**, **PECAM/CD31**, **EPCR**, and chondroitin sulfate A (CSA, in the placenta).
+- **Rosetting** (binding of iRBCs to uninfected RBCs) and **platelet-mediated clumping** further obstruct microvessels.
+- PfEMP-1 binding to EPCR is strongly associated with cerebral malaria; binding to CSA mediates selective sequestration in placental tissue.
 
 ![Sequestration of parasitized erythrocytes in the microvasculature of the brain and the ocular fundus. (A–D) Representative histologic (H&E; A, C) and cytologic (Giemsa; B, D) images from a cerebral malaria autopsy showing trophozoites and schizonts. (E–H) Ocular fundus photography and fluorescein angiography from children with cerebral malaria showing hemorrhages, retinal whitening, and vascular occlusion/nonperfusion. (From Milner DA Jr et al., *J Infect Dis* 2012; and Beare NAV et al., *J Infect Dis* 2009.)](images-malaria/fig280-4_cerebral_malaria.png){#fig-sequestration fig-alt="Cerebral malaria sequestration histology and retinal angiography"}
 
@@ -191,12 +191,12 @@ Because reticulocytes account for only a small proportion of the total erythrocy
 
 Several erythrocyte and immune genetic polymorphisms have been shown to modulate susceptibility to malaria. Most are particularly relevant in endemic settings:
 
--   **Sickle cell trait (HbAS)**: confers \~60–90% protection against severe *P. falciparum* malaria
--   **Hemoglobin C (HbC)** and **E (HbE)**: confer protection, especially against severe disease
--   **α-thalassemia**: paradoxically increases mild malaria but may reduce mortality
--   **Glucose-6-phosphate dehydrogenase (G6PD) deficiency**: X-linked; may protect against severe malaria but increases hemolytic risk with primaquine/tafenoquine
--   **Duffy antigen receptor for chemokines (DARC)**: critical receptor for *P. vivax* invasion; Duffy-negative individuals (common in West Africa) are relatively resistant, though *P. vivax* can infect DARC-negative individuals at lower parasitemias
--   **Blood group O**: associated with reduced rosetting and reduced severe disease risk
+- **Sickle cell trait (HbAS)**: confers \~60–90% protection against severe *P. falciparum* malaria
+- **Hemoglobin C (HbC)** and **E (HbE)**: confer protection, especially against severe disease
+- **α-thalassemia**: paradoxically increases mild malaria but may reduce mortality
+- **Glucose-6-phosphate dehydrogenase (G6PD) deficiency**: X-linked; may protect against severe malaria but increases hemolytic risk with primaquine/tafenoquine
+- **Duffy antigen receptor for chemokines (DARC)**: critical receptor for *P. vivax* invasion; Duffy-negative individuals (common in West Africa) are relatively resistant, though *P. vivax* can infect DARC-negative individuals at lower parasitemias
+- **Blood group O**: associated with reduced rosetting and reduced severe disease risk
 
 ## Naturally Acquired Immunity
 
@@ -224,10 +224,10 @@ Asymptomatic parasitemia is broadly defined as the presence of parasites in the 
 
 Malaria illness most typically manifests as an **acute febrile illness** that is often indistinguishable from other causes of fever. Characteristic features include:
 
--   High fever (often \>40°C), frequently with chills/rigors and sweating
--   Headache, myalgia, arthralgia, malaise
--   Nausea, vomiting, and abdominal pain
--   Mild splenomegaly with repeated infections
+- High fever (often \>40°C), frequently with chills/rigors and sweating
+- Headache, myalgia, arthralgia, malaise
+- Nausea, vomiting, and abdominal pain
+- Mild splenomegaly with repeated infections
 
 The classic *tertian* (48-hour) or *quartan* (72-hour) fever periodicity occurs only when infections are synchronous and is rarely seen at initial presentation. The absence of respiratory findings (cough, rhinorrhea, consolidation) is characteristic.
 
@@ -250,7 +250,7 @@ The vast majority of severe malaria is caused by *P. falciparum*; caveats for *P
 ### Severe Malaria Criteria {#tbl-severe-criteria}
 
 | **Manifestation** | **Diagnostic Threshold** |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Impaired consciousness** | Adults: Glasgow Coma Score \<11; Children: Blantyre Coma Score \<3 |
 | **Prostration** | Generalized weakness (unable to sit, stand, or walk without assistance) |
 | **Multiple convulsions** | More than two fits within 24 hours |
@@ -264,7 +264,7 @@ The vast majority of severe malaria is caused by *P. falciparum*; caveats for *P
 | **Shock** | *Compensated*: no hypotension but capillary refill ≥3 s or temperature gradient; *Decompensated*: impaired perfusion + hypotension (children: SBP \<70 mmHg; adults: SBP \<80 mmHg) |
 | **Hyperparasitemia** | *P. falciparum*: \>10%; *P. vivax*: no cutoff; *P. knowlesi*: \>100,000 parasites/μL |
 
-: Severe malaria criteria: one or more of the following, in the absence of an identified alternative cause and in the presence of asexual malaria parasitemia. Adapted from WHO Guidelines for Malaria, October 2023 [@WHO2023Guidelines]. {#tbl-treatment}
+: Severe malaria criteria: one or more of the following, in the absence of an identified alternative cause and in the presence of asexual malaria parasitemia. Adapted from WHO Guidelines for Malaria, October 2023 [@WHO2023Guidelines].
 
 ### Cerebral Malaria
 
@@ -298,13 +298,13 @@ Hypotensive shock is rare in malaria, but signs of impaired perfusion are not. I
 
 Expert microscopic examination of Giemsa-stained **thick and thin blood smears** remains the gold standard for malaria diagnosis.
 
--   **Thick smear**: concentrates red cell layers \~40-fold; \~6 μL blood examined; parasites visible outside lysed red cells; used for screening. Parasitemia estimated by counting parasites until 200 WBCs are counted, then multiplied by 40 to give parasites/μL.
--   **Thin smear**: prepared from \~2–3 μL blood; fixed with methanol; used for **speciation** and morphologic characterization. At least 200 fields should be examined before declaring a slide negative.
+- **Thick smear**: concentrates red cell layers \~40-fold; \~6 μL blood examined; parasites visible outside lysed red cells; used for screening. Parasitemia estimated by counting parasites until 200 WBCs are counted, then multiplied by 40 to give parasites/μL.
+- **Thin smear**: prepared from \~2–3 μL blood; fixed with methanol; used for **speciation** and morphologic characterization. At least 200 fields should be examined before declaring a slide negative.
 
 ![Morphologic features of *Plasmodium* parasites. (A) Transmission EM of *P. knowlesi* merozoite invading an erythrocyte. (B) EM of *P. falciparum* trophozoite with digestive vacuole (DV), hemozoin (H), and cytostomes. (C–D) Scanning EM showing knobs and membrane deformation by *P. falciparum*. (E) EM of adherence between *P. falciparum*-infected RBC (P) and endothelial cell (EC). (F) Light microscopy of rosetting. (From Fujioka H, Aikawa M, 1999; Aikawa M et al., *J Parasitol* 1983.)](images-malaria/fig280-3_anopheles.png){#fig-morphology fig-alt="Electron and light microscopy images of Plasmodium parasites in erythrocytes"}
 
 | **Feature** | ***P. falciparum*** | ***P. vivax*** | ***P. ovale*** | ***P. malariae*** | ***P. knowlesi*** |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Erythrocyte size** | Normal | Enlarged | Enlarged, oval | Normal/small | Normal |
 | **Schüffner's dots** | Absent | Present | Present | Absent | Absent |
 | **Maurer's clefts** | Present | Absent | Absent | Absent | Absent |
@@ -313,12 +313,12 @@ Expert microscopic examination of Giemsa-stained **thick and thin blood smears**
 | **Distinctive forms** | Ring forms, banana-shaped gametocytes | Ameboid trophozoites | Fimbriated ("comet") RBCs | "Band" trophozoites | Resembles *P. knowlesi* |
 | **Hypnozoites** | No | Yes | Yes | No | No |
 
-: Key light microscopy features for speciation of human malaria parasites. {#tbl-labdiagnosis}
+: Key light microscopy features for speciation of human malaria parasites.
 
 ### TABLE 280.2b — Comparison of Malaria Diagnostic Methods {#tbl-diagnosticcomparison}
 
 | Feature | Expert Microscopy | Conventional RDT (HRP2/pLDH) | Ultrasensitive RDT (us-RDT) | PCR / LAMP | qRT-PCR |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Detection limit** | 50–500 parasites/μL (thick); 200–500 (thin) | 100–200 parasites/μL (HRP2); 200–500 (pLDH) | 1–10 parasites/μL | 0.5–5 parasites/μL | 0.02–1 parasite/μL |
 | **Turnaround time** | 30–60 min (trained reader) | 15–20 min | 15–20 min | 1–3 hours (PCR); 30–60 min (LAMP) | 2–4 hours |
 | **Species identification** | Yes (thin smear morphology) | *Pf* only (HRP2); *Pf* + pan (combo tests) | *Pf* only or *Pf* + pan | Yes (species-specific primers for all five species) | Yes (multiplex assays) |
@@ -333,14 +333,14 @@ Expert microscopic examination of Giemsa-stained **thick and thin blood smears**
 
 In addition to direct parasite detection, several routine laboratory abnormalities provide important diagnostic clues and prognostic information:
 
--   **Thrombocytopenia** (\<150 × 10⁹/L) — present in **60–80%** of malaria cases and is one of the most consistent hematological findings. Sensitivity of \~60% and specificity of \~88% for distinguishing malaria from other acute febrile illnesses in endemic areas. Severe thrombocytopenia (\<50 × 10⁹/L) is associated with higher parasitemia and worse outcomes. Platelet count typically normalizes within 5–7 days of effective treatment.
--   **Elevated LDH and indirect bilirubin** — markers of intravascular hemolysis; LDH is typically 2–5 times normal. Direct bilirubin may also be elevated in severe malaria with hepatic dysfunction.
--   **Normocytic normochromic anemia** — caused by hemolysis of both parasitized and unparasitized erythrocytes, combined with bone marrow suppression via TNF-α-mediated erythropoietin suppression. Reticulocyte count is characteristically **low relative to the degree of anemia** (reticulocyte production index \<2), reflecting dyserythropoiesis.
--   **Metabolic acidosis** (base deficit \>8 mEq/L, plasma lactate ≥5 mmol/L) — the most important laboratory predictor of mortality in severe malaria; reflects tissue hypoxia from anemia, sequestration, and hypovolemia.
--   **Hypoglycemia** (blood glucose \<2.2 mmol/L in adults; \<3 mmol/L in children \<5 y) — must be checked on admission and every 1–2 hours during the first 24 hours of treatment. Mechanism differs by age group (see Severe Malaria section).
--   **Renal function** — serum creatinine \>3 mg/dL (265 μmol/L) defines severe malaria-associated renal impairment; urinalysis may show hemoglobinuria (dark/cola-colored urine, "blackwater fever").
--   **Coagulation studies** — PT/INR mildly prolonged in 30–40% of cases; overt DIC (markedly prolonged PT, low fibrinogen, elevated D-dimer, schistocytes) occurs in \<5% but carries high mortality.
--   **White blood cell count** — typically **normal or low**; leukocytosis should raise suspicion for concurrent bacterial infection (present in 5–8% of severe malaria cases, particularly in children).
+- **Thrombocytopenia** (\<150 × 10⁹/L) — present in **60–80%** of malaria cases and is one of the most consistent hematological findings. Sensitivity of \~60% and specificity of \~88% for distinguishing malaria from other acute febrile illnesses in endemic areas. Severe thrombocytopenia (\<50 × 10⁹/L) is associated with higher parasitemia and worse outcomes. Platelet count typically normalizes within 5–7 days of effective treatment.
+- **Elevated LDH and indirect bilirubin** — markers of intravascular hemolysis; LDH is typically 2–5 times normal. Direct bilirubin may also be elevated in severe malaria with hepatic dysfunction.
+- **Normocytic normochromic anemia** — caused by hemolysis of both parasitized and unparasitized erythrocytes, combined with bone marrow suppression via TNF-α-mediated erythropoietin suppression. Reticulocyte count is characteristically **low relative to the degree of anemia** (reticulocyte production index \<2), reflecting dyserythropoiesis.
+- **Metabolic acidosis** (base deficit \>8 mEq/L, plasma lactate ≥5 mmol/L) — the most important laboratory predictor of mortality in severe malaria; reflects tissue hypoxia from anemia, sequestration, and hypovolemia.
+- **Hypoglycemia** (blood glucose \<2.2 mmol/L in adults; \<3 mmol/L in children \<5 y) — must be checked on admission and every 1–2 hours during the first 24 hours of treatment. Mechanism differs by age group (see Severe Malaria section).
+- **Renal function** — serum creatinine \>3 mg/dL (265 μmol/L) defines severe malaria-associated renal impairment; urinalysis may show hemoglobinuria (dark/cola-colored urine, "blackwater fever").
+- **Coagulation studies** — PT/INR mildly prolonged in 30–40% of cases; overt DIC (markedly prolonged PT, low fibrinogen, elevated D-dimer, schistocytes) occurs in \<5% but carries high mortality.
+- **White blood cell count** — typically **normal or low**; leukocytosis should raise suspicion for concurrent bacterial infection (present in 5–8% of severe malaria cases, particularly in children).
 
 ::: callout-tip
 ## Clinical Pearl: Thrombocytopenia as a Diagnostic Clue
@@ -367,20 +367,20 @@ RDTs should **not** be used to monitor treatment response, as HRP-2 antigen may 
 
 Conventional PCR, real-time quantitative PCR (qRT-PCR), and loop-mediated isothermal amplification (LAMP) offer the highest sensitivity of any malaria diagnostic method, detecting parasitemia as low as 0.02–5 parasites/μL. Key applications include:
 
--   **Species confirmation**: Particularly important for distinguishing *P. knowlesi* from *P. malariae* (morphologically identical on microscopy but requiring very different management) and detecting mixed infections
--   **Low-density parasitemia**: Essential for screening asymptomatic carriers, blood donors, and pregnant women in endemic areas
--   **Drug resistance surveillance**: PCR-based detection of K13 propeller mutations (artemisinin resistance), pfcrt K76T (chloroquine resistance), pfmdr1 copy number amplification (mefloquine resistance), and pfdhfr/pfdhps mutations (SP resistance) guides treatment policy decisions
--   **Treatment efficacy monitoring**: Distinguishing recrudescence from reinfection by microsatellite genotyping of pre- and post-treatment samples (essential for clinical trials)
+- **Species confirmation**: Particularly important for distinguishing *P. knowlesi* from *P. malariae* (morphologically identical on microscopy but requiring very different management) and detecting mixed infections
+- **Low-density parasitemia**: Essential for screening asymptomatic carriers, blood donors, and pregnant women in endemic areas
+- **Drug resistance surveillance**: PCR-based detection of K13 propeller mutations (artemisinin resistance), pfcrt K76T (chloroquine resistance), pfmdr1 copy number amplification (mefloquine resistance), and pfdhfr/pfdhps mutations (SP resistance) guides treatment policy decisions
+- **Treatment efficacy monitoring**: Distinguishing recrudescence from reinfection by microsatellite genotyping of pre- and post-treatment samples (essential for clinical trials)
 
 LAMP technology provides near-PCR sensitivity (\~1–5 parasites/μL) with a simplified isothermal format requiring only a heat block at 60–65°C, making it feasible for district hospitals in endemic areas. Turnaround time is 30–60 minutes with visual readout.
 
 ## Monitoring Parasitemia
 
--   Blood smears should be taken every 12–24 hours in hospitalized patients to document decreasing parasite density.
--   Parasitemia should decline by at least **75% within 48 hours** and be undetectable by **72 hours** with effective ACT therapy.
--   Persistent parasitemia at 72 hours (day 3) — particularly if \>3% of baseline density when baseline was \>100,000/μL — should raise concern for **partial artemisinin resistance** (K13-mediated ring-stage survival).
--   A negative smear should ideally be documented in all patients before discharge; outpatient monitoring every 2–3 days is acceptable in clinically stable patients.
--   **Post-treatment follow-up**: Day 7, day 14, and day 28 smears are recommended by WHO for therapeutic efficacy studies; clinical follow-up at days 14 and 28 is reasonable for routine care.
+- Blood smears should be taken every 12–24 hours in hospitalized patients to document decreasing parasite density.
+- Parasitemia should decline by at least **75% within 48 hours** and be undetectable by **72 hours** with effective ACT therapy.
+- Persistent parasitemia at 72 hours (day 3) — particularly if \>3% of baseline density when baseline was \>100,000/μL — should raise concern for **partial artemisinin resistance** (K13-mediated ring-stage survival).
+- A negative smear should ideally be documented in all patients before discharge; outpatient monitoring every 2–3 days is acceptable in clinically stable patients.
+- **Post-treatment follow-up**: Day 7, day 14, and day 28 smears are recommended by WHO for therapeutic efficacy studies; clinical follow-up at days 14 and 28 is reasonable for routine care.
 
 ------------------------------------------------------------------------
 
@@ -396,12 +396,12 @@ Treatment of malaria should always be initiated **emergently** because the risks
 
 Treatment decisions depend primarily on:
 
--   *Plasmodium* species (confirmed or suspected)
--   Disease severity (uncomplicated vs. severe)
--   Geographic origin of infection (drug-resistance epidemiology)
--   Patient age
--   Pregnancy status
--   G6PD status (for primaquine/tafenoquine)
+- *Plasmodium* species (confirmed or suspected)
+- Disease severity (uncomplicated vs. severe)
+- Geographic origin of infection (drug-resistance epidemiology)
+- Patient age
+- Pregnancy status
+- G6PD status (for primaquine/tafenoquine)
 
 **WHO Guidelines for Malaria** (October 2023) [@WHO2023Guidelines]
 
@@ -414,7 +414,7 @@ ACTs—combining an artemisinin derivative with a partner drug—are the **first
 Artemether-lumefantrine is a fixed-dose combination available as 20/120 mg tablets. It is administered as a **6-dose regimen over 3 days** (doses at 0, 8, 24, 36, 48, and 60 hours). Each dose must be taken with **fatty food or whole milk** — lumefantrine bioavailability increases 16-fold when taken with fat.
 
 | **Body Weight** | **Dose (artemether/lumefantrine)** | **Tablets per dose** | **Schedule** |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | 5 to \<15 kg | 20/120 mg | 1 tablet | 0, 8, 24, 36, 48, 60 h |
 | 15 to \<25 kg | 40/240 mg | 2 tablets | 0, 8, 24, 36, 48, 60 h |
 | 25 to \<35 kg | 60/360 mg | 3 tablets | 0, 8, 24, 36, 48, 60 h |
@@ -423,7 +423,7 @@ Artemether-lumefantrine is a fixed-dose combination available as 20/120 mg table
 ### All WHO-Recommended ACTs: Drug Doses and Key Points {#tbl-allacts}
 
 | **Regimen** | **Artemisinin Component Dose** | **Partner Drug Dose** | **Schedule** | **Key Clinical Considerations** |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | **Artemether-lumefantrine (AL)** | Artemether 1.7 mg/kg/dose (adult: 80 mg) | Lumefantrine 12 mg/kg/dose (adult: 480 mg) | 6 doses: 0, 8, 24, 36, 48, 60 h | **Must take with fat**; 2nd dose at 8h often missed; FDA-approved in US |
 | **Artesunate-amodiaquine (AS-AQ)** | Artesunate 4 mg/kg/day | Amodiaquine 10 mg base/kg/day | Once daily × 3 days | Fixed-dose combo (ASAQ) available; risk of hepatotoxicity with repeated courses |
 | **DHA-piperaquine (DHA-PPQ)** | Dihydroartemisinin 4 mg/kg/day | Piperaquine 18 mg/kg/day | Once daily × 3 days | **QTc prolongation risk** — obtain ECG if cardiac risk factors; no food requirement; longest post-treatment prophylactic effect (PPQ t½ \~5 weeks) |
@@ -436,14 +436,14 @@ Artemether-lumefantrine is a fixed-dose combination available as 20/120 mg table
 When ACTs are unavailable, contraindicated, or when treating infections from chloroquine-sensitive areas, the following regimens are used:
 
 | **Regimen** | **Dosing** | **Duration** | **Indications and Notes** |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Atovaquone-proguanil (Malarone)** | Adults: 4 tablets (1000/400 mg total) daily with food; Pediatric (11–20 kg): 1 adult tab daily; (21–30 kg): 2; (31–40 kg): 3 | 3 days | Uncomplicated *Pf* malaria; common in US/Europe; well tolerated; contraindicated in pregnancy and \<5 kg; **treatment dose is 4× the prophylactic dose** — a common prescribing error |
 | **Quinine sulfate + doxycycline** | Quinine 650 mg (10 mg salt/kg) PO q8h + doxycycline 100 mg PO BID | Quinine 3 days (Africa/South America) or 7 days (SE Asia) + doxy 7 days | Alternative for ACT-intolerant patients; cinchonism common; not in pregnancy or children \<8 y |
 | **Quinine sulfate + clindamycin** | Quinine 650 mg PO q8h + clindamycin 20 mg/kg/day ÷ 3 doses | Quinine 3–7 days + clindamycin 7 days | **Pregnancy-safe alternative** to quinine-doxycycline; safe in children of all ages |
 | **Chloroquine phosphate** | 600 mg base (= 1000 mg salt) load, then 300 mg base at 6, 24, and 48 h (total 25 mg base/kg); Pediatric: 10 mg base/kg load, then 5 mg base/kg at 6, 24, 48 h | 3 days | **Only for CQ-sensitive areas**: *P. vivax* (most areas), *P. ovale*, *P. malariae*, and *Pf* from Central America west of Panama Canal, Haiti, Dominican Republic, Middle East |
 | **Mefloquine** | 750 mg (15 mg base/kg) load, then 500 mg (10 mg base/kg) 6–12 h later | Single day | Rarely used for treatment; neuropsychiatric AEs in 15–30%; avoid in SE Asia |
 
-: Recommended treatment regimens for uncomplicated malaria. Artesunate component across all ACTs is uniformly dosed at 4 mg/kg/day for 3 days. All ACTs achieve PCR-adjusted cure rates \>95% in areas without partner-drug resistance [@CDC2023MalariaTreatment; @WHO2023Guidelines]. {#tbl-treatment}
+: Recommended treatment regimens for uncomplicated malaria. Artesunate component across all ACTs is uniformly dosed at 4 mg/kg/day for 3 days. All ACTs achieve PCR-adjusted cure rates \>95% in areas without partner-drug resistance [@CDC2023MalariaTreatment; @WHO2023Guidelines].
 
 ## Non-falciparum and Chloroquine-Sensitive Infections
 
@@ -459,8 +459,8 @@ All cases of **P. vivax and P. ovale species** require an 8-aminoquinoline drug 
 Both primaquine and tafenoquine cause hemolytic anemia in G6PD-deficient individuals. **G6PD testing must be performed before administration** of either drug. Qualitative, semiquantitative, or quantitative testing can be used; the choice of regimen depends on G6PD status and geographic location.
 :::
 
--   **Primaquine**: 0.5 mg base/kg/day for 14 days (standard) or 1 mg base/kg/day for 7 days; contraindicated in pregnancy and severe G6PD deficiency.
--   **Tafenoquine (Krintafel)**: Single 300-mg dose (CDC) for patients ≥16 years; contraindicated in pregnancy, G6PD deficiency, and patients with current or prior history of psychosis. Requires quantitative or semiquantitative G6PD testing due to long half-life (\~12 days) [@TafenoquineFDA2018].
+- **Primaquine**: 0.5 mg base/kg/day for 14 days (standard) or 1 mg base/kg/day for 7 days; contraindicated in pregnancy and severe G6PD deficiency.
+- **Tafenoquine (Krintafel)**: Single 300-mg dose (CDC) for patients ≥16 years; contraindicated in pregnancy, G6PD deficiency, and patients with current or prior history of psychosis. Requires quantitative or semiquantitative G6PD testing due to long half-life (\~12 days) [@TafenoquineFDA2018].
 
 ## Treatment of Severe Malaria
 
@@ -474,9 +474,9 @@ Both primaquine and tafenoquine cause hemolytic anemia in G6PD-deficient individ
 
 ### IV Artesunate Dosing
 
--   **Standard dose**: 2.4 mg/kg IV at 0, 12, and 24 hours (3 doses), then once daily
--   **Children \<20 kg**: Higher dose of 3 mg/kg recommended by WHO (note: as of 2023, FDA/CDC have not formally recommended alternative dosing for children \<20 kg; the table reflects WHO dosing)
--   **Post-treatment hemolysis**: Monitor for delayed hemolytic anemia, particularly in non-immune travelers with hyperparasitemia
+- **Standard dose**: 2.4 mg/kg IV at 0, 12, and 24 hours (3 doses), then once daily
+- **Children \<20 kg**: Higher dose of 3 mg/kg recommended by WHO (note: as of 2023, FDA/CDC have not formally recommended alternative dosing for children \<20 kg; the table reflects WHO dosing)
+- **Post-treatment hemolysis**: Monitor for delayed hemolytic anemia, particularly in non-immune travelers with hyperparasitemia
 
 ### Follow-on Treatment After Parenteral Therapy
 
@@ -484,14 +484,14 @@ Once the patient can tolerate oral therapy (parasitemia ≤1%), administer a com
 
 ### Adjunctive Therapy in Severe Malaria
 
--   **Seizures**: Benzodiazepines (diazepam, lorazepam, or midazolam)
--   **Hypoglycemia**: IV glucose (common with quinine use)
--   **Fluid management**: Restrict fluids cautiously; bolus therapy increases mortality (FEAST trial)
--   **Anemia**: Blood transfusion when clinically indicated
--   **Renal failure**: Hemodialysis or peritoneal dialysis if available
--   **Concomitant bacteremia**: Empiric broad-spectrum antibiotics (low threshold in severe malaria)
--   **Dexamethasone**: Contraindicated (increases coma duration without benefit)
--   **Heparin, iron chelators**: Not recommended
+- **Seizures**: Benzodiazepines (diazepam, lorazepam, or midazolam)
+- **Hypoglycemia**: IV glucose (common with quinine use)
+- **Fluid management**: Restrict fluids cautiously; bolus therapy increases mortality (FEAST trial)
+- **Anemia**: Blood transfusion when clinically indicated
+- **Renal failure**: Hemodialysis or peritoneal dialysis if available
+- **Concomitant bacteremia**: Empiric broad-spectrum antibiotics (low threshold in severe malaria)
+- **Dexamethasone**: Contraindicated (increases coma duration without benefit)
+- **Heparin, iron chelators**: Not recommended
 
 ## Treatment in Pregnancy
 
@@ -508,7 +508,7 @@ Malaria can largely be prevented in travelers to endemic areas when recommended 
 Key regimen selection factors: - Geographic drug-resistance epidemiology - Patient age, comorbidities, drug–drug interactions - Pregnancy status - Compliance factors: dosing interval, duration, cost, tolerability
 
 | **Drug** | **Indication** | **Adult Dose** | **Pediatric Dose** | **Timing (Pre/During/Post-Travel)** | **Key Contraindications and Adverse Effects** |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Atovaquone-proguanil (Malarone)** | All areas | 250/100 mg (1 adult tab) daily | 11–20 kg: 62.5/25 mg (1 peds tab) daily; 21–30 kg: 2 peds tabs daily; 31–40 kg: 3 peds tabs daily; \>40 kg: adult dose | 1–2 days before → during travel → 7 days after | Not recommended in pregnancy (insufficient data) or infants \<5 kg; GI upset in \~15%; must take with food or milky drink; **shortest post-travel continuation** |
 | **Doxycycline** | All areas | 100 mg daily | 2.2 mg/kg/day (max 100 mg), **≥8 years only** | 1–2 days before → during travel → **4 weeks after** | Contraindicated in pregnancy, breastfeeding, and children \<8 y; photosensitivity (use sunscreen); pill esophagitis (take upright with full glass of water); candidal vaginitis; also provides protection against leptospirosis, rickettsial diseases, and STIs |
 | **Mefloquine** | All areas **except SE Asia** | 228 mg base (250 mg salt) weekly | ≥5 kg: 5 mg/kg base weekly (max 228 mg base); ¼ tab (5–19 kg), ½ tab (20–30 kg), ¾ tab (31–44 kg), 1 tab (≥45 kg) | **1–2 weeks before** → during travel → **4 weeks after** | Neuropsychiatric AEs (vivid dreams, anxiety, depression, psychosis — FDA boxed warning); seizure disorder; cardiac conduction abnormalities; **start 2+ weeks early to detect intolerance**; avoid in SE Asia (resistance); avoid in scuba divers (vertigo) |
@@ -517,7 +517,7 @@ Key regimen selection factors: - Geographic drug-resistance epidemiology - Patie
 | **Chloroquine phosphate** | **Chloroquine-sensitive areas only** (Central America west of Panama Canal, Haiti, Dominican Republic, parts of Middle East) | 300 mg base (500 mg salt) weekly | 5 mg base/kg weekly (max 300 mg base); safe in all ages including infants | 1–2 weeks before → during → **4 weeks after** | Retinal toxicity with prolonged use (\>5 years); pruritus (especially in dark-skinned individuals); nausea; **only useful in very limited geographic areas** — must verify local resistance patterns; safe in pregnancy |
 | **Hydroxychloroquine** | Alternative to chloroquine | 310 mg base weekly | Weight-based, same as CQ | Same as chloroquine | Better GI tolerance than CQ; can substitute 1:1 |
 
-: Recommended chemoprophylaxis regimens for travelers to malaria-endemic areas, with complete adult and pediatric dosing. All regimens should be combined with personal protective measures (see below). Selection depends on geographic resistance patterns, patient age, pregnancy status, G6PD status, and individual tolerability [@CDC2024YellowBook; @WHO2023Guidelines]. {#tbl-prophylaxis}
+: Recommended chemoprophylaxis regimens for travelers to malaria-endemic areas, with complete adult and pediatric dosing. All regimens should be combined with personal protective measures (see below). Selection depends on geographic resistance patterns, patient age, pregnancy status, G6PD status, and individual tolerability [@CDC2024YellowBook; @WHO2023Guidelines].
 
 ::: callout-tip
 ## Choosing a Prophylaxis Regimen: Practical Guidance
@@ -529,22 +529,22 @@ For **most sub-Saharan Africa travel**: Atovaquone-proguanil is the most conveni
 
 In moderate-to-high transmission areas of sub-Saharan Africa, WHO recommends **intermittent preventive treatment in pregnancy (IPTp)** with sulfadoxine-pyrimethamine (SP) as a core component of antenatal care:
 
--   **Regimen**: SP (500/25 mg, 3 tablets as a single dose) administered at each scheduled antenatal care (ANC) visit, starting from the second trimester (≥13 weeks gestation)
--   **Frequency**: At least **3 doses** at intervals of ≥1 month; more doses confer greater protection
--   **Administration**: Must be given as **directly observed therapy (DOT)** at the ANC clinic, regardless of peripheral parasitemia or symptoms
--   **Efficacy**: Reduces placental malaria by 40–50%, low birth weight by 20–30%, neonatal mortality by 18%, and maternal anemia; one of the most cost-effective maternal health interventions in endemic settings
--   **Concurrent interventions**: All pregnant women should receive a **LLIN** at their first ANC visit and intermittent screening for malaria in areas with high-quality microscopy
--   **Contraindications**: Do not give SP in the first trimester (teratogenic risk); do not give within 1 month of delivery; contraindicated in women with sulfonamide allergy; avoid co-administration with cotrimoxazole (folate antagonism) — in HIV-positive women on daily cotrimoxazole, cotrimoxazole provides comparable protection and SP should not be given
+- **Regimen**: SP (500/25 mg, 3 tablets as a single dose) administered at each scheduled antenatal care (ANC) visit, starting from the second trimester (≥13 weeks gestation)
+- **Frequency**: At least **3 doses** at intervals of ≥1 month; more doses confer greater protection
+- **Administration**: Must be given as **directly observed therapy (DOT)** at the ANC clinic, regardless of peripheral parasitemia or symptoms
+- **Efficacy**: Reduces placental malaria by 40–50%, low birth weight by 20–30%, neonatal mortality by 18%, and maternal anemia; one of the most cost-effective maternal health interventions in endemic settings
+- **Concurrent interventions**: All pregnant women should receive a **LLIN** at their first ANC visit and intermittent screening for malaria in areas with high-quality microscopy
+- **Contraindications**: Do not give SP in the first trimester (teratogenic risk); do not give within 1 month of delivery; contraindicated in women with sulfonamide allergy; avoid co-administration with cotrimoxazole (folate antagonism) — in HIV-positive women on daily cotrimoxazole, cotrimoxazole provides comparable protection and SP should not be given
 
 ## Seasonal Malaria Chemoprevention (SMC)
 
 In areas of the Sahel sub-region of Africa where malaria transmission is highly seasonal (≥60% of annual cases occurring within 4 months), WHO recommends **seasonal malaria chemoprevention (SMC)** for children aged 3–59 months:
 
--   **Regimen**: Monthly courses of **amodiaquine (AQ) + sulfadoxine-pyrimethamine (SP)** administered over 3 consecutive days during each month of the high-transmission season (typically 3–4 monthly courses)
--   **Dosing**: SP as single dose on day 1 (weight-based) + AQ 10 mg/kg/day on days 1–3; delivered door-to-door by community health workers
--   **Efficacy**: Reduces uncomplicated malaria by **\>75%** and severe malaria and all-cause mortality by **\>50%** during the transmission season
--   **Scale**: In 2022, SMC programs reached **\>45 million children** across 16 countries in the Sahel and sub-Sahel (Burkina Faso, Mali, Niger, Nigeria, Chad, Guinea, Gambia, Senegal, Togo, Ghana, Cameroon, and others)
--   **Challenges**: Potential selection for SP and AQ resistance (though surveillance has not shown major increases to date); rebound effect debated (loss of naturally acquired immunity); achieving \>80% coverage in target populations; extending age range (trials evaluating SMC in children up to 10 years)
+- **Regimen**: Monthly courses of **amodiaquine (AQ) + sulfadoxine-pyrimethamine (SP)** administered over 3 consecutive days during each month of the high-transmission season (typically 3–4 monthly courses)
+- **Dosing**: SP as single dose on day 1 (weight-based) + AQ 10 mg/kg/day on days 1–3; delivered door-to-door by community health workers
+- **Efficacy**: Reduces uncomplicated malaria by **\>75%** and severe malaria and all-cause mortality by **\>50%** during the transmission season
+- **Scale**: In 2022, SMC programs reached **\>45 million children** across 16 countries in the Sahel and sub-Sahel (Burkina Faso, Mali, Niger, Nigeria, Chad, Guinea, Gambia, Senegal, Togo, Ghana, Cameroon, and others)
+- **Challenges**: Potential selection for SP and AQ resistance (though surveillance has not shown major increases to date); rebound effect debated (loss of naturally acquired immunity); achieving \>80% coverage in target populations; extending age range (trials evaluating SMC in children up to 10 years)
 
 ## Perennial Malaria Chemoprevention (PMC)
 
@@ -555,12 +555,12 @@ Formerly known as "intermittent preventive treatment in infants (IPTi)," PMC inv
 ::: callout-tip
 ## Non-Pharmacologic Prevention
 
--   **DEET-containing insect repellents** (≥20% DEET, or 20% picaridin/icaridin, or 30% oil of lemon eucalyptus) applied to exposed skin — reapply every 4–6 hours; DEET is safe in pregnancy and children \>2 months
--   **Permethrin**-treated clothing and bed nets (Long-Lasting Insecticidal Nets, LLINs) — permethrin is an insecticide (kills on contact), not a repellent; remains active through multiple washings
--   **Indoor residual spraying (IRS)** with insecticides — applied to walls and ceilings of dwellings; effective against endophilic (indoor-resting) vectors
--   Protective clothing (long sleeves and long pants, light-colored, worn especially during **dusk to dawn** — the peak *Anopheles* biting period, unlike *Aedes* mosquitoes which bite during the day)
--   Air conditioning and window/door screens — reduce mosquito entry into sleeping areas
--   **Avoid outdoor exposure during peak biting hours** (dusk to dawn) when possible
+- **DEET-containing insect repellents** (≥20% DEET, or 20% picaridin/icaridin, or 30% oil of lemon eucalyptus) applied to exposed skin — reapply every 4–6 hours; DEET is safe in pregnancy and children \>2 months
+- **Permethrin**-treated clothing and bed nets (Long-Lasting Insecticidal Nets, LLINs) — permethrin is an insecticide (kills on contact), not a repellent; remains active through multiple washings
+- **Indoor residual spraying (IRS)** with insecticides — applied to walls and ceilings of dwellings; effective against endophilic (indoor-resting) vectors
+- Protective clothing (long sleeves and long pants, light-colored, worn especially during **dusk to dawn** — the peak *Anopheles* biting period, unlike *Aedes* mosquitoes which bite during the day)
+- Air conditioning and window/door screens — reduce mosquito entry into sleeping areas
+- **Avoid outdoor exposure during peak biting hours** (dusk to dawn) when possible
 :::
 
 ## Malaria Vaccines
@@ -573,11 +573,11 @@ RTS,S/AS01 was the first malaria vaccine to receive a positive WHO recommendatio
 
 Key efficacy data from the Phase 3 trial (11 sites across 7 African countries, \>15,000 children):
 
--   **Children aged 5–17 months** (4-dose schedule: 3 monthly doses + booster at 15–18 months): **39% efficacy against clinical malaria** and **29% efficacy against severe malaria** over a median follow-up of 4 years
--   **First year** after vaccination: efficacy \~50%; wanes to \~25% by year 4
--   Booster dose at 18 months significantly improves duration of protection
--   Prevention of an estimated **1774 clinical malaria episodes per 1000 children vaccinated** over 4 years in high-transmission settings
--   **Safety**: Increased incidence of febrile seizures within 7 days of vaccination (0.5% vs 0.3% in controls); slightly higher meningitis signal in initial analysis (not confirmed in post-marketing surveillance)
+- **Children aged 5–17 months** (4-dose schedule: 3 monthly doses + booster at 15–18 months): **39% efficacy against clinical malaria** and **29% efficacy against severe malaria** over a median follow-up of 4 years
+- **First year** after vaccination: efficacy \~50%; wanes to \~25% by year 4
+- Booster dose at 18 months significantly improves duration of protection
+- Prevention of an estimated **1774 clinical malaria episodes per 1000 children vaccinated** over 4 years in high-transmission settings
+- **Safety**: Increased incidence of febrile seizures within 7 days of vaccination (0.5% vs 0.3% in controls); slightly higher meningitis signal in initial analysis (not confirmed in post-marketing surveillance)
 
 As of end of 2024, **\>6 million doses** have been administered through the Malaria Vaccine Implementation Programme (MVIP) in Ghana, Kenya, Malawi, and through expanded rollout in Cameroon, Burkina Faso, Sierra Leone, Liberia, Niger, and others. Gavi has committed to funding large-scale procurement [@RTS2015Efficacy].
 
@@ -587,16 +587,16 @@ R21/Matrix-M received WHO recommendation and prequalification in **October 2023*
 
 Key efficacy data:
 
--   **Seasonal administration** (Burkina Faso, children 5–36 months): **77% efficacy at 12 months** (3 doses + booster at 12 months); efficacy maintained at **71% at 24 months** with the booster
--   **Year-round transmission settings** (Tanzania, Kenya, Mali, Burkina Faso Phase 3): **68% efficacy at 12 months**
--   **4-dose schedule**: 3 monthly doses + booster at 12 months (aligns with EPI contacts)
--   Non-inferior to RTS,S in head-to-head Phase 3 comparison; trend toward superior efficacy
+- **Seasonal administration** (Burkina Faso, children 5–36 months): **77% efficacy at 12 months** (3 doses + booster at 12 months); efficacy maintained at **71% at 24 months** with the booster
+- **Year-round transmission settings** (Tanzania, Kenya, Mali, Burkina Faso Phase 3): **68% efficacy at 12 months**
+- **4-dose schedule**: 3 monthly doses + booster at 12 months (aligns with EPI contacts)
+- Non-inferior to RTS,S in head-to-head Phase 3 comparison; trend toward superior efficacy
 
 Critical advantages over RTS,S:
 
--   **Lower cost**: Estimated \$2–4 per dose (vs \~\$9–10 for RTS,S), making it more accessible for GAVI procurement
--   **Higher manufacturing yield**: Produced by the Serum Institute of India, which has committed to **\>100 million doses annually** — sufficient to meet global demand
--   **Improved thermostability**: Stable at 40°C for extended periods, reducing cold-chain requirements in tropical settings
+- **Lower cost**: Estimated \$2–4 per dose (vs \~\$9–10 for RTS,S), making it more accessible for GAVI procurement
+- **Higher manufacturing yield**: Produced by the Serum Institute of India, which has committed to **\>100 million doses annually** — sufficient to meet global demand
+- **Improved thermostability**: Stable at 40°C for extended periods, reducing cold-chain requirements in tropical settings
 
 Both vaccines are **complementary rather than competing** — combined deployment is expected to accelerate coverage across endemic Africa [@R21Datoo2023].
 
@@ -604,16 +604,16 @@ Both vaccines are **complementary rather than competing** — combined deploymen
 
 A transformative approach to malaria prevention involves passively administered **anti-CSP monoclonal antibodies**, which provide immediate, season-long protection:
 
--   **CIS43LS** (NIAID/NIH): Targets the junctional epitope of CSP. Phase 2 trial in Malian adults showed **88% protective efficacy** over a 6-month malaria season after a single IV or subcutaneous dose.
--   **L9LS** (NIAID/NIH): Targets a different CSP epitope. Phase 2 trial in Kenyan children aged 6–10 years: **\>70% protective efficacy** with a single subcutaneous injection.
--   **TB31F** (anti-Pfs48/45): A **transmission-blocking** mAb in early clinical development — blocks parasite sexual-stage development in the mosquito.
+- **CIS43LS** (NIAID/NIH): Targets the junctional epitope of CSP. Phase 2 trial in Malian adults showed **88% protective efficacy** over a 6-month malaria season after a single IV or subcutaneous dose.
+- **L9LS** (NIAID/NIH): Targets a different CSP epitope. Phase 2 trial in Kenyan children aged 6–10 years: **\>70% protective efficacy** with a single subcutaneous injection.
+- **TB31F** (anti-Pfs48/45): A **transmission-blocking** mAb in early clinical development — blocks parasite sexual-stage development in the mosquito.
 
 Potential clinical applications: seasonal prevention as an alternative to SMC (single injection vs. monthly dosing), protection for travelers (immediate onset, no adherence concerns), pregnant women (no G6PD concerns, no drug–drug interactions), and immunocompromised patients. Key limitations include cost, requirement for subcutaneous or IV administration, and limited duration of protection (\~6 months) [@MonoclonalAntibodyCSP].
 
 ### Vaccine Pipeline
 
 | **Approach** | **Development Stage** | **Target** | **Key Features** |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **PfSPZ Vaccine** (Sanaria) | Phase 2 | Whole radiation-attenuated sporozoites | Induces broad immune response; requires IV administration and strict cold chain (-150°C to -196°C) |
 | **PfSPZ-CVac** | Phase 2 | Live sporozoites + chloroquine chemoprophylaxis | Controlled human malaria infection approach; generates sterile immunity in \~50–65% |
 | **mRNA-CSP vaccines** | Phase 1 | CSP (Moderna, BioNTech platforms) | Leverages COVID-19 mRNA platform technology; rapid manufacturing; thermostability challenges |
@@ -661,11 +661,11 @@ Pregnancy represents a significant risk period for malaria. In 2022, 36% of preg
 
 Key treatment principles in pregnancy:
 
--   Pregnant women should be hospitalized and treated promptly regardless of severity
--   Most antimalarials except halofantrine, doxycycline/tetracycline, and primaquine/tafenoquine can be used
--   **Artemether-lumefantrine** is preferred in second and third trimesters
--   For hypnozoite clearance: delay primaquine/tafenoquine until after delivery and breastfeeding; administer chloroquine weekly until delivery
--   Pregnancy alters the pharmacokinetics of antimalarials—monitor response closely
+- Pregnant women should be hospitalized and treated promptly regardless of severity
+- Most antimalarials except halofantrine, doxycycline/tetracycline, and primaquine/tafenoquine can be used
+- **Artemether-lumefantrine** is preferred in second and third trimesters
+- For hypnozoite clearance: delay primaquine/tafenoquine until after delivery and breastfeeding; administer chloroquine weekly until delivery
+- Pregnancy alters the pharmacokinetics of antimalarials—monitor response closely
 
 ------------------------------------------------------------------------
 
@@ -691,10 +691,10 @@ Evaluation of the febrile returned traveler should include:
 
 # Key Resources
 
--   **WHO Guidelines for Malaria (2023)**: <https://www.who.int/publications/i/item/guidelines-for-malaria>
--   **CDC Malaria Treatment Guidelines**: <https://www.cdc.gov/malaria/hcp/clinical-guidance/general-treatment.html>
--   **CDC Yellow Book 2024**: <https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/malaria>
--   **Malaria Atlas Project**: <https://malariaatlas.org/>
+- **WHO Guidelines for Malaria (2023)**: <https://www.who.int/publications/i/item/guidelines-for-malaria>
+- **CDC Malaria Treatment Guidelines**: <https://www.cdc.gov/malaria/hcp/clinical-guidance/general-treatment.html>
+- **CDC Yellow Book 2024**: <https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/malaria>
+- **Malaria Atlas Project**: <https://malariaatlas.org/>
 
 ------------------------------------------------------------------------
 
