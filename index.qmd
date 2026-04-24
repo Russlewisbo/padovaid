@@ -16,12 +16,12 @@ Welcome to the slide repository and resources page for Prof. Lewis (University o
 
 Instructions for accessing UptoDate are found [here](uptodate.pdf). Treviso students: recorded lectures can be found [here](treviso.qmd).
 
----
+------------------------------------------------------------------------
 
 ## Lecture Topics
 
 | Topic | Description |
-|---|---|
+|----|----|
 | [Principles of Antibiotic Therapy](antibiotic-principles.qmd) | Mechanisms of action, PK/PD, susceptibility testing, and therapeutic drug monitoring |
 | [Antibiotic Allergies](allergies.qmd) | Diagnosis and management of penicillin and antibiotic allergy, de-labeling strategies |
 | [Fever of Unknown Origin](fuo.qmd) | Definitions, diagnostic workup, and common infectious and non-infectious causes |
@@ -32,7 +32,7 @@ Instructions for accessing UptoDate are found [here](uptodate.pdf). Treviso stud
 | [Malaria & Leishmaniasis](malaria.qmd) | Epidemiology, diagnosis, and treatment of malaria and leishmaniasis |
 | [Invasive Fungal Infections](IFI.qmd) | Candidiasis, aspergillosis, cryptococcosis, and antifungal therapy |
 
----
+------------------------------------------------------------------------
 
 ::: {style="text-align: center; margin-bottom: 1.5rem;"}
 ![](images-fuo/800-unipd%202.svg){width="500"}
