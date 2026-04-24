@@ -10,7 +10,6 @@ website:
     style: "docked"
     search: true
     contents:
-      - index.qmd
       - antibiotic-principles.qmd
       - allergies.qmd
       - fuo.qmd
