@@ -6,7 +6,8 @@
     "bash": {
       "grep *": "allow",
       "head *": "allow",
-      "tail *": "allow"
+      "tail *": "allow",
+      "ls *": "allow"
     }
   }
 }

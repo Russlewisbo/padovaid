@@ -13,12 +13,13 @@ website:
       - index.qmd
       - antibiotic-principles.qmd
       - allergies.qmd
+      - fuo.qmd
       - intraabdominal.qmd
       - immunosuppression.qmd
       - febrile-neutropenia.qmd
       - diarrhea.qmd
       - malaria.qmd
-      - IFI.qmd
+      - ifi.qmd
     
 bibliography:
   - refs-diarrhea.bib
