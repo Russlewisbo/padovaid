@@ -209,13 +209,13 @@ Bacterial enteropathogens cause diarrhea through two broad and partly overlappin
 | **Site of action** | Small bowel | Distal small bowel and colon |
 | **Mechanism** | Enterotoxin activates adenylate / guanylate cyclase → ↑ cAMP / cGMP → Cl⁻ and water secretion | Bacterial invasion of enterocytes, intracellular replication, mucosal ulceration, cytokine response |
 | **Stool character** | Large-volume, watery, no blood | Small-volume, often bloody/mucoid, fecal leukocytes present |
-| **Fever** | Absent or low-grade | Often prominent (>38.5 °C) |
+| **Fever** | Absent or low-grade | Often prominent (\>38.5 °C) |
 | **Tenesmus / urgency** | Uncommon | Common (especially colitic pathogens) |
 | **Fecal leukocytes / lactoferrin** | Negative | Positive |
 | **Epithelial barrier** | Intact | Disrupted (ulceration, microabscesses) |
 | **Role of antibiotics** | Limited (rehydration is primary; abx shorten cholera/ETEC) | Often beneficial — except STEC, where antibiotics increase HUS risk |
 
-: Secretory vs. invasive mechanisms of bacterial diarrhea {#tbl-mechanisms}
+: Secretory vs. invasive mechanisms of bacterial diarrhea
 
 ![Methylene blue stain of fecal leukocytes from a patient with colitis. This exudative response is seen in invasive/inflammatory diarrhea and is largely absent in pure toxin-mediated (secretory) disease.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width="70%"}
 
@@ -523,7 +523,7 @@ Rehydration represents the fundamental and most important therapeutic interventi
 Oral rehydration solution containing a 1:1 molar ratio of glucose to sodium (approximately 75 mEq/L sodium and 75 mmol/L glucose) achieves optimal absorption through coupled sodium-glucose transport. The World Health Organization and UNICEF recommend a low-osmolarity ORS containing sodium chloride (75 mmol/L), potassium chloride (20 mmol/L), glucose (75 mmol/L), and bicarbonate (65 mmol/L). This formulation reduces stool output compared to the previous standard ORS and decreases the incidence of hypernatremia.
 :::
 
-![WHO low-osmolarity oral rehydration solution exploits intact sodium–glucose cotransport (SGLT1) in the small bowel: glucose drives sodium uptake, water follows osmotically, and stool volume falls. ORS is effective for >90% of acute diarrhea cases and is the single most cost-effective intervention in global child health.](images-diarrhea-webpage/ORS.png){#fig-ors width="60%"}
+![WHO low-osmolarity oral rehydration solution exploits intact sodium–glucose cotransport (SGLT1) in the small bowel: glucose drives sodium uptake, water follows osmotically, and stool volume falls. ORS is effective for \>90% of acute diarrhea cases and is the single most cost-effective intervention in global child health.](images-diarrhea-webpage/ORS.png){#fig-ors width="60%"}
 
 Oral rehydration is preferred for mild to moderate dehydration in most patients, as it is effective, less invasive, and less costly than intravenous rehydration. Patients with severe dehydration, hypotension, altered mental status, or inability to tolerate oral intake require intravenous fluid administration. Nasogastric tube administration of ORS offers an alternative for patients who cannot tolerate oral intake but do not require intravenous therapy.
 
