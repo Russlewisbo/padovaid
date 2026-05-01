@@ -182,9 +182,7 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 
 ## 6. Bacterial Pathogens
 
-![Mechanisms of bacterial diarrheal disease showing secretory and invasive pathways.](images-diarrhea-webpage/ch100-003.png){#fig-bacterial-mechanisms width="90%"}
-
-![Methylene blue stain of fecal leukocytes — a bedside marker of inflammatory (invasive) diarrhea.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width=70%}
+![Methylene blue stain of fecal leukocytes — a bedside marker of inflammatory (invasive) diarrhea.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width="70%"}
 
 ### 6.1 Enteropathogenic *Escherichia coli*
 
@@ -208,9 +206,16 @@ The use of antibiotics in STEC infection remains controversial and potentially h
 
 EAEC strains cause persistent diarrhea, particularly in children and immunocompromised individuals. EPEC classically caused infantile diarrhea before modern sanitation improvements and remains significant in some developing regions. EIEC exhibits invasive properties similar to Shigella species.
 
-### 6.2 *Campylobacter jejuni*
+| Pathotype | Common O Serogroups |
+|-------------------------|-----------------------------------------------|
+| **EIEC** (enteroinvasive *E. coli*) | O28ac, O29, O112, O115, O124, O135, O136, O143, O144, O152, O159, O164, O167, O173 |
+| **EPEC** (enteropathogenic *E. coli*) | O55, O86, O111, O114, O119, O125, O126, O127, O128, O142 |
+| **ETEC** (enterotoxigenic *E. coli*) | O6, O8, O15, O20, O25, O27, O63, O78, O80, O85, O115, O128ac, O139, O148, O153, O159, O167 |
+| **STEC/EHEC** (Shiga toxin–producing) | O157:H7 (most common in Northern Europe and U.S.), also O26, O103, O111, O121, O145 |
 
-![Campylobacter jejuni microscopy and culture morphology.](images-diarrhea-webpage/ch100-009.png){#fig-campylobacter width="80%"}
+: O Serogroups Associated with Diarrheagenic *E. coli* Pathotypes
+
+### 6.2 *Campylobacter jejuni*
 
 *Campylobacter jejuni* represents the leading bacterial cause of gastroenteritis in many developed nations and a major cause of diarrhea worldwide @Kaakoush2015. The microorganism is a microaerophilic, curved gram-negative rod that exhibits fastidious growth requirements.
 
@@ -250,6 +255,8 @@ A proportion of individuals who recover from acute salmonellosis develop a chron
 
 *Salmonella typhi* causes enteric fever, characterized by sustained fever, rose spots, hepatosplenomegaly, and relative bradycardia. The disease is acquired in endemic regions of South and Southeast Asia and poses a significant public health threat. Vaccination and antimicrobial prophylaxis are recommended for travelers to endemic areas.
 
+![Global distribution of typhoid and paratyphoid fever, with highest incidence concentrated in South and Southeast Asia and parts of sub-Saharan Africa.](images-diarrhea-webpage/ch100-009.png){#fig-typhoid-distribution width="80%"}
+
 ### 6.4 *Shigella* Species
 
 *Shigella* causes bacillary dysentery, characterized by bloody diarrhea with abundant leukocytes and mucus in stool @Kotloff2018. The four serogroups (*Shigella dysenteriae*, *Shigella flexneri*, *Shigella boydii*, and *Shigella sonnei*) differ in epidemiology and severity, with *S. dysenteriae* producing Shiga toxin and causing the most severe disease.
@@ -267,29 +274,6 @@ Shigellosis presents with fever, tenesmus, and bloody diarrhea with abundant fec
 Current first-line antimicrobial choices for shigellosis include fluoroquinolones such as ciprofloxacin or ceftriaxone, as resistance to older agents including ampicillin and trimethoprim-sulfamethoxazole has become widespread. Susceptibility testing guides therapy in regions with emerging resistance to fluoroquinolones.
 
 ### 6.5 *Vibrio cholerae*
-
-| Category | Clinical Feature | Approximate Frequency ^a^ |
-|----|----|----|
-| **Flulike symptoms** | Fever | >95% |
-| | Headache | 80% |
-| | Chills | 40% |
-| | Cough | 30% |
-| | Myalgia | 20% |
-| | Arthralgia | <5% |
-| **Abdominal symptoms** | Anorexia | 50% |
-| | Abdominal pain | 30% |
-| | Diarrhea | 20% |
-| | Constipation | 20% |
-| **Physical findings** | Coated tongue | 50% |
-| | Hepatomegaly | 10% |
-| | Splenomegaly | 10% |
-| | Abdominal tenderness | 5% |
-| | Rash | <5% |
-| | Generalized adenopathy | <5% |
-
-: Clinical Features of Typhoid and Paratyphoid Fever {#tbl-cholera-features}
-
-^a^ The proportion of patients demonstrating these clinical features varies depending on the time, region, and clinical population (hospitalized or ambulatory) assessed. Estimates are drawn from recent case series in endemic areas, with patients presenting for ambulatory or inpatient care.
 
 *Vibrio cholerae* produces severe secretory diarrhea termed cholera @Sack2004; @Ali2015, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
 
@@ -324,6 +308,27 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 
 : Etiology of Acute Traveler's Diarrhea
 
+### Geographic Variation in Pathogen Frequency
+
+The relative frequency of specific pathogens in traveler's diarrhea differs substantially by destination region, reflecting local epidemiology, climate, and food/water hygiene practices.
+
+| Pathogen | Latin America | Africa | South / Southeast Asia |
+|----|----|----|----|
+| **ETEC** | 33% | 31% | 31% |
+| **EAEC** | 19% | 16% | 7% |
+| ***Campylobacter*** | 1% | 2% | 32% |
+| ***Salmonella*** | 4% | 5% | 7% |
+| ***Shigella*** | 5% | 9% | 4% |
+| ***Aeromonas* / *Plesiomonas*** | 2% | 1% | 4% |
+| **Norovirus** | 17% | — | 12% |
+| **Rotavirus** | 6% | — | 8% |
+| ***Giardia*** | 2% | 3% | 1% |
+| ***Cryptosporidium*** | 2% | 2% | 2% |
+| ***Entamoeba histolytica*** | <1% | <1% | 2% |
+| **No pathogen identified** | 24% | 33% | 21% |
+
+: Approximate Frequency of Pathogens Identified in Traveler's Diarrhea by Destination Region {#tbl-td-locale}
+
 ### Prevention Strategies
 
 Prevention of traveler's diarrhea involves careful attention to food and water safety. Travelers should consume only bottled or boiled water, avoid ice made from untreated water, eat foods that are cooked hot, avoid raw vegetables and fruits that cannot be peeled, and avoid dairy products and foods kept at ambient temperature. Despite careful food precautions, some cases of traveler's diarrhea remain inevitable.
@@ -354,6 +359,25 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @
 | **Isospora** | Variable | Chronic diarrhea, tropical distribution |
 
 : Pathogens Causing Diarrhea in Advanced HIV/AIDS
+
+#### Pathogen Frequencies in AIDS — With and Without Diarrhea
+
+A key concept from epidemiologic studies of enteric infection in HIV is that detection of a potential pathogen in stool does not necessarily prove causation; many of these organisms can also be recovered from asymptomatic AIDS patients. The table below summarizes typical detection frequencies in AIDS cohorts with and without diarrhea.
+
+| Pathogen | AIDS with Diarrhea (%) | AIDS without Diarrhea (%) |
+|----|----|----|
+| ***Cryptosporidium*** | 15–25 | 1–5 |
+| **Microsporidia** (*E. bieneusi*) | 15–30 | 1–10 |
+| ***Cytomegalovirus*** | 10–20 | 1–5 |
+| ***Mycobacterium avium* complex** | 10–15 | <5 |
+| ***Isospora belli*** | 1–5 | <1 |
+| ***Giardia lamblia*** | 2–5 | 2–5 |
+| ***Entamoeba histolytica*** | 1–3 | 1–3 |
+| ***Clostridioides difficile*** | 5–15 | 2–5 |
+| ***Salmonella*** / ***Shigella*** / ***Campylobacter*** | 2–8 | <2 |
+| **No pathogen identified** | 20–40 | — |
+
+: Possible Enteric Pathogens in AIDS Patients (Approximate Detection Frequencies) {#tbl-aids-pathogens}
 
 #### Cryptosporidia in AIDS
 
