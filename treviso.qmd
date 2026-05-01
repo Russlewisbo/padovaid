@@ -17,7 +17,7 @@ title: "Treviso zoom lectures"
 **Antibiotic allergies:**
 
 ```{=html}
-<iframe src="https://drive.google.com/file/d/1b2MZXmNTwSJ7WFnTuhS4TcH61M9ugvHx/view" width="1000" height="600" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1b2MZXmNTwSJ7WFnTuhS4TcH61M9ugvHx/preview" width="1000" height="600" allow="autoplay"></iframe>https://drive.google.com/file/d/1b2MZXmNTwSJ7WFnTuhS4TcH61M9ugvHx/preview
 ```
 
 **Principles of immunosuppression:**
