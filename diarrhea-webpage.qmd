@@ -64,8 +64,6 @@ Foodborne outbreaks attributable to Salmonella species remain common in develope
 
 ## Viral Pathogens
 
-![Global pathogen-attributable etiologies of acute gastroenteritis and estimated fatal attributable fractions. Pathogen-attributable etiologies (millions of episodes/year) of acute gastroenteritis measured in the Global Burden of Diseases (through 2016) and attributable fatal fractions for children ≤5 years of age (top) and ≥70 years of age (bottom). Adapted from @Troeger2018 and @Liu2016.](images-diarrhea-webpage/ch100-000.png){#fig-pathogen-etiologies width="90%"}
-
 ### Rotavirus
 
 Rotavirus represents the most significant viral cause of severe diarrhea in young children worldwide, despite the introduction and implementation of rotavirus vaccines in many countries @Parashar2006. Prior to the vaccine era, rotavirus accounted for the vast majority of hospitalizations for severe diarrhea in infants and young children across all economic strata. Even in the post-vaccine era, rotavirus continues to cause substantial disease burden, particularly in regions where vaccine coverage remains suboptimal.
@@ -81,6 +79,8 @@ Rotavirus belongs to the family Reoviridae and exists in multiple serotypes desi
 #### Pathophysiology
 
 The pathophysiologic mechanisms of rotavirus-induced diarrhea involve several key processes. The virus preferentially infects mature enterocytes in the small intestine, causing villus blunting and disruption of the normal intestinal architecture. This viral invasion and epithelial damage results in decreased surface area for nutrient absorption and reduced density of brush border enzymes involved in carbohydrate digestion. Additionally, rotavirus produces a nonstructural protein (NSP4) that functions as an enterotoxin, further contributing to secretory fluid losses. The combined effects of epithelial damage, enzyme deficiency, and enterotoxin activity result in substantial watery diarrhea and the characteristic clinical syndrome.
+
+![Rotavirus pathophysiology: villus blunting, brush-border enzyme deficiency, and NSP4 enterotoxin activity combine to produce watery diarrhea.](images-diarrhea-webpage/Screenshot%202026-03-20%20105308.png){#fig-rotavirus-pathophys width="60%"}
 
 #### Vaccines
 
@@ -101,6 +101,8 @@ Noroviruses belong to the family Caliciviridae and are divided into at least fou
 #### Epidemiology and Outbreak Characteristics
 
 Norovirus causes explosive outbreaks in closed or semi-closed environments including hospitals, long-term care facilities, cruise ships, schools, and restaurants. The virus spreads rapidly through person-to-person transmission via aerosolized particles or contaminated fomites, leading to high attack rates within affected populations. Outbreaks demonstrate a clear winter predominance in temperate climates, corresponding to the epidemiologic pattern observed with other respiratory viral pathogens.
+
+![Cruise ships are a classic setting for explosive norovirus outbreaks: shared dining, confined quarters, and rapid person-to-person spread via fomites and aerosolized vomitus drive high attack rates.](images-diarrhea-webpage/cruise.png){#fig-norovirus-cruise width="70%"}
 
 #### Clinical Presentation
 
@@ -197,7 +199,25 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 
 ## Bacterial Pathogens
 
-![Methylene blue stain of fecal leukocytes from a patient with colitis. This exudative response may be seen in any active colitis syndrome, including those caused by inflammatory or invasive pathogens.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width="80%"}
+### Mechanisms of Bacterial Diarrheal Disease
+
+Bacterial enteropathogens cause diarrhea through two broad and partly overlapping pathways: a **secretory** (toxin-mediated) mechanism that drives large-volume watery diarrhea without epithelial invasion, and an **invasive/inflammatory** mechanism in which bacteria penetrate the mucosa, recruit leukocytes, and produce dysentery. Recognizing which pathway predominates guides both diagnostic workup and empiric management.
+
+| Feature | Secretory (toxin-mediated) | Invasive / inflammatory |
+|----|----|----|
+| **Representative pathogens** | ETEC, *Vibrio cholerae*, *C. perfringens*, *S. aureus* (preformed toxin) | *Shigella*, EIEC, non-typhoidal *Salmonella*, *Campylobacter jejuni*, *Yersinia* |
+| **Site of action** | Small bowel | Distal small bowel and colon |
+| **Mechanism** | Enterotoxin activates adenylate / guanylate cyclase → ↑ cAMP / cGMP → Cl⁻ and water secretion | Bacterial invasion of enterocytes, intracellular replication, mucosal ulceration, cytokine response |
+| **Stool character** | Large-volume, watery, no blood | Small-volume, often bloody/mucoid, fecal leukocytes present |
+| **Fever** | Absent or low-grade | Often prominent (>38.5 °C) |
+| **Tenesmus / urgency** | Uncommon | Common (especially colitic pathogens) |
+| **Fecal leukocytes / lactoferrin** | Negative | Positive |
+| **Epithelial barrier** | Intact | Disrupted (ulceration, microabscesses) |
+| **Role of antibiotics** | Limited (rehydration is primary; abx shorten cholera/ETEC) | Often beneficial — except STEC, where antibiotics increase HUS risk |
+
+: Secretory vs. invasive mechanisms of bacterial diarrhea {#tbl-mechanisms}
+
+![Methylene blue stain of fecal leukocytes from a patient with colitis. This exudative response is seen in invasive/inflammatory diarrhea and is largely absent in pure toxin-mediated (secretory) disease.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width="70%"}
 
 ### Enteropathogenic *Escherichia coli*
 
@@ -207,9 +227,15 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 
 ETEC represents the most common bacterial cause of diarrhea in travelers to developing countries and in children in resource-limited settings. The pathogen produces diarrhea through elaboration of heat-labile (LT) enterotoxins and heat-stable (ST) enterotoxins. The LT enterotoxin resembles cholera toxin in structure and mechanism, activating adenylyl cyclase and increasing intestinal cAMP levels, resulting in secretory diarrhea. The ST enterotoxins activate guanylate cyclase, leading to increased intestinal cGMP and similar secretory effects. Some strains produce only LT, some only ST, and some produce both toxins.
 
+![ETEC pathogenesis. Heat-labile (LT) toxin activates adenylate cyclase (↑ cAMP); heat-stable (ST) toxin activates guanylate cyclase (↑ cGMP). The resulting electrolyte and water secretion produces high-volume watery diarrhea while the epithelial barrier remains intact.](images-diarrhea-webpage/etec.png){#fig-etec-mechanism width="75%"}
+
 #### Shiga Toxin-Producing *E. coli* (STEC)
 
 STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia @Tarr2005. The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
+
+![Pathophysiology of Shiga toxin–mediated hemolytic uremic syndrome. Shiga toxin enters the circulation, binds Gb3 receptors on glomerular endothelium, and triggers a thrombotic microangiopathy with platelet consumption, mechanical hemolysis (schistocytes), and acute kidney injury.](images-diarrhea-webpage/clipboard-3152135213.jpeg){#fig-hus-pathophys width="70%"}
+
+![Chromogenic agar for STEC: Shiga toxin–producing strains grow as mauve colonies, while other enteric bacteria appear blue, colorless, or are inhibited. Specific request to the laboratory for STEC selective media improves detection of non-O157 serotypes that are missed on routine culture.](images-diarrhea-webpage/clipboard-4072087931.jpeg){#fig-stec-chromogenic width="55%"}
 
 ::: callout-warning
 ## Critical Warning: Antibiotic Avoidance in Shiga Toxin-Producing *E. coli*
@@ -238,6 +264,8 @@ EAEC strains cause persistent diarrhea, particularly in children and immunocompr
 
 *Campylobacter jejuni* represents the leading bacterial cause of gastroenteritis in many developed nations and a major cause of diarrhea worldwide @Kaakoush2015. The microorganism is a microaerophilic, curved gram-negative rod that exhibits fastidious growth requirements.
 
+![*Campylobacter jejuni*: characteristic curved or S-shaped gram-negative rod. Routine stool culture media will miss it; isolation requires selective media (Campy/CCDA agar) and microaerophilic conditions.](images-diarrhea-webpage/campylobacter.png){#fig-campylobacter-morphology width="45%"}
+
 #### Epidemiology and Sources
 
 The primary reservoir for *C. jejuni* is poultry, with transmission to humans occurring through consumption of contaminated poultry meat or contaminated water. The organism is increasingly recognized as a common pathogen in traveler's diarrhea.
@@ -260,9 +288,13 @@ Diagnosis relies primarily on stool culture, which requires selective media favo
 
 *Salmonella* species cause both acute gastroenteritis (non-typhoidal salmonellosis) and systemic infections (enteric or typhoid fever caused by *Salmonella typhi* and *Salmonella paratyphi*) @Majowicz2010.
 
+![*Salmonella* spp. — motile gram-negative Enterobacterales with more than 1,400 serotypes producing two clinically distinct syndromes: non-typhoidal gastroenteritis and enteric (typhoid/paratyphoid) fever.](images-diarrhea-webpage/slamonella.png){#fig-salmonella-overview width="75%"}
+
 #### Non-Typhoidal Salmonellosis
 
 *Salmonella enteritidis* and *Salmonella typhimurium* represent the most common non-typhoidal species causing human disease. The organisms are acquired through consumption of contaminated food (particularly poultry and eggs) or water. The bacteria invade the intestinal epithelium, causing inflammatory diarrhea with fever, abdominal pain, and frequently visible blood or mucus in stool.
+
+![Reptile-associated *Salmonella* is an under-appreciated reservoir, particularly in households with pet turtles, lizards, or snakes. Children under 5 are at highest risk of invasive disease, including bacteremia and osteomyelitis.](images-diarrhea-webpage/turtle.png){#fig-salmonella-turtle width="70%"}
 
 The incubation period for non-typhoidal salmonellosis typically spans six to seventy-two hours after ingestion of contaminated food. The illness is generally self-limiting, resolving within three to seven days in most immunocompetent individuals. However, bacteremia occurs in a small percentage of cases, particularly in very young children, elderly persons, and immunocompromised individuals.
 
@@ -275,6 +307,8 @@ A proportion of individuals who recover from acute salmonellosis develop a chron
 *Salmonella typhi* causes enteric fever, characterized by sustained fever, rose spots, hepatosplenomegaly, and relative bradycardia. The disease is acquired in endemic regions of South and Southeast Asia and poses a significant public health threat. Vaccination and antimicrobial prophylaxis are recommended for travelers to endemic areas.
 
 ![Global distribution of typhoid and paratyphoid fever. Estimated incidence by country from the Global Burden of Disease Study 2019.](images-diarrhea-webpage/ch100-009.png){#fig-typhoid-distribution width="80%"}
+
+![Typhoid fever runs a stereotyped weekly course: gradual fever and bacteremia in week 1; sustained "staircase" fever, rose spots, and hepatosplenomegaly in weeks 2–3; risk of intestinal perforation and septic shock in week 3–4 if untreated.](images-diarrhea-webpage/clipboard-695628345.jpeg){#fig-typhoid-progression width="65%"}
 
 | Category               | Clinical Feature       | Approximate Frequency |
 |------------------------|------------------------|-----------------------|
@@ -317,9 +351,13 @@ Current first-line antimicrobial choices for shigellosis include fluoroquinolone
 
 *Vibrio cholerae* produces severe secretory diarrhea termed cholera @Sack2004; @Ali2015, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
 
+![John Snow's 1854 mapping of cholera cases around the Broad Street pump in London is widely regarded as the founding investigation of modern epidemiology, demonstrating water-borne transmission decades before the causative organism was identified.](images-diarrhea-webpage/john%20snow.png){#fig-john-snow width="70%"}
+
 #### Clinical Features
 
 Cholera presents with acute onset of profuse watery diarrhea described characteristically as "rice-water stools" due to the appearance of the stool resembling rice water. Patients may lose several liters of stool per hour during peak illness, leading to severe dehydration, hypovolemic shock, and death if fluid losses are not replaced. Vomiting frequently accompanies the diarrhea. Fever is typically absent.
+
+![Characteristic "rice-water" stool of cholera: clear, watery, electrolyte-rich fluid with mucus flecks and minimal cellular debris, reflecting massive small-bowel secretion driven by cholera toxin without epithelial invasion.](images-diarrhea-webpage/rice_water_stool.png){#fig-rice-water width="60%"}
 
 #### Pathophysiology
 
@@ -330,6 +368,8 @@ Cholera presents with acute onset of profuse watery diarrhea described character
 The primary therapeutic intervention in cholera consists of aggressive fluid and electrolyte replacement. Oral rehydration with solutions containing glucose and sodium is effective in most cases and reduces mortality dramatically. Antimicrobial therapy with agents such as tetracycline or fluoroquinolones shortens the duration of diarrhea and reduces the volume of fluid losses. Vaccination with oral cholera vaccines provides partial protection in endemic regions.
 
 ## Travel-Associated Diarrhea
+
+![Traveler's diarrhea affects 300–500 million travelers each year, with attack rates ranging from 5% to 50% depending on destination. Onset is typically 5–15 days after arrival in an endemic region, and most episodes resolve within 1–5 days.](images-diarrhea-webpage/suitcase.png){#fig-travelers-suitcase width="35%"}
 
 Diarrhea affecting travelers to developing countries represents a substantial cause of morbidity and disruption of travel plans @Steffen2015; @Riddle2017. The incidence of traveler's diarrhea ranges from 5% to 50% depending on the destination, with highest risks in developing countries with poor sanitation and food safety practices. Travelers to Latin America, Africa, the Middle East, and Asia face substantially elevated risk compared to those visiting developed nations.
 
@@ -370,6 +410,8 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 ### Prevention Strategies
 
 Prevention of traveler's diarrhea involves careful attention to food and water safety. Travelers should consume only bottled or boiled water, avoid ice made from untreated water, eat foods that are cooked hot, avoid raw vegetables and fruits that cannot be peeled, and avoid dairy products and foods kept at ambient temperature. Despite careful food precautions, some cases of traveler's diarrhea remain inevitable.
+
+![Street food and unpasteurized dairy are common exposures in high-risk destinations. Counsel travelers to choose foods served piping hot, peel their own fruit, and avoid ice and tap water — including water used to rinse glasses and utensils.](images-diarrhea-webpage/street_food.png){#fig-street-food width="60%"}
 
 Antimicrobial chemoprophylaxis can reduce the incidence of traveler's diarrhea in travelers with high-risk circumstances, though the practice is controversial due to concerns about adverse effects and antimicrobial resistance development. Bismuth subsalicylate taken three to four times daily provides modest protection against traveler's diarrhea, reducing incidence by approximately 50%.
 
@@ -480,6 +522,8 @@ Rehydration represents the fundamental and most important therapeutic interventi
 ::: {.callout-note title="Management Principle: Oral Rehydration Solutions"}
 Oral rehydration solution containing a 1:1 molar ratio of glucose to sodium (approximately 75 mEq/L sodium and 75 mmol/L glucose) achieves optimal absorption through coupled sodium-glucose transport. The World Health Organization and UNICEF recommend a low-osmolarity ORS containing sodium chloride (75 mmol/L), potassium chloride (20 mmol/L), glucose (75 mmol/L), and bicarbonate (65 mmol/L). This formulation reduces stool output compared to the previous standard ORS and decreases the incidence of hypernatremia.
 :::
+
+![WHO low-osmolarity oral rehydration solution exploits intact sodium–glucose cotransport (SGLT1) in the small bowel: glucose drives sodium uptake, water follows osmotically, and stool volume falls. ORS is effective for >90% of acute diarrhea cases and is the single most cost-effective intervention in global child health.](images-diarrhea-webpage/ORS.png){#fig-ors width="60%"}
 
 Oral rehydration is preferred for mild to moderate dehydration in most patients, as it is effective, less invasive, and less costly than intravenous rehydration. Patients with severe dehydration, hypotension, altered mental status, or inability to tolerate oral intake require intravenous fluid administration. Nasogastric tube administration of ORS offers an alternative for patients who cannot tolerate oral intake but do not require intravenous therapy.
 

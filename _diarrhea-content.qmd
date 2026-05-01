@@ -207,7 +207,7 @@ The use of antibiotics in STEC infection remains controversial and potentially h
 EAEC strains cause persistent diarrhea, particularly in children and immunocompromised individuals. EPEC classically caused infantile diarrhea before modern sanitation improvements and remains significant in some developing regions. EIEC exhibits invasive properties similar to Shigella species.
 
 | Pathotype | Common O Serogroups |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | **EIEC** (enteroinvasive *E. coli*) | O28ac, O29, O112, O115, O124, O135, O136, O143, O144, O152, O159, O164, O167, O173 |
 | **EPEC** (enteropathogenic *E. coli*) | O55, O86, O111, O114, O119, O125, O126, O127, O128, O142 |
 | **ETEC** (enterotoxigenic *E. coli*) | O6, O8, O15, O20, O25, O27, O63, O78, O80, O85, O115, O128ac, O139, O148, O153, O159, O167 |
@@ -319,15 +319,15 @@ The relative frequency of specific pathogens in traveler's diarrhea differs subs
 | ***Campylobacter*** | 1% | 2% | 32% |
 | ***Salmonella*** | 4% | 5% | 7% |
 | ***Shigella*** | 5% | 9% | 4% |
-| ***Aeromonas* / *Plesiomonas*** | 2% | 1% | 4% |
+| ***Aeromonas*** **/ *Plesiomonas*** | 2% | 1% | 4% |
 | **Norovirus** | 17% | — | 12% |
 | **Rotavirus** | 6% | — | 8% |
 | ***Giardia*** | 2% | 3% | 1% |
 | ***Cryptosporidium*** | 2% | 2% | 2% |
-| ***Entamoeba histolytica*** | <1% | <1% | 2% |
+| ***Entamoeba histolytica*** | \<1% | \<1% | 2% |
 | **No pathogen identified** | 24% | 33% | 21% |
 
-: Approximate Frequency of Pathogens Identified in Traveler's Diarrhea by Destination Region {#tbl-td-locale}
+: Approximate Frequency of Pathogens Identified in Traveler's Diarrhea by Destination Region
 
 ### Prevention Strategies
 
@@ -369,15 +369,15 @@ A key concept from epidemiologic studies of enteric infection in HIV is that det
 | ***Cryptosporidium*** | 15–25 | 1–5 |
 | **Microsporidia** (*E. bieneusi*) | 15–30 | 1–10 |
 | ***Cytomegalovirus*** | 10–20 | 1–5 |
-| ***Mycobacterium avium* complex** | 10–15 | <5 |
-| ***Isospora belli*** | 1–5 | <1 |
+| ***Mycobacterium avium*** **complex** | 10–15 | \<5 |
+| ***Isospora belli*** | 1–5 | \<1 |
 | ***Giardia lamblia*** | 2–5 | 2–5 |
 | ***Entamoeba histolytica*** | 1–3 | 1–3 |
 | ***Clostridioides difficile*** | 5–15 | 2–5 |
-| ***Salmonella*** / ***Shigella*** / ***Campylobacter*** | 2–8 | <2 |
+| ***Salmonella*** / ***Shigella*** / ***Campylobacter*** | 2–8 | \<2 |
 | **No pathogen identified** | 20–40 | — |
 
-: Possible Enteric Pathogens in AIDS Patients (Approximate Detection Frequencies) {#tbl-aids-pathogens}
+: Possible Enteric Pathogens in AIDS Patients (Approximate Detection Frequencies)
 
 #### Cryptosporidia in AIDS
 
