@@ -682,16 +682,107 @@ Figure&nbsp;7: Campylobacter jejuni microscopy and culture morphology.
 </section>
 <section id="vibrio-cholerae" class="level3">
 <h3 class="anchored" data-anchor-id="vibrio-cholerae">6.5 <em>Vibrio cholerae</em></h3>
-<div id="fig-cholera" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-cholera-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images-diarrhea-webpage/ch100-012.png" class="img-fluid figure-img" style="width:80.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cholera-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;8: Vibrio cholerae electron micrograph and cholera toxin mechanism of action.
+<div id="tbl-cholera-features" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cholera-features-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Clinical Features of Typhoid and Paratyphoid Fever
 </figcaption>
+<div aria-describedby="tbl-cholera-features-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Clinical Feature</th>
+<th>Approximate Frequency <sup>a</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Flulike symptoms</strong></td>
+<td>Fever</td>
+<td>&gt;95%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Headache</td>
+<td>80%</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Chills</td>
+<td>40%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Cough</td>
+<td>30%</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Myalgia</td>
+<td>20%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Arthralgia</td>
+<td>&lt;5%</td>
+</tr>
+<tr class="odd">
+<td><strong>Abdominal symptoms</strong></td>
+<td>Anorexia</td>
+<td>50%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Abdominal pain</td>
+<td>30%</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Diarrhea</td>
+<td>20%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Constipation</td>
+<td>20%</td>
+</tr>
+<tr class="odd">
+<td><strong>Physical findings</strong></td>
+<td>Coated tongue</td>
+<td>50%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Hepatomegaly</td>
+<td>10%</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Splenomegaly</td>
+<td>10%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Abdominal tenderness</td>
+<td>5%</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Rash</td>
+<td>&lt;5%</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Generalized adenopathy</td>
+<td>&lt;5%</td>
+</tr>
+</tbody>
+</table>
+</div>
 </figure>
 </div>
+<p><sup>a</sup> The proportion of patients demonstrating these clinical features varies depending on the time, region, and clinical population (hospitalized or ambulatory) assessed. Estimates are drawn from recent case series in endemic areas, with patients presenting for ambulatory or inpatient care.</p>
 <p><em>Vibrio cholerae</em> produces severe secretory diarrhea termed cholera <span class="citation" data-cites="Sack2004">Sack et al. (<a href="#ref-Sack2004" role="doc-biblioref">2004</a>)</span>; <span class="citation" data-cites="Ali2015">Ali et al. (<a href="#ref-Ali2015" role="doc-biblioref">2015</a>)</span>, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.</p>
 <section id="clinical-features" class="level4">
 <h4 class="anchored" data-anchor-id="clinical-features">Clinical Features</h4>
@@ -1122,7 +1213,7 @@ Tate JE, Burton AH, Boschi-Pinto C, Parashar UD. <span class="nocase">WHO-coordi
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/padovaid\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

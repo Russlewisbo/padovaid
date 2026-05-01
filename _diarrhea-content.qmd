@@ -184,6 +184,8 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 
 ![Mechanisms of bacterial diarrheal disease showing secretory and invasive pathways.](images-diarrhea-webpage/ch100-003.png){#fig-bacterial-mechanisms width="90%"}
 
+![Methylene blue stain of fecal leukocytes — a bedside marker of inflammatory (invasive) diarrhea.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width=70%}
+
 ### 6.1 Enteropathogenic *Escherichia coli*
 
 *Escherichia coli* encompasses multiple pathotypes, each with distinct virulence mechanisms and epidemiologic distributions @Qadri2005. The major pathogenic categories include enterotoxigenic E. coli (ETEC), enteroaggregative E. coli (EAEC), enteropathogenic E. coli (EPEC), enteroinvasive E. coli (EIEC), and Shiga toxin-producing E. coli (STEC), also known as enterohemorrhagic E. coli (EHEC).
@@ -192,9 +194,7 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 
 ETEC represents the most common bacterial cause of diarrhea in travelers to developing countries and in children in resource-limited settings. The pathogen produces diarrhea through elaboration of heat-labile (LT) enterotoxins and heat-stable (ST) enterotoxins. The LT enterotoxin resembles cholera toxin in structure and mechanism, activating adenylyl cyclase and increasing intestinal cAMP levels, resulting in secretory diarrhea. The ST enterotoxins activate guanylate cyclase, leading to increased intestinal cGMP and similar secretory effects. Some strains produce only LT, some only ST, and some produce both toxins.
 
-#### Shiga Toxin-Producing *E. coli* (STEC)
-
-![Shiga toxin-producing E. coli (STEC) and hemolytic uremic syndrome pathophysiology.](images-diarrhea-webpage/ch100-007.png){#fig-stec-hus width="80%"}
+#### Shiga Toxin–Producing *E. coli* (STEC) and HUS
 
 STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia @Tarr2005. The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
 
