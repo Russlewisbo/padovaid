@@ -207,19 +207,15 @@ function googleTranslateElementInit() {
 </header>
 
 
-<p>Antibiotic principles:</p>
-<p><iframe src="https://drive.google.com/file/d/1Fjp_joIkh2so52FUDYlCHsKYclqHfGSX/preview" width="1000" height="600" allow="autoplay" <="" p="">
-</iframe>
-</p><p><strong>Antibiotic myths:</strong></p>
-<p><iframe src="https://drive.google.com/file/d/1-meGAWuggpmRwyhgMgsOhL3VG-K6qJEd/preview" width="1000" height="600" allow="autoplay" <="" p="">
-</iframe>
-</p><p><strong>Antibiotic allergies:</strong></p>
-<p><iframe src="https://drive.google.com/file/d/1I2Qh3L7DK_iOP352uxb2lVMvgJ1Gd8bI/preview" width="1000" height="600" allow="autoplay" <="" p="">
-</iframe>
-</p><p>Principles of immunosuppression:</p>
-<p><iframe src="https://drive.google.com/file/d/17rLSQn2MGhHsW60HpGETEvGeBqlihPPS/preview" width="1000" height="600" allow="autoplay" <="" p="">
-</iframe>
-</p><p>Note: The zoom recording was not entirely aligned with slides, but can be easily followed</p>
+<p><strong>Antibiotic principles:</strong></p>
+<iframe src="https://drive.google.com/file/d/1Fjp_joIkh2so52FUDYlCHsKYclqHfGSX/preview" width="1000" height="600" allow="autoplay"></iframe>
+<p><strong>Antibiotic myths:</strong></p>
+<iframe src="https://drive.google.com/file/d/1Z8jEsWMixVEBIDCDAVanBZf4CnQdf9Hh/preview" width="1000" height="600" allow="autoplay"></iframe>
+<p><strong>Antibiotic allergies:</strong></p>
+<iframe src="https://drive.google.com/file/d/1b2MZXmNTwSJ7WFnTuhS4TcH61M9ugvHx/view" width="1000" height="600" allow="autoplay"></iframe>
+<p><strong>Principles of immunosuppression:</strong></p>
+<iframe src="https://drive.google.com/file/d/17rLSQn2MGhHsW60HpGETEvGeBqlihPPS/preview" width="1000" height="600" allow="autoplay"></iframe>
+<p>Note: The zoom recording was not entirely aligned with slides, but can be easily followed</p>
 <p>For Italian subtitles, click the gear icon and change language to Italiano then select the “closed captions” CC box to activate the subtitles.</p>
 
 
@@ -298,7 +294,7 @@ function googleTranslateElementInit() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/padovaid\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
