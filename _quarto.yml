@@ -25,8 +25,13 @@ website:
 bibliography:
   - refs-diarrhea.bib
   - refs-febrile-neutropenia.bib
+  - refs-fuo.bib
+  - refs-general.bib
+  - refs-immunocompromise.bib
   - refs-intraabdominal-1.bib
   - refs-intraabdominal-2.bib
+  - refs-malaria.bib
+  - fungal-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 
 format: 

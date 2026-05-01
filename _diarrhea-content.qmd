@@ -268,7 +268,28 @@ Current first-line antimicrobial choices for shigellosis include fluoroquinolone
 
 ### 6.5 *Vibrio cholerae*
 
-![Vibrio cholerae electron micrograph and cholera toxin mechanism of action.](images-diarrhea-webpage/ch100-012.png){#fig-cholera width="80%"}
+| Category | Clinical Feature | Approximate Frequency ^a^ |
+|----|----|----|
+| **Flulike symptoms** | Fever | >95% |
+| | Headache | 80% |
+| | Chills | 40% |
+| | Cough | 30% |
+| | Myalgia | 20% |
+| | Arthralgia | <5% |
+| **Abdominal symptoms** | Anorexia | 50% |
+| | Abdominal pain | 30% |
+| | Diarrhea | 20% |
+| | Constipation | 20% |
+| **Physical findings** | Coated tongue | 50% |
+| | Hepatomegaly | 10% |
+| | Splenomegaly | 10% |
+| | Abdominal tenderness | 5% |
+| | Rash | <5% |
+| | Generalized adenopathy | <5% |
+
+: Clinical Features of Typhoid and Paratyphoid Fever {#tbl-cholera-features}
+
+^a^ The proportion of patients demonstrating these clinical features varies depending on the time, region, and clinical population (hospitalized or ambulatory) assessed. Estimates are drawn from recent case series in endemic areas, with patients presenting for ambulatory or inpatient care.
 
 *Vibrio cholerae* produces severe secretory diarrhea termed cholera @Sack2004; @Ali2015, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
 

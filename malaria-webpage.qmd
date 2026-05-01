@@ -264,7 +264,7 @@ The vast majority of severe malaria is caused by *P. falciparum*; caveats for *P
 | **Shock** | *Compensated*: no hypotension but capillary refill ≥3 s or temperature gradient; *Decompensated*: impaired perfusion + hypotension (children: SBP \<70 mmHg; adults: SBP \<80 mmHg) |
 | **Hyperparasitemia** | *P. falciparum*: \>10%; *P. vivax*: no cutoff; *P. knowlesi*: \>100,000 parasites/μL |
 
-: Severe malaria criteria: one or more of the following, in the absence of an identified alternative cause and in the presence of asexual malaria parasitemia. Adapted from WHO Guidelines for Malaria, October 2023 [@WHO2023Guidelines]. {#tbl-treatment}
+: Severe malaria criteria: one or more of the following, in the absence of an identified alternative cause and in the presence of asexual malaria parasitemia. Adapted from WHO Guidelines for Malaria, October 2023 [@WHO2023Guidelines]. {#tbl-severe-malaria}
 
 ### Cerebral Malaria
 
@@ -501,7 +501,7 @@ Pregnant women should be hospitalized and treated promptly. **Artemether-lumefan
 
 # Prevention
 
-## Chemoprophylaxis {#tbl-prophylaxis}
+## Chemoprophylaxis
 
 Malaria can largely be prevented in travelers to endemic areas when recommended regimens are prescribed and taken appropriately [@CDC2023MalariaTreatment].
 

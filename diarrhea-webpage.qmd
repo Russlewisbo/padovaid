@@ -14,7 +14,7 @@ format:
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## 1. Introduction and Overview
+## Introduction and Overview
 
 Gastroenteritis represents one of the most prevalent infectious disease syndromes encountered in clinical practice worldwide. The global burden of enteric infections is staggering, with an estimated 4.5 billion episodes occurring annually across all populations. This immense disease burden reflects the ubiquitous nature of pathogens affecting the gastrointestinal tract and the challenges posed by inadequate sanitation, unsafe food and water supplies, and limited access to effective preventive measures in many regions.
 
@@ -28,7 +28,7 @@ Noninflammatory diarrhea typically results from secretory mechanisms or osmotic 
 The presence of fever in combination with visible blood in the stool strongly suggests inflammatory diarrhea caused by invasive pathogens such as Salmonella, Shigella, Campylobacter, or enteroinvasive Escherichia coli. This clinical presentation should prompt evaluation for bacterial pathogens and consideration of antimicrobial therapy, whereas uncomplicated noninflammatory diarrhea often resolves without specific antimicrobial agents.
 :::
 
-## 2. Epidemiology of Acute Noninflammatory Diarrhea
+## Epidemiology of Acute Noninflammatory Diarrhea
 
 The epidemiologic burden of acute diarrheal disease remains enormous despite advances in prevention and treatment. According to recent global health assessments, acute diarrheal illnesses resulted in approximately 1.6 million deaths globally in 2016, making diarrhea the eighth leading cause of death worldwide @Troeger2018. This mortality burden disproportionately affects children younger than five years of age, with the vast majority of these deaths occurring in low- and middle-income countries in sub-Saharan Africa and South Asia @Liu2016.
 
@@ -40,9 +40,9 @@ The pathogen-attributable burden of diarrheal disease varies significantly acros
 
 Children under five years of age experience disproportionate disease burden, accounting for the majority of diarrhea-attributable mortality. In this population, severe dehydration and electrolyte abnormalities represent the primary life-threatening complications. Certain populations, including travelers to endemic regions, immunocompromised individuals, and residents of congregate living facilities, face substantially elevated risk for both acquisition and severe disease progression.
 
-## 3. Community-Acquired Diarrhea
+## Community-Acquired Diarrhea
 
-### 3.1 Acute Pediatric Diarrhea
+### Acute Pediatric Diarrhea
 
 #### Weanling Diarrhea and Infants
 
@@ -54,7 +54,7 @@ The protective effects of breastfeeding are well-established and multifactorial,
 
 Diarrheal disease in pediatric populations demonstrates characteristic seasonal patterns, particularly in temperate climates where viral pathogens predominate during winter months. In tropical and subtropical regions, the seasonality is less pronounced or follows different patterns influenced by rainfall, temperature, and cultural practices affecting water and food safety.
 
-### 3.2 Diarrhea in Adult Populations
+### Diarrhea in Adult Populations
 
 Adult presentations of community-acquired diarrhea reflect different pathogen epidemiology compared to children. Noroviruses represent the most frequently identified cause of acute gastroenteritis in adults in resource-abundant settings, accounting for substantial numbers of outbreaks in closed environments such as hospitals, cruise ships, and long-term care facilities. The burden of norovirus disease in adults is substantial yet often underappreciated due to the general self-limiting nature of the illness.
 
@@ -62,13 +62,11 @@ Clostridioides difficile infection has emerged as an increasingly important caus
 
 Foodborne outbreaks attributable to Salmonella species remain common in developed nations, frequently associated with contaminated poultry products, eggs, and other animal-derived foods. Such outbreaks highlight the ongoing challenge of maintaining food safety even in industrialized countries with substantial regulatory oversight.
 
-## 4. Viral Pathogens
+## Viral Pathogens
 
 ![Global pathogen-attributable etiologies of acute gastroenteritis and estimated fatal attributable fractions. Pathogen-attributable etiologies (millions of episodes/year) of acute gastroenteritis measured in the Global Burden of Diseases (through 2016) and attributable fatal fractions for children ≤5 years of age (top) and ≥70 years of age (bottom). Adapted from @Troeger2018 and @Liu2016.](images-diarrhea-webpage/ch100-000.png){#fig-pathogen-etiologies width="90%"}
 
-### 4.1 Rotavirus
-
-![Rotavirus structure and classification systems showing the segmented genome and capsid proteins.](images-diarrhea-webpage/ch100-001.png){#fig-rotavirus width="80%"}
+### Rotavirus
 
 Rotavirus represents the most significant viral cause of severe diarrhea in young children worldwide, despite the introduction and implementation of rotavirus vaccines in many countries @Parashar2006. Prior to the vaccine era, rotavirus accounted for the vast majority of hospitalizations for severe diarrhea in infants and young children across all economic strata. Even in the post-vaccine era, rotavirus continues to cause substantial disease burden, particularly in regions where vaccine coverage remains suboptimal.
 
@@ -92,13 +90,11 @@ Two rotavirus vaccines have been licensed and implemented in immunization progra
 Rotavirus vaccines are administered orally and must be given before 32 weeks of age in the United States (RotaTeq) or before 20 weeks of age in other regions (Rotarix). The presence of severe combined immunodeficiency (SCID) represents a contraindication due to theoretical risks of vaccine-strain viral replication in the immunocompromised host. Parents should be counseled that rotavirus vaccination dramatically reduces the risk of severe gastroenteritis but does not eliminate infection entirely; breakthrough infections may still occur, typically with milder disease.
 :::
 
-### 4.2 Norovirus (Winter Vomiting Disease)
+### Norovirus (Winter Vomiting Disease)
 
 Norovirus has emerged as a leading cause of acute epidemic gastroenteritis in both children and adults, particularly in developed nations @Ahmed2014. The virus accounts for approximately one-third of all nonbacterial gastroenteritis outbreaks reported in the United States, making it the most common cause of foodborne illness outbreaks in recent years.
 
 #### Virology and Genera
-
-![Norovirus electron micrograph and genetic classification of caliciviruses.](images-diarrhea-webpage/ch100-002.png){#fig-norovirus width="80%"}
 
 Noroviruses belong to the family Caliciviridae and are divided into at least four distinct genera @Patel2008. Within the genus Norovirus, multiple genogroups have been identified, with genogroups I, II, and IV predominating in human disease. The virus exhibits remarkable genetic diversity and undergoes rapid evolution, leading to the circulation of numerous distinct strains and the capacity to reinfect individuals previously exposed to different norovirus strains.
 
@@ -114,7 +110,7 @@ The typical norovirus infection manifests with acute onset of nausea, vomiting, 
 
 The pathophysiologic mechanisms underlying norovirus infection parallel those of rotavirus, involving epithelial invasion and damage to the brush border of the small intestine. Histologic examination reveals blunting of intestinal villi and increased cellular infiltration. The virus alters intestinal permeability and intestinal function, contributing to the secretory diarrhea characteristic of the infection.
 
-### 4.3 Sapovirus
+### Sapovirus
 
 Sapovirus ranks as the second most common cause of all-cause diarrheal disease in many community-based epidemiologic studies, particularly in pediatric populations. The virus belongs to the family Caliciviridae and shares many epidemiologic and clinical characteristics with norovirus, including the capacity for rapid person-to-person spread and frequent occurrence of outbreaks in institutional settings.
 
@@ -122,7 +118,7 @@ Sapovirus ranks as the second most common cause of all-cause diarrheal disease i
 
 Sapovirus causes acute watery diarrhea, vomiting, and fever, with clinical features resembling those of rotavirus and norovirus infections. The illness is generally self-limiting with duration typically less than one week. Sapovirus demonstrates significant genotype-specific immunity, meaning that prior infection with one sapovirus genotype does not provide complete protection against infection with other genotypes, explaining the capacity of the virus to cause recurrent infections within populations.
 
-### 4.4 Other Viral Etiologies
+### Other Viral Etiologies
 
 #### Astroviruses
 
@@ -142,19 +138,22 @@ Bocaviruses, pestiviruses, and toroviruses have been increasingly identified in 
 
 ### Viral Pathogens Causing Gastroenteritis
 
-| Category | Established Pathogens | Likely/Emerging Pathogens |
-|----|----|----|
-| **Confirmed Major Pathogens** | Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41) | Bocavirus, Astrovirus |
-| **Increasingly Recognized** | Caliciviruses (Norovirus, Sapovirus) | Pestivirus, Torovirus |
-| **Novel/Emerging** | — | SARS-CoV-2, Other Coronaviruses |
+| Established Pathogens | Likely and Emerging Pathogens |
+|----|----|
+| Adenoviruses (enteric types) | Bocaviruses |
+| Astroviruses | Coronaviruses (including SARS-CoV-2) |
+| Caliciviruses (including noroviruses and sapoviruses) | Enteroviruses (various) |
+| Rotaviruses groups A–C | Picobirnaviruses, picornaviruses |
+| Cytomegalovirus | Pestiviruses |
+|  | Toroviruses |
+|  | Filovirus (Ebola virus) |
+|  | Human protoparvoviruses |
 
 : Viral Pathogens Causing Gastroenteritis
 
-## 5. Protozoan Pathogens
+## Protozoan Pathogens
 
-### 5.1 Cryptosporidiosis
-
-![Cryptosporidium life cycle and oocyst morphology in acid-fast staining.](images-diarrhea-webpage/ch100-005.png){#fig-cryptosporidium width="80%"}
+### Cryptosporidiosis
 
 Cryptosporidium species represent the second most common cause of acute noninflammatory diarrhea worldwide @Checkley2015, surpassed only by viral pathogens. The parasite exhibits a complex lifecycle involving oocyst formation that renders it relatively resistant to environmental stresses and chlorination used in standard water treatment processes.
 
@@ -176,7 +175,7 @@ Diagnosis relies on identification of oocysts in stool specimens through microsc
 
 Treatment of cryptosporidiosis depends on the host's immune status. In immunocompetent individuals, supportive care with rehydration often suffices, as the infection typically resolves spontaneously. In immunocompromised patients, specific antiparasitic therapy becomes necessary. Nitazoxanide represents the primary antimicrobial agent @Rossignol2006, though efficacy is incomplete and prolonged or repeated courses may be required. Immune reconstitution through antiretroviral therapy in HIV-infected individuals remains crucial for long-term resolution of cryptosporidial diarrhea.
 
-### 5.2 Giardiasis
+### Giardiasis
 
 *Giardia lamblia* (also known as *Giardia intestinalis* or *Giardia duodenalis*) ranks among the most common parasitic causes of diarrhea worldwide @Einarsson2016 and represents a leading cause of chronic noninflammatory diarrhea in endemic regions.
 
@@ -196,11 +195,11 @@ Diagnosis of giardiasis relies on identification of trophozoites or cysts in sto
 
 Metronidazole represents the traditional first-line agent for giardiasis treatment, achieving cure rates of approximately 70% with a standard seven-day course. Alternative agents include tinidazole, which achieves higher cure rates (\>90%) with shorter duration of treatment, and nitazoxanide. The lower efficacy of metronidazole, despite decades of clinical use, has led to investigation of combination therapy or alternative regimens in cases of persistent infection.
 
-## 6. Bacterial Pathogens
+## Bacterial Pathogens
 
-![Mechanisms of bacterial diarrheal disease showing secretory and invasive pathways.](images-diarrhea-webpage/ch100-003.png){#fig-bacterial-mechanisms width="90%"}
+![Methylene blue stain of fecal leukocytes from a patient with colitis. This exudative response may be seen in any active colitis syndrome, including those caused by inflammatory or invasive pathogens.](images-diarrhea-webpage/ch100-007.png){#fig-fecal-leukocytes width="80%"}
 
-### 6.1 Enteropathogenic *Escherichia coli*
+### Enteropathogenic *Escherichia coli*
 
 *Escherichia coli* encompasses multiple pathotypes, each with distinct virulence mechanisms and epidemiologic distributions @Qadri2005. The major pathogenic categories include enterotoxigenic E. coli (ETEC), enteroaggregative E. coli (EAEC), enteropathogenic E. coli (EPEC), enteroinvasive E. coli (EIEC), and Shiga toxin-producing E. coli (STEC), also known as enterohemorrhagic E. coli (EHEC).
 
@@ -209,8 +208,6 @@ Metronidazole represents the traditional first-line agent for giardiasis treatme
 ETEC represents the most common bacterial cause of diarrhea in travelers to developing countries and in children in resource-limited settings. The pathogen produces diarrhea through elaboration of heat-labile (LT) enterotoxins and heat-stable (ST) enterotoxins. The LT enterotoxin resembles cholera toxin in structure and mechanism, activating adenylyl cyclase and increasing intestinal cAMP levels, resulting in secretory diarrhea. The ST enterotoxins activate guanylate cyclase, leading to increased intestinal cGMP and similar secretory effects. Some strains produce only LT, some only ST, and some produce both toxins.
 
 #### Shiga Toxin-Producing *E. coli* (STEC)
-
-![Shiga toxin-producing E. coli (STEC) and hemolytic uremic syndrome pathophysiology.](images-diarrhea-webpage/ch100-007.png){#fig-stec-hus width="80%"}
 
 STEC strains, particularly serotype O157:H7, cause hemorrhagic colitis characterized by bloody diarrhea without systemic toxemia @Tarr2005. The infection can progress to hemolytic-uremic syndrome (HUS), characterized by microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. STEC produces Shiga toxins that damage the vascular endothelium, particularly in the kidney.
 
@@ -224,9 +221,20 @@ The use of antibiotics in STEC infection remains controversial and potentially h
 
 EAEC strains cause persistent diarrhea, particularly in children and immunocompromised individuals. EPEC classically caused infantile diarrhea before modern sanitation improvements and remains significant in some developing regions. EIEC exhibits invasive properties similar to Shigella species.
 
-### 6.2 *Campylobacter jejuni*
+| Serotype | Difco Serogroup Test  |
+|----------|-----------------------|
+| O28      | C                     |
+| O29      | —                     |
+| O112     | C                     |
+| O124     | B                     |
+| O136     | C (Trabulsi 193-T-64) |
+| O143     | —                     |
+| O144     | —                     |
+| O152     | (Trabulsi 185-T-64)   |
 
-![Campylobacter jejuni microscopy and culture morphology.](images-diarrhea-webpage/ch100-009.png){#fig-campylobacter width="80%"}
+: Enteroinvasive *Escherichia coli* Serotypes
+
+### *Campylobacter jejuni*
 
 *Campylobacter jejuni* represents the leading bacterial cause of gastroenteritis in many developed nations and a major cause of diarrhea worldwide @Kaakoush2015. The microorganism is a microaerophilic, curved gram-negative rod that exhibits fastidious growth requirements.
 
@@ -248,7 +256,7 @@ Reactive arthritis represents another postinfectious complication of Campylobact
 
 Diagnosis relies primarily on stool culture, which requires selective media favoring *Campylobacter* growth. Culture sensitivity is approximately 90-95% when appropriate selective media are used. Molecular diagnostic methods have improved sensitivity and provide more rapid results.
 
-### 6.3 *Salmonella* Species
+### *Salmonella* Species
 
 *Salmonella* species cause both acute gastroenteritis (non-typhoidal salmonellosis) and systemic infections (enteric or typhoid fever caused by *Salmonella typhi* and *Salmonella paratyphi*) @Majowicz2010.
 
@@ -266,7 +274,30 @@ A proportion of individuals who recover from acute salmonellosis develop a chron
 
 *Salmonella typhi* causes enteric fever, characterized by sustained fever, rose spots, hepatosplenomegaly, and relative bradycardia. The disease is acquired in endemic regions of South and Southeast Asia and poses a significant public health threat. Vaccination and antimicrobial prophylaxis are recommended for travelers to endemic areas.
 
-### 6.4 *Shigella* Species
+![Global distribution of typhoid and paratyphoid fever. Estimated incidence by country from the Global Burden of Disease Study 2019.](images-diarrhea-webpage/ch100-009.png){#fig-typhoid-distribution width="80%"}
+
+| Category               | Clinical Feature       | Approximate Frequency |
+|------------------------|------------------------|-----------------------|
+| **Flulike symptoms**   | Fever                  | \>95%                 |
+|                        | Headache               | 80%                   |
+|                        | Chills                 | 40%                   |
+|                        | Cough                  | 30%                   |
+|                        | Myalgia                | 20%                   |
+|                        | Arthralgia             | \<5%                  |
+| **Abdominal symptoms** | Anorexia               | 50%                   |
+|                        | Abdominal pain         | 30%                   |
+|                        | Diarrhea               | 20%                   |
+|                        | Constipation           | 20%                   |
+| **Physical findings**  | Coated tongue          | 50%                   |
+|                        | Hepatomegaly           | 10%                   |
+|                        | Splenomegaly           | 10%                   |
+|                        | Abdominal tenderness   | 5%                    |
+|                        | Rash                   | \<5%                  |
+|                        | Generalized adenopathy | \<5%                  |
+
+: Clinical Features of Typhoid and Paratyphoid Fever
+
+### *Shigella* Species
 
 *Shigella* causes bacillary dysentery, characterized by bloody diarrhea with abundant leukocytes and mucus in stool @Kotloff2018. The four serogroups (*Shigella dysenteriae*, *Shigella flexneri*, *Shigella boydii*, and *Shigella sonnei*) differ in epidemiology and severity, with *S. dysenteriae* producing Shiga toxin and causing the most severe disease.
 
@@ -282,9 +313,7 @@ Shigellosis presents with fever, tenesmus, and bloody diarrhea with abundant fec
 
 Current first-line antimicrobial choices for shigellosis include fluoroquinolones such as ciprofloxacin or ceftriaxone, as resistance to older agents including ampicillin and trimethoprim-sulfamethoxazole has become widespread. Susceptibility testing guides therapy in regions with emerging resistance to fluoroquinolones.
 
-### 6.5 *Vibrio cholerae*
-
-![Vibrio cholerae electron micrograph and cholera toxin mechanism of action.](images-diarrhea-webpage/ch100-012.png){#fig-cholera width="80%"}
+### *Vibrio cholerae*
 
 *Vibrio cholerae* produces severe secretory diarrhea termed cholera @Sack2004; @Ali2015, a disease that remains endemic in South Asia, particularly Bangladesh and parts of India. The bacterium has caused seven recognized pandemics, with the current seventh pandemic having begun in 1961 with spread to multiple continents.
 
@@ -300,7 +329,7 @@ Cholera presents with acute onset of profuse watery diarrhea described character
 
 The primary therapeutic intervention in cholera consists of aggressive fluid and electrolyte replacement. Oral rehydration with solutions containing glucose and sodium is effective in most cases and reduces mortality dramatically. Antimicrobial therapy with agents such as tetracycline or fluoroquinolones shortens the duration of diarrhea and reduces the volume of fluid losses. Vaccination with oral cholera vaccines provides partial protection in endemic regions.
 
-## 7. Travel-Associated Diarrhea
+## Travel-Associated Diarrhea
 
 Diarrhea affecting travelers to developing countries represents a substantial cause of morbidity and disruption of travel plans @Steffen2015; @Riddle2017. The incidence of traveler's diarrhea ranges from 5% to 50% depending on the destination, with highest risks in developing countries with poor sanitation and food safety practices. Travelers to Latin America, Africa, the Middle East, and Asia face substantially elevated risk compared to those visiting developed nations.
 
@@ -319,6 +348,25 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 
 : Etiology of Acute Traveler's Diarrhea
 
+| Characteristic | Latin America | Africa | Asia |
+|----|----|----|----|
+| Duration of stay (days) | 21 (2–42) | 28 (28–35) | (28–42) |
+| Attack rate (%) | 52 (21–100) | 54 (36–62) | (39–57) |
+| **Organism (%)** |  |  |  |
+| No bacterial pathogen | 28 | — | 35 |
+| Bacterial pathogen | 72 | — | 80 |
+| Enterotoxigenic *E. coli* | 46 (28–72) | 36 (31–75) | 15 (5–25) |
+| Enteroaggregative *E. coli* | 30 (25–35) | \<5 | 17 (15–25) |
+| *Shigella* | 5 (0–30) | 5 (0–15) | 5 (4–15) |
+| *Salmonella* | \<5 | 10 (5–15) | 10 (5–15) |
+| *Campylobacter jejuni* | \<5 | \<5 | 15 (2–35) |
+| *Vibrio parahaemolyticus* | — | — | 7 (1–13) |
+| Rotavirus | 23 (0–36) | 10 (5–15) | 5 (0–15) |
+| Norovirus | 10 | — | 3 |
+| Protozoa (*Giardia*, *Cryptosporidium*, *Entamoeba histolytica*, others) | 7 | \<5 | 11 |
+
+: Etiology of Acute Traveler's Diarrhea in Three Locales. Values shown are median (range) from multiple studies.
+
 ### Prevention Strategies
 
 Prevention of traveler's diarrhea involves careful attention to food and water safety. Travelers should consume only bottled or boiled water, avoid ice made from untreated water, eat foods that are cooked hot, avoid raw vegetables and fruits that cannot be peeled, and avoid dairy products and foods kept at ambient temperature. Despite careful food precautions, some cases of traveler's diarrhea remain inevitable.
@@ -329,11 +377,11 @@ Antimicrobial chemoprophylaxis can reduce the incidence of traveler's diarrhea i
 
 Travelers to high-risk destinations should be provided with antimicrobial agents for empiric self-treatment of diarrhea that develops during travel. Azithromycin has become the preferred first-line agent due to high efficacy against ETEC and other major pathogens @DuPont2009. A three-day course of azithromycin (500 mg daily) typically resolves traveler's diarrhea within one to two days. Fluoroquinolones such as ciprofloxacin represent alternative agents, though resistance is increasingly common in some geographic regions. Loperamide may provide symptomatic relief of cramping but should be avoided in bloody diarrhea or severe infections.
 
-## 8. Diarrhea in Immunocompromised Patients
+## Diarrhea in Immunocompromised Patients
 
 Severely immunocompromised patients experience substantially different epidemiology, severity, and natural history of diarrheal disease compared to immunocompetent individuals.
 
-### 8.1 Diarrhea in HIV/AIDS
+### Diarrhea in HIV/AIDS
 
 Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @Sanchez2005 and represents one of the major causes of morbidity in this population. The spectrum of pathogens causing diarrhea in AIDS patients differs from that in immunocompetent individuals, with opportunistic pathogens becoming predominant as the CD4 count declines.
 
@@ -349,6 +397,31 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @
 | **Isospora** | Variable | Chronic diarrhea, tropical distribution |
 
 : Pathogens Causing Diarrhea in Advanced HIV/AIDS
+
+| Pathogen | \% With Diarrhea (*n* = 181) | \% With No Diarrhea (*n* = 28) |
+|----|----|----|
+| Cytomegalovirus | 12–45 | 15 |
+| *Cryptosporidium* | 14–30 | 0 |
+| Microsporidia | 7.5–33 | 0 |
+| *Entamoeba histolytica* | 0–15 | 0 |
+| *Giardia lamblia* | 2–15 | 5 |
+| *Salmonella* spp. | 0–15 | 0 |
+| *Campylobacter* spp. | 2–11 | 8 |
+| *Shigella* spp. | 5–10 | 0 |
+| *Clostridioides difficile* toxin | 6–7 | 0 |
+| *Vibrio parahaemolyticus* | 4 | 0 |
+| *Mycobacterium* spp. | 2–25 | 0 |
+| *Cystoisospora belli* | 2–6 | 0 |
+| *Cyclospora* | 0–11 | 0 |
+| *Blastocystis hominis* | 2–15 | 16 |
+| *Candida albicans* | 6–53 | 24 |
+| Herpes simplex | 5–18 | 40 |
+| *Chlamydia trachomatis* | 11 | 13 |
+| *Strongyloides* | 0–6 | 0 |
+| Intestinal spirochetes | 11 | 11 |
+| **One or more pathogens** | **55–86** | **39** |
+
+: Possible Enteric Pathogens in Patients With Acquired Immunodeficiency Syndrome
 
 #### Cryptosporidia in AIDS
 
@@ -366,7 +439,7 @@ Cytomegalovirus (CMV) causes ulcerative disease of the colon and terminal ileum 
 
 The introduction of effective antiretroviral therapy has dramatically altered the epidemiology of opportunistic diarrheal diseases in HIV-infected individuals. As CD4 counts recover with antiretroviral therapy, the risk for opportunistic infections decreases, and many chronic infections (such as cryptosporidial diarrhea) resolve spontaneously through immune reconstitution without need for specific antiparasitic therapy.
 
-### 8.2 Diarrhea in Solid Organ and Hematopoietic Stem Cell Transplant Recipients
+### Diarrhea in Solid Organ and Hematopoietic Stem Cell Transplant Recipients
 
 Transplant recipients experience elevated risk for diarrheal disease due to profound immunosuppression during the early post-transplant period and chronic immunosuppression to prevent rejection.
 
@@ -378,7 +451,7 @@ Transplant recipients experience elevated risk for diarrheal disease due to prof
 
 Norovirus causes diarrheal disease in transplant recipients with particular frequency, and infected transplant recipients demonstrate prolonged viral shedding in stool compared to immunocompetent individuals. Some transplant recipients shed norovirus for weeks to months, complicating hospital epidemiology and infection control.
 
-## 9. Diarrhea in Institutional Settings
+## Diarrhea in Institutional Settings
 
 Diarrheal outbreaks in institutional settings represent a substantial public health challenge and cause significant morbidity and healthcare costs.
 
@@ -396,7 +469,7 @@ Long-term care facility residents experience substantially elevated rates of dia
 
 Daycare centers serve as amplification sites for transmissible diarrheal pathogens, particularly rotavirus (in the pre-vaccine era) and *Giardia lamblia*. The fecal-oral transmission route, combined with the low infectious dose required for many pathogens and the hygiene challenges inherent in caring for young children, create ideal conditions for pathogen spread.
 
-## 10. Treatment of Acute Noninflammatory Diarrhea
+## Treatment of Acute Noninflammatory Diarrhea
 
 The management of acute diarrheal disease follows general principles applicable to most cases, with specific modifications based on the presumed or confirmed etiology, the severity of illness, and the host's immune status.
 
@@ -432,7 +505,7 @@ Zinc supplementation (10-20 mg daily for 10-14 days) in children with acute diar
 
 The potential role of probiotics and prebiotics in preventing or treating acute diarrhea remains incompletely established. While some individual probiotic strains demonstrate benefit in specific contexts (such as *Lactobacillus rhamnosus* in rotavirus gastroenteritis prevention), the evidence base is insufficient to recommend probiotics as general therapy for acute diarrhea. Similarly, prebiotics have not demonstrated consistent efficacy in treating acute diarrhea.
 
-## 11. Chronic Noninflammatory Diarrhea
+## Chronic Noninflammatory Diarrhea
 
 Persistent or chronic noninflammatory diarrhea lasting more than two weeks requires systematic evaluation to identify the underlying etiology, as different causes mandate different therapeutic approaches.
 
@@ -454,7 +527,7 @@ Diagnosis of SIBO employs hydrogen and methane breath testing, which measures ba
 
 Brainerd diarrhea represents an infectious, epidemic, acute-onset chronic diarrhea syndrome identified in multiple outbreaks in the United States and other countries. The disease causes persistent watery diarrhea lasting weeks to years. The etiology remains unidentified despite extensive investigation. The syndrome typically remits spontaneously over months to years without specific therapy.
 
-## 12. Noninfectious Mimics and Differential Diagnosis
+## Noninfectious Mimics and Differential Diagnosis
 
 Several noninfectious conditions present with diarrhea that must be considered in the differential diagnosis of acute or chronic diarrheal disease.
 
