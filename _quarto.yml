@@ -10,6 +10,8 @@ website:
     style: "docked"
     search: true
     contents:
+      - text: "Homepage"
+        href: index.qmd
       - antibiotic-principles.qmd
       - allergies.qmd
       - fuo.qmd
