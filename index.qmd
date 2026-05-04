@@ -30,7 +30,7 @@ Instructions for accessing UptoDate are found [here](uptodate.pdf). Treviso stud
 | [Febrile Neutropenia](febrile-neutropenia.qmd) | Risk assessment, empiric therapy, and prophylaxis in neutropenic patients |
 | [Infectious Diarrhea](diarrhea.qmd) | Etiology, syndromic testing, and management of acute infectious diarrhea |
 | [Malaria & Leishmaniasis](malaria.qmd) | Epidemiology, diagnosis, and treatment of malaria and leishmaniasis |
-| [Invasive Fungal Infections](IFI.qmd) | Candidiasis, aspergillosis, cryptococcosis, and antifungal therapy |
+| [Invasive Fungal Infections](ifi.qmd) | Candidiasis, aspergillosis, cryptococcosis, and antifungal therapy |
 
 ------------------------------------------------------------------------
 
