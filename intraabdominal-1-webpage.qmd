@@ -1,11 +1,3 @@
----
-title: "Intraabdominal Infections"
-subtitle: "Peritonitis and Intraperitoneal Abscesses"
-author:
-  - name: "Russell E. Lewis"
-date: "2026-02-27"
-csl: diagnostic-microbiology-and-infectious-disease.csl
----
 
 # SHORT VIEW SUMMARY
 

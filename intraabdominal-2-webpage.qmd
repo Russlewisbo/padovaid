@@ -1,10 +1,3 @@
----
-title: "Intra-abdominal Infections: Appendicitis and Infections of the Liver and Biliary System"
-author:
-  - name: "Russell Lewis"
-date: "2026-03-01"
-csl: diagnostic-microbiology-and-infectious-disease.csl
----
 
 # PART I: APPENDICITIS {#part-appendicitis}
 

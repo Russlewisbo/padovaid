@@ -1,12 +1,3 @@
----
-title: "Prophylaxis and Empirical Therapy of Infection in Cancer Patients"
-subtitle: "Febrile Neutropenia — From Risk Factors to Management"
-author:
-  - name: "Russell E. Lewis"
-    affiliation: "Department of Molecular Medicine, University of Padua"
-date: last-modified
-csl: diagnostic-microbiology-and-infectious-disease.csl
----
 
 ## Learning Objectives {.unnumbered}
 
