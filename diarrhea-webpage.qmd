@@ -1,18 +1,3 @@
----
-title: "Syndromes of Enteric Infection: Infectious Diarrhea"
-author: "Russell E. Lewis"
-date: last-modified
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    theme: cosmo
-    code-fold: true
-    smooth-scroll: true
-    lightbox: true
-csl: diagnostic-microbiology-and-infectious-disease.csl
----
 
 ## Introduction and Overview
 
