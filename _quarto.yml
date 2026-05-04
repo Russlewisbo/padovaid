@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!docs/"
   resources:
     - diarrhea-webpage.pdf
 title: "Infectious Diseases"
