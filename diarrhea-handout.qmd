@@ -12,7 +12,7 @@ format:
       x: 2cm
       y: 2.5cm
 bibliography: refs-diarrhea.bib
-csl: diagnostic-microbiology-and-infectious-disease.csl
+csl: elsevier-vancouver-author-date.csl
 ---
 
 {{< include diarrhea-webpage.qmd >}}
