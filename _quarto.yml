@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "!docs/"
+    - "!diarrhea-handout.qmd"
   resources:
     - diarrhea-webpage.pdf
 title: "Infectious Diseases"

@@ -127,7 +127,7 @@ Bocaviruses, pestiviruses, and toroviruses have been increasingly identified in 
 ### Viral Pathogens Causing Gastroenteritis
 
 | Category | Established Pathogens | Likely/Emerging Pathogens |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Confirmed Major Pathogens** | Rotavirus, Norovirus, Sapovirus, Enteroviruses (Ad-40, Ad-41) | Bocavirus, Astrovirus |
 | **Increasingly Recognized** | Caliciviruses (Norovirus, Sapovirus) | Pestivirus, Torovirus |
 | **Novel/Emerging** | — | SARS-CoV-2, Other Coronaviruses |
@@ -207,7 +207,7 @@ The use of antibiotics in STEC infection remains controversial and potentially h
 EAEC strains cause persistent diarrhea, particularly in children and immunocompromised individuals. EPEC classically caused infantile diarrhea before modern sanitation improvements and remains significant in some developing regions. EIEC exhibits invasive properties similar to Shigella species.
 
 | Pathotype | Common O Serogroups |
-|-------------------------|----------------------------------------------|
+|----|----|
 | **EIEC** (enteroinvasive *E. coli*) | O28ac, O29, O112, O115, O124, O135, O136, O143, O144, O152, O159, O164, O167, O173 |
 | **EPEC** (enteropathogenic *E. coli*) | O55, O86, O111, O114, O119, O125, O126, O127, O128, O142 |
 | **ETEC** (enterotoxigenic *E. coli*) | O6, O8, O15, O20, O25, O27, O63, O78, O80, O85, O115, O128ac, O139, O148, O153, O159, O167 |
@@ -300,7 +300,7 @@ The microbiologic causes of traveler's diarrhea vary geographically but follow s
 ### Etiology of Acute Traveler's Diarrhea
 
 | Pathogen Category | Specific Agents | Approximate Frequency |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Bacterial (40-60%)** | ETEC, Campylobacter, Salmonella, Shigella | Most common overall |
 | **Viral (5-15%)** | Norovirus, Rotavirus, Other enteroviruses | Variable by season/location |
 | **Parasitic (3-5%)** | Giardia, Cryptosporidium, Entamoeba | More common in persistent diarrhea |
@@ -350,7 +350,7 @@ Diarrhea occurs in 30-60% of individuals with AIDS (CD4 count \<200 cells/μL) @
 #### Pathogens in Advanced HIV Infection
 
 | Pathogen | CD4 Threshold | Characteristics |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Cryptosporidium** | \<200 | Chronic, severe; may resolve with immune reconstitution |
 | **Microsporidium** | \<100 | Chronic diarrhea, malabsorption |
 | **Mycobacterium avium complex** | \<50 | Systemic infection with GI involvement |
