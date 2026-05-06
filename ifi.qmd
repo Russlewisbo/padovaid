@@ -52,4 +52,4 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 [Review on cryptococcosis](cryptococcosis.pdf)
 
-Lecture notes:
+Lecture notes:isnamed
