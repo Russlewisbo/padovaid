@@ -1,5 +1,5 @@
 # Padovaid Project — Memory File
-**Last updated:** 2026-04-05
+**Last updated:** 2026-05-06
 
 ## Project Overview
 Quarto-based medical education website for infectious diseases teaching at the
@@ -83,11 +83,16 @@ Global bibliography in `_quarto.yml`: `refs-diarrhea.bib`, `refs-intraabdominal-
 - `immunosuppression.qmd` — landing page
 - `immunocompromise-webpage.qmd` — full content webpage
 
+### Invasive Fungal Infections (IFI)
+- `ifi.qmd` — landing page (includes `_fungal-content.qmd` and PDF download button)
+- `ifi-webpage.qmd` — PDF-only render of `_fungal-content.qmd` (output: `docs/ifi-webpage.pdf`)
+- `_fungal-content.qmd` — included content module (lecture notes)
+- `fungal-references.bib` — bibliography for IFI files
+
 ### Stubs / Other
 - `antibiotic-principles.qmd` — landing page stub
 - `allergies.qmd` — landing page stub
 - `resistance.qmd` — stub (Antimicrobial Resistance in ESCAPE Pathogens)
-- `ifi.qmd` — stub (Invasive Fungal Infections)
 - `treviso.qmd` — Zoom lecture links for Treviso group
 
 ---
@@ -107,6 +112,7 @@ Global bibliography in `_quarto.yml`: `refs-diarrhea.bib`, `refs-intraabdominal-
 | `images-immunocompromise-extra/` | Not referenced in any QMD; has 6 extra files — archive/review |
 | `images-intraabdominal-1/` | Intra-abdominal Part 1 files |
 | `images-intraabdominal-2/` | Intra-abdominal Part 2 files |
+| `fungal-images/` | `_fungal-content.qmd` (IFI lecture notes) |
 
 ---
 
@@ -124,6 +130,7 @@ Global bibliography in `_quarto.yml`: `refs-diarrhea.bib`, `refs-intraabdominal-
 | `refs-intraabdominal-1.bib` | `intraabdominal-1-webpage.qmd` |
 | `refs-intraabdominal-2.bib` | `intraabdominal-2-webpage.qmd`, `intraabdominal-2-slides.qmd`; global in `_quarto.yml` |
 | `refs-general.bib` | `intraabdominal-2-slides.qmd`, `intraabdominal-1-slides.qmd` |
+| `fungal-references.bib` | `ifi.qmd`, `ifi-webpage.qmd` |
 
 ---
 

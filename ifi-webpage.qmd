@@ -1,0 +1,8 @@
+---
+title: "Invasive Fungal Infections"
+format: pdf
+bibliography: fungal-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+{{< include _fungal-content.qmd >}}
