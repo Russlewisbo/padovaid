@@ -38,7 +38,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 ## Lecture slides
 
-[HTML slides](https://russlewisbo.github.io/febrileneutropenia/Lecture1.html#/febrile-neutropenia)
+[HTML slides](https://russlewisbo.github.io/febrileneutropenia/Febrileneutropenia_lecture.html#/febrile-neutropenia)
 
 [PDF of lecture slides](febrileneutropenia.pdf)
 

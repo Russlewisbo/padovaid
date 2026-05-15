@@ -423,7 +423,7 @@ Following peritoneal contamination, a characteristic local inflammatory response
 
 Possible outcomes: spontaneous resolution, localized abscess, or diffuse progressive peritonitis.
 
-![CT imaging demonstrating peritonitis with bowel wall thickening, mesenteric stranding, and free fluid characteristic of secondary peritonitis.](images-intraabdominal-1/peritonitis.png){fig-align="center" width="70%"}
+![CT imaging demonstrating peritonitis with bowel wall thickening (arrow), mesenteric stranding, and free fluid characteristic of secondary peritonitis.](images-intraabdominal-1/peritonitis-ct.png){fig-align="center" width="70%"}
 
 ### Systemic Response
 

@@ -982,7 +982,7 @@ peritonitis).
 ::: {.column width="40%"}
 <br> <br> <br> <br> <br>
 
-![](images-fuo/peritonitis.png)
+![](images-intraabdominal-1/peritonitis-ct.png)
 :::
 :::::
 

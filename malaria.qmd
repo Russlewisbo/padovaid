@@ -16,4 +16,4 @@ editor: visual
 
 <br> <br>
 
-{{< include malaria-webpage-v2.qmd >}}
+{{< include malaria-webpage.qmd >}}
