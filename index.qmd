@@ -33,4 +33,3 @@ Instructions for accessing UptoDate are found [here](uptodate.pdf). Treviso stud
 | [Invasive Fungal Infections](ifi.qmd) | Candidiasis, aspergillosis, cryptococcosis, and antifungal therapy |
 
 ------------------------------------------------------------------------
-
