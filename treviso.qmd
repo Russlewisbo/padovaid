@@ -28,4 +28,10 @@ title: "Treviso zoom lectures"
 
 Note: The zoom recording was not entirely aligned with slides, but can be easily followed
 
+Febrile neutropenia
+
+```{=html}
+<iframe src="https://drive.google.com/file/d/1B-6flY3Ahl5uzDAF-mdQK-Q7DebyNGip/preview" width="1000" height="600" allow="autoplay"></iframe>
+```
+
 For Italian subtitles, click the gear icon and change language to Italiano then select the "closed captions" CC box to activate the subtitles.
