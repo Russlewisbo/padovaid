@@ -194,7 +194,8 @@ div.csl-indent {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#history-and-current-challenges" id="toc-history-and-current-challenges" class="nav-link active" data-scroll-target="#history-and-current-challenges"><span class="header-section-number">1</span> History and Current Challenges</a></li>
+  <li><a href="#interactive-lecture-notes" id="toc-interactive-lecture-notes" class="nav-link active" data-scroll-target="#interactive-lecture-notes"><span class="header-section-number">0.1</span> 📖 Interactive Lecture Notes</a></li>
+  <li><a href="#history-and-current-challenges" id="toc-history-and-current-challenges" class="nav-link" data-scroll-target="#history-and-current-challenges"><span class="header-section-number">1</span> History and Current Challenges</a></li>
   <li><a href="#plasmodium-species-and-their-life-cycles" id="toc-plasmodium-species-and-their-life-cycles" class="nav-link" data-scroll-target="#plasmodium-species-and-their-life-cycles"><span class="header-section-number">2</span> <em>Plasmodium</em> Species and Their Life Cycles</a>
   <ul class="collapse">
   <li><a href="#the-plasmodium-life-cycle" id="toc-the-plasmodium-life-cycle" class="nav-link" data-scroll-target="#the-plasmodium-life-cycle"><span class="header-section-number">2.1</span> The <em>Plasmodium</em> Life Cycle</a></li>
@@ -339,7 +340,12 @@ function googleTranslateElementInit() {
 <p><a href="malariahandout.pdf">Handout</a></p>
 <p><a href="WHOguidelines.pdf">WHO Malaria Treatment Guidelines</a></p>
 <p><a href="Naturereviews.pdf">Comprehensive Review on Malaria</a></p>
-<p><br> <br></p>
+<section id="interactive-lecture-notes" class="level2" data-number="0.1">
+<h2 data-number="0.1" class="anchored" data-anchor-id="interactive-lecture-notes"><span class="header-section-number">0.1</span> 📖 Interactive Lecture Notes</h2>
+<p>You can view the full lecture notes below, <a href="malaria-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
+<button onclick="var printWindow = window.open('malaria-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+<p>📥 Print/Save as PDF</p>
+</button>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -393,6 +399,7 @@ function googleTranslateElementInit() {
 </div>
 </div>
 <hr>
+</section>
 <section id="history-and-current-challenges" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> History and Current Challenges</h1>
 <p>Malaria remains a major global public health threat, accounting for an estimated <strong>263 million cases and 597,000 deaths in 2023</strong> <span class="citation" data-cites="WHO2024MalariaReport">(<a href="#ref-WHO2024MalariaReport" role="doc-biblioref">World Health Organization, 2024</a>)</span>. The bulk of the disease burden is borne by young African children.</p>
@@ -1766,7 +1773,7 @@ World Health Organization. Expert committee on malaria: <span>Sixth</span> repor
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/padovaid\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

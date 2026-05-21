@@ -545,7 +545,7 @@ function googleTranslateElementInit() {
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>You can view the full lecture notes below, <a href="intraabdominal-1-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
-<button onclick="window.open('intraabdominal-1-webpage.html', '_blank'); setTimeout(function(){ var printWindow = window.open('intraabdominal-1-webpage.html'); printWindow.onload = function(){ printWindow.print(); }; }, 500);" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+<button onclick="var printWindow = window.open('intraabdominal-1-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
 <p>📥 Print/Save as PDF</p>
 </button>
 </div>
@@ -2543,7 +2543,7 @@ Warning
 <div id="callout-18" class="callout-18-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>You can view the full lecture notes below, <a href="intraabdominal-2-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
-<button onclick="window.open('intraabdominal-2-webpage.html', '_blank'); setTimeout(function(){ var printWindow = window.open('intraabdominal-2-webpage.html'); printWindow.onload = function(){ printWindow.print(); }; }, 500);" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+<button onclick="var printWindow = window.open('intraabdominal-2-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
 <p>📥 Print/Save as PDF</p>
 </button>
 </div>
@@ -4144,7 +4144,7 @@ Zhong D, Brower-Sinning R, Firek B, Morowitz MJ. Acute appendicitis in children 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/padovaid\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

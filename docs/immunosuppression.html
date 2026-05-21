@@ -307,8 +307,8 @@ function googleTranslateElementInit() {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>You can view the full lecture notes below, <a href="chapter-immunocompromise.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
-<button onclick="var w = window.open('chapter-immunocompromise.html', '_blank'); setTimeout(function(){ w.print(); }, 1500);" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+<p>You can view the full lecture notes below, <a href="immunocompromise-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
+<button onclick="var printWindow = window.open('immunocompromise-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
 <p>📥 Print/Save as PDF</p>
 </button>
 </div>
@@ -1595,7 +1595,7 @@ Vande VLK, Madtes DK. Early onset noninfectious pulmonary syndromes after hemato
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/padovaid\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
