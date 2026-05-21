@@ -411,8 +411,8 @@ function googleTranslateElementInit() {
 </section>
 <section id="interactive-lecture-notes" class="level2">
 <h2 class="anchored" data-anchor-id="interactive-lecture-notes">📖 Interactive Lecture Notes</h2>
-<p>You can view the full lecture notes below, <a href="FUO_chapter-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
-<button onclick="var printWindow = window.open('FUO_chapter-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+<p>You can view the full lecture notes below, <a href="fuo-webpage.html" target="_blank">open them in a new window</a> for better readability, or save as PDF.</p>
+<button onclick="var printWindow = window.open('fuo-webpage.html', '_blank'); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
 <p>📥 Print/Save as PDF</p>
 </button>
 </section>
@@ -1329,7 +1329,7 @@ Wright WF, Auwaerter PG. Chapter 58: <span>F</span>ever of <span>U</span>nknown 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/padovaid\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -27,9 +27,9 @@ IN this online lecture, Dr. Raghuram takes a look at traditional and new definit
 
 ## 📖 Interactive Lecture Notes
 
-You can view the full lecture notes below, [open them in a new window](FUO_chapter-webpage.html){target="_blank"} for better readability, or save as PDF.
+You can view the full lecture notes below, [open them in a new window](fuo-webpage.html){target="_blank"} for better readability, or save as PDF.
 
-<button onclick="var printWindow = window.open(&#39;FUO_chapter-webpage.html&#39;, &#39;_blank&#39;); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+<button onclick="var printWindow = window.open(&#39;fuo-webpage.html&#39;, &#39;_blank&#39;); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
 
 📥 Print/Save as PDF
 

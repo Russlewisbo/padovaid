@@ -82,7 +82,7 @@ At least **six species** can infect humans: *P. falciparum* (Laverania subgenus)
 
 ## The *Plasmodium* Life Cycle
 
-![The *Plasmodium* life cycle. Anopheline mosquitoes transmit malaria by injecting sporozoites into the human host. Sporozoites invade hepatocytes, developing into schizonts that release merozoites into the bloodstream. Some *P. vivax* and *P. ovale* parasites persist as hypnozoites in the liver, causing relapses months to years later. The asexual blood cycle repeats every 24 h (*P. knowlesi*), 48 h (*P. falciparum*, *P. vivax*, *P. ovale*), or 72 h (*P. malariae*). A minority of parasites develop into sexual-stage gametocytes, which are taken up by feeding mosquitoes to complete the transmission cycle. (Created in BioRender. Jillian Armstrong and Sunil Parikh, 2024.)](images-fuo/fig280-1.png){#fig-lifecycle fig-alt="Plasmodium life cycle diagram showing mosquito and human stages"}
+![The *Plasmodium* life cycle. Anopheline mosquitoes transmit malaria by injecting sporozoites into the human host. Sporozoites invade hepatocytes, developing into schizonts that release merozoites into the bloodstream. Some *P. vivax* and *P. ovale* parasites persist as hypnozoites in the liver, causing relapses months to years later. The asexual blood cycle repeats every 24 h (*P. knowlesi*), 48 h (*P. falciparum*, *P. vivax*, *P. ovale*), or 72 h (*P. malariae*). A minority of parasites develop into sexual-stage gametocytes, which are taken up by feeding mosquitoes to complete the transmission cycle. (Created in BioRender. Jillian Armstrong and Sunil Parikh, 2024.)](images-malaria/fig280-1_life_cycle.png){#fig-lifecycle fig-alt="Plasmodium life cycle diagram showing mosquito and human stages"}
 
 ## *Plasmodium falciparum*
 
@@ -114,7 +114,7 @@ Malaria epidemiology and transmission are governed by three factors: distributio
 
 ## Distribution
 
-![Map of the global prevalence and distribution of *Plasmodium falciparum* and *Plasmodium vivax* in 2022. (A) *P. falciparum* parasite rate (PfPR), age-standardised for children 2–10 years. (B) *P. vivax* parasite rate (PvPR), all-age. Data from Weiss DJ et al., *Lancet*, 2025. ©2025 Malaria Atlas Project.](images-fuo/fig280-2.png){#fig-worldmap fig-alt="World maps showing global distribution of P. falciparum and P. vivax malaria in 2022"}
+![Map of the global prevalence and distribution of *Plasmodium falciparum* and *Plasmodium vivax* in 2022. (A) *P. falciparum* parasite rate (PfPR), age-standardised for children 2–10 years. (B) *P. vivax* parasite rate (PvPR), all-age. Data from Weiss DJ et al., *Lancet*, 2025. ©2025 Malaria Atlas Project.](images-malaria/fig280-2_world_map.png){#fig-worldmap fig-alt="World maps showing global distribution of P. falciparum and P. vivax malaria in 2022"}
 
 Malaria infections occur mostly in tropical regions of sub-Saharan Africa, Asia, Oceania, and Latin America. Key facts on distribution:
 
@@ -181,7 +181,7 @@ The cytoadherence system of *P. falciparum* is central to pathogenesis:
 -   **Rosetting** (binding of iRBCs to uninfected RBCs) and **platelet-mediated clumping** further obstruct microvessels.
 -   PfEMP-1 binding to EPCR is strongly associated with cerebral malaria; binding to CSA mediates selective sequestration in placental tissue.
 
-![Sequestration of parasitized erythrocytes in the microvasculature of the brain and the ocular fundus. (A–D) Representative histologic (H&E; A, C) and cytologic (Giemsa; B, D) images from a cerebral malaria autopsy showing trophozoites and schizonts. (E–H) Ocular fundus photography and fluorescein angiography from children with cerebral malaria showing hemorrhages, retinal whitening, and vascular occlusion/nonperfusion. (From Milner DA Jr et al., *J Infect Dis* 2012; and Beare NAV et al., *J Infect Dis* 2009.)](images-fuo/fig280-4.png){#fig-sequestration fig-alt="Cerebral malaria sequestration histology and retinal angiography"}
+![Sequestration of parasitized erythrocytes in the microvasculature of the brain and the ocular fundus. (A–D) Representative histologic (H&E; A, C) and cytologic (Giemsa; B, D) images from a cerebral malaria autopsy showing trophozoites and schizonts. (E–H) Ocular fundus photography and fluorescein angiography from children with cerebral malaria showing hemorrhages, retinal whitening, and vascular occlusion/nonperfusion. (From Milner DA Jr et al., *J Infect Dis* 2012; and Beare NAV et al., *J Infect Dis* 2009.)](images-malaria/fig280-4_cerebral_malaria.png){#fig-sequestration fig-alt="Cerebral malaria sequestration histology and retinal angiography"}
 
 ## *Plasmodium vivax* Pathophysiology
 
@@ -301,7 +301,7 @@ Expert microscopic examination of Giemsa-stained **thick and thin blood smears**
 -   **Thick smear**: concentrates red cell layers \~40-fold; \~6 μL blood examined; parasites visible outside lysed red cells; used for screening. Parasitemia estimated by counting parasites until 200 WBCs are counted, then multiplied by 40 to give parasites/μL.
 -   **Thin smear**: prepared from \~2–3 μL blood; fixed with methanol; used for **speciation** and morphologic characterization. At least 200 fields should be examined before declaring a slide negative.
 
-![Morphologic features of *Plasmodium* parasites. (A) Transmission EM of *P. knowlesi* merozoite invading an erythrocyte. (B) EM of *P. falciparum* trophozoite with digestive vacuole (DV), hemozoin (H), and cytostomes. (C–D) Scanning EM showing knobs and membrane deformation by *P. falciparum*. (E) EM of adherence between *P. falciparum*-infected RBC (P) and endothelial cell (EC). (F) Light microscopy of rosetting. (From Fujioka H, Aikawa M, 1999; Aikawa M et al., *J Parasitol* 1983.)](images-fuo/fig280-3.png){#fig-morphology fig-alt="Electron and light microscopy images of Plasmodium parasites in erythrocytes"}
+![Morphologic features of *Plasmodium* parasites. (A) Transmission EM of *P. knowlesi* merozoite invading an erythrocyte. (B) EM of *P. falciparum* trophozoite with digestive vacuole (DV), hemozoin (H), and cytostomes. (C–D) Scanning EM showing knobs and membrane deformation by *P. falciparum*. (E) EM of adherence between *P. falciparum*-infected RBC (P) and endothelial cell (EC). (F) Light microscopy of rosetting. (From Fujioka H, Aikawa M, 1999; Aikawa M et al., *J Parasitol* 1983.)](images-malaria/fig280-3_anopheles.png){#fig-morphology fig-alt="Electron and light microscopy images of Plasmodium parasites in erythrocytes"}
 
 | **Feature** | ***P. falciparum*** | ***P. vivax*** | ***P. ovale*** | ***P. malariae*** | ***P. knowlesi*** |
 |----|----|----|----|----|----|
