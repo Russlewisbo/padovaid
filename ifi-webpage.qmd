@@ -1,6 +1,14 @@
 ---
 title: "Invasive Fungal Infections"
-format: pdf
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    number-sections: true
+    theme: cosmo
+    fig-cap-location: bottom
+  pdf: default
 bibliography: fungal-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---

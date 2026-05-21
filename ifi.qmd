@@ -24,6 +24,14 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 [Review on cryptococcosis](cryptococcosis.pdf)
 
-Lecture notes:
+## 📖 Interactive Lecture Notes
+
+You can view the full lecture notes below, [open them in a new window](ifi-webpage.html){target="_blank"} for better readability, or save as PDF.
+
+<button onclick="var printWindow = window.open(&#39;ifi-webpage.html&#39;, &#39;_blank&#39;); printWindow.onload = function(){ printWindow.print(); };" class="btn btn-primary" style="display: inline-block; padding: 8px 16px; background-color: #0d6efd; color: white; text-decoration: none; border: none; border-radius: 6px; font-weight: 500; margin-top: 10px; cursor: pointer;">
+
+📥 Print/Save as PDF
+
+</button>
 
 {{< include _fungal-content.qmd >}}
