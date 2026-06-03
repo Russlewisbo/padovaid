@@ -40,7 +40,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 [HTML slides](https://russlewisbo.github.io/febrileneutropenia/Febrileneutropenia_lecture.html#/febrile-neutropenia)
 
-[PDF of lecture slides](febrileneutropenia.pdf)
+[PDF of lecture slides](febrileneutropenia_lecture.pdf)
 
 ## 2024 NCCN Guidelines
 
