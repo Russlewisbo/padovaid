@@ -6,7 +6,7 @@
 Diarrheapage.qmd
 
 **/*.quarto_ipynb
-.positai
+.posit/assistant
 
 # Root-level HTML files rendered by Quarto (output goes to docs/)
 /*.html
