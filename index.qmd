@@ -33,3 +33,12 @@ Instructions for accessing UptoDate are found [here](uptodate.pdf). Treviso stud
 | [Invasive Fungal Infections](ifi.qmd) | Candidiasis, aspergillosis, cryptococcosis, and antifungal therapy |
 
 ------------------------------------------------------------------------
+
+## Study Guides
+
+| Guide | Description |
+|------------------------------------|------------------------------------|
+| [Study Guide (English)](study-guide.qmd) | Key concepts from all lectures — [📄 PDF](study-guide.pdf){target="_blank"} |
+| [Guida allo Studio (Italiano)](guida-studio.qmd) | Principi antibiotici, allergie, ospite immunocompromesso, neutropenia febbrile, infezioni fungine invasive — [📄 PDF](guida-studio.pdf){target="_blank"} |
+
+------------------------------------------------------------------------

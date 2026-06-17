@@ -1,0 +1,580 @@
+---
+title: "Infectious Diseases — Study Guide"
+author: "Prof. Russell E. Lewis"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    number-sections: true
+    theme: cosmo
+    embed-resources: true
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    documentclass: article
+    papersize: a4
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    fontsize: 11pt
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+editor: visual
+---
+
+```{=html}
+<style>
+  .key-point {
+    border-left: 4px solid #2780e3;
+    padding-left: 1em;
+    margin: 1em 0;
+  }
+  h2 { margin-top: 2em; }
+</style>
+```
+
+[📄 Download PDF version](study-guide.pdf){.btn .btn-primary target="_blank"}
+
+# How to Use This Guide
+
+This study guide distills the key concepts from the lecture presentations and chapter webpages for each topic covered in MEP 2491 Infectious Diseases. It is organized by topic in the order listed on the course homepage. Use it alongside the full lecture slides and chapter materials for deeper review.
+
+------------------------------------------------------------------------
+
+# Principles of Antibiotic Therapy
+
+## Core Concepts
+
+- **Mechanisms of action**: Antibiotics target essential bacterial processes — cell wall synthesis (β-lactams, glycopeptides), protein synthesis (aminoglycosides, macrolides, tetracyclines), nucleic acid synthesis (fluoroquinolones, rifampin), and folate metabolism (trimethoprim-sulfamethoxazole).
+- **Pharmacokinetic principles:** Volume of distribution (Vd) and (CL) are the key pharmacokinetic factors that impact antibiotic selection and dosing. Vd provides information on whether the drug concentrations will be higher in the bloodstream vs. tissue or vice versa, which can be an important consideration for the type of site of infection. Vd is also the key component that determines initial loading doses. Clearance is used to calculate maintenance dosing. Patients, especially critically-ill patients, can exhibit marked changes in the Vd and clearance that impacts antibiotic selection and dosing, which may require individualized dosing approaches.
+- **PK/PD principles**: Antibiotic efficacy depends on the relationship between drug concentrations and the minimum inhibitory concentration (MIC) of the pathogen:
+  - *Time-dependent killing* (β-lactams): efficacy depends on the duration that the free drug concentration exceeds the MIC (fT\>MIC)
+  - *Concentration-dependent killing* (aminoglycosides, fluoroquinolones): efficacy depends on the peak-to-MIC ratio (Cmax/MIC) or total exposure (AUC/MIC)
+- **Susceptibility testing**: Methods include disk diffusion, broth microdilution, and automated systems. Breakpoints (EUCAST, CLSI) classify organisms as susceptible (S), intermediate/susceptible-dose dependent (I/SDD), or resistant (R).
+- **Therapeutic drug monitoring (TDM)**: Essential for agents with narrow therapeutic indices (vancomycin, aminoglycosides, voriconazole, posaconazole). TDM optimizes efficacy while minimizing toxicity.
+
+## Key Takeaways
+
+::: callout-tip
+## Study Points
+
+1.  Match the PK/PD parameter to the drug class — this determines optimal dosing strategy (e.g., extended infusion for β-lactams vs. once-daily dosing for aminoglycosides).
+2.  Understand why MIC alone is insufficient — host factors (renal function, protein binding, site of infection) all influence whether a drug reaches effective concentrations.
+3.  Be familiar with the 10 principles of effective antibiotic use.
+:::
+
+------------------------------------------------------------------------
+
+# Antibiotic Allergies
+
+## Core Concepts
+
+- **Immunological classification**: Drug hypersensitivity reactions are classified by the Gell and Coombs system:
+  - *Type I* (IgE-mediated, immediate): urticaria, angioedema, anaphylaxis — onset within minutes to 1 hour
+  - *Type II* (cytotoxic): drug-induced cytopenias
+  - *Type III* (immune complex): serum sickness
+  - *Type IV* (T-cell mediated, delayed): maculopapular rash, SJS/TEN, DRESS — onset hours to weeks
+- **Penicillin allergy**: Reported by \~10% of patients, but \>90% are not truly allergic on formal evaluation. Most reactions are non-IgE mediated or reflect past events that no longer confer risk. Type I reactions wane over time.
+- **Cross-reactivity**: The risk of cross-reactivity between penicillins and cephalosporins is based on shared R1 side-chain structures, not the β-lactam ring itself. Cross-reactivity is highest between aminopenicillins (ampicillin, amoxicillin) and first/second-generation cephalosporins with similar side chains.
+- **De-labeling strategies**: Penicillin skin testing (major and minor determinants) followed by graded oral amoxicillin challenge can safely remove incorrect allergy labels. Direct oral amoxicillin challenge is increasingly used in low-risk patients.
+
+## Key Takeaways
+
+::: callout-tip
+## Study Points
+
+1.  An unverified penicillin allergy label leads to use of broader-spectrum, more expensive, and often less effective antibiotics — de-labeling improves patient care.
+2.  Distinguish immediate (Type I) from delayed reactions — the clinical approach to evaluation differs substantially. PENFAST score screening, amoxicillin-challenges and skin testing may facilitate de-labeling.
+3.  Carbapenems and some other cephalosporins and β-lactams can be used safely in patients with a history penicillin allergy -rash (cross-reactivity \<1%). Cross-reactivity is determined by R1 side-chain which differ between cephalosporin and antibiotic classes
+:::
+
+------------------------------------------------------------------------
+
+# Fever of Unknown Origin (FUO)
+
+## Temperature Regulation and Fever
+
+- **Normal body temperature**: Modern studies place the mean at \~36.8°C (not 37°C as Wunderlich reported). Evidence-based fever thresholds: early morning oral ≥37.2°C; any time ≥37.8°C.
+- **Circadian variation**: Temperature nadirs at 4–6 AM and peaks at 4–6 PM with \~0.5°C amplitude.
+
+### Fever vs. Hyperthermia — A Critical Distinction
+
+| Feature | Fever | Hyperthermia |
+|------------------------|------------------------|------------------------|
+| Set point | Elevated (cytokine-mediated) | Normal |
+| Mechanism | Regulated heat generation | Unregulated heat accumulation |
+| Patient perception | Chills, shivering (feels cold) | Feels hot, seeks cooling |
+| Antipyretics | Effective | Ineffective |
+| External cooling | Counterproductive (triggers shivering) | Essential and appropriate |
+| Examples | Infection, inflammation | Heat stroke, malignant hyperthermia, anticholinergic toxicity |
+
+### The Febrile Cascade
+
+Pathogenic stimuli → macrophage activation → pyrogenic cytokines (IL-1, IL-6, TNF-α) → PGE₂ synthesis in hypothalamus → EP3 receptor activation → set point elevation → fever
+
+### Acute Phase Response
+
+Fever is accompanied by a systemic acute phase response including: leukocytosis, elevated CRP and ESR, iron sequestration (hepcidin-mediated), negative acute phase proteins (↓albumin, ↓transferrin), and sickness behavior (anorexia, fatigue, somnolence).
+
+## FUO: Definitions and Classification
+
+- **Classic FUO** (Petersdorf-Beeson, 1961): Temperature \>38.3°C on several occasions, lasting \>3 weeks, undiagnosed after 1 week of investigation.
+- **Durack-Street classification** (1991) divides FUO into four categories: classic, nosocomial, neutropenic, and HIV-associated — each with distinct differential diagnoses.
+
+## Etiologic Categories
+
+| Category | Proportion (developed countries) | Common Causes |
+|------------------------|------------------------|------------------------|
+| **Infections** | 25–35% (declining) | TB, endocarditis, occult abscess, complicated UTI, osteomyelitis |
+| **Non-infectious inflammatory diseases (NIID)** | 30–40% (increasing) | Giant cell arteritis, Still disease, SLE, sarcoidosis |
+| **Malignancies** | 10–15% | Lymphoma, renal cell carcinoma, hepatocellular carcinoma |
+| **Miscellaneous** | 10–15% | Drug fever, factitious fever, PE, thyroiditis |
+| **Undiagnosed** | 10–25% | Generally favorable prognosis |
+
+## FUO by Population
+
+- **Children**: Respiratory infections, UTIs, Kawasaki disease (age \<5), Still disease. Malignancy and connective tissue diseases are rare.
+- **Elderly** (\>65 years): Connective tissue diseases predominate over infections in developed countries (temporal arteritis, polymyalgia rheumatica). Undiagnosed FUO carries poorer prognosis.
+- **Returned travelers**: Malaria (27–48%), hepatitis A/E, dengue, typhoid fever, amebic liver abscess, acute HIV.
+- **Nosocomial**: Drug fever, surgical complications, C. difficile, septic thrombophlebitis, PE. Postoperative fever in first 48 hours is usually non-infectious.
+- **Neutropenic**: Medical emergency — empiric broad-spectrum antibiotics required immediately. Signs of infection are absent other than fever. Add antifungal therapy if fever persists \>4–7 days.
+
+## Fever Patterns
+
+| Pattern | Description | Associations |
+|------------------------|------------------------|------------------------|
+| Continuous/sustained | Variation \<0.5°C | Pneumonia, rickettsiosis, typhoid, falciparum malaria |
+| Intermittent (quotidian) | Daily spikes, normal AM | Pyogenic infections, endocarditis, malaria |
+| Tertian/Quartan | Every 48h / 72h | *P. vivax/ovale* / *P. malariae* |
+| Saddle-back (biphasic) | Fever → defervescence → recurrence | Dengue, yellow fever, Colorado tick fever |
+| Pel-Ebstein | Weekly fever/afebrile cycles | Hodgkin disease, brucellosis |
+| *Typus inversus* | Reversed diurnal pattern (high AM) | Miliary TB, hepatic abscess |
+
+## Diagnostic Approach
+
+1.  **History**: Travel, animal exposure, occupational, medications, family history, sexual history
+2.  **Repeated physical exams**: Skin, fundi, oropharynx, temporal arteries, lymph nodes, heart, abdomen
+3.  **Laboratory**: CBC, CMP, ESR/CRP, blood cultures (×3), ANA, RF, HIV
+4.  **Imaging**: CT abdomen/pelvis is the most important modality. ¹⁸FDG-PET/CT has sensitivity 86–98% and should be considered early.
+5.  **Invasive procedures**: Bone marrow biopsy (yield \~25%), lymph node biopsy, liver biopsy when indicated
+
+## Management Principles
+
+- **Withhold empiric therapy** until diagnosis is established (exceptions: temporal arteritis with vision threat, febrile neutropenia, suspected miliary TB)
+- **Naproxen test**: Complete defervescence with naproxen may suggest neoplastic fever (not specific)
+- Undiagnosed FUO after extensive evaluation generally has favorable prognosis (5-year mortality \~3%)
+
+------------------------------------------------------------------------
+
+# Intraabdominal Infections
+
+## Part 1: Peritonitis
+
+### Classification
+
+| Type | Definition | Proportion |
+|------------------------|------------------------|------------------------|
+| **Primary (SBP)** | No intraabdominal surgical source; typically in cirrhotic patients with ascites | \~1% |
+| **Secondary** | Identifiable intraabdominal source (perforation, ischemia) | 80–90% |
+| **Tertiary** | Persistent/recurrent infection without surgically treatable focus | Critically ill patients |
+
+### Spontaneous Bacterial Peritonitis (SBP)
+
+- **Risk factors**: Cirrhosis with ascites, ascitic protein \<1.5 g/dL, prior SBP, GI hemorrhage, elevated bilirubin, PPI use
+- **Microbiology**: Monomicrobial in \>95%; gram-negative enterics in 69% (*E. coli* most common)
+- **Diagnosis**: Ascitic fluid PMN ≥250 cells/mm³ (inoculate blood culture bottles at bedside to improve yield)
+- **Treatment**: Empiric ceftriaxone or cefotaxime; 5–7 days
+- **Albumin**: 1.5 g/kg within 6 hours + 1 g/kg on day 3 reduces mortality (16% vs 35%) and AKI (8% vs 31%)
+- **Prophylaxis**: Ceftriaxone during GI bleeding; long-term ciprofloxacin or TMP-SMX after first episode
+
+### Secondary Peritonitis
+
+- **Microbiology**: Polymicrobial — aerobic gram-negatives (*E. coli*) + obligate anaerobes (*B. fragilis*). *E. coli* drives early mortality; *B. fragilis* drives late abscess formation.
+- **Key principle**: Must cover both aerobes and anaerobes based on animal models
+- **Source control**: Essential — drainage, repair of perforation, resection of necrotic tissue. Antibiotics alone are insufficient.
+
+### Antimicrobial Regimens
+
+| Setting | Regimen |
+|------------------------------------|------------------------------------|
+| **Low-risk community-acquired** | Ceftriaxone + metronidazole OR ertapenem OR moxifloxacin |
+| **High-risk / healthcare-associated** | Piperacillin-tazobactam OR carbapenem (imipenem/meropenem) OR cefepime + metronidazole |
+| **ESBL-producing organisms** | Carbapenem preferred; ceftazidime-avibactam + metronidazole as alternative |
+
+### Special Pathogen Considerations
+
+- **Enterococci**: Coverage indicated in healthcare-associated infections, post-cephalosporin exposure, immunocompromised, prosthetic valves, septic shock
+- **Candida**: Antifungal therapy for positive blood culture, sole organism in residual infection, or predominant organism on Gram stain. Echinocandins are first-line.
+- **CAPD peritonitis**: Gram-positive organisms in 60–80%; IP antibiotics preferred; immediate catheter removal mandatory for fungal peritonitis
+
+## Part 2: Appendicitis and Hepatobiliary Infections
+
+### Appendicitis
+
+- **Epidemiology**: Lifetime risk 8.6% (men), 6.7% (women); peak age 15–25 years
+- **Pathogenesis**: Classic model (luminal obstruction → ischemia → perforation) is being challenged; dysbiosis may play a role
+- **Clinical features**: Periumbilical pain migrating to RLQ (McBurney point); Rovsing sign, psoas sign, obturator sign
+- **Diagnosis**: CT sensitivity/specificity \>95%; ultrasound preferred in children and pregnant women
+- **Treatment**: Laparoscopic appendectomy is standard. Antibiotic-first strategy avoids surgery in \~60–70% of uncomplicated cases.
+
+### Liver Abscess
+
+| Feature | Amebic | Pyogenic |
+|------------------------|------------------------|------------------------|
+| **Peak age** | 30–40 years | 50–60 years |
+| **Etiology** | *E. histolytica* | Biliary disease, polymicrobial |
+| **Presentation** | Fever, RUQ pain; travel history | Fever, malaise; often insidious |
+| **Aspirate** | "Anchovy paste" (non-purulent) | Purulent |
+| **Diagnosis** | Serology + imaging | Culture + imaging |
+| **Treatment** | Metronidazole + luminal agent; drainage usually not needed | Drainage + antibiotics (4–6 weeks) |
+
+- **Hypervirulent *K. pneumoniae***: Emerging cause of community-acquired pyogenic liver abscess, particularly in diabetic patients in Asia; K1/K2 capsular serotypes; "string test" positive. Convergent MDR strains are a growing concern.
+
+### Cholecystitis vs. Cholangitis
+
+| Feature | Cholecystitis | Cholangitis |
+|------------------------|------------------------|------------------------|
+| **Structure** | Gallbladder | Bile ducts |
+| **Clinical** | Fever, RUQ pain, Murphy sign | **Charcot triad** (fever, jaundice, RUQ pain); Reynolds pentad adds shock and AMS |
+| **Urgency** | Urgent | **Medical emergency** — biliary decompression within 24–48h |
+| **Source control** | Cholecystectomy | ERCP or percutaneous transhepatic drainage |
+| **Mortality** | \<1% (calculous) | 5–10% treated; up to 90% without decompression |
+
+------------------------------------------------------------------------
+
+# Immunosuppression and Infection Risk
+
+## The Net State of Immunosuppression
+
+The "net state of immunosuppression" (Rubin) is a composite of: underlying disease, treatment intensity, comorbidities (diabetes, malnutrition, organ dysfunction), concomitant infections (CMV, EBV, HIV), mucosal integrity, and indwelling devices. No single test reliably quantifies immunosuppression in an individual.
+
+## Immune Defects and Associated Pathogens
+
+| Defect | Key Pathogens |
+|------------------------------------|------------------------------------|
+| **Neutropenia** | *S. aureus*, *E. coli*, *P. aeruginosa*, *Klebsiella*, viridans streptococci, *Candida* |
+| **Impaired cellular immunity** | Herpesviruses, CMV, *Listeria*, *Nocardia*, *M. tuberculosis*, *Pneumocystis*, *Aspergillus*, *Cryptococcus*, *Toxoplasma* |
+| **Impaired humoral immunity** | *S. pneumoniae*, *H. influenzae*, norovirus, HBV, *Campylobacter* |
+| **Asplenia** | *S. pneumoniae*, *H. influenzae*, *N. meningitidis*, *Capnocytophaga* |
+| **Damaged integument** | Coagulase-negative staphylococci, *S. aureus*, *Candida*, *P. aeruginosa* |
+
+## Targeted Therapies and Infection Risk
+
+Always pay attention to "mab" and "nib" drugs in patients- They may be associated with unique infection risks.
+
+| Agent | Key Infections |
+|------------------------------------|------------------------------------|
+| Rituximab (anti-CD20) | HBV reactivation, PML |
+| Ibrutinib (BTK inhibitor) | Invasive aspergillosis (especially with concurrent steroids) |
+| Ruxolitinib (JAK-STAT inhibitor) | TB reactivation, HBV reactivation |
+| Idelalisib (PI3K inhibitor) | *Pneumocystis jirovecii* pneumonia |
+
+## Timing of Infections After Transplant
+
+- **First 30 days**: Surgical site infections, catheter-related BSI, donor-derived infections, HSV reactivation
+- **1–6 months**: CMV, *Pneumocystis*, *Aspergillus*, BK virus, community-acquired infections
+- **\>6 months**: Community-acquired infections predominate if stable immunosuppression; late CMV, EBV-associated lymphoproliferative disease
+
+## Prevention Strategies
+
+- **Pre-immunosuppression screening**: TB (IGRA), HBV (HBsAg, anti-HBc, anti-HBs), HCV, HIV, *Strongyloides*, VZV serology, endemic fungi
+- **Prophylaxis cornerstone**: TMP-SMX (covers *Pneumocystis*, *Toxoplasma*, *Nocardia*, and many bacteria)
+- **Antifungal prophylaxis**: Risk-stratified — posaconazole for high-risk (AML induction, allo-HSCT, active GVHD); fluconazole for intermediate risk
+- **CMV prevention**: Universal prophylaxis (letermovir/valganciclovir) vs. preemptive therapy (PCR surveillance)
+- **Vaccination**: Complete vaccination before immunosuppression when possible. Live vaccines contraindicated during immunosuppression. HSCT recipients require full revaccination.
+
+------------------------------------------------------------------------
+
+# Febrile Neutropenia
+
+## Definitions
+
+- **Neutropenia**: ANC \<500 cells/mm³ or expected to decrease to \<500 within 48 hours
+- **Fever**: Single temperature ≥38.5°C or two measurements ≥38.0°C separated by ≥1 hour
+- **Febrile neutropenia is a medical emergency** — any delay in antibiotic administration increases mortality
+
+## Key Principle: Muted Clinical Signs
+
+Fever may be the **only** sign of life-threatening infection. Classic inflammatory signs (fluctuance, exudate, purulent sputum, pyuria) are absent in profoundly neutropenic patients because neutrophils are required to generate these responses.
+
+## Infection Sequence During Neutropenia
+
+| Phase | Timing | Pathogens |
+|------------------------|------------------------|------------------------|
+| **Phase I** | Days 1–10 | CoNS, *Enterobacterales*, viridans streptococci, HSV, ± *Candida* |
+| **Phase II** | Days 10–27 | Phase I pathogens  + MRSA, VRE, resistant gram-negatives, *Stenotrophomonas* |
+| **Phase III** | \>27 days | Phase I & II pathogens + **invasive molds** (*Aspergillus*, *Mucorales*, *Fusarium*) |
+
+## Risk Stratification
+
+- **MASCC score \>21** = low risk (may be eligible for outpatient oral therapy)- usually excludes patients with hematological malignancies
+- **CISNE score ≥3** = high risk in solid tumor patients
+- Highest-risk populations: AML induction, relapsing leukemia, allogeneic HSCT
+
+## Empiric Treatment Strategies
+
+### Escalation (stable patient, low MDR risk)
+
+- **Day 0**: Anti-pseudomonal β-lactam monotherapy (piperacillin-tazobactam, cefepime, or ceftazidime)
+- **Day 2–4**: Add vancomycin if skin/catheter infection suspected; broaden therapy if septic
+- **Day 4–7**: Add antifungal if persistent fever
+
+### De-escalation (unstable patient or MDR colonization)
+
+- **Day 0**: Carbapenem (meropenem) ± aminoglycoside ± vancomycin
+- **Day 2–4**: De-escalate based on culture results
+
+### Key Points
+
+- Extended/continuous infusion of β-lactams improves pharmacodynamic target attainment
+- Stop vancomycin after 48–72 hours if no gram-positive pathogen identified
+- Up to 60% of neutropenic patients with "normal" CXR have positive findings on CT. Sensitivity of CXR reduced in neutropenic patients
+
+## Prophylaxis
+
+- **Antibacterial**: Fluoroquinolone prophylaxis is controversial (reduces febrile episodes but promotes resistance and breakthrough infections with ESBL pathogens; no consistent mortality benefit in recent data- resistance rates already high in some centers)
+- **Antifungal**: Posaconazole for AML/MDS induction (reduces IFD from 8% to 2%; NNT 16)
+- **Anti-PCP**: TMP-SMX for ALL, T-cell suppressing therapies, prolonged corticosteroids
+- **Antiviral**: Acyclovir/valacyclovir for HSV-seropositive patients; entecavir/tenofovir for HBsAg-positive patients
+- **HBV screening**: All patients before chemotherapy — reactivation risk up to 40% with rituximab
+
+------------------------------------------------------------------------
+
+# Infectious Diarrhea
+
+## Fundamental Classification
+
+| Feature | Noninflammatory (secretory) | Inflammatory (invasive) |
+|------------------------|------------------------|------------------------|
+| **Mechanism** | Toxin-mediated secretion | Mucosal invasion, ulceration |
+| **Stool** | Large-volume, watery | Small-volume, bloody, mucoid |
+| **Fever** | Absent or low-grade | Often prominent |
+| **Fecal leukocytes** | Absent | Present |
+| **Representative pathogens** | ETEC, *V. cholerae*, rotavirus, norovirus | *Shigella*, *Salmonella*, *Campylobacter*, EIEC |
+| **Antibiotics** | Usually not needed (rehydration primary) | Often beneficial (except STEC) |
+
+## Viral Pathogens
+
+| Virus | Key Features |
+|------------------------------------|------------------------------------|
+| **Rotavirus** | Most important viral cause in children; villus blunting + NSP4 enterotoxin; vaccines (RotaTeq, Rotarix) dramatically reduce severe disease |
+| **Norovirus** | Leading cause of gastroenteritis in adults; explosive outbreaks (cruise ships, hospitals); self-limiting in 48–72 hours |
+| **Sapovirus** | Second most common viral cause in many studies; similar to norovirus |
+
+## Bacterial Pathogens
+
+| Organism | Key Points |
+|------------------------------------|------------------------------------|
+| **ETEC** | Most common bacterial cause of traveler's diarrhea; LT and ST enterotoxins; watery diarrhea |
+| **STEC (O157:H7)** | Hemorrhagic colitis → hemolytic uremic syndrome (HUS). **Antibiotics are contraindicated** — may increase HUS risk |
+| **Campylobacter** | Leading bacterial cause in developed nations; poultry reservoir; can trigger Guillain-Barré syndrome (\~1/1000) |
+| **Salmonella (non-typhoidal)** | Poultry/eggs; self-limiting but bacteremia possible in vulnerable populations |
+| **Salmonella Typhi** | Enteric fever: step-ladder fever, rose spots, relative bradycardia, hepatosplenomegaly; endemic in South/SE Asia |
+| **Shigella** | Bacillary dysentery; very low infectious dose (10–100 organisms); *S. dysenteriae* produces Shiga toxin |
+| **Vibrio cholerae** | Profuse "rice-water" stools; cholera toxin activates adenylyl cyclase → massive secretion; ORS is life-saving |
+
+## Protozoan Pathogens
+
+- ***Cryptosporidium***: Second most common cause of noninflammatory diarrhea worldwide. Self-limiting in immunocompetent; severe and chronic in advanced HIV (CD4 \<100). Nitazoxanide for treatment; immune reconstitution is essential.
+- ***Giardia lamblia***: Leading parasitic cause of chronic diarrhea. Malabsorption, bloating, weight loss. Treat with tinidazole (\>90% cure) or metronidazole (\~70% cure).
+
+## Traveler's Diarrhea
+
+- Attack rates 5–50% depending on destination; onset typically 5–15 days after arrival
+- ETEC is the most common cause (\~40–50% of bacterial isolates)
+- **Self-treatment**: Azithromycin 500 mg daily × 3 days (preferred); fluoroquinolones as alternative
+- **Prevention**: Food/water precautions; bismuth subsalicylate provides \~50% reduction
+
+## Treatment Principles
+
+1.  **Rehydration is the cornerstone** — WHO low-osmolarity ORS exploits sodium-glucose cotransport
+2.  Antibiotics indicated for bacterial dysentery (*Shigella*), invasive *Salmonella*, traveler's diarrhea; **avoid in STEC**
+3.  Antimotility agents (loperamide): Acceptable in noninflammatory diarrhea; avoid in inflammatory/bloody diarrhea
+4.  Zinc supplementation (children): Reduces duration and severity; WHO-recommended
+
+## Diarrhea in Immunocompromised Patients
+
+- **HIV/AIDS** (CD4 \<200): *Cryptosporidium*, microsporidia, MAC, CMV colitis (CD4 \<50)
+- ***C. difficile***: Twofold higher incidence in cancer patients; sixfold in hematology. First-line: oral vancomycin or fidaxomicin.
+- Immune reconstitution with ART resolves many opportunistic enteric infections
+
+------------------------------------------------------------------------
+
+# Malaria
+
+## Species and Key Differences
+
+| Species | Cycle | Relapse | Severity | Geographic Focus |
+|---------------|---------------|---------------|---------------|---------------|
+| *P. falciparum* | 48h | No | Severe/fatal | Sub-Saharan Africa |
+| *P. vivax* | 48h | Yes (hypnozoites) | Usually mild; can be severe | Asia, Latin America |
+| *P. ovale* | 48h | Yes (hypnozoites) | Mild | West Africa |
+| *P. malariae* | 72h | No (but decades-long persistence) | Mild | Worldwide (uncommon) |
+| *P. knowlesi* | 24h | No | Can be severe (rapid parasitemia) | Southeast Asia (zoonotic) |
+
+## Pathophysiology of *P. falciparum*
+
+- **Cytoadherence**: Infected RBCs display PfEMP-1 on knob-like protrusions → bind endothelial receptors (CD36, ICAM-1, EPCR, CSA)
+- **Sequestration**: Infected RBCs sequester in microvascular beds (brain, placenta) → microvessel obstruction
+- **Rosetting**: Infected RBCs bind uninfected RBCs → further vascular occlusion
+- PfEMP-1 binding to EPCR → cerebral malaria; binding to CSA → placental malaria
+
+## Host Genetic Protection
+
+Sickle cell trait (HbAS) confers 60–90% protection against severe falciparum malaria. Other protective polymorphisms: HbC, HbE, α-thalassemia, G6PD deficiency, Duffy negativity (relative *P. vivax* resistance), blood group O (reduced rosetting).
+
+## Clinical Presentation
+
+- **Uncomplicated**: Fever (often \>40°C), chills/rigors, headache, myalgia, nausea. Absence of respiratory symptoms is characteristic.
+- **Severe malaria criteria**: Impaired consciousness (GCS \<11), metabolic acidosis, hypoglycemia, severe anemia, renal impairment, pulmonary edema, shock, hyperparasitemia (\>10%)
+
+::: callout-warning
+## Critical Rule for Returned Travelers
+
+**All travelers who visited a malaria-endemic area in the 3 months before fever onset should be considered to have malaria until proven otherwise.** Do not delay treatment while awaiting results if clinical suspicion is high.
+:::
+
+## Diagnosis
+
+| Method | Sensitivity | Key Use |
+|------------------------|------------------------|------------------------|
+| **Thick/thin blood smear** | 50–500 parasites/μL | Gold standard; speciation + quantification |
+| **RDT (HRP-2-based)** | 100–200 parasites/μL for *Pf* | Rapid screening; remains positive 28+ days post-treatment |
+| **PCR** | 0.02–5 parasites/μL | Speciation confirmation, low-density parasitemia, resistance surveillance |
+
+- **Thrombocytopenia + fever + travel** has PPV \>80% for malaria
+- Monitor smears every 12–24 hours; parasitemia should decline ≥75% by 48 hours with effective ACT
+- **HRP-2 deletions** are an emerging threat to RDT diagnosis — a negative RDT never excludes malaria when suspicion is high
+
+## Treatment
+
+### Uncomplicated Malaria
+
+- **First-line worldwide**: Artemisinin-based combination therapy (ACT)
+- **Artemether-lumefantrine (Coartem)**: 6-dose regimen over 3 days; **must take with fatty food** (16-fold increase in lumefantrine bioavailability)
+- **Non-falciparum/CQ-sensitive**: Chloroquine remains effective for *P. vivax* (most areas), *P. ovale*, *P. malariae*
+
+### Severe Malaria
+
+- **IV artesunate** (2.4 mg/kg at 0, 12, 24h, then daily) is the drug of choice
+- Follow with complete oral ACT course once parasitemia ≤1% and patient can tolerate oral medication
+- **Adjunctive**: Treat hypoglycemia, seizures, anemia; restrict fluids (bolus therapy increases mortality per FEAST trial); empiric antibiotics if concomitant bacteremia suspected
+- **Dexamethasone is contraindicated** (increases coma duration)
+
+### Antirelapse Treatment (*P. vivax* and *P. ovale*)
+
+- **G6PD testing is mandatory** before prescribing 8-aminoquinolines
+- Primaquine (0.5 mg/kg/day × 14 days) or tafenoquine (single 300 mg dose)
+- Both contraindicated in pregnancy and G6PD deficiency
+
+## Chemoprophylaxis for Travelers
+
+| Drug | Dosing | Start/Stop | Key Considerations |
+|------------------|------------------|------------------|------------------|
+| **Atovaquone-proguanil** | Daily | 1–2 days before → 7 days after | Shortest post-travel course; well tolerated |
+| **Doxycycline** | Daily | 1–2 days before → 4 weeks after | Cheapest; photosensitivity; contraindicated in pregnancy/children \<8 |
+| **Mefloquine** | Weekly | 1–2 weeks before → 4 weeks after | Neuropsychiatric AEs (FDA black box); avoid in SE Asia |
+| **Tafenoquine** | Weekly (after 3-day loading) | 3 days before → 7 days after | **Quantitative G6PD testing required**; not for \<18 years |
+
+## Vaccines
+
+- **RTS,S/AS01 (Mosquirix)**: First malaria vaccine (WHO-recommended 2021); 39% efficacy against clinical malaria over 4 years in children
+- **R21/Matrix-M**: Second vaccine (WHO-recommended 2023); 77% efficacy at 12 months; lower cost (\$2–4/dose); higher manufacturing capacity
+- Both target *P. falciparum* circumsporozoite protein (CSP) — the first vaccines ever approved against a human parasite
+
+------------------------------------------------------------------------
+
+# Invasive Fungal Infections
+
+## Antifungal Spectrum — Quick Reference
+
+| Agent          | *Candida* | *Aspergillus* | *Cryptococcus* | Mucorales |
+|----------------|-----------|---------------|----------------|-----------|
+| Fluconazole    | ++        | −             | ++             | −         |
+| Voriconazole   | +++       | +++           | \+             | −         |
+| Posaconazole   | +++       | +++           | \+             | ++        |
+| Isavuconazole  | +++       | +++           | \+             | ++        |
+| Echinocandins  | +++       | ++            | −              | −         |
+| Amphotericin B | +++       | ++            | +++            | +++       |
+
+## Invasive Candidiasis
+
+- Most common IFI in hospitalized patients; *C. albicans* still most common (40–60%) but declining; non-*albicans* species increasing
+- **Blood cultures miss \~50% of cases** — adjunctive diagnostics: β-D-glucan, T2Candida panel
+- **Treatment**: Echinocandin first-line for unstable patients or prior azole exposure; fluconazole if stable and no prior azoles. **Remove central venous catheters** when feasible.
+- **All patients with candidemia need dilated funduscopic exam** (endophthalmitis in 10–15%; echinocandins do not penetrate the vitreous)
+- Duration: 14 days after first negative blood culture and symptom resolution
+
+## Cryptococcosis
+
+- \~220,000 cases of cryptococcal meningitis annually; 180,000 deaths/year (predominantly in HIV-infected individuals in sub-Saharan Africa)
+- **Virulence**: Polysaccharide capsule (antiphagocytic), melanin production, intracellular survival in macrophages (Trojan horse mechanism to CNS)
+- **Diagnosis**: Serum/CSF CrAg lateral flow assay (sensitivity/specificity \~99%); India ink (75–85% sensitive); CSF culture is gold standard
+- **Screen HIV patients with CD4 \<100** for serum CrAg
+
+### Treatment (AMBITION Trial Regimen — Preferred)
+
+| Phase | Regimen | Duration |
+|------------------------|------------------------|------------------------|
+| **Induction** | Single-dose liposomal AMB (10 mg/kg) + flucytosine + fluconazole 1200 mg/day | 2 weeks |
+| **Consolidation** | Fluconazole 800 mg/day | 8 weeks |
+| **Maintenance** | Fluconazole 200 mg/day | Until CD4 \>100 for ≥3 months on ART |
+
+- **Elevated ICP management is critical** — daily therapeutic LPs if opening pressure \>25 cm H₂O. Corticosteroids, mannitol, and acetazolamide are NOT effective.
+
+## Invasive Aspergillosis
+
+- **Risk factors**: Prolonged neutropenia (≥3 weeks), allo-HSCT, high-dose corticosteroids, ibrutinib, advanced AIDS
+- **CT evolution**: Macronodule with halo sign (early) → dense consolidation → air-crescent sign (with neutrophil recovery)
+- **Diagnosis**: Serum galactomannan (sensitivity 70–80%), BAL galactomannan (85–90%), BAL culture, histopathology (septate hyphae with acute-angle 45° branching)
+- **Treatment**: Voriconazole or isavuconazole first-line. If breakthrough on azole prophylaxis → liposomal AMB. Minimum 6–12 weeks.
+- **Azole resistance**: Emerging globally (TR34/L98H mutation from agricultural fungicide use); consider resistance testing in refractory cases
+
+## Mucormycosis
+
+- **Risk factors**: Diabetic ketoacidosis (#1), hematologic malignancy with neutropenia, HSCT, iron overload/deferoxamine
+- **Pathogenesis**: Angioinvasion → thrombosis → tissue necrosis; hyperglycemia, acidosis, and free iron facilitate growth
+- **Clinical forms**: Rhinocerebral (most common in DKA), pulmonary (neutropenic patients), cutaneous (trauma)
+- **Diagnosis**: β-D-glucan and galactomannan do **NOT** detect Mucorales (these tests being negative does not exclude the diagnosis). Histopathology: wide, ribbon-like, pauciseptate hyphae with right-angle branching. MRI "black turbinate sign" in rhinocerebral disease; CT reverse halo sign in pulmonary disease.
+- **Treatment**: **Three pillars** — (1) surgical debridement (essential, often multiple operations), (2) reversal of predisposing conditions, (3) high-dose liposomal AMB (5–10 mg/kg/day). Step-down to posaconazole or isavuconazole.
+- Mortality: 40–80% overall; \>90% in disseminated disease
+
+------------------------------------------------------------------------
+
+# Cross-Cutting Themes
+
+## Antimicrobial Resistance
+
+- ESBL-producing *Enterobacterales*: Increasing in both community and healthcare settings; carbapenems preferred for serious infections
+- CRE (carbapenem-resistant Enterobacterales): Ceftazidime-avibactam, meropenem-vaborbactam, or cefiderocol depending on resistance mechanism
+- MRSA and VRE: Major concerns in healthcare-associated infections
+- Azole-resistant *Aspergillus*: Environmental resistance from agricultural fungicide use
+- *Candida auris*: Emerging MDR threat with biofilm formation
+
+## Empiric Therapy Decision Framework
+
+1.  **Identify the likely source** (community vs. healthcare-associated)
+2.  **Assess patient risk** (immunocompromised? colonization history? prior antibiotics?)
+3.  **Know your local epidemiology** (institutional antibiograms, resistance rates)
+4.  **Start empiric therapy promptly** in high-risk patients (febrile neutropenia, sepsis)
+5.  **De-escalate** based on culture results — stewardship protects future patients
+
+## Diagnostic Imaging Across Topics
+
+| Modality | Best Applications |
+|------------------------------------|------------------------------------|
+| **CT** | Intraabdominal abscess, appendicitis, pulmonary aspergillosis, liver abscess |
+| **MRI** | Vasculitis (FUO), CNS aspergillosis, rhinocerebral mucormycosis ("black turbinate") |
+| **PET/CT** | FUO evaluation (sensitivity 86–98%), occult abscess, vasculitis |
+| **Ultrasound** | Cholecystitis, ascites (bedside paracentesis), appendicitis in children/pregnancy |
+| **Blood smear** | Malaria diagnosis and monitoring |
+
+------------------------------------------------------------------------
+
+*This study guide is a summary of course materials and should be used in conjunction with the full lecture slides, chapter webpages, and recommended readings available on the course website.*

@@ -25,6 +25,12 @@ website:
       - diarrhea.qmd
       - malaria.qmd
       - ifi.qmd
+      - section: "Study Guides"
+        contents:
+          - text: "Study Guide (English)"
+            href: study-guide.qmd
+          - text: "Guida allo Studio (Italiano)"
+            href: guida-studio.qmd
     
 bibliography:
   - refs-diarrhea.bib

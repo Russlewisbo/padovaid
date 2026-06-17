@@ -1,0 +1,811 @@
+---
+title: "Malattie Infettive — Guida allo Studio"
+subtitle: "MEP 2491 Malattie Infettive, Università degli Studi di Padova"
+author: "Prof. Russell E. Lewis"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Indice"
+    number-sections: true
+    theme: cosmo
+    embed-resources: true
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    documentclass: article
+    papersize: a4
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    fontsize: 11pt
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+editor: visual
+---
+
+[📄 Scarica la versione PDF](guida-studio.pdf){.btn .btn-primary target="_blank"}
+
+# Come Utilizzare Questa Guida
+
+Questa guida sintetizza i concetti chiave delle lezioni e dei capitoli relativi a cinque argomenti fondamentali del corso MEP 2491 Malattie Infettive. Utilizzatela come complemento alle slide delle lezioni e ai materiali completi disponibili sul sito del corso.
+
+**Argomenti trattati:**
+
+1.  Principi di terapia antibiotica
+2.  Allergie agli antibiotici
+3.  Ospite immunocompromesso e rischio infettivo
+4.  Neutropenia febbrile
+5.  Infezioni fungine invasive
+
+------------------------------------------------------------------------
+
+# Principi di Terapia Antibiotica
+
+## Meccanismi d'Azione
+
+Gli antibiotici agiscono su processi essenziali della cellula batterica:
+
+| Bersaglio | Meccanismo | Classi di Antibiotici |
+|---|---|---|
+| **Parete cellulare** | Inibizione della sintesi del peptidoglicano | β-lattamici (penicilline, cefalosporine, carbapenemi), glicopeptidi (vancomicina, teicoplanina) |
+| **Sintesi proteica** | Inibizione dei ribosomi batterici (30S o 50S) | Aminoglicosidi, macrolidi, tetracicline, linezolid, clindamicina |
+| **Acidi nucleici** | Inibizione della DNA-girasi o della RNA-polimerasi | Fluorochinoloni, rifampicina |
+| **Metabolismo dei folati** | Inibizione della sintesi dell'acido folico | Trimetoprim-sulfametossazolo (TMP-SMX) |
+| **Membrana cellulare** | Destabilizzazione della membrana batterica | Polimixine (colistina), daptomicina |
+
+## Farmacocinetica e Farmacodinamica (PK/PD)
+
+L'efficacia degli antibiotici dipende dalla relazione tra le concentrazioni del farmaco e la concentrazione minima inibente (MIC) del patogeno. Esistono tre parametri PK/PD fondamentali:
+
+### Uccisione tempo-dipendente (β-lattamici)
+
+-   L'efficacia dipende dalla **durata** in cui la concentrazione libera del farmaco supera la MIC (**fT>MIC**)
+-   Strategia ottimale: infusione prolungata o continua
+-   Esempio: meropenem 1-2 g ogni 8 ore in infusione prolungata (3-6 ore)
+
+### Uccisione concentrazione-dipendente (aminoglicosidi)
+
+-   L'efficacia dipende dal **rapporto picco/MIC** (Cmax/MIC)
+-   Strategia ottimale: somministrazione in dose unica giornaliera
+-   Esempio: gentamicina 5-7 mg/kg una volta al giorno
+
+### Uccisione AUC-dipendente (fluorochinoloni, vancomicina)
+
+-   L'efficacia dipende dall'**esposizione totale** (AUC/MIC)
+-   Strategia: ottimizzare la dose giornaliera totale
+
+::: callout-tip
+## Punto Chiave per lo Studio
+
+Abbinate sempre il parametro PK/PD alla classe di antibiotico — questo determina la strategia di dosaggio ottimale. Non è sufficiente conoscere la MIC: fattori dell'ospite (funzionalità renale, legame proteico, sede dell'infezione) influenzano se il farmaco raggiunge concentrazioni efficaci nel sito d'infezione.
+:::
+
+## Test di Sensibilità Antimicrobica
+
+I metodi principali includono:
+
+-   **Diffusione su disco (Kirby-Bauer)**: misura il diametro dell'alone di inibizione
+-   **Microdiluizione in brodo**: determina la MIC esatta
+-   **Sistemi automatizzati**: VITEK, Phoenix — ampiamente usati nei laboratori clinici
+-   **E-test**: striscia a gradiente che fornisce la MIC su piastra
+
+### Breakpoint e Interpretazione
+
+I breakpoint EUCAST (standard europeo) classificano i microrganismi come:
+
+| Categoria | Significato |
+|---|---|
+| **S** (Sensibile) | Elevata probabilità di successo terapeutico con dosaggio standard |
+| **I** (Sensibile con aumentata esposizione) | Successo probabile con dosaggio ottimizzato (dose più alta o infusione prolungata) |
+| **R** (Resistente) | Elevata probabilità di fallimento terapeutico |
+
+::: callout-note
+## Nota Clinica
+
+I breakpoint clinici EUCAST differiscono dai valori di cutoff epidemiologico (ECOFF). L'ECOFF separa la popolazione batterica wild-type da quella con meccanismi di resistenza acquisita, ma non implica necessariamente fallimento clinico.
+:::
+
+## Monitoraggio Terapeutico dei Farmaci (TDM)
+
+Il TDM è essenziale per farmaci con indice terapeutico ristretto:
+
+| Farmaco | Parametro Monitorato | Range Terapeutico |
+|---|---|---|
+| Vancomicina | AUC/MIC (obiettivo AUC 400-600) | Valle: 15-20 μg/mL (approccio tradizionale) |
+| Aminoglicosidi | Picco e valle | Picco: 20-35 μg/mL (amikacina); Valle: <1 μg/mL |
+| Voriconazolo | Concentrazione di valle | 1-5 μg/mL |
+| Posaconazolo | Concentrazione di valle | >1 μg/mL (profilassi); >1,25 μg/mL (trattamento) |
+
+## Punti Chiave da Ricordare
+
+::: callout-important
+## Concetti Fondamentali
+
+1.  La **MIC da sola è insufficiente** per prevedere l'esito — è necessario integrare con i parametri PK/PD e i fattori dell'ospite
+2.  L'**infusione prolungata dei β-lattamici** migliora il raggiungimento degli obiettivi farmacodinamici, particolarmente nei pazienti critici
+3.  Il **TDM è obbligatorio** per vancomicina, aminoglicosidi e azoli antifungini
+4.  La scelta empirica deve basarsi su **epidemiologia locale** (antibiogramma istituzionale) e fattori di rischio del paziente per microrganismi resistenti
+:::
+
+------------------------------------------------------------------------
+
+# Allergie agli Antibiotici
+
+## Classificazione Immunologica (Gell e Coombs)
+
+Le reazioni di ipersensibilità ai farmaci si classificano in quattro tipi:
+
+| Tipo | Meccanismo | Tempo di Insorgenza | Manifestazioni Cliniche |
+|---|---|---|---|
+| **Tipo I** (IgE-mediata, immediata) | Degranulazione dei mastociti mediata da IgE | Minuti — 1 ora | Orticaria, angioedema, broncospasmo, **anafilassi** |
+| **Tipo II** (citotossica) | Anticorpi IgG/IgM diretti contro cellule | Ore — giorni | Citopenie farmaco-indotte (anemia emolitica, trombocitopenia, neutropenia) |
+| **Tipo III** (immunocomplessi) | Deposito di immunocomplessi | 1-3 settimane | Malattia da siero, vasculite, febbre da farmaco |
+| **Tipo IV** (cellulo-mediata, ritardata) | Linfociti T attivati | Ore — settimane | Esantema maculopapulare, **SJS/TEN**, **DRESS**, dermatite da contatto |
+
+## Allergia alla Penicillina
+
+### Epidemiologia
+
+-   Riportata da circa il **10% dei pazienti**, ma oltre il **90%** non risulta veramente allergico alla valutazione formale
+-   La maggior parte delle reazioni non è IgE-mediata o riflette eventi passati che non conferiscono più rischio attuale
+-   L'etichetta errata di "allergico alla penicillina" porta all'uso di antibiotici a spettro più ampio, più costosi e spesso meno efficaci
+
+### Reattività Crociata
+
+::: callout-warning
+## Concetto Chiave
+
+La reattività crociata tra penicilline e cefalosporine dipende dalla **catena laterale R1 condivisa**, NON dall'anello β-lattamico stesso.
+:::
+
+| Combinazione | Rischio di Reattività Crociata |
+|---|---|
+| Aminopenicilline (amoxicillina, ampicillina) ↔ cefalosporine di I/II generazione con catena laterale simile (cefalexina, cefaclor) | **Più elevato** |
+| Penicilline ↔ cefalosporine di III/IV generazione | Basso (1-2%) |
+| Penicilline ↔ carbapenemi | Molto basso (<1%) |
+| Penicilline ↔ aztreonam | Trascurabile (struttura diversa) |
+
+### Strategie di De-labeling (Rimozione dell'Etichetta)
+
+L'obiettivo è identificare i pazienti falsamente etichettati come allergici e rimuovere l'etichetta in sicurezza:
+
+1.  **Anamnesi dettagliata**: Tipo di reazione, tempo di insorgenza, gravità, tempo trascorso dall'evento
+2.  **Stratificazione del rischio**:
+    -   *Basso rischio*: reazioni non gravi, >10 anni fa, sintomi vaghi → challenge diretto con amoxicillina orale
+    -   *Rischio intermedio*: orticaria isolata, <10 anni fa → test cutaneo (prick + intradermo) seguito da challenge orale
+    -   *Alto rischio*: anafilassi documentata, reazione recente → test cutaneo completo (determinanti maggiori e minori) + challenge graduato in ambiente protetto
+3.  **Test cutanei**: Prick test e test intradermico con penicilloil-polilisina (determinante maggiore) e penicillina G (determinante minore)
+4.  **Challenge orale con amoxicillina**: Dose test seguita da dose terapeutica completa sotto osservazione
+
+::: callout-tip
+## Impatto Clinico del De-labeling
+
+La rimozione di un'etichetta errata di allergia alla penicillina:
+
+-   Riduce l'uso di antibiotici a spettro ampio (vancomicina, fluorochinoloni, carbapenemi)
+-   Diminuisce il rischio di infezione da *Clostridioides difficile*
+-   Riduce i costi sanitari
+-   Migliora gli esiti clinici
+:::
+
+## Reazioni Avverse Gravi ai Farmaci
+
+### Sindrome di Stevens-Johnson (SJS) e Necrolisi Epidermica Tossica (TEN)
+
+-   Reazione di tipo IV grave con necrosi epidermica
+-   SJS: <10% della superficie corporea coinvolta; TEN: >30%
+-   Farmaci più frequentemente implicati: sulfonamidi, anticonvulsivanti, FANS, allopurinolo, antibiotici β-lattamici
+-   **Controindicazione assoluta** alla riesposizione al farmaco causale
+
+### DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms)
+
+-   Insorgenza ritardata (2-8 settimane dall'inizio del farmaco)
+-   Eruzione cutanea diffusa + eosinofilia + coinvolgimento d'organo (fegato, reni, polmoni)
+-   Riattivazione di HHV-6 frequentemente associata
+-   Trattamento: sospensione immediata del farmaco + corticosteroidi
+
+------------------------------------------------------------------------
+
+# Ospite Immunocompromesso e Rischio Infettivo
+
+## Stato Netto di Immunosoppressione
+
+Il concetto di **"stato netto di immunosoppressione"** (Rubin) rappresenta un composito di molteplici fattori che contribuiscono al rischio infettivo:
+
+-   **Malattia di base**: malattie autoimmuni, insufficienza d'organo avanzata, neoplasie
+-   **Trattamento immunosoppressivo**: tipo, dose, durata
+-   **Comorbidità**: diabete, malnutrizione, obesità, ipogammaglobulinemia
+-   **Infezioni concomitanti**: CMV, EBV, HIV (causano immunosoppressione secondaria)
+-   **Integrità delle barriere**: mucosite, dispositivi intravascolari
+-   **Età**: gli anziani hanno risposte immunitarie ridotte
+
+::: callout-note
+## Concetto Clinico
+
+Non esiste un singolo test diagnostico che quantifichi in modo affidabile il grado di immunosoppressione di un individuo. La valutazione clinica deve integrare tutti i fattori sopra elencati.
+:::
+
+## Prevalenza dell'Immunocompromissione
+
+-   Si stima che il **6% della popolazione** negli Stati Uniti e il **4-6%** nelle popolazioni dell'Europa occidentale sia immunocompromesso
+-   Il **2,8% della popolazione** soddisfa i criteri per immunosoppressione farmaco-indotta
+-   Le condizioni che definiscono un'immunocompromissione moderata-grave includono:
+    -   Trattamento attivo per neoplasie solide o ematologiche
+    -   Terapia immunosoppressiva per trapianto d'organo solido
+    -   Trapianto di cellule staminali ematopoietiche (HSCT) o terapia con cellule CAR-T
+    -   Immunodeficienza primitiva moderata-grave
+    -   HIV avanzato o non trattato
+    -   Corticosteroidi ad alte dosi (≥20 mg/die di prednisone equivalente)
+
+## Componenti della Difesa Immunitaria
+
+### Immunità Innata
+
+| Cellule | Funzione Principale | Patogeni Bersaglio |
+|---|---|---|
+| **Neutrofili** (PMN) | Fagocitosi, killing intracellulare, NET | Batteri, funghi |
+| **Monociti/Macrofagi** | Fagocitosi, presentazione dell'antigene, citochine | Patogeni intracellulari |
+| **Cellule NK** | Citotossicità naturale | Cellule infettate da virus, cellule tumorali |
+| **Piastrine** | Ruolo emergente nella difesa antimicrobica | Batteri, funghi (lieviti e muffe) |
+
+### Immunità Adattativa
+
+-   **Immunità cellulare (linfociti T)**: Fondamentale per il controllo dei patogeni intracellulari (micobatteri, virus, funghi, *Pneumocystis*, *Toxoplasma*). La formazione del granuloma dipende dai linfociti T CD4+ e dall'interferone-γ.
+-   **Immunità umorale (linfociti B e anticorpi)**: Essenziale per l'opsonizzazione e l'eliminazione dei batteri capsulati (*S. pneumoniae*, *H. influenzae*, *N. meningitidis*)
+-   **Complemento**: Via di attivazione classica e alternativa; importante per l'opsonizzazione e la lisi batterica
+-   **Milza**: Filtro per batteri capsulati; la splenectomia aumenta il rischio di infezioni fulminanti
+
+## Difetti Immunitari e Patogeni Associati
+
+| Difetto | Patogeni Principali |
+|---|---|
+| **Neutropenia** | *S. aureus*, *E. coli*, *P. aeruginosa*, *Klebsiella*, streptococchi viridanti, *Candida* spp. |
+| **Deficit dell'immunità cellulare** | Herpesvirus, CMV, *Listeria*, *Nocardia*, *M. tuberculosis*, *Pneumocystis jirovecii*, *Aspergillus*, *Cryptococcus*, *Toxoplasma* |
+| **Deficit dell'immunità umorale** | *S. pneumoniae*, *H. influenzae*, norovirus, HBV, *Campylobacter* |
+| **Asplenia** | *S. pneumoniae*, *H. influenzae*, *N. meningitidis*, *Capnocytophaga canimorsus* |
+| **Danno tegumentario** (cute, mucose, cateteri) | Stafilococchi coagulasi-negativi, *S. aureus*, *Candida* spp., *P. aeruginosa* |
+
+## Terapie Mirate e Rischio Infettivo
+
+| Farmaco | Meccanismo | Infezioni Chiave |
+|---|---|---|
+| **Rituximab** (anti-CD20) | Deplezione dei linfociti B | Riattivazione HBV, leucoencefalopatia multifocale progressiva (PML) |
+| **Ibrutinib** (inibitore BTK) | Inibizione del segnale dei linfociti B | **Aspergillosi invasiva** (soprattutto con steroidi concomitanti) |
+| **Ruxolitinib** (inibitore JAK-STAT) | Soppressione delle citochine proinfiammatorie | Riattivazione TBC, riattivazione HBV |
+| **Idelalisib** (inibitore PI3K) | Inibizione del segnale linfocitario | **Polmonite da *Pneumocystis jirovecii*** |
+| **Alemtuzumab** (anti-CD52) | Deplezione profonda di T e B | Infezioni opportunistiche multiple, effetto prolungato |
+
+## Tipi di Trapianto e Onere Immunosoppressivo
+
+| Tipo di HSCT | Immunosoppressione | Rischio Infettivo |
+|---|---|---|
+| **Autologo** | Moderata; recupero in settimane | Inferiore |
+| **Allogenico da donatore correlato HLA-identico** | Grave; profilassi GvHD prolungata | Elevato |
+| **Allogenico da donatore non correlato (MUD)** | Molto grave; rischio GvHD maggiore | Molto elevato |
+| **Aploidentico** | Molto grave; deplezione T-cellulare intensiva | Molto elevato |
+| **Cordone ombelicale** | Molto grave; ricostituzione immune ritardata | Molto elevato |
+
+## Tempistica delle Infezioni Post-Trapianto
+
+| Periodo | Infezioni Principali |
+|---|---|
+| **Primi 30 giorni** | Infezioni del sito chirurgico, batteriemie da catetere, riattivazione HSV, infezioni dal donatore |
+| **1-6 mesi** | CMV, *Pneumocystis*, *Aspergillus*, virus BK, infezioni comunitarie |
+| **>6 mesi** | Infezioni comunitarie predominano; CMV tardivo, malattia linfoproliferativa EBV-associata |
+
+## Strategie di Prevenzione
+
+### Screening Pre-Immunosoppressione
+
+| Patogeno | Test | Azione se Positivo |
+|---|---|---|
+| *M. tuberculosis* | IGRA (QuantiFERON) o Mantoux | Profilassi con isoniazide o rifampicina |
+| Virus dell'epatite B | HBsAg, anti-HBc, anti-HBs | Profilassi antivirale (entecavir o tenofovir) |
+| Virus dell'epatite C | Anti-HCV, HCV RNA | Trattamento prima dell'immunosoppressione |
+| HIV | Test Ag/Ab di IV generazione | Ottimizzazione della terapia antiretrovirale |
+| *Strongyloides stercoralis* | Sierologia (regioni endemiche) | Ivermectina |
+| Virus varicella-zoster | Sierologia IgG | Vaccinazione se sieronegativo ≥4 settimane prima |
+
+### Profilassi Antimicrobica — Schema Riassuntivo
+
+| Difetto | Antibatterica | Antifungina | Antivirale | Altro |
+|---|---|---|---|---|
+| **Neutropenia prolungata (>7 gg)** | Levofloxacina† | Posaconazolo (alto rischio) o fluconazolo | Aciclovir (HSV) | G-CSF se neutropenia prolungata |
+| **Deficit T-cellulare** | TMP-SMX (PCP, *Nocardia*, *Toxoplasma*) | Posaconazolo o voriconazolo | Letermovir o valganciclovir (CMV); aciclovir (HSV/VZV) | Screening LTBI, *Strongyloides*; sorveglianza CMV PCR |
+| **Deficit umorale / B-cellulare** | TMP-SMX; azitromicina per batteri capsulati | Non routinaria | Aciclovir | IVIG se IgG <400 mg/dL con infezioni ricorrenti |
+| **Asplenia** | Penicillina V o amoxicillina (spesso a vita) | Non routinaria | Non routinaria | Vaccini PCV20, MenACWY+MenB, Hib; scorta antibiotica d'emergenza |
+
+†La profilassi con fluorochinoloni è controversa per il rischio di selezione di microrganismi resistenti.
+
+### Profilassi Anti-CMV: Strategia Universale vs. Preemptiva
+
+-   **Profilassi universale**: Somministrazione dell'antivirale per un periodo definito a tutti i pazienti ad alto rischio. Letermovir preferito per HSCT allogenici CMV-sieropositivi; valganciclovir per trapiantati d'organo solido.
+-   **Terapia preemptiva**: Sorveglianza regolare con CMV PCR (ogni 1-2 settimane); trattamento avviato quando la carica virale supera una soglia predefinita. Riduce l'esposizione antivirale totale ma richiede monitoraggio laboratoristico rigoroso.
+
+### Vaccinazione
+
+::: callout-warning
+## Regola Fondamentale
+
+I **vaccini vivi attenuati** (MPR, varicella, febbre gialla) sono **controindicati** durante l'immunosoppressione significativa per il rischio di disseminazione del ceppo vaccinale. Completare la vaccinazione almeno 2-4 settimane prima dell'immunosoppressione quando possibile.
+:::
+
+-   I riceventi di HSCT devono essere **completamente rivaccinati** dopo il trapianto, indipendentemente dalla storia vaccinale precedente
+-   I vaccini vivi possono essere somministrati solo ≥24 mesi post-HSCT, senza immunosoppressione attiva, senza GvHD e con CD4 ≥200 cellule/μL
+
+------------------------------------------------------------------------
+
+# Neutropenia Febbrile
+
+## Definizioni
+
+-   **Neutropenia**: Conta assoluta dei neutrofili (ANC) <500 cellule/mm³ o prevista in diminuzione a <500 nelle successive 48 ore
+    -   ANC = Leucociti totali × (% segmentati + % bande)
+    -   **Neutropenia profonda**: ANC <100 cellule/mm³
+-   **Febbre**: Singola misurazione ≥38,5°C (orale/ascellare) OPPURE due misurazioni ≥38,0°C a distanza di ≥1 ora
+
+::: callout-important
+## Emergenza Medica
+
+La neutropenia febbrile è un'**emergenza medica**. Qualsiasi ritardo nella somministrazione degli antibiotici aumenta la mortalità. La febbre può essere l'**unico segno** di un'infezione potenzialmente letale nel paziente neutropenico.
+:::
+
+## Segni Clinici Attenuati nella Neutropenia
+
+Un concetto fondamentale: i segni classici di infezione sono marcatamente attenuati nella neutropenia profonda perché i neutrofili sono necessari per generare la risposta infiammatoria.
+
+| Segno Clinico | ANC <100 | ANC >1000 |
+|---|---|---|
+| Febbre | 98% | 76% |
+| Fluttuanza (ascessi) | 6% | 52% |
+| Essudato | 11% | 91% |
+| Escreato purulento | 8% | 84% |
+| Piuria | 11% | 97% |
+
+## Fonti e Patogenesi dell'Infezione
+
+### Barriera Mucosa Intestinale
+
+-   La chemioterapia danneggia l'epitelio intestinale (**mucosal barrier injury**)
+-   La traslocazione batterica dal tratto gastrointestinale è la principale fonte di batteriemia
+-   Patogeni che traslocano: *Enterobacterales*, *Enterococcus* spp., streptococchi viridanti, *Candida* spp.
+-   La disbiosi da antibiotici aumenta il rischio di infezione da *Clostridioides difficile*
+
+### Cateteri Venosi Centrali
+
+-   Formazione di biofilm → ingresso di microrganismi nel torrente ematico
+-   Il ruolo dei CVC nella batteriemia potrebbe essere sovrastimato: studi recenti suggeriscono che il 40-50% delle batteriemie nel paziente oncologico sia di origine endogena intestinale
+
+## Sequenza delle Infezioni Durante la Neutropenia
+
+| Fase | Tempistica | Patogeni |
+|---|---|---|
+| **Fase I** | Giorni 1-10 | Stafilococchi coagulasi-negativi, *Enterobacterales*, streptococchi viridanti, HSV, ± *Candida* |
+| **Fase II** | Giorni 10-27 | Fase I + MRSA, VRE, gram-negativi resistenti, *Stenotrophomonas maltophilia* |
+| **Fase III** | >27 giorni | Fase I e II + **muffe invasive** (*Aspergillus*, *Mucorales*, *Fusarium*) |
+
+## Rischio per Tipo di Neoplasia
+
+| Malattia | Livello di Rischio |
+|---|---|
+| Leucemia mieloide acuta (LMA) — induzione | **Più elevato** |
+| LLA ad alto rischio, leucemia in recidiva | Elevato |
+| LLA a basso rischio, LLC, mieloma | Moderato |
+| Linfoma non-Hodgkin | Inferiore |
+| Tumori solidi | Più basso |
+
+## Stratificazione del Rischio
+
+### Punteggio MASCC
+
+Il **Multinational Association for Supportive Care in Cancer (MASCC)** identifica i pazienti a basso rischio:
+
+| Variabile | Punti |
+|---|---|
+| Sintomi lievi o assenti | 5 |
+| Sintomi moderati | 3 |
+| Assenza di ipotensione | 5 |
+| Assenza di BPCO | 4 |
+| Tumore solido / nessuna infezione fungina precedente | 4 |
+| Paziente ambulatoriale | 3 |
+| Assenza di disidratazione | 3 |
+| Età <60 anni | 2 |
+
+**Punteggio >21 = Basso rischio** (potenzialmente trattabile in ambulatorio con terapia orale)
+
+### Punteggio CISNE
+
+Particolarmente utile per pazienti con tumori solidi clinicamente stabili:
+
+| Variabile | Punti |
+|---|---|
+| ECOG PS ≥2 | 2 |
+| Iperglicemia da stress | 2 |
+| BPCO | 1 |
+| Malattia cardiovascolare | 1 |
+| Mucosite grado ≥2 | 1 |
+| Monociti <200/μL | 1 |
+
+**Punteggio ≥3 = Alto rischio**
+
+## Strategia Terapeutica Empirica
+
+### Strategia di Escalation (paziente stabile, basso rischio MDR)
+
+**Giorno 0:**
+
+-   Monoterapia con **β-lattamico anti-Pseudomonas**:
+    -   Piperacillina-tazobactam 4,5 g ogni 6-8 ore (infusione prolungata)
+    -   Cefepime 2 g ogni 8 ore
+    -   Ceftazidime 2 g ogni 8 ore
+
+**Giorno 2-4 (se necessario):**
+
+-   Aggiungere vancomicina se sospetta infezione cutanea/da catetere
+-   Passare a carbapenema anti-Pseudomonas ± aminoglicoside se sepsi
+-   Aggiungere antifungino se febbre persistente
+
+### Strategia di De-escalation (paziente instabile o colonizzazione MDR)
+
+**Giorno 0:**
+
+-   Carbapenema (meropenem 1-2 g ogni 8 ore) ± aminoglicoside
+-   O terapia mirata basata sui dati di colonizzazione
+
+**Giorno 2-4:**
+
+-   De-escalare sulla base dei risultati colturali
+-   Sospendere aminoglicoside se non necessario
+-   Restringere lo spettro se patogeno identificato
+
+::: callout-tip
+## Perla Clinica
+
+L'**infusione prolungata/continua dei β-lattamici** migliora il raggiungimento degli obiettivi farmacodinamici (tempo sopra la MIC) e può migliorare gli esiti clinici nei pazienti neutropenici.
+:::
+
+### Uso dei Glicopeptidi (Copertura MRSA)
+
+**Aggiungere vancomicina o alternativa per:**
+
+-   Sospetta infezione da catetere
+-   Infezione della cute/tessuti molli
+-   Colonizzazione nota da MRSA
+-   Sepsi grave con ipotensione
+-   Polmonite
+-   Precedente infezione da MRSA
+
+**Sospendere dopo 48-72 ore** se nessun patogeno gram-positivo identificato.
+
+### Durata della Terapia
+
+-   **Febbre di origine sconosciuta**: Se afebbrile da 48-72 ore e clinicamente stabile → considerare la sospensione
+-   **Infezione documentata**: Guidata dal patogeno, sede e risposta clinica
+-   **Febbre persistente ≥4 giorni con antibiotici empirici**: Considerare l'aggiunta di terapia antifungina con attività anti-muffe
+
+## Profilassi
+
+### Profilassi Antibatterica
+
+| Vantaggi | Svantaggi |
+|---|---|
+| Riduce gli episodi febbrili | Aumento delle resistenze (selezione di ESBL) |
+| Riduce le batteriemie | Nessun beneficio sulla mortalità (dati recenti) |
+| Somministrazione orale | Interazioni farmacologiche, prolungamento QT |
+
+### Profilassi Antifungina
+
+-   **Quando usare profilassi con attività anti-muffe**: Incidenza attesa di IFD >8%, induzione LMA/SMD, LLA ad alto rischio, leucemia in recidiva
+-   **Posaconazolo** (compresse a rilascio ritardato): 300 mg BID il giorno 1, poi 300 mg/die — riduce l'incidenza di micosi invasive dall'8% al 2% (NNT 16)
+
+::: callout-warning
+## Interazioni Farmacologiche
+
+Posaconazolo è un potente inibitore del CYP3A4. Le interazioni con farmaci antileucemici (venetoclax, midostaurin) e agenti più vecchi (alcaloidi della vinca) possono essere problematiche e richiedere riduzione delle dosi.
+:::
+
+### Profilassi Anti-PCP
+
+-   **Indicazioni**: LLA, terapie con fludarabina/alemtuzumab/idelalisib, corticosteroidi ≥10-20 mg/die per ≥4 settimane, CD4 <200/μL
+-   **Prima scelta**: TMP-SMX 160/800 mg tre volte alla settimana
+-   **Alternative**: Dapsone, atovaquone, pentamidina in aerosol
+
+### Profilassi Antivirale
+
+-   **HSV/VZV**: Aciclovir 800 mg BID o valaciclovir 500 mg BID per pazienti sieropositivi
+-   **HBV**: Screening di **tutti** i pazienti prima della chemioterapia (HBsAg e anti-HBc). Entecavir o tenofovir per HBsAg-positivi. Continuare 6-18 mesi dopo la chemioterapia.
+
+::: callout-important
+## Riattivazione dell'HBV
+
+La riattivazione dell'HBV è frequente nei pazienti oncologici e può verificarsi anche in quelli con infezione risolta (HBsAg negativo, anti-HBc positivo), particolarmente dopo rituximab (fino al 40%). La profilassi antivirale è essenziale.
+:::
+
+------------------------------------------------------------------------
+
+# Infezioni Fungine Invasive
+
+## Panoramica e Impatto Globale
+
+-   Oltre **1 milione di decessi** all'anno da infezioni fungine invasive nel mondo
+-   Le infezioni fungine uccidono più persone della malaria e sono equivalenti ai decessi per tubercolosi
+-   Il carico è probabilmente sottostimato per le difficoltà diagnostiche
+
+### Lista dei Patogeni Fungini Prioritari dell'OMS (2022)
+
+| Priorità Critica | Alta Priorità | Media Priorità |
+|---|---|---|
+| *Cryptococcus neoformans* | *Nakaseomyces glabrata* | *Coccidioides* spp. |
+| *Candida auris* | *Histoplasma* spp. | *Pneumocystis jirovecii* |
+| *Aspergillus fumigatus* | Mucorales | *Cryptococcus gattii* |
+| *Candida albicans* | *Fusarium* spp. | *Talaromyces marneffei* |
+
+## Farmaci Antifungini — Meccanismi d'Azione
+
+| Classe | Bersaglio | Farmaci |
+|---|---|---|
+| **Polieni** | Legame all'ergosterolo → formazione di pori nella membrana | Amfotericina B (deossicolato, liposomiale) |
+| **Azoli** | Inibizione della lanosterolo 14-α-demetilasi (CYP51) → blocco sintesi ergosterolo | Fluconazolo, voriconazolo, posaconazolo, isavuconazolo |
+| **Echinocandine** | Inibizione della β-1,3-glucano sintetasi → danno alla parete cellulare | Caspofungina, micafungina, anidulafungina |
+
+## Spettro di Attività Antifungina
+
+| Farmaco | *Candida* | *Aspergillus* | *Cryptococcus* | Mucorales |
+|---|---|---|---|---|
+| Fluconazolo | ++ | − | ++ | − |
+| Voriconazolo | +++ | +++ | + | − |
+| Posaconazolo | +++ | +++ | + | ++ |
+| Isavuconazolo | +++ | +++ | + | ++ |
+| Echinocandine | +++ | ++ | − | − |
+| Amfotericina B | +++ | ++ | +++ | +++ |
+
+::: callout-tip
+## Perla Clinica — Distribuzione Tissutale
+
+Le **echinocandine** hanno scarsa penetrazione nel SNC, nell'occhio e nelle urine — non devono essere usate come monoterapia per infezioni in queste sedi. Il **fluconazolo** ha la migliore penetrazione nel liquor e nel vitreo tra gli antifungini.
+:::
+
+## Candidiasi Invasiva
+
+### Epidemiologia e Fattori di Rischio
+
+-   Infezione fungina invasiva più comune nel paziente ospedalizzato
+-   *C. albicans* rimane la specie più frequente (40-60%) ma in diminuzione
+-   Le specie non-*albicans* sono in aumento: *C. glabrata* (15-25%), *C. parapsilosis* (10-20%), *C. tropicalis* (5-10%)
+-   *Candida auris*: minaccia emergente multiresistente
+
+**Fattori di rischio principali**: neutropenia, cateteri venosi centrali, nutrizione parenterale totale, antibiotici a largo spettro, degenza in terapia intensiva >3 giorni, chirurgia addominale recente, corticosteroidi
+
+### Diagnosi
+
+::: callout-important
+## Il "50% Mancante"
+
+Le emocolture rilevano solo circa il **50%** dei casi di candidiasi invasiva. Sono necessari metodi diagnostici aggiuntivi.
+:::
+
+| Test | Sensibilità | Specificità | Note |
+|---|---|---|---|
+| Emocolture | ~50% | Alta | Gold standard ma sensibilità limitata |
+| β-D-glucano | 75-80% | 80% | Pan-fungino; falsi positivi con dialisi, garze chirurgiche |
+| T2Candida Panel | 91% | 99% | Diretto dal sangue; risultati rapidi |
+| PCR *Candida* | 85-95% | 90-95% | Non ancora standardizzata |
+
+### Trattamento
+
+**Algoritmo decisionale:**
+
+-   **Paziente instabile o precedente esposizione ad azoli** → **Echinocandina** (caspofungina 70 mg carico, poi 50 mg/die; micafungina 100 mg/die; anidulafungina 200 mg carico, poi 100 mg/die)
+-   **Paziente stabile senza precedente esposizione ad azoli** → **Fluconazolo** 800 mg carico, poi 400 mg/die
+-   Dopo identificazione della specie: adattare la terapia (es. continuare echinocandina per *C. glabrata*/*C. krusei*; considerare fluconazolo per *C. parapsilosis*)
+
+**Interventi essenziali:**
+
+-   **Rimozione del catetere venoso centrale** quando possibile — associata a migliori esiti
+-   **Esame del fondo oculare dilatato** in tutti i pazienti con candidemia (endoftalmite nel 10-15%; le echinocandine non penetrano nel vitreo → necessario fluconazolo o voriconazolo)
+-   **Durata**: 14 giorni dopo la prima emocoltura negativa e la risoluzione dei sintomi
+
+## Criptococcosi
+
+### Epidemiologia
+
+-   ~220.000 casi di meningite criptococcica all'anno; ~180.000 decessi/anno
+-   Causa principale di meningite negli adulti con HIV in Africa
+-   Due specie principali: *C. neoformans* (immunocompromessi, distribuzione mondiale) e *C. gattii* (anche immunocompetenti, Pacifico nordoccidentale, Australia)
+
+### Fattori di Virulenza
+
+1.  **Capsula polisaccaridica**: Antifagocitaria e immunomodulante
+2.  **Produzione di melanina**: Protezione antiossidante
+3.  **Sopravvivenza intracellulare nei macrofagi**: Meccanismo del "cavallo di Troia" per la penetrazione nel SNC
+4.  **Cellule Titan**: Cellule giganti resistenti alla fagocitosi
+
+### Diagnosi
+
+| Test | Sensibilità | Specificità | Note |
+|---|---|---|---|
+| CrAg sierico (lateral flow) | 99% | 99% | Rapido, point-of-care; può essere positivo prima dei sintomi |
+| CrAg nel liquor | 99% | 99% | Conferma il coinvolgimento del SNC |
+| India ink nel liquor | 75-85% | >95% | Visualizza la capsula |
+| Coltura del liquor | 95% | 100% | Gold standard; richiede 3-7 giorni |
+
+::: callout-tip
+## Screening Raccomandato
+
+Lo screening del CrAg sierico è raccomandato in tutti i pazienti HIV-positivi con CD4 <100 cellule/μL per identificare la malattia subclinica.
+:::
+
+### Trattamento (Regime AMBITION — Preferito)
+
+| Fase | Regime | Durata |
+|---|---|---|
+| **Induzione** | Amfotericina B liposomiale 10 mg/kg dose singola + flucitosina 100 mg/kg/die + fluconazolo 1200 mg/die | 2 settimane |
+| **Consolidamento** | Fluconazolo 800 mg/die | 8 settimane |
+| **Mantenimento** | Fluconazolo 200 mg/die | Fino a CD4 >100 per ≥3 mesi in ART |
+
+### Gestione dell'Ipertensione Endocranica
+
+::: callout-warning
+## Intervento Critico
+
+La gestione aggressiva dell'ipertensione endocranica è essenziale per la sopravvivenza. Se la pressione di apertura è >25 cm H₂O, eseguire punture lombari terapeutiche quotidiane per ridurre la pressione del 50% o a <20 cm H₂O.
+
+**I corticosteroidi sono associati a esiti peggiori — NON utilizzare.** Anche acetazolamide e mannitolo sono inefficaci.
+:::
+
+## Aspergillosi Invasiva
+
+### Fattori di Rischio
+
+-   Neutropenia grave e prolungata (≥3 settimane)
+-   HSCT allogenico (soprattutto con GvHD)
+-   Corticosteroidi ad alte dosi (≥0,5 mg/kg/die di prednisone equivalente)
+-   Inibitori BTK (ibrutinib)
+-   AIDS avanzato
+-   **Gruppi emergenti**: BPCO con corticosteroidi, pazienti in terapia intensiva (influenza, COVID-19)
+
+### Progressione Temporale dell'Aspergillosi Angioinvasiva
+
+| Giorno | Patologia | Reperto TC | Biomarcatori |
+|---|---|---|---|
+| 0-3 | Invasione ifale dei tessuti | Macronodulo ± **segno dell'alone** | GM può essere negativo |
+| 5-7 | Emorragia, infarto | Consolidamento denso | GM sierico positivo |
+| 10-12 | Necrosi estesa | Segno ipodenso | Carico fungino elevato |
+| 15-18 | Recupero neutrofili, cavitazione | **Segno della mezzaluna aerea** | Può persistere |
+
+### Diagnosi
+
+-   **TC torace**: Segno dell'alone (opacità a vetro smerigliato attorno a un nodulo denso) è relativamente specifico nelle prime fasi; il segno della mezzaluna aerea è un reperto tardivo
+-   **Galattomannano (GM)**: Sensibilità 70-80% nel siero, 85-90% nel BAL. Falsi positivi possibili con piperacillina-tazobactam (formulazioni più vecchie), mucosite, reattività crociata con *Fusarium*/*Histoplasma*
+-   **Istologia**: Ife settate con ramificazione ad angolo acuto (45°) — colorazioni PAS e GMS
+-   **β-D-glucano**: Pan-fungino, meno specifico; utile in combinazione
+
+### Trattamento
+
+**Se NON in profilassi antifungina con attività anti-muffe:**
+
+-   **Voriconazolo** (carico: 6 mg/kg IV ogni 12h × 2 dosi; mantenimento: 4 mg/kg IV ogni 12h o 200-300 mg PO ogni 12h) — TDM raccomandato (target: 1-5 μg/mL)
+-   **Isavuconazolo** (carico: 200 mg ogni 8h × 6 dosi; mantenimento: 200 mg/die) — meno interazioni farmacologiche
+-   **Posaconazolo** (300 mg ogni 12h × 2 dosi, poi 300 mg/die)
+
+**Se breakthrough durante profilassi con posaconazolo:**
+
+-   **Amfotericina B liposomiale** (3-5 mg/kg/die) inizialmente
+-   Rivalutare: livelli del farmaco, resistenza, diagnosi alternativa
+
+**Durata**: Minimo 6-12 settimane; continuare fino alla risoluzione delle lesioni e al recupero dell'immunosoppressione
+
+### Resistenza agli Azoli
+
+La resistenza ambientale dell'*A. fumigatus* (mutazioni TR34/L98H e TR46/Y121F/T289A) è in aumento globale a causa dell'uso di fungicidi agricoli. La prevalenza varia per regione (1-3% negli USA, fino al 30% in alcune regioni asiatiche). Considerare il test di sensibilità nei casi refrattari.
+
+## Mucormicosi
+
+### Fattori di Rischio
+
+-   **Chetoacidosi diabetica** (fattore di rischio #1)
+-   Neoplasie ematologiche con neutropenia
+-   HSCT
+-   Trapianto d'organo solido
+-   Sovraccarico di ferro / terapia con deferoxamina (la deferoxamina agisce come sideroforo per il fungo)
+-   Trauma, ustioni
+-   COVID-19 (epidemia in India, 2021)
+
+### Presentazione Clinica
+
+| Forma | Popolazione a Rischio | Caratteristiche |
+|---|---|---|
+| **Rinocerebrale** | Pazienti diabetici (DKA) | Sinusite → dolore facciale → edema periorbitale → escara necrotica nera → invasione orbitaria/SNC |
+| **Polmonare** | Pazienti neutropenici | Infiltrati nodulari, **segno dell'alone inverso**, versamento pleurico |
+| **Cutanea** | Trauma, ustioni | Infezione necrotizzante dei tessuti molli |
+
+### Diagnosi
+
+::: callout-important
+## Limitazioni Diagnostiche
+
+Il β-D-glucano e il galattomannano **NON** rilevano i Mucorales. La negatività di questi test **non esclude** la mucormicosi.
+:::
+
+-   **Istologia**: Ife larghe (6-16 μm), a nastro, paucisettate con ramificazione ad **angolo retto** (a differenza dell'angolo acuto dell'Aspergillo)
+-   **RMN**: "Segno del turbinato nero" nella forma rinocerebrale (tessuto devitalizzato nei seni)
+-   **TC**: Segno dell'alone inverso nella forma polmonare (opacità a vetro smerigliato circondata da un anello di consolidamento)
+-   **Coltura**: Crescita rapida ("lid lifter"); conferma l'identificazione della specie
+
+### Trattamento — I Tre Pilastri
+
+1.  **Debridement chirurgico**: Essenziale — spesso necessarie operazioni multiple. Non ritardare la chirurgia in attesa dei risultati colturali.
+2.  **Correzione delle condizioni predisponenti**: Controllo glicemico, riduzione dell'immunosoppressione, sospensione della deferoxamina
+3.  **Terapia antifungina**: **Amfotericina B liposomiale 5-10 mg/kg/die** (dosi più elevate per coinvolgimento SNC). Step-down a posaconazolo o isavuconazolo dopo stabilizzazione.
+
+**Durata**: Prolungata; minimo fino alla risoluzione clinica e radiologica
+
+### Prognosi
+
+-   Mortalità complessiva: **40-80%** a seconda della forma e dell'ospite
+-   Forma rinocerebrale con estensione al SNC: >80% di mortalità
+-   Malattia disseminata: >90% di mortalità
+-   Fattori che migliorano la sopravvivenza: diagnosi precoce, debridement chirurgico, recupero immunitario
+
+------------------------------------------------------------------------
+
+# Tossicità dei Farmaci Antifungini
+
+## Amfotericina B
+
+-   **Nefrotossicità**: Vasocostrizione arteriolare afferente + tossicità tubulare diretta + perdita di elettroliti (K⁺, Mg²⁺). Aumento ≥2× della creatinina nel 26% dei pazienti con formulazione deossicolato vs. 10% con formulazione liposomiale.
+-   **Reazioni infusionali**: Febbre, brividi, ipotensione. Pre-medicazione con paracetamolo e difenidramina.
+
+## Azoli
+
+| Tossicità | Farmaco Maggiormente Associato |
+|---|---|
+| Epatotossicità | Tutti gli azoli (più elevata con voriconazolo) |
+| Prolungamento del QTc | Tutti gli azoli (meno con isavuconazolo) |
+| Disturbi visivi (fotopsia) | Voriconazolo |
+| Fototossicità / rischio di cancro cutaneo | Voriconazolo (uso prolungato) |
+| Effetti neurologici (allucinazioni) | Voriconazolo |
+| Neuropatia periferica | Itraconazolo > voriconazolo |
+| Periostite (dolore osseo da fluorosi) | Voriconazolo |
+
+### Interazioni Farmacologiche degli Azoli
+
+Tutti gli azoli triazolici sono significativi inibitori del CYP450. Riduzioni delle dosi e/o monitoraggio dei livelli sono essenziali con immunosoppressori:
+
+| Azolo | CYP Inibito | Interazioni Chiave |
+|---|---|---|
+| Voriconazolo | 3A4, 2C19, 2C9 | Inibitori della calcineurina (↑↑), **sirolimus (↑↑↑; spesso controindicato)**, warfarin, fenitoina |
+| Posaconazolo | 3A4 | Inibitori della calcineurina (↑↑), sirolimus (↑↑↑), statine |
+| Isavuconazolo | 3A4 (moderato) | Inibitori della calcineurina (↑); meno interazioni rispetto al voriconazolo |
+| Fluconazolo | 3A4, 2C9 | Warfarin (↑↑), inibitori della calcineurina (↑), sulfoniluree |
+
+::: callout-warning
+## Sirolimus e Voriconazolo
+
+Il voriconazolo aumenta drasticamente i livelli di sirolimus (spesso di 10 volte o più). Questa combinazione è generalmente evitata; se inevitabile, ridurre la dose di sirolimus di ~90% e monitorare i livelli attentamente.
+:::
+
+------------------------------------------------------------------------
+
+# Dosaggi di Riferimento Rapido degli Antifungini
+
+| Farmaco | Dose di Carico | Dose di Mantenimento | Note |
+|---|---|---|---|
+| Fluconazolo | 800 mg | 400 mg/die | Aggiustare per funzionalità renale |
+| Voriconazolo | 6 mg/kg IV ogni 12h × 2 | 4 mg/kg IV ogni 12h o 200-300 mg PO ogni 12h | TDM: target 1-5 μg/mL; evitare IV nell'insufficienza renale (ciclodestrina) |
+| Posaconazolo DR | 300 mg ogni 12h × 2 | 300 mg/die | Compresse preferite alla sospensione (migliore biodisponibilità) |
+| Isavuconazolo | 200 mg ogni 8h × 6 dosi | 200 mg/die | Non necessario aggiustamento per insufficienza renale/epatica |
+| Caspofungina | 70 mg | 50 mg/die | Aggiustare per insufficienza epatica |
+| Micafungina | — | 100 mg/die | — |
+| Anidulafungina | 200 mg | 100 mg/die | — |
+| Amfotericina B liposomiale | — | 3-5 mg/kg/die (mucormicosi: 5-10 mg/kg) | Monitorare funzionalità renale ed elettroliti |
+
+------------------------------------------------------------------------
+
+*Questa guida allo studio è un riassunto dei materiali del corso e deve essere utilizzata insieme alle slide delle lezioni, ai capitoli completi e alle letture raccomandate disponibili sul sito del corso.*
